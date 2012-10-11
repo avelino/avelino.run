@@ -1,0 +1,1 @@
+Move the template files to the root directory of Reverie Framework to use.

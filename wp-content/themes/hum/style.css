@@ -1,0 +1,1028 @@
+/*
+Theme Name: Hum
+Theme URI: http://wordpress.org/extend/themes/hum/
+Author: Daryl Koopersmith
+Author URI: http://darylkoop.com/
+Description: A responsive theme designed to show off a stream of posts, quotes, and images. Add a custom logo to stand out from the crowd. Hum builds off of Twenty Eleven, so you get all of the goodness of a WordPress core theme included.
+Version: 0.2.1
+Tags: light, white, gray, one-column, left-sidebar, flexible-width, custom-header, custom-background, threaded-comments, sticky-post, post-formats
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+template: twentyeleven
+*/
+
+@import url('../twentyeleven/style.css');
+
+
+/* =========================================================================
+ *   STANDARDIZE ONE-COLUMN
+ * ========================================================================= */
+
+#page {
+	max-width: 960px;
+}
+#content {
+	margin: 0 7.6%;
+	width: auto;
+}
+#nav-below {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 1.625em;
+}
+#secondary {
+	float: none;
+	margin: 0 7.6%;
+	width: auto;
+}
+/* Simplify the showcase template */
+.page-template-showcase-php section.recent-posts {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+.page-template-showcase-php #main .widget-area {
+	float: none;
+	margin: 0;
+	width: auto;
+}
+.page-template-showcase-php .other-recent-posts {
+	border-bottom: 1px solid #ddd;
+}
+/* Simplify the showcase template when small feature */
+section.featured-post .attachment-small-feature {
+	border: none;
+	display: block;
+	height: auto;
+	max-width: 60%;
+	position: static;
+}
+article.feature-image.small {
+	margin: 0 0 1.625em;
+	padding: 0;
+}
+article.feature-image.small .entry-title {
+	font-size: 20px;
+	line-height: 1.3em;
+}
+article.feature-image.small .entry-summary {
+	height: 150px;
+	overflow: hidden;
+	padding: 0;
+	text-overflow: ellipsis;
+}
+article.feature-image.small .entry-summary a {
+	left: -9%;
+}
+.search-results .entry-summary {
+	padding: 0.6em 7.6% 0;
+	border-style: solid;
+	border-color: #EEE;
+	border-width: 0 0 1px;
+}
+
+/* Remove the margin on singular articles */
+.singular .entry-header,
+.singular .entry-content,
+.singular footer.entry-meta,
+.singular #comments-title {
+	width: auto;
+}
+/* Simplify the pullquotes and pull styles */
+blockquote cite {
+	text-align: right;
+	display: block;
+}
+.singular blockquote.pull {
+	margin: 0 0 1.625em;
+}
+.singular .pull.alignleft {
+	margin: 0 1.625em 0 0;
+}
+.singular .pull.alignright {
+	margin: 0 0 0 1.625em;
+}
+.singular .entry-meta .edit-link a {
+	position: absolute;
+	left: 0;
+	top: 40px;
+}
+.singular #author-info {
+	margin: 2.2em -8.8% 0;
+	padding: 20px 8.8%;
+}
+.commentlist {
+	width: auto;
+	margin-left: 102px;
+}
+#respond {
+	width: auto;
+}
+.commentlist > li.comment, .commentlist .pingback {
+	margin-left: 0;
+}
+
+/* =========================================================================
+ *   GLOBAL
+ * ========================================================================= */
+audio {
+	width: 100%;
+}
+
+/* =========================================================================
+ *   STRUCTURE
+ * ========================================================================= */
+
+#main,
+#colophon {
+	margin-left: 220px;
+}
+#branding {
+	position: fixed;
+	width: 180px;
+	margin-right: 40px;
+}
+
+#secondary {
+	display: none;
+}
+
+/* =========================================================================
+ *   COLOR ANIMATIONS
+ * ========================================================================= */
+
+#site-title a,
+#site-description,
+.entry-meta a,
+#access a,
+.entry-title a {
+	-webkit-transition: font-size 200ms, color 400ms;
+	-moz-transition:    font-size 200ms, color 400ms;
+	-ms-transition:     font-size 200ms, color 400ms;
+	-o-transition:      font-size 200ms, color 400ms;
+	transition:         font-size 200ms, color 400ms;
+}
+
+.entry-header .comments-link a {
+	-webkit-transition: background-color 700ms;
+	-moz-transition:    background-color 700ms;
+	-ms-transition:     background-color 700ms;
+	-o-transition:      background-color 700ms;
+	transition:         background-color 700ms;
+}
+
+#searchform,
+.format-image img {
+	-webkit-transition: opacity 400ms;
+	-moz-transition:    opacity 400ms;
+	-ms-transition:     opacity 400ms;
+	-o-transition:      opacity 400ms;
+	transition:         opacity 400ms;
+}
+
+#page #branding > a {
+	-webkit-transition: opacity 200ms;
+	-moz-transition:    opacity 200ms;
+	-ms-transition:     opacity 200ms;
+	-o-transition:      opacity 200ms;
+	transition:         opacity 200ms;
+}
+
+/* =========================================================================
+ *   HOVERED BRANDING
+ * ========================================================================= */
+
+#branding:hover #site-title a {
+	color: rgba( 0, 0, 0, 0.4 );
+}
+
+#branding:hover #access a {
+	color: #555;
+}
+
+#branding:hover #access .current_page_item > a,
+#branding:hover #access .current_page_ancestor > a {
+	color: #222;
+}
+
+#branding:hover #site-description {
+	color: #7A7A7A;
+}
+
+#branding:hover #searchform {
+	opacity: 1;
+}
+
+/* =========================================================================
+ *   MENU
+ * ========================================================================= */
+
+#access {
+	margin-top: 10px;
+	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#page #branding #access div {
+	margin: 0;
+	padding: 0;
+}
+#access ul {
+	margin: 0;
+}
+
+#access li {
+	float: none;
+}
+
+#access a {
+	display: inline-block;
+	color: #aaa;
+	padding: 0;
+	line-height: 2.6em;
+}
+
+#access li:hover > a,
+#access a:focus {
+	background: transparent;
+}
+
+#page #branding #access a:hover,
+#page #branding #access a:focus,
+#page #branding #access .current_page_item > a:hover,
+#page #branding #access .current_page_item > a:focus,
+#page #branding #access .current_page_ancestor > a:hover,
+#page #branding #access .current_page_ancestor > a:focus {
+	color: #1982d1;
+}
+
+#access ul ul {
+	top: 2.6em;
+	left: 100%;
+	margin-left: -40px;
+	-webkit-box-shadow: 3px 3px 6px rgba( 0, 0, 0, 0.2 );
+	-moz-box-shadow:    3px 3px 6px rgba( 0, 0, 0, 0.2 );
+	box-shadow:         3px 3px 6px rgba( 0, 0, 0, 0.2 );
+}
+
+#access ul ul:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: 1em;
+
+	border-width: 0 6px 6px 6px;
+	border-color: #f9f9f9 transparent;
+	border-style: solid;
+}
+
+#access ul ul :hover > a {
+	background: #f9f9f9;
+}
+
+#access li li {
+	margin: 0;
+	text-align: left;
+}
+
+#access li li:last-child a {
+	border-bottom: 0;
+}
+
+#access ul ul ul {
+	margin-left: 6px;
+}
+#access ul ul ul:after {
+	top: 1em;
+	left: -6px;
+	border-color: transparent #f9f9f9;
+	border-width: 6px 6px 6px 0;
+}
+
+/* =========================================================================
+ *   SEARCH FORM
+ * ========================================================================= */
+
+#page #branding #searchform {
+	position: relative;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	overflow: hidden;
+	margin: 10px 0;
+	opacity: 0.6;
+	max-width: none;
+}
+
+#page #branding #s:focus {
+	width: 140px;
+}
+
+#page #branding #s {
+	width: 72px;
+	background-color: transparent;
+	border-color: rgba( 255, 255, 255, 0.6 );
+	font-size: 13px;
+	font-weight: 500;
+}
+
+/* Two rules to ensure browser recognition */
+#page #branding #s::-webkit-input-placeholder {
+    color: rgba( 0, 0, 0, 0.4 );
+}
+#page #branding #s:-moz-placeholder {
+    color: rgba( 0, 0, 0, 0.4 );
+}
+
+/* =========================================================================
+ *   HEADER
+ * ========================================================================= */
+
+#branding hgroup {
+	margin: 0;
+}
+
+#page #branding > a {
+	/*padding-top: 20px;*/
+	padding-bottom: 20px;
+	display: block;
+}
+#page #branding > a:hover {
+	opacity: 0.8;
+}
+
+#branding img {
+	width: auto;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#site-title {
+	width: auto;
+	margin: 0;
+	padding: 10px 0;
+	float: right;
+}
+
+#site-title a {
+	font-size: 2.4em;
+	line-height: 1em;
+	color: rgba( 0, 0, 0, 0.2 );
+	font-weight: bold;
+	margin-right: -4px;
+	text-align: right;
+}
+
+#page #branding #site-title a:hover,
+#page #branding #site-title a:focus {
+	color: #1982d1;
+}
+
+#site-description {
+	width: auto;
+	margin: 0 0 15px;
+	color: #aaa;
+}
+
+#branding {
+	border: 0;
+	text-align: right;
+	top: 0;
+	bottom: 0;
+	padding-top: 5em;
+}
+
+.admin-bar #branding {
+	top: 28px;
+}
+
+/* =========================================================================
+ *   CONTENT
+ * ========================================================================= */
+
+#page {
+	background: transparent;
+	margin-top: 4em;
+}
+#main {
+	padding: 0;
+}
+#main #content {
+	margin: 0;
+}
+
+#content .hentry {
+	background: white;
+	-webkit-box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
+	-moz-box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
+	box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
+	-webkit-border-radius: 3px;
+}
+
+.entry-header .entry-format {
+	position: relative;
+	line-height: 1.4em;
+}
+
+.entry-header .comments-link a {
+	right: 7.6%;
+	top: 1.8em;
+}
+
+.hentry, .no-results {
+	border: 0;
+}
+
+.entry-title {
+	padding-top: 0;
+}
+
+.entry-meta a {
+	color: #555;
+	text-decoration: none;
+}
+.entry-meta a:hover,
+.entry-meta a:focus {
+	color: #1982d1;
+}
+
+#content .hentry {
+	padding: 0;
+}
+
+.hentry header {
+	padding: 1.625em 7.6% 0;
+}
+
+#content .hentry .entry-content {
+	padding: 0.6em 7.6% 0;
+	border-style: solid;
+	border-color: #eee;
+	border-width: 0 0 1px;
+}
+.page #content .hentry .entry-content {
+	border: 0;
+}
+
+.hentry footer {
+	min-height: 18px;
+	padding: 1.625em 7.6%;
+	background: transparent;
+	overflow: hidden;
+}
+
+.singular .hentry footer {
+	min-height: 0;
+}
+
+
+/* =========================================================================
+ *   POST FORMATS
+ * ========================================================================= */
+
+article.format-aside .entry-content,
+article.format-link .entry-content,
+article.format-status .entry-content {
+	padding: 0;
+}
+
+article.format-aside .entry-content p:last-child,
+article.format-link .entry-content p:last-child,
+article.format-status .entry-content p:last-child {
+	margin-bottom: 1em;
+}
+
+article.format-gallery .entry-content {
+	overflow: hidden;
+}
+
+article.format-gallery .gallery-thumb {
+	margin: .375em 1.5em 1.25em 0;
+	display: block;
+}
+article.format-gallery .gallery-thumb img {
+	padding: 6px;
+	border: 1px solid #ddd;
+}
+
+/* -------------------------------------------------------------------------
+ *   Status
+ * ------------------------------------------------------------------------- */
+article.format-status .entry-content {
+	overflow: hidden;
+	min-height: 86px;
+}
+.singular article.format-status .entry-content {
+	min-height: 0;
+}
+
+.hentry.format-status .entry-title,
+.hentry.format-aside .entry-title,
+.hentry.format-link .entry-title {
+	display: none;
+}
+
+/* -------------------------------------------------------------------------
+ *   Quote
+ * ------------------------------------------------------------------------- */
+#content .hentry.format-quote {
+	padding: 0;
+}
+
+.format-quote header {
+	padding: 1.625em 7.6% 1.5em;
+}
+
+.format-quote .entry-title {
+	display: none;
+}
+
+.format-quote header hgroup {
+	float: left;
+}
+.format-quote header .entry-format {
+	top: 1px;
+}
+
+.format-quote header .entry-meta {
+	clear: none;
+	margin-left: 15.2%;
+}
+
+#content article.format-quote header .comments-link a {
+	top: 1em;
+}
+
+#content .format-quote .entry-content {
+	padding: 1.75em 7.6% 0;
+	border-width: 1px 0;
+}
+
+.format-quote blockquote {
+	font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Palatino", "URW Palladio L", "Book Antiqua", Georgia, serif;
+	color: #333;
+	font-size: 2.2em;
+	line-height: 1.4em;
+}
+
+.format-quote blockquote p {
+	margin-bottom: 0.75em;
+}
+
+.format-quote cite {
+	display: block;
+	text-align: right;
+	margin: 1em 0 0;
+	color: #999;
+	font-size: 12px;
+	letter-spacing: 0.3em;
+	word-spacing: 0.2em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+/* -------------------------------------------------------------------------
+ *   Image
+ * ------------------------------------------------------------------------- */
+
+/* The first paragraph should contain the image. */
+.full-width,
+#content article.format-image .entry-content > :first-child {
+	margin: 0 -8.96226415%;
+	max-width: 117.924528%;
+	width: 117.924528% !important;
+	padding: 0;
+	overflow: hidden;
+}
+#content article.format-image .entry-content > :first-child img {
+	display: block;
+	width: 100%;
+}
+
+#content .indexed.format-image p {
+	margin-bottom: 1.625em;
+}
+#content .format-image .wp-caption {
+	background: #f1f1f1;
+}
+#content .format-image .wp-caption .wp-caption-text {
+	color: #333;
+}
+
+#content .format-image .entry-content > .wp-caption:first-child .wp-caption-text {
+	padding: 1.5em 1em 1.5em 40px;
+	margin: 0;
+}
+#content .format-image .entry-content > .wp-caption:first-child .wp-caption-text:before {
+	left: 20px;
+	top: 1.1em;
+	color: #ccc;
+}
+
+#content article.format-image .entry-content > :first-child + p {
+	margin-top: 1.625em;
+}
+
+.indexed.format-image footer.entry-meta a:hover {
+	color: #1982d1;
+}
+.indexed.format-image footer.entry-meta .edit-link a:hover {
+	color: #fff;
+}
+
+#content article.sticky header .entry-format,
+#content article.format-image header .entry-format,
+#content article.format-gallery header .entry-format {
+	position: absolute;
+	top: 2.375em;
+}
+
+#content article.format-image footer {
+	padding: 1.625em 7.6%;
+	background: transparent;
+}
+
+.indexed.format-image div.entry-meta + div.entry-meta {
+	text-align: right;
+	width: 64%; /* to prevent odd line breaks when rounding percentages */
+}
+
+#content article.format-image .edit-link {
+	position: absolute;
+	bottom: 1.55em;
+	right: 1.25em;
+}
+
+/* =========================================================================
+ *   SINGULAR
+ * ========================================================================= */
+
+#content nav {
+	padding: 0.6em 7.6%;
+}
+
+#nav-single {
+	top: 0;
+	float: right;
+}
+
+#nav-single .nav-previous {
+	padding-right: 1em;
+}
+
+#nav-single .nav-next {
+	padding-left: 1em;
+	float: left;
+}
+
+.singular .hentry header .entry-meta {
+	margin: 0;
+	padding: 1.2em 0 1.2em 7.6%;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #eee;
+}
+
+.singular .entry-title {
+	padding: 0.6em 0 0;
+	font-size: 26px;
+	line-height: 1.6em;
+}
+
+.singular #content .hentry.format-status .entry-content,
+.singular #content .hentry.format-aside .entry-content,
+.singular #content .hentry.format-link .entry-content {
+	padding-top: 2.5em;
+}
+
+/* -------------------------------------------------------------------------
+ *   Singular Quote Format
+ * ------------------------------------------------------------------------- */
+
+.singular #content .hentry.format-quote .entry-content {
+	padding: 1.75em 7.6% 0;
+}
+.singular #content .format-quote .entry-content {
+	border-width: 0 0 1px;
+}
+
+/* -------------------------------------------------------------------------
+ *   Singular Image Format
+ * ------------------------------------------------------------------------- */
+
+.singular #content article.format-image .entry-title {
+	padding-bottom: 0.6em;
+}
+.singular #content article.format-image img {
+	max-width: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.singular #content article.format-image img:hover {
+	opacity: 0.8;
+}
+
+/* =========================================================================
+ *   COMMENTS
+ * ========================================================================= */
+
+.singular #comments-title {
+	text-align: center;
+}
+
+.commentlist .children li.comment .comment-meta {
+	margin-left: 0;
+}
+
+.commentlist .children .avatar {
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+.commentlist > li.bypostauthor {
+	background: #f6f6f6;
+	border-color: #ddd;
+}
+.commentlist > li.bypostauthor:before {
+	content: url(../twentyeleven/images/comment-arrow.png);
+}
+.commentlist .children > li.bypostauthor {
+	background: #fff;
+	border-color: #ddd;
+}
+
+/* =========================================================================
+ *   FOOTER
+ * ========================================================================= */
+
+#colophon,
+#site-generator {
+	border: 0;
+	background: transparent;
+}
+
+/* Center WordPress.com Stats smiley. */
+#wpstats {
+	padding-left: 220px;
+}
+
+/* =========================================================================
+ *   ARCHIVES
+ * ========================================================================= */
+
+.page-title {
+	margin: 5.6em 0 1.6em;
+}
+
+/* =========================================================================
+ *   SHOWCASE TEMPLATE
+ * ========================================================================= */
+
+#content article.intro {
+	margin: 0;
+	padding: 0.5em 0;
+
+	background: transparent;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}
+
+#content article.intro .entry-header {
+	padding-top: 1.5em;
+}
+
+#content article.intro .entry-content {
+	padding: 0;
+	overflow: hidden;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}
+
+#content article.intro .entry-content p:first-child {
+	font-size: 1.8em;
+	line-height: 1.4em;
+	color: #464646;
+	text-shadow: 0 1px 0 #fff;
+	margin-bottom: 0.8em;
+}
+
+#content article.intro .edit-link a {
+	top: 0.75em;
+	right: 0;
+}
+
+.page-template-showcase-php .featured-posts {
+	margin: 3.2em 0 4em;
+	height: auto;
+	min-height: 0;
+}
+
+.featured-posts .showcase-heading {
+	padding-left: 0;
+}
+
+.featured-posts section.featured-post {
+	position: relative;
+	top: auto;
+	height: auto;
+}
+
+section.feature-image.large img {
+	padding: 6px 0;
+}
+
+#content section.feature-image.large article {
+	background: transparent;
+	left: 1.625em;
+	margin: 1.625em 0 0 0;
+	white-space: nowrap;
+}
+
+section.recent-posts .other-recent-posts {
+	margin: 4em 0 1em;
+	border-color: #ccc;
+	border-style: dotted;
+}
+
+section.recent-posts .other-recent-posts .entry-title {
+	padding: 0.75em 0;
+	border-color: #ccc;
+	border-style: dotted;
+}
+
+section.recent-posts .other-recent-posts .comments-link a,
+section.recent-posts .other-recent-posts .comments-link > span {
+	padding: 0.75em 0 1em;
+}
+
+section.recent-posts .other-recent-posts a[rel="bookmark"]:hover {
+	color: #1982d1;
+}
+
+/* =========================================================================
+ *   RESPONSIVE STRUCTURE
+ * ========================================================================= */
+
+@media (min-width: 1200px) {
+	#site-title a {
+		font-size: 3.6em;
+	}
+}
+
+@media (max-width: 800px) {
+	#main {
+		padding: 2em 0 0;
+	}
+
+	#page,
+	#branding {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	#branding {
+		position: relative;
+		width: auto;
+		margin: 0 7.6%;
+		text-align: center;
+	}
+
+	#site-title {
+		padding-top: 40px;
+		float: none;
+	}
+
+	#site-title a {
+		font-size: 3.6em;
+	}
+
+	#page #branding #searchform {
+		position: absolute;
+		right: 0;
+		margin-bottom: 0.3em;
+	}
+
+	#main,
+	#colophon {
+		margin-left: 0;
+	}
+
+	#page #branding #searchform {
+		position: relative;
+		right: auto;
+		top: 0 !important;
+	}
+
+	#page #branding #s {
+		margin: 0 auto;
+		float: none;
+		display: block;
+	}
+
+	#access ul {
+		margin: 0 7.6%;
+	}
+
+	#access li {
+		display: inline-block;
+		float: none;
+		margin: 0 10px;
+	}
+
+	#access ul ul {
+		left: auto;
+		margin-left: 0;
+	}
+
+
+	/* -------------------------------------------------------------------------
+	 *   Undo hovered branding
+	 * ------------------------------------------------------------------------- */
+	#page #branding #site-title a {
+		color: rgba( 0, 0, 0, 0.75 );
+	}
+
+	#page #branding #access a {
+		color: #555;
+	}
+
+	#page #branding #access .current_page_item > a,
+	#page #branding #access .current_page_ancestor > a {
+		color: #222;
+	}
+
+	#page #branding #site-description {
+		color: #7A7A7A;
+	}
+
+	#page #branding #searchform {
+		opacity: 1;
+	}
+
+}
+
+@media (max-width: 650px) {
+
+	#site-title a {
+		font-size: 2.4em;
+	}
+
+	#page #branding #searchform {
+		position: relative;
+		right: auto;
+		top: 0 !important;
+	}
+
+	#page #branding #s {
+		margin: 0 auto;
+		float: none;
+		display: block;
+	}
+
+	#access li {
+		display: inline;
+		float: none;
+	}
+
+	.format-quote header .entry-meta {
+		margin-left: 22.8%;
+	}
+
+	.commentlist {
+		margin-left: 0;
+	}
+
+	.comment-meta {
+		overflow: hidden;
+		padding-top: 10px;
+	}
+	.commentlist li.comment .fn {
+		display: block;
+	}
+	.commentlist .avatar {
+		float: left;
+		margin-top: -10px;
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+
+	.comment-content {
+		padding-top: 7px;
+	}
+
+}
