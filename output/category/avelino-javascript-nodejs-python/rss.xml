@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/avelino-javascript-nodejs-python/rss.xml" rel="self"></link><id>/</id><updated>2012-04-10T01:13:00+02:00</updated><entry><title>Node.js onde usar?</title><link href="/2012/04/10/node-js-onde-usar" rel="alternate"></link><updated>2012-04-10T01:13:00+02:00</updated><author><name>avelino</name></author><id>tag:,2012-04-10:2012/04/10/node-js-onde-usar</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://avelino.us/wp-content/uploads/2012/04/nodejs-300x168.png" title="nodejs" /&gt;&lt;/p&gt;
+&lt;p&gt;Ultimamente estou estudando bastante Javascript para colocar algumas
+aplicações em Node.js no ar, ate que tive a minha primeira necessidade
+real de usar &lt;a href="http://nodejs.org" title="Node.js project"&gt;Nodejs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Na &lt;a href="http://nodegrid.com"&gt;Nodegrid&lt;/a&gt; tivemos a necessidade fazer grande processamento
+assíncrono, temos um servidor de cache que foi desenvolvimento por
+necessidade de armazenamento e controle do que esta em cache e tempo
+para expirar o mesmo, poderia ser usado memcache mas a &lt;a href="http://nodegrid.com"&gt;Nodegrid&lt;/a&gt; esta
+fazendo um serviço de hosting de memcache, com isso teríamos o problema
+de concorrência de nome dentro do banco chave e valor (Memcache).&lt;/p&gt;
+&lt;p&gt;No case que tenho com a &lt;a href="http://nodegrid.com"&gt;Nodegrid&lt;/a&gt; na solução de cache (Djazz.cache)
+começamos a desenvolver usando 'C', funcionou muito bem, mas com o
+passar do tempo a manutenção do software começou ficar trabalhosa. Eu
+tenho experiencias com software grande em C &lt;a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/kernelconfig.html"&gt;(Kernel BSD)&lt;/a&gt; e mesmo
+assim a manutenção de um software não é nada confortável. Migrei para
+Python com Twisted, mais infelizmente o códigos usando Twisted não fica
+muito agradável ou seja não é Pythônico então olhei para o projeto
+Node.js que tem a característica simples e facil de trabalhar com
+processamento assíncrono.&lt;/p&gt;
+&lt;p&gt;Recomendo olhar o trabalho que os commiters do Node.js estão fazendo,
+tem muitas ideias ótimas e outra que precisa ser melhoradas.&lt;/p&gt;
+&lt;p&gt;Vejo a Node.js como uma solução ótima e simples para trabalhar com
+conexões assíncrono, ainda hoje não vejo o Node.js substituindo uma
+linguagem que já esta a anos rodando em backend como Python, Ruby, Java
+e etc. Ao meu ver o Node.js vai crescer ainda mais o seu uso nas
+necessidades específica (assíncronas), pela simplicidade de
+implementação e fácil manutenção.&lt;/p&gt;
+&lt;p&gt;Link o slide da palestra "&lt;a href="http://www.slideshare.net/avelinoo/nodejs-em-produo-javascript-no-server-side" title="Node.js em produção, javascript no server side"&gt;Node.js em produção&lt;/a&gt;"&lt;/p&gt;</summary><category term="cache"></category><category term="JavaScript"></category><category term="Nodejs"></category></entry></feed>

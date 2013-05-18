@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>pyBotIRC Bot em Python para IRC</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2010/05/23/pybotirc-bot-em-python-para-irc" rel="bookmark"
+           title="Permalink to pyBotIRC Bot em Python para IRC">pyBotIRC Bot em Python para IRC</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2010-05-23T21:56:00">
+                Sun 23 May 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Bot simples usando socket no Python:</p>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">sys</span>
+<span class="n">import</span> <span class="n">socket</span>
+<span class="n">import</span> <span class="n">string</span>
+
+<span class="n">HOST</span><span class="o">=</span><span class="s">&quot;irc.freenode.net&quot;</span>
+<span class="n">PORT</span><span class="o">=</span><span class="mi">6667</span>
+<span class="n">NICK</span><span class="o">=</span><span class="s">&quot;pyAvelino&quot;</span>
+<span class="n">IDENT</span><span class="o">=</span><span class="s">&quot;pyAvelino&quot;</span>
+<span class="n">REALNAME</span><span class="o">=</span><span class="s">&quot;pyBotIRC&quot;</span>
+<span class="n">readbuffer</span><span class="o">=</span><span class="s">&quot;&quot;</span>
+<span class="n">CHANNELINIT</span><span class="o">=</span><span class="s">&quot;#channel&quot;</span>
+
+<span class="n">s</span><span class="o">=</span><span class="n">socket</span><span class="p">.</span><span class="n">socket</span><span class="p">(</span> <span class="p">)</span>
+<span class="n">s</span><span class="p">.</span><span class="n">connect</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">s</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s">&quot;NICK %s</span><span class="se">\r\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">NICK</span><span class="p">)</span>
+<span class="n">s</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s">&quot;USER %s %s bla :%s</span><span class="se">\r\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">IDENT</span><span class="p">,</span> <span class="n">HOST</span><span class="p">,</span> <span class="n">REALNAME</span><span class="p">))</span>
+<span class="n">s</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="err">&#39;</span><span class="n">JOIN</span> <span class="o">%</span><span class="n">s</span><span class="err">\</span><span class="n">r</span><span class="err">\</span><span class="n">n</span><span class="err">&#39;</span> <span class="o">%</span> <span class="n">CHANNELINIT</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="mi">1</span><span class="o">:</span>
+<span class="cp"># readbuffer=readbuffer+s.recv(1024)</span>
+<span class="n">readbuffer</span><span class="o">=</span><span class="n">s</span><span class="p">.</span><span class="n">recv</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span>
+<span class="n">print</span> <span class="n">readbuffer</span>
+<span class="n">temp</span><span class="o">=</span><span class="n">string</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="n">readbuffer</span><span class="p">,</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+<span class="n">readbuffer</span><span class="o">=</span><span class="n">temp</span><span class="p">.</span><span class="n">pop</span><span class="p">(</span> <span class="p">)</span>
+
+<span class="k">for</span> <span class="n">line</span> <span class="n">in</span> <span class="n">temp</span><span class="o">:</span>
+    <span class="n">line</span><span class="o">=</span><span class="n">string</span><span class="p">.</span><span class="n">rstrip</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+    <span class="n">line</span><span class="o">=</span><span class="n">string</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s">&quot;PING&quot;</span><span class="p">)</span><span class="o">:</span>
+        <span class="n">s</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s">&quot;PONG %s</span><span class="se">\r\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">line</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

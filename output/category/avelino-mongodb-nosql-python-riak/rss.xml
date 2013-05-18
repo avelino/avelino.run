@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/avelino-mongodb-nosql-python-riak/rss.xml" rel="self"></link><id>/</id><updated>2012-12-23T10:00:00+01:00</updated><entry><title>Riak, alta performance NoSQL para seu projeto</title><link href="/2012/12/23/riak-alta-performance-nosql-para-seu-projeto" rel="alternate"></link><updated>2012-12-23T10:00:00+01:00</updated><author><name>avelino</name></author><id>tag:,2012-12-23:2012/12/23/riak-alta-performance-nosql-para-seu-projeto</id><summary type="html">&lt;p&gt;[![Riak Banco de dados NoSQL, focado em escalabilidade, disponibilidade
+e performance][]][]Esse ano de 2012 ajudei a comunidade &lt;a href="http://basho.com/products/riak-overview/" title="Riak overview"&gt;Riak&lt;/a&gt; que a
+cada dia esse banco de dados vem me surpreendendo. Estou para escrever
+um blogpost desde fevereiro, mas como vida de programador (pelo menos
+para mim esse ano) é agitada.&lt;/p&gt;
+&lt;p&gt;Resolvi falar sobre a performance nesse primeiro blogpost sobre Riak e
+colocar na mesa um teste (relativamente simples) para compara o tempo de
+inserção, realmente é um teste simples se tratando de NoSQL.&lt;/p&gt;
+&lt;p&gt;Antes de mostrar a comparação acho importante deixar claro as vantagens
+que temos em utilizar Riak:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disponibilidade: sistema de recuperação de dados onde trabalha de
+    forma inteligente para que esteja disponível para ler e escrever
+    operações, mesmo em ambiente com falha, assim garantindo a
+    integridade dos dados;&lt;/li&gt;
+&lt;li&gt;Tolerância a falhas: pode perder o acesso aos nós (Servidores Riak),
+    devido à falha de rede ou partição de hardware e nunca perder de
+    dados;&lt;/li&gt;
+&lt;li&gt;Simplicidade de utilização: facil adição de máquinas em um cluster
+    Riak, sem ocorrer uma carga nos servidores - isso em um pequeno
+    grupo de servidores como uma grande quantidade de servidores Riak;&lt;/li&gt;
+&lt;li&gt;Escalabilidade: Riak distribui automaticamente os dados ao redor do
+    cluster e produz um aumento de desempenho quase linear quando você
+    adicionar dados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Depois de deixar claro os itens acima podemos colocar na messa o Riak e
+o grande &lt;a href="http://www.mongodb.org/" title="MongoDB"&gt;MongoDB&lt;/a&gt;, lembrando que esse blogpost não é para falar qual
+NoSQL é melhor ou para você parar de utilizar um ou outro banco, Riak e
+MongoDB tem algumas características semelhantes, esse foi o motivo de
+colocar em teste os dois.&lt;/p&gt;
+&lt;p&gt;O teste foi simples preciso inserir 1 milhão (1000000) de registro no
+meu banco de dados, qual banco de dados entrega isso mais rápido para
+mim?&lt;/p&gt;
+&lt;p&gt;Código Python usando drive nativo do Riak:&lt;/p&gt;
+&lt;p&gt;[gist id=4363258]&lt;/p&gt;
+&lt;p&gt;Código Python usando drive nativo do MongoDB:&lt;/p&gt;
+&lt;p&gt;[gist id=4363275]&lt;/p&gt;
+&lt;p&gt;Um código simples onde faço um loop que vai de 0 a 1000000 (estou
+fazendo 1000001 inserção), e dentro de cada interação do loop estou
+gerando um registro no banco de dados. Veja abaixo o resultado:&lt;/p&gt;
+&lt;p&gt;[gist id=4363325]&lt;/p&gt;
+&lt;p&gt;Realmente o tempo de execução do Riak é muito mas muito rápido, o que me
+deixou mais surpreso foi o tempo do MongoDB, o MongoDB demorou 9 vezes
+mais comparado com o Riak.&lt;/p&gt;
+&lt;p&gt;Não estou falando que o MongoDB é ruim, ate mesmo que tenho projetos
+grande em produção usando ele e dependendo do projeto/infra recomendo
+usar MongoDB.&lt;/p&gt;
+&lt;p&gt;[Riak Banco de dados NoSQL, focado em escalabilidade, disponibilidade
+  e performance]: http://avelino.us/wp-content/uploads/2012/12/riak-transparent-larger-300x94.png
+    "riak-nosql"
+  [![Riak Banco de dados NoSQL, focado em escalabilidade,
+  disponibilidade e performance][]]: http://avelino.us/wp-content/uploads/2012/12/riak-transparent-larger.png&lt;/p&gt;</summary><category term="benchmark"></category><category term="mongodb"></category><category term="nosql"></category><category term="performance"></category><category term="python"></category><category term="riak"></category></entry></feed>

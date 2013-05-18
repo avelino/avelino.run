@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Thiago Avelino - avelino</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+                
+            
+
+                 
+                            <section id="content" class="body">
+                    <ol id="posts-list" class="hfeed" start="9">
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2010/12/16/problema-com-celery-process-exiting-exitcode-1" rel="bookmark"
+                           title="Permalink to Problema com Celery "process exiting with exitcode 1"">Problema com Celery "process exiting with exitcode 1"</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2010-12-16T22:34:00">
+                Thu 16 December 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->                <p>Hoje estava rodando o Celery em um projeto e me deparei com um problema,
+o "process exiting with exitcode 1" quando dava start no Celery:</p>
+<div class="highlight"><pre><span class="p">[</span><span class="n">root</span><span class="err">@</span><span class="n">xen</span><span class="o">-</span><span class="mo">01</span> <span class="n">gonow</span><span class="p">]</span><span class="err">#</span> <span class="n">python2</span><span class="mf">.7</span> <span class="n">manage</span><span class="p">.</span><span class="n">py</span> <span class="n">celeryd</span> <span class="o">-</span><span class="n">v</span> <span class="mi">2</span> <span class="o">-</span><span class="n">B</span> <span class="o">-</span><span class="n">s</span> <span class="n">celery</span> <span class="o">-</span><span class="n">E</span> <span class="o">-</span><span class="n">l</span> <span class="n">INFO</span>
+<span class="p">[</span><span class="mi">2010</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">16</span> <span class="mi">09</span><span class="o">:</span><span class="mi">18</span><span class="o">:</span><span class="mi">13</span><span class="p">,</span><span class="mi">184</span><span class="o">:</span> <span class="n">WARNING ...</span></pre></div>
+                <a class="readmore" href="/2010/12/16/problema-com-celery-process-exiting-exitcode-1">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2011/10/04/problema-com-hashlib-md5-python-27" rel="bookmark"
+                           title="Permalink to Problema com hashlib + md5 (Python 2.7)">Problema com hashlib + md5 (Python 2.7)</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2011-10-04T22:46:00">
+                Tue 04 October 2011
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino-python.html">Avelino, Python</a>. </p>
+
+</footer><!-- /.post-info -->                <p>Estava com o seguinte problema "Error: No module named _md5",
+primeiramente pensei que fosse problema de de compilação do Python, mas
+olhando o problema proximo achei alguns artigo falando desse problema e
+um deles estava no <a href="http://bugs.python.org/msg109485">bug.python.org</a></p>
+<p>A solução que cheguei foi, criar uma lib chamada "_md5", criei ...</p>
+                <a class="readmore" href="/2011/10/04/problema-com-hashlib-md5-python-27">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2012/08/09/proxy-transparente-com-nginx" rel="bookmark"
+                           title="Permalink to Proxy transparente com Nginx">Proxy transparente com Nginx</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-08-09T13:05:00">
+                Thu 09 August 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino-experiencia-infra-nginx.html">Avelino, Experiência, Infra, Nginx</a>. </p>
+<p>tags: <a href="/tag/nginx.html">nginx</a><a href="/tag/proxy.html">proxy</a><a href="/tag/router.html">router</a><a href="/tag/transparente.html">transparente</a></p>
+</footer><!-- /.post-info -->                <p>Muitas pessoas usam Squid para fazer qual quer tipo de proxy, ate mesmo
+para proxy transparente para usar em servidor web, por exemplo:</p>
+<p>Você tem um site que precisa ter IP aqui no Brasil so que como o custo
+de servidor e link aqui no Brasil é muito caro, você ...</p>
+                <a class="readmore" href="/2012/08/09/proxy-transparente-com-nginx">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2010/05/23/pybotirc-bot-em-python-para-irc" rel="bookmark"
+                           title="Permalink to pyBotIRC Bot em Python para IRC">pyBotIRC Bot em Python para IRC</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2010-05-23T21:56:00">
+                Sun 23 May 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->                <p>Bot simples usando socket no Python:</p>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">sys</span>
+<span class="n">import</span> <span class="n">socket</span>
+<span class="n">import</span> <span class="n">string</span>
+
+<span class="n">HOST</span><span class="o">=</span><span class="s">&quot;irc.freenode.net&quot;</span>
+<span class="n">PORT</span><span class="o">=</span><span class="mi">6667</span>
+<span class="n">NICK</span><span class="o">=</span><span class="s">&quot;pyAvelino&quot;</span>
+<span class="n">IDENT</span><span class="o">=</span><span class="s">&quot;pyAvelino&quot;</span>
+<span class="n">REALNAME</span><span class="o">=</span><span class="s">&quot;pyBotIRC&quot;</span>
+<span class="n">readbuffer</span><span class="o">=</span><span class="s">&quot;&quot;</span>
+<span class="n">CHANNELINIT</span><span class="o">=</span><span class="s">&quot;#channel&quot;</span>
+
+<span class="n">s</span><span class="o">=</span><span class="n">socket</span><span class="p">.</span><span class="n">socket</span><span class="p">(</span> <span class="p">)</span>
+<span class="n">s</span><span class="p">.</span><span class="n">connect</span><span class="p">((</span><span class="n">HOST</span><span class="p">,</span> <span class="n">PORT</span><span class="p">))</span>
+<span class="n">s</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s">&quot;NICK %s</span><span class="se">\r\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">NICK</span><span class="p">)</span>
+<span class="n">s</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s">&quot;USER %s %s bla :%s</span><span class="se">\r\n ...</span></pre></div>
+                <a class="readmore" href="/2010/05/23/pybotirc-bot-em-python-para-irc">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2010/05/25/python-web-ou-django-framework-mvc-design-pattern" rel="bookmark"
+                           title="Permalink to Python Web ou Django (Framework MVC Design Pattern)">Python Web ou Django (Framework MVC Design Pattern)</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2010-05-25T21:55:00">
+                Tue 25 May 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->                <p>Bom hoje temos alguns Framework (MVC) Python na web, vou estar
+comparando o source Python Web com Django, simplesmente ficou mais
+somples.</p>
+<p>Python Web:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#!/usr/bin/python</span>
+
+<span class="kn">import</span> <span class="nn">MySQLdb</span>
+
+<span class="k">print</span> <span class="s">&quot;Content-Type: text ...</span></pre></div></td></tr></table>
+                <a class="readmore" href="/2010/05/25/python-web-ou-django-framework-mvc-design-pattern">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2010/10/10/repositorio-para-linguagem-python-pypi" rel="bookmark"
+                           title="Permalink to Repositório para linguagem Python - PyPI">Repositório para linguagem Python - PyPI</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2010-10-10T22:23:00">
+                Sun 10 October 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->                <p>PyPI (Python Package Index) é um repositório para linguagem Python. Hoje
+temos 11.559 software no repositório.</p>
+<p>Caso você use PyPI e ache um erro basta reporta o BUG para o <a href="http://sourceforge.net/tracker/?group_id=66150&amp;atid=513504">Support
+Requests</a>.</p>
+<p>Você tem uma aplicação e acha que a mesma pode ajudar outras pessoas
+você pode colocar a ...</p>
+                <a class="readmore" href="/2010/10/10/repositorio-para-linguagem-python-pypi">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2012/12/23/riak-alta-performance-nosql-para-seu-projeto" rel="bookmark"
+                           title="Permalink to Riak, alta performance NoSQL para seu projeto">Riak, alta performance NoSQL para seu projeto</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2012-12-23T10:00:00">
+                Sun 23 December 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino-mongodb-nosql-python-riak.html">Avelino, MongoDB, NoSQL, Python, Riak</a>. </p>
+<p>tags: <a href="/tag/benchmark.html">benchmark</a><a href="/tag/mongodb.html">mongodb</a><a href="/tag/nosql.html">nosql</a><a href="/tag/performance.html">performance</a><a href="/tag/python.html">python</a><a href="/tag/riak.html">riak</a></p>
+</footer><!-- /.post-info -->                <p>[![Riak Banco de dados NoSQL, focado em escalabilidade, disponibilidade
+e performance][]][]Esse ano de 2012 ajudei a comunidade <a href="http://basho.com/products/riak-overview/" title="Riak overview">Riak</a> que a
+cada dia esse banco de dados vem me surpreendendo. Estou para escrever
+um blogpost desde fevereiro, mas como vida de programador (pelo menos
+para mim esse ano) é agitada ...</p>
+                <a class="readmore" href="/2012/12/23/riak-alta-performance-nosql-para-seu-projeto">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2010/08/07/sao-paulo-open-source-jam-2-google-open-source-blo" rel="bookmark"
+                           title="Permalink to São Paulo Open Source Jam 2 - Google Open Source Blog">São Paulo Open Source Jam 2 - Google Open Source Blog</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2010-08-07T22:17:00">
+                Sat 07 August 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->                <p><a href="http://google-opensource.blogspot.com/2010/08/sao-paulo-open-source-jam-2.html">São Paulo Open Source Jam 2 - Google Open Source Blog</a></p>
+<div>
+</div>
+
+<div>
+Foi um evento muito bom.
+
+</div>
+                <a class="readmore" href="/2010/08/07/sao-paulo-open-source-jam-2-google-open-source-blo">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2010/07/23/software-proprietaros-em-linguagem-open-source" rel="bookmark"
+                           title="Permalink to Software proprietaros em linguagem Open Source">Software proprietaros em linguagem Open Source</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2010-07-23T22:17:00">
+                Fri 23 July 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->                <p>Não sei bem por onde começar escrever este post, mas vamos lá.</p>
+<p>Hoje achei na internet um software proprietario que usava quando tinha
+empresa de webhost com o source aberto, bom sou programador e logo
+baixei para ver o source.<br />
+Graças a Deus não uso ele ainda, me deu muito ...</p>
+                <a class="readmore" href="/2010/07/23/software-proprietaros-em-linguagem-open-source">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            
+
+                 
+                        <li><article class="hentry">    
+                <header>
+                    <h1><a href="/2010/07/23/tda-fila-com-python" rel="bookmark"
+                           title="Permalink to TDA Fila com Python">TDA Fila com Python</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2010-07-23T22:15:00">
+                Fri 23 July 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->                <p>O foco este post é levar você aprender computação com Python.<br />
+O TDA Fila é definido pelas seguintes operações:</p>
+<p><strong>__init__</strong><br />
+Inicializar uma nova fila vazia.<br />
+<strong>insert</strong><br />
+Adicionar um novo item à fila.<br />
+<strong>remove</strong><br />
+Remover e retornar um item da fila. O item retornado é o que foi
+adicionado primeiro.<br />
+<strong>isEmpty ...</strong></p>
+                <a class="readmore" href="/2010/07/23/tda-fila-com-python">read more</a>
+                                </div><!-- /.entry-content -->
+            </article></li>
+                            </ol><!-- /#posts-list -->
+                            <p class="paginator">
+                        <a href="/author/avelino4.html">&laquo;</a>
+                Page 5 / 7
+            <a href="/author/avelino6.html">&raquo;</a>
+    </p>
+                        </section><!-- /#content -->
+                    <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

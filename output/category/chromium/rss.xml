@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/chromium/rss.xml" rel="self"></link><id>/</id><updated>2010-12-03T10:20:00+01:00</updated><entry><title>Chromium as the default browser</title><link href="/2010/12/03/chromium-as-the-default-browser" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Thiago Avelino</name></author><id>tag:,2010-12-03:2010/12/03/chromium-as-the-default-browser</id><summary type="html">&lt;p&gt;The code of Google Chrome is based on Chromium, all the feature
-implemented in Chromium comes in Google Chrome.&lt;/p&gt;
-&lt;p&gt;What do you think of being one of the first to test new feature of
-Google Chrome? Interesting huh!&lt;/p&gt;
-&lt;p&gt;Chromium does not update automatically, for this reason I wrote a shell
-script which updates the Chromium on Mac:&lt;/p&gt;</summary><category term="chromium"></category><category term="chrome"></category></entry></feed>

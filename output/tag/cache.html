@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Thiago Avelino - cache</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+                
+            
+
+                            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/2012/04/10/node-js-onde-usar">Node.js onde usar?</a></h1> 
+                    <footer class="post-info">
+        <abbr class="published" title="2012-04-10T01:13:00">
+                Tue 10 April 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino-javascript-nodejs-python.html">Avelino, javascript, nodejs, Python</a>. </p>
+<p>tags: <a href="/tag/cache.html">cache</a><a href="/tag/javascript.html">JavaScript</a><a href="/tag/nodejs.html">Nodejs</a></p>
+</footer><!-- /.post-info --><p><img alt="" src="http://avelino.us/wp-content/uploads/2012/04/nodejs-300x168.png" title="nodejs" /></p>
+<p>Ultimamente estou estudando bastante Javascript para colocar algumas
+aplicações em Node.js no ar, ate que tive a minha primeira necessidade
+real de usar <a href="http://nodejs.org" title="Node.js project">Nodejs</a>.</p>
+<p>Na <a href="http://nodegrid.com">Nodegrid</a> tivemos a necessidade fazer grande processamento
+assíncrono, temos um servidor de cache que foi desenvolvimento por
+necessidade de armazenamento e controle do que esta em cache e tempo
+para expirar o mesmo, poderia ser usado memcache mas a <a href="http://nodegrid.com">Nodegrid</a> esta
+fazendo um serviço de hosting de memcache, com isso teríamos o problema
+de concorrência de nome dentro do banco chave e valor (Memcache).</p>
+<p>No case que tenho com a <a href="http://nodegrid.com">Nodegrid</a> na solução de cache (Djazz.cache)
+começamos a desenvolver usando 'C', funcionou muito bem, mas com o
+passar do tempo a manutenção do software começou ficar trabalhosa. Eu
+tenho experiencias com software grande em C <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/kernelconfig.html">(Kernel BSD)</a> e mesmo
+assim a manutenção de um software não é nada confortável. Migrei para
+Python com Twisted, mais infelizmente o códigos usando Twisted não fica
+muito agradável ou seja não é Pythônico então olhei para o projeto
+Node.js que tem a característica simples e facil de trabalhar com
+processamento assíncrono.</p>
+<p>Recomendo olhar o trabalho que os commiters do Node.js estão fazendo,
+tem muitas ideias ótimas e outra que precisa ser melhoradas.</p>
+<p>Vejo a Node.js como uma solução ótima e simples para trabalhar com
+conexões assíncrono, ainda hoje não vejo o Node.js substituindo uma
+linguagem que já esta a anos rodando em backend como Python, Ruby, Java
+e etc. Ao meu ver o Node.js vai crescer ainda mais o seu uso nas
+necessidades específica (assíncronas), pela simplicidade de
+implementação e fácil manutenção.</p>
+<p>Link o slide da palestra "<a href="http://www.slideshare.net/avelinoo/nodejs-em-produo-javascript-no-server-side" title="Node.js em produção, javascript no server side">Node.js em produção</a>"</p>                </article>
+                                    <p class="paginator">
+        Page 1 / 1
+    </p>
+                            </aside><!-- /#featured -->
+                                                </ol><!-- /#posts-list -->
+                        </section><!-- /#content -->
+                    <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

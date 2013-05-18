@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/avelino-python/rss.xml" rel="self"></link><id>/</id><updated>2011-10-04T22:46:00+02:00</updated><entry><title>Problema com hashlib + md5 (Python 2.7)</title><link href="/2011/10/04/problema-com-hashlib-md5-python-27" rel="alternate"></link><updated>2011-10-04T22:46:00+02:00</updated><author><name>avelino</name></author><id>tag:,2011-10-04:2011/10/04/problema-com-hashlib-md5-python-27</id><summary type="html">&lt;p&gt;Estava com o seguinte problema "Error: No module named _md5",
+primeiramente pensei que fosse problema de de compilação do Python, mas
+olhando o problema proximo achei alguns artigo falando desse problema e
+um deles estava no &lt;a href="http://bugs.python.org/msg109485"&gt;bug.python.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A solução que cheguei foi, criar uma lib chamada "_md5", criei um
+arquivo chamado "_md5py":&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;class&lt;/span&gt; &lt;span class="n"&gt;_md5&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;md5&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;md5&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Lendo as documentação vi que a lib "hashlib._md5" foi deprecada pois a
+md5 ficou no lugar. Espero que ajude outras pessoas que esta com esse
+problema.&lt;/p&gt;</summary></entry></feed>

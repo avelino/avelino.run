@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/avelino-experiencia-london-python-vaga/rss.xml" rel="self"></link><id>/</id><updated>2012-11-20T15:05:00+01:00</updated><entry><title>Palestra sobre London Framework na PyCon Argentina</title><link href="/2012/11/20/palestra-sobre-london-framework-na-pycon-argentina" rel="alternate"></link><updated>2012-11-20T15:05:00+01:00</updated><author><name>avelino</name></author><id>tag:,2012-11-20:2012/11/20/palestra-sobre-london-framework-na-pycon-argentina</id><summary type="html">&lt;p&gt;[&lt;br /&gt;
+![Universidad Nacional de Quilmes, local onde foi organizado a PyCon
+Argentina][]][]&lt;/p&gt;
+&lt;p&gt;No começo de junho o Mariano (organizador do evento &lt;a href="http://ar.pycon.org" title="PyCon Argentina 2012"&gt;PyCon Argentina
+2012&lt;/a&gt;, me fez um convite para ir palestra sobre &lt;a href="http://londonframework.org/docs/"&gt;London Framework&lt;/a&gt;
+(Framework criado por &lt;a href="http://www.marinhobrandao.com/"&gt;Marinho Brandão&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Nada melhor do que conhecer pessoas e principalmente culturas novas,
+entender o que os Argentinos estão desenvolvendo e o que anda estudando,
+ou seja, fazer network (como falamos na área de tecnologia). Dava para
+ver no rosto dos argentinos a vontade de aprender e de consumir o maximo
+de informação possível, na PyCon Argentina de 2012 teve uma ótima
+seleção de palestra, onde foi abordado temas como asynchrony (twisted),
+Plone (com Erico Andrei - Brasileiro), web2py  (com Massimo Di Pierro -
+criador do framework), Python 3.3 (com Brett Cannon - Desenvolvedor
+Google) e muito mais.&lt;/p&gt;
+&lt;p&gt;Tive grande privilegio de palestra sobre London Framework, foi
+apresentado o motivo de criar um novo framework (Python) e hoje temos
+funcionando dentro do London. A repercussão foi muito positiva, recebi
+muitos tweets e e-mails de desenvolvedores querendo saber mais sobre
+London Framework, o que mostra grande aceitação e necessidade
+(semelhantes) do framework dentro da comunidade Argentina. Veja abaixo
+os slide da palestra de London Framework:&lt;/p&gt;
+&lt;iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="http://www.slideshare.net/slideshow/embed_code/15231863" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="427" height="356"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;A pedidos da organização, fiz minha palestra em portunhol (tinha
+planejado apresentá-la em inglês, já que não sou fluente em espanhol).
+Pelas conversas de corredor, acredito que o público entendeu bem o meu
+portunhol!&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="Python Software Fundation" src="http://avelino.us/wp-content/uploads/2012/11/2012-11-16-13.49.50-1024x768.jpg" title="Python Software Fundation" /&gt;][]&lt;/p&gt;
+&lt;p&gt;No final do primeiro dia de evento tivemos uma confraternização, onde a
+organização da PyCon Argentina chamou uma pizzaria conhecida de Buenos
+Aires para fazer algumas pizza. A forma dos argentino preparar a pizza é
+bem diferente de nos Brasileiros, não querendo puxar sardinha para os
+Argentinos, é muito gostosa a pizza Argentina.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="Eu fui na PyCon Argentina 2012" src="http://avelino.us/wp-content/uploads/2012/11/2012-11-18-19.18.56-768x1024.jpg" title="Eu fui na PyCon Argentina 2012" /&gt;][]&lt;/p&gt;
+&lt;p&gt;[Universidad Nacional de Quilmes, local onde foi organizado a PyCon
+  Argentina]: http://avelino.us/wp-content/uploads/2012/11/2012-11-16-13.24.48-300x225.jpg
+    "Universidad Nacional de Quilmes"
+  [&lt;br /&gt;
+ ![Universidad Nacional de Quilmes, local onde foi organizado a PyCon
+  Argentina][]]: http://avelino.us/wp-content/uploads/2012/11/2012-11-16-13.24.48.jpg
+  [&lt;img alt="Python Software Fundation" src="http://avelino.us/wp-content/uploads/2012/11/2012-11-16-13.49.50-1024x768.jpg" title="Python Software Fundation" /&gt;]: http://avelino.us/wp-content/uploads/2012/11/2012-11-16-13.49.50.jpg
+  [&lt;img alt="Eu fui na PyCon Argentina 2012" src="http://avelino.us/wp-content/uploads/2012/11/2012-11-18-19.18.56-768x1024.jpg" title="Eu fui na PyCon Argentina 2012" /&gt;]: http://avelino.us/wp-content/uploads/2012/11/2012-11-18-19.18.56.jpg&lt;/p&gt;</summary><category term="argentina"></category><category term="evento"></category><category term="hermanos"></category><category term="london"></category><category term="london framework"></category><category term="pycon"></category><category term="python"></category></entry></feed>

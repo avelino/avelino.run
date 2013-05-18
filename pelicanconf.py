@@ -40,5 +40,24 @@ FILES_TO_COPY = (('static/robots.txt', 'robots.txt'),)
 
 STATIC_PATHS = ["static"]
 
+PLUGIN_PATH = 'plugins'
+PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts',
+           'summary', 'pelican_gist']
+
+GITHUB_ACTIVITY_FEED = 'https://github.com/avelino.atom'
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

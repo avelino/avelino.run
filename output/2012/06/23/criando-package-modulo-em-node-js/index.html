@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Criando package (modulo) em Node.js</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2012/06/23/criando-package-modulo-em-node-js" rel="bookmark"
+           title="Permalink to Criando package (modulo) em Node.js">Criando package (modulo) em Node.js</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2012-06-23T10:15:00">
+                Sat 23 June 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino-javascript-nodejs.html">Avelino, javascript, nodejs</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Existe muitas pessoas querendo estudar Node.js pela simplicidade de
+trabalhar com processamento assíncrono e por usar JavaScript em server
+side. JavaScript é uma linguagem simples mas para desenvolvimento Client
+side mas ao mesmo tempo quando colocamos JavaScript do lado do servidor
+começa a surgi algumas duvidas como: estrutura do software, como criar
+biblioteca, qual Framework usar e muitas outras.</p>
+<p>Dando uma olhada no Github vi que tem muitos software que parece uma
+lingüiça com mais de 500 linhas em um mesmo arquivo, aí me vem a
+seguinte pergunta "JavaScript não é orientado a objeto?" logicamente que
+sim, então tem alguma coisa errada pois uns dos paradigma é dividir
+funcionabilidade onde cada modulo faça sua parte e usando todas faz o
+que foi proposto a ser feito.</p>
+<p>Então vamos lá, seguindo um exemplo simples:</p>
+<ul>
+<li>Conectar em um banco de dados</li>
+<li>Fazer insert, update e delete</li>
+<li>Desconectar do banco de dados</li>
+</ul>
+<p>O exemplo usado encontra-se no repositorio "<a href="https://github.com/avelino/example-nodejs-mongodb" title="Example NodeJS MongoDB">example-nodejs-mongodb</a>"
+na minha conta do Github, nesse exemplo vou usar o banco de dados
+<a href="http://www.mongodb.org/" title="MongoDB">MongoDB</a> por ser mais simples de instalar e usar (Pois é um banco de
+dados NoSQL) . Dado que já esteja instalado o MongoDB em seu sistema
+operacional (Para usuarios Linux basta baixar o source do MongoDB no
+site e depois rodar o binario mongod, já para usuarios Windows não tenho
+não tenho experiencia no ambiente mas achei esse <a href="http://www.nosqlbr.com.br/instalando-mongodb-no-windows-com-wamp.html" title="Como Instalar MongoDB no Windows com Wamp">tutorial</a> que pode
+ajudar). A instalação do NodeJS e NPM no <a href="http://vinteum.com/instalando-nodejs-no-ubuntu/" title="Instalando NodeJS no Ubuntu Linux">Linux</a> e <a href="http://mateussouzaweb.com/blog/nodejs/tutorial-instalando-nodejs-no-windows" title="Tutorial – Instalando NodeJS no Windows">Windows</a> é uma
+operação relativamente simples, por isso não vou detalhar todo o
+processo, você pode ver nos artigos nesse blogpost.</p>
+<p>A primeira coisa que temos que ter em mente é que tudo o que é escrito
+dentro de um package (proprio) não é levado para fora, você precisa
+especificar o que realmente quer expor do seu package. No arquivo
+<strong><a href="https://github.com/avelino/example-nodejs-mongodb/blob/master/mongocon.js">mongocon.js</a></strong> temos um exemplo de como trabalhar com exports no
+Node.JS:</p>
+<div>
+        var mongoose = require('mongoose');
+        mongoose.connect('mongodb://localhost/avelinous');
+
+        exports.mongoose = mongoose;
+
+</div>
+
+<div>
+</div>
+
+<div>
+No exemplo acima estou expondo toda a classe do **mongoose**, eu poderia
+restringir export só alguns metodos por exemplo:
+
+</div>
+
+<div>
+</div>
+
+<div>
+        var mongoose = require('mongoose');
+        mongoose.connect('mongodb://localhost/avelinous');
+
+        exports.mongoose_schema = mongoose.Schema;
+
+</div>
+
+<div>
+</div>
+
+<div>
+Assim podemos limitar o acesso dentro de um package.
+
+</div>
+
+<div>
+Caso queira fazer um package e expor publicamente via NPM, basta criar
+um package.json juntamente com o seu source, assim pode colocar
+dependencias que o seu package tem e em qual versão do NodeJS ele roda,
+veja o exemplo de um package.json:
+
+</div>
+
+<div>
+</div>
+
+<div class="highlight"><pre><span class="p">{</span>
+    <span class="s">&quot;name&quot;</span><span class="o">:</span> <span class="s">&quot;mongo_test&quot;</span><span class="p">,</span>
+    <span class="s">&quot;description&quot;</span><span class="o">:</span> <span class="s">&quot;A package using mongoose ODM&quot;</span><span class="p">,</span>
+    <span class="s">&quot;author&quot;</span><span class="o">:</span> <span class="s">&quot;Thiago Avelino &lt;thiagoavelinoster AT gmail DOT com&gt;&quot;</span><span class="p">,</span>
+    <span class="s">&quot;dependencies&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s">&quot;mongoose&quot;</span><span class="o">:</span> <span class="s">&quot;&gt;= 2.7.0&quot;</span>
+    <span class="p">},</span>
+    <span class="s">&quot;engine&quot;</span><span class="o">:</span> <span class="s">&quot;node 0.6.19&quot;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<div>
+</div>
+
+<div>
+Pronto, com isso é facil enviar o seu package para o repositorio do NPM.
+
+</div>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

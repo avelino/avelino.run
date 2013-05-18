@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Console colorido usando Node.js</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2012/07/27/console-colorido-usando-node-js" rel="bookmark"
+           title="Permalink to Console colorido usando Node.js">Console colorido usando Node.js</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2012-07-27T11:40:00">
+                Fri 27 July 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino-javascript-nodejs.html">Avelino, javascript, nodejs</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Para quem esta acostumado trabalhar com make para subir um ambiente ou o
+pessoal que gosta de escrever alguns shell scripts para automação de
+simples rotinas acho muito importante colocar cor nos retornos do
+script, isso é ótimo para sinalizar o que realmente o software (ou
+script) esta fazendo.</p>
+<p>Para deixar um retorno colorido usando Node.js não é muito diferente de
+shell script, pois o que vai processar o retorno é um console bash (zsh
+ou qual quer outro shell), veja o exemplo abaixo de como deixar um
+retorno de shell script colorido:</p>
+<p>[gist id=3188137]</p>
+<p>[<img alt="" src="http://avelino.us/wp-content/uploads/2012/07/Screen-Shot-2012-07-27-at-11.30.08-AM-300x300.png" title="Screen Shot 2012-07-27 at 11.30.08 AM" />][]</p>
+<p>Bom como comentei acima em Node.js não é muito diferente, seja exemplo
+abaixo:</p>
+<p>[gist id=3188205]</p>
+<p>[<img alt="" src="http://avelino.us/wp-content/uploads/2012/07/Screen-Shot-2012-07-27-at-11.31.42-AM-300x225.png" title="Screen Shot 2012-07-27 at 11.31.42 AM" />][]</p>
+<p>Perceba que no começo do script estamos usando o "<strong><code>'use strict';</code></strong>",
+para não termos problema com o formato loco de color dentro das strings.
+No exemplo que estamos usando variáveis coloquei as colors em Unicode
+(eis ai uma problema!).</p>
+<h3>Porque uso "<strong>\u</strong>" nos códigos unicode?</h3>
+<p>Bom realmente eu não entendi muito bem o porque o Node.js trata dessa
+forma, mas achei uma essa explicação:</p>
+<blockquote>
+<p>Octal literals can be identified by a numeric value starting with a
+leading 0 (zero). Since this is a source of a possible unintentional
+octal values when the programmer zero-pads decimal numbers of varying
+lengths in the source code to make then look prettier and more
+uniform. The strict mode disallows the octal mode due to this reason.<br />
+ The ESCape code can be represented in a number of ways. Decimal 27 ,
+Hexadecimal 1B , Octal 33 or Binary 00011011.<br />
+ So instead of write the ESC code in a string as \033 you can as well
+just choose one of the other modes. Hexadecimal for instance: \x1B.<br />
+ In your example you used the two-byte unicode representation of the
+character \u001b which works just as well.<br />
+ I’m still an oldschool C head and usually assumes all strings to be
+plain ASCII so I’d use \x1B by default instead of this newfangled
+unicode crap Java is using. \^_\^</p>
+</blockquote>
+<p>Realmente não é muito produtivo desenvolver dessa forma, mas temos
+algumas iniciativas open source que pode nos ajudar com o retorno de
+cores dentro do Node.js.</p>
+<ul>
+<li><a href="https://github.com/medikoo/cli-color">cli-color</a> - <a href="https://github.com/medikoo">Mariusz Nowak</a></li>
+<li><a href="https://github.com/mattpat/colorize">colorize</a> - <a href="http://mattpatenaude.com/">Matt Patenaude</a></li>
+<li><a href="https://github.com/TrevorBurnham/sty">sty</a> - <a href="https://github.com/TrevorBurnham">Trevor Burnham</a> (<em>Esse projeto aceita você coloca
+    objetos html como marcação</em>)</li>
+</ul>
+<p>Todos os projetos acima estão dentro do npm.</p>
+<p>[<img alt="" src="http://avelino.us/wp-content/uploads/2012/07/Screen-Shot-2012-07-27-at-11.30.08-AM-300x300.png" title="Screen Shot 2012-07-27 at 11.30.08 AM" />]: http://avelino.us/wp-content/uploads/2012/07/Screen-Shot-2012-07-27-at-11.30.08-AM.png
+  [<img alt="" src="http://avelino.us/wp-content/uploads/2012/07/Screen-Shot-2012-07-27-at-11.31.42-AM-300x225.png" title="Screen Shot 2012-07-27 at 11.31.42 AM" />]: http://avelino.us/wp-content/uploads/2012/07/Screen-Shot-2012-07-27-at-11.31.42-AM.png</p>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

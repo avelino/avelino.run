@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Thiago Avelino - proxy</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+                
+            
+
+                            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/2012/08/09/proxy-transparente-com-nginx">Proxy transparente com Nginx</a></h1> 
+                    <footer class="post-info">
+        <abbr class="published" title="2012-08-09T13:05:00">
+                Thu 09 August 2012
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino-experiencia-infra-nginx.html">Avelino, Experiência, Infra, Nginx</a>. </p>
+<p>tags: <a href="/tag/nginx.html">nginx</a><a href="/tag/proxy.html">proxy</a><a href="/tag/router.html">router</a><a href="/tag/transparente.html">transparente</a></p>
+</footer><!-- /.post-info --><p>Muitas pessoas usam Squid para fazer qual quer tipo de proxy, ate mesmo
+para proxy transparente para usar em servidor web, por exemplo:</p>
+<p>Você tem um site que precisa ter IP aqui no Brasil so que como o custo
+de servidor e link aqui no Brasil é muito caro, você pode fazer um proxy
+transparente para o servidor aqui no Brasil ser um cara que vai receber
+a requisição e repassar para o outro servidor que esteja em qual quer
+lugar do mundo. Com essa solução podemos ter uma maquina simples
+(maquina com pouco poder de processamento) pois ela só vai receber o
+trafego e repassar para o servidor que esteja em outro local.</p>
+<p>Vamos imaginar um exemplo pratico, preciso que o usuário acesse o IP
+177.71.248.185 (é um servidor da Amazon no Brasil), esse servidor
+precisa receber a requisição e repassar para o IP 67.159.35.2 (é maquina
+principal onde é processado o backend, esse servidor esta fora
+do Brasi). Foi usado essa solução em um portal que atendo para ter baixa
+latencia.</p>
+<p>Vamos ao exemplo pratico:</p>
+<p>[gist id=3304942]</p>
+<p>Criei um "upstream server" para falar qual é o servidor de destino do
+trafego, na configuração acima tem um cache de 30 minutos pois no
+servidor principal tem cache de 4 horas.</p>
+<p>Logicamente que existe desvantagem com isso, pois vamos estar trafegando
+em duas (ou mais) redes, assim usando o trafego do servidor que esta
+recebendo a primeira requisição e do segunda que esta recebendo um
+requisição do primeiro.</p>                </article>
+                                    <p class="paginator">
+        Page 1 / 1
+    </p>
+                            </aside><!-- /#featured -->
+                                                </ol><!-- /#posts-list -->
+                        </section><!-- /#content -->
+                    <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
