@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Calculo de Bhaskara via Python</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2010/10/15/calculo-de-bhaskara-python" rel="bookmark"
+           title="Permalink to Calculo de Bhaskara via Python">Calculo de Bhaskara via Python</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2010-10-15T22:31:00">
+                Fri 15 October 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->      <p>O foco este post é levar você aprender computação com Python.</p>
+<p>Para calcular as raízes em função do segundo grau, utilizamos uma
+fórmula muito querida por todos que estudam no ensino médio, a famosa
+fórmula de Bhaskara:</p>
+<div class="separator" style="clear: both; text-align: center;">
+![][]
+
+</div>
+
+<p>Onde cada letra desta fórmula representa os coeficientes da função do
+segundo grau que queremos resolver. Basta substituir e achar os valores.
+Podem notar que há um ± no meio da fórmula. Pois é, é daí que irá sair
+dois resultados: um com o sinal de + e outro com o sinal de -. Veja o
+exemplo: <img alt="" src="http://2.bp.blogspot.com/_ovJ6PyiUjqA/TLg3Mno-jMI/AAAAAAAACHs/fCi8z113i4A/s1600/mimetex.cgi.gif" /></p>
+<p>Neste exemplo temos os coeficientes, a=2, b= -6 e c= -20 (Muita atenção
+para os sinais)<br />
+Agora substituindo na fórmula de Bhaskara:<br />
+<img alt="" src="http://1.bp.blogspot.com/_ovJ6PyiUjqA/TLg3lDJsNXI/AAAAAAAACHw/YfVQ7BZRn74/s1600/mimetex.cgi+(1).gif" /><br />
+<img alt="" src="http://3.bp.blogspot.com/_ovJ6PyiUjqA/TLg3ldF6RYI/AAAAAAAACH0/n_ovlQqZx58/s1600/mimetex.cgi+(2).gif" /></p>
+<p>Agora chegamos no momento crucial do cáculo das raízes.<br />
+Devemos separar esta conta em duas: uma com o sinal de + e a outra com
+o sinal de -. Assim:<br />
+<img alt="" src="http://3.bp.blogspot.com/_ovJ6PyiUjqA/TLg4Jje6jmI/AAAAAAAACH4/_KTwfrBiiCM/s1600/mimetex.cgi+(3).gif" /><br />
+<img alt="" src="http://1.bp.blogspot.com/_ovJ6PyiUjqA/TLg4KASi2OI/AAAAAAAACH8/b75a_dgty6s/s1600/mimetex.cgi+(4).gif" /></p>
+<p>Portanto as duas raízes da função são 5 e -2.</p>
+<p>Chega de blablabla e vamos ver como isso fica em Python:</p>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">math</span>
+<span class="n">import</span> <span class="n">sys</span>
+<span class="n">a</span><span class="o">=</span><span class="n">input</span> <span class="p">(</span><span class="s">&quot;a:&quot;</span><span class="p">)</span>
+<span class="n">b</span><span class="o">=</span><span class="n">input</span> <span class="p">(</span><span class="s">&quot;b:&quot;</span><span class="p">)</span>
+<span class="n">c</span><span class="o">=</span><span class="n">input</span> <span class="p">(</span><span class="s">&quot;c:&quot;</span><span class="p">)</span>
+<span class="n">d</span><span class="o">=</span><span class="p">(</span><span class="n">b</span><span class="o">^</span><span class="mi">2</span><span class="p">)</span><span class="o">-</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">a</span><span class="o">*</span><span class="n">c</span><span class="p">)</span> <span class="err">#</span><span class="n">M</span><span class="err">á</span><span class="n">rio</span> <span class="n">Meyer</span>
+<span class="cp"># d=((b^2)-4*a)*c Esta errado esta linha, usar a linha superior.</span>
+<span class="k">if</span> <span class="n">d</span><span class="o">&lt;</span><span class="mi">0</span> <span class="o">:</span>
+        <span class="n">print</span> <span class="p">(</span><span class="s">&quot;Delta negativo, raiz impossivel de ser extraida.&quot;</span><span class="p">)</span> 
+        <span class="n">sys</span><span class="p">.</span><span class="n">exit</span><span class="p">()</span>
+
+<span class="k">else</span> <span class="o">:</span> <span class="n">print</span> <span class="s">&quot;Delta: %s.&quot;</span> <span class="o">%</span> <span class="n">d</span> 
+        <span class="n">m1</span><span class="o">=</span><span class="n">math</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+        <span class="n">x1</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="n">b</span><span class="o">+</span><span class="n">m1</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+        <span class="n">x2</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="n">b</span><span class="o">-</span><span class="n">m1</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">a</span><span class="p">)</span>
+        <span class="n">print</span> <span class="s">&quot;Raiz ~ X1= %s.&quot;</span> <span class="o">%</span> <span class="n">x1</span>
+        <span class="n">print</span> <span class="s">&quot;Raiz ~ X2= %s.&quot;</span> <span class="o">%</span> <span class="n">x2</span>
+</pre></div>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Identificando dispositivo movel no Django</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2010/10/16/identificando-dispositivo-movel-no-django" rel="bookmark"
+           title="Permalink to Identificando dispositivo movel no Django">Identificando dispositivo movel no Django</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2010-10-16T22:32:00">
+                Sat 16 October 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Hoje temos uma biblioteca chamada de <a href="http://code.google.com/p/django-bloom/">Bloom Device</a> feira para Django
+desenvolvida por <a href="http://code.google.com/u/bishanty/">bishanty</a> e <a href="http://code.google.com/u/kevin.tom/">kevin.tom</a>.</p>
+<p><strong>Como instalar?</strong>  </p>
+<p>~~~~ {.brush:python}
+$ wget http://django-bloom.googlecode.com/files/bloom-0.1.tar.gz
+$ tar -tzvf bloom-0.1.tar.gz
+$ cd django-bloom
+$ python setup.py install</p>
+<div class="highlight"><pre><span class="n">Antes</span> <span class="n">de</span> <span class="n">instalar</span> <span class="n">esta</span> <span class="n">biblioteca</span> <span class="n">ter</span><span class="err">í</span><span class="n">amos</span> <span class="n">que</span> <span class="n">fazer</span> <span class="n">da</span> <span class="n">segunte</span> <span class="n">forma</span><span class="o">:</span>
+
+<span class="o">~~~~</span> <span class="p">{.</span><span class="n">brush</span><span class="o">:</span><span class="n">python</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">request</span><span class="p">.</span><span class="n">META</span><span class="p">[</span><span class="err">&#39;</span><span class="n">HTTP_USER_AGENT</span><span class="err">&#39;</span><span class="p">]</span>
+<span class="err">&#39;</span><span class="n">SonyEricssonW850i</span><span class="o">/</span><span class="n">R1GB</span> <span class="n">Browser</span><span class="o">/</span><span class="n">NetFront</span><span class="o">/</span><span class="mf">3.3</span> <span class="n">Profile</span><span class="o">/</span><span class="n">MIDP</span><span class="o">-</span><span class="mf">2.0</span> <span class="n">Configuration</span><span class="o">/</span><span class="n">CLDC</span><span class="o">-</span><span class="mf">1.1</span><span class="err">&#39;</span>
+</pre></div>
+
+
+<p>E pegar o resultado do HTTP_USER_AGENT e parcia. Com o Bloom Device
+ele retorna um JSON:</p>
+<p>~~~~ {.brush:python}</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p Ericsson_="Ericsson'," _1_="'1'," _240_="'240'," _320_="'320'," _Sony="'Sony" _W850i_="'W850i'," class=".." u_displayHeight_:="u'displayHeight':" u_displayWidth_:="u'displayWidth':" u_mobileDevice_:="u'mobileDevice':" u_model_:="u'model':" u_vendor_:="u'vendor':">request.device</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<div class="highlight"><pre><span class="o">**</span><span class="n">Como</span> <span class="n">usar</span> <span class="n">no</span> <span class="n">Django</span><span class="o">?**</span>  
+
+
+<span class="n">Depois</span> <span class="n">de</span> <span class="n">instalado</span> <span class="n">temos</span> <span class="n">que</span> <span class="n">instanciar</span> <span class="n">o</span> <span class="n">Bloom</span> <span class="n">Device</span> <span class="n">no</span> <span class="n">Django</span> <span class="n">no</span>
+<span class="n">settings</span><span class="p">.</span><span class="n">py</span><span class="o">:</span>
+
+<span class="o">~~~~</span> <span class="p">{.</span><span class="n">brush</span><span class="o">:</span><span class="n">python</span><span class="p">}</span>
+<span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">(</span>
+<span class="p">...</span>
+<span class="err">&#39;</span><span class="n">bloom</span><span class="p">.</span><span class="n">device</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="p">...</span>
+<span class="p">)</span>
+<span class="p">...</span>
+<span class="n">MIDDLEWARE_CLASSES</span> <span class="o">=</span> <span class="p">(</span>
+<span class="p">...</span>
+<span class="err">&#39;</span><span class="n">bloom</span><span class="p">.</span><span class="n">device</span><span class="p">.</span><span class="n">middleware</span><span class="p">.</span><span class="n">DeviceDetectMiddleware</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="p">...</span>
+<span class="p">)</span>
+</pre></div>
+
+
+<p>Na views da aplicação vamos usar assim:</p>
+<p>~~~~ {.brush:python}
+@detect_device
+from bloom.device.decorators import detect_device
+def my_view(request):
+print request.device
+...
+~~~~</p>
+<p>Agora vai a criatividade para poder trabalhar com o Bloom Device.</p>
+<p><strong>Recomendações</strong>  </p>
+<ul>
+<li><a href="http://jquerymobile.com/">jQuery Mobile</a></li>
+</ul>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

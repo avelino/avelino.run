@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Criando sistema com Multithreaded em Python</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2011/04/01/criando-sistema-com-multithreaded-em-python" rel="bookmark"
+           title="Permalink to Criando sistema com Multithreaded em Python">Criando sistema com Multithreaded em Python</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2011-04-01T22:43:00">
+                Fri 01 April 2011
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Multithreaded é quando temos mais de um programa executando ao mesmo
+tempo, totalmente diferente de executar duas vez o mesmo programa, com
+"threads" o sistema vai ser executado apenas uma vez e via thread vai
+processar mais de uma função ao mesmo tempo, isso é necessario para
+concorrência em sistema.</p>
+<p>Algumas vantagens de trabalha com threads:</p>
+<ul>
+<li>Múltiplos processo ao mesmo tempo e pode, portanto, compartilhar
+    informações e comunicar uns com os outros mais facilmente do que se
+    fossem processos separados;</li>
+<li>Menos consumo de memória, pois o mesmo vai consumir mais CPU.</li>
+</ul>
+<p>Uma thread tem um começo, meio e fim, assim podemos colocar um ponteiro
+de instrução para acompanhar onde esta sendo processado cada thread
+dentro de seu contexto.</p>
+<ul>
+<li>Ela pode ser antecipada (interrompido);</li>
+<li>Pode ser temporariamente suspensos (também conhecido como sleep),
+    enquanto outros segmentos estão em execução - isso é chamado de
+    rendimento.</li>
+</ul>
+<p>Iniciando uma nova Thread:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#!/usr/bin/python</span>
+<span class="c"># -*- coding: UTF-8 -*-</span>
+
+<span class="kn">import</span> <span class="nn">thread</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="c"># Definição da função de thread</span>
+<span class="k">def</span> <span class="nf">print_time</span><span class="p">(</span> <span class="n">name</span><span class="p">,</span> <span class="n">delay</span><span class="p">):</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">delay</span><span class="p">)</span>
+        <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">print</span> <span class="s">&quot;</span><span class="si">%s</span><span class="s">: </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span> <span class="n">name</span><span class="p">,</span> <span class="n">time</span><span class="o">.</span><span class="n">ctime</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">())</span> <span class="p">)</span>
+
+<span class="c"># Criar dois tópicos</span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">thread</span><span class="o">.</span><span class="n">start_new_thread</span><span class="p">(</span> <span class="n">print_time</span><span class="p">,</span> <span class="p">(</span><span class="s">&quot;Thread-1&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="p">)</span> <span class="p">)</span>
+    <span class="n">thread</span><span class="o">.</span><span class="n">start_new_thread</span><span class="p">(</span> <span class="n">print_time</span><span class="p">,</span> <span class="p">(</span><span class="s">&quot;Thread-2&quot;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="p">)</span> <span class="p">)</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">&quot;Erro: não conseguiu iniciar a thread&quot;</span>
+
+<span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+    <span class="k">pass</span>
+</pre></div>
+</td></tr></table>
+
+<p>Executando:</p>
+<div class="highlight"><pre><span class="n">avelino</span><span class="o">:</span><span class="n">multithreading</span><span class="o">/</span> <span class="o">[</span><span class="mi">11</span><span class="o">:</span><span class="mi">01</span><span class="o">:</span><span class="mi">01</span><span class="o">]</span> <span class="n">$</span> <span class="n">python</span> <span class="n">example</span><span class="o">.</span><span class="na">py</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">1</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">20</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">2</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">22</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">1</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">22</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">1</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">24</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">2</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">26</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">1</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">26</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">1</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">28</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">2</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">30</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">2</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">34</span> <span class="mi">2011</span>
+<span class="n">Thread</span><span class="o">-</span><span class="mi">2</span><span class="o">:</span> <span class="n">Thu</span> <span class="n">Mar</span> <span class="mi">31</span> <span class="mi">11</span><span class="o">:</span><span class="mi">03</span><span class="o">:</span><span class="mi">38</span> <span class="mi">2011</span>
+</pre></div>
+
+
+<p>Se repararmos temos alguns processo concorrendo ao mesmo tempos, dessa
+forma já estamos trabalhando com Thread.</p>
+<h2>Modulos da biblioteca thread</h2>
+<ul>
+<li><em>threading.activeCount()</em>: Retorna o número de objetos de thread que
+    estão ativos.</li>
+<li><em>threading.currentThread()</em>: Retorna o número de objetos de thread
+    no controle do chamador de thread.</li>
+<li><em>threading.enumerate()</em>: Retorna uma lista de todos os objetos de
+    thread que estão atualmente activas.</li>
+<li><em>run()</em>: Método é o ponto de partida para uma thread.</li>
+<li><em>start()</em>: Método inicia uma thread, chamando o método de execução.</li>
+<li><em>join([time])</em>: Espera para terminar.</li>
+<li><em>isAlive()</em>: Método verifica se uma thread ainda está em execução.</li>
+<li><em>getName()</em>: Método retorno o nome de uma thread.</li>
+<li><em>setName()</em>: Método declaro o nome de um thread.</li>
+</ul>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

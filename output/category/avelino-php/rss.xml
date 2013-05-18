@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/avelino-php/rss.xml" rel="self"></link><id>/</id><updated>2010-06-23T22:01:00+02:00</updated><entry><title>Configurando date.timezone do PHP</title><link href="/2010/06/23/configurando-datetimezone-do-php" rel="alternate"></link><updated>2010-06-23T22:01:00+02:00</updated><author><name>avelino</name></author><id>tag:,2010-06-23:2010/06/23/configurando-datetimezone-do-php</id><summary type="html">&lt;p&gt;Quando você instala o php no servidor ele vem com o timezone
+em comentário mas tem Framework ou Sistemas que pede isso, bom simples.&lt;/p&gt;
+&lt;p&gt;Localize o arquivo &lt;em&gt;php.ini&lt;/em&gt; no seu servidor e ache a linha 
+&lt;em&gt;date.timezone.&lt;/em&gt;&lt;br /&gt;
+Pronto agroa coloque ele assim:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timezone&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;America/Sao_Paulo&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Pronto, agora de um restart no seu HTTPD (Apache) e já esta funcionando.&lt;/p&gt;</summary><category term="date"></category><category term="date.timezone"></category><category term="php"></category><category term="timezone"></category></entry></feed>

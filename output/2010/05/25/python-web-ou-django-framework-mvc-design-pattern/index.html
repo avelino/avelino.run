@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Python Web ou Django (Framework MVC Design Pattern)</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2010/05/25/python-web-ou-django-framework-mvc-design-pattern" rel="bookmark"
+           title="Permalink to Python Web ou Django (Framework MVC Design Pattern)">Python Web ou Django (Framework MVC Design Pattern)</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2010-05-25T21:55:00">
+                Tue 25 May 2010
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Bom hoje temos alguns Framework (MVC) Python na web, vou estar
+comparando o source Python Web com Django, simplesmente ficou mais
+somples.</p>
+<p>Python Web:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#!/usr/bin/python</span>
+
+<span class="kn">import</span> <span class="nn">MySQLdb</span>
+
+<span class="k">print</span> <span class="s">&quot;Content-Type: text/html&quot;</span>
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">&quot;&lt;title&gt;Books&lt;/title&gt;&quot;</span>
+<span class="k">print</span> <span class="s">&quot;&quot;</span>
+<span class="k">print</span> <span class="s">&quot;&lt;h1&gt;Books&lt;/h1&gt;&quot;</span>
+<span class="k">print</span> <span class="s">&quot;&lt;ul&gt;&quot;</span>
+<span class="n">connection</span> <span class="o">=</span> <span class="n">MySQLdb</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">user</span><span class="o">=</span><span class="s">&#39;me&#39;</span><span class="p">,</span> <span class="n">passwd</span><span class="o">=</span><span class="s">&#39;letmein&#39;</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="s">&#39;my_db&#39;</span><span class="p">)</span>
+<span class="n">cursor</span> <span class="o">=</span> <span class="n">connection</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+<span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">&quot;SELECT name FROM books ORDER BY pub_date DESC LIMIT 10&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">():</span>
+    <span class="k">print</span> <span class="s">&quot;&lt;li&gt;</span><span class="si">%s</span><span class="s">&lt;/li&gt;&quot;</span> <span class="o">%</span> <span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="k">print</span> <span class="s">&quot;&lt;/ul&gt;&quot;</span>
+<span class="k">print</span> <span class="s">&quot;&quot;</span>
+<span class="n">connection</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</td></tr></table>
+
+<p>Django (MVC Design Pattern):</p>
+<div class="highlight"><pre><span class="err">#</span> <span class="nx">models.py</span> <span class="p">(</span><span class="nx">the</span> <span class="nx">database</span> <span class="nb">tables</span><span class="p">)</span>
+
+<span class="nb">from</span> <span class="nx">django.db</span> <span class="k">import</span> <span class="nx">models</span>
+
+<span class="nb">class</span> <span class="nx">Book</span><span class="p">(</span><span class="nx">models.Model</span><span class="p">):</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="nx">models.CharField</span><span class="p">(</span><span class="n">maxlength</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+    <span class="n">pub_date</span> <span class="o">=</span> <span class="nx">models.DateField</span><span class="p">()</span>
+
+<span class="err">#</span> <span class="nx">views.py</span> <span class="p">(</span><span class="nx">the</span> <span class="nx">business</span> <span class="nx">logic</span><span class="p">)</span>
+
+<span class="nb">from</span> <span class="nx">django.shortcuts</span> <span class="k">import</span> <span class="nx">render_to_response</span>
+<span class="nb">from</span> <span class="nx">models</span> <span class="k">import</span> <span class="nx">Book</span>
+
+<span class="nx">def</span> <span class="nx">latest_books</span><span class="p">(</span><span class="nx">request</span><span class="p">):</span>
+    <span class="n">book_list</span> <span class="o">=</span> <span class="nx">Book.objects.order_by</span><span class="p">(</span><span class="s1">&#39;-pub_date&#39;</span><span class="p">)</span><span class="err">[</span><span class="p">:</span><span class="mi">10</span><span class="cp">]</span>
+    return render_to_response(&#39;latest_books.html&#39;, {&#39;book_list&#39;: book_list})
+
+# urls.py (the URL configuration)
+
+from django.conf.urls.defaults import *
+import views
+
+urlpatterns = patterns(&#39;&#39;,
+    (r&#39;latest/$&#39;, views.latest_books),
+)
+
+# latest_books.html (the template)
+
+<span class="nt">&lt;title&gt;</span>Books<span class="nt">&lt;/title&gt;</span>
+
+<span class="nt">&lt;h1&gt;</span>Books<span class="nt">&lt;/h1&gt;&lt;ul&gt;</span>{% for book in book_list %}
+<span class="nt">&lt;li&gt;</span>{{ book.name }}<span class="nt">&lt;/li&gt;</span>
+{% endfor %} <span class="nt">&lt;/ul&gt;</span>
+</pre></div>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

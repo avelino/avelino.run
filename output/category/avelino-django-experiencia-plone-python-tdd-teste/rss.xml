@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/avelino-django-experiencia-plone-python-tdd-teste/rss.xml" rel="self"></link><id>/</id><updated>2012-08-30T11:40:00+02:00</updated><entry><title>Plone para desenvolvedores Python</title><link href="/2012/08/30/plone-para-desenvolvedores-python" rel="alternate"></link><updated>2012-08-30T11:40:00+02:00</updated><author><name>avelino</name></author><id>tag:,2012-08-30:2012/08/30/plone-para-desenvolvedores-python</id><summary type="html">&lt;p&gt;Sempre que uma pessoa vinha falar de &lt;a href="http://plone.org/" title="Plone CMS Open Source"&gt;Plone&lt;/a&gt; para mim eu não me sentia
+muito bem pois não conhecia e o pessoal que sempre conversei que
+desenvolvia em Plone e depois conheceu &lt;a href="https://www.djangoproject.com/" title="Django Framework Web para desenvolvedores perfeccionistas"&gt;Django&lt;/a&gt; sempre falava que não
+valia apena mexer com Plone! &lt;em&gt;Será que isso é realmente verdade&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;Depois do que eu escutei o pessoal falando eu não queria nem saber desse
+cara chamado Plone, ate mesmo que para desenvolver uma solução de
+gerenciamento de conteúdo usando Django não é muito trabalhoso
+(Realmente era assim que eu pensava, mal eu sabia que estava
+completamente enganado). Como eu fiz para mudar esse preconceito que
+tinha?&lt;/p&gt;
+&lt;p&gt;Realmente para mim mudar esse pensamento foi preciso senta e conhecer a
+ferramenta, não foi um trabalho muito facil pois como já relatei vim de
+Django e para mim era preciso subir um ambiente relativamente parecido,
+mas é Plone e ele roda encima do servidor de aplicação &lt;a href="http://www.zope.org/" title="Servidor de aplicação Zope"&gt;Zope&lt;/a&gt; e isso é
+algo que eu não conhecia (apenas tinha uma ideia do que era mas o que é
+realmente não sabia) em fim, depois do esforço de conhecer o Zope e
+Plone achei bacana. Mas achar bacana e colocar em produção é bem
+diferente.&lt;/p&gt;
+&lt;p&gt;No começo de agosto assumi um cargo de lider tecnico da &lt;a href="http://www.grupotv1.com.br/index.php/pontocom/" title="tv1.com, pioneira na web brasileira, desde 1995"&gt;tv1.com&lt;/a&gt;, eis
+que surge uma demanda gigantesca pois atendemos muitos sites do Governo
+Brasileiro, tais como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.brasil.gov.br/"&gt;Portal Brasil&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.secom.gov.br/"&gt;Secom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://planalto.gov.br/"&gt;Planalto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.biblioteca.presidencia.gov.br/"&gt;Biblioteca da Presidencia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.emquestao.gov.br/"&gt;Emquestão&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;entre outros...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Todos os sites é em Plone, e por esse motivo tive que estudar ainda mais
+do que estava estudando...&lt;/p&gt;
+&lt;p&gt;Semana passada &lt;a href="https://twitter.com/eleddy"&gt;Liz Leddy&lt;/a&gt; e &lt;a href="https://twitter.com/nzupan"&gt;Nejc Zupan&lt;/a&gt; (dois desenvolvedores
+Plone) estava no Brasil para participar do evento &lt;a href="http://www.plonesymposium.com.br/" title="Plone Symposium"&gt;Plone Symposium South
+America&lt;/a&gt; e &lt;a href="http://plone.org/events/regional/pssa/2012/caipirinha-sprint"&gt;Caipirinha Sprint&lt;/a&gt; (um dos melhores sprint que
+participei).&lt;br /&gt;
+O sprint foi muito bom fiquei surpreso com a qualidade do código que o
+Plone tem e como o pessoal leva a escrita de teste unitario e teste
+funcional a serio, o que posso falar é que 100% do código Plone tem
+cobertura de teste (se você que ver com os seus proprio olhos &lt;a href="http://plone.org/documentation/kb/testing/code-coverage"&gt;aqui&lt;/a&gt;
+explica como rodar os teste com coverage).&lt;/p&gt;
+&lt;p&gt;Bom o que posso falar mais é que agora sou um core commiter do Plone:&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://avelino.us/wp-content/uploads/2012/08/Screen-Shot-2012-08-30-at-11.08.19-AM-1024x71.png" title="Avelino core commiter Plone" /&gt;][]&lt;/p&gt;
+&lt;p&gt;Bom nós desenvolvedores (Python) temos mania de criticar (ter
+preconceito) ou não ter uma iniciativa para estudar uma nova tecnologia,
+o que posso falar para essas pessoas (eu realmente sou um desse) é:
+Conheça para depois tomar suas propria decisão, se você acha que um
+projeto pode ser mais simples ou melhor em um ponto especifico, não
+esqueça que você desenvolvedor (Python) tem capacidade de ajudar um
+projeto open source.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://avelino.us/wp-content/uploads/2012/08/Screen-Shot-2012-08-30-at-11.08.19-AM-1024x71.png" title="Avelino core commiter Plone" /&gt;]: http://avelino.us/wp-content/uploads/2012/08/Screen-Shot-2012-08-30-at-11.08.19-AM.png&lt;/p&gt;</summary><category term="django"></category><category term="plone"></category><category term="python"></category><category term="zope"></category></entry></feed>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thiago Avelino</title><link href="/" rel="alternate"></link><link href="/category/avelino-plone-python/rss.xml" rel="self"></link><id>/</id><updated>2012-11-06T18:22:00+01:00</updated><entry><title>Plone, por onde começar?</title><link href="/2012/11/06/plone-por-onde-comecar" rel="alternate"></link><updated>2012-11-06T18:22:00+01:00</updated><author><name>avelino</name></author><id>tag:,2012-11-06:2012/11/06/plone-por-onde-comecar</id><summary type="html">&lt;p&gt;&lt;a href="http://plone.org/"&gt;Plone&lt;/a&gt; é um CMS (Content management system, ou seja, sistema de
+gestão de conteúdo), no Brasil muito usado no Governo (saiba mais porque
+o Governo Brasileiro selecionou Plone como sistema de gestão de
+conteúdo, &lt;a href="http://blip.tv/plone-symposium-south-america-/plonegov-uso-de-solu%C3%A7%C3%B5es-plone-na-administra%C3%A7%C3%A3o-p%C3%BAblica-3298083"&gt;palestra&lt;/a&gt; do Giuseppe Romagnolli na &lt;a href="http://www.plonesymposium.com.br/"&gt;Plone Symposium&lt;/a&gt;).&lt;/p&gt;
+&lt;h2&gt;Por onde começa?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Como estou usando uma maquina Linux vou explicar como subir o Plone em
+ambiente Unix.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Iremos usar versão &lt;strong&gt;4.2.2&lt;/strong&gt; (&lt;em&gt;estável&lt;/em&gt;) do Plone, para começa
+precisamos baixar o source do Plone e descompactar:&lt;/p&gt;
+&lt;p&gt;[gist id=4027305]&lt;/p&gt;
+&lt;p&gt;Antes de instalar o Plone precisamos instalar alguns pacote no Linux,
+como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;python-distribute&lt;/li&gt;
+&lt;li&gt;python-dev&lt;/li&gt;
+&lt;li&gt;build-essential&lt;/li&gt;
+&lt;li&gt;libssl-dev&lt;/li&gt;
+&lt;li&gt;libxml2-dev&lt;/li&gt;
+&lt;li&gt;libxslt1-dev&lt;/li&gt;
+&lt;li&gt;libbz2-dev&lt;/li&gt;
+&lt;li&gt;subversion&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+Como o Plone trabalha com a biblioteca PIL precisamos instalar recurso
+para trabalhar com imagem:
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+-   libjpeg62-dev
+-   libreadline-gplv2-dev
+-   wv
+-   poppler-utils
+-   python-imaging
+
+[gist id=4027365]
+
+Após a instalação das dependências do Plone, vamos começa a realmente
+interagir com o Plone. Agora precisamos instalar o Plone, existe dois
+modelo de Plone, um onde instalamos a instancia Plone e outra que
+instalamos um Cluster de ZEO (ambiente de produção que precisa isolar
+ZEO do Plone):
+
+[gist id=4027418]
+
+No final da instalação do Plone o mesmo vai retorna algumas informações
+importante como a senha do usuário Administrador do Zope, pasta que foi
+instalado o Plone, informações para suporte (da comunidade) e etc.
+
+[gist id=4027449]
+
+Agora depois do Plone instalado queremos subir um site:
+
+[gist id=4027496]
+
+Temos o Zope/Plone rodando na porta **8080** liberado para todos os IP
+de sua maquina, ao acessar o endereço no
+browser **http://127.0.0.1:8080/** veremos esse site:
+
+[![Plone (rodando) sem nem um Plone Site criado][]][]
+
+Precisamos criar um Plone Site, para isso basta clicar no botão "Criar
+um novo site Plone, após clicar você será redirecionado para uma pagina
+onde deve preencher com nome e titulo do site, abaixo dessas duas
+informações temos a lista de produtos (para quem vem de outro CMS
+geralmente é chamado de Plugin) instalados no Plone. Como estamos
+começando agora vamos deixar todos em branco e clicar em **Criar site
+Plone**.
+
+[![Criar um site Plone][]][]
+
+Após clicar no botão você acabou de criar o seu Plone Site.
+
+[![Bem vindo ao Plone Site][]][]
+
+Agora basta você colocar conteúdo em seu Plone Site.
+
+Comunidade Plone Brasil
+-----------------------
+
+No Brasil temos a comunidade [PloneGov-BR][].
+
+&lt;/div&gt;
+
+&lt;p&gt;[&lt;img alt="Plone (rodando) sem nem um Plone Site criado" src="http://avelino.us/wp-content/uploads/2012/11/plone-sem-nem-um-plone-site-criado-1024x570.png" title="plone-sem-nem-um-plone-site-criado" /&gt;]: http://avelino.us/wp-content/uploads/2012/11/plone-sem-nem-um-plone-site-criado.png
+  [&lt;img alt="Criar um site Plone" src="http://avelino.us/wp-content/uploads/2012/11/criar-um-site-plone-1024x1024.png" title="criar-um-site-plone" /&gt;]: http://avelino.us/wp-content/uploads/2012/11/criar-um-site-plone.png
+  [&lt;img alt="Bem vindo ao Plone Site" src="http://avelino.us/wp-content/uploads/2012/11/bem-vindo-ao-plone-site-885x1024.png" title="bem-vindo-ao-plone-site" /&gt;]: http://avelino.us/wp-content/uploads/2012/11/bem-vindo-ao-plone-site.png&lt;/p&gt;</summary><category term="bootstart"></category><category term="começar"></category><category term="plone"></category><category term="pontape inicial"></category></entry></feed>

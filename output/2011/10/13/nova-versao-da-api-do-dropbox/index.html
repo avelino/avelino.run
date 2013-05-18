@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Nova versão da API do Dropbox</title>
+        <link rel="stylesheet" href="/theme/css/main.css">
+                <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Thiago Avelino Atom Feed" />
+                
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/avelino">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="/">Thiago Avelino </a></h1>
+                <nav><ul>
+                                                                                </ul></nav>
+        </header><!-- /#banner -->
+        <section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/2011/10/13/nova-versao-da-api-do-dropbox" rel="bookmark"
+           title="Permalink to Nova versão da API do Dropbox">Nova versão da API do Dropbox</a></h1>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="avelino0">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <abbr class="published" title="2011-10-13T22:47:00">
+                Thu 13 October 2011
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="/author/avelino.html">avelino</a>
+        </address>
+        <p>In <a href="/category/avelino.html">Avelino</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Dia 14.09.2011 o Dropbox lançou a nova versão 1.0 da API, nesse
+lançamento trouxe muitas novidades e melhorias:</p>
+<ul>
+<li>Suporte para aplicações web</li>
+<li>Suporte para criação de pasta (Na versão 0.1 da API não tinha)</li>
+<li>Novo site para desenvolvedores, com documentação simples e completa
+    <a href="https://www.dropbox.com/developers_beta">https://www.dropbox.com/developers_beta</a></li>
+<li>Melhor compartilhamento de arquivo, streaming, busca por arquivo e
+    suporte para revisão de arquivo</li>
+<li>Implementação no controle de nomes de arquivos, para não
+    sobrescrever arquivos já salvo</li>
+<li>SDK atualizado para iOS, Android, Python, Ruby e Java que implementa
+    todas modificações e documentação</li>
+</ul>
+<p>Link do repositorio (Python Pypi) da nova biblioteca
+<a href="http://pypi.python.org/pypi/dropbox/1.1">http://pypi.python.org/pypi/dropbox/1.1</a></p>
+<p>O dropbox implementou um oauth onde podemos desenvolver software e fazer
+o usuário usar a conta de dropbox dele para armazenamento de arquivos:<br />
+<img alt="OAuth Dropbox" src="https://www.dropbox.com/static/images/oauth.png" title="OAuth Dropbox" /></p>
+<p>Vou falar um pouco sobre 3 metodos que esta dentro da biblioteca
+"dropbox" client, rest e session:</p>
+<p>Com o metodo session é por onde tudo começa, onde você linka o seu
+software com uma conta Dropbox, exemplo:</p>
+<div class="highlight"><pre><span class="cp"># Include the Dropbox SDK libraries</span>
+<span class="n">from</span> <span class="n">dropbox</span> <span class="n">import</span> <span class="n">session</span>
+
+<span class="cp"># Get your app key and secret from the Dropbox developer website</span>
+<span class="n">APP_KEY</span> <span class="o">=</span> <span class="err">&#39;</span><span class="n">INSERT_APP_KEY_HERE</span><span class="err">&#39;</span>
+<span class="n">APP_SECRET</span> <span class="o">=</span> <span class="err">&#39;</span><span class="n">INSERT_SECRET_HERE</span><span class="err">&#39;</span>
+
+<span class="cp"># ACCESS_TYPE should be &#39;dropbox&#39; or &#39;app_folder&#39; as configured for your app</span>
+<span class="n">ACCESS_TYPE</span> <span class="o">=</span> <span class="err">&#39;</span><span class="n">INSERT_ACCESS_TYPE_HERE</span><span class="err">&#39;</span>
+<span class="n">sess</span> <span class="o">=</span> <span class="n">session</span><span class="p">.</span><span class="n">DropboxSession</span><span class="p">(</span><span class="n">APP_KEY</span><span class="p">,</span> <span class="n">APP_SECRET</span><span class="p">,</span> <span class="n">ACCESS_TYPE</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Caso esteja usando a conta do Dropbox do usuário podemos pegar
+informações da conta dele:</p>
+<div class="highlight"><pre><span class="n">client</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="n">DropboxClient</span><span class="p">(</span><span class="n">sess</span><span class="p">)</span>
+<span class="n">print</span> <span class="s">&quot;linked account:&quot;</span><span class="p">,</span> <span class="n">client</span><span class="p">.</span><span class="n">account_info</span><span class="p">()</span>
+</pre></div>
+
+
+<p>Agora usando o metodo "client" podemos fazer get e put de arquivos:</p>
+<div class="highlight"><pre><span class="n">from</span> <span class="n">dropbox</span> <span class="n">import</span> <span class="n">client</span>
+<span class="n">f</span> <span class="o">=</span> <span class="n">open</span><span class="p">(</span><span class="err">&#39;</span><span class="n">working</span><span class="o">-</span><span class="n">draft</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="p">)</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="n">put_file</span><span class="p">(</span><span class="err">&#39;</span><span class="o">/</span><span class="n">magnum</span><span class="o">-</span><span class="n">opus</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+<span class="n">print</span> <span class="s">&quot;uploaded:&quot;</span><span class="p">,</span> <span class="n">response</span>
+</pre></div>
+
+
+<p>Após criar o arquivos podemos ler ele:</p>
+<div class="highlight"><pre><span class="n">print</span> <span class="n">client</span><span class="p">.</span><span class="n">get_file</span><span class="p">(</span><span class="err">&#39;</span><span class="o">/</span><span class="n">magnum</span><span class="o">-</span><span class="n">opus</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="p">).</span><span class="n">read</span><span class="p">()</span>
+</pre></div>
+
+
+<p>Reescrever o arquivo com uma nova revisão para criar um novo arquivo:</p>
+<div class="highlight"><pre><span class="n">out</span> <span class="o">=</span> <span class="n">open</span><span class="p">(</span><span class="err">&#39;</span><span class="n">magnum</span><span class="o">-</span><span class="n">opus</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="p">,</span> <span class="sc">&#39;w&#39;</span><span class="p">)</span>
+<span class="n">out</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">client</span><span class="p">.</span><span class="n">get_file</span><span class="p">(</span><span class="err">&#39;</span><span class="o">/</span><span class="n">magnum</span><span class="o">-</span><span class="n">opus</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="p">,</span><span class="n">rev</span><span class="o">=</span><span class="err">&#39;</span><span class="mf">362e2029684</span><span class="n">fe</span><span class="err">&#39;</span><span class="p">).</span><span class="n">read</span><span class="p">())</span>
+</pre></div>
+
+
+<p>Para trabalhar com REST temos um ótima documentação
+<a href="https://www.dropbox.com/developers_beta/reference/api">https://www.dropbox.com/developers_beta/reference/api</a></p>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+        <section id="extras" class="body">
+                        <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                    <li><a href="http://python.org/">Python.org</a></li>
+                                                    <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                                                    <li><a href="#">You can modify those links in your config file</a></li>
+                                                </ul>
+                </div><!-- /.blogroll -->
+                                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/rss.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+                                                    <li><a href="http://twitter.com/avelino0">twitter</a></li>
+                                                    <li><a href="http://github.com/avelino">github</a></li>
+                                                </ul>
+                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
