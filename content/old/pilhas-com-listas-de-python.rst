@@ -2,7 +2,7 @@ Pilhas com listas de Python
 ###########################
 :date: 2010-07-23 22:13
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: pilhas-com-listas-de-python
 
 Pilhas com listas de Python

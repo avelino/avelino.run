@@ -2,7 +2,7 @@ Um pouco mais sobre Google Friend Connect
 #########################################
 :date: 2010-07-07 22:09
 :author: avelino
-:category: Avelino
+:category: Google
 :slug: um-pouco-mais-sobre-google-friend-connect
 
 .. raw:: html

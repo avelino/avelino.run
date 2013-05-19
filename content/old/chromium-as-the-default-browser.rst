@@ -2,7 +2,7 @@ Chromium as the default browser
 ###############################
 :date: 2013-03-02 01:18
 :author: avelino
-:category: browser
+:category: Javascript
 :tags: browser, chrome, chromium, mac, update, upgrade
 :slug: chromium-as-the-default-browser
 

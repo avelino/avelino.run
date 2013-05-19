@@ -2,7 +2,7 @@ Falando um pouco do iGrape Framework
 ####################################
 :date: 2010-06-19 21:59
 :author: avelino
-:category: Avelino
+:category: PHP
 :slug: falando-um-pouco-do-igrape-framework
 
 .. raw:: html

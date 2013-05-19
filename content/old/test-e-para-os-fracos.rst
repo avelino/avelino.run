@@ -2,7 +2,7 @@ Test é para os fracos
 #####################
 :date: 2012-02-24 22:48
 :author: avelino
-:category: Avelino, bdd, Python, tdd, teste
+:category: Testes
 :slug: test-e-para-os-fracos
 
 Em novembro fiz mais uma palestra sobre ``teste unitários`` só que agora

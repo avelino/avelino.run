@@ -2,7 +2,7 @@ São Paulo Open Source Jam 2 - Google Open Source Blog
 #####################################################
 :date: 2010-08-07 22:17
 :author: avelino
-:category: Avelino
+:category: Google
 :slug: sao-paulo-open-source-jam-2-google-open-source-blo
 
 `São Paulo Open Source Jam 2 - Google Open Source Blog`_

@@ -2,7 +2,7 @@ Introdução ao tnsnames.ora
 ##########################
 :date: 2010-06-21 21:59
 :author: avelino
-:category: Avelino
+:category: DataBase
 :slug: introducao-ao-tnsnamesora
 
 A Oracle (corporação) é uma empresa mantenedora

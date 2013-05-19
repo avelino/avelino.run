@@ -2,7 +2,7 @@ VIM a IDE para programadores Python
 ###################################
 :date: 2011-12-22 22:47
 :author: avelino
-:category: Avelino
+:category: Vim
 :slug: vim-ide-para-programadores-python
 
 Depois muito tempo sem escrever nada no meu blog, escolhi esse tema para

@@ -2,7 +2,7 @@ Node.js onde usar?
 ##################
 :date: 2012-04-10 01:13
 :author: avelino
-:category: Avelino, javascript, nodejs, Python
+:category: Javascript
 :tags: cache, JavaScript, Nodejs
 :slug: node-js-onde-usar
 

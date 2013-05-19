@@ -2,7 +2,7 @@ Upload da arquivo no Google App Engine (BlobProperty)
 #####################################################
 :date: 2011-04-23 22:43
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: upload-da-arquivo-no-google-app-engine-blobpropert
 
 Essa semana que passou tive uma necessidade para um sistema de trabalhar

@@ -2,7 +2,7 @@ Install WebAlizer in CentOS 5.5 (Final)
 #######################################
 :date: 2010-06-28 22:02
 :author: avelino
-:category: Avelino
+:category: Shell
 :slug: install-webalizer-centos-55-final
 
 .. raw:: html

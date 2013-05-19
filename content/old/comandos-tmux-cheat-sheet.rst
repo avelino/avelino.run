@@ -2,7 +2,7 @@ Comandos tmux (cheat sheet)
 ###########################
 :date: 2012-10-08 17:49
 :author: avelino
-:category: shell
+:category: Shell
 :tags: cheat, comandos, command, help, sheet, tmux
 :slug: comandos-tmux-cheat-sheet
 

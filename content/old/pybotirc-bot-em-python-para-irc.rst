@@ -2,7 +2,7 @@ pyBotIRC Bot em Python para IRC
 ###############################
 :date: 2010-05-23 21:56
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: pybotirc-bot-em-python-para-irc
 
 Bot simples usando socket no Python:

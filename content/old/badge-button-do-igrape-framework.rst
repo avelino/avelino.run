@@ -2,7 +2,7 @@ Badge button do iGrape Framework
 ################################
 :date: 2010-07-06 22:08
 :author: avelino
-:category: Avelino
+:category: PHP
 :slug: badge-button-do-igrape-framework
 
 .. raw:: html

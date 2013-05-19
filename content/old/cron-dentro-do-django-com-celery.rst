@@ -2,7 +2,7 @@ Cron dentro do Django com Celery
 ################################
 :date: 2010-10-19 22:34
 :author: avelino
-:category: Avelino
+:category: Django
 :slug: cron-dentro-do-django-com-celery
 
 | Ontem na parte da noite conversando com um conhecido ele falou que

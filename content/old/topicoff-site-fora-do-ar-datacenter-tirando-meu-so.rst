@@ -2,7 +2,7 @@
 #######################################################
 :date: 2011-04-29 22:44
 :author: avelino
-:category: Avelino
+:category: Fail
 :slug: topicoff-site-fora-do-ar-datacenter-tirando-meu-so
 
 Peço 1001 desculpas por o Avelino.US ter ficado fora do ar durante os

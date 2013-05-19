@@ -2,7 +2,7 @@ Ajudando o projeto MongoEngine
 ##############################
 :date: 2010-09-06 22:21
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: ajudando-o-projeto-mongoengine
 
 .. raw:: html

@@ -2,7 +2,7 @@ Vagas de Python para trabalhar remoto
 #####################################
 :date: 2012-05-07 16:46
 :author: avelino
-:category: Avelino, Django, Experiência, Python, tdd, teste, Vaga
+:category: Python
 :slug: vagas-de-python-para-trabalhar-remoto
 
 |image0|

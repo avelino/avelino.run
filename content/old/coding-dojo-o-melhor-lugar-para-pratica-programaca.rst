@@ -2,7 +2,7 @@ Coding Dojo o melhor lugar para pratica Programação
 ###################################################
 :date: 2011-02-21 22:38
 :author: avelino
-:category: Avelino
+:category: Dojo
 :slug: coding-dojo-o-melhor-lugar-para-pratica-programaca
 
 Nós da Comunidade Python São Paulo estamos no 10' Dojo.

@@ -2,7 +2,7 @@ Tweet Switch com Youtube no Gtalk
 #################################
 :date: 2010-06-17 21:58
 :author: avelino
-:category: Avelino
+:category: Google
 :slug: tweet-switch-com-youtube-no-gtalk
 
 |image0|

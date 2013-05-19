@@ -2,7 +2,7 @@ Repositório para linguagem Python - PyPI
 ########################################
 :date: 2010-10-10 22:23
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: repositorio-para-linguagem-python-pypi
 
 PyPI (Python Package Index) é um repositório para linguagem Python. Hoje

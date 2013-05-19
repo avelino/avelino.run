@@ -2,7 +2,7 @@ Curso Desenvolvimento ágil com Django
 #####################################
 :date: 2011-01-27 22:36
 :author: avelino
-:category: Avelino
+:category: Django
 :slug: curso-desenvolvimento-agil-com-django
 
 Comece a desenvolver com um framework de alto nível, que estimula o

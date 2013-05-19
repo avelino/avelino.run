@@ -2,7 +2,7 @@ Problema com Celery "process exiting with exitcode 1"
 #####################################################
 :date: 2010-12-16 22:34
 :author: avelino
-:category: Avelino
+:category: Django
 :slug: problema-com-celery-process-exiting-exitcode-1
 
 Hoje estava rodando o Celery em um projeto e me deparei com um problema,

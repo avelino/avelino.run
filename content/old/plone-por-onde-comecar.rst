@@ -2,7 +2,7 @@ Plone, por onde começar?
 ########################
 :date: 2012-11-06 18:22
 :author: avelino
-:category: CMS
+:category: Python
 :tags: bootstart, começar, plone, pontape inicial
 :slug: plone-por-onde-comecar
 

@@ -2,7 +2,7 @@ Software proprietaros em linguagem Open Source
 ##############################################
 :date: 2010-07-23 22:17
 :author: avelino
-:category: Avelino
+:category: Fail
 :slug: software-proprietaros-em-linguagem-open-source
 
 Não sei bem por onde começar escrever este post, mas vamos lá.

@@ -2,7 +2,7 @@ Porque fazer teste unitario em javascript?
 ##########################################
 :date: 2011-07-21 22:45
 :author: avelino
-:category: Avelino
+:category: Javascript
 :slug: porque-fazer-teste-unitario-em-javascript
 
 É complicado confiar em um software que não tem teste unitario. Hoje

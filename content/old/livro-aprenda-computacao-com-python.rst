@@ -2,7 +2,7 @@ Livro Aprenda Computação com Python
 ###################################
 :date: 2010-09-04 22:18
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: livro-aprenda-computacao-com-python
 
 | Você quer aprender Python e não sabe por onde começar?

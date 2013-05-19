@@ -2,7 +2,7 @@ Calculo de Bhaskara via Python
 ##############################
 :date: 2010-10-15 22:31
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: calculo-de-bhaskara-python
 
 O foco este post é levar você aprender computação com Python.

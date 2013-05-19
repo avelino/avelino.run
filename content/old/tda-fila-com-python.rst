@@ -2,7 +2,7 @@ TDA Fila com Python
 ###################
 :date: 2010-07-23 22:15
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: tda-fila-com-python
 
 | O foco este post é levar você aprender computação com Python.

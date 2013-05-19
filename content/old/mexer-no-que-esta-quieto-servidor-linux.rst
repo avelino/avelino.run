@@ -2,7 +2,7 @@ Mexer no que esta quieto (Servidor Linux)
 #########################################
 :date: 2010-06-29 22:03
 :author: avelino
-:category: Avelino
+:category: Fail
 :slug: mexer-no-que-esta-quieto-servidor-linux
 
 | Bom resolvi fazer atualização no servidor onde roda os mirror (CentOS

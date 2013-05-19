@@ -2,7 +2,7 @@ Python Web ou Django (Framework MVC Design Pattern)
 ###################################################
 :date: 2010-05-25 21:55
 :author: avelino
-:category: Avelino
+:category: Django
 :slug: python-web-ou-django-framework-mvc-design-pattern
 
 Bom hoje temos alguns Framework (MVC) Python na web, vou estar

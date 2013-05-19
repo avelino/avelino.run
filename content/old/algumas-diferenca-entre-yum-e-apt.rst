@@ -2,7 +2,7 @@ Algumas diferença entre YUM e APT
 #################################
 :date: 2010-06-21 22:00
 :author: avelino
-:category: Avelino
+:category: Linux
 :slug: algumas-diferenca-entre-yum-e-apt
 
 Na tabela abaixo tem algumas diferença entre o YUM e APT.

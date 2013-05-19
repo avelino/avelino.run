@@ -2,7 +2,7 @@ Teste e qualidade de software (TDD)
 ###################################
 :date: 2010-07-15 22:11
 :author: avelino
-:category: Avelino
+:category: Testes
 :slug: teste-e-qualidade-de-software-tdd
 
 Quando falamos em "Teste e qualidade de software" nós programadores já

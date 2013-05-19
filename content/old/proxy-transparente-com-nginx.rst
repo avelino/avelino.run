@@ -2,7 +2,7 @@ Proxy transparente com Nginx
 ############################
 :date: 2012-08-09 13:05
 :author: avelino
-:category: nginx
+:category: Nginx
 :tags: nginx, proxy, router, transparente
 :slug: proxy-transparente-com-nginx
 

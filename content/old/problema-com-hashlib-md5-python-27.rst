@@ -2,7 +2,7 @@ Problema com hashlib + md5 (Python 2.7)
 #######################################
 :date: 2011-10-04 22:46
 :author: avelino
-:category: Avelino, Python
+:category: Python
 :slug: problema-com-hashlib-md5-python-27
 
 Estava com o seguinte problema "Error: No module named \_md5",

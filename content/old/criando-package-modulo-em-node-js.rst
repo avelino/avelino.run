@@ -2,7 +2,7 @@ Criando package (modulo) em Node.js
 ###################################
 :date: 2012-06-23 10:15
 :author: avelino
-:category: Avelino, javascript, nodejs
+:category: Javascript
 :slug: criando-package-modulo-em-node-js
 
 Existe muitas pessoas querendo estudar Node.js pela simplicidade de

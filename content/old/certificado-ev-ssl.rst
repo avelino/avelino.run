@@ -2,7 +2,7 @@ Certificado EV SSL
 ##################
 :date: 2011-03-28 22:39
 :author: avelino
-:category: Avelino
+:category: Certificado
 :slug: certificado-ev-ssl
 
 Certificados Digitais EV SSL, ou em português SSL de Validação Avançada,

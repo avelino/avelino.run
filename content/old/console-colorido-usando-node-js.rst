@@ -2,7 +2,7 @@ Console colorido usando Node.js
 ###############################
 :date: 2012-07-27 11:40
 :author: avelino
-:category: javascript
+:category: Javascript
 :slug: console-colorido-usando-node-js
 
 Para quem esta acostumado trabalhar com make para subir um ambiente ou o

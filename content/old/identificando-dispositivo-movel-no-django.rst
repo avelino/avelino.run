@@ -2,7 +2,7 @@ Identificando dispositivo movel no Django
 #########################################
 :date: 2010-10-16 22:32
 :author: avelino
-:category: Avelino
+:category: Django
 :slug: identificando-dispositivo-movel-no-django
 
 Hoje temos uma biblioteca chamada de `Bloom Device`_ feira para Django

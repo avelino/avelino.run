@@ -2,7 +2,7 @@ Configurando date.timezone do PHP
 #################################
 :date: 2010-06-23 22:01
 :author: avelino
-:category: Avelino, php
+:category: PHP
 :tags: date, date.timezone, php, timezone
 :slug: configurando-datetimezone-do-php
 

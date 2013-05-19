@@ -2,7 +2,7 @@ Gerando SVG com Python
 ######################
 :date: 2010-10-11 22:23
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: gerando-svg-com-python
 
 Em baixo veja um código de como gerar SVG com Python

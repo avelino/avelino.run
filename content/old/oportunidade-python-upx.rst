@@ -2,7 +2,7 @@ Oportunidade Python - UPX
 #########################
 :date: 2010-10-14 22:31
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: oportunidade-python-upx
 
 Empresa de Alphaville (São Paulo) procura DOIS programadores `Python`_

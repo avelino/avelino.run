@@ -2,7 +2,7 @@ ORM Python para MongoDB - MongoEngine
 #####################################
 :date: 2010-07-03 22:03
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: orm-python-para-mongodb-mongoengine
 
 | |image0|

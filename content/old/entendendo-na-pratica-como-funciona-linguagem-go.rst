@@ -2,7 +2,7 @@ Entendendo na pratica como funciona a linguagem Go
 ##################################################
 :date: 2011-05-25 22:14
 :author: avelino
-:category: Avelino
+:category: Go
 :slug: entendendo-na-pratica-como-funciona-linguagem-go
 
 A linguagem Go é um projeto open source para tornar os programadores

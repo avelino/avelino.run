@@ -2,7 +2,7 @@ Template Django com Haml
 ########################
 :date: 2011-05-28 22:44
 :author: avelino
-:category: Avelino
+:category: Django
 :slug: template-django-com-haml
 
 `Haml`_ (HTML Abstraction Markup Language) é uma linguagem simples, que

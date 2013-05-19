@@ -2,7 +2,7 @@ Novos icones dos Serviço Google
 ###############################
 :date: 2010-07-07 22:09
 :author: avelino
-:category: Avelino
+:category: Google
 :slug: novos-icones-dos-servico-google
 
 Curti

@@ -2,7 +2,7 @@ Fail no Sonora - terra.com.br
 #############################
 :date: 2010-07-16 22:12
 :author: avelino
-:category: Avelino
+:category: Fail
 :slug: fail-no-sonora-terracombr
 
 .. raw:: html

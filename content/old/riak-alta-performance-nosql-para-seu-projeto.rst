@@ -2,7 +2,7 @@ Riak, alta performance NoSQL para seu projeto
 #############################################
 :date: 2012-12-23 10:00
 :author: avelino
-:category: nosql
+:category: NoSQL
 :tags: benchmark, mongodb, nosql, performance, python, riak
 :slug: riak-alta-performance-nosql-para-seu-projeto
 

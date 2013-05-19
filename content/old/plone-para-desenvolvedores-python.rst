@@ -2,7 +2,7 @@ Plone para desenvolvedores Python
 #################################
 :date: 2012-08-30 11:40
 :author: avelino
-:category: Avelino, Django, Experiência, Plone, Python, tdd, teste
+:category: Python
 :tags: django, plone, python, zope
 :slug: plone-para-desenvolvedores-python
 

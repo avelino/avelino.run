@@ -2,7 +2,7 @@ Google Nexus S, atualização oficial para Android 4.0 (Ice Cream Sandwich)
 #########################################################################
 :date: 2011-12-17 22:48
 :author: avelino
-:category: Avelino
+:category: Google
 :slug: google-nexus-s-atualizacao-oficial-para-android-40
 
 Dia 16/12/2011 o Google lançou oficialmente a atualização do aparelho

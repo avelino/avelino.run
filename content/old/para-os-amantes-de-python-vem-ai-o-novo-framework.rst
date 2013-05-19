@@ -2,7 +2,7 @@ Para os amantes de Python, vem ai o novo framework iGrape Python
 ################################################################
 :date: 2010-07-04 22:07
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: para-os-amantes-de-python-vem-ai-o-novo-framework
 
 Bom é com grande prazer anunciar a version 0.1 do iGrape Python esta

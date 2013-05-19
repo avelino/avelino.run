@@ -2,7 +2,7 @@ Par ou Ímpar com Python
 #######################
 :date: 2010-10-18 22:33
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: par-ou-impar-com-python
 
 | Como vocês viu gosto muito de matemática, então nada melhor de juntar

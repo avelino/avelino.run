@@ -2,7 +2,7 @@ Trabalhar para empresa de fora do Brasil
 ########################################
 :date: 2012-04-20 19:13
 :author: avelino
-:category: Avelino, Experiência, Python
+:category: Experiência
 :slug: trabalhar-para-empresa-de-fora-do-brasil
 
 |Londres é a capital e a maior e mais importante cidade da Inglaterra e

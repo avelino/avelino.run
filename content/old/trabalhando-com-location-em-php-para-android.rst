@@ -2,7 +2,7 @@ Trabalhando com Location em php para Android
 ############################################
 :date: 2010-07-15 22:10
 :author: avelino
-:category: Avelino
+:category: PHP
 :slug: trabalhando-com-location-em-php-para-android
 
 Veja como trabalhar com PHP + Android + Location

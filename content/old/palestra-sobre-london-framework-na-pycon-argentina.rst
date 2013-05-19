@@ -2,7 +2,7 @@ Palestra sobre London Framework na PyCon Argentina
 ##################################################
 :date: 2012-11-20 15:05
 :author: avelino
-:category: Avelino, Experiência, London, Python, Vaga
+:category: Python
 :tags: argentina, evento, hermanos, london, london framework, pycon, python
 :slug: palestra-sobre-london-framework-na-pycon-argentina
 

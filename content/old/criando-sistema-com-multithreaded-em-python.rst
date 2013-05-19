@@ -2,7 +2,7 @@ Criando sistema com Multithreaded em Python
 ###########################################
 :date: 2011-04-01 22:43
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: criando-sistema-com-multithreaded-em-python
 
 Multithreaded é quando temos mais de um programa executando ao mesmo

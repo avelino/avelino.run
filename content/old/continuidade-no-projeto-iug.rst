@@ -2,7 +2,7 @@ Continuidade no projeto IUG
 ###########################
 :date: 2010-06-24 22:02
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: continuidade-no-projeto-iug
 
 .. raw:: html

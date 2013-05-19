@@ -2,7 +2,7 @@ Django Lock 1.0 - Gnome Look
 ############################
 :date: 2010-09-23 22:22
 :author: avelino
-:category: Avelino
+:category: Django
 :slug: django-lock-1-0-gnome-look
 
 .. raw:: html

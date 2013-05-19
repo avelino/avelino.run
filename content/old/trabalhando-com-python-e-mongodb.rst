@@ -2,7 +2,7 @@ Trabalhando com Python e MongoDB
 ################################
 :date: 2011-03-28 22:40
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: trabalhando-com-python-e-mongodb
 
 Hoje MongoDB está começando ficar bem comentado na internet (famosos

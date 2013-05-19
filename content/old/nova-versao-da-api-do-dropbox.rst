@@ -2,7 +2,7 @@ Nova versão da API do Dropbox
 #############################
 :date: 2011-10-13 22:47
 :author: avelino
-:category: Avelino
+:category: Python
 :slug: nova-versao-da-api-do-dropbox
 
 Dia 14.09.2011 o Dropbox lançou a nova versão 1.0 da API, nesse
