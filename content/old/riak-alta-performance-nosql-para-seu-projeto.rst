@@ -2,7 +2,7 @@ Riak, alta performance NoSQL para seu projeto
 #############################################
 :date: 2012-12-23 10:00
 :author: avelino
-:category: Avelino, MongoDB, NoSQL, Python, Riak
+:category: nosql
 :tags: benchmark, mongodb, nosql, performance, python, riak
 :slug: riak-alta-performance-nosql-para-seu-projeto
 
@@ -45,17 +45,57 @@ mim?
 
 Código Python usando drive nativo do Riak:
 
-[gist id=4363258]
+.. code-block:: python
+
+    #!/usr/bin/env python
+    # -*- coding: utf-8 -*-
+
+    import riak
+
+
+
+    client = riak.RiakClient()
+    bucket = client.bucket('test')
+
+    for i in range(0, 1000000):
+        person = bucket.new('riak_developer_%d' % i, data={'name': 'Thiago Avelino %d' % i,
+                                                           'age': 18+i,
+                                                           'language': ['python'],})
+
 
 Código Python usando drive nativo do MongoDB:
 
-[gist id=4363275]
+.. code-block:: python
+
+    #!/usr/bin/env python
+    # -*- coding: utf-8 -*-
+
+    from pymongo import MongoClient
+
+
+
+    connection = MongoClient()
+    db = connection.test
+    persons = db.persons
+
+    for i in range(0, 1000000):
+        person = persons.insert({'name': 'Thiago Avelino %d' % i,
+                                 'age': 18+i,
+                                 'language': ['python'],})
+
 
 Um código simples onde faço um loop que vai de 0 a 1000000 (estou
 fazendo 1000001 inserção), e dentro de cada interação do loop estou
 gerando um registro no banco de dados. Veja abaixo o resultado:
 
-[gist id=4363325]
+.. code-block:: bash
+
+    (riak-test) ~/Sites/riak-test$ time python riak.py
+    python riak.py  15.60s user 0.14s system 99% cpu 15.850 total
+
+    (riak-test) ~/Sites/riak-test$ time python mongodb.py
+    python mongodb.py  144.14s user 35.47s system 55% cpu 5:25.85 total
+
 
 Realmente o tempo de execução do Riak é muito mas muito rápido, o que me
 deixou mais surpreso foi o tempo do MongoDB, o MongoDB demorou 9 vezes
