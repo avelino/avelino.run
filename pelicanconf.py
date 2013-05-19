@@ -6,6 +6,10 @@ AUTHOR = u'Thiago Avelino'
 SITENAME = u'Thiago Avelino'
 SITEURL = 'http://avelino.us'
 
+FILES_TO_COPY = (
+    ('extra/CNAME', 'CNAME'),
+)
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
