@@ -6,10 +6,6 @@ AUTHOR = u'Thiago Avelino'
 SITENAME = u'Thiago Avelino'
 SITEURL = 'http://avelino.us'
 
-FILES_TO_COPY = (
-    ('extra/CNAME', 'CNAME'),
-)
-
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
@@ -39,7 +35,11 @@ DEFAULT_PAGINATION = 10
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
-FILES_TO_COPY = (('static/robots.txt', 'robots.txt'),)
+FILES_TO_COPY = (
+    ('static/robots.txt', 'robots.txt'),
+    ('static/google5b2d0fc7703276fe.html', 'google5b2d0fc7703276fe.html'),
+    ('extra/CNAME', 'CNAME'),
+)
 
 STATIC_PATHS = ["static"]
 
