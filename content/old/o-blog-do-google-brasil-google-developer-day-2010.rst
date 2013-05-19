@@ -1,0 +1,11 @@
+O blog do Google Brasil: Google Developer Day 2010 - São Paulo, Brasil - Inscrições Abertas!
+############################################################################################
+:date: 2010-09-15 22:21
+:author: avelino
+:category: Avelino
+:slug: o-blog-do-google-brasil-google-developer-day-2010
+
+`O blog do Google Brasil: Google Developer Day 2010 - São Paulo, Brasil
+- Inscrições Abertas!`_
+
+.. _`O blog do Google Brasil: Google Developer Day 2010 - São Paulo, Brasil - Inscrições Abertas!`: http://googlebrasilblog.blogspot.com/2010/09/google-developer-day-2010-sao-paulo.html
