@@ -70,7 +70,7 @@ para trabalhar com imagem:
 -  poppler-utils
 -  python-imaging
 
-.. code-block::
+.. code-block:: bash
 
     $ echo "Instalar biblioteca Python"
     $ sudo aptitude install python-distribute python-dev build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev
