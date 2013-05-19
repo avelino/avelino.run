@@ -42,7 +42,9 @@ STATIC_PATHS = ["static"]
 
 PLUGIN_PATH = 'plugins'
 PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts',
-           'summary', 'pelican_gist']
+           'summary']
+
+#THEME = 'themes/bootstrap2'
 
 GITHUB_ACTIVITY_FEED = 'https://github.com/avelino.atom'
 SITEMAP = {
