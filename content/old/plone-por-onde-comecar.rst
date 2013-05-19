@@ -2,7 +2,7 @@ Plone, por onde começar?
 ########################
 :date: 2012-11-06 18:22
 :author: avelino
-:category: Avelino, Plone, Python
+:category: CMS
 :tags: bootstart, começar, plone, pontape inicial
 :slug: plone-por-onde-comecar
 
@@ -20,7 +20,13 @@ Por onde começa?
 Iremos usar versão **4.2.2** (*estável*) do Plone, para começa
 precisamos baixar o source do Plone e descompactar:
 
-[gist id=4027305]
+.. code-block:: bash
+
+    $ cd /tmp/
+    $ wget --no-check-certificate https://launchpad.net/plone/4.2/4.2.2/+download/Plone-4.2.2-UnifiedInstaller.tgz
+    $ tar -vxf Plone-4.2.2-UnifiedInstaller.tgz
+    $ cd Plone-4.2.2-UnifiedInstaller
+
 
 Antes de instalar o Plone precisamos instalar alguns pacote no Linux,
 como:
@@ -64,7 +70,15 @@ para trabalhar com imagem:
 -  poppler-utils
 -  python-imaging
 
-[gist id=4027365]
+.. code-block::
+
+    $ echo "Instalar biblioteca Python"
+    $ sudo aptitude install python-distribute python-dev build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev
+    $ echo "Instalar biblioteca de imagem"
+    $ sudo aptitude install libjpeg62-dev libreadline-gplv2-dev wv poppler-utils python-imaging
+    $ echo "Instalar controle de versão"
+    $ sudo aptitude install subversion git
+
 
 Após a instalação das dependências do Plone, vamos começa a realmente
 interagir com o Plone. Agora precisamos instalar o Plone, existe dois
@@ -72,17 +86,44 @@ modelo de Plone, um onde instalamos a instancia Plone e outra que
 instalamos um Cluster de ZEO (ambiente de produção que precisa isolar
 ZEO do Plone):
 
-[gist id=4027418]
+.. code-block:: bash
+
+    $ ./install.sh standalone
+
 
 No final da instalação do Plone o mesmo vai retorna algumas informações
 importante como a senha do usuário Administrador do Zope, pasta que foi
 instalado o Plone, informações para suporte (da comunidade) e etc.
 
-[gist id=4027449]
+.. code-block:: bash
 
-Agora depois do Plone instalado queremos subir um site:
+    #####################################################################
+    ######################  Installation Complete  ######################
+     
+    Plone successfully installed at /home/avelino/Plone
+    See /home/avelino/Plone/zinstance/README.html
+    for startup instructions
+     
+    Use the account information below to log into the Zope Management Interface
+    The account has full 'Manager' privileges.
 
-[gist id=4027496]
+        Username: admin
+        Password: xxxxxxx
+
+    This account is created when the object database is initialized. If you change
+    the password later (which you should!), you'll need to use the new password. 
+
+    - If you need help, ask the mailing lists or #plone on irc.freenode.net.
+    - The live support channel also exists at http://plone.org/chat
+    - You can read/post to the lists via http://plone.org/forums
+       
+    - Submit feedback and report errors at http://dev.plone.org/plone
+      (For install problems, specify component "Installer (Unified)")
+       
+    avelino@SAO-NT-01072:/tmp/Plone-4.2.2-UnifiedInstaller $
+
+    Agora depois do Plone instalado queremos subir um site:
+
 
 Temos o Zope/Plone rodando na porta **8080** liberado para todos os IP
 de sua maquina, ao acessar o endereço no
