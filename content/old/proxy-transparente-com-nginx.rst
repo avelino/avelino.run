@@ -2,7 +2,7 @@ Proxy transparente com Nginx
 ############################
 :date: 2012-08-09 13:05
 :author: avelino
-:category: Avelino, Experiência, Infra, Nginx
+:category: nginx
 :tags: nginx, proxy, router, transparente
 :slug: proxy-transparente-com-nginx
 
@@ -26,7 +26,33 @@ latencia.
 
 Vamos ao exemplo pratico:
 
-[gist id=3304942]
+.. code-block:: nginx
+
+    upstream server {
+        server 67.159.35.2;
+    }
+    server {
+        listen       80;
+        server_name  avelino.us www.avelino.us;
+        location / {
+
+            proxy_cache proxy-cache;
+            proxy_cache_key "$host$request_uri$args";
+            proxy_ignore_headers "Cache-Control" "Expires";
+            proxy_cache_min_uses 1;
+            proxy_hide_header Set-Cookie;
+            proxy_cache_valid 200 301 302 30m;
+            proxy_cache_valid any 0m;
+            proxy_buffering on;
+
+            proxy_pass http://server;
+            proxy_redirect off;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+        }
+
+    }
+
 
 Criei um "upstream server" para falar qual é o servidor de destino do
 trafego, na configuração acima tem um cache de 30 minutos pois no
