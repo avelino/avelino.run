@@ -44,8 +44,6 @@ FILES_TO_COPY = (
     ('extra/avatar.jpeg', 'theme/img/avatar.jpg'),
 )
 
-STATIC_PATHS = ["static"]
-
 PLUGIN_PATH = 'plugins'
 PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts',
            'summary']
