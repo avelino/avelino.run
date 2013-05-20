@@ -57,5 +57,5 @@ base source: \ https://github.com/avelino/dotfile/blob/master/chromium_update.s
 
 .. _Download a bleeding-edge build of Chromium for Mac!: http://download-chromium.appspot.com/dl/Mac
 
-.. |Logo Chromium| image:: /images/chromium-logo.png
-   :target: /images/chromium-logo.png
+.. |Logo Chromium| image:: /static/images/chromium-logo.png
+   :target: /static/images/chromium-logo.png
