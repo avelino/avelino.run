@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="{{ SITEURL }}/theme/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="{{ SITEURL }}/theme/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link href="{{ SITEURL }}/theme/css/github.css" rel="stylesheet" media="screen">
+    <link href="{{ SITEURL }}/theme/css/github-numbers.css" rel="stylesheet" media="screen">
+    <link href="{{ SITEURL }}/theme/css/styles.css" rel="stylesheet" media="screen">
+
+    <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css' >
+    <link href='http://fonts.googleapis.com/css?family=Cantora+One' rel='stylesheet' type='text/css'>
+
+    {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+    {% include 'analytics.html' %}
+</head>
+<body>
+    <div class="miniBio">
+        <div class="container">
+            <a class="brand" href="./index.html" title="{{ SITENAME }}"><img src="{{ SITEURL }}/theme/img/avatar.jpg" /></a>
+            <span class="miniBioText">{{ MINI_BIO }}</span>
+        </div>
+    </div>
+
+    <div class="container">
+        {% block main %}{% endblock %}
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                    <p>{{ BIO }}</p>
+                </div>
+                <div class="span4">
+                    {% if SOCIAL %}
+                        <p><strong>Say hi!</strong></p>
+                        <ul class="socialLinks">
+                            {% for name, link, icon in SOCIAL %}
+                                <li><a href="{{ link }}"><span class="symbol">{{ icon }}</span> {{ name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+</body>
+</html>

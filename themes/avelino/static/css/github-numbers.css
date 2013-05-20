@@ -1,0 +1,18 @@
+pre {
+    border: solid 1px #d9d9d9;
+    border-radius: 0;
+    background: #fff;
+    padding: 10;
+    line-height: 23px;
+    margin-bottom: 30px;
+
+    white-space: pre;
+    overflow-x: auto !important;
+    word-break: inherit;
+    word-wrap: inherit;
+}
+
+.highlighttable .linenos pre {
+    background-color: #f3f3f3;
+    border-right: none;
+}

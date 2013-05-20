@@ -1,0 +1,233 @@
+/* ===========================================================================
+ * GLOBAL STYLES
+ * ======================================================================== */
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('/theme/fonts/MonoSocialIconsFont-1.00.eot');
+    src: url('/theme/fonts/MonoSocialIconsFont-1.00.eot?#iefix') format('embedded-opentype'),
+         url('/theme/fonts/MonoSocialIconsFont-1.00.woff') format('woff'),
+         url('/theme/fonts/MonoSocialIconsFont-1.00.ttf') format('truetype'),
+         url('/theme/fonts/MonoSocialIconsFont-1.00.svg#MonoSocialIconsFont') format('svg');
+    src: url('/theme/fonts/MonoSocialIconsFont-1.00.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    font-size: 24px;
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+a {
+    color: #ce7e00;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #f2ab3c;
+    color: #2d2d2d;
+    padding: 5px 0px;
+}
+
+body {
+    background-color: #fafafa;
+    color: #2d2d2d;
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+}
+
+h2 {
+    font-family: 'Cantora One', sans-serif;
+}
+
+.light {
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+}
+
+/* ===========================================================================
+ * HEADER STYLES
+ * ======================================================================== */
+
+.miniBio {
+    background-color: #2d2d2d;
+    color: #ababab;
+    font-family: 'Helvetica', sans-serif;
+    margin: 30px 0px;
+    padding: 30px 0px;
+}
+
+.brand:hover {
+    background-color: inherit;
+}
+
+.brand img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #929292;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    margin-right: 20px;
+}
+
+/* ===========================================================================
+ * ARTICLE LIST STYLES
+ * ======================================================================== */
+
+.articleListItem {
+    border-top: 1px solid #d2d2d2;
+    padding-top: 40px;
+    margin-top: 80px;
+}
+
+.articleListItem.first {
+    border-top: none;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.articleInfo {
+    padding-top: 20px;
+}
+
+.articleTags {
+    width: 80%;
+}
+
+.articleListItem h1 {
+    font-size: 36px;
+}
+
+.articleListItem h1 a i {
+    vertical-align: middle;
+}
+
+.articleListItem h2 {
+    font-size: 18px;
+}
+
+.articleListItem h1 a {
+    color: #232323;
+}
+
+.pagination {
+    margin-top: 60px;
+}
+
+
+/* ===========================================================================
+ * DETAIL ARTICLE STYLES
+ * ======================================================================== */
+
+.articleDetailHeadline h1 {
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.articleDetailHeadline h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.articleDetailContent {
+    padding-top: 15px;
+}
+
+.articleDetailContent p {
+    text-align: justify;
+}
+
+/* ===========================================================================
+ * FOOTER STYLES
+ * ======================================================================== */
+
+.footer {
+    background-color: #cfcfcf;
+    padding: 60px 0px;
+    margin-top: 30px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.footer ul a {
+    color: #2d2d2d;
+}
+
+/* ===========================================================================
+ * RESPONSIVE STYLES
+ * ======================================================================== */
+
+@media (max-width: 767px) {
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .miniBio {
+        text-align: center;
+    }
+
+    .miniBio .brand {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .miniBio .brand img {
+        margin-right: 0px;
+    }
+
+    .miniBioText {
+        display: block;
+        padding: 0px 25px;
+    }
+
+    .articleListItem h1 {
+        font-size: 26px;
+    }
+
+    .articleDetailHeadline h1 {
+        font-size: 37px;
+        line-height: 37px;
+    }
+
+    .articleDetailHeadline h2 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

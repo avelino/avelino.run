@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="container">
+    <div class="row">
+        <div class="span12 articleDetailHeadline">
+            <h1>{{ article.title }}</h1>
+            <h2>{{ article.tagline }}</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row articleDetail">
+        <div class="span3 articleInfo light">
+            {% include "article_info.html" %}
+        </div>
+        <div class="span6 articleDetailContent">
+            {{ article.content }}
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row comments">
+        <div class="span3">&nbsp;</div>
+        <div class="span6">
+            {% include "disqus_script.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}

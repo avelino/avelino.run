@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block main %}
+{% if articles %}
+    {% for article in articles_page.object_list %}
+        <div class="row articleListItem{% if loop.first %} first{%endif %}">
+            <div class="span3 articleInfo light">
+                {% include "article_info.html" %}
+            </div>
+            <div class="span6">
+                <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}&nbsp;<i class="icon-chevron-right"></i></a></h1>
+                <h2>{{ article.tagline }}</h2>
+                <p class="text-justify">{{ article.summary }}</p>
+            </div>
+        </div>
+    {% endfor %}
+    <div class="row">
+        <div class="span3"></div>
+        <div class="span6">{% include "pagination.html" %}</div>
+    </div>
+{% else %}
+    <p>No articles, yet.</p>
+{% endif %}
+{% endblock %}

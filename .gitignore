@@ -6,3 +6,4 @@ readme.html
 license.txt
 *.pyc
 output
+*.pid
