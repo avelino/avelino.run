@@ -50,8 +50,7 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts',
            'summary']
 
-#THEME = '/Users/avelino/workspace/avelino.github.io/theme/responsive'
-THEME = 'theme'
+THEME = 'themes/avelino'
 
 GITHUB_ACTIVITY_FEED = 'https://github.com/avelino.atom'
 SITEMAP = {
