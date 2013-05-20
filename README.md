@@ -1,3 +1,4 @@
-# avelino.github.io (avelino.us)
+avelino.us
+==========
 
-Personal webblog
+My personal blog
