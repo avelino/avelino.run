@@ -8,6 +8,8 @@ SITEURL = 'http://avelino.us'
 MINI_BIO = u"Software engineer at #YACOWS. Code developer Opps, London, MongoDB. Open source development, changing the world of underwear"
 BIO = u"Is Software Engineer in YACOWS and Mathematical USP, expert development of parsers and active in the open source community with committer in projects Django, Opps CMS, MongoDB, Riak and other... With the need to process large volumes of data publishing project. Today their focus of research and development include Python, NoSQL, distributed systems, and asynchronous."
 
+STATIC_PATHS = ["images", ]
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
@@ -17,6 +19,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'rss.xml'
 CATEGORY_FEED_ATOM = 'category/%s/rss.xml'
+TAG_FEED_ATOM = 'tag/%s/rss.xml'
 
 REVERSE_CATEGORY_ORDER = True
 
@@ -45,8 +48,7 @@ FILES_TO_COPY = (
 )
 
 PLUGIN_PATH = 'plugins'
-PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts',
-           'summary']
+PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts']
 
 THEME = 'themes/avelino'
 
