@@ -27,11 +27,7 @@ configurações que eu fiz, basta rodar os seguintes comando no seu bash
     curl https://raw.github.com/avelino/.vimrc/master/bootstrap.sh -o - | sh
 
 | Após isso ele vai baixar o repositório na sua pasta ``HOME``.
-|  Recomendo o uso o VIM em GUI pois podemos chegar 256 cores, ou seja,
-colocar temas mais agradável e assim deixando o uso do ``vim`` mais
-confortável para o desenvolvimento, para Linux é o ``gvim`` e para mac o
-``macvim`` (Para mac o Björn Winckler fez um ótimo trabalho, na minha
-humilde opinião é a melhor versão do VIM via GUI).
+| Recomendo o uso o VIM em GUI pois podemos chegar 256 cores, ou seja, colocar temas mais agradável e assim deixando o uso do ``vim`` mais confortável para o desenvolvimento, para Linux é o ``gvim`` e para mac o ``macvim`` (Para mac o Björn Winckler fez um ótimo trabalho, na minha humilde opinião é a melhor versão do VIM via GUI).
 
 Chega de blablabla né, vamos logo para o que realmente interessa, como o
 ``VIM`` ficou e como utilizar ele?

@@ -27,15 +27,13 @@ Podem notar que há um ± no meio da fórmula. Pois é, é daí que irá sair
 dois resultados: um com o sinal de + e outro com o sinal de -. Veja o
 exemplo: |image1|
 
-| Neste exemplo temos os coeficientes, a=2, b= -6 e c= -20 (Muita
-atenção para os sinais)
+| Neste exemplo temos os coeficientes, a=2, b= -6 e c= -20 (Muita atenção para os sinais)
 |  Agora substituindo na fórmula de Bhaskara:
 |  |image2|
 |  |image3|
 
 | Agora chegamos no momento crucial do cáculo das raízes.
-|  Devemos separar esta conta em duas: uma com o sinal de + e a outra
-com o sinal de -. Assim:
+|  Devemos separar esta conta em duas: uma com o sinal de + e a outra com o sinal de -. Assim:
 |  |image4|
 |  |image5|
 
