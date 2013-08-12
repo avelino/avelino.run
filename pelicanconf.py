@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Thiago Avelino'
-SITENAME = u'avelino.us'
-SITEURL = 'http://avelino.us'
+SITENAME = u'avelino.xxx'
+SITEURL = 'http://avelino.xxx'
 MINI_BIO = u"Software engineer at #YACOWS. Code developer Opps, London, MongoDB. Open source development, changing the world of underwear"
 BIO = u"Is Software Engineer in YACOWS and Mathematical USP, expert development of parsers and active in the open source community with committer in projects Django, Opps CMS, MongoDB, Riak and other... With the need to process large volumes of data publishing project. Today their focus of research and development include Python, NoSQL, distributed systems, and asynchronous."
 
