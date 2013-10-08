@@ -48,7 +48,8 @@ FILES_TO_COPY = (
 )
 
 PLUGIN_PATH = 'plugins'
-PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts']
+#PLUGINS = ['assets', 'sitemap', 'github_activity', 'related_posts']
+PLUGINS = ['assets', 'sitemap', 'related_posts']
 
 THEME = 'themes/avelino'
 
