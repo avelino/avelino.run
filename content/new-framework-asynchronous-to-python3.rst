@@ -7,7 +7,7 @@ New web framework asynchronous to Python 3
 :slug: new-web-framework-asynchronous-to-python3
 
 
-.. image:: /media/nacho.jpg
+.. image:: /media/nacho.png
 
 I started a new project with the name `nacho <https://github.com/avelino/nacho>`_, asynchronous web framework for Python 3.
 
