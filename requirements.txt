@@ -1,2 +1,2 @@
+liquidluck
 -e git+git://github.com/davisp/ghp-import.git#egg=ghp-import
--e git+git://github.com/getpelican/pelican.git#egg=pelican

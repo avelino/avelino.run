@@ -34,7 +34,7 @@ nosetests.xml
 .project
 .pydevproject
 
-# Pelican
 
+deploy
 output
 *.pid
