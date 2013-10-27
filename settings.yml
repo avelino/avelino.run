@@ -8,7 +8,7 @@ config:
     output: deploy
     static: deploy/static
     static_prefix: /static/
-    permalink: "{{date.year}}/{{month_name}}/{{date.day}}/{{filename}}"
+    permalink: "{{date.year}}/{{date.month}}/{{date.day}}/{{filename}}"
     relative_url: false
     perpage: 30
     feedcount: 20
@@ -21,7 +21,7 @@ author:
 
 reader:
     active:
-        #- liquidluck.readers.markdown.MarkdownReader
+        - liquidluck.readers.markdown.MarkdownReader
         - liquidluck.readers.restructuredtext.RestructuredTextReader
 
 writer:
@@ -42,5 +42,10 @@ theme:
     name: default
 
     vars:
-        "disqus": "avelino"
-        "analytics": "UA-3063031-15"
+        disqus: "avelino"
+        analytics: "UA-3063031-15"
+        navigation:
+            - name: Home
+              link: /
+            - name: Contact
+              link: /contact/
