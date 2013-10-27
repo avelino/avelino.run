@@ -8,7 +8,7 @@ config:
     output: deploy
     static: deploy/static
     static_prefix: /static/
-    permalink: "{{date.year}}/{{date.month}}/{{date.day}}/{{filename}}"
+    permalink: "{{date.year}}/{{date.month}}/{{date.day}}/{{filename}}/"
     relative_url: false
     perpage: 30
     feedcount: 20
@@ -17,7 +17,6 @@ config:
 
 author:
     default: avelino
-    vars:
 
 reader:
     active:
