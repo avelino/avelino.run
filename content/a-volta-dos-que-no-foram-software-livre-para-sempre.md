@@ -2,7 +2,6 @@
 
 - date: 2013-10-26
 - tags: open-source, workstation, desktop
-- public: false
 
 -------
 
