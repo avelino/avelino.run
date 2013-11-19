@@ -13,10 +13,11 @@ ciencia exata (tirando 42), outro ponto prazo é uma promessa e consequentemente
 promessa tem que ser cumpridas (e você vai fazer de tudo para cumprilas), com
 isso trabalhar muito mais para cumpri o que você assumiu (prazo)
 
-Levantando conteúdo para esse blogpost achei no Quora o seguinte topico "What
-is the hardest thing you do as a software engineer?" (Qual a coisa mais difícil
-para um engenheiro de software?) e os termos que tem haver com tempo, prazo,
-horas e etc são os mais falado. 
+Levantando conteúdo para esse blogpost achei no Quora o seguinte topico ["What
+is the hardest thing you do as a software
+engineer?"](https://www.quora.com/Software-Engineering/What-is-the-hardest-thing-you-do-as-a-software-engineer)
+(Qual a coisa mais difícil para um engenheiro de software?) e os termos que
+tem haver com tempo, prazo, horas e etc são os mais falado. 
 
 Sou engenheiro de software a mais de 7 anos de experiência passando por
 diversas empresas, mercados, equipes é que praticamente todo engenheiro de
