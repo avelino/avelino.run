@@ -2,7 +2,6 @@
 
 - date: 2013-11-19
 - tags: opinioes, agile, software
-- public: false
 
 -------
 
