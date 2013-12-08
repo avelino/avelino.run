@@ -7,6 +7,8 @@
 VIM muito além do editor de texto de console!
 -------
 
+![Corretor Ortográfico dentro do VIM](/media/vim-libreoffice-vero.png)
+
 Desde 2007 escrevo aqui no meu blog, com isso já passei por diversas plataforma
 de blog (Blogspot, Wordpress, Django, [Django
 Diario](https://bitbucket.org/semente/django-diario),
