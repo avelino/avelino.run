@@ -3,4 +3,8 @@ github:
 	ghp-import deploy
 	git push origin gh-pages
 
-.PHONY: github
+run:
+	liquidluck build -v
+	liquidluck server
+
+.PHONY: github run
