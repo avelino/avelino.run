@@ -47,4 +47,6 @@ theme:
             - name: Home
               link: /
             - name: Contact
-              link: /contact/
+              link: /contact.html
+            - name: Treinamentos
+              link: /treinamentos.html
