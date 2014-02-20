@@ -2,7 +2,7 @@ New web framework asynchronous to Python 3
 ##########################################
 :date: 2013-08-11 02:09
 :author: avelino
-:category: Python
+:category: Python-EN
 :tags: python, python-en, nacho, async, framework
 :slug: new-web-framework-asynchronous-to-python3
 
