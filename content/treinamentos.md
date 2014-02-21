@@ -1,5 +1,6 @@
 # Treinamentos
 
+- author: avelino
 - tags: treinamento, curso, python, go, django, tornado, bi, pentaho, openmining
 
 ----------------

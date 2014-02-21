@@ -1,5 +1,6 @@
 # Treinamento ONLINE de BI (Business Inteligence) com Pentaho
 
+- author: avelino
 - tags: treinamento, curso, bi, pentaho, business, inteligence
 
 ----------------
