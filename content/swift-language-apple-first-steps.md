@@ -21,7 +21,7 @@ Apple offers a free comprehensive guide on language in
 [iBook](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11) formats.
 
 
-1. We can put zero left freely to improve readability, insert _ to separate groups
+* We can put zero left freely to improve readability, insert _ to separate groups
 of numbers and add the + in front. That server to improve readability of the
 program (does not alter the value of the number):
 
@@ -36,10 +36,10 @@ let b = 0.000_000_1
 ```
 
 
-2. Practical numerical ranges: `0..5` and `0...5` (Ruby)
+* Practical numerical ranges: `0..5` and `0...5` (Ruby)
 
 
-3. Unicode variables:
+* Unicode variables:
 
 
 ```ruby
@@ -47,7 +47,7 @@ let π = 3.1415926
 ```
 
 
-4. Tween strings (expand variables and expressions inside strings):
+* Tween strings (expand variables and expressions inside strings):
 
 
 ```ruby
@@ -57,20 +57,20 @@ println "Hi, my name \(name), 'm \(year) years."
 ```
 
 
-5. Few functions/methods native to strings works:
+* Few functions/methods native to strings works:
 
-- hasPrefix
-- hasSuffix
-- uppercaseString
-- lowercaseString
-- countElements
-- isEmpty
-
-
-6. Not have regular expressions
+* * hasPrefix
+* * hasSuffix
+* * uppercaseString
+* * lowercaseString
+* * countElements
+* * isEmpty
 
 
-7. Ternary operators: `(condition ? yes : no)`
+* Not have regular expressions
+
+
+* Ternary operators: `(condition ? yes : no)`
 
 
 I liked the language, as 'm used to not bother me Go explicit types, lack of
