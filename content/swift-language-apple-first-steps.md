@@ -3,7 +3,7 @@
 - date: 2014-06-04 01:00
 - author: avelino
 - category: swift
-- tags: swift, lang, python, ruby
+- tags: swift, apple, lang, python, ruby
 - slug: swift-language-apple-first-steps
 
 -------
