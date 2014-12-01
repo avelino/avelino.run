@@ -8,7 +8,7 @@
 
 -------
 
-This blogpost is baseano in a lecture I presented here in Brazil, follows the [slides](https://speakerdeck.com/avelino/bottle-o-full-stack-sem-django)!
+This blogpost is based in a lecture I presented here in Brazil, follows the [slides](https://speakerdeck.com/avelino/bottle-o-full-stack-sem-django)!
 
 
 ![Bottle micro framework web](/media/bottle.png)
