@@ -1,7 +1,7 @@
 github:
 	liquidluck build -v
-	ghp-import deploy
-	git push origin master -f
+	ghp-import -b master deploy
+	git push origin master
 
 run:
 	liquidluck build -v
