@@ -12,7 +12,7 @@
 
 Developing python application using minimalist frameworks has become frequent in the Python community, for no reasons not to speak here. I see this change as a professional development where developers want to choose what is best for your application, simply use what little hide a group *(of pearls, or not**)* that is better.
 
-Along with this evolution brings vices of many developers other frameworks (and/or technology), this can be a problem at the time of the taking of descisao of which Python web framework to use.
+Along with this evolution brings vices of many developers other frameworks (and/or technology), this can be a problem at the time of the taking of decision of which Python web framework to use.
 
 I am a member of the team that keeps the [Bottle Framework](http://bottlepy.org/) and thinking of a better acceptance of the framework decided to create the **[bottle-boilerplate](https://github.com/avelino/bottle-boilerplate)**, a project that creates a scaffold using the structure of the bottle and its best practices on top of design pattern [MVC](https://en.wikipedia.org/wiki/Model-view-controller), thus simplifying the bootstrap starting a web application.
 
