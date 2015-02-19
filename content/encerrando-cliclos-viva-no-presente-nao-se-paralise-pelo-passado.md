@@ -10,7 +10,7 @@
 
 ![Momento de reflexão, são extremamente importantes](/media/meditacao.jpg)
 
-Nós da área de tecnologia passamos muito por encerramento de ciclos, resolvi escrever um blogpost não técnico para retratar alguns pontos importantes na hora de fecharmos nossos ciclos. Não estou escrevendo uma ciência exata, acho extremamente importante após ler o blogpost você pare para pensar o que acha certo ou errado, e cinta-se livre para comentar.
+Nós da área de tecnologia passamos muito por encerramento de ciclos, resolvi escrever um blogpost não técnico para retratar alguns pontos importantes na hora de fecharmos nossos ciclos. Não estou escrevendo uma ciência exata, acho extremamente importante após ler o blogpost você pare para pensar o que acha certo ou errado, e sinta-se livre para comentar.
 
 Sempre é preciso saber quando uma etapa chega ao final. Se insistirmos em permanecer nela mais do que o tempo necessário, perdemos a alegria e o sentido das outras etapas que precisamos viver. Encerrando ciclos, fechando portas, terminando capítulos - não importa o nome que damos, o que importa é deixar no passado os momentos da vida que já se acabaram.
 
