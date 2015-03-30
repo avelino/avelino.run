@@ -1,6 +1,6 @@
 # Church Vim
 
-- date: 2015-03-30 14:00
+- date: 2015-03-30 13:20
 - author: avelino
 - tags: saint, vim, church, editor
 
