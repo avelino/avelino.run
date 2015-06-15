@@ -15,7 +15,7 @@ Para quem não me conhece eu tive uma startup durante um tempo e ela foi comprad
 ## Porque eu prometi isso para mim?
 
 Empreender não é um processo simples, não existe mar de rosas no caminho do empreendedor e como tudo temos altas e baixas (e por sinal mais baixa do que alta).
-Eu fui sócio do [Christiano Anderson](https://twitter.com/dump) durante um tempo e ele foi e ainda é uma inspiração para mim como desenvolvedor e empreendedor, passavas horas e horas tomando cerveja com ele entendendo algumas tomadas de decisão na vida dele e isso me fez ter ele como uma referência (e por sinal uma ótima referência).
+Eu fui sócio do [Christiano Anderson](https://twitter.com/dump) durante um tempo e ele foi e ainda é uma inspiração para mim como desenvolvedor e empreendedor, passava horas e horas tomando cerveja com ele entendendo algumas tomadas de decisão na vida dele e isso me fez ter ele como uma referência (e por sinal uma ótima referência).
 Voltando ao motivo, antes de vender à startup meu filho tinha nascido e empreender com uma criança recém-nascida foi um processo complicado, esposa precisando de atenção (mais do que o comum) e eu tendo que desenvolver solução para melhor atender os clientes, nessa fase logicamente que foi uma fase de baixa (poucos clientes). Como em muitos casos não tínhamos planejado ter filho, mas que venha com saúde.
 
 
