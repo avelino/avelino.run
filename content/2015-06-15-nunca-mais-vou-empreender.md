@@ -32,9 +32,9 @@ Logicamente que não fiquei muito tempo nessa vida e resolvi procurar outra opor
 
 Isso fez eu refletir alguns meses e juntar com uma grande vontade que tinha que era sair da Capital e ir morar no interior. Após convence a esposa foi hora de procurar Cidade e casa. Lembrei do Cadu que tinha comentado e convidado de eu de vir morar no Vale do Paraíba quando estava trabalhando remoto. E escolhei uma cidade mais tranquilo que SJC para morar com minha família (Caçapava, e viva a Taiada).
 
-Sim vamos viver de samba, após 1 mês morando no Vale e empreendendo o samba fez eu literalmente sambar, a empresa que mantinha o fluxo do caixa do samba resolveu aplicar algumas regras que fez o samba não consegui sacar o dinheiro que estava rendendo, sem eu pensar estava novamente empreendendo.
+Sim vamos viver de samba, após 1 mês morando no Vale e empreendendo, o samba me fez sambar, a empresa que mantinha o fluxo do caixa do samba resolveu aplicar algumas regras, que fez o samba não consegui sacar o dinheiro que estava rendendo, sem eu pensar estava novamente empreendendo.
 
-Após isso acontecer eu comecei pensar que tinha feito a pior escolha da minha vida em ter saído da Capital e ter vindo morar no Vale, eu não tinha ligado o nome Vale do Paraíba com Vale do Silício. Sim o Vale do Paraíba respira empreendedorismo, principalmente dentro do Parque Tecnológico de SJC. Onde fez eu retomar meu espírito empreendedor e começa novamente empreender.
+Após isso acontecer, comecei pensar que tinha feito a pior escolha da minha vida em ter saído da Capital e vindo morar no Vale, eu não tinha ligado o nome Vale do Paraíba com Vale do Silício. Sim o Vale do Paraíba respira empreendedorismo, principalmente dentro do Parque Tecnológico de SJC. Onde fez eu retomar meu espírito empreendedor e começa novamente empreender.
 
 Hoje posso afirma que empreender é viver novas experiências todos os dias e tirar energia de onde você meno espera.
 
