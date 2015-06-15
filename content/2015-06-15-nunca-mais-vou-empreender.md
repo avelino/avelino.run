@@ -1,6 +1,6 @@
 # Eu nunca mais vou empreender
 
-- date: 2015-06-15 10:00
+- date: 2015-06-15 09:00
 - author: avelino
 - category: Empreender
 - tags: empreender, empreendimento, nunca-mais, ideias, autoconhecimento, auto-evolucao
