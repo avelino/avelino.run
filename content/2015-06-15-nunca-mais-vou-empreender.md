@@ -28,9 +28,9 @@ Logicamente que não fiquei muito tempo nessa vida e resolvi procurar outra opor
 
 ## A volta para os empreendedorismos…
 
-"Porque você trabalha para os outros ainda? Você não consegue viver da renda do samba (site de conteúdo adulto, link para +18)?"
+"Porque você trabalha para os outros ainda? Você não consegue viver da renda do samba (site de conteúdo adulto, [link para +18](http://www.sambaporno.com/))?"
 
-Isso fez eu refletir alguns meses e juntar com uma grande vontade que tinha que era sair da Capital e ir morar no interior. Após convence a esposa foi hora de procurar Cidade e casa. Lembrei do Cadu que tinha comentado e convidado de eu de vir morar no Vale do Paraíba quando estava trabalhando remoto. E escolhei uma cidade mais tranquilo que SJC para morar com minha família (Caçapava, e viva a Taiada).
+Isso fez eu refletir alguns meses e juntar com uma grande vontade que tinha que era sair da Capital e ir morar no interior. Após convence a esposa foi hora de procurar cidade e casa. Lembrei do Cadu que tinha comentado e convidado de eu de vir morar no Vale do Paraíba quando estava trabalhando remoto. Escolhi uma cidade tranquila próximo de SJC para morar com minha família (Caçapava, e viva a Taiada).
 
 Sim vamos viver de samba, após 1 mês morando no Vale e empreendendo, o samba me fez sambar, a empresa que mantinha o fluxo do caixa do samba resolveu aplicar algumas regras, que fez o samba não consegui sacar o dinheiro que estava rendendo, sem eu pensar estava novamente empreendendo.
 
