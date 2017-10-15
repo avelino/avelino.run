@@ -7,4 +7,4 @@ echo "Generating site"
 hugo
 
 echo "Updating master branch"
-git checkout master && mv public/* . && git add --all && git commit -m "Publishing to master (publish.sh)"
+git checkout master && mv public/* . && git add . && git commit -m "Publishing to master (publish.sh)"
