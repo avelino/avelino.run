@@ -1,0 +1,41 @@
+<div class="container"><!-- Begin Projects container -->
+<h2 class="title is-2 has-text-centered">Projects</h2>
+
+<div class="columns is-mobile">
+
+    <div class="column has-text-centered">
+      <div class="thumbnail">
+        <a href="{{ .Site.Params.project1link }}">{{ if .Site.Params.project1img }}<img class="img-responsive" src="/{{ .Site.Params.project1img }}" alt="{{ .Site.Params.project1title }}"></a>{{ end }}
+      </div>
+      <div class="thumbnail"><div class="project-desc">{{ .Site.Params.project1desc }}</div>
+      </div>
+    </div>
+
+    <div class="column has-text-centered">
+      <div class="thumbnail">
+        <a href="{{ .Site.Params.project2link }}">{{ if .Site.Params.project2img }}<img class="img-responsive" src="/{{ .Site.Params.project2img }}" alt="{{ .Site.Params.project2title }}"></a>{{ end }}
+      </div>
+      <div class="thumbnail"><div class="project-desc">{{ .Site.Params.project2desc }}</div>
+      </div>
+    </div>
+
+    <div class="column has-text-centered">
+      <div class="thumbnail">
+        <a href="{{ .Site.Params.project3link }}">{{ if .Site.Params.project3img }}<img class="img-responsive" src="/{{ .Site.Params.project3img }}" alt="{{ .Site.Params.project3title }}"></a>{{ end }}
+      </div>
+      <div class="thumbnail"><div class="project-desc">{{ .Site.Params.project3desc }}</div>
+      </div>
+    </div>
+
+    <div class="column has-text-centered">
+      <div class="thumbnail">
+        <a href="{{ .Site.Params.project4link }}">{{ if .Site.Params.project4img }}<img class="img-responsive" src="/{{ .Site.Params.project4img }}" alt="{{ .Site.Params.project4title }}"></a>{{ end }}
+      </div>
+      <div class="thumbnail"><div class="project-desc">{{ .Site.Params.project4desc }}</div>
+      </div>
+    </div>
+
+</div>
+</div><!-- End Projects container -->
+
+<div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>

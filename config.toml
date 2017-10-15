@@ -1,0 +1,56 @@
+baseURL = "https://avelino.xxx/"
+languageCode = "en-us"
+title = "Avelino"
+theme = "introduction"
+
+[permalinks]
+fixed = ":title/"
+blog  = ":slug"
+
+[params]
+author = "Avelino"
+firstname = "Avelino"
+tagline = "Golang (Gopher), Neural Network, Artificial Intelligence"
+avatar = "img/author.jpg"
+dateform = "Jan 2, 2006"
+dateformfull = "Mon January 2 2006"
+cachebuster = true
+description = "Avelino's home page"
+# faviconfile = "img/fav.ico"
+highlightjs = true
+lang = "en"
+footertext = "written by avelino"
+
+# Social icons appear in introduction and contact section. Input your username only, eg "you" as it appears in "twitter.com/you"
+linkedin      = "avelino0/"
+twitter       = "avelino0"
+github        = "avelino"
+# googleplus    = "thiagoavelino"
+# facebook      = "avelino0"
+
+showblog        = true # Show Blog section on home page
+showallposts    = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+showlatest      = true # Show latest blog post summary
+sharebuttons    = true # On post pages, show share this social buttons
+showprojects    = true # Show Projects section on home page
+
+# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
+project1link    = "https://vim-bootstrap.com/"
+project1img     = "img/vimbootstrap.png"
+project1title   = "Vim Bootstrap"
+project1desc    = "A generator which provides a simple method of generating a .vimrc configuration for vim"
+
+project2link    = "https://awesome-go.com/"
+project2img     = "img/awesomego.png"
+project2title   = "Awesome Go"
+project2desc    = "A curated list of awesome Go frameworks, libraries and software"
+
+project3link    = "https://cover.run/"
+project3img     = "img/coverrun.png"
+project3title   = "cover.run"
+project3desc    = "A code coverage of any golang package as a service"
+
+project4link    = "https://www.youtube.com/channel/UCZCoLtEGz3MdvxgFhbdZ-QA/featured"
+project4img     = "img/tad.png"
+project4title   = "Test After Deploy"
+project4desc    = "YouTube channel on software development (and its ecosystem)"

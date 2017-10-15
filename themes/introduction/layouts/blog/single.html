@@ -1,0 +1,83 @@
+{{ partial "header.html" . }}
+
+<div class="section" id="top"><!-- Parent section -->
+
+    {{ partial "navigation.html" . }}
+
+<!-- Everything below fades in two! -->
+<div class="section fade-in two">
+
+    <div class="container"><!-- Begin Nav bar -->
+
+
+    </div><!-- End Nav bar -->
+
+    <div class="container fade-in two"><!-- Begin blog title container -->
+        <h2 class="title is-1 top-pad strong-post-title">{{ .Title }}</h2>
+            <div class="post-data">
+                {{ .Date.Format .Site.Params.dateform }} |
+                {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}
+            </div>
+            
+            {{ if .Site.Params.sharebuttons }}
+                <div class="blog-share">
+                Share this:
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20{{ .Title }}%20{{ .Permalink }}"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}{{ if .Params.pinterestmedia }}&amp;media={{ .Site.BaseURL }}{{ .Params.pinterestmedia }}{{ end }}&amp;description={{ .Title | safeHTML}}"
+                onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+                <i class="fa fa-pinterest"></i>
+                <span class="hidden">Pinterest</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url={{ .Permalink }}"
+                onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <i class="fa fa-linkedin"></i>
+                <span class="hidden">Google+</span>
+                </a>
+                </div>
+            {{ end }}
+            
+    </div><!-- End blog title container -->
+
+    <div class="container markdown fade-in two top-pad"><!-- Begin blog post content -->
+        {{ .Content }}
+    </div><!-- End blog post content -->
+            
+    <div class="disqus">
+        {{ template "_internal/disqus.html" . }}
+    </div>
+
+<div class="container has-text-centered top-pad">
+<hr>
+<a href="{{ .Permalink }}#top">TOP</a>
+<hr>
+</div>
+
+{{ partial "footer.html" . }}
+</div><!-- End fade in two -->
+</div><!-- End parent section -->
+
+<!-- Cool scroll effect from this guy: https://gist.github.com/flesler/ -->
+<!-- Include jQuery from somewhere, must use version 1.8 or above -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include latest jquery.scrollTo, can download from https://github.com/flesler/jquery.scrollTo/releases -->
+<script type="application/javascript" src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+<!-- Initialize the plugin, the contents of the script can be inlined here, of course -->
+<script>
+  // Bind to the click of all links with a #hash in the href
+  $('a[href^="{{ .Permalink }}#"]').click(function(e) {
+    // Prevent the jump and the #hash from appearing on the address bar
+    e.preventDefault();
+    // Scroll the window, stop any previous animation, stop on user manual scroll
+    // Check https://github.com/flesler/jquery.scrollTo for more customizability
+    $(window).stop(true).scrollTo(this.hash, {duration:500, interrupt:false});
+  });
+  </script>
