@@ -54,3 +54,7 @@ project4link    = "https://www.youtube.com/channel/UCZCoLtEGz3MdvxgFhbdZ-QA/feat
 project4img     = "img/tad.png"
 project4title   = "Test After Deploy"
 project4desc    = "YouTube channel on software development (and its ecosystem)"
+
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
