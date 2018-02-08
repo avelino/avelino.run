@@ -10,4 +10,4 @@ mathematician formed at [IME-USP](https://www.ime.usp.br/).
 Work day-to-day with **artificial intelligence, neural network and
 computer vision**. With the need to process large dataset its focus of
 research and development include **distributed systems, competition,
-Golang and Python**.
+Lisp, Golang and Python**.
