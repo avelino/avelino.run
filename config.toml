@@ -20,6 +20,7 @@ description = "Avelino's home page"
 highlightjs = true
 lang = "en"
 footertext = "written by avelino"
+googleAnalytics = "UA-3063031-15"
 
 # Social icons appear in introduction and contact section. Input your username only, eg "you" as it appears in "twitter.com/you"
 linkedin      = "avelino0/"
