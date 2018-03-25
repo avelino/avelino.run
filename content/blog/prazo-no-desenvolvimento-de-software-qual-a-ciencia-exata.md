@@ -1,11 +1,10 @@
-# Prazo no desenvolvimento de software, qual é a ciência exata?
++++
+date = "2013-11-19"
+title = "Prazo no desenvolvimento de software, qual é a ciência exata?"
+tags = "opinioes, agile, software"
++++
 
-- date: 2013-11-19
-- tags: opinioes, agile, software
-
--------
-
-![Pensando igual macaco](/media/macaco-pensando-tragarte.jpg)
+![Pensando igual macaco](/macaco-pensando-tragarte.jpg#center)
 
 Falar de prazo é uma tarefa muito complicada hoje e sempre, pois não existe uma
 ciência exata (tirando 42), outro ponto que prazo é uma promessa e consequentemente
@@ -16,7 +15,7 @@ Levantando conteúdo para esse blogpost achei no Quora o seguinte topico ["What
 is the hardest thing you do as a software
 engineer?"](https://www.quora.com/Software-Engineering/What-is-the-hardest-thing-you-do-as-a-software-engineer)
 (Qual a coisa mais difícil para um engenheiro de software?) e os termos que
-tem haver com tempo, prazo, horas e etc são os mais falado. 
+tem haver com tempo, prazo, horas e etc são os mais falado.
 
 Sou engenheiro de software a mais de 7 anos de experiência passando por
 diversas empresas, mercados, equipes, é que praticamente todo engenheiro de
