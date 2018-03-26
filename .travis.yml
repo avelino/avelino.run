@@ -12,12 +12,6 @@ branches:
   only:
     - source
 
-env:
-  global:
-    - SOURCE_DIR="public"
-    - BUILD_BRANCH="source"
-    - DEPLOY_BRANCH="master"
-
 install:
   - go get -u -v github.com/spf13/hugo
 
@@ -25,8 +19,10 @@ script:
   - hugo
 
 deploy:
-  - provider: pages
-    edge: true
-    github_token: ${GITHUB_TOKEN}
-    local_dir: public
-    skip_cleanup: true
+  provider: pages
+  skip_cleanup: true
+  github_token: ${GITHUB_TOKEN}
+  local-dir: public
+  target-branch: master
+  on:
+    branch: source
