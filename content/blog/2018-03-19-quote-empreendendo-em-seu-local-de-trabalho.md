@@ -6,7 +6,7 @@ tags = "empreender, empreendedorismo, pensamento, quote"
 
 ![Mente empreendedora](/mente.jpg#center)
 
-Em 2014 palestrei em alguns evendo falando sobre **Empreender em seu local de trabalho**, muitas pessoas pensa que empreender é abrir uma empresa (ter CNPJ) e cuidar de questões burocraticas de ter uma empresa (contabilidade, fluxo de caixa e blá blá blá), mas na real oque é empreender?
+Em 2014 palestrei em alguns evendo falando sobre **Empreender em seu local de trabalho**, muitas pessoas pensam que empreender é abrir uma empresa (ter CNPJ) e cuidar de questões burocraticas de ter uma empresa (contabilidade, fluxo de caixa e blá blá blá), mas na real o que é empreender?
 
 {{< speakerdeck 9951aee0382e0132d1604297f98471b0 >}}
 
