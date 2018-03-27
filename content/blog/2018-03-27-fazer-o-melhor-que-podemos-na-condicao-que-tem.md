@@ -6,7 +6,7 @@ tags = "monja coen, budismo, quote"
 
 ![Monja Coen](/monja-coen.jpg#center)
 
-Esta fazendo o possivel ou o melhor? Se *você* (ou **eu**) podendo fazer o meu melhor me contato com o possível cairemos em um lugar chamado **mediocridade**
+Esta fazendo o possível ou o melhor? Se *você* (ou **eu**) podendo fazer o meu melhor me contato com o possível cairemos em um lugar chamado **mediocridade**
 
 ## Medíocre
 
