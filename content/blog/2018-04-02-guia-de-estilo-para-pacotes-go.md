@@ -8,9 +8,9 @@ Tradução do blogpost [Style guideline for Go packages](https://rakyll.org/styl
 
 ![One code style to rule all](/one-code-style-to-rule-all.jpg#center)
 
-Código organizado em Go é fácil de entender, usar e ler. A falta de organização em código Go é tão crítico quanto as APIs má projetadas. Os diretorios, nome e a estrutura dos seus pacotes são os primeiros elementos com os quais os utilizadores vêem e interagem.
+Código organizado em Go é fácil de entender, usar e ler. A falta de organização em código Go é tão crítico quanto as APIs má projetadas. Os diretórios, nome e a estrutura dos seus pacotes são os primeiros elementos com os quais os utilizadores vêem e interagem.
 
-O objetivo deste blogpost é ajudá-lo com boas práticas comuns para não definir egras ruim. Você deve sempre usar o seu julgamento para escolhe a solução mais elegante para sua implementação.
+O objetivo deste blogpost é ajudá-lo com boas práticas comuns para não definir regras ruim. Você deve sempre usar o seu julgamento para escolhe a solução mais elegante para sua implementação.
 
 
 ## Pacotes
