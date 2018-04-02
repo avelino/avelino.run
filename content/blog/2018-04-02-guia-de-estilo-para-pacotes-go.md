@@ -4,7 +4,7 @@ title = "Guia de estilo para pacotes Go"
 tags = "golang, style guide, guia de estilo, packages, pacotes"
 +++
 
-Trandução do blogpost [Style guideline for Go packages](https://rakyll.org/style-packages/) escrito pela [@rakyll](https://twitter.com/rakyll).
+Tradução do blogpost [Style guideline for Go packages](https://rakyll.org/style-packages/) escrito pela [@rakyll](https://twitter.com/rakyll).
 
 ![One code style to rule all](/one-code-style-to-rule-all.jpg#center)
 
