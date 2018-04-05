@@ -1,4 +1,4 @@
-baseURL = "https://avelino.xxx/"
+baseURL = "http://avelino.xxx/"
 languageCode = "en-us"
 title = "Avelino"
 theme = "sarah"
