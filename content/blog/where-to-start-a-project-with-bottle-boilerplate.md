@@ -1,7 +1,7 @@
 +++
 date = "2015-02-08"
 title = "Where to start a project with bottle, Boilerplate"
-tags = "python, bottle, boilerplate, framework, startproject"
+tags = ["python", "bottle", "boilerplate", "framework", "startproject"]
 aliases = ["/2015/02/where-to-start-a-project-with-bottle-boilerplate"]
 +++
 

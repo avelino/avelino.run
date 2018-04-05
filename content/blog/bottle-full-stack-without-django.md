@@ -1,7 +1,7 @@
 +++
 date = "2014-12-01"
 title = "Bottle, full stack without Django"
-tags = "bottle, python, framework, django, full-stack"
+tags = ["bottle", "python", "framework", "django", "full-stack"]
 aliases = ["/2014/12/bottle-full-stack-without-django"]
 +++
 

@@ -1,7 +1,7 @@
 +++
 date = "2013-10-26"
 title = "A volta dos que nao foram, software livre para sempre"
-tags = "open-source, workstation, desktop"
+tags = ["open-source", "workstation", "desktop"]
 aliases = ["/2013/10/a-volta-dos-que-no-foram-software-livre-para-sempre"]
 +++
 

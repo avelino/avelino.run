@@ -1,7 +1,7 @@
 +++
 date = "2018-03-27"
 title = "Fazer o melhor que podemos na condição que tem - Monja Coen"
-tags = "monja coen, budismo, quote"
+tags = ["monja coen", "budismo", "quote"]
 +++
 
 ![Monja Coen](/monja-coen.jpg#center)

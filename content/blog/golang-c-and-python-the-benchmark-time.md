@@ -1,7 +1,7 @@
 +++
 date = "2014-03-06"
 title = "Golang, C and Python the benchmark time"
-tags = "golang, c, python, benchmark"
+tags = ["golang", "c", "python", "benchmark"]
 aliases = ["/2014/03/golang-c-and-python-the-benchmark-time"]
 +++
 

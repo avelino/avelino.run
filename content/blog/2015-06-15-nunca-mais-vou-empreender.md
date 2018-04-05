@@ -1,7 +1,7 @@
 +++
 date = "2015-06-15"
 title = "Eu nunca mais vou empreender"
-tags = "empreender, empreendimento, nunca-mais, ideias, autoconhecimento, auto-evolucao"
+tags = ["empreender", "empreendimento", "nunca-mais", "ideias", "autoconhecimento", "auto-evolucao"]
 aliases = ["/2015/06/2015-06-15-nunca-mais-vou-empreender"]
 +++
 

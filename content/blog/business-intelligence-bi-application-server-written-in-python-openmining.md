@@ -1,7 +1,7 @@
 +++
 date = "2014-02-21"
 title = "Business Intelligence (BI) Application Server written in Python"
-tags = "bi, business, intelligence, python, python-en, application, tornado"
+tags = ["bi", "business", "intelligence", "python", "python-en", "application", "tornado"]
 aliases = ["/2014/02/business-intelligence-bi-application-server-written-in-python-openmining"]
 +++
 

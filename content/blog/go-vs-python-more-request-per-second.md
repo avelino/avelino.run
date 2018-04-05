@@ -1,7 +1,7 @@
 +++
 date = "2015-01-17"
 title = "Go vs Python more request per second"
-tags = "go, python, benchmark"
+tags = ["go", "python", "benchmark"]
 aliases = ["/2015/01/go-vs-python-more-request-per-second"]
 +++
 

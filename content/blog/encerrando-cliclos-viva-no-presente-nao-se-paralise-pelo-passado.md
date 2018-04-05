@@ -1,7 +1,7 @@
 +++
 date = "2015-02-15"
 title = "Encerrando Ciclos, viva no presente, não se paralise pelo passado"
-tags = "ciclos, presente, passado, futuro, reflexao, meditacao"
+tags = ["ciclos", "presente", "passado", "futuro", "reflexao", "meditacao"]
 aliases = ["/2015/02/encerrando-cliclos-viva-no-presente-nao-se-paralise-pelo-passado"]
 +++
 

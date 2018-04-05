@@ -1,7 +1,7 @@
 +++
 date = "2013-11-19"
 title = "Prazo no desenvolvimento de software, qual é a ciência exata?"
-tags = "opinioes, agile, software"
+tags = ["opinioes", "agile", "software"]
 +++
 
 ![Pensando igual macaco](/macaco-pensando-tragarte.jpg#center)

@@ -1,7 +1,7 @@
 +++
 date = "2014-06-04"
 title = "Swift Language (Apple) first steps"
-tags = "swift, apple, lang, python, ruby"
+tags = ["swift", "apple", "lang", "python", "ruby"]
 aliases = ["/2014/06/swift-language-apple-first-steps"]
 +++
 

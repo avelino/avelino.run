@@ -1,7 +1,7 @@
 +++
 date = "2018-04-02"
 title = "Guia de estilo para pacotes Go"
-tags = "golang, style guide, guia de estilo, packages, pacotes"
+tags = ["golang", "style guide", "guia de estilo", "packages", "pacotes"]
 +++
 
 Tradução do blogpost [Style guideline for Go packages](https://rakyll.org/style-packages/) escrito pela [@rakyll](https://twitter.com/rakyll).
@@ -55,7 +55,7 @@ A linguagem Go não restrige onde você deve definir os tipos, uma boa prática 
 
 Uma prática comum de outros linguagens é organizar tipos juntos em um pacote chamado *modelos* (ou algum nome nessa linha). Em Go, nós organizamos o código por suas responsabilidades funcionais.
 
-```wrong
+```go
 package models // DON'T DO IT!!!
 
 // User represents a user in the system.
@@ -124,7 +124,7 @@ Os nomes dos pacotes devem ser **curtos**, mas devem ser **exclusivos** e **repr
 
 Evite nomes de pacotes demasiado amplos como "common" e "util".
 
-```wrong
+```go
 import "pkgs.org/common" // DON'T!!!
 ```
 
@@ -136,7 +136,7 @@ Se você não pode evitar um nome ruim, é muito provável que haja um problema 
 
 Evite expor sua estrutura de repositório personalizada aos usuários. Alinhar bem com as convenções `GOPATH`. Evite ter `src/`, `pkg/` e etc, no caminho da importação.
 
-```wrong
+```go
 github.com/user/repo/src/httputil   // DON'T DO IT, AVOID SRC!!
 
 github.com/user/repo/gosrc/httputil // DON'T DO IT, AVOID GOSRC!!
@@ -146,7 +146,7 @@ github.com/user/repo/gosrc/httputil // DON'T DO IT, AVOID GOSRC!!
 
 Em Go, os nomes dos pacotes não são plurais. Isso é surpreendente para os programadores que vieram de outras linguagens e estão retendo um velho hábito de pluralização de nomes. Não use nome do pacote `httputils`, mas `httputil`!
 
-```wrong
+```go
 package httputils  // DON'T DO IT, USE SINGULAR FORM!!
 ```
 

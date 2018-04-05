@@ -1,7 +1,7 @@
 +++
 date = "2015-03-30"
 title = "Church Vim"
-tags = "saint, vim, church, editor"
+tags = ["saint", "vim", "church", "editor"]
 aliases = ["/2015/03/church-vim"]
 +++
 

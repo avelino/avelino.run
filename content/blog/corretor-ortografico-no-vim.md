@@ -1,7 +1,7 @@
 +++
 date = "2013-12-07"
 title = "Corretor Ortográfico no VIM"
-tags = "open-source, vim, libreoffice, vero"
+tags = ["open-source", "vim", "libreoffice", "vero"]
 aliases = ["/2013/12/corretor-ortografico-no-vim"]
 +++
 
