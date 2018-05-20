@@ -19,3 +19,5 @@ Desacelerar seus pensamentos te trará clareza de quais realmente são suas pri
 E à partir desse nível de clareza, naturalmente você terá mais foco. E com foco, seu nível de ansiedade e stress será completamente diferente. E o resultado final?
 
 Mais qualidade de vida para você e todos que estão ao seu redor.
+
+{{< tweet 998140201095585792 >}}
