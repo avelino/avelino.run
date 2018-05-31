@@ -17,3 +17,13 @@ Many who did not seek the **"history"** thinks:
 We have strong influence of **Lisp**, **C#** and **Java** languages, well-consolidated languages what trans security for you to use in your projects!
 
 [(Understand more about!)](https://groups.google.com/forum/#!msg/clojure/4uDxeOS8pwY/UHiYp7p1a3YJ)
+
+## Learn Clojure links
+
+- [Clojure by example](https://kimh.github.io/clojure-by-example/)
+- [Clojure from the ground up](https://aphyr.com/tags/Clojure-from-the-ground-up)
+- [Brave Clojure](https://www.braveclojure.com/) - become a better programmer
+- [Programming Clojure](https://pragprog.com/titles/shcloj/programming-clojure)
+- [Clojure Cheatsheet](https://clojure.org/api/cheatsheet)
+- [Clojure Guides](https://clojure.org/guides/getting_started) - getting started
+- [About more LISP History (pt-BR sorry)](http://avelino.xxx/historia-do-lisp-abra-os-olhos-para-programacao-funcional/)
