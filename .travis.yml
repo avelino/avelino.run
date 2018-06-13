@@ -11,6 +11,8 @@ git:
 branches:
   only:
     - source
+  except:
+    - master
 
 install:
   - go get -u -v github.com/spf13/hugo
