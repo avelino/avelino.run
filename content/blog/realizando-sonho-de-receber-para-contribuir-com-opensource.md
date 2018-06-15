@@ -18,8 +18,8 @@ Em um primeiro momento sim, mas como qualquer sonho nem tudo é previsível (pri
 
 Quando você contribui com qualquer projeto (principalmente open source), dedica algumas horas (dias, meses e até mesmo anos) do seu tempo para entendê-lo e após compreendê-lo, existem duas linhas a seguir:
 
-1. Propor/implementar alguma necessidade que você tem;
-2. Assumir alguma **issue** proposta por alguém.
+- - Propor/implementar alguma necessidade que você tem;
+- - Assumir alguma **issue** proposta por alguém.
 
 Ou seja, a escolha (autonomia) está em suas mãos. Esse é o ponto no qual eu quero chegar: **autonomia**.
 
@@ -35,7 +35,7 @@ Tenha em mente que nada é **para sempre** e amanhã você pode estar em outra e
 
 ## Então não devo aceitar trabalho para contribuir com open source?
 
-Acredito que surgiu a seguinte duvida: `Durante quase todo o texto parece que você apoia o fato de que a pessoa deve fazer aquilo que ela está sendo paga para fazer, mas no último parágrafo parece que você muda de ideia e traz a mensagem de que é o indivíduo que contribui e não a empresa e que deve-se ter cuidado.`
+Acredito que surgiu a seguinte duvida: `Durante quase todo o texto parece que você (Avelino) apoia o fato de que a pessoa deve fazer aquilo que ela está sendo paga para fazer, mas no último parágrafo parece que você (Avelino) muda de ideia e traz a mensagem de que é o indivíduo que contribui e não a empresa e que deve-se ter cuidado.`
 
 Não existe certo ou errado, estou escrevendo esse blogpost para fazer você refletir que **ser pago para contribuir com** open source pode não ser tão divertido como muitos pensam. Minha dica seria você evoluir os seguintes skills:
 
@@ -43,8 +43,7 @@ Não existe certo ou errado, estou escrevendo esse blogpost para fazer você ref
 - - Comunicação: nem todos irão abraçar sua ideia (isso é bom não é ruim);
 - - Aprenda a dizer **não**: costumo dizer que o aprender dizer não vem com a senioridade. Nesse contexto a palavra *não* expõem que você não concorda com alguma coisa proposta, não que você é contra a *pessoa*, ou seja, não é uma negação a pessoa e sim ao contexto (nesse caso proposta) a ser seguida;
 - - Aprenda a debater idéias, não convicções;
-- - Aprenda a ouvir: Acho que esse seria o item mais importante.
-
+- - Aprenda a ouvir: extremamente importante.
 
 Por último e julgo o mais importante você ter ciência é: **Open Source é mantido por pessoas**
 
