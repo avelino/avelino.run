@@ -10,9 +10,9 @@ git:
 
 branches:
   only:
-    - source
-  except:
     - master
+  except:
+    - html
 
 install:
   - go get -u -v github.com/spf13/hugo
@@ -25,6 +25,6 @@ deploy:
   skip_cleanup: true
   github_token: ${GITHUB_TOKEN}
   local-dir: public
-  target-branch: master
+  target-branch: html
   on:
-    branch: source
+    branch: master
