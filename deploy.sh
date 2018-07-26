@@ -7,10 +7,10 @@ rm -rf public
 echo "Generating site"
 hugo
 
-echo "Updating master branch"
-msg="rebuilding site `date`, publishing to master"
-git checkout master && ll --ignore public | xargs rm -rf && cp -rf public/* . && rm -rf public && git add . && git commit -m "$msg"
+echo "Updating html branch"
+msg="rebuilding site `date`, publishing to html"
+git checkout html && ll --ignore public | xargs rm -rf && cp -rf public/* . && rm -rf public && git add . && git commit -m "$msg"
 
-git push origin master
+git push origin html
 
-git checkout source
+git checkout master
