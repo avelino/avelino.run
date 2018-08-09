@@ -16,9 +16,9 @@ lang = "en"
 footertext = "written by avelino"
 googleAnalytics = "UA-3063031-15"
 about = """
-I’m a currently engineer/founder at [Nuveo](https://nuveo.ai/) (**Artificial Intelligence** within reach), [levpay](https://levpay.com) (*JV between **Nuveo** and Banco Rendimento (Brazilian Bank)*) and Aplicated Math at [IME-USP](https://www.ime.usp.br/).
+I’m **Thiago Avelino** engineer/founder at [Nuveo](https://nuveo.ai/) (**Artificial Intelligence** within reach), [levpay](https://levpay.com) (*JV between Nuveo and Banco Rendimento (Brazilian Bank)*) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br/).
 
-Work day-to-day with **artificial intelligence, neural network and computer vision**. With the need to process large dataset its focus of research and development include **distributed systems, competition, Datomic, Clojure (lisp dialects), Golang and Python**.
+Work day-to-day with **artificial intelligence, neural network and computer vision**. With the need to process large dataset its focus of research and development include **distributed systems, competition, Clojure (lisp dialects), Golang and Python**.
 """
 
 [params.social]
