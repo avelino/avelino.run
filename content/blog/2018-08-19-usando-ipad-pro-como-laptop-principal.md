@@ -111,6 +111,16 @@ Hoje estou usando MacBook Pro de 13 com TouchBar (não consegui acostumar com el
 
 ## Ambiente de desenvolvimento
 
+{{< tweet 987807646911815680 >}}
+
 Como comentei eu conecto em servidor remoto, ou seja, uso Debian Sid e instalo tudo que preciso lá, assim nada fica local na iPad e/ou laptop.
+
+### Configuração necessaria
+
+{{< tweet 987718970563284992 >}}
+
+### Outros blogposts
+
+{{< tweet 987718970563284992 >}}
 
 Recomendo ler esse blogpost: [Conheça seu ambiente de trabalho](https://medium.com/@avelino0/conhe%C3%A7a-seu-ambiente-de-trabalho-cf16f8cd555a)
