@@ -121,6 +121,6 @@ Como comentei eu conecto em servidor remoto, ou seja, uso Debian Sid e instalo t
 
 ### Outros blogposts
 
-{{< tweet 987718970563284992 >}}
+{{< tweet 986326731085803521 >}}
 
 Recomendo ler esse blogpost: [Conheça seu ambiente de trabalho](https://medium.com/@avelino0/conhe%C3%A7a-seu-ambiente-de-trabalho-cf16f8cd555a)
