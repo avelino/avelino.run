@@ -54,8 +54,8 @@ Sou CTO da [Nuveo](https://nuveo.ai/) (empresa que trabalha com Inteligência ar
 
 Existem diversos acessórios que ajuda a auxilia no uso diário do iPad, segue abaixo a lista de acessórios que eu usava:
 
-- Smart Keyboard
-- iPencil
+- Smart Keyboard: olhando por vídeo e imagem pensava que seria horrível digitar com ele, sinceramente me surpreendeu e muito, está muito longe para ser o melhor teclado, mas é relativamente confortável digitar
+- iPencil: nunca usei outra “caneta” para iPad ou outro device, na minha opinião é excepcional após aprender manipular ela (no começo fiquei meio perdido)
 - Adaptador Lightning HDMI (monitor externo)
 - Logitech Create Backlit Keyboard Case (substitui pelo Smart Keyboard, não achei muito portátil para carregar, fica muito grande)
 
@@ -65,7 +65,6 @@ Existem muitos acessórios para deixar o iPad mais laptop.
 
 
 ## Apps?
-
 
 - Blink: Cliente mosh e ssh (super recomendo)
 - SSH Tunnel: Criar tunnel ssh (proxy)
@@ -105,6 +104,8 @@ Para quem quer um hardware para navegar na internet e utilizar ferramentas offic
 Costumo dizer que ter um iPad Pro é um ambiente de luxo, consegue viver sem ele, mas tenha certeza que como qualquer ferramenta boa ganha dependência extremamente fácil e rápido.
 Passei 2 meses usando diariamente o iPad para todo o tipo de trabalho até ir em cliente onde tive que passar o dia desenvolvendo (via 4G, o cliente não tinha WIFI liberado para terceiro).
 Um dos motivos claros que me fez deixar o uso do iPad (vendi 😞) foi a falta do trackpad (achei extremamente triste isso), acostumei viver clicando na tela, mas particularmente não é para qualquer momento, mouse ainda é mais prático — pelo menos para mim — para o meu filho de 5 anos tenho certeza que ele prefere clicar na tela. “Uso do iPad no colo”, não é muito confortável usar o iPad no colo com o Smart Keyboard (nem Logitech Create Backlit), é possível não pratico.
+
+Sinceramente acredito que fiz uma escolha errada, usava uma laptop de 12’ (extremamente portátil) e comprei o iPad Pro de 12.9’ (maior que meu laptop), essa escolha me fez voltar para laptop.
 
 Hoje estou usando MacBook Pro de 13 com TouchBar (não consegui acostumar com ele ainda 😞), praticamente o mesmo tamanho e peso do meu iPad Pro de 12.9 com case/keyboard. Sinto falta da praticidade de expressar coisas com iPencil, mas é possível viver sem.
 
