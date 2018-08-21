@@ -2,6 +2,7 @@ baseURL = "https://avelino.xxx/"
 languageCode = "en-us"
 title = "Avelino"
 theme = "sarah"
+googleAnalytics = "UA-3063031-15"
 
 [permalinks]
 fixed = ":title/"
@@ -14,7 +15,6 @@ avatar = "img/e_400x400.jpg"
 dateform = "Jan 2, 2006"
 lang = "en"
 footertext = "written by avelino"
-googleAnalytics = "UA-3063031-15"
 about = """
 I’m **Thiago Avelino** engineer/founder at [Nuveo](https://nuveo.ai/) (**Artificial Intelligence** within reach), [levpay](https://levpay.com) (*JV between Nuveo and Banco Rendimento (Brazilian Bank)*) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br/).
 
