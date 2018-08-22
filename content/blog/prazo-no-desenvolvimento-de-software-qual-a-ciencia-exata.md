@@ -2,6 +2,7 @@
 date = "2013-11-19"
 title = "Prazo no desenvolvimento de software, qual é a ciência exata?"
 tags = ["opinioes", "agile", "software"]
+aliases = ["/2013/11/prazo-no-desenvolvimento-de-software-qual-a-ciencia-exata"]
 +++
 
 ![Pensando igual macaco](/macaco-pensando-tragarte.jpg#center)
