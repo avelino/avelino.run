@@ -12,7 +12,7 @@ blog  = ":slug"
 [params]
 author = "Avelino"
 keywords = ["Racket", "Go (Gopher)", "Clojure", "Neural Network", "Artificial Intelligence"]
-avatar = "img/e_400x400.jpg"
+avatar = "img/2018-09-run.png"
 dateform = "Jan 2, 2006"
 lang = "en"
 footertext = "written by avelino"
