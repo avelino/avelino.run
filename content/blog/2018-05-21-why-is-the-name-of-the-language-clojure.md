@@ -26,4 +26,4 @@ We have strong influence of **Lisp**, **C#** and **Java** languages, well-consol
 - [Programming Clojure](https://pragprog.com/titles/shcloj/programming-clojure)
 - [Clojure Cheatsheet](https://clojure.org/api/cheatsheet)
 - [Clojure Guides](https://clojure.org/guides/getting_started) - getting started
-- [About more LISP History (pt-BR sorry)](http://avelino.xxx/historia-do-lisp-abra-os-olhos-para-programacao-funcional/)
+- [About more LISP History (pt-BR sorry)](http://avelino.run/historia-do-lisp-abra-os-olhos-para-programacao-funcional/)
