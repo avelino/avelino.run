@@ -23,11 +23,11 @@ Work day-to-day with **artificial intelligence, neural network and computer visi
 """
 
 [params.social]
-linkedin      = "avelino0"
-twitter       = "avelino0"
+instagram     = "avelinorun"
 github        = "avelino"
+twitter       = "avelinorun"
+linkedin      = "avelinorun"
 # googleplus    = "thiagoavelino"
-# facebook      = "avelino0"
 
 [[params.info]]
 label = "Email"
