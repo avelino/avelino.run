@@ -1,7 +1,7 @@
 +++
 date = "2018-09-25"
 title = "Keeping open source projects - awesome-go"
-tags = ["awesome-go", "golang", "open source"]
+tags = ["awesome-go", "golang", "open source", "hacktoberfest"]
 +++
 
 Beginning of any project (especially when we are talking about open source) is extremely entertaining for developer, over the years the fun passes and it is the responsibility to keep your "son" following the path of it.
