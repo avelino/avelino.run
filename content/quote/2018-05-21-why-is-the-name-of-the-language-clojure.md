@@ -2,6 +2,7 @@
 date = "2018-05-21"
 title = "Why is the name of the language, 'Clojure'?"
 tags = ["quote", "clojure", "lisp", "jvm", "java"]
+aliases = ["/why-is-the-name-of-the-language-clojure/"]
 +++
 
 ![Sit down there comes history](/sit-history.jpg#center)

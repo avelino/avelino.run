@@ -2,6 +2,7 @@
 date = "2018-05-13"
 title = "Medo? Lute contra os seus medos e mude seu futuro"
 tags = ["quote", "medo", "fracasso", "fracasso", "arriscar", "faça"]
+aliases = ["/medo-lute-contra-os-seus-medos-e-mude-seu-futuro/"]
 +++
 
 Por onde começar? Que tal essa enquete abaixo!

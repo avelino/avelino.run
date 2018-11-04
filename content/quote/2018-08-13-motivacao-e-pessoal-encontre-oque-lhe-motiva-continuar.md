@@ -2,6 +2,7 @@
 date = "2018-08-13"
 title = "Motivação é pessoal, encontre oque lhe motiva continuar"
 tags = ["quote", "evolua", "corrida", "foco", "motivacao", "dominesuamente", "the5amclub"]
+aliases = ["/motivação-é-pessoal-encontre-oque-lhe-motiva-continuar/"]
 +++
 
 ![Motivação é pessoal](/motivacao-air.jpg#center)

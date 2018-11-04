@@ -2,6 +2,7 @@
 date = "2018-05-19"
 title = "The 5am club? Just crazy to do it"
 tags = ["quote", "the5amclub", "5amclub", "high achievers"]
+aliases = ["/the-5am-club-just-crazy-to-do-it/"]
 +++
 
 ![Start lifting the 5am](/The-5am-Club-It-Can-Change-Your-Life.png#center)

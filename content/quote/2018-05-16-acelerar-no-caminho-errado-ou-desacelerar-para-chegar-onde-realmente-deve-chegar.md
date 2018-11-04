@@ -2,6 +2,7 @@
 date = "2018-05-16"
 title = "Acelerar no caminho errado ou desacelerar para chegar onde realmente deve chegar?"
 tags = ["quote", "startup", "startups", "acelerar", "desacelerar"]
+aliases = ["/acelerar-no-caminho-errado-ou-desacelerar-para-chegar-onde-realmente-deve-chegar/"]
 +++
 
 ![Corra não importa para onde, apenas corra!](/supere-se.jpeg#center)

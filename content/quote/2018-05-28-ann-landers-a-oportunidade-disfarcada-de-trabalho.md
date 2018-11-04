@@ -2,6 +2,7 @@
 date = "2018-05-28"
 title = "A oportunidade disfarçada de trabalho"
 tags = ["quote", "evolua", "fase"]
+aliases = ["/a-oportunidade-disfarçada-de-trabalho/"]
 +++
 
 ![Analise pessoas tóxicas](/evolua-mascara.jpeg#center)

@@ -2,6 +2,7 @@
 date = "2018-03-25"
 title = "Empreendendo em seu local de trabalho"
 tags = ["empreender", "empreendedorismo", "pensamento", "quote"]
+aliases = ["/empreendendo-em-seu-local-de-trabalho/"]
 +++
 
 ![Mente empreendedora](/mente.jpg#center)
