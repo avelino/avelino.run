@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Avelino</title>
+    <link>https://avelino.run/tags/go/</link>
+    <description>Recent content in Go on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go vs Python more request per second</title>
+      <link>https://avelino.run/go-vs-python-more-request-per-second/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/go-vs-python-more-request-per-second/</guid>
+      <description>I use python because it is a simple and powerful language, but never used by be excellence in performance (But for python web serves very well)! I know that benchmark based on &amp;ldquo;Hello World&amp;rdquo; does not want to say too much, but it&amp;rsquo;s interessanta we know what technology (framework) is more time to answer performance web support request.
+There is a python framework named Falcon (Falcon follows the REST architectural style, meaning (among other things) that you think in terms of resources and state transitions, which map to HTTP verbs) which is extremely performance, even using asynchronous backup processing library (as gevent, is a coroutine-based Python networking library that uses greenlet to provide a high-level asynchronous API on top of the libev event loop).</description>
+    </item>
+    
+  </channel>
+</rss>

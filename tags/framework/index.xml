@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Framework on Avelino</title>
+    <link>https://avelino.run/tags/framework/</link>
+    <description>Recent content in Framework on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where to start a project with bottle, Boilerplate</title>
+      <link>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</guid>
+      <description>Developing python application using minimalist frameworks has become frequent in the Python community, for no reasons not to speak here. I see this change as a professional development where developers want to choose what is best for your application, simply use what little hide a group *(of pearls, or not*) that is better.
+Along with this evolution brings vices of many developers other frameworks (and/or technology), this can be a problem at the time of the taking of decision of which Python web framework to use.</description>
+    </item>
+    
+    <item>
+      <title>Bottle, full stack without Django</title>
+      <link>https://avelino.run/bottle-full-stack-without-django/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/bottle-full-stack-without-django/</guid>
+      <description>This blogpost is based in a lecture I presented here in Brazil, follows the slides!
+Bottle is a micro web framework compatible with WSGI, depends only on the Python standard library is compatible with python 2.6, 2.7, 3.2, 3.3 and 3.4, single source file. It was created by Marcel Hellkamp (@defnull) and maintained by the community that raised surrounding framework.
+Django is a framework for rapid development for web, written in Python, which uses the standard MTV (model-template-view) and pragmatic.</description>
+    </item>
+    
+    <item>
+      <title>New web framework asynchronous to Python 3</title>
+      <link>https://avelino.run/new-web-framework-asynchronous-to-python-3/</link>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/new-web-framework-asynchronous-to-python-3/</guid>
+      <description>I started a new project with the name nacho, asynchronous web framework for Python 3.
+Our goals  It was designed to work on Python 3.x Some of syntax were inspired on Tornado&amp;rsquo;s syntax Tornado is the default server, but Eventlet is stable as well Templates are done by Jinja2 HTML5 as the big-main-thing Work friendly with NoSQL (otherwise we should stop talking about them) Handle asynchronous requests properly  Example class MainHandler(ApplicationController): def get(self): data = {&#39;title&#39;: &#39;testando lero lero&#39;} self.</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre London Framework na PyCon Argentina</title>
+      <link>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</guid>
+      <description>Universidad Nacional de Quilmes, local onde foi organizado a PyCon Argentina
+No começo de junho o Mariano (organizador do evento PyCon Argentina 2012, me fez um convite para ir palestra sobre London Framework (Framework criado por Marinho Brandão).
+Nada melhor do que conhecer pessoas e principalmente culturas novas, entender o que os Argentinos estão desenvolvendo e o que anda estudando, ou seja, fazer network (como falamos na área de tecnologia). Dava para ver no rosto dos argentinos a vontade de aprender e de consumir o maximo de informação possível, na PyCon Argentina de 2012 teve uma ótima seleção de palestra, onde foi abordado temas como asynchrony (twisted), Plone (com Erico Andrei - Brasileiro), web2py (com Massimo Di Pierro - criador do framework), Python 3.</description>
+    </item>
+    
+  </channel>
+</rss>

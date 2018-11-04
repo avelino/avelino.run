@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Avelino</title>
+    <link>https://avelino.run/</link>
+    <description>Recent content on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A arte de reescrever software</title>
+      <link>https://avelino.run/a-arte-de-reescrever-software/</link>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/a-arte-de-reescrever-software/</guid>
+      <description>Lidar com software legado hoje em dia é mais comum do que podemos imaginar, costumo dizer que muitos softwares nascem legado, como assim? Para mim software que não tem teste automatizado é legado, não tem como garantir funcionamento de absolutamente nada dentro dele e muitos comportamentos (recursos ou bugs) só irá aparecer com usuários usando constantemente.
+Após alinhamento do que é software legado é comum a empresa (principalmente as com cultura de startup) e desenvolvedores ter que trocar peças do software em pleno o voo, não temos como pousar o avião para fazer manutenção e depois decolar novamente quando a empresa está com clientes usando o software em produção.</description>
+    </item>
+    
+    <item>
+      <title>Keeping open source projects - awesome-go</title>
+      <link>https://avelino.run/keeping-open-source-projects-awesome-go/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/keeping-open-source-projects-awesome-go/</guid>
+      <description>Beginning of any project (especially when we are talking about open source) is extremely entertaining for developer, over the years the fun passes and it is the responsibility to keep your &amp;ldquo;son&amp;rdquo; following the path of it.
+How did the starting awesome-go? All projects I started are out of necessity, the awesome-go was no different.
+After knowing the awesome-python and seeing other &amp;ldquo;awesomes&amp;rdquo; projects I searched for the awesome-go and did not get results.</description>
+    </item>
+    
+    <item>
+      <title>Usando iPad Pro como laptop principal</title>
+      <link>https://avelino.run/usando-ipad-pro-como-laptop-principal/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/usando-ipad-pro-como-laptop-principal/</guid>
+      <description>Após ler alguns blogpost sobre usar o iPad como computador principal e conversar com um amigo que trabalha no Google que usa em caso como &amp;ldquo;main laptop&amp;rdquo;, resolvi estudar os apps para iOS que eu teria que usar para atender a minha demanda do dia a dia como gestor e desenvolvedor.
+Como sempre a Apple faz um ótimo trabalho nos seus produtos, sempre pensando na simplicidade de uso do seu cliente final, ou seja, isso ajuda o onboard em qualquer dispositivo/software deles.</description>
+    </item>
+    
+    <item>
+      <title>Motivação é pessoal, encontre oque lhe motiva continuar</title>
+      <link>https://avelino.run/quote/2018-08-13-motivacao-e-pessoal-encontre-oque-lhe-motiva-continuar/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-08-13-motivacao-e-pessoal-encontre-oque-lhe-motiva-continuar/</guid>
+      <description>Muitas pessoas pergunta-me por estou praticando corrida sendo que existem outros esportes mais “legais” e com mais “adrenalina”! Sempre gostei de ver minha evolução pessoal (isso é uma das coisas que me motiva), a corrida é um esporte que é você, seu cérebro e nada mais, podemos dizer, você e você mesmo(a). Todos os dias que estou me aquecendo para começar correr meu cérebro quer me vencer tentando convencer meu corpo que não vou conseguir chegar ao final, já corro mais de 1 ano (todos os dias) e continua o mesmo sentimento até hoje.</description>
+    </item>
+    
+    <item>
+      <title>Realizando sonho de trabalhar full time com Open Source</title>
+      <link>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</guid>
+      <description>É extremamente comum ver amigos que começam a contribuir com open source quererem arrumar um “emprego” para passar o dia contribuindo com o projeto (em geral, deixando o Github verdinho&amp;hellip;). Será que é realmente legal, como muitos imaginam, trabalhar para uma empresa para só contribuir com open source?
+Costumo dizer que contribuir com open source é viciante, faz você passar horas e horas entendendo o projeto que alguém (ou alguma empresa) idealizou, até que chega o momento de mandar o primeiro PR (pull request, patch e etc) e defender sua implementação.</description>
+    </item>
+    
+    <item>
+      <title>A oportunidade disfarçada de trabalho</title>
+      <link>https://avelino.run/quote/2018-05-28-ann-landers-a-oportunidade-disfarcada-de-trabalho/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-05-28-ann-landers-a-oportunidade-disfarcada-de-trabalho/</guid>
+      <description>&amp;ldquo;As oportunidades normalmente se apresentam disfarçadas de trabalho árduo, e é por isso que muitos não as reconhecem.&amp;rdquo;
+Por Ann Landers</description>
+    </item>
+    
+    <item>
+      <title>Why is the name of the language, &#39;Clojure&#39;?</title>
+      <link>https://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/</guid>
+      <description>Many who did not seek the &amp;ldquo;history&amp;rdquo; thinks:
+Did you pick the name based on starting with the word &amp;quot;closure&amp;quot; and replacing the &amp;quot;s&amp;quot; with &amp;quot;j&amp;quot; for Java? It seems pretty likely, but it would be nice to have that confirmed.
+Rich Hickey&amp;rsquo;s response (creator of the Clojure):
+The name was chosen to be unique. I wanted to involve c (c#), l (lisp) and j (java). Once I came up with Clojure, given the pun on closure, the available domains and vast emptiness of the googlespace, it was an easy decision.</description>
+    </item>
+    
+    <item>
+      <title>The 5am club? Just crazy to do it</title>
+      <link>https://avelino.run/quote/2018-05-19-the-5am-club-just-crazy-to-do-it/</link>
+      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-05-19-the-5am-club-just-crazy-to-do-it/</guid>
+      <description>Have you ever heard of #the5amclub? Do you know how powerful the range of 5 to 8 A.M.?
+Nunca pensei que iria conseguir acordar cedo (as 5am) e dormir cedo (as 9pm), manter a disciplina não esta sendo fácil mas é possível #the5amclub #5amclub #5am #5AMClubIns #5amcoffee
+&amp;mdash; Avelino at Aracaju (@avelinorun) April 27, 2018  Sorry tweet in pt-BR
+Few people are willing to wake up at 5 A.M. by choice, but that&amp;rsquo;s exactly what makes the most successful people in the world, the 5am club class, the high achievers.</description>
+    </item>
+    
+    <item>
+      <title>Acelerar no caminho errado ou desacelerar para chegar onde realmente deve chegar?</title>
+      <link>https://avelino.run/quote/2018-05-16-acelerar-no-caminho-errado-ou-desacelerar-para-chegar-onde-realmente-deve-chegar/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-05-16-acelerar-no-caminho-errado-ou-desacelerar-para-chegar-onde-realmente-deve-chegar/</guid>
+      <description>E quando raramente param para refletir sobre a vida, se deparam com um imenso abismo emocional entre elas e as pessoas que lhe são mais caras.
+Não perca a rédea da sua vida, tenha o controle doque você faz. É muito fácil deixar as pessoas dirigir nossa vida, tenha controle da sua vida (escolha oque você quer e não quer fazer) #bomdia #Motivation #mude #frasedodia #lifecontrol
+&amp;mdash; Avelino at Aracaju (@avelinorun) May 10, 2018  A realidade é que não adianta você acelerar muito, estando no caminho errado.</description>
+    </item>
+    
+    <item>
+      <title>Medo? Lute contra os seus medos e mude seu futuro</title>
+      <link>https://avelino.run/quote/2018-05-13-lute-contra-os-seus-medos-e-mude-seu-futuro/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-05-13-lute-contra-os-seus-medos-e-mude-seu-futuro/</guid>
+      <description>Por onde começar? Que tal essa enquete abaixo!
+#medo? Qual é seu maior medo❓
+&amp;mdash; Avelino at Aracaju (@avelinorun) April 22, 2018  AVISO: Estou expondo minha opinião pessoal (recomendo considerar como loucura da minha cabeça)
+Analisando o resultado da enquete fica extremamente claro que o medo de muitos é o fracasso, não é nada fácil combater esse medo (mas é necessário para uma evolução pessoal), uma das formas de combater qualquer medo é encarar ele de frente, isso não quer dizer que você não tem medo e sim que esta batendo de frente com você mesmo.</description>
+    </item>
+    
+    <item>
+      <title>Guia de estilo para pacotes Go</title>
+      <link>https://avelino.run/guia-de-estilo-para-pacotes-go/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/guia-de-estilo-para-pacotes-go/</guid>
+      <description>Tradução do blogpost Style guideline for Go packages escrito pela @rakyll.
+Código organizado em Go é fácil de entender, usar e ler. A falta de organização em código Go é tão crítica quanto as APIs mal projetadas. Os diretórios, nome e a estrutura dos seus pacotes são os primeiros elementos com os quais os utilizadores vêem e interagem.
+O objetivo deste blogpost é ajudá-lo(a) com boas práticas comuns para não definir regras ruins.</description>
+    </item>
+    
+    <item>
+      <title>Fazer o melhor que podemos na condição que tem - Monja Coen</title>
+      <link>https://avelino.run/quote/2018-03-27-fazer-o-melhor-que-podemos-na-condicao-que-tem/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-03-27-fazer-o-melhor-que-podemos-na-condicao-que-tem/</guid>
+      <description>Esta fazendo o possível ou o melhor? Se você (ou eu) podendo fazer o meu melhor me contato com o possível cairemos em um lugar chamado mediocridade
+Medíocre Significa mediano, sofrível. É um adjetivo de dois gêneros que qualifica aquele ou aquilo que está na média entre dois termos de comparação , ou seja, que não é bom nem mau, que não é pequeno nem grande etc. Por exemplo: &amp;ldquo;Um livro medíocre&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Empreendendo em seu local de trabalho</title>
+      <link>https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/</guid>
+      <description>Em 2014 palestrei em alguns evendo falando sobre Empreender em seu local de trabalho, muitas pessoas pensam que empreender é abrir uma empresa (ter CNPJ) e cuidar de questões burocraticas de ter uma empresa (contabilidade, fluxo de caixa e blá blá blá), mas na real o que é empreender?
+ Porque esse blogpost, após 3 anos de palestra? Tenha mentalidade empreendedora, chega de andar no automático onde outras pessoas dita oque é melhor para você.</description>
+    </item>
+    
+    <item>
+      <title>História do Lisp, abra os olhos para programação funcional</title>
+      <link>https://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/</guid>
+      <description>Como começou minha paixão por parênteses (ops Lisp)? Tenho uma formação na área de Matemática Aplicada (começa ai a loucura), Lisp foi uma das poucas linguagens de programação que me deparei dentro da academia (eu já programava em Perl profissionalmente e conhecia Python), quando vi aqueles parênteses de cara pensei isso não é para mim (isso é uma loucura de Matemática/Acadêmico que nunca saiu para o mercado de trabalho). Com o passar das aulas eu comecei achar confortável os parênteses (seres humanos acostuma muito rápido com tudo) e comecei achar estranho a forma de pensar para escrever a lógica do software (por exemplo (+ 1 2)).</description>
+    </item>
+    
+    <item>
+      <title>Qual o glamour em ser CEO?</title>
+      <link>https://avelino.run/qual-o-glamour-em-ser-ceo/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/qual-o-glamour-em-ser-ceo/</guid>
+      <description>Antes de entrar no assunto do titulo vou contextualizar o porque estou escrevendo esse blogpost.
+Eu (Avelino) a anos acompanho minha rede de contato no LinkedIn e via que muitas pessoas estava como (ou se tornou à pouco tempo) CEO (Chief Executive Officer, que significa Diretor Executivo) de empresa, isso me surgiu curiosidade em saber qual empresa essas pessoas tinham se tornado CEO, para minha surpresa a maioria tinha se tornado CEO de uma empresa e continuava trabalhando em outra empresa, muitas sendo assalariado.</description>
+    </item>
+    
+    <item>
+      <title>Eu nunca mais vou empreender</title>
+      <link>https://avelino.run/eu-nunca-mais-vou-empreender/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/eu-nunca-mais-vou-empreender/</guid>
+      <description>Para quem não me conhece eu tive uma startup durante um tempo e ela foi comprada por uma empresa de fora do Brasil. Logo após a venda da startup eu prometi para mim mesmo que nunca mais empreenderia, sim isso foi um comentário que fiz em um dos meus momentos de reflexão e nunca comentei com ninguém até então.
+Porque eu prometi isso para mim? Empreender não é um processo simples, não existe mar de rosas no caminho do empreendedor e como tudo temos altas e baixas (e por sinal mais baixa do que alta).</description>
+    </item>
+    
+    <item>
+      <title>Church Vim</title>
+      <link>https://avelino.run/church-vim/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/church-vim/</guid>
+      <description>Vim was originally an extensible text editor written by Bram Moolenaar, but it became a way of life and a religion. To join the Church of Vim, you need only pronounce the Confession of the Faith:
+There is no system but GNU, and Linux is one of its kernels.  Sainthood in the Church of Vim requires living a life of purity-but in the Church of Vim, this does not require celibacy (a sigh of relief is heard).</description>
+    </item>
+    
+    <item>
+      <title>Cron dentro do Django com Celery</title>
+      <link>https://avelino.run/cron-dentro-do-django-com-celery/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/cron-dentro-do-django-com-celery/</guid>
+      <description>Ontem na parte da noite conversando com um conhecido ele falou que estava usando em um projeto o Celery, como ainda não conhecia vamos estudar este projeto. Gostei da forma que ele trabalha e como ele integra com o Django. | Tenho em um projeto uma fila de processamento só que foi desenvolvido por mim e não tem todos os recursos que o Celery tem.
+Vou explicar como usar o Celery com o Django em um exemplo simples, e como sempre basta usar a criatividade para desenvolver a sua necessidade.</description>
+    </item>
+    
+    <item>
+      <title>Encerrando Ciclos, viva no presente, não se paralise pelo passado</title>
+      <link>https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/</link>
+      <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/</guid>
+      <description>Nós da área de tecnologia passamos muito por encerramento de ciclos, resolvi escrever um blogpost não técnico para retratar alguns pontos importantes na hora de fecharmos nossos ciclos. Não estou escrevendo uma ciência exata, acho extremamente importante após ler o blogpost você pare para pensar o que acha certo ou errado, e sinta-se livre para comentar.
+Sempre é preciso saber quando uma etapa chega ao final. Se insistirmos em permanecer nela mais do que o tempo necessário, perdemos a alegria e o sentido das outras etapas que precisamos viver.</description>
+    </item>
+    
+    <item>
+      <title>Where to start a project with bottle, Boilerplate</title>
+      <link>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</guid>
+      <description>Developing python application using minimalist frameworks has become frequent in the Python community, for no reasons not to speak here. I see this change as a professional development where developers want to choose what is best for your application, simply use what little hide a group *(of pearls, or not*) that is better.
+Along with this evolution brings vices of many developers other frameworks (and/or technology), this can be a problem at the time of the taking of decision of which Python web framework to use.</description>
+    </item>
+    
+    <item>
+      <title>Go vs Python more request per second</title>
+      <link>https://avelino.run/go-vs-python-more-request-per-second/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/go-vs-python-more-request-per-second/</guid>
+      <description>I use python because it is a simple and powerful language, but never used by be excellence in performance (But for python web serves very well)! I know that benchmark based on &amp;ldquo;Hello World&amp;rdquo; does not want to say too much, but it&amp;rsquo;s interessanta we know what technology (framework) is more time to answer performance web support request.
+There is a python framework named Falcon (Falcon follows the REST architectural style, meaning (among other things) that you think in terms of resources and state transitions, which map to HTTP verbs) which is extremely performance, even using asynchronous backup processing library (as gevent, is a coroutine-based Python networking library that uses greenlet to provide a high-level asynchronous API on top of the libev event loop).</description>
+    </item>
+    
+    <item>
+      <title>Bottle, full stack without Django</title>
+      <link>https://avelino.run/bottle-full-stack-without-django/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/bottle-full-stack-without-django/</guid>
+      <description>This blogpost is based in a lecture I presented here in Brazil, follows the slides!
+Bottle is a micro web framework compatible with WSGI, depends only on the Python standard library is compatible with python 2.6, 2.7, 3.2, 3.3 and 3.4, single source file. It was created by Marcel Hellkamp (@defnull) and maintained by the community that raised surrounding framework.
+Django is a framework for rapid development for web, written in Python, which uses the standard MTV (model-template-view) and pragmatic.</description>
+    </item>
+    
+    <item>
+      <title>Swift Language (Apple) first steps</title>
+      <link>https://avelino.run/swift-language-apple-first-steps/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/swift-language-apple-first-steps/</guid>
+      <description>Apple launched the Swift language (Looking for the Swift parallel scripting language? Please visit http://swift-lang.org) at WWDC 2014. A modern language to program for Mac and iOS!
+Strongly typed language, where you explicitly what type (variable, arguments, and function returns), syntax reminds dynamic languages with Python, Go, Ruby and JavaScript.
+Apple offers a free comprehensive guide on language in HTML and iBook formats.
+ We can put zero left freely to improve readability, insert _ to separate groups of numbers and add the + in front.</description>
+    </item>
+    
+    <item>
+      <title>Golang, C and Python the benchmark time</title>
+      <link>https://avelino.run/golang-c-and-python-the-benchmark-time/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/golang-c-and-python-the-benchmark-time/</guid>
+      <description>I was wondering how performant Golang is, so I decided to put together a little benchmarking example for myself.
+The benchmark will be done in my personal computer:
+Processor 3 GHz Intel Core i7 Memory 8 GB 1600 MHz DDR3 Software OS X 10.9.2 (13C64)  So I started with Python, which is what I know best and created the following simple script;
+ The reason for the total output, was to have a check to ensure that I was getting the same results in each of the scripts.</description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence (BI) Application Server written in Python</title>
+      <link>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</guid>
+      <description>I started a new project with the name OpenMining, new application server written in Python.
+OpenMining is software for creating OLAP (online analytical processing) cubes (multi-dimensional) using Numpy, Scipy and Pandas for data management and flexibility in processing dynamical filters. Open-source provider of reporting, analysis, dashboard, data mining and workflow capabilities.
+Our goals  Business Intelligence software (Pentaho/Jaspersoft) alternative; OLAP manager; Generate report (grid, charts, pdf and etc); Dashboard manager, link one or more element (report); Easy dashboard generate; Not one data is processed on the basis of source data; Friendly interface; Used websocket on cube load.</description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence (BI) Application Server written in Python</title>
+      <link>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</guid>
+      <description>I started a new project with the name OpenMining, new application server written in Python.
+OpenMining is software for creating OLAP (online analytical processing) cubes (multi-dimensional) using Numpy, Scipy and Pandas for data management and flexibility in processing dynamical filters. Open-source provider of reporting, analysis, dashboard, data mining and workflow capabilities.
+Our goals  Business Intelligence software (Pentaho/Jaspersoft) alternative; OLAP manager; Generate report (grid, charts, pdf and etc); Dashboard manager, link one or more element (report); Easy dashboard generate; Not one data is processed on the basis of source data; Friendly interface; Used websocket on cube load;  Python libs used  Pandas Numpy numexpr ipython Tornado SQLAlchemy RQ Riak client Redis client Memcached client  More about OLAP cube A cube can be considered a generalization of a three-dimensional spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>Corretor Ortográfico no VIM</title>
+      <link>https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/</link>
+      <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/</guid>
+      <description>Desde 2007 escrevo aqui no meu blog, com isso já passei por diversas plataforma de blog (Blogspot, Wordpress, Django, Django Diario, Pelican, entre outras), hoje estou usando liquidluck (ferramenta escrita em Tornado Python para gerar arquivos estático), minha escolha para essa mudança foi simplificar o processo de escrever texto, ou seja, usar o que eu uso no dia a dia para programar, com isso tive algumas perda como corretor ortográfo!</description>
+    </item>
+    
+    <item>
+      <title>Prazo no desenvolvimento de software, qual é a ciência exata?</title>
+      <link>https://avelino.run/prazo-no-desenvolvimento-de-software-qual-%C3%A9-a-ci%C3%AAncia-exata/</link>
+      <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/prazo-no-desenvolvimento-de-software-qual-%C3%A9-a-ci%C3%AAncia-exata/</guid>
+      <description>Falar de prazo é uma tarefa muito complicada hoje e sempre, pois não existe uma ciência exata (tirando 42), outro ponto que prazo é uma promessa e consequentemente promessa tem que ser cumprida (e você vai fazer de tudo para cumpri-las), com isso trabalhar muito mais para cumprir o que você assumiu (prazo).
+Levantando conteúdo para esse blogpost achei no Quora o seguinte topico &amp;ldquo;What is the hardest thing you do as a software engineer?</description>
+    </item>
+    
+    <item>
+      <title>A volta dos que nao foram, software livre para sempre</title>
+      <link>https://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/</link>
+      <pubDate>Sat, 26 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/</guid>
+      <description>Durante 5 anos usei o sistema operacional da Apple (OS X), o OS X é um ótimo sistema operacional principalmente o ambiente gráfico que é sensassional, sistema de áudio entre outros recursos, os 3 primeiro anos usei sem problema nem um ate que a Apple veio com uma historia de cobrar pelo Xcode (The Xcode interface seamlessly integrates code editing, UI design with Interface Builder, testing, and debugging, all within a single window.</description>
+    </item>
+    
+    <item>
+      <title>New web framework asynchronous to Python 3</title>
+      <link>https://avelino.run/new-web-framework-asynchronous-to-python-3/</link>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/new-web-framework-asynchronous-to-python-3/</guid>
+      <description>I started a new project with the name nacho, asynchronous web framework for Python 3.
+Our goals  It was designed to work on Python 3.x Some of syntax were inspired on Tornado&amp;rsquo;s syntax Tornado is the default server, but Eventlet is stable as well Templates are done by Jinja2 HTML5 as the big-main-thing Work friendly with NoSQL (otherwise we should stop talking about them) Handle asynchronous requests properly  Example class MainHandler(ApplicationController): def get(self): data = {&#39;title&#39;: &#39;testando lero lero&#39;} self.</description>
+    </item>
+    
+    <item>
+      <title>Riak, alta performance NoSQL para seu projeto</title>
+      <link>https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/</link>
+      <pubDate>Sun, 23 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/</guid>
+      <description>Esse ano de 2012 ajudei a comunidade Riak que a cada dia esse banco de dados vem me surpreendendo. Estou para escrever um blogpost desde fevereiro, mas como vida de programador (pelo menos para mim esse ano) é agitada.
+Resolvi falar sobre a performance nesse primeiro blogpost sobre Riak e colocar na mesa um teste (relativamente simples) para compara o tempo de inserção, realmente é um teste simples se tratando de NoSQL.</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre London Framework na PyCon Argentina</title>
+      <link>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</guid>
+      <description>Universidad Nacional de Quilmes, local onde foi organizado a PyCon Argentina
+No começo de junho o Mariano (organizador do evento PyCon Argentina 2012, me fez um convite para ir palestra sobre London Framework (Framework criado por Marinho Brandão).
+Nada melhor do que conhecer pessoas e principalmente culturas novas, entender o que os Argentinos estão desenvolvendo e o que anda estudando, ou seja, fazer network (como falamos na área de tecnologia). Dava para ver no rosto dos argentinos a vontade de aprender e de consumir o maximo de informação possível, na PyCon Argentina de 2012 teve uma ótima seleção de palestra, onde foi abordado temas como asynchrony (twisted), Plone (com Erico Andrei - Brasileiro), web2py (com Massimo Di Pierro - criador do framework), Python 3.</description>
+    </item>
+    
+    <item>
+      <title>Comandos tmux (cheat sheet)</title>
+      <link>https://avelino.run/comandos-tmux-cheat-sheet/</link>
+      <pubDate>Mon, 08 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/comandos-tmux-cheat-sheet/</guid>
+      <description>[tmux]() é um software que pode ser usado para vários consoles de multiplex virtuais, permitindo que um usuário acesse múltiplas sessões de terminais separados dentro de uma janela de um único terminal ou sessão de terminal remoto. É útil para lidar com vários programas a partir de uma interface de linha de comando, e para separar os programas a partir do shell do Unix, que começou o programa. Distribuído sob uma licença BSD.</description>
+    </item>
+    
+    <item>
+      <title>Plone para desenvolvedores Python</title>
+      <link>https://avelino.run/plone-para-desenvolvedores-python/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/plone-para-desenvolvedores-python/</guid>
+      <description>Sempre que uma pessoa vinha falar de Plone para mim eu não me sentia muito bem pois não conhecia e o pessoal que sempre conversei que desenvolvia em Plone e depois conheceu Django sempre falava que não valia apena mexer com Plone! Será que isso é realmente verdade?
+Depois do que eu escutei o pessoal falando eu não queria nem saber desse cara chamado Plone, ate mesmo que para desenvolver uma solução de gerenciamento de conteúdo usando Django não é muito trabalhoso (Realmente era assim que eu pensava, mal eu sabia que estava completamente enganado).</description>
+    </item>
+    
+    <item>
+      <title>Proxy transparente com Nginx</title>
+      <link>https://avelino.run/proxy-transparente-com-nginx/</link>
+      <pubDate>Thu, 09 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/proxy-transparente-com-nginx/</guid>
+      <description>Muitas pessoas usam Squid para fazer qual quer tipo de proxy, ate mesmo para proxy transparente para usar em servidor web, por exemplo:
+Você tem um site que precisa ter IP aqui no Brasil so que como o custo de servidor e link aqui no Brasil é muito caro, você pode fazer um proxy transparente para o servidor aqui no Brasil ser um cara que vai receber a requisição e repassar para o outro servidor que esteja em qual quer lugar do mundo.</description>
+    </item>
+    
+    <item>
+      <title>Criando package (modulo) em Node.js</title>
+      <link>https://avelino.run/criando-package-modulo-em-node.js/</link>
+      <pubDate>Sat, 23 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/criando-package-modulo-em-node.js/</guid>
+      <description>Existe muitas pessoas querendo estudar Node.js pela simplicidade de trabalhar com processamento assíncrono e por usar JavaScript em server side. JavaScript é uma linguagem simples mas para desenvolvimento Client side mas ao mesmo tempo quando colocamos JavaScript do lado do servidor começa a surgi algumas duvidas como: estrutura do software, como criar biblioteca, qual Framework usar e muitas outras.
+Dando uma olhada no Github vi que tem muitos software que parece uma lingüiça com mais de 500 linhas em um mesmo arquivo, aí me vem a seguinte pergunta &amp;ldquo;JavaScript não é orientado a objeto?</description>
+    </item>
+    
+    <item>
+      <title>Trabalhar para empresa de fora do Brasil</title>
+      <link>https://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/</link>
+      <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/</guid>
+      <description>O tema é muito abrangente mas vou focar justamente para a área tecnologia onde temos a possibilidade de trabalhar remoto (vulgo home office, que é um outro tema que gera muita polemica).
+Hoje fecha um total de 3 dias trabalhando na empresa Mochii (Realmente achei o site da empresa muito nerd e extremamente diferente, esse e outros motivo me fez trabalhar com eles) e durante esses três dias tive uma ótima experiencia para compartilhar.</description>
+    </item>
+    
+    <item>
+      <title>Test é para os fracos</title>
+      <link>https://avelino.run/test-%C3%A9-para-os-fracos/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/test-%C3%A9-para-os-fracos/</guid>
+      <description>Em novembro fiz mais uma palestra sobre teste unitários só que agora com o titulo da palestra bem diferente &amp;ldquo;Test é para os fracos&amp;rdquo;, o motivo desse titulo é para deixar a palestra mais dinâmica pois escrever teste não é uma tarefa muito simples no primeiro contato.
+Tem muitas pessoas que acha que escrever teste não garante que o software não tem bug, isso é claro, mas vamos encarar o problema quando quando tiver que mudar o software, caso ele esteja como teste na parte onde esta sendo implementado novas funcionalidade e venha quebrar ai sim vamos dar valor aos teste.</description>
+    </item>
+    
+    <item>
+      <title>VIM a IDE para programadores Python</title>
+      <link>https://avelino.run/vim-a-ide-para-programadores-python/</link>
+      <pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/vim-a-ide-para-programadores-python/</guid>
+      <description>Depois muito tempo sem escrever nada no meu blog, escolhi esse tema para chamar a atenção do pessoal que esta começando desenvolver em Python que sempre pergunta qual é a melhor IDE para desenvolver em Python ou qual quer programador que usa uma super IDE pesado porque tem o recurso X, Y e Z.
+Com o VIM podemos ter todos os recurso avançado que temos em qual quer IDE, basta algumas configurações para que esses recursos ser ativado, para facilitar a vida de todos compartilhei o meu .</description>
+    </item>
+    
+    <item>
+      <title>Nova versão da API do Dropbox</title>
+      <link>https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/</link>
+      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/</guid>
+      <description>Dia 14/09/2011 o Dropbox lançou a nova versão 1.0 da API, nesse lançamento trouxe muitas novidades e melhorias:
+ Suporte para aplicações web Suporte para criação de pasta (Na versão 0.1 da API não tinha) Novo site para desenvolvedores, com documentação simples e completa https://www.dropbox.com/developers_beta Melhor compartilhamento de arquivo, streaming, busca por arquivo e suporte para revisão de arquivo Implementação no controle de nomes de arquivos, para não sobrescrever arquivos já salvo SDK atualizado para iOS, Android, Python, Ruby e Java que implementa todas modificações e documentação  Link do repositorio (Python Pypi) da nova biblioteca http://pypi.</description>
+    </item>
+    
+    <item>
+      <title>Entendendo na pratica como funciona a linguagem Go</title>
+      <link>https://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/</guid>
+      <description>A linguagem Go é um projeto open source para tornar os programadores mais produtivos.
+Go foi desenvolvido para utilização maxima do CPU, tornando um processo simples para criar aplicação Multithreaded, o processo de utilização de maquinas na rede para processar determinado programa também é bem simples, assim tornando um software mais flexível e modular.
+Vamos montar um servidor HTTP em Go.
+package main import ( &amp;quot;http&amp;quot;; &amp;quot;io&amp;quot;; &amp;quot;fmt&amp;quot;; ) func HelloServer(c *http.</description>
+    </item>
+    
+    <item>
+      <title>Upload da arquivo no Google App Engine (BlobProperty)</title>
+      <link>https://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/</link>
+      <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/</guid>
+      <description>Essa semana que passou tive uma necessidade para um sistema de trabalhar com UPLOAD de arquivos, ate ai é simples, só que o sistema estava em Google App Engine, depois de apanhar um pouco resolvi fazer um post aqui no Blog para deixar documentado como não é complicado trabalhar com BlobProperty no BigTable.
+Primeiro vamos criar um Modal onde vai ter dois campo o arquivo e o mimetype dele:
+class DatastoreFile(db.</description>
+    </item>
+    
+    <item>
+      <title>Criando sistema com Multithreaded em Python</title>
+      <link>https://avelino.run/criando-sistema-com-multithreaded-em-python/</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/criando-sistema-com-multithreaded-em-python/</guid>
+      <description>Multithreaded é quando temos mais de um programa executando ao mesmo tempo, totalmente diferente de executar duas vez o mesmo programa, com &amp;ldquo;threads&amp;rdquo; o sistema vai ser executado apenas uma vez e via thread vai processar mais de uma função ao mesmo tempo, isso é necessario para concorrência em sistema.
+Algumas vantagens de trabalha com threads:
+ Múltiplos processo ao mesmo tempo e pode, portanto, compartilhar informações e comunicar uns com os outros mais facilmente do que se fossem processos separados; Menos consumo de memória, pois o mesmo vai consumir mais CPU.</description>
+    </item>
+    
+    <item>
+      <title>Certificado EV SSL</title>
+      <link>https://avelino.run/certificado-ev-ssl/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/certificado-ev-ssl/</guid>
+      <description>Certificados Digitais EV SSL, ou em português SSL de Validação Avançada, são certificados qualificados que se apresentam aos usuários da Internet de forma distinta dos demais certificados, garantindo assim aos usuários que o site acessado possui um certificado SSL emitido segundo um processo altamente seguro e verificado através de uma auditoria.
+História O Comércio via Internet está enfrentando uma crise de segurança. A confiança na segurança de sites está diminuindo, e o número de consumidores que estão deixando de fazer transações on-line está aumentando.</description>
+    </item>
+    
+    <item>
+      <title>Trabalhando com Python e MongoDB</title>
+      <link>https://avelino.run/trabalhando-com-python-e-mongodb/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/trabalhando-com-python-e-mongodb/</guid>
+      <description>Hoje MongoDB está começando ficar bem comentado na internet (famosos Database NoSQL). Tenho bastante aplicações em produção trabalhando com MongoDB e outros database NoSQL ambas escrita em Python, vou escrever um pouco como usar o MongoDB na linguagem Python.
+Como em qualquer outra linguagem, não tem muito segredo. No Python temos a LIB chamada PyMongo, que simplifica muito o trabalho do programador.
+Contando que o PyMongo já estejá instalado, seguimos em frente.</description>
+    </item>
+    
+    <item>
+      <title>Coding Dojo o melhor lugar para pratica Programação</title>
+      <link>https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/</guid>
+      <description>Nós da Comunidade Python São Paulo estamos no 10&amp;rsquo; Coding Dojo.
+Parabéns a todos os organizadores e participantes.
+Agradeço a todas as empresa que abriu a porta para nós da Comunidade Python São Paulo poder realizar o Coding Dojo.
+Coding Dojo é uma reunião onde um grupo de programadores se reúnem para trabalhar em um desafio de programação. Eles estão lá para se divertir e se envolver em prática a fim de melhorar suas habilidades.</description>
+    </item>
+    
+    <item>
+      <title>Meu ambiente de trabalho em 7 itens</title>
+      <link>https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/</link>
+      <pubDate>Sun, 20 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/</guid>
+      <description>O Licio me convidou para entrar no ritmo dos &amp;ldquo;7 itens&amp;rdquo; então vamos lá&amp;hellip;
+ GIT + Mercurial   Geralmente procuro usar Mercurial no Bitbucket mas costumo usar bastante Git no Github. Uso o Github porque vejo ele muito mais do que um espaço para criar repositórios, e sim uma rede social de Desenvolvedor.
+  VIM   Depois de muito testar o Emacs, TextMate e VIM, resolvi afirma que para mim o melhor é o VIM, consigo fazer tudo que preciso e não tenho tantos problemas com &amp;ldquo; como no TextMate.</description>
+    </item>
+    
+    <item>
+      <title>Problema com Celery &#34;process exiting with exitcode 1&#34;</title>
+      <link>https://avelino.run/problema-com-celery-process-exiting-with-exitcode-1/</link>
+      <pubDate>Sun, 26 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/problema-com-celery-process-exiting-with-exitcode-1/</guid>
+      <description>Hoje estava rodando o Celery em um projeto e me deparei com um problema, o &amp;ldquo;process exiting with exitcode 1&amp;rdquo; quando dava start no Celery:
+[root@xen-01 gonow]# python2.7 manage.py celeryd -v 2 -B -s celery -E -l INFO [2010-12-16 09:18:13,184: WARNING/MainProcess] celery@xen-01 v2.1.3 is starting. [2010-12-16 09:18:13,185: WARNING/MainProcess] /usr/local/lib/python2.7/site-packages/celery-2.1.3-py2.7.egg/celery/apps/ worker.py:107: UserWarning: Running celeryd with superuser privileges is not encouraged! &amp;quot;Running celeryd with superuser privileges is not encouraged!&amp;quot;) [2010-12-16 09:18:13,185: WARNING/MainProcess] /usr/local/lib/python2.</description>
+    </item>
+    
+    <item>
+      <title>Calculo de Bhaskara via Python</title>
+      <link>https://avelino.run/calculo-de-bhaskara-via-python/</link>
+      <pubDate>Fri, 15 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/calculo-de-bhaskara-via-python/</guid>
+      <description>O foco este post é levar você aprender computação com Python.
+Para calcular as raízes em função do segundo grau, utilizamos uma fórmula muito querida por todos que estudam no ensino médio, a famosa fórmula de Bhaskara:
+Onde cada letra desta fórmula representa os coeficientes da função do segundo grau que queremos resolver. Basta substituir e achar os valores. Podem notar que há um ± no meio da fórmula. Pois é, é daí que irá sair dois resultados: um com o sinal de + e outro com o sinal de -.</description>
+    </item>
+    
+    <item>
+      <title>Ajudando projeto open source: MongoEngine</title>
+      <link>https://avelino.run/ajudando-projeto-open-source-mongoengine/</link>
+      <pubDate>Mon, 06 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/ajudando-projeto-open-source-mongoengine/</guid>
+      <description>Com grande orgunho que venho anunciar a todos que o projeto MongoEngine tem path pt_BR.
+http://mongoengine.org/pt_BR/
+Por enquanto estamos apenas com o site em Português e trabalhando encima da documentação.
+Caso você queira ajudar o projeto por favor mandar email para avelino AT mongoengine DOT org</description>
+    </item>
+    
+    <item>
+      <title>TDA Fila com Python</title>
+      <link>https://avelino.run/tda-fila-com-python/</link>
+      <pubDate>Fri, 23 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/tda-fila-com-python/</guid>
+      <description>O foco este post é levar você aprender computação com Python. O TDA Fila é definido pelas seguintes operações:
+__init__: Inicializar uma nova fila vazia insert: Adicionar um novo item à fila remove: Remover e retornar um item da fila. O item retornado é o que foi adicionado primeiro. isEmpty: Checar se a fila está vazia
+Segue abaixo um código para explica melhor a implementação &amp;quot;TAD Fila&amp;quot;.
+class Queue: def __init__(self): self.</description>
+    </item>
+    
+  </channel>
+</rss>

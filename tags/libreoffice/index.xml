@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Libreoffice on Avelino</title>
+    <link>https://avelino.run/tags/libreoffice/</link>
+    <description>Recent content in Libreoffice on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/libreoffice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Corretor Ortográfico no VIM</title>
+      <link>https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/</link>
+      <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/</guid>
+      <description>Desde 2007 escrevo aqui no meu blog, com isso já passei por diversas plataforma de blog (Blogspot, Wordpress, Django, Django Diario, Pelican, entre outras), hoje estou usando liquidluck (ferramenta escrita em Tornado Python para gerar arquivos estático), minha escolha para essa mudança foi simplificar o processo de escrever texto, ou seja, usar o que eu uso no dia a dia para programar, com isso tive algumas perda como corretor ortográfo!</description>
+    </item>
+    
+  </channel>
+</rss>

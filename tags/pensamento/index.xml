@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pensamento on Avelino</title>
+    <link>https://avelino.run/tags/pensamento/</link>
+    <description>Recent content in Pensamento on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/pensamento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Empreendendo em seu local de trabalho</title>
+      <link>https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/</guid>
+      <description>Em 2014 palestrei em alguns evendo falando sobre Empreender em seu local de trabalho, muitas pessoas pensam que empreender é abrir uma empresa (ter CNPJ) e cuidar de questões burocraticas de ter uma empresa (contabilidade, fluxo de caixa e blá blá blá), mas na real o que é empreender?
+ Porque esse blogpost, após 3 anos de palestra? Tenha mentalidade empreendedora, chega de andar no automático onde outras pessoas dita oque é melhor para você.</description>
+    </item>
+    
+  </channel>
+</rss>

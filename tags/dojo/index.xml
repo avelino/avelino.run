@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dojo on Avelino</title>
+    <link>https://avelino.run/tags/dojo/</link>
+    <description>Recent content in Dojo on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Feb 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/dojo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coding Dojo o melhor lugar para pratica Programação</title>
+      <link>https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/</guid>
+      <description>Nós da Comunidade Python São Paulo estamos no 10&amp;rsquo; Coding Dojo.
+Parabéns a todos os organizadores e participantes.
+Agradeço a todas as empresa que abriu a porta para nós da Comunidade Python São Paulo poder realizar o Coding Dojo.
+Coding Dojo é uma reunião onde um grupo de programadores se reúnem para trabalhar em um desafio de programação. Eles estão lá para se divertir e se envolver em prática a fim de melhorar suas habilidades.</description>
+    </item>
+    
+  </channel>
+</rss>

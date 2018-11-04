@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fila on Avelino</title>
+    <link>https://avelino.run/tags/fila/</link>
+    <description>Recent content in Fila on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jul 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/fila/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TDA Fila com Python</title>
+      <link>https://avelino.run/tda-fila-com-python/</link>
+      <pubDate>Fri, 23 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/tda-fila-com-python/</guid>
+      <description>O foco este post é levar você aprender computação com Python. O TDA Fila é definido pelas seguintes operações:
+__init__: Inicializar uma nova fila vazia insert: Adicionar um novo item à fila remove: Remover e retornar um item da fila. O item retornado é o que foi adicionado primeiro. isEmpty: Checar se a fila está vazia
+Segue abaixo um código para explica melhor a implementação &amp;quot;TAD Fila&amp;quot;.
+class Queue: def __init__(self): self.</description>
+    </item>
+    
+  </channel>
+</rss>

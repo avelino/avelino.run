@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python En on Avelino</title>
+    <link>https://avelino.run/tags/python-en/</link>
+    <description>Recent content in Python En on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/python-en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Business Intelligence (BI) Application Server written in Python</title>
+      <link>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</guid>
+      <description>I started a new project with the name OpenMining, new application server written in Python.
+OpenMining is software for creating OLAP (online analytical processing) cubes (multi-dimensional) using Numpy, Scipy and Pandas for data management and flexibility in processing dynamical filters. Open-source provider of reporting, analysis, dashboard, data mining and workflow capabilities.
+Our goals  Business Intelligence software (Pentaho/Jaspersoft) alternative; OLAP manager; Generate report (grid, charts, pdf and etc); Dashboard manager, link one or more element (report); Easy dashboard generate; Not one data is processed on the basis of source data; Friendly interface; Used websocket on cube load;  Python libs used  Pandas Numpy numexpr ipython Tornado SQLAlchemy RQ Riak client Redis client Memcached client  More about OLAP cube A cube can be considered a generalization of a three-dimensional spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>New web framework asynchronous to Python 3</title>
+      <link>https://avelino.run/new-web-framework-asynchronous-to-python-3/</link>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/new-web-framework-asynchronous-to-python-3/</guid>
+      <description>I started a new project with the name nacho, asynchronous web framework for Python 3.
+Our goals  It was designed to work on Python 3.x Some of syntax were inspired on Tornado&amp;rsquo;s syntax Tornado is the default server, but Eventlet is stable as well Templates are done by Jinja2 HTML5 as the big-main-thing Work friendly with NoSQL (otherwise we should stop talking about them) Handle asynchronous requests properly  Example class MainHandler(ApplicationController): def get(self): data = {&#39;title&#39;: &#39;testando lero lero&#39;} self.</description>
+    </item>
+    
+  </channel>
+</rss>

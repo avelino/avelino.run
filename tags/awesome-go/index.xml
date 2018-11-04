@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awesome Go on Avelino</title>
+    <link>https://avelino.run/tags/awesome-go/</link>
+    <description>Recent content in Awesome Go on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/awesome-go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Keeping open source projects - awesome-go</title>
+      <link>https://avelino.run/keeping-open-source-projects-awesome-go/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/keeping-open-source-projects-awesome-go/</guid>
+      <description>Beginning of any project (especially when we are talking about open source) is extremely entertaining for developer, over the years the fun passes and it is the responsibility to keep your &amp;ldquo;son&amp;rdquo; following the path of it.
+How did the starting awesome-go? All projects I started are out of necessity, the awesome-go was no different.
+After knowing the awesome-python and seeing other &amp;ldquo;awesomes&amp;rdquo; projects I searched for the awesome-go and did not get results.</description>
+    </item>
+    
+  </channel>
+</rss>

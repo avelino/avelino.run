@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nosql on Avelino</title>
+    <link>https://avelino.run/tags/nosql/</link>
+    <description>Recent content in Nosql on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Dec 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Riak, alta performance NoSQL para seu projeto</title>
+      <link>https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/</link>
+      <pubDate>Sun, 23 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/</guid>
+      <description>Esse ano de 2012 ajudei a comunidade Riak que a cada dia esse banco de dados vem me surpreendendo. Estou para escrever um blogpost desde fevereiro, mas como vida de programador (pelo menos para mim esse ano) é agitada.
+Resolvi falar sobre a performance nesse primeiro blogpost sobre Riak e colocar na mesa um teste (relativamente simples) para compara o tempo de inserção, realmente é um teste simples se tratando de NoSQL.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambiente De Trabalho on Avelino</title>
+    <link>https://avelino.run/tags/ambiente-de-trabalho/</link>
+    <description>Recent content in Ambiente De Trabalho on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/ambiente-de-trabalho/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Usando iPad Pro como laptop principal</title>
+      <link>https://avelino.run/usando-ipad-pro-como-laptop-principal/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/usando-ipad-pro-como-laptop-principal/</guid>
+      <description>Após ler alguns blogpost sobre usar o iPad como computador principal e conversar com um amigo que trabalha no Google que usa em caso como &amp;ldquo;main laptop&amp;rdquo;, resolvi estudar os apps para iOS que eu teria que usar para atender a minha demanda do dia a dia como gestor e desenvolvedor.
+Como sempre a Apple faz um ótimo trabalho nos seus produtos, sempre pensando na simplicidade de uso do seu cliente final, ou seja, isso ajuda o onboard em qualquer dispositivo/software deles.</description>
+    </item>
+    
+    <item>
+      <title>Meu ambiente de trabalho em 7 itens</title>
+      <link>https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/</link>
+      <pubDate>Sun, 20 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/</guid>
+      <description>O Licio me convidou para entrar no ritmo dos &amp;ldquo;7 itens&amp;rdquo; então vamos lá&amp;hellip;
+ GIT + Mercurial   Geralmente procuro usar Mercurial no Bitbucket mas costumo usar bastante Git no Github. Uso o Github porque vejo ele muito mais do que um espaço para criar repositórios, e sim uma rede social de Desenvolvedor.
+  VIM   Depois de muito testar o Emacs, TextMate e VIM, resolvi afirma que para mim o melhor é o VIM, consigo fazer tudo que preciso e não tenho tantos problemas com &amp;ldquo; como no TextMate.</description>
+    </item>
+    
+  </channel>
+</rss>

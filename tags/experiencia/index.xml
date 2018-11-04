@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiencia on Avelino</title>
+    <link>https://avelino.run/tags/experiencia/</link>
+    <description>Recent content in Experiencia on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/experiencia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A arte de reescrever software</title>
+      <link>https://avelino.run/a-arte-de-reescrever-software/</link>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/a-arte-de-reescrever-software/</guid>
+      <description>Lidar com software legado hoje em dia é mais comum do que podemos imaginar, costumo dizer que muitos softwares nascem legado, como assim? Para mim software que não tem teste automatizado é legado, não tem como garantir funcionamento de absolutamente nada dentro dele e muitos comportamentos (recursos ou bugs) só irá aparecer com usuários usando constantemente.
+Após alinhamento do que é software legado é comum a empresa (principalmente as com cultura de startup) e desenvolvedores ter que trocar peças do software em pleno o voo, não temos como pousar o avião para fazer manutenção e depois decolar novamente quando a empresa está com clientes usando o software em produção.</description>
+    </item>
+    
+  </channel>
+</rss>

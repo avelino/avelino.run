@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jvm on Avelino</title>
+    <link>https://avelino.run/tags/jvm/</link>
+    <description>Recent content in Jvm on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/jvm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why is the name of the language, &#39;Clojure&#39;?</title>
+      <link>https://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/</guid>
+      <description>Many who did not seek the &amp;ldquo;history&amp;rdquo; thinks:
+Did you pick the name based on starting with the word &amp;quot;closure&amp;quot; and replacing the &amp;quot;s&amp;quot; with &amp;quot;j&amp;quot; for Java? It seems pretty likely, but it would be nice to have that confirmed.
+Rich Hickey&amp;rsquo;s response (creator of the Clojure):
+The name was chosen to be unique. I wanted to involve c (c#), l (lisp) and j (java). Once I came up with Clojure, given the pun on closure, the available domains and vast emptiness of the googlespace, it was an easy decision.</description>
+    </item>
+    
+  </channel>
+</rss>

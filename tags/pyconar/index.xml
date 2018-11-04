@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pyconar on Avelino</title>
+    <link>https://avelino.run/tags/pyconar/</link>
+    <description>Recent content in Pyconar on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Dec 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/pyconar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Palestra sobre London Framework na PyCon Argentina</title>
+      <link>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</guid>
+      <description>Universidad Nacional de Quilmes, local onde foi organizado a PyCon Argentina
+No começo de junho o Mariano (organizador do evento PyCon Argentina 2012, me fez um convite para ir palestra sobre London Framework (Framework criado por Marinho Brandão).
+Nada melhor do que conhecer pessoas e principalmente culturas novas, entender o que os Argentinos estão desenvolvendo e o que anda estudando, ou seja, fazer network (como falamos na área de tecnologia). Dava para ver no rosto dos argentinos a vontade de aprender e de consumir o maximo de informação possível, na PyCon Argentina de 2012 teve uma ótima seleção de palestra, onde foi abordado temas como asynchrony (twisted), Plone (com Erico Andrei - Brasileiro), web2py (com Massimo Di Pierro - criador do framework), Python 3.</description>
+    </item>
+    
+  </channel>
+</rss>

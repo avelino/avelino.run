@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Avelino</title>
+    <link>https://avelino.run/tags/python/</link>
+    <description>Recent content in Python on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Realizando sonho de trabalhar full time com Open Source</title>
+      <link>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</guid>
+      <description>É extremamente comum ver amigos que começam a contribuir com open source quererem arrumar um “emprego” para passar o dia contribuindo com o projeto (em geral, deixando o Github verdinho&amp;hellip;). Será que é realmente legal, como muitos imaginam, trabalhar para uma empresa para só contribuir com open source?
+Costumo dizer que contribuir com open source é viciante, faz você passar horas e horas entendendo o projeto que alguém (ou alguma empresa) idealizou, até que chega o momento de mandar o primeiro PR (pull request, patch e etc) e defender sua implementação.</description>
+    </item>
+    
+    <item>
+      <title>Cron dentro do Django com Celery</title>
+      <link>https://avelino.run/cron-dentro-do-django-com-celery/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/cron-dentro-do-django-com-celery/</guid>
+      <description>Ontem na parte da noite conversando com um conhecido ele falou que estava usando em um projeto o Celery, como ainda não conhecia vamos estudar este projeto. Gostei da forma que ele trabalha e como ele integra com o Django. | Tenho em um projeto uma fila de processamento só que foi desenvolvido por mim e não tem todos os recursos que o Celery tem.
+Vou explicar como usar o Celery com o Django em um exemplo simples, e como sempre basta usar a criatividade para desenvolver a sua necessidade.</description>
+    </item>
+    
+    <item>
+      <title>Where to start a project with bottle, Boilerplate</title>
+      <link>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</guid>
+      <description>Developing python application using minimalist frameworks has become frequent in the Python community, for no reasons not to speak here. I see this change as a professional development where developers want to choose what is best for your application, simply use what little hide a group *(of pearls, or not*) that is better.
+Along with this evolution brings vices of many developers other frameworks (and/or technology), this can be a problem at the time of the taking of decision of which Python web framework to use.</description>
+    </item>
+    
+    <item>
+      <title>Go vs Python more request per second</title>
+      <link>https://avelino.run/go-vs-python-more-request-per-second/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/go-vs-python-more-request-per-second/</guid>
+      <description>I use python because it is a simple and powerful language, but never used by be excellence in performance (But for python web serves very well)! I know that benchmark based on &amp;ldquo;Hello World&amp;rdquo; does not want to say too much, but it&amp;rsquo;s interessanta we know what technology (framework) is more time to answer performance web support request.
+There is a python framework named Falcon (Falcon follows the REST architectural style, meaning (among other things) that you think in terms of resources and state transitions, which map to HTTP verbs) which is extremely performance, even using asynchronous backup processing library (as gevent, is a coroutine-based Python networking library that uses greenlet to provide a high-level asynchronous API on top of the libev event loop).</description>
+    </item>
+    
+    <item>
+      <title>Bottle, full stack without Django</title>
+      <link>https://avelino.run/bottle-full-stack-without-django/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/bottle-full-stack-without-django/</guid>
+      <description>This blogpost is based in a lecture I presented here in Brazil, follows the slides!
+Bottle is a micro web framework compatible with WSGI, depends only on the Python standard library is compatible with python 2.6, 2.7, 3.2, 3.3 and 3.4, single source file. It was created by Marcel Hellkamp (@defnull) and maintained by the community that raised surrounding framework.
+Django is a framework for rapid development for web, written in Python, which uses the standard MTV (model-template-view) and pragmatic.</description>
+    </item>
+    
+    <item>
+      <title>Swift Language (Apple) first steps</title>
+      <link>https://avelino.run/swift-language-apple-first-steps/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/swift-language-apple-first-steps/</guid>
+      <description>Apple launched the Swift language (Looking for the Swift parallel scripting language? Please visit http://swift-lang.org) at WWDC 2014. A modern language to program for Mac and iOS!
+Strongly typed language, where you explicitly what type (variable, arguments, and function returns), syntax reminds dynamic languages with Python, Go, Ruby and JavaScript.
+Apple offers a free comprehensive guide on language in HTML and iBook formats.
+ We can put zero left freely to improve readability, insert _ to separate groups of numbers and add the + in front.</description>
+    </item>
+    
+    <item>
+      <title>Golang, C and Python the benchmark time</title>
+      <link>https://avelino.run/golang-c-and-python-the-benchmark-time/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/golang-c-and-python-the-benchmark-time/</guid>
+      <description>I was wondering how performant Golang is, so I decided to put together a little benchmarking example for myself.
+The benchmark will be done in my personal computer:
+Processor 3 GHz Intel Core i7 Memory 8 GB 1600 MHz DDR3 Software OS X 10.9.2 (13C64)  So I started with Python, which is what I know best and created the following simple script;
+ The reason for the total output, was to have a check to ensure that I was getting the same results in each of the scripts.</description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence (BI) Application Server written in Python</title>
+      <link>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</guid>
+      <description>I started a new project with the name OpenMining, new application server written in Python.
+OpenMining is software for creating OLAP (online analytical processing) cubes (multi-dimensional) using Numpy, Scipy and Pandas for data management and flexibility in processing dynamical filters. Open-source provider of reporting, analysis, dashboard, data mining and workflow capabilities.
+Our goals  Business Intelligence software (Pentaho/Jaspersoft) alternative; OLAP manager; Generate report (grid, charts, pdf and etc); Dashboard manager, link one or more element (report); Easy dashboard generate; Not one data is processed on the basis of source data; Friendly interface; Used websocket on cube load.</description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence (BI) Application Server written in Python</title>
+      <link>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</guid>
+      <description>I started a new project with the name OpenMining, new application server written in Python.
+OpenMining is software for creating OLAP (online analytical processing) cubes (multi-dimensional) using Numpy, Scipy and Pandas for data management and flexibility in processing dynamical filters. Open-source provider of reporting, analysis, dashboard, data mining and workflow capabilities.
+Our goals  Business Intelligence software (Pentaho/Jaspersoft) alternative; OLAP manager; Generate report (grid, charts, pdf and etc); Dashboard manager, link one or more element (report); Easy dashboard generate; Not one data is processed on the basis of source data; Friendly interface; Used websocket on cube load;  Python libs used  Pandas Numpy numexpr ipython Tornado SQLAlchemy RQ Riak client Redis client Memcached client  More about OLAP cube A cube can be considered a generalization of a three-dimensional spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>New web framework asynchronous to Python 3</title>
+      <link>https://avelino.run/new-web-framework-asynchronous-to-python-3/</link>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/new-web-framework-asynchronous-to-python-3/</guid>
+      <description>I started a new project with the name nacho, asynchronous web framework for Python 3.
+Our goals  It was designed to work on Python 3.x Some of syntax were inspired on Tornado&amp;rsquo;s syntax Tornado is the default server, but Eventlet is stable as well Templates are done by Jinja2 HTML5 as the big-main-thing Work friendly with NoSQL (otherwise we should stop talking about them) Handle asynchronous requests properly  Example class MainHandler(ApplicationController): def get(self): data = {&#39;title&#39;: &#39;testando lero lero&#39;} self.</description>
+    </item>
+    
+    <item>
+      <title>Riak, alta performance NoSQL para seu projeto</title>
+      <link>https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/</link>
+      <pubDate>Sun, 23 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/</guid>
+      <description>Esse ano de 2012 ajudei a comunidade Riak que a cada dia esse banco de dados vem me surpreendendo. Estou para escrever um blogpost desde fevereiro, mas como vida de programador (pelo menos para mim esse ano) é agitada.
+Resolvi falar sobre a performance nesse primeiro blogpost sobre Riak e colocar na mesa um teste (relativamente simples) para compara o tempo de inserção, realmente é um teste simples se tratando de NoSQL.</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre London Framework na PyCon Argentina</title>
+      <link>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</guid>
+      <description>Universidad Nacional de Quilmes, local onde foi organizado a PyCon Argentina
+No começo de junho o Mariano (organizador do evento PyCon Argentina 2012, me fez um convite para ir palestra sobre London Framework (Framework criado por Marinho Brandão).
+Nada melhor do que conhecer pessoas e principalmente culturas novas, entender o que os Argentinos estão desenvolvendo e o que anda estudando, ou seja, fazer network (como falamos na área de tecnologia). Dava para ver no rosto dos argentinos a vontade de aprender e de consumir o maximo de informação possível, na PyCon Argentina de 2012 teve uma ótima seleção de palestra, onde foi abordado temas como asynchrony (twisted), Plone (com Erico Andrei - Brasileiro), web2py (com Massimo Di Pierro - criador do framework), Python 3.</description>
+    </item>
+    
+    <item>
+      <title>Plone para desenvolvedores Python</title>
+      <link>https://avelino.run/plone-para-desenvolvedores-python/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/plone-para-desenvolvedores-python/</guid>
+      <description>Sempre que uma pessoa vinha falar de Plone para mim eu não me sentia muito bem pois não conhecia e o pessoal que sempre conversei que desenvolvia em Plone e depois conheceu Django sempre falava que não valia apena mexer com Plone! Será que isso é realmente verdade?
+Depois do que eu escutei o pessoal falando eu não queria nem saber desse cara chamado Plone, ate mesmo que para desenvolver uma solução de gerenciamento de conteúdo usando Django não é muito trabalhoso (Realmente era assim que eu pensava, mal eu sabia que estava completamente enganado).</description>
+    </item>
+    
+    <item>
+      <title>VIM a IDE para programadores Python</title>
+      <link>https://avelino.run/vim-a-ide-para-programadores-python/</link>
+      <pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/vim-a-ide-para-programadores-python/</guid>
+      <description>Depois muito tempo sem escrever nada no meu blog, escolhi esse tema para chamar a atenção do pessoal que esta começando desenvolver em Python que sempre pergunta qual é a melhor IDE para desenvolver em Python ou qual quer programador que usa uma super IDE pesado porque tem o recurso X, Y e Z.
+Com o VIM podemos ter todos os recurso avançado que temos em qual quer IDE, basta algumas configurações para que esses recursos ser ativado, para facilitar a vida de todos compartilhei o meu .</description>
+    </item>
+    
+    <item>
+      <title>Nova versão da API do Dropbox</title>
+      <link>https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/</link>
+      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/</guid>
+      <description>Dia 14/09/2011 o Dropbox lançou a nova versão 1.0 da API, nesse lançamento trouxe muitas novidades e melhorias:
+ Suporte para aplicações web Suporte para criação de pasta (Na versão 0.1 da API não tinha) Novo site para desenvolvedores, com documentação simples e completa https://www.dropbox.com/developers_beta Melhor compartilhamento de arquivo, streaming, busca por arquivo e suporte para revisão de arquivo Implementação no controle de nomes de arquivos, para não sobrescrever arquivos já salvo SDK atualizado para iOS, Android, Python, Ruby e Java que implementa todas modificações e documentação  Link do repositorio (Python Pypi) da nova biblioteca http://pypi.</description>
+    </item>
+    
+    <item>
+      <title>Upload da arquivo no Google App Engine (BlobProperty)</title>
+      <link>https://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/</link>
+      <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/</guid>
+      <description>Essa semana que passou tive uma necessidade para um sistema de trabalhar com UPLOAD de arquivos, ate ai é simples, só que o sistema estava em Google App Engine, depois de apanhar um pouco resolvi fazer um post aqui no Blog para deixar documentado como não é complicado trabalhar com BlobProperty no BigTable.
+Primeiro vamos criar um Modal onde vai ter dois campo o arquivo e o mimetype dele:
+class DatastoreFile(db.</description>
+    </item>
+    
+    <item>
+      <title>Criando sistema com Multithreaded em Python</title>
+      <link>https://avelino.run/criando-sistema-com-multithreaded-em-python/</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/criando-sistema-com-multithreaded-em-python/</guid>
+      <description>Multithreaded é quando temos mais de um programa executando ao mesmo tempo, totalmente diferente de executar duas vez o mesmo programa, com &amp;ldquo;threads&amp;rdquo; o sistema vai ser executado apenas uma vez e via thread vai processar mais de uma função ao mesmo tempo, isso é necessario para concorrência em sistema.
+Algumas vantagens de trabalha com threads:
+ Múltiplos processo ao mesmo tempo e pode, portanto, compartilhar informações e comunicar uns com os outros mais facilmente do que se fossem processos separados; Menos consumo de memória, pois o mesmo vai consumir mais CPU.</description>
+    </item>
+    
+    <item>
+      <title>Coding Dojo o melhor lugar para pratica Programação</title>
+      <link>https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/</guid>
+      <description>Nós da Comunidade Python São Paulo estamos no 10&amp;rsquo; Coding Dojo.
+Parabéns a todos os organizadores e participantes.
+Agradeço a todas as empresa que abriu a porta para nós da Comunidade Python São Paulo poder realizar o Coding Dojo.
+Coding Dojo é uma reunião onde um grupo de programadores se reúnem para trabalhar em um desafio de programação. Eles estão lá para se divertir e se envolver em prática a fim de melhorar suas habilidades.</description>
+    </item>
+    
+    <item>
+      <title>Problema com Celery &#34;process exiting with exitcode 1&#34;</title>
+      <link>https://avelino.run/problema-com-celery-process-exiting-with-exitcode-1/</link>
+      <pubDate>Sun, 26 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/problema-com-celery-process-exiting-with-exitcode-1/</guid>
+      <description>Hoje estava rodando o Celery em um projeto e me deparei com um problema, o &amp;ldquo;process exiting with exitcode 1&amp;rdquo; quando dava start no Celery:
+[root@xen-01 gonow]# python2.7 manage.py celeryd -v 2 -B -s celery -E -l INFO [2010-12-16 09:18:13,184: WARNING/MainProcess] celery@xen-01 v2.1.3 is starting. [2010-12-16 09:18:13,185: WARNING/MainProcess] /usr/local/lib/python2.7/site-packages/celery-2.1.3-py2.7.egg/celery/apps/ worker.py:107: UserWarning: Running celeryd with superuser privileges is not encouraged! &amp;quot;Running celeryd with superuser privileges is not encouraged!&amp;quot;) [2010-12-16 09:18:13,185: WARNING/MainProcess] /usr/local/lib/python2.</description>
+    </item>
+    
+    <item>
+      <title>Calculo de Bhaskara via Python</title>
+      <link>https://avelino.run/calculo-de-bhaskara-via-python/</link>
+      <pubDate>Fri, 15 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/calculo-de-bhaskara-via-python/</guid>
+      <description>O foco este post é levar você aprender computação com Python.
+Para calcular as raízes em função do segundo grau, utilizamos uma fórmula muito querida por todos que estudam no ensino médio, a famosa fórmula de Bhaskara:
+Onde cada letra desta fórmula representa os coeficientes da função do segundo grau que queremos resolver. Basta substituir e achar os valores. Podem notar que há um ± no meio da fórmula. Pois é, é daí que irá sair dois resultados: um com o sinal de + e outro com o sinal de -.</description>
+    </item>
+    
+    <item>
+      <title>Ajudando projeto open source: MongoEngine</title>
+      <link>https://avelino.run/ajudando-projeto-open-source-mongoengine/</link>
+      <pubDate>Mon, 06 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/ajudando-projeto-open-source-mongoengine/</guid>
+      <description>Com grande orgunho que venho anunciar a todos que o projeto MongoEngine tem path pt_BR.
+http://mongoengine.org/pt_BR/
+Por enquanto estamos apenas com o site em Português e trabalhando encima da documentação.
+Caso você queira ajudar o projeto por favor mandar email para avelino AT mongoengine DOT org</description>
+    </item>
+    
+    <item>
+      <title>TDA Fila com Python</title>
+      <link>https://avelino.run/tda-fila-com-python/</link>
+      <pubDate>Fri, 23 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/tda-fila-com-python/</guid>
+      <description>O foco este post é levar você aprender computação com Python. O TDA Fila é definido pelas seguintes operações:
+__init__: Inicializar uma nova fila vazia insert: Adicionar um novo item à fila remove: Remover e retornar um item da fila. O item retornado é o que foi adicionado primeiro. isEmpty: Checar se a fila está vazia
+Segue abaixo um código para explica melhor a implementação &amp;quot;TAD Fila&amp;quot;.
+class Queue: def __init__(self): self.</description>
+    </item>
+    
+  </channel>
+</rss>

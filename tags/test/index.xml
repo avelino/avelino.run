@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Avelino</title>
+    <link>https://avelino.run/tags/test/</link>
+    <description>Recent content in Test on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Feb 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test é para os fracos</title>
+      <link>https://avelino.run/test-%C3%A9-para-os-fracos/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/test-%C3%A9-para-os-fracos/</guid>
+      <description>Em novembro fiz mais uma palestra sobre teste unitários só que agora com o titulo da palestra bem diferente &amp;ldquo;Test é para os fracos&amp;rdquo;, o motivo desse titulo é para deixar a palestra mais dinâmica pois escrever teste não é uma tarefa muito simples no primeiro contato.
+Tem muitas pessoas que acha que escrever teste não garante que o software não tem bug, isso é claro, mas vamos encarar o problema quando quando tiver que mudar o software, caso ele esteja como teste na parte onde esta sendo implementado novas funcionalidade e venha quebrar ai sim vamos dar valor aos teste.</description>
+    </item>
+    
+  </channel>
+</rss>

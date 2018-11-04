@@ -1,0 +1,345 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+
+
+
+<title>Bottle, full stack without Django - Avelino</title>
+
+
+<meta name="keywords" content="bottle,python,framework,django,full-stack">
+<link rel="amphtml" href="https://r.amply.cloud/?url=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f">
+
+
+
+  <meta name="author" content="Avelino">
+  <base href="https://avelino.run/">
+  <link rel="canonical" href="https://avelino.run/bottle-full-stack-without-django/">
+
+  <meta name="generator" content="Hugo 0.51-DEV" />
+
+  
+  
+
+  
+  <link href="https://avelino.run/css/main.css?hash=1541291284" rel="stylesheet">
+  <link href="https://avelino.run/css/highlightjs-dracula.css?hash=1541291284" rel="stylesheet">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+</head>
+
+<body lang="en-us">
+
+
+
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+        <div class="menu__wrapper d-none d-lg-block col-md-12">
+          <nav class="">
+            <ul>
+              <li><a href="#hello">Hello</a></li>
+              <li><a href="#projects">Projects</a></li>
+	      
+	      <li><a href="https://avelino.run/blog/#content" alt="content Blogs">Blogs</a></li>
+	      
+	      <li><a href="https://avelino.run/quote/#content" alt="content Quotes">Quotes</a></li>
+	      
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__wrapper col-md-12 d-lg-none">
+          <button type="button" class="menu__mobile-button">
+            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="mobile-menu d-lg-none">
+    <div class="container">
+      <div class="mobile-menu__close">
+        <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+      </div>
+      <nav class="mobile-menu__wrapper">
+        <ul>
+          <li><a href="#hello">Hello</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+	  
+	  <li><a href="https://avelino.run/blog/#content" alt="content Blogs">Blogs</a></li>
+	  
+	  <li><a href="https://avelino.run/quote/#content" alt="content Quotes">Quotes</a></li>
+	  
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+<header class="background blog-header"></header>
+
+
+
+<div class="container">
+  <div class="article">
+    <div class="row">
+      <div class="col-md-12">
+        <a class="article__back-link" href="/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Back</a>
+
+        <h1 class="article__title">Bottle, full stack without Django</h1>
+        <p class="article_date">
+	  Dec 1, 2014 | 4 minutes read
+	</p>
+	
+<p class="article__share">Share this post:
+  <a rel="nofollow" href="https://twitter.com/intent/tweet?text=Bottle%2c%20full%20stack%20without%20Django https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f by @avelinorun" target="_blank"><i class="fa fa-twitter-square"></i></a>
+  <a rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-facebook-square"></i></a>
+  <a rel="nofollow" href="https://www.linkedin.com/cws/share?url=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-linkedin-square"></i></a>
+  <a rel="nofollow" href="https://plus.google.com/share?url=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-google-plus-square"></i></a>
+  <a rel="nofollow" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-pinterest-square"></i></a>
+</p>
+
+
+
+	
+
+<p>This blogpost is based in a lecture I presented here in Brazil, follows the <a href="https://speakerdeck.com/avelino/bottle-o-full-stack-sem-django" target="_blank">slides</a>!</p>
+
+<p><img src="/bottle.png#center" alt="Bottle micro framework web" /></p>
+
+<p>Bottle is a micro web framework compatible with WSGI, depends only on the Python standard library is compatible with python 2.6, 2.7, 3.2, 3.3 and 3.4, <a href="https://github.com/defnull/bottle/blob/master/bottle.py" target="_blank">single source file</a>. It was created by Marcel Hellkamp (<a href="https://github.com/defnull" target="_blank">@defnull</a>) and maintained by the <a href="https://github.com/orgs/bottlepy/people" target="_blank">community</a> that raised surrounding framework.</p>
+
+<p><a href="https://www.djangoproject.com/" target="_blank">Django</a> is a framework for rapid development for web, written in Python, which uses the standard MTV (model-template-view) and pragmatic. Was originally created as a system to manage a journalistic site in the city of Lawrence, Kansas. Became an open source project and was published under a BSD license in 2005. The name Django was inspired by the jazz musician Django Reinhardt. Django became very known for having included batteries, i.e. several distributed libraries join the Centre of the framework for simplicity work (called &ldquo;full stack&rdquo;).</p>
+
+<p>Pragmatic is what contains practical, realistic considerations, with well-defined target. Be pragmatic is to be practical is to have goals defined. In other words, the team that developed the Django take some description of architecture and who uses Django follows this architecture without being able to change easily.</p>
+
+<p>It&rsquo;s good a web framework have batteries included? Depends, if you use everything that the framework gives you Yes, but not all web designs are the same.</p>
+
+<p>Many project does not use 80% than Django offers, in those cases that don&rsquo;t use more than 50% of what we pay the cost of offering Django someone have defined the architecture, i.e. lost in performance because the Django has many modules that will not be using and yet he will climb a few modules that we don&rsquo;t use. When we use a micro framework we do the role of architect of application development, since we don&rsquo;t have a set before architecture begins to develop is necessary to devote time to define the architecture of the application.</p>
+
+<p>All the packages that we have on the Django Python library that can substitute for use in a micro framework!</p>
+
+<ul>
+<li>ORM - <a href="http://www.sqlalchemy.org/" target="_blank">SQLAlchemy</a> to <a href="https://github.com/iurisilvio/bottle-sqlalchemy" target="_blank">bottle-sqlalchemy</a></li>
+<li>Forms - <a href="https://wtforms.readthedocs.org/en/latest/" target="_blank">WTForms</a></li>
+<li>Template Engine - <a href="http://jinja.pocoo.org/docs/dev/" target="_blank">Jinja2</a>, <a href="http://www.makotemplates.org/" target="_blank">mako</a>, etc</li>
+<li>Migration - <a href="http://alembic.readthedocs.org/en/latest/" target="_blank">Alembic</a></li>
+</ul>
+
+<h2 id="sqlalchemy">SQLAlchemy</h2>
+
+<p>The SQLAlchemy exists before Django (<a href="https://github.com/zzzeek/sqlalchemy/commit/ec052c6a1f1fb0236bd367c510d82f076cb67bc9" target="_blank">yes before Django</a>) and since 2005 we have a team focuses on development of an ORM, unlike Django it&rsquo;s a time to take care of a web framework + ORM (I believe I don&rsquo;t need to talk to a developer focused render more than a developer not focused).</p>
+
+<p>Structure of a model:</p>
+
+<pre><code class="language-python">class Entity(Base):
+    __tablename__ = 'entity'
+    id = Column(Integer, Sequence('id_seq'), primary_key=True)
+    name = Column(String(50))
+
+    def __init__(self, name):
+        self.name = name
+
+    def __repr__(self):
+        return &quot;&lt;Entity('%d', '%s')&gt;&quot; % (self.id, self.name)
+</code></pre>
+
+<h2 id="wtforms">WTForms</h2>
+
+<p>A workaround for those who do not use Django and need to work with forms we have the WTForms, was created in <a href="https://github.com/wtforms/wtforms/commit/c0998bac1a4d5cd5fdf43a825529a64e24dea9a5" target="_blank">2008</a> and maintained until today!</p>
+
+<p>Structure of a form:</p>
+
+<pre><code class="language-python">class UserForm(Form):
+    name = TextField(validators=[DataRequired(), Length(max=100)])
+    email = TextField(validators=[DataRequired(), Length(max=255)])
+</code></pre>
+
+<h2 id="template-engine">Template Engine</h2>
+
+<p>Jinja2 is a modern and designer-friendly templating language for Python, modelled after Django’s templates. It is fast, widely used and secure with the optional sandboxed template execution environment</p>
+
+<p>Structure of a template:</p>
+
+<pre><code class="language-html">&lt;title&gt;{% block title %}{% endblock %}&lt;/title&gt;
+&lt;ul&gt;
+{% for user in users %}
+  &lt;li&gt;&lt;a href=&quot;{{ user.url }}&quot;&gt;{{ user.username }}&lt;/a&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</code></pre>
+
+<h2 id="migration">Migration</h2>
+
+<p>Usage of Alembic starts with creation of the Migration Environment. This is a directory of scripts that is specific to a particular application. The migration environment is created just once, and is then maintained along with the application’s source code itself.</p>
+
+<p>Structure of a migration:</p>
+
+<pre><code class="language-python">revision = '1975ea83b712'
+down_revision = None
+
+from alembic import op
+import sqlalchemy as sa
+
+def upgrade():
+    pass
+
+def downgrade():
+    pass
+</code></pre>
+
+<p>How to make the evolution and downgrade:</p>
+
+<pre><code class="language-python">def upgrade():
+    op.create_table(
+        'account',
+        sa.Column('id', sa.Integer, primary_key=True),
+        sa.Column('name', sa.String(50), nullable=False),
+        sa.Column('description', sa.Unicode(200)),
+    )
+
+def downgrade():
+    op.drop_table('account')
+</code></pre>
+
+<p>Structure of a alter table:</p>
+
+<pre><code class="language-python">&quot;&quot;&quot;
+$ alembic revision -m &quot;Add a column&quot;
+&quot;&quot;&quot;
+
+revision = 'ae1027a6acf'
+down_revision = '1975ea83b712'
+
+from alembic import op
+import sqlalchemy as sa
+
+def upgrade():
+    op.add_column('account', sa.Column('last_transaction_date', sa.DateTime))
+
+def downgrade():
+    op.drop_column('account', 'last_transaction_date')
+</code></pre>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Exactly what you see, everything that Django has found out the stack of Django. I didn&rsquo;t write this blogpost to speak ill of Django and Yes to shows that exist other solutions for full development stack. Many people use Django by not understanding the environment with Python, today the Django brings much ready that makes some developers get lazy and not gain skills of software architecture.</p>
+
+<p>Come help with the Bottle, we are a growing community, to contribute with code of Bottle look at the issue that we have open. In case of doubt we have mailing list and IRC channel.</p>
+
+<p><a href="http://bottlepy.org/docs/dev/development.html#get-involved" target="_blank">GET INVOLVED</a></p>
+
+
+	
+<p class="article__share">Share this post:
+  <a rel="nofollow" href="https://twitter.com/intent/tweet?text=Bottle%2c%20full%20stack%20without%20Django https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f by @avelinorun" target="_blank"><i class="fa fa-twitter-square"></i></a>
+  <a rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-facebook-square"></i></a>
+  <a rel="nofollow" href="https://www.linkedin.com/cws/share?url=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-linkedin-square"></i></a>
+  <a rel="nofollow" href="https://plus.google.com/share?url=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-google-plus-square"></i></a>
+  <a rel="nofollow" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2favelino.run%2fbottle-full-stack-without-django%2f"><i class="fa fa-pinterest-square"></i></a>
+</p>
+
+
+
+	<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "avelino" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="background">
+  <div id="contact" class="container section">
+    <div class="row contacts">
+      <div class="col-lg-12">
+        <div class="footer">
+
+	  
+<p class="personal-profile__social">
+  <a rel="nofollow" href="https://github.com/avelino" target="_blank"><i class="fa fa-github-square"></i></a>
+  <a rel="nofollow" href="https://instagram.com/avelinorun" target="_blank"><i class="fa fa-instagram"></i></a>
+  <a rel="nofollow" href="https://twitter.com/avelino" target="_blank"><i class="fa fa-twitter-square"></i></a>
+  
+  <a rel="nofollow" href="https://linkedin.com/in/avelinorun" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+  
+</p>
+
+
+
+	  
+	  <p>written by Avelino</p>
+	  
+	  <p><a href="https://github.com/avelino/hugo-theme-sarah" target="_blank">Sarah</a> theme for <a href="http://gohugo.io/" target="_blank">Hugo</a>. © <a href="http://avelino.xxx/" target="_blank">Avelino</a> 2018</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
+
+
+<script src="https://avelino.run/js/menu.js?hash=1541291284"></script>
+<script src="https://avelino.run/js/progress-list.js?hash=1541291284"></script>
+<script src="https://avelino.run/js/section.js?hash=1541291284"></script>
+<script src="https://avelino.run/js/mobile-menu.js?hash=1541291284"></script>
+<script src="https://avelino.run/js/mbclicker.min.js?hash=1541291284"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-3063031-15', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

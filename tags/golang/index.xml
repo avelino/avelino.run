@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Avelino</title>
+    <link>https://avelino.run/tags/golang/</link>
+    <description>Recent content in Golang on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Keeping open source projects - awesome-go</title>
+      <link>https://avelino.run/keeping-open-source-projects-awesome-go/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/keeping-open-source-projects-awesome-go/</guid>
+      <description>Beginning of any project (especially when we are talking about open source) is extremely entertaining for developer, over the years the fun passes and it is the responsibility to keep your &amp;ldquo;son&amp;rdquo; following the path of it.
+How did the starting awesome-go? All projects I started are out of necessity, the awesome-go was no different.
+After knowing the awesome-python and seeing other &amp;ldquo;awesomes&amp;rdquo; projects I searched for the awesome-go and did not get results.</description>
+    </item>
+    
+    <item>
+      <title>Realizando sonho de trabalhar full time com Open Source</title>
+      <link>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</guid>
+      <description>É extremamente comum ver amigos que começam a contribuir com open source quererem arrumar um “emprego” para passar o dia contribuindo com o projeto (em geral, deixando o Github verdinho&amp;hellip;). Será que é realmente legal, como muitos imaginam, trabalhar para uma empresa para só contribuir com open source?
+Costumo dizer que contribuir com open source é viciante, faz você passar horas e horas entendendo o projeto que alguém (ou alguma empresa) idealizou, até que chega o momento de mandar o primeiro PR (pull request, patch e etc) e defender sua implementação.</description>
+    </item>
+    
+    <item>
+      <title>Guia de estilo para pacotes Go</title>
+      <link>https://avelino.run/guia-de-estilo-para-pacotes-go/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/guia-de-estilo-para-pacotes-go/</guid>
+      <description>Tradução do blogpost Style guideline for Go packages escrito pela @rakyll.
+Código organizado em Go é fácil de entender, usar e ler. A falta de organização em código Go é tão crítica quanto as APIs mal projetadas. Os diretórios, nome e a estrutura dos seus pacotes são os primeiros elementos com os quais os utilizadores vêem e interagem.
+O objetivo deste blogpost é ajudá-lo(a) com boas práticas comuns para não definir regras ruins.</description>
+    </item>
+    
+    <item>
+      <title>Golang, C and Python the benchmark time</title>
+      <link>https://avelino.run/golang-c-and-python-the-benchmark-time/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/golang-c-and-python-the-benchmark-time/</guid>
+      <description>I was wondering how performant Golang is, so I decided to put together a little benchmarking example for myself.
+The benchmark will be done in my personal computer:
+Processor 3 GHz Intel Core i7 Memory 8 GB 1600 MHz DDR3 Software OS X 10.9.2 (13C64)  So I started with Python, which is what I know best and created the following simple script;
+ The reason for the total output, was to have a check to ensure that I was getting the same results in each of the scripts.</description>
+    </item>
+    
+    <item>
+      <title>Entendendo na pratica como funciona a linguagem Go</title>
+      <link>https://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/</guid>
+      <description>A linguagem Go é um projeto open source para tornar os programadores mais produtivos.
+Go foi desenvolvido para utilização maxima do CPU, tornando um processo simples para criar aplicação Multithreaded, o processo de utilização de maquinas na rede para processar determinado programa também é bem simples, assim tornando um software mais flexível e modular.
+Vamos montar um servidor HTTP em Go.
+package main import ( &amp;quot;http&amp;quot;; &amp;quot;io&amp;quot;; &amp;quot;fmt&amp;quot;; ) func HelloServer(c *http.</description>
+    </item>
+    
+  </channel>
+</rss>

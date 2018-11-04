@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matematica on Avelino</title>
+    <link>https://avelino.run/tags/matematica/</link>
+    <description>Recent content in Matematica on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Oct 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/matematica/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calculo de Bhaskara via Python</title>
+      <link>https://avelino.run/calculo-de-bhaskara-via-python/</link>
+      <pubDate>Fri, 15 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/calculo-de-bhaskara-via-python/</guid>
+      <description>O foco este post é levar você aprender computação com Python.
+Para calcular as raízes em função do segundo grau, utilizamos uma fórmula muito querida por todos que estudam no ensino médio, a famosa fórmula de Bhaskara:
+Onde cada letra desta fórmula representa os coeficientes da função do segundo grau que queremos resolver. Basta substituir e achar os valores. Podem notar que há um ± no meio da fórmula. Pois é, é daí que irá sair dois resultados: um com o sinal de + e outro com o sinal de -.</description>
+    </item>
+    
+  </channel>
+</rss>

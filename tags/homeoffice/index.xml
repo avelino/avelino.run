@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homeoffice on Avelino</title>
+    <link>https://avelino.run/tags/homeoffice/</link>
+    <description>Recent content in Homeoffice on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Apr 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/homeoffice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trabalhar para empresa de fora do Brasil</title>
+      <link>https://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/</link>
+      <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/</guid>
+      <description>O tema é muito abrangente mas vou focar justamente para a área tecnologia onde temos a possibilidade de trabalhar remoto (vulgo home office, que é um outro tema que gera muita polemica).
+Hoje fecha um total de 3 dias trabalhando na empresa Mochii (Realmente achei o site da empresa muito nerd e extremamente diferente, esse e outros motivo me fez trabalhar com eles) e durante esses três dias tive uma ótima experiencia para compartilhar.</description>
+    </item>
+    
+  </channel>
+</rss>

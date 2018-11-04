@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 Itens on Avelino</title>
+    <link>https://avelino.run/tags/7-itens/</link>
+    <description>Recent content in 7 Itens on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Feb 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/7-itens/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meu ambiente de trabalho em 7 itens</title>
+      <link>https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/</link>
+      <pubDate>Sun, 20 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/</guid>
+      <description>O Licio me convidou para entrar no ritmo dos &amp;ldquo;7 itens&amp;rdquo; então vamos lá&amp;hellip;
+ GIT + Mercurial   Geralmente procuro usar Mercurial no Bitbucket mas costumo usar bastante Git no Github. Uso o Github porque vejo ele muito mais do que um espaço para criar repositórios, e sim uma rede social de Desenvolvedor.
+  VIM   Depois de muito testar o Emacs, TextMate e VIM, resolvi afirma que para mim o melhor é o VIM, consigo fazer tudo que preciso e não tenho tantos problemas com &amp;ldquo; como no TextMate.</description>
+    </item>
+    
+  </channel>
+</rss>

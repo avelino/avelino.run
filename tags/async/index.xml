@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Async on Avelino</title>
+    <link>https://avelino.run/tags/async/</link>
+    <description>Recent content in Async on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/async/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New web framework asynchronous to Python 3</title>
+      <link>https://avelino.run/new-web-framework-asynchronous-to-python-3/</link>
+      <pubDate>Sun, 11 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/new-web-framework-asynchronous-to-python-3/</guid>
+      <description>I started a new project with the name nacho, asynchronous web framework for Python 3.
+Our goals  It was designed to work on Python 3.x Some of syntax were inspired on Tornado&amp;rsquo;s syntax Tornado is the default server, but Eventlet is stable as well Templates are done by Jinja2 HTML5 as the big-main-thing Work friendly with NoSQL (otherwise we should stop talking about them) Handle asynchronous requests properly  Example class MainHandler(ApplicationController): def get(self): data = {&#39;title&#39;: &#39;testando lero lero&#39;} self.</description>
+    </item>
+    
+  </channel>
+</rss>

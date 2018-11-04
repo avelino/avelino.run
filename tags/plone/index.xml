@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plone on Avelino</title>
+    <link>https://avelino.run/tags/plone/</link>
+    <description>Recent content in Plone on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Aug 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/plone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plone para desenvolvedores Python</title>
+      <link>https://avelino.run/plone-para-desenvolvedores-python/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/plone-para-desenvolvedores-python/</guid>
+      <description>Sempre que uma pessoa vinha falar de Plone para mim eu não me sentia muito bem pois não conhecia e o pessoal que sempre conversei que desenvolvia em Plone e depois conheceu Django sempre falava que não valia apena mexer com Plone! Será que isso é realmente verdade?
+Depois do que eu escutei o pessoal falando eu não queria nem saber desse cara chamado Plone, ate mesmo que para desenvolver uma solução de gerenciamento de conteúdo usando Django não é muito trabalhoso (Realmente era assim que eu pensava, mal eu sabia que estava completamente enganado).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Empreender on Avelino</title>
+    <link>https://avelino.run/tags/empreender/</link>
+    <description>Recent content in Empreender on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/empreender/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Empreendendo em seu local de trabalho</title>
+      <link>https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/</guid>
+      <description>Em 2014 palestrei em alguns evendo falando sobre Empreender em seu local de trabalho, muitas pessoas pensam que empreender é abrir uma empresa (ter CNPJ) e cuidar de questões burocraticas de ter uma empresa (contabilidade, fluxo de caixa e blá blá blá), mas na real o que é empreender?
+ Porque esse blogpost, após 3 anos de palestra? Tenha mentalidade empreendedora, chega de andar no automático onde outras pessoas dita oque é melhor para você.</description>
+    </item>
+    
+    <item>
+      <title>Eu nunca mais vou empreender</title>
+      <link>https://avelino.run/eu-nunca-mais-vou-empreender/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/eu-nunca-mais-vou-empreender/</guid>
+      <description>Para quem não me conhece eu tive uma startup durante um tempo e ela foi comprada por uma empresa de fora do Brasil. Logo após a venda da startup eu prometi para mim mesmo que nunca mais empreenderia, sim isso foi um comentário que fiz em um dos meus momentos de reflexão e nunca comentei com ninguém até então.
+Porque eu prometi isso para mim? Empreender não é um processo simples, não existe mar de rosas no caminho do empreendedor e como tudo temos altas e baixas (e por sinal mais baixa do que alta).</description>
+    </item>
+    
+  </channel>
+</rss>

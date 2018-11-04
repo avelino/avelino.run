@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on Avelino</title>
+    <link>https://avelino.run/tags/swift/</link>
+    <description>Recent content in Swift on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swift Language (Apple) first steps</title>
+      <link>https://avelino.run/swift-language-apple-first-steps/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/swift-language-apple-first-steps/</guid>
+      <description>Apple launched the Swift language (Looking for the Swift parallel scripting language? Please visit http://swift-lang.org) at WWDC 2014. A modern language to program for Mac and iOS!
+Strongly typed language, where you explicitly what type (variable, arguments, and function returns), syntax reminds dynamic languages with Python, Go, Ruby and JavaScript.
+Apple offers a free comprehensive guide on language in HTML and iBook formats.
+ We can put zero left freely to improve readability, insert _ to separate groups of numbers and add the + in front.</description>
+    </item>
+    
+  </channel>
+</rss>

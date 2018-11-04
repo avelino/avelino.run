@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Avelino</title>
+    <link>https://avelino.run/tags/open-source/</link>
+    <description>Recent content in Open Source on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Keeping open source projects - awesome-go</title>
+      <link>https://avelino.run/keeping-open-source-projects-awesome-go/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/keeping-open-source-projects-awesome-go/</guid>
+      <description>Beginning of any project (especially when we are talking about open source) is extremely entertaining for developer, over the years the fun passes and it is the responsibility to keep your &amp;ldquo;son&amp;rdquo; following the path of it.
+How did the starting awesome-go? All projects I started are out of necessity, the awesome-go was no different.
+After knowing the awesome-python and seeing other &amp;ldquo;awesomes&amp;rdquo; projects I searched for the awesome-go and did not get results.</description>
+    </item>
+    
+    <item>
+      <title>Realizando sonho de trabalhar full time com Open Source</title>
+      <link>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</guid>
+      <description>É extremamente comum ver amigos que começam a contribuir com open source quererem arrumar um “emprego” para passar o dia contribuindo com o projeto (em geral, deixando o Github verdinho&amp;hellip;). Será que é realmente legal, como muitos imaginam, trabalhar para uma empresa para só contribuir com open source?
+Costumo dizer que contribuir com open source é viciante, faz você passar horas e horas entendendo o projeto que alguém (ou alguma empresa) idealizou, até que chega o momento de mandar o primeiro PR (pull request, patch e etc) e defender sua implementação.</description>
+    </item>
+    
+    <item>
+      <title>Corretor Ortográfico no VIM</title>
+      <link>https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/</link>
+      <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/</guid>
+      <description>Desde 2007 escrevo aqui no meu blog, com isso já passei por diversas plataforma de blog (Blogspot, Wordpress, Django, Django Diario, Pelican, entre outras), hoje estou usando liquidluck (ferramenta escrita em Tornado Python para gerar arquivos estático), minha escolha para essa mudança foi simplificar o processo de escrever texto, ou seja, usar o que eu uso no dia a dia para programar, com isso tive algumas perda como corretor ortográfo!</description>
+    </item>
+    
+    <item>
+      <title>A volta dos que nao foram, software livre para sempre</title>
+      <link>https://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/</link>
+      <pubDate>Sat, 26 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/</guid>
+      <description>Durante 5 anos usei o sistema operacional da Apple (OS X), o OS X é um ótimo sistema operacional principalmente o ambiente gráfico que é sensassional, sistema de áudio entre outros recursos, os 3 primeiro anos usei sem problema nem um ate que a Apple veio com uma historia de cobrar pelo Xcode (The Xcode interface seamlessly integrates code editing, UI design with Interface Builder, testing, and debugging, all within a single window.</description>
+    </item>
+    
+  </channel>
+</rss>

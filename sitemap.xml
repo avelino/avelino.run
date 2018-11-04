@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://avelino.run/a-arte-de-reescrever-software/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/keeping-open-source-projects-awesome-go/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/usando-ipad-pro-como-laptop-principal/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-08-13-motivacao-e-pessoal-encontre-oque-lhe-motiva-continuar/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-05-28-ann-landers-a-oportunidade-disfarcada-de-trabalho/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-05-19-the-5am-club-just-crazy-to-do-it/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-05-16-acelerar-no-caminho-errado-ou-desacelerar-para-chegar-onde-realmente-deve-chegar/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-05-13-lute-contra-os-seus-medos-e-mude-seu-futuro/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/guia-de-estilo-para-pacotes-go/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-03-27-fazer-o-melhor-que-podemos-na-condicao-que-tem/</loc>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/qual-o-glamour-em-ser-ceo/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/eu-nunca-mais-vou-empreender/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/church-vim/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/cron-dentro-do-django-com-celery/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</loc>
+    <lastmod>2015-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/go-vs-python-more-request-per-second/</loc>
+    <lastmod>2015-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/bottle-full-stack-without-django/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/swift-language-apple-first-steps/</loc>
+    <lastmod>2014-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/golang-c-and-python-the-benchmark-time/</loc>
+    <lastmod>2014-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/</loc>
+    <lastmod>2013-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/prazo-no-desenvolvimento-de-software-qual-%C3%A9-a-ci%C3%AAncia-exata/</loc>
+    <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/</loc>
+    <lastmod>2013-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/new-web-framework-asynchronous-to-python-3/</loc>
+    <lastmod>2013-08-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/</loc>
+    <lastmod>2012-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/</loc>
+    <lastmod>2012-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/comandos-tmux-cheat-sheet/</loc>
+    <lastmod>2012-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/plone-para-desenvolvedores-python/</loc>
+    <lastmod>2012-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/proxy-transparente-com-nginx/</loc>
+    <lastmod>2012-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/criando-package-modulo-em-node.js/</loc>
+    <lastmod>2012-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/</loc>
+    <lastmod>2012-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/test-%C3%A9-para-os-fracos/</loc>
+    <lastmod>2012-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/vim-a-ide-para-programadores-python/</loc>
+    <lastmod>2011-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/</loc>
+    <lastmod>2011-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/</loc>
+    <lastmod>2011-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/</loc>
+    <lastmod>2011-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/criando-sistema-com-multithreaded-em-python/</loc>
+    <lastmod>2011-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/certificado-ev-ssl/</loc>
+    <lastmod>2011-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/trabalhando-com-python-e-mongodb/</loc>
+    <lastmod>2011-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/</loc>
+    <lastmod>2011-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/</loc>
+    <lastmod>2011-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/problema-com-celery-process-exiting-with-exitcode-1/</loc>
+    <lastmod>2010-12-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/calculo-de-bhaskara-via-python/</loc>
+    <lastmod>2010-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/ajudando-projeto-open-source-mongoengine/</loc>
+    <lastmod>2010-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tda-fila-com-python/</loc>
+    <lastmod>2010-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/5amclub/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/7-itens/</loc>
+    <lastmod>2011-02-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/acelerar/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/agile/</loc>
+    <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ambiente-de-trabalho/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/api/</loc>
+    <lastmod>2011-10-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/apple/</loc>
+    <lastmod>2014-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/application/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/arriscar/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/async/</loc>
+    <lastmod>2013-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/auto-evolucao/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/autoconhecimento/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/awesome-go/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/benchmark/</loc>
+    <lastmod>2015-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/bhaskara/</loc>
+    <lastmod>2010-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/bi/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/blobproperty/</loc>
+    <lastmod>2011-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/blog/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/boilerplate/</loc>
+    <lastmod>2015-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/bottle/</loc>
+    <lastmod>2015-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/budismo/</loc>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/business/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/c/</loc>
+    <lastmod>2014-03-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/celery/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ceo/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/certificado/</loc>
+    <lastmod>2011-03-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/cheatsheet/</loc>
+    <lastmod>2012-10-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/church/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ciclos/</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/clisp/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/clojure/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/cms/</loc>
+    <lastmod>2012-08-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/common-lisp/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/contribui%C3%A7%C3%A3o/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/corrida/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/desacelerar/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/desenvolvimento/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/desktop/</loc>
+    <lastmod>2013-10-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/django/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/dojo/</loc>
+    <lastmod>2011-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/dominesuamente/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/dropbox/</loc>
+    <lastmod>2011-10-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/editor/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/empreendedorismo/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/empreender/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/empreendimento/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/empresa-de-fora/</loc>
+    <lastmod>2012-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/evolua/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/experiencia/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/fase/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/fa%C3%A7a/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/fila/</loc>
+    <lastmod>2010-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/foco/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/fracasso/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/framework/</loc>
+    <lastmod>2015-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/full-stack/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/full-time/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/futuro/</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/gae/</loc>
+    <lastmod>2011-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/glamour/</loc>
+    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/go/</loc>
+    <lastmod>2015-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/golang/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/google-app-engine/</loc>
+    <lastmod>2011-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/guia-de-estilo/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/hacktoberfest/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/high-achievers/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/homeoffice/</loc>
+    <lastmod>2012-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ide/</loc>
+    <lastmod>2011-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ideias/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/intelligence/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ipad/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ipadpro/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/java/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/javascript/</loc>
+    <lastmod>2012-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/jvm/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/lang/</loc>
+    <lastmod>2014-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/laptop/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/libreoffice/</loc>
+    <lastmod>2013-12-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/lisp/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/matematica/</loc>
+    <lastmod>2010-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/meditacao/</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/medo/</loc>
+    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/mmongodb/</loc>
+    <lastmod>2010-09-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/mongo/</loc>
+    <lastmod>2010-09-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/mongoengine/</loc>
+    <lastmod>2010-09-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/monja-coen/</loc>
+    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/motivacao/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/multithreaded/</loc>
+    <lastmod>2011-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/nacho/</loc>
+    <lastmod>2013-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/nginx/</loc>
+    <lastmod>2012-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/node/</loc>
+    <lastmod>2012-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/nodejs/</loc>
+    <lastmod>2012-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/nosql/</loc>
+    <lastmod>2012-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/nunca-mais/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/open-source/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/opensource/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/opinioes/</loc>
+    <lastmod>2013-11-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/packages/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/pacotes/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/passado/</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/pensamento/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/plone/</loc>
+    <lastmod>2012-08-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/praticar/</loc>
+    <lastmod>2011-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/presente/</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/programacao-funcional/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/proxy/</loc>
+    <lastmod>2012-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/pycon/</loc>
+    <lastmod>2012-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/pyconar/</loc>
+    <lastmod>2012-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/python/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/python-en/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/quote/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/quote/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/reflexao/</loc>
+    <lastmod>2015-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/remotework/</loc>
+    <lastmod>2012-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/riak/</loc>
+    <lastmod>2012-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/router/</loc>
+    <lastmod>2012-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ruby/</loc>
+    <lastmod>2014-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/rum/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/rumlang/</loc>
+    <lastmod>2018-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/saint/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/senior/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/software/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/sonho/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/ssl/</loc>
+    <lastmod>2011-03-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/startproject/</loc>
+    <lastmod>2015-02-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/startup/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/startups/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/style-guide/</loc>
+    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/swift/</loc>
+    <lastmod>2014-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/tda/</loc>
+    <lastmod>2010-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/test/</loc>
+    <lastmod>2012-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/testing/</loc>
+    <lastmod>2012-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/the5amclub/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/tmux/</loc>
+    <lastmod>2012-10-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/tornado/</loc>
+    <lastmod>2014-02-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/unittest/</loc>
+    <lastmod>2012-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/vero/</loc>
+    <lastmod>2013-12-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/vim/</loc>
+    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://avelino.run/tags/workstation/</loc>
+    <lastmod>2013-10-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

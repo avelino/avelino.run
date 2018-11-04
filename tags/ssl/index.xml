@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssl on Avelino</title>
+    <link>https://avelino.run/tags/ssl/</link>
+    <description>Recent content in Ssl on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Mar 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Certificado EV SSL</title>
+      <link>https://avelino.run/certificado-ev-ssl/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/certificado-ev-ssl/</guid>
+      <description>Certificados Digitais EV SSL, ou em português SSL de Validação Avançada, são certificados qualificados que se apresentam aos usuários da Internet de forma distinta dos demais certificados, garantindo assim aos usuários que o site acessado possui um certificado SSL emitido segundo um processo altamente seguro e verificado através de uma auditoria.
+História O Comércio via Internet está enfrentando uma crise de segurança. A confiança na segurança de sites está diminuindo, e o número de consumidores que estão deixando de fazer transações on-line está aumentando.</description>
+    </item>
+    
+  </channel>
+</rss>

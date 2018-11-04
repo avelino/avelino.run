@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bottle on Avelino</title>
+    <link>https://avelino.run/tags/bottle/</link>
+    <description>Recent content in Bottle on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/bottle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where to start a project with bottle, Boilerplate</title>
+      <link>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/where-to-start-a-project-with-bottle-boilerplate/</guid>
+      <description>Developing python application using minimalist frameworks has become frequent in the Python community, for no reasons not to speak here. I see this change as a professional development where developers want to choose what is best for your application, simply use what little hide a group *(of pearls, or not*) that is better.
+Along with this evolution brings vices of many developers other frameworks (and/or technology), this can be a problem at the time of the taking of decision of which Python web framework to use.</description>
+    </item>
+    
+    <item>
+      <title>Bottle, full stack without Django</title>
+      <link>https://avelino.run/bottle-full-stack-without-django/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/bottle-full-stack-without-django/</guid>
+      <description>This blogpost is based in a lecture I presented here in Brazil, follows the slides!
+Bottle is a micro web framework compatible with WSGI, depends only on the Python standard library is compatible with python 2.6, 2.7, 3.2, 3.3 and 3.4, single source file. It was created by Marcel Hellkamp (@defnull) and maintained by the community that raised surrounding framework.
+Django is a framework for rapid development for web, written in Python, which uses the standard MTV (model-template-view) and pragmatic.</description>
+    </item>
+    
+  </channel>
+</rss>

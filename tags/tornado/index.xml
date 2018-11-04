@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tornado on Avelino</title>
+    <link>https://avelino.run/tags/tornado/</link>
+    <description>Recent content in Tornado on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/tornado/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Business Intelligence (BI) Application Server written in Python</title>
+      <link>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</guid>
+      <description>I started a new project with the name OpenMining, new application server written in Python.
+OpenMining is software for creating OLAP (online analytical processing) cubes (multi-dimensional) using Numpy, Scipy and Pandas for data management and flexibility in processing dynamical filters. Open-source provider of reporting, analysis, dashboard, data mining and workflow capabilities.
+Our goals  Business Intelligence software (Pentaho/Jaspersoft) alternative; OLAP manager; Generate report (grid, charts, pdf and etc); Dashboard manager, link one or more element (report); Easy dashboard generate; Not one data is processed on the basis of source data; Friendly interface; Used websocket on cube load.</description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence (BI) Application Server written in Python</title>
+      <link>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/business-intelligence-bi-application-server-written-in-python/</guid>
+      <description>I started a new project with the name OpenMining, new application server written in Python.
+OpenMining is software for creating OLAP (online analytical processing) cubes (multi-dimensional) using Numpy, Scipy and Pandas for data management and flexibility in processing dynamical filters. Open-source provider of reporting, analysis, dashboard, data mining and workflow capabilities.
+Our goals  Business Intelligence software (Pentaho/Jaspersoft) alternative; OLAP manager; Generate report (grid, charts, pdf and etc); Dashboard manager, link one or more element (report); Easy dashboard generate; Not one data is processed on the basis of source data; Friendly interface; Used websocket on cube load;  Python libs used  Pandas Numpy numexpr ipython Tornado SQLAlchemy RQ Riak client Redis client Memcached client  More about OLAP cube A cube can be considered a generalization of a three-dimensional spreadsheet.</description>
+    </item>
+    
+  </channel>
+</rss>

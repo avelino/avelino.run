@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guia De Estilo on Avelino</title>
+    <link>https://avelino.run/tags/guia-de-estilo/</link>
+    <description>Recent content in Guia De Estilo on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/guia-de-estilo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guia de estilo para pacotes Go</title>
+      <link>https://avelino.run/guia-de-estilo-para-pacotes-go/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/guia-de-estilo-para-pacotes-go/</guid>
+      <description>Tradução do blogpost Style guideline for Go packages escrito pela @rakyll.
+Código organizado em Go é fácil de entender, usar e ler. A falta de organização em código Go é tão crítica quanto as APIs mal projetadas. Os diretórios, nome e a estrutura dos seus pacotes são os primeiros elementos com os quais os utilizadores vêem e interagem.
+O objetivo deste blogpost é ajudá-lo(a) com boas práticas comuns para não definir regras ruins.</description>
+    </item>
+    
+  </channel>
+</rss>

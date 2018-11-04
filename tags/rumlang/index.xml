@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rumlang on Avelino</title>
+    <link>https://avelino.run/tags/rumlang/</link>
+    <description>Recent content in Rumlang on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/rumlang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>História do Lisp, abra os olhos para programação funcional</title>
+      <link>https://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/</guid>
+      <description>Como começou minha paixão por parênteses (ops Lisp)? Tenho uma formação na área de Matemática Aplicada (começa ai a loucura), Lisp foi uma das poucas linguagens de programação que me deparei dentro da academia (eu já programava em Perl profissionalmente e conhecia Python), quando vi aqueles parênteses de cara pensei isso não é para mim (isso é uma loucura de Matemática/Acadêmico que nunca saiu para o mercado de trabalho). Com o passar das aulas eu comecei achar confortável os parênteses (seres humanos acostuma muito rápido com tudo) e comecei achar estranho a forma de pensar para escrever a lógica do software (por exemplo (+ 1 2)).</description>
+    </item>
+    
+  </channel>
+</rss>

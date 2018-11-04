@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on Avelino</title>
+    <link>https://avelino.run/tags/nodejs/</link>
+    <description>Recent content in Nodejs on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Jun 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Criando package (modulo) em Node.js</title>
+      <link>https://avelino.run/criando-package-modulo-em-node.js/</link>
+      <pubDate>Sat, 23 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/criando-package-modulo-em-node.js/</guid>
+      <description>Existe muitas pessoas querendo estudar Node.js pela simplicidade de trabalhar com processamento assíncrono e por usar JavaScript em server side. JavaScript é uma linguagem simples mas para desenvolvimento Client side mas ao mesmo tempo quando colocamos JavaScript do lado do servidor começa a surgi algumas duvidas como: estrutura do software, como criar biblioteca, qual Framework usar e muitas outras.
+Dando uma olhada no Github vi que tem muitos software que parece uma lingüiça com mais de 500 linhas em um mesmo arquivo, aí me vem a seguinte pergunta &amp;ldquo;JavaScript não é orientado a objeto?</description>
+    </item>
+    
+  </channel>
+</rss>

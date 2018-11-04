@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on Avelino</title>
+    <link>https://avelino.run/tags/api/</link>
+    <description>Recent content in Api on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Oct 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nova versão da API do Dropbox</title>
+      <link>https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/</link>
+      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/</guid>
+      <description>Dia 14/09/2011 o Dropbox lançou a nova versão 1.0 da API, nesse lançamento trouxe muitas novidades e melhorias:
+ Suporte para aplicações web Suporte para criação de pasta (Na versão 0.1 da API não tinha) Novo site para desenvolvedores, com documentação simples e completa https://www.dropbox.com/developers_beta Melhor compartilhamento de arquivo, streaming, busca por arquivo e suporte para revisão de arquivo Implementação no controle de nomes de arquivos, para não sobrescrever arquivos já salvo SDK atualizado para iOS, Android, Python, Ruby e Java que implementa todas modificações e documentação  Link do repositorio (Python Pypi) da nova biblioteca http://pypi.</description>
+    </item>
+    
+  </channel>
+</rss>

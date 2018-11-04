@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contribuição on Avelino</title>
+    <link>https://avelino.run/tags/contribui%C3%A7%C3%A3o/</link>
+    <description>Recent content in Contribuição on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/contribui%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Realizando sonho de trabalhar full time com Open Source</title>
+      <link>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/</guid>
+      <description>É extremamente comum ver amigos que começam a contribuir com open source quererem arrumar um “emprego” para passar o dia contribuindo com o projeto (em geral, deixando o Github verdinho&amp;hellip;). Será que é realmente legal, como muitos imaginam, trabalhar para uma empresa para só contribuir com open source?
+Costumo dizer que contribuir com open source é viciante, faz você passar horas e horas entendendo o projeto que alguém (ou alguma empresa) idealizou, até que chega o momento de mandar o primeiro PR (pull request, patch e etc) e defender sua implementação.</description>
+    </item>
+    
+  </channel>
+</rss>

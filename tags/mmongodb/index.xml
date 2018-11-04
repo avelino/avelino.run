@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mmongodb on Avelino</title>
+    <link>https://avelino.run/tags/mmongodb/</link>
+    <description>Recent content in Mmongodb on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Sep 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/mmongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ajudando projeto open source: MongoEngine</title>
+      <link>https://avelino.run/ajudando-projeto-open-source-mongoengine/</link>
+      <pubDate>Mon, 06 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/ajudando-projeto-open-source-mongoengine/</guid>
+      <description>Com grande orgunho que venho anunciar a todos que o projeto MongoEngine tem path pt_BR.
+http://mongoengine.org/pt_BR/
+Por enquanto estamos apenas com o site em Português e trabalhando encima da documentação.
+Caso você queira ajudar o projeto por favor mandar email para avelino AT mongoengine DOT org</description>
+    </item>
+    
+  </channel>
+</rss>

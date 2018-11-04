@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on Avelino</title>
+    <link>https://avelino.run/tags/nginx/</link>
+    <description>Recent content in Nginx on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Aug 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Proxy transparente com Nginx</title>
+      <link>https://avelino.run/proxy-transparente-com-nginx/</link>
+      <pubDate>Thu, 09 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/proxy-transparente-com-nginx/</guid>
+      <description>Muitas pessoas usam Squid para fazer qual quer tipo de proxy, ate mesmo para proxy transparente para usar em servidor web, por exemplo:
+Você tem um site que precisa ter IP aqui no Brasil so que como o custo de servidor e link aqui no Brasil é muito caro, você pode fazer um proxy transparente para o servidor aqui no Brasil ser um cara que vai receber a requisição e repassar para o outro servidor que esteja em qual quer lugar do mundo.</description>
+    </item>
+    
+  </channel>
+</rss>

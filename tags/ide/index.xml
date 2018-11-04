@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ide on Avelino</title>
+    <link>https://avelino.run/tags/ide/</link>
+    <description>Recent content in Ide on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Dec 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VIM a IDE para programadores Python</title>
+      <link>https://avelino.run/vim-a-ide-para-programadores-python/</link>
+      <pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/vim-a-ide-para-programadores-python/</guid>
+      <description>Depois muito tempo sem escrever nada no meu blog, escolhi esse tema para chamar a atenção do pessoal que esta começando desenvolver em Python que sempre pergunta qual é a melhor IDE para desenvolver em Python ou qual quer programador que usa uma super IDE pesado porque tem o recurso X, Y e Z.
+Com o VIM podemos ter todos os recurso avançado que temos em qual quer IDE, basta algumas configurações para que esses recursos ser ativado, para facilitar a vida de todos compartilhei o meu .</description>
+    </item>
+    
+  </channel>
+</rss>

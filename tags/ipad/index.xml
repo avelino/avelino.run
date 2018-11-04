@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipad on Avelino</title>
+    <link>https://avelino.run/tags/ipad/</link>
+    <description>Recent content in Ipad on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/ipad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Usando iPad Pro como laptop principal</title>
+      <link>https://avelino.run/usando-ipad-pro-como-laptop-principal/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/usando-ipad-pro-como-laptop-principal/</guid>
+      <description>Após ler alguns blogpost sobre usar o iPad como computador principal e conversar com um amigo que trabalha no Google que usa em caso como &amp;ldquo;main laptop&amp;rdquo;, resolvi estudar os apps para iOS que eu teria que usar para atender a minha demanda do dia a dia como gestor e desenvolvedor.
+Como sempre a Apple faz um ótimo trabalho nos seus produtos, sempre pensando na simplicidade de uso do seu cliente final, ou seja, isso ajuda o onboard em qualquer dispositivo/software deles.</description>
+    </item>
+    
+  </channel>
+</rss>

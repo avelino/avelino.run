@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on Avelino</title>
+    <link>https://avelino.run/tags/c/</link>
+    <description>Recent content in C on Avelino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://avelino.run/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang, C and Python the benchmark time</title>
+      <link>https://avelino.run/golang-c-and-python-the-benchmark-time/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://avelino.run/golang-c-and-python-the-benchmark-time/</guid>
+      <description>I was wondering how performant Golang is, so I decided to put together a little benchmarking example for myself.
+The benchmark will be done in my personal computer:
+Processor 3 GHz Intel Core i7 Memory 8 GB 1600 MHz DDR3 Software OS X 10.9.2 (13C64)  So I started with Python, which is what I know best and created the following simple script;
+ The reason for the total output, was to have a check to ensure that I was getting the same results in each of the scripts.</description>
+    </item>
+    
+  </channel>
+</rss>
