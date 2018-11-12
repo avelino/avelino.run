@@ -88,7 +88,7 @@ Esse tempo off-line me fez ter muitas (muito mesmo) ideias me causando ansiedade
 
 {{< tweet 1059215402952204288 >}}
 
-**Notas finais:** Precisamos nos desconectar de nosso dia a dia para viver com as pessoas que corre connosco (no meu caso família) todos os dias e acaba me aguentando nos momentos que não é compartilhado em redes sociais ([Instagram](https://instagram.com/avelinorun), geralmente publicamos momentos bons, mas nem tudo é Instagram e analisar se estamos seguindo nossas premissas de vida ou se estamos postergando (empurrando com a barrida) alguma decisão que já deveria ter tomado.
+**Notas finais:** Precisamos nos desconectar de nosso dia a dia para viver com as pessoas que corre conosco (no meu caso família) todos os dias e acaba me aguentando nos momentos que não é compartilhado em redes sociais ([Instagram](https://instagram.com/avelinorun), geralmente publicamos momentos bons, mas nem tudo é Instagram e analisar se estamos seguindo nossas premissas de vida ou se estamos postergando (empurrando com a barrida) alguma decisão que já deveria ter tomado.
 
 
 ## Algumas fotos
