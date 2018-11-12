@@ -51,7 +51,7 @@ Usamos alguns apps para nos ajudar no planejamento da viagem, principalmente o t
 * http://wifimagic.com/ - Senha do WiFi.
 
 
-## Porque Nordeste?
+## Por que Nordeste?
 
 É um lugar maravilhoso (*é afirmação após ter vivido mais de 20 dias por lá*), mas existe muito conteúdo falando do Nordeste Brasileiro, principalmente fotos mostrando praias exuberantes. Particularmente eu queria um lugar onde tivesse dificuldade de conectividade com internet, era uma premissa que eu coloquei mentalmente (acabei não expondo isso no planejamento para não deixa a esposa preocupada) para dificultar acesso ao trabalho durante os dias que iria tirar para viver minha família e eu mesmo, o tempo para eu pensar no meu futuro, [será que já não esta/estava na hora de encerrar algum ciclo na minha vida?]([https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/)
 
