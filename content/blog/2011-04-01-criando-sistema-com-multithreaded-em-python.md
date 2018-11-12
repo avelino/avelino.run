@@ -2,7 +2,7 @@
 date = "2011-04-01"
 title = "Criando sistema com Multithreaded em Python"
 tags = ["python", "multithreaded"]
-aliases = ["/2015/03/church-vim"]
+aliases = ["/2011/04/criando-sistema-com-multithreaded-em-python"]
 +++
 
 Multithreaded é quando temos mais de um programa executando ao mesmo tempo, totalmente diferente de executar duas vez o mesmo programa, com "threads" o sistema vai ser executado apenas uma vez e via thread vai processar mais de uma função ao mesmo tempo, isso é necessario para concorrência em sistema.
