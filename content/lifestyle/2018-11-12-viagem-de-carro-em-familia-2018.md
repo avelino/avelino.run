@@ -11,7 +11,7 @@ Eu disse isso por alguns anos em minha vida, até tirar férias e perceber que e
 
 ![família de férias 2018](/trip-familia-2018.png#center)
 
-Após ler o blogpost do Raphael Amorim (https://medium.com/@raphamorim/recarregando-baterias-95bbd12b95ef) comecei refletir sobre como seria tirar férias e passar alguns dias vivendo para mim e minha família. Não foi um exercício fácil, nunca tinha feito isso na vida, trabalho profissionalmente a 13 anos e não me recordo ter tirado férias de verdade nesse período, sempre estive na corrida dos ratos (termo usado para um exercício sem fim, auto-destrutivo ou inútil https://en.m.wikipedia.org/wiki/Rat_race).
+Após ler o [blogpost do Raphael Amorim](https://medium.com/@raphamorim/recarregando-baterias-95bbd12b95ef) comecei refletir sobre como seria tirar férias e passar alguns dias vivendo para mim e minha família. Não foi um exercício fácil, nunca tinha feito isso na vida, trabalho profissionalmente a 13 anos e não me recordo ter tirado férias de verdade nesse período, sempre estive na corrida dos ratos ([termo usado para um exercício sem fim, auto-destrutivo ou inútil](https://en.m.wikipedia.org/wiki/Rat_race)).
 
 
 ## Trabalhar por hobby
@@ -26,7 +26,7 @@ Muitas vezes nós brasileiros usamos termos em inglês e em ambiente errado, mas
 
 > Normalmente, a prática de um hobby não implica vantagem financeira para a pessoa em questão. Apesar disso, ele pode se transformar em uma tarefa que resulta em benefício financeiro para o praticante. Por exemplo, uma pessoa que tem a pintura como um passatempo, pode vender um dos seus quadros.
 
-Não trabalhamos por hobby e sim fazemos o que gostamos, por esse motivo relacionamos o trabalho com hobby, com o passar do tempo dentro de uma empresa começa chegar “problemas” (isso em qual quer empresa, mesmo aquela que você sonha trabalhar) e nesse momento é comum os desenvolvedores querer mudar de empresa, soando que o desenvolvedor fica pulando de galho em galho.
+Não trabalhamos por hobby e sim fazemos o que gostamos, por esse motivo relacionamos o trabalho com hobby, com o passar do tempo dentro de uma empresa começa chegar “problemas” (isso em qual quer empresa, mesmo aquela que você sonha trabalhar) e nesse momento é comum os desenvolvedores quererem mudar de empresa, soando que o desenvolvedor fica pulando de galho em galho.
 
 O *“pular de galho em galho”* ocorre pela *“busca da felicidade”*, mas será que existe alguma empresa que não teremos “problemas”?
 
@@ -53,18 +53,18 @@ Usamos alguns apps para nos ajudar no planejamento da viagem, principalmente o t
 
 ## Por que Nordeste?
 
-É um lugar maravilhoso (*é afirmação após ter vivido mais de 20 dias por lá*), mas existe muito conteúdo falando do Nordeste Brasileiro, principalmente fotos mostrando praias exuberantes. Particularmente eu queria um lugar onde tivesse dificuldade de conectividade com internet, era uma premissa que eu coloquei mentalmente (acabei não expondo isso no planejamento para não deixa a esposa preocupada) para dificultar acesso ao trabalho durante os dias que iria tirar para viver minha família e eu mesmo, o tempo para eu pensar no meu futuro, [será que já não esta/estava na hora de encerrar algum ciclo na minha vida?]([https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/)
+É um lugar maravilhoso (*é afirmação após ter vivido mais de 20 dias por lá*), mas existe muito conteúdo falando do Nordeste Brasileiro, principalmente fotos mostrando praias exuberantes. Particularmente eu queria um lugar onde tivesse dificuldade de conectividade com internet, era uma premissa que eu coloquei mentalmente (acabei não expondo isso no planejamento para não deixar a esposa preocupada) para dificultar acesso ao trabalho durante os dias que iria tirar para viver minha família e eu mesmo, o tempo para eu pensar no meu futuro, [será que já não esta/estava na hora de encerrar algum ciclo na minha vida?](https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/)
 
-A PythonBrasil[14] (conferência de Python em 2018) foi em Natal e aproveitamos para juntar a conferência com alguns dias off (férias que julgava não precisar), então tínhamos o ponto inicial de onde “sairíamos”, Natal.
+A PythonBrasil\[14\] (conferência de Python em 2018) foi em Natal e aproveitamos para juntar a conferência com alguns dias off (férias que julgava não precisar), então tínhamos o ponto inicial de onde “sairíamos”, Natal.
 
 
 ## Destinos
 
 1. São Paulo: Início da viagem, saída de casa;
 2. Foz do Iguaçu: Latinoware (conferência);
-3. São Paulo: Para com destino a Natal;
-4. Fortaleza: Para com destino a Natal;
-5. Natal: PythonBrasil[14] (conferência) e local onde encontrei a família;
+3. São Paulo: Parada com destino a Natal;
+4. Fortaleza: Parada com destino a Natal;
+5. Natal: PythonBrasil\[14\] (conferência) e local onde encontrei a família;
 6. Praia de Pipa, Natal: Parada planejada com a família;
 7. Porto de Galinha, Recife: Parada planejada com a família;
 8. Maragogi, Alagoas: Parada planejada com a família;
@@ -84,11 +84,11 @@ Preciso comentar que o começo não foi fácil me *desconectar*, mas forcei, for
 
 Estava vivendo em um ritmo frenético e estava precisando tirar alguns dias para colocar os pensamentos no lugar e viver momentos que nunca tínhamos vivido junto com minha família (bens memoráveis, acredito que isso é a única coisa que levamos desse mundo corrido e agitado).
 
-Esse tempo off-line me fez ter muitas (muito mesmo) ideias me causando ansiedade no último dia, não sabia como iria conseguir executar todas as ideias que tive, para não entrar em um *bornout* foi o momento de fazer planejamento de tudo que eu realmente queria fazer (tirar as ideias da cabeça e passar para um *“papel”*)
+Esse tempo off-line me fez ter muitas (muitas mesmo) ideias me causando ansiedade no último dia, não sabia como iria conseguir executar todas as ideias que tive, para não entrar em um *burnout* foi o momento de fazer planejamento de tudo que eu realmente queria fazer (tirar as ideias da cabeça e passar para um *“papel”*)
 
 {{< tweet 1059215402952204288 >}}
 
-**Notas finais:** Precisamos nos desconectar de nosso dia a dia para viver com as pessoas que corre conosco (no meu caso família) todos os dias e acaba me aguentando nos momentos que não é compartilhado em redes sociais ([Instagram](https://instagram.com/avelinorun), geralmente publicamos momentos bons, mas nem tudo é Instagram e analisar se estamos seguindo nossas premissas de vida ou se estamos postergando (empurrando com a barrida) alguma decisão que já deveria ter tomado.
+**Notas finais:** Precisamos nos desconectar de nosso dia a dia para viver com as pessoas que correm conosco (no meu caso família) todos os dias e acabam me aguentando nos momentos que não é compartilhado em redes sociais ([Instagram](https://instagram.com/avelinorun)), geralmente publicamos momentos bons, mas nem tudo é Instagram e analisar se estamos seguindo nossas premissas de vida ou se estamos postergando (empurrando com a barrida) alguma decisão que já deveria ter tomado.
 
 
 ## Algumas fotos
