@@ -1,6 +1,6 @@
 +++
 date = "2019-03-24"
-title = "Thanks"
+title = "Thanks ❤️🙌"
 tags = ["thanks", "supporting", "support"]
 +++
 
