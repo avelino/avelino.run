@@ -17,9 +17,9 @@ dateform = "Jan 2, 2006"
 lang = "en"
 footertext = "written by avelino"
 about = """
-I’m **Thiago Avelino** founder at [nuveo.ai](https://nuveo.ai/) (**Artificial Intelligence** within reach), [levpay](https://levpay.com) (*JV between nuveo.ai and Banco Rendimento - Brazilian Bank*) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br/).
+I’m **Thiago Avelino** VP of Engineering at [structy](https://structy.io/) (Venture Builder aka CTO as a Service) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br/).
 
-Work day-to-day with **artificial intelligence, neural network and computer vision**. With the need to process large dataset its focus of research and development include **distributed systems, competition, Racket/Clojure (lisp dialects), Go and Python**.
+Work day-to-day with **people management (focused on personal and professional evolution), artificial intelligence, neural network and computer vision**. With the need to process large dataset its focus of research and development include **human/evolutionary psychology, distributed systems, competition, Racket/Clojure (lisp dialects), Go and Python**.
 """
 
 [params.social]
