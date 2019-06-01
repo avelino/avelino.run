@@ -62,6 +62,18 @@ desc = "YouTube channel on software development (and its ecosystem)"
 img = "img/tad.png"
 link = "https://www.youtube.com/channel/UCZCoLtEGz3MdvxgFhbdZ-QA/featured"
 
+[[params.projects]]
+name = "pREST"
+desc = "RESTful API server from any databases (starting PostgreSQL) written in Go"
+img = "https://postgres.rest/logo.png"
+link = "https://postgres.rest/"
+
+[[params.projects]]
+name = "gofn"
+desc = "Function process via docker provider (serverless minimalist) "
+img = "https://raw.githubusercontent.com/gofn/gofn/master/docs/assets/logo.png"
+link = "https://github.com/gofn/gofn"
+
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
