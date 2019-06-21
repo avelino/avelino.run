@@ -21,6 +21,7 @@ Com o passar do tempo comecei seguir algumas pessoas que julgo correr bem e via 
 Nós de tecnologia somos curiosos ao entender como surgiu as coisas, comigo não foi diferente ao olhar para o triathlon, fui buscar como surgiu e acabei achando um esporte lindo, principalmente pela superação de nós mesmos, como faço para passar 12 horas (tem atleta que faz em menos e o limite são 17 horas) em uma prova sem morrer, pô 12 horas é meio-dia, eu reclamava de correr 30 minutos imagina se conseguiria ficar durante 12 horas fazendo uma prova (começar na parte da amanhã e terminar na parte da noite), estou falando de uma prova chamada IRONMAN. Até que por fim comecei treinar para esse negócio e é viciante.
 
 A briga psicológica contra nós mesmo para vencer nossas dores musculares e buscar qual é nosso real limite. Muitas pessoas me perguntam se não sinto:
+
 - dor
 - preguiça
 - vontade de parar, mas sei que é nesse momento que irei me destacar dos outros participantes
