@@ -34,42 +34,6 @@ link = "mailto:t@avelino.xxx"
 label = "Address"
 value = "Brazil, São Paulo, SP"
 
-[[params.projects]]
-name = "Vim Bootstrap"
-desc = "A generator which provides a simple method of generating a .vimrc configuration for vim"
-img = "img/vimbootstrap.png"
-link = "https://vim-bootstrap.com/"
-
-[[params.projects]]
-name = "Awesome Go"
-desc = "A curated list of awesome Go frameworks, libraries and software"
-img = "img/awesomego.png"
-link = "https://awesome-go.com/"
-
-[[params.projects]]
-name = "cover.run"
-desc = "A code coverage of any golang package as a service"
-img = "img/coverrun.png"
-link = "https://cover.run/"
-
-[[params.projects]]
-name = "Test After Deploy"
-desc = "YouTube channel on software development (and its ecosystem)"
-img = "img/tad.png"
-link = "https://www.youtube.com/channel/UCZCoLtEGz3MdvxgFhbdZ-QA/featured"
-
-[[params.projects]]
-name = "pREST"
-desc = "RESTful API server from any databases (starting PostgreSQL) written in Go"
-img = "https://postgres.rest/logo.png"
-link = "https://postgres.rest/"
-
-[[params.projects]]
-name = "gofn"
-desc = "Function process via docker provider (serverless minimalist) "
-img = "https://raw.githubusercontent.com/gofn/gofn/master/docs/assets/logo.png"
-link = "https://github.com/gofn/gofn"
-
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
