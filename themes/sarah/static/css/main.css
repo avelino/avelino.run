@@ -148,18 +148,6 @@ address {
   font-style: normal;
   line-height: inherit; }
 
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-ol ol,
-ul ul,
-ol ul,
-ul ol {
-  margin-bottom: 0; }
-
 dt {
   font-weight: bold; }
 
@@ -4069,7 +4057,7 @@ button.close {
       bottom: -11px;
       margin-left: -6px;
       border-top-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-top .arrow::after,
     .popover.bs-popover-auto[x-placement^="top"] .arrow::after {
       bottom: -10px;
@@ -4087,7 +4075,7 @@ button.close {
     .popover.bs-popover-right .arrow::before, .popover.bs-popover-auto[x-placement^="right"] .arrow::before {
       left: -11px;
       border-right-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-right .arrow::after,
     .popover.bs-popover-auto[x-placement^="right"] .arrow::after {
       left: -10px;
@@ -4104,7 +4092,7 @@ button.close {
     .popover.bs-popover-bottom .arrow::before, .popover.bs-popover-auto[x-placement^="bottom"] .arrow::before {
       top: -11px;
       border-bottom-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-bottom .arrow::after,
     .popover.bs-popover-auto[x-placement^="bottom"] .arrow::after {
       top: -10px;
@@ -4130,7 +4118,7 @@ button.close {
     .popover.bs-popover-left .arrow::before, .popover.bs-popover-auto[x-placement^="left"] .arrow::before {
       right: -11px;
       border-left-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-left .arrow::after,
     .popover.bs-popover-auto[x-placement^="left"] .arrow::after {
       right: -10px;
@@ -9333,13 +9321,6 @@ body {
   font-weight: normal;
   line-height: 30px;
   color: #555555; }
-
-hr {
-  margin: 0; }
-
-ol, ul {
-  margin: 0;
-  padding: 0; }
 
 a {
   color: #6d56c1;
