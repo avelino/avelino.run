@@ -1,7 +1,8 @@
 +++
 date = "2019-07-07"
-title = "Trocando forma de pensar (mudando mindset) de empreendedor para 'empregado'"
-tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor"]
+title = "Trocando forma de pensar (mudando mindset) de empresario para 'empregado'"
+tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor", "empresario"]
+alias = ["/trocando-forma-de-pensar-mudando-mindset-de-empreendedor-para-empregado/"]
 +++
 
 ![Fechando a startup e voltando para o mercado de travalho](/blog/close.jpg#center)
@@ -22,7 +23,7 @@ Quando entrei na área de engenharia de software (desenvolvimento, programação
 1. Gerente de desenvolvimento ou projeto
 1. Gerente da área de tecnologia
 1. Diretor da área de tecnologia
-1. Empreendedor - big boss, esse tópico surgiu depois de alguns anos trabalhando
+1. Empresario - big boss, esse tópico surgiu depois de alguns anos trabalhando
 
 Conforme o tempo vai passando e vamos ganhando experiência na área técnica começamos perceber que não é uma escadinha e podemos nos manter na área técnica ou gestão - vulgo chamada carreira em Y - dependendo do perfil do profissional, onde cada pessoa senta mais familiaridade (gostar).
 
@@ -30,14 +31,14 @@ Para chegar nesse pensamento tive que me desconstruir diversas vezes e conversar
 
 Em 2018/2019 palestrei bastante sobre a carreira do engenheiro de software, expondo porque existe especialização academia (por exemplo, MBA) e falando sobre essa tal de carreira em Y.
 
-Mesmo depois dessa viagem de desconstrução pessoal o meu pensamento sobre se tornar empreendedor não mudou, ou seja, uma vez empreendedor sempre empreendedor e terei que criar outra empresa caso canse do que estou fazendo.
+Mesmo depois dessa viagem de desconstrução pessoal o meu pensamento sobre se tornar empresario não mudou, ou seja, uma vez empresario sempre empresario e terei que criar outra empresa caso canse do que estou fazendo.
 
 Durante alguns momentos de meditação voltada para meu lado profissional eu comecei refletir sobre esse assunto, até relacionar meu antigo pensamento com a área de desenvolvimento de software e empreender, surgindo turbilhões de questionamentos:
 
 - Por que não posso voltar para o mercado caso eu queria?
 - Estou quebrado financeiramente para voltar ao mercado?
 - Só voltarei para o mercado caso eu quebrei e não consiga recomeçar?
-- Uma vez empreendedor, sempre empreendedor?
+- Uma vez empresario, sempre empresario?
 - O que eu gosto de fazer? O que tenho prazer de fazer?
 - ...
 
