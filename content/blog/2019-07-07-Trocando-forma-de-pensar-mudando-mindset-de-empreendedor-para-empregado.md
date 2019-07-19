@@ -1,6 +1,6 @@
 +++
 date = "2019-07-07"
-title = "Trocando forma de pensar (mudando mindset) de empresario para 'empregado'"
+title = "Trocando forma de pensar (mudando mindset) de empresário para 'empregado'"
 tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor", "empresario"]
 aliases = ["/trocando-forma-de-pensar-mudando-mindset-de-empreendedor-para-empregado/"]
 +++
@@ -9,7 +9,7 @@ aliases = ["/trocando-forma-de-pensar-mudando-mindset-de-empreendedor-para-empre
 
 Se ainda não me conhece empreendi desde 2011 até junho/2019 e resolvi voltar para o mercado de trabalho e não é por motivos que quebrei financeiramente, indo na contramão do *hype* de **startups**.
 
-Acredito que surgiu diversas perguntas em sua cabeça ao ler o texto acima, acredite que na minha cabeça foram longos meses (quase 1 ano) refletindo sobre o assunto, colocando no papel prós e contras, imaginando como seria, como me portaria em algumas situações até que por fim resolvi experimentar um ambiente novo, “desconhecido” e acredito que seja desafiador (pelo menos para mim).
+Acredito que surgiu diversas perguntas em sua cabeça ao ler o texto acima, acredite que na minha cabeça foram longos meses (quase 1 ano) refletindo sobre o assunto, colocando no papel os prós e contras, imaginando como seria, como me portaria em algumas situações até que por fim resolvi experimentar um ambiente novo, “desconhecido” e acredito que seja desafiador (pelo menos para mim).
 
 ## Como pensava durante alguns anos?
 
