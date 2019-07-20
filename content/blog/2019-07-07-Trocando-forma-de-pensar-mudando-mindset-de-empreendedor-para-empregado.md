@@ -2,7 +2,7 @@
 date = "2019-07-07"
 title = "Trocando forma de pensar (mudando mindset) de empresário para 'empregado'"
 tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor", "empresario"]
-aliases = ["/trocando-forma-de-pensar-mudando-mindset-de-empreendedor-para-empregado/"]
+aliases = ["/trocando-forma-de-pensar-mudando-mindset-de-empreendedor-para-empregado/", "/trocando-forma-de-pensar-mudando-mindset-de-empresario-para-empregado/"]
 +++
 
 ![Fechando a startup e voltando para o mercado de travalho](/blog/close.jpg#center)
