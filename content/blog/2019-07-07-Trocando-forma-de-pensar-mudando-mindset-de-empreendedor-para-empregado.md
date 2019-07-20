@@ -52,7 +52,7 @@ Sim e não, meu perfil de empreendedor (fazer o projeto/empresa acontecer) é um
 
 Hoje ocupo o cargo de [head de engenharia](https://www.linkedin.com/feed/update/urn:li:activity:6552198793771659264/) no [Jusbrasil](https://www.jusbrasil.com.br/) que é referência no mercado Jurídico Brasileiro, tocando um projeto que tem tudo para revolucionar a forma que os advogados produzem suas peças.
 
-Em 2014 palestrei muito sobre empreendendo dentro da empresa que você trabalha e mesmo assim eu voltei pensar ao contrário da forma que pensava antes.
+Em 2014 palestrei muito sobre [empreendendo dentro da empresa que você trabalha](https://avelino.run/quote/2018-03-19-quote-empreendendo-em-seu-local-de-trabalho/) e mesmo assim eu voltei pensar ao contrário da forma que pensava antes.
 
 O cérebro humano é uma máquina que se adapta a qualquer ambiente e adversidade, treine ele para fazer o que você quer e precise fazer, sempre com o foco em longevidade com uma rotina sustentável e saudável para você.
 
