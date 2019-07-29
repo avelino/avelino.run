@@ -83,7 +83,7 @@ For more information read the official [setup guide](https://gohugo.io/getting-s
 Show example in [exampleSite](https://github.com/avelino/hugo-theme-sarah/blob/master/exampleSite/config.toml)
 
 ```toml
-baseURL = "http://avelino.xxx/"
+baseURL = "http://avelino.run/"
 languageCode = "en-us"
 title = "Avelino"
 theme = "sarah"
