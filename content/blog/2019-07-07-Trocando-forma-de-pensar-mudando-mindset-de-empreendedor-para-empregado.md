@@ -11,6 +11,8 @@ Se ainda não me conhece empreendi desde 2011 até junho/2019 e resolvi voltar p
 
 Acredito que surgiu diversas perguntas em sua cabeça ao ler o texto acima, acredite que na minha cabeça foram longos meses (quase 1 ano) refletindo sobre o assunto, colocando no papel os prós e contras, imaginando como seria, como me portaria em algumas situações até que por fim resolvi experimentar um ambiente novo, “desconhecido” e acredito que seja desafiador (pelo menos para mim).
 
+Recomenda à leitura desse blogpost [Encerrando ciclos, viva no presente não se paralise pelo passado](https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/)
+
 ## Como pensava durante alguns anos?
 
 Quando entrei na área de engenharia de software (desenvolvimento, programação) meus colegas de trabalho me auxiliaram criar um pensamento o de que carreira seria uma escada onde começaríamos como desenvolvedor Júnior (baixa experiência e com muita sede de aprender) até um cargo de executivo (muita experiência e perfil de líder, na época não sabia o que era liderar e chamava de chefe), seguindo uma escada mais ou menos assim:
