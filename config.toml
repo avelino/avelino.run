@@ -11,8 +11,8 @@ blog  = ":slug"
 
 [params]
 author = "Avelino"
-keywords = ["Racket", "Go (Gopher)", "Clojure", "Neural Network", "Artificial Intelligence"]
-avatar = "img/2018-09-run.png"
+keywords = ["People Management", "Mind Hacking", "Biohacking", "Racket/Clojure/LISP", "Go (Gopher)", "Python", "Neural Network", "Artificial Intelligence", "Triathlon"]
+avatar = "img/kiwYA0CW_400x400.jpg"
 dateform = "Jan 2, 2006"
 lang = "en"
 footertext = "written by avelino"
