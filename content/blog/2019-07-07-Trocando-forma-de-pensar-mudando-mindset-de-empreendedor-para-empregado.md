@@ -1,7 +1,7 @@
 +++
 date = "2019-07-07"
 title = "Trocando forma de pensar (mudando mindset) de empresário para 'empregado'"
-tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor", "empresario"]
+tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor", "empresario", "evolua"]
 aliases = ["/trocando-forma-de-pensar-mudando-mindset-de-empreendedor-para-empregado/", "/trocando-forma-de-pensar-mudando-mindset-de-empresario-para-empregado/"]
 +++
 
