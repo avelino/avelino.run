@@ -379,6 +379,11 @@
 	    "_type": "rss",
 	    "_xmlUrl": "http://endorfinabr.libsyn.com/rss",
 	    "_text": "Endörfina Podcast com Michel Bögli"
+	},
+	{
+	    "_type": "rss",
+	    "_xmlUrl": "https://www.spreaker.com/show/3258232/episodes/feed",
+	    "_text": "Boa Noite Internet"
 	}
     ]
 }
