@@ -384,6 +384,16 @@
 	    "_type": "rss",
 	    "_xmlUrl": "https://www.spreaker.com/show/3258232/episodes/feed",
 	    "_text": "Boa Noite Internet"
+	},
+	{
+	    "_type": "rss",
+	    "_xmlUrl": "https://www.heroku.com/podcasts/codeish.rss",
+	    "_text": "Code[ish]"
+	},
+	{
+	    "_type": "rss",
+	    "_xmlUrl": "https://softwareengineeringdaily.com/feed/podcast/",
+	    "_text": "Software Engineering Daily"
 	}
     ]
 }
