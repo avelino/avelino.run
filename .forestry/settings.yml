@@ -29,11 +29,11 @@ sections:
   label: Podcasts
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: static/blog
+public_path: "/blog"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":filename:-:year:-:month:-:day:"
 build:
   preview_env:
   - HUGO_ENV=staging
