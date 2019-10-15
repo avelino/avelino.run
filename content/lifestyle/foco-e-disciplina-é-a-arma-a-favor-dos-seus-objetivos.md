@@ -1,7 +1,6 @@
 +++
 aliases = []
 date = "2019-10-15T03:00:00+00:00"
-draft = true
 tags = ["corridaderua", "im703", "ironman", "triathlon"]
 title = "Foco e disciplina é a arma a favor dos seus objetivos"
 
