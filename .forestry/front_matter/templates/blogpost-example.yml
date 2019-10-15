@@ -14,3 +14,5 @@ fields:
 - type: list
   name: aliases
   label: aliases
+pages:
+- content/lifestyle/foco-e-disciplina-é-a-arma-a-favor-dos-seus-objetivos.md
