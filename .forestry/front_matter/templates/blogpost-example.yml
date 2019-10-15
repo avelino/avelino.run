@@ -1,0 +1,16 @@
+---
+label: blogpost-example
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: aliases
+  label: aliases
