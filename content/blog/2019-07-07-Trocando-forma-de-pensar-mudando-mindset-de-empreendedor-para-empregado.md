@@ -1,13 +1,13 @@
 +++
-date = "2019-07-07"
-title = "Trocando forma de pensar (mudando mindset) de empresário para 'empregado'"
-tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor", "empresario", "evolua"]
 aliases = ["/trocando-forma-de-pensar-mudando-mindset-de-empreendedor-para-empregado/", "/trocando-forma-de-pensar-mudando-mindset-de-empresario-para-empregado/"]
-+++
+date = "2019-07-07"
+tags = ["mindset", "empreender", "startup", "startups", "clt", "empreendedor", "empresario", "evolua"]
+title = "Trocando forma de pensar (mudando mindset) de empresário para 'empregado'"
 
++++
 ![Fechando a startup e voltando para o mercado de travalho](/blog/close.jpg#center)
 
-Se ainda não me conhece empreendi desde 2011 até junho/2019 e resolvi voltar para o mercado de trabalho e não é por motivos que quebrei financeiramente, indo na contramão do *hype* de **startups**.
+Se ainda não me conhece empreendi desde 2011 até junho/2019 (durante esse tempo comentei algumas vezes que [nunca mais iria empreender](https://avelino.run/eu-nunca-mais-vou-empreender/ "Eu nunca mais vou empreender")) e resolvi voltar para o mercado de trabalho e não é por motivos que quebrei financeiramente, indo na contramão do _hype_ de **startups**.
 
 Acredito que surgiu diversas perguntas em sua cabeça ao ler o texto acima, acredite que na minha cabeça foram longos meses (quase 1 ano) refletindo sobre o assunto, colocando no papel os prós e contras, imaginando como seria, como me portaria em algumas situações até que por fim resolvi experimentar um ambiente novo, “desconhecido” e acredito que seja desafiador (pelo menos para mim).
 
@@ -18,14 +18,14 @@ Recomenda à leitura desse blogpost [Encerrando ciclos, viva no presente não se
 Quando entrei na área de engenharia de software (desenvolvimento, programação) meus colegas de trabalho me auxiliaram criar um pensamento o de que carreira seria uma escada onde começaríamos como desenvolvedor Júnior (baixa experiência e com muita sede de aprender) até um cargo de executivo (muita experiência e perfil de líder, na época não sabia o que era liderar e chamava de chefe), seguindo uma escada mais ou menos assim:
 
 1. Estagiário
-1. Desenvolvedor Júnior
-1. Desenvolvedor Pleno
-1. Desenvolvedor Sênior
-1. Líder técnico
-1. Gerente de desenvolvimento ou projeto
-1. Gerente da área de tecnologia
-1. Diretor da área de tecnologia
-1. Empresario - big boss, esse tópico surgiu depois de alguns anos trabalhando
+2. Desenvolvedor Júnior
+3. Desenvolvedor Pleno
+4. Desenvolvedor Sênior
+5. Líder técnico
+6. Gerente de desenvolvimento ou projeto
+7. Gerente da área de tecnologia
+8. Diretor da área de tecnologia
+9. Empresario - big boss, esse tópico surgiu depois de alguns anos trabalhando
 
 Conforme o tempo vai passando e vamos ganhando experiência na área técnica começamos perceber que não é uma escadinha e podemos nos manter na área técnica ou gestão - vulgo chamada carreira em Y - dependendo do perfil do profissional, onde cada pessoa senta mais familiaridade (gostar).
 
@@ -37,12 +37,12 @@ Mesmo depois dessa viagem de desconstrução pessoal o meu pensamento sobre se t
 
 Durante alguns momentos de meditação voltada para meu lado profissional eu comecei refletir sobre esse assunto, até relacionar meu antigo pensamento com a área de desenvolvimento de software e empreender, surgindo turbilhões de questionamentos:
 
-- Por que não posso voltar para o mercado caso eu queria?
-- Estou quebrado financeiramente para voltar ao mercado?
-- Só voltarei para o mercado caso eu quebrei e não consiga recomeçar?
-- Uma vez empresario, sempre empresario?
-- O que eu gosto de fazer? O que tenho prazer de fazer?
-- ...
+* Por que não posso voltar para o mercado caso eu queria?
+* Estou quebrado financeiramente para voltar ao mercado?
+* Só voltarei para o mercado caso eu quebrei e não consiga recomeçar?
+* Uma vez empresario, sempre empresario?
+* O que eu gosto de fazer? O que tenho prazer de fazer?
+* ...
 
 Como comentado foi um processo longo para conseguir responder algumas perguntas, mergulhando dentro do meu próprio eu e com muita ajuda de terapia, sempre evoluindo pessoalmente um degrau por vez.
 
