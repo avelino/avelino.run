@@ -5,6 +5,8 @@ tags = ["errar é humano", "erro", "autonomia", "responsabilidade"]
 title = "O que é responsabilidade?"
 
 +++
+![Responsabilidade pela sua vida](/blog/responsabilidade-pela-vida-640x360-2019-11-01.png "Responsabilidade pela sua vida")
+
 Responder por suas ações e consequências dos seus atos!
 
 Se você não pode responder pela ação que você toma volte pensar no que você anda fazendo.  
