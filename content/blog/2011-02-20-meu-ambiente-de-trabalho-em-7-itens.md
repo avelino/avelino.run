@@ -1,7 +1,7 @@
 +++
 aliases = ["/2011/02/meu-ambiente-de-trabalho-em-7-itens"]
 date = 2011-02-20T00:00:00Z
-tags = ["7 itens", "ambiente de trabalho"]
+tags = ["7 itens", "ambiente de trabalho", "vim", "dropbox", "macOS", "git"]
 title = "Meu ambiente de trabalho em 7 itens"
 
 +++
