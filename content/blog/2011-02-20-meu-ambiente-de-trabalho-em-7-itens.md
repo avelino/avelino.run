@@ -41,5 +41,5 @@ Agora para seguir com o meme, convido meus amigos:
 
 * [Christiano Anderson](https://twitter.com/dump "Christiano Anderson aka Dump - Twitter")
 * [Bruno Rocha](https://twitter.com/rochacbruno/ "Bruno Rocha - Twitter")
-* [Bernardo Heynemann](http://blog.heynemann.com.br/)
-* [Rodrigo Bernardo Pimentel](http://isnomore.net/)
+* [Bernardo Heynemann](https://twitter.com/heynemann "Bernardo Heynemann - Twitter")
+* [Rodrigo Bernardo Pimentel](https://twitter.com/rbp "Rodrigo Bernardo Pimentel aka rbp - Twitter")
