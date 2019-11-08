@@ -2,7 +2,7 @@
 aliases = []
 date = 2019-11-08T21:00:00Z
 tags = ["mindhacking", "alta performance", "Mihaly Csikszentmihalyi", "concentração", "psicologia do flow", "psicologia", "fluxo", "flow", "estado de flow"]
-title = "Chegar ao estado de Flow para alcançar metas/objetivo"
+title = "Chegar ao estado de Flow, para alcançar metas/objetivo"
 
 +++
 ![Compreendendo a Psicologia do Flow](/blog/guitar-girl-flow-beach-1080x675-2019-11-08.jpg "Compreendendo a Psicologia do Flow")
