@@ -1,7 +1,6 @@
 +++
 aliases = []
 date = 2019-11-08T22:00:00Z
-draft = true
 tags = ["mindhacking", "alta performance", "Mihaly Csikszentmihalyi", "concentração", "psicologia do flow", "psicologia", "fluxo", "flow", "estado de flow"]
 title = "Chegar ao estado de Flow para alcançar metas/objetivo"
 
