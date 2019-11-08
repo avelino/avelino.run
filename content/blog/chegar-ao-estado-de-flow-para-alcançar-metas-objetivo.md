@@ -2,7 +2,7 @@
 aliases = []
 date = 2019-11-08T22:00:00Z
 draft = true
-tags = []
+tags = ["mindhacking", "alta performance", "Mihaly Csikszentmihalyi", "concentração", "psicologia do flow", "psicologia", "fluxo", "flow", "estado de flow"]
 title = "Chegar ao estado de Flow para alcançar metas/objetivo"
 
 +++
@@ -52,3 +52,9 @@ Além de tornar as atividades mais agradáveis, o flow também tem uma série de
 
 * O flow pode levar a alta performance (melhor desempenho). Os pesquisadores encontraram que o flow pode subir o desempenho em uma grande variedade de áreas que incluem o ensino, a aprendizagem, aos atletas (esporte) e o lado criativo
 * O flow também pode levar ao aprendizado e desenvolvimento de novas habilidades. Como o ato de alcançar o flow indica o domínio substancial de certa habilidade, o indivíduo deve buscar continuamente novos desafios e informações para manter este estado
+
+## Leia também
+
+* [Mindfulness, hacking mental para concentração plena](https://avelino.run/lifestyle/mindfulness-hacking-mental-para-concentra%C3%A7%C3%A3o-plena/ "Mindfulness, hacking mental para concentração plena")
+* [Foco e disciplina é a arma a favor dos seus objetivos](https://avelino.run/lifestyle/foco-e-disciplina-%C3%A9-a-arma-a-favor-dos-seus-objetivos/ "Foco e disciplina é a arma a favor dos seus objetivos")
+* [Por que triathlon? Qual é o seu limite?](https://avelino.run/lifestyle/2019-06-21-por-que-triathlon/ "Por que triathlon? Qual é o seu limite?")
