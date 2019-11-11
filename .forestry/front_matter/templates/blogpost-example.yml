@@ -15,6 +15,7 @@ fields:
   name: aliases
   label: aliases
 pages:
+- content/blog/diferença-entre-amadores-e-profissionais.md
 - content/blog/chegar-ao-estado-de-flow-para-alcançar-metas-objetivo.md
 - content/lifestyle/mindfulness-hacking-mental-para-concentração-plena.md
 - content/quote/o-que-é-responsabilidade.md
