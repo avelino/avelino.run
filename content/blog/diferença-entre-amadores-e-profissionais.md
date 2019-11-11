@@ -1,7 +1,6 @@
 +++
 aliases = []
 date = 2019-11-11T16:00:00Z
-draft = true
 tags = ["alta performance", "psicologia", "triathlon", "esporte", "profissional", "amador"]
 title = "Diferença entre amadores e profissionais"
 
@@ -11,6 +10,8 @@ Porque algumas pessoas _parecem ser_ extremamente bem sucedidas e fazer muito, e
 A resposta é complicada e provavelmente composta por diversas respostas.
 
 O aspecto principal é a forma de pensar e planejamento.
+
+![](/blog/maxresdefault-2019-11-11.jpg)
 
 ## Mas qual é a diferença? Na verdade, há diversas diferenças:
 
