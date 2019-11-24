@@ -1,8 +1,8 @@
 +++
-aliases = []
+aliases = ["/lifestyle/transformando-dores-musculares-em-amor/"]
 date = 2019-11-24T13:40:00Z
 tags = ["corridaderua", "bikelife", "nadapedalacorre", "triathlontraining", "triathlon"]
-title = "Transformando dores musculares em amor"
+title = "Transformando dores musculares em prazer (amor)"
 
 +++
 ![Thiago Avelino pedalando na estrada caminho do mar - estrada velha de santos](/blog/_MG_1754-2019-11-24.JPG "Thiago Avelino pedalando na estrada caminho do mar - estrada velha de santos")
