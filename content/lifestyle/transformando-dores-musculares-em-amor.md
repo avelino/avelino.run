@@ -5,7 +5,7 @@ tags = ["corridaderua", "bikelife", "nadapedalacorre", "triathlontraining", "tri
 title = "Transformando dores musculares em amor"
 
 +++
-![Thiago Avelino pedalando na estrada caminho do mar (estrada velha de santos)](/blog/_MG_1754-2019-11-24.JPG "Thiago Avelino pedalando na estrada caminho do mar (estrada velha de santos)")
+![Thiago Avelino pedalando na estrada caminho do mar - estrada velha de santos](/blog/_MG_1754-2019-11-24.JPG "Thiago Avelino pedalando na estrada caminho do mar - estrada velha de santos")
 
 De arrepios de dores musculares a amor, acredito que essa seja a evolução que tive dentro da modalidade de bike.
 
