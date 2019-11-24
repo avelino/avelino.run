@@ -1,11 +1,12 @@
 +++
 aliases = []
-date = 2019-11-24T14:00:00Z
-draft = true
+date = 2019-11-01T13:40:00Z
 tags = ["corridaderua", "bikelife", "nadapedalacorre", "triathlontraining", "triathlon"]
 title = "Transformando dores musculares em amor"
 
 +++
+![Thiago Avelino pedalando na estrada caminho do mar (estrada velha de santos)](/blog/_MG_1754-2019-11-24.JPG "Thiago Avelino pedalando na estrada caminho do mar (estrada velha de santos)")
+
 De arrepios de dores musculares a amor, acredito que essa seja a evolução que tive dentro da modalidade de bike.
 
 Quando comecei pedalar eu sentia diversas dores muscular e muita dor na "bunda" (na real é no períneo), começar pedalar era uma tortura, chegava no "escritório" (local que fica minha bike) e demorava muito tempo para começar (em alguns dias chegava a horas). Lembro como se fosse hoje eu indo comprar minha primeira bicicleta para o triathlon, quando cheguei em casa comentei com minha esposa "pedalar é tranquilo, nem transpirei". Na minha cabeça eu sabia pedalar, quando era moleque sempre andei de bike, após começar pedalar entendi que sempre andei de bike e que não sabia pedalar.
