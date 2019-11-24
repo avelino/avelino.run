@@ -1,6 +1,6 @@
 +++
 aliases = []
-date = 2019-11-01T13:40:00Z
+date = 2019-11-24T13:40:00Z
 tags = ["corridaderua", "bikelife", "nadapedalacorre", "triathlontraining", "triathlon"]
 title = "Transformando dores musculares em amor"
 
