@@ -6,7 +6,7 @@ tags = ["alta performance", "dieta base de plantas", "dieta", "triathlon"]
 title = "Alta performance com dieta baseada em plantas"
 
 +++
-![](/blog/diet plant based-2019-11-30.webp)
+![Dieta a baseada em platas para atleta de alta performance](/blog/diet plant based-2019-11-30.webp "Dieta a baseada em platas para atleta de alta performance")
 
 A pergunta que os atletas que segue dieta baseada em plantas recebe é a suposição de que os alimentos de origem animal são a única fonte de proteína, isso é um equívoco, mas infelizmente muitas pessoas têm essa visão por falta de informação.
 
@@ -54,7 +54,7 @@ Plano de refeição a seguir fornece uma variedade de proteínas vegetais ricas 
 **Referências:**
 
 1. _Wooding DJ, Packer JE, Kato H, West DWD, Courtney-Martin G, Pencharz, PB, Moore DR. Increased protein requirements in female athletes after variable-intensity exercise. Med Sci Sports Exer. 2017;49(11):2297-2304._
-1. _Thomas DT, Erdman KA, Burke LM. Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: nutrition and athletic performance. J Acad Nutr Diet. 2016;116(3):501-28._
-1. _Rebouche CJ. Carnitine. In: Shils ME, Olson JA, Shike M, Ross AC (eds). Modern Nutrition in Health and Disease, 9th Edition. Lippincott Williams & Wilkins, New York, 1999, pp.505-12._
-1. _Fuhrman J and Ferreri DM. Fueling the vegetarian (vegan) athlete. Curr Sports Med Rep. 2010;9(4):233-41._
-1. _Heidi Strickler, RD, CSSD, METS I, ISAK I is a Registered Sports Dietitian with eNRG Performance. An avid endurance athlete, triathlete, and ultra-runner herself, she has a passion for providing nutrition coaching to endurance athletes. She also specializes in plant-based nutrition, female physiology, and collegiate athlete nutrition. In July, she will graduate with a Master’s degree in Sports Nutrition from Liverpool John Moores University in England, United Kingdom. Find out more about Heidi at enrgperformance.com._
+2. _Thomas DT, Erdman KA, Burke LM. Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: nutrition and athletic performance. J Acad Nutr Diet. 2016;116(3):501-28._
+3. _Rebouche CJ. Carnitine. In: Shils ME, Olson JA, Shike M, Ross AC (eds). Modern Nutrition in Health and Disease, 9th Edition. Lippincott Williams & Wilkins, New York, 1999, pp.505-12._
+4. _Fuhrman J and Ferreri DM. Fueling the vegetarian (vegan) athlete. Curr Sports Med Rep. 2010;9(4):233-41._
+5. _Heidi Strickler, RD, CSSD, METS I, ISAK I is a Registered Sports Dietitian with eNRG Performance. An avid endurance athlete, triathlete, and ultra-runner herself, she has a passion for providing nutrition coaching to endurance athletes. She also specializes in plant-based nutrition, female physiology, and collegiate athlete nutrition. In July, she will graduate with a Master’s degree in Sports Nutrition from Liverpool John Moores University in England, United Kingdom. Find out more about Heidi at enrgperformance.com._
