@@ -18,7 +18,7 @@ Na verdade:
 
 Nos _Estados Unidos_, a recomendação diária de proteína (RDA) é 0,8 gramas por quilograma de peso corporal. Porém, esta recomendação destina-se a simplesmente manter funções corporais básicas, a ingestão diária de proteínas deve ser maior para a maioria das pessoas. Pesquisas mostram que os atletas de alta performance deve ingerir aproximadamente 50% mais proteína do que pessoas sedentárias - 1.2 - 2.0/kg de proteína diariamente - dependendo da fase de treinamento, dependendo de peso, dieta, gênero e idade.
 
-# Proteína vegetal
+## Proteína vegetal
 
 Aminoácidos são os blocos de construção da proteína. Dos 20 aminoácidos, seu organismo é capaz de produzir 11 deles - eles são conhecidos como aminoácidos não essenciais. Os outros 9 são denominados aminoácidos essenciais - eles não são produzidos pelo organismo e devem ser ingeridos através de alimentos.
 
@@ -28,7 +28,7 @@ A lisina (fórmula C6H14N2O2) é o único aminoácido essencial que é difícil 
 
 Dieta mista que inclui carne, ovos e/ou laticínios fornece 60 - 180mg por dia de carnitina, enquanto dieta vegana fornece 10 - 12mg. Por esses motivos atletas com dietas a base de plantas (veganos) deve ingerir proteína vegetal com grandes fontes de lisina. Os alimentos mais ricos em Lisina incluem tempeh, lentilhas, tofu germinado, amaranto, quinoa, pistache, grão-de-bico e sementes de abóbora.
 
-# Proteína e Performance
+## Proteína e Performance
 
 Pessoas pode se safar com uma dieta vegana abaixo do ideal; no entanto, o aumento do volume de treino e corrida pode levar a má performance, recuperação e saúde para atletas vegano.
 
@@ -41,7 +41,7 @@ Alguns riscos:
 * Diarreia (intestino funcionando mais que o normal), especialmente durante a execução de exercício, relacionada à ingestão de grande volume de fibras.
 * Atletas que seguem dieta à base de plantas deve ter acompanhamento regular com nutricionista esportivo.
 
-# Um dia com dieta à base de plantas
+## Um dia com dieta à base de plantas
 
 Plano de refeição a seguir fornece uma variedade de proteínas vegetais ricas em lisina e combinam alimentos ricos em zinco e ferro com vitamina C e atende a exigência diária de vitamina B12, cálcio e ômega-3.
 
@@ -53,12 +53,8 @@ Plano de refeição a seguir fornece uma variedade de proteínas vegetais ricas 
 
 **Referências:**
 
-_1. Wooding DJ, Packer JE, Kato H, West DWD, Courtney-Martin G, Pencharz, PB, Moore DR. Increased protein requirements in female athletes after variable-intensity exercise. Med Sci Sports Exer. 2017;49(11):2297-2304._
-
-_1. Thomas DT, Erdman KA, Burke LM. Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: nutrition and athletic performance. J Acad Nutr Diet. 2016;116(3):501-28._
-
-_1. Rebouche CJ. Carnitine. In: Shils ME, Olson JA, Shike M, Ross AC (eds). Modern Nutrition in Health and Disease, 9th Edition. Lippincott Williams & Wilkins, New York, 1999, pp.505-12._
-
-_1. Fuhrman J and Ferreri DM. Fueling the vegetarian (vegan) athlete. Curr Sports Med Rep. 2010;9(4):233-41._
-
-_Heidi Strickler, RD, CSSD, METS I, ISAK I is a Registered Sports Dietitian with eNRG Performance. An avid endurance athlete, triathlete, and ultra-runner herself, she has a passion for providing nutrition coaching to endurance athletes. She also specializes in plant-based nutrition, female physiology, and collegiate athlete nutrition. In July, she will graduate with a Master’s degree in Sports Nutrition from Liverpool John Moores University in England, United Kingdom. Find out more about Heidi at enrgperformance.com._
+1. _Wooding DJ, Packer JE, Kato H, West DWD, Courtney-Martin G, Pencharz, PB, Moore DR. Increased protein requirements in female athletes after variable-intensity exercise. Med Sci Sports Exer. 2017;49(11):2297-2304._
+1. _Thomas DT, Erdman KA, Burke LM. Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: nutrition and athletic performance. J Acad Nutr Diet. 2016;116(3):501-28._
+1. _Rebouche CJ. Carnitine. In: Shils ME, Olson JA, Shike M, Ross AC (eds). Modern Nutrition in Health and Disease, 9th Edition. Lippincott Williams & Wilkins, New York, 1999, pp.505-12._
+1. _Fuhrman J and Ferreri DM. Fueling the vegetarian (vegan) athlete. Curr Sports Med Rep. 2010;9(4):233-41._
+1. _Heidi Strickler, RD, CSSD, METS I, ISAK I is a Registered Sports Dietitian with eNRG Performance. An avid endurance athlete, triathlete, and ultra-runner herself, she has a passion for providing nutrition coaching to endurance athletes. She also specializes in plant-based nutrition, female physiology, and collegiate athlete nutrition. In July, she will graduate with a Master’s degree in Sports Nutrition from Liverpool John Moores University in England, United Kingdom. Find out more about Heidi at enrgperformance.com._
