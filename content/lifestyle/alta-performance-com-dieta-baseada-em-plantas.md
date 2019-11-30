@@ -57,3 +57,5 @@ Plano de refeição a seguir fornece uma variedade de proteínas vegetais ricas 
 3. _Rebouche CJ. Carnitine. In: Shils ME, Olson JA, Shike M, Ross AC (eds). Modern Nutrition in Health and Disease, 9th Edition. Lippincott Williams & Wilkins, New York, 1999, pp.505-12._
 4. _Fuhrman J and Ferreri DM. Fueling the vegetarian (vegan) athlete. Curr Sports Med Rep. 2010;9(4):233-41._
 5. _Heidi Strickler, RD, CSSD, METS I, ISAK I is a Registered Sports Dietitian with eNRG Performance. An avid endurance athlete, triathlete, and ultra-runner herself, she has a passion for providing nutrition coaching to endurance athletes. She also specializes in plant-based nutrition, female physiology, and collegiate athlete nutrition. In July, she will graduate with a Master’s degree in Sports Nutrition from Liverpool John Moores University in England, United Kingdom. Find out more about Heidi at enrgperformance.com._
+6. [The Game Changers](https://filmow.com/dieta-de-gladiadores-t256320/ "Dieta de Gladiadores, serie produzida pela Netflix - Filmow")
+7. [What The Health](https://filmow.com/que-raio-de-saude-t236070/ "Que Raio de Saúde - Filmow")
