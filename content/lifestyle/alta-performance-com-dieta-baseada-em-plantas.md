@@ -1,7 +1,7 @@
 +++
 aliases = []
 date = 2019-11-30T22:00:00Z
-tags = ["alta performance", "dieta base de plantas", "dieta", "triathlon"]
+tags = ["proteina vegana", "atleta vegano", "dieta vegana", "vegano", "alta performance", "dieta base de plantas", "dieta", "triathlon"]
 title = "Alta performance com dieta baseada em plantas"
 
 +++
