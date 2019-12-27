@@ -1,399 +1,404 @@
 {
-    "sounds":[
-	{
-	    "_xmlUrl": "http://feeds.feedburner.com/CastalioPodcastMP3",
-	    "_text": "Castálio Podcast",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "http://www.redegeek.com.br/feed/podcast/?itunes",
-	    "_text": "Rede Geek podcasts",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "CocaTech",
-	    "_xmlUrl": "https://cocatech.com.br/feed/podcast",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "http://www.grokpodcast.com/atom.xml",
-	    "_text": "Grok Podcast"
-	},
-	{
-	    "_text": "Loop Matinal",
-	    "_type": "rss",
-	    "_xmlUrl": "http://loopmatinal.libsyn.com/rss"
-	},
-	{
-	    "_xmlUrl": "https://hipsters.tech/feed/podcast/",
-	    "_type": "rss",
-	    "_text": "Hipsters Ponto Tech"
-	},
-	{
-	    "_text": "marchwill",
-	    "_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:27370138/sounds.rss",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Tecnocast",
-	    "_xmlUrl": "http://feeds.feedburner.com/Tecnocast"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "DEVNAESTRADA",
-	    "_xmlUrl": "https://devnaestrada.com.br/feed.xml"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Hack 'n' Cast",
-	    "_xmlUrl": "http://hackncast.org/feeds/podcast.rss"
-	},
-	{
-	    "_text": "Labs Bluesoft » Podcast Feed",
-	    "_type": "rss",
-	    "_xmlUrl": "http://feeds.feedburner.com/BluesoftPodcast"
-	},
-	{
-	    "_text": "TEDTalks Technology",
-	    "_xmlUrl": "http://feeds.feedburner.com/iTunesPodcastTTTechnology",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "The Vergecast",
-	    "_xmlUrl": "https://feeds.megaphone.fm/vergecast",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "http://feeds.feedburner.com/BrPortuguesePodcastTechnology",
-	    "_text": "TEDTalks Tecnologia"
-	},
-	{
-	    "_text": "MacMagazine no Ar",
-	    "_type": "rss",
-	    "_xmlUrl": "http://feeds.feedburner.com/mmnoar"
-	},
-	{
-	    "_text": "Lambda3 Podcast",
-	    "_xmlUrl": "https://www.lambda3.com.br/feed/podcast/",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "http://audio.globoradio.globo.com/podcast/feed/393/transformacao-digital-da-industria",
-	    "_type": "rss",
-	    "_text": "A transformação digital da indústria"
-	},
-	{
-	    "_text": "TEDTalks Negócios",
-	    "_xmlUrl": "http://feeds.feedburner.com/BrPortuguesePodcastBusiness",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "http://feeds.feedburner.com/iTunesPodcastTTBusiness",
-	    "_type": "rss",
-	    "_text": "TEDTalks Business"
-	},
-	{
-	    "_text": "Foras de Série",
-	    "_xmlUrl": "http://forasdeserie.com/feed",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "Digcast - Empreendedorismo, Negócios e Marketing Digital",
-	    "_xmlUrl": "http://digcast.com.br/feed/podcast/",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "https://www.spreaker.com/show/3221921/episodes/feed",
-	    "_text": "AntiCast",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "Projeto Humanos",
-	    "_xmlUrl": "https://www.spreaker.com/show/3208787/episodes/feed",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "Google Cloud Platform Podcast",
-	    "_type": "rss",
-	    "_xmlUrl": "https://feeds.feedburner.com/GcpPodcast"
-	},
-	{
-	    "_text": "10deploys",
-	    "_xmlUrl": "https://anchor.fm/s/58be174/podcast/rss",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:136094445/sounds.rss",
-	    "_text": "140mba com Marco Gomes",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "SudoCast",
-	    "_type": "rss",
-	    "_xmlUrl": "https://feeds.blubrry.com/feeds/sudocast1.xml"
-	},
-	{
-	    "_xmlUrl": "https://changelog.com/gotime/feed",
-	    "_type": "rss",
-	    "_text": "Go Time"
-	},
-	{
-	    "_xmlUrl": "https://changelog.com/podcast/feed",
-	    "_type": "rss",
-	    "_text": "The Changelog"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Founders Talk",
-	    "_xmlUrl": "https://changelog.com/founderstalk/feed"
-	},
-	{
-	    "_xmlUrl": "https://changelog.com/rfc/feed",
-	    "_text": "Request For Commits",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "Changelog Master Feed",
-	    "_xmlUrl": "https://changelog.com/master/feed",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Spotlight",
-	    "_xmlUrl": "https://changelog.com/spotlight/feed"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Umblercast",
-	    "_xmlUrl": "https://anchor.fm/s/8bf0c7c/podcast/rss"
-	},
-	{
-	    "_xmlUrl": "https://www.likeaboss.com.br/episodios/feed/like-a-boss/",
-	    "_type": "rss",
-	    "_text": "Like a Boss"
-	},
-	{
-	    "_text": "Pizza de Dados",
-	    "_xmlUrl": "https://podcast.pizzadedados.com/feed.xml",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://bitcast.site/feed/spotify/",
-	    "_text": "BitCast - O seu Podcast sobre Bitcoin"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://rss.simplecast.com/podcasts/4669/rss",
-	    "_text": "Hanselminutes"
-	},
-	{
-	    "_xmlUrl": "https://radiofobia.com.br/podcast/category/podcast/feed/",
-	    "_text": "Rádiofobia Podcast Network",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "ESL Podcast - Previous Episodes",
-	    "_xmlUrl": "http://www.eslpod.com/past.xml",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss",
-	    "_type": "rss",
-	    "_text": "AWS Podcast"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:233709590/sounds.rss",
-	    "_text": "Caio Carneiro - Podcast Fod*"
-	},
-	{
-	    "_xmlUrl": "http://www.spreaker.com/show/2885428/episodes/feed",
-	    "_text": "ResumoCast | Segunda Temporada",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss",
-	    "_type": "rss",
-	    "_text": "defn"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Imagina Juntas",
-	    "_xmlUrl": "https://halfdeaf.com.br/show/2929952/episodes/feed"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://decrepitos.com/podcast/feed.xml",
-	    "_text": "Decrépitos"
-	},
-	{
-	    "_text": "PodProgramar | Mundo Podcast",
-	    "_xmlUrl": "https://mundopodcast.com.br/podprogramar/feed/",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "https://anchor.fm/s/9203bc8/podcast/rss",
-	    "_text": "Lovelace Podcast",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Área de Transferência",
-	    "_xmlUrl": "https://areadetransferencia.com.br/rss"
-	},
-	{
-	    "_xmlUrl": "https://elemencast.github.io/static/rss.xml",
-	    "_type": "rss",
-	    "_text": "elemencast"
-	},
-	{
-	    "_text": "CocoaHeads Brasil",
-	    "_type": "rss",
-	    "_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:95096755/sounds.rss"
-	},
-	{
-	    "_xmlUrl": "https://blogdoiphone.com/cafebdi/?feed=podcast",
-	    "_text": "Café BDI 2.0",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "https://halfdeaf.com.br/show/2929970/episodes/feed",
-	    "_text": "Papo Torto",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://incognicast.com/feed/podcast",
-	    "_text": "Incognicast"
-	},
-	{
-	    "_xmlUrl": "https://feeds.feedwrench.com/AdventuresInAngularOnly.rss",
-	    "_text": "Adventures in Angular",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "Angular Air",
-	    "_type": "rss",
-	    "_xmlUrl": "http://audio.angularair.com/feed.xml"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://rss.simplecast.com/podcasts/363/rss",
-	    "_text": "Developer Tea"
-	},
-	{
-	    "_text": "Syntax - Tasty Web Development Treats",
-	    "_type": "rss",
-	    "_xmlUrl": "https://feed.syntax.fm/rss"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:335943144/sounds.rss",
-	    "_text": "Producast - Organização e Produtividade: Porque ninguém tem tempo a perder!"
-	},
-	{
-	    "_text": "Lidercast Café Brasil",
-	    "_xmlUrl": "http://feed.portalcafebrasil.com.br/tools/lidercast.xml",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Megafono",
-	    "_xmlUrl": "https://www.megafono.host/feed/megafono"
-	},
-	{
-	    "_text": "Megafono Changelog",
-	    "_xmlUrl": "https://feed.megafono.host/megafono",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Remote Work Podcast",
-	    "_xmlUrl": "https://www.remoteworkpodcast.com/podcast?format=rss"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Getup Kubicast",
-	    "_xmlUrl": "https://feeds.buzzsprout.com/184652.rss"
-	},
-	{
-	    "_xmlUrl": "http://devcommunity.cc/feed/podcast/",
-	    "_type": "rss",
-	    "_text": "Dev & Community Cast"
-	},
-	{
-	    "_text": "RenzoProCast",
-	    "_xmlUrl": "https://anchor.fm/s/8a56420/podcast/rss",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "Hora Extra",
-	    "_xmlUrl": "https://feed.podbean.com/horaextra/feed.xml",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Contador de Historias",
-	    "_xmlUrl": "http://feeds.feedburner.com/ContadordeHistoriassom"
-	},
-	{
-	    "_xmlUrl": "https://www.carreirasemfronteiras.com.br/feed/podcast/",
-	    "_text": "Carreira Sem Fronteiras",
-	    "_type": "rss"
-	},
-	{
-	    "_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:53726848/sounds.rss",
-	    "_text": "Curto Circuito",
-	    "_type": "rss"
-	},
-	{
-	    "_text": "Corredores Sem Filtro",
-	    "_xmlUrl": "https://anchor.fm/s/3a0807c/podcast/rss",
-	    "_type": "rss"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://feeds.simplecast.com/PHqqZQ7N",
-	    "_text": "Character Count"
-	},
-	{
-	    "_text": "O Primo Rico",
-	    "_type": "rss",
-	    "_xmlUrl": "https://oprimorico.com.br/category/podcast/feed/"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://radiofobia.com.br/podcast/category/podcast/jacarebancast/feed/",
-	    "_text": "Jacaré BANcast"
-	},
-	{
-	    "_type": "rss",
-	    "_text": "Cabeça de Lab",
-	    "_xmlUrl": "https://anchor.fm/s/a4fe9f8/podcast/rss"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "http://endorfinabr.libsyn.com/rss",
-	    "_text": "Endörfina Podcast com Michel Bögli"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://www.spreaker.com/show/3258232/episodes/feed",
-	    "_text": "Boa Noite Internet"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://www.heroku.com/podcasts/codeish.rss",
-	    "_text": "Code[ish]"
-	},
-	{
-	    "_type": "rss",
-	    "_xmlUrl": "https://softwareengineeringdaily.com/feed/podcast/",
-	    "_text": "Software Engineering Daily"
-	}
-    ]
+	"sounds": [
+		{
+			"_text": "Castálio Podcast",
+			"_xmlUrl": "http://feeds.feedburner.com/CastalioPodcastMP3",
+			"_type": "rss"
+		},
+		{
+			"_text": "Rede Geek podcasts",
+			"_type": "rss",
+			"_xmlUrl": "http://www.redegeek.com.br/feed/podcast/?itunes"
+		},
+		{
+			"_xmlUrl": "https://cocatech.com.br/feed/podcast",
+			"_type": "rss",
+			"_text": "CocaTech"
+		},
+		{
+			"_type": "rss",
+			"_text": "Grok Podcast",
+			"_xmlUrl": "http://www.grokpodcast.com/atom.xml"
+		},
+		{
+			"_type": "rss",
+			"_text": "Loop Matinal",
+			"_xmlUrl": "http://loopmatinal.libsyn.com/rss"
+		},
+		{
+			"_text": "Hipsters Ponto Tech",
+			"_xmlUrl": "https://hipsters.tech/feed/podcast/",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:27370138/sounds.rss",
+			"_text": "marchwill",
+			"_type": "rss"
+		},
+		{
+			"_text": "Tecnocast",
+			"_xmlUrl": "http://feeds.feedburner.com/Tecnocast",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://devnaestrada.com.br/feed.xml",
+			"_type": "rss",
+			"_text": "DEVNAESTRADA"
+		},
+		{
+			"_type": "rss",
+			"_text": "Hack 'n' Cast",
+			"_xmlUrl": "http://hackncast.org/feeds/podcast.rss"
+		},
+		{
+			"_xmlUrl": "http://feeds.feedburner.com/BluesoftPodcast",
+			"_type": "rss",
+			"_text": "Labs Bluesoft » Podcast Feed"
+		},
+		{
+			"_type": "rss",
+			"_text": "TEDTalks Technology",
+			"_xmlUrl": "http://feeds.feedburner.com/iTunesPodcastTTTechnology"
+		},
+		{
+			"_xmlUrl": "https://feeds.megaphone.fm/vergecast",
+			"_type": "rss",
+			"_text": "The Vergecast"
+		},
+		{
+			"_text": "TEDTalks Tecnologia",
+			"_type": "rss",
+			"_xmlUrl": "http://feeds.feedburner.com/BrPortuguesePodcastTechnology"
+		},
+		{
+			"_xmlUrl": "http://feeds.feedburner.com/mmnoar",
+			"_text": "MacMagazine no Ar",
+			"_type": "rss"
+		},
+		{
+			"_type": "rss",
+			"_text": "Lambda3 Podcast",
+			"_xmlUrl": "https://www.lambda3.com.br/feed/podcast/"
+		},
+		{
+			"_type": "rss",
+			"_text": "A transformação digital da indústria",
+			"_xmlUrl": "http://audio.globoradio.globo.com/podcast/feed/393/transformacao-digital-da-industria"
+		},
+		{
+			"_type": "rss",
+			"_text": "TEDTalks Negócios",
+			"_xmlUrl": "http://feeds.feedburner.com/BrPortuguesePodcastBusiness"
+		},
+		{
+			"_text": "TEDTalks Business",
+			"_xmlUrl": "http://feeds.feedburner.com/iTunesPodcastTTBusiness",
+			"_type": "rss"
+		},
+		{
+			"_text": "Foras de Série",
+			"_type": "rss",
+			"_xmlUrl": "http://forasdeserie.com/feed"
+		},
+		{
+			"_type": "rss",
+			"_text": "Digcast - Empreendedorismo, Negócios e Marketing Digital",
+			"_xmlUrl": "http://digcast.com.br/feed/podcast/"
+		},
+		{
+			"_text": "AntiCast",
+			"_xmlUrl": "https://www.spreaker.com/show/3221921/episodes/feed",
+			"_type": "rss"
+		},
+		{
+			"_type": "rss",
+			"_xmlUrl": "https://www.spreaker.com/show/3208787/episodes/feed",
+			"_text": "Projeto Humanos"
+		},
+		{
+			"_xmlUrl": "https://feeds.feedburner.com/GcpPodcast",
+			"_type": "rss",
+			"_text": "Google Cloud Platform Podcast"
+		},
+		{
+			"_text": "10deploys",
+			"_xmlUrl": "https://anchor.fm/s/58be174/podcast/rss",
+			"_type": "rss"
+		},
+		{
+			"_text": "140mba com Marco Gomes",
+			"_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:136094445/sounds.rss",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://feeds.blubrry.com/feeds/sudocast1.xml",
+			"_text": "SudoCast",
+			"_type": "rss"
+		},
+		{
+			"_type": "rss",
+			"_text": "Go Time",
+			"_xmlUrl": "https://changelog.com/gotime/feed"
+		},
+		{
+			"_xmlUrl": "https://changelog.com/podcast/feed",
+			"_type": "rss",
+			"_text": "The Changelog"
+		},
+		{
+			"_text": "Founders Talk",
+			"_xmlUrl": "https://changelog.com/founderstalk/feed",
+			"_type": "rss"
+		},
+		{
+			"_type": "rss",
+			"_text": "Request For Commits",
+			"_xmlUrl": "https://changelog.com/rfc/feed"
+		},
+		{
+			"_text": "Changelog Master Feed",
+			"_xmlUrl": "https://changelog.com/master/feed",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://changelog.com/spotlight/feed",
+			"_type": "rss",
+			"_text": "Spotlight"
+		},
+		{
+			"_type": "rss",
+			"_xmlUrl": "https://anchor.fm/s/8bf0c7c/podcast/rss",
+			"_text": "Umblercast"
+		},
+		{
+			"_xmlUrl": "https://www.likeaboss.com.br/episodios/feed/like-a-boss/",
+			"_text": "Like a Boss",
+			"_type": "rss"
+		},
+		{
+			"_type": "rss",
+			"_xmlUrl": "https://podcast.pizzadedados.com/feed.xml",
+			"_text": "Pizza de Dados"
+		},
+		{
+			"_xmlUrl": "https://bitcast.site/feed/spotify/",
+			"_text": "BitCast - O seu Podcast sobre Bitcoin",
+			"_type": "rss"
+		},
+		{
+			"_text": "Hanselminutes",
+			"_xmlUrl": "https://rss.simplecast.com/podcasts/4669/rss",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://radiofobia.com.br/podcast/category/podcast/feed/",
+			"_type": "rss",
+			"_text": "Rádiofobia Podcast Network"
+		},
+		{
+			"_text": "ESL Podcast - Previous Episodes",
+			"_xmlUrl": "http://www.eslpod.com/past.xml",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss",
+			"_type": "rss",
+			"_text": "AWS Podcast"
+		},
+		{
+			"_type": "rss",
+			"_text": "Caio Carneiro - Podcast Fod*",
+			"_xmlUrl": "https://anchor.fm/s/1031625c/podcast/rss"
+		},
+		{
+			"_text": "ResumoCast | Segunda Temporada",
+			"_type": "rss",
+			"_xmlUrl": "http://www.spreaker.com/show/2885428/episodes/feed"
+		},
+		{
+			"_text": "defn",
+			"_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://halfdeaf.com.br/show/2929952/episodes/feed",
+			"_type": "rss",
+			"_text": "Imagina Juntas"
+		},
+		{
+			"_type": "rss",
+			"_xmlUrl": "https://decrepitos.com/podcast/feed.xml",
+			"_text": "Decrépitos"
+		},
+		{
+			"_xmlUrl": "https://mundopodcast.com.br/podprogramar/feed/",
+			"_type": "rss",
+			"_text": "PodProgramar | Mundo Podcast"
+		},
+		{
+			"_text": "Lovelace Podcast",
+			"_type": "rss",
+			"_xmlUrl": "https://anchor.fm/s/9203bc8/podcast/rss"
+		},
+		{
+			"_xmlUrl": "https://areadetransferencia.com.br/rss",
+			"_text": "Área de Transferência",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://elemencast.github.io/static/rss.xml",
+			"_text": "elemencast",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:95096755/sounds.rss",
+			"_text": "CocoaHeads Brasil",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://blogdoiphone.com/cafebdi/?feed=podcast",
+			"_text": "Café BDI 2.0",
+			"_type": "rss"
+		},
+		{
+			"_text": "Papo Torto",
+			"_type": "rss",
+			"_xmlUrl": "https://halfdeaf.com.br/show/2929970/episodes/feed"
+		},
+		{
+			"_type": "rss",
+			"_text": "Incognicast",
+			"_xmlUrl": "https://incognicast.com/feed/podcast"
+		},
+		{
+			"_text": "Adventures in Angular",
+			"_xmlUrl": "https://feeds.feedwrench.com/AdventuresInAngularOnly.rss",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "http://audio.angularair.com/feed.xml",
+			"_type": "rss",
+			"_text": "Angular Air"
+		},
+		{
+			"_type": "rss",
+			"_text": "Developer Tea",
+			"_xmlUrl": "https://rss.simplecast.com/podcasts/363/rss"
+		},
+		{
+			"_xmlUrl": "https://feed.syntax.fm/rss",
+			"_text": "Syntax - Tasty Web Development Treats",
+			"_type": "rss"
+		},
+		{
+			"_text": "Producast - Organização e Produtividade: Porque ninguém tem tempo a perder!",
+			"_type": "rss",
+			"_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:335943144/sounds.rss"
+		},
+		{
+			"_type": "rss",
+			"_text": "Lidercast Café Brasil",
+			"_xmlUrl": "http://feed.portalcafebrasil.com.br/tools/lidercast.xml"
+		},
+		{
+			"_xmlUrl": "https://www.megafono.host/feed/megafono",
+			"_type": "rss",
+			"_text": "Megafono"
+		},
+		{
+			"_type": "rss",
+			"_text": "Megafono Changelog",
+			"_xmlUrl": "https://feed.megafono.host/megafono"
+		},
+		{
+			"_text": "Remote Work Podcast",
+			"_xmlUrl": "https://www.remoteworkpodcast.com/podcast?format=rss",
+			"_type": "rss"
+		},
+		{
+			"_type": "rss",
+			"_xmlUrl": "https://feeds.buzzsprout.com/184652.rss",
+			"_text": "Getup Kubicast"
+		},
+		{
+			"_type": "rss",
+			"_text": "Dev & Community Cast",
+			"_xmlUrl": "http://devcommunity.cc/feed/podcast/"
+		},
+		{
+			"_xmlUrl": "https://anchor.fm/s/8a56420/podcast/rss",
+			"_type": "rss",
+			"_text": "RenzoProCast"
+		},
+		{
+			"_text": "Hora Extra",
+			"_xmlUrl": "https://feed.podbean.com/horaextra/feed.xml",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "http://feeds.feedburner.com/ContadordeHistoriassom",
+			"_text": "Contador de Historias",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://www.carreirasemfronteiras.com.br/feed/podcast/",
+			"_text": "Carreira Sem Fronteiras",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:53726848/sounds.rss",
+			"_type": "rss",
+			"_text": "Curto Circuito"
+		},
+		{
+			"_xmlUrl": "https://anchor.fm/s/3a0807c/podcast/rss",
+			"_type": "rss",
+			"_text": "Corredores Sem Filtro"
+		},
+		{
+			"_type": "rss",
+			"_text": "Character Count",
+			"_xmlUrl": "https://feeds.simplecast.com/PHqqZQ7N"
+		},
+		{
+			"_type": "rss",
+			"_text": "O Primo Rico",
+			"_xmlUrl": "https://oprimorico.com.br/category/podcast/feed/"
+		},
+		{
+			"_type": "rss",
+			"_text": "Jacaré BANcast",
+			"_xmlUrl": "https://radiofobia.com.br/podcast/category/podcast/jacarebancast/feed/"
+		},
+		{
+			"_type": "rss",
+			"_text": "Cabeça de Lab",
+			"_xmlUrl": "https://anchor.fm/s/a4fe9f8/podcast/rss"
+		},
+		{
+			"_text": "Endörfina Podcast com Michel Bögli",
+			"_type": "rss",
+			"_xmlUrl": "http://endorfinabr.libsyn.com/rss"
+		},
+		{
+			"_text": "Boa Noite Internet",
+			"_xmlUrl": "https://www.spreaker.com/show/3258232/episodes/feed",
+			"_type": "rss"
+		},
+		{
+			"_xmlUrl": "https://www.heroku.com/podcasts/codeish.rss",
+			"_type": "rss",
+			"_text": "Code[ish]"
+		},
+		{
+			"_xmlUrl": "https://anchor.fm/s/c946c20/podcast/rss",
+			"_type": "rss",
+			"_text": "Devs Cansados"
+		},
+		{
+			"_text": "Andre Pilli Podcast",
+			"_xmlUrl": "http://feeds.soundcloud.com/users/soundcloud:users:241769714/sounds.rss",
+			"_type": "rss"
+		}
+	]
 }
