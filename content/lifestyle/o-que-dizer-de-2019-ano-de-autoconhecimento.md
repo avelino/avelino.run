@@ -1,6 +1,6 @@
 +++
 aliases = []
-date = ""
+date = 2019-12-31T16:00:00Z
 draft = true
 tags = []
 title = "O que dizer de 2019? Ano de autoconhecimento!"
