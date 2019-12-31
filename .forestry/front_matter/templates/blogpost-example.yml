@@ -15,12 +15,13 @@ fields:
   name: aliases
   label: aliases
 pages:
-- content/lifestyle/alta-performance-com-dieta-baseada-em-plantas.md
-- content/lifestyle/transformando-dores-musculares-em-amor.md
-- content/quote/performance-vs-trust-identifying-toxic-people.md
-- content/blog/diferença-entre-amadores-e-profissionais.md
 - content/blog/chegar-ao-estado-de-flow-para-alcançar-metas-objetivo.md
-- content/lifestyle/mindfulness-hacking-mental-para-concentração-plena.md
-- content/quote/o-que-é-responsabilidade.md
 - content/blog/depois-de-trabalhar-anos-de-casa-voltei-para-dentro-do-escritório.md
+- content/blog/diferença-entre-amadores-e-profissionais.md
+- content/lifestyle/alta-performance-com-dieta-baseada-em-plantas.md
 - content/lifestyle/foco-e-disciplina-é-a-arma-a-favor-dos-seus-objetivos.md
+- content/lifestyle/mindfulness-hacking-mental-para-concentração-plena.md
+- content/lifestyle/o-que-dizer-de-2019-ano-de-autoconhecimento.md
+- content/lifestyle/transformando-dores-musculares-em-amor.md
+- content/quote/o-que-é-responsabilidade.md
+- content/quote/performance-vs-trust-identifying-toxic-people.md
