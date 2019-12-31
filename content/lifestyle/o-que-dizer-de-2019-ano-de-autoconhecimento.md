@@ -1,7 +1,6 @@
 +++
 aliases = []
-date = 2019-12-31T16:00:00Z
-draft = true
+date = 2019-12-31T15:20:00Z
 tags = ["vem2020", "retrospectiva", "corridaderua", "startups", "triathlon"]
 title = "O que dizer de 2019? Ano de autoconhecimento!"
 
