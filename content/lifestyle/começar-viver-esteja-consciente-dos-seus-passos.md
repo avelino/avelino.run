@@ -24,7 +24,7 @@ No começo de 2018 olhei para trás e me surgiu alguns questionamentos:
 * Eu realmente trabalho por hobby? Sempre gostei muito do que eu fazia, por isso pensava que trabalhava por hobby
 * ... mais uma porrada de perguntas para mim mesmo!
 
-Até que cheguei a conclusão que estava no momento de encerrar mais um ciclo, sair do dia a dia da empresa que fundei em 2015 que vinha crescendo muito, não foi uma olha fácil, mas chegou a hora de mudar a prioridade da minha vida e pensar mais em minha e em minha família (principalmente na minha esposa que sempre abraçou as ideias malucas que tinha, falta algum parafuso na cabeça dela 🖤).
+Até que cheguei a conclusão que estava no momento de encerrar mais um ciclo, sair do dia a dia da empresa que fundei em 2015 que vinha crescendo muito, não foi uma olha fácil, mas chegou a hora de mudar a prioridade da minha vida e pensar mais em minha e em minha família (principalmente minha esposa que sempre abraçou as ideias malucas que tinha, falta algum parafuso na cabeça dela 🖤).
 
 Minha escolha por sair da empresa foi para começar viver, ganhei muito dinheiro empreendendo, mas não sabia responder porque e para que eu queria tanto dinheiro. Dinheiro é importante, mas ele não deve ser o fim e sim o meio para alcançar nossas metas.
 
