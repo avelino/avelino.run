@@ -1,6 +1,6 @@
 +++
 aliases = []
-date = 2020-02-19T15:00:00Z
+date = 2020-02-19T14:00:00Z
 draft = true
 tags = ["limite da tecnologia", "melhor tecnologia", "google usa", "mongodb", "limite"]
 title = "Chegando no limite da tecnologia, e agora para aonde vou?"
