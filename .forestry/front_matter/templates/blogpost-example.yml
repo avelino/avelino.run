@@ -15,6 +15,7 @@ fields:
   name: aliases
   label: aliases
 pages:
+- content/blog/chegando-no-limite-da-tecnologia-e-agora-para-aonde-vou.md
 - content/blog/chegar-ao-estado-de-flow-para-alcançar-metas-objetivo.md
 - content/blog/depois-de-trabalhar-anos-de-casa-voltei-para-dentro-do-escritório.md
 - content/blog/diferença-entre-amadores-e-profissionais.md
