@@ -1,7 +1,6 @@
 +++
 aliases = []
 date = 2020-02-19T14:00:00Z
-draft = true
 tags = ["limite da tecnologia", "melhor tecnologia", "google usa", "mongodb", "limite"]
 title = "Chegando no limite da tecnologia, e agora para aonde vou?"
 
@@ -25,7 +24,7 @@ Quando estamos lendo texto onde fala:
 
 Busque entender se essa tecnologia (ou solução) é para o momento atual da sua empresa e/ou software, ou está indo na onda de grandes players que tem estrutura totalmente diferente da sua?
 
-# O software, qual o problema à ser solucionado
+## O software, qual o problema à ser solucionado
 
 > _Time_, precisamos desenvolver uma API que irá solicitar consulta em diversas APIs (software de terceiros), pré processar (colocar os dados em nossa estrutura unificada), após processar salvar no **Serviço de Store** (serviço já existente)
 
@@ -45,7 +44,7 @@ DB: transitório: Banco de dados que armazenamos o retorno de todas APIs (1, 2, 
 
 Queue: Bando de dados de fila
 
-# Dados transitórios
+## Dados transitórios
 
 Escolher os componentes que iremos utilizar para compor uma solução não é um trabalho muito simples, principalmente quando olhamos para uma solução com pensamento macro e não o que ela pode se tornar no futuro.
 
@@ -59,7 +58,7 @@ Como o time usa MongoDB em _produção_ vamos usar esse banco de dados para arma
         "status_code": 200 // http status code
     }
 
-# Software em produção
+## Software em produção
 
 O desenvolvimento do software foi relativamente tranquilo, foi usado soluções que o time possuía domínio e não gerou débito técnico.
 
