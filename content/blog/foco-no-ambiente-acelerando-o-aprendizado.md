@@ -1,11 +1,12 @@
 +++
 aliases = []
-date = 2020-02-28T17:00:00Z
-draft = true
+date = 2020-02-28T16:49:00Z
 tags = ["evolua", "aprendizado", "foco no ambiente", "foco"]
 title = "Foco no ambiente, acelerando o aprendizado!"
 
 +++
+![pense grande e mantenha o foco em seu objetivo](/blog/Pense_grande_347-2020-02-28.jpg "pense grande e mantenha o foco em seu objetivo")
+
 Objetivo desse blogpost é compartilhar como geralmente faço para acelerar meu aprendizado em uma área que não tenho tanta experiencia e quero (e/ou preciso) ganhar mais experiência.
 
 Quando entrei na área de tecnologia (desenvolvimento de software) não sabia praticamente nada e comecei estudar como poderia acelerar meu aprendizado, até que me deparei em um texto no reddit que falava sobre foco no ambiente, foi o extremamente difícil eu conseguir entender o que estava querendo dizer aquele texto, mas depois de dias lendo e relendo consegui absorver que deveria frequentar lugares onde tinha pessoas fazendo o que buscava aprender, assim aceleraria meu aprendizado. Como tinha acabado de chegar na área, não sabia o ambiente (locais) onde as pessoas desenvolvedora de software frequentava, depois de muita pesquisa me deparei com uma conferência de Python fora de São Paulo, e lá fui eu sair da zona de conforto, na emoção de ter achado essa conferencia, comprei passagem e hospedagem próximo à universidade que seria a conferência, assim que comprei comecei alimentar alguns bichos dentro da minha cabeça (medo do desconhecido e novo, quem sabe no futuro escrevo alguma coisa sobre o assunto):
