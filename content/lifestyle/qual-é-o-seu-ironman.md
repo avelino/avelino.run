@@ -44,11 +44,12 @@ Após essas 2 semanas foi dia de fazer simulado (hoje 07/03/2020), fiz tudo dife
 * fiz o corpo a costumar com a água
 * nadei 100m para aquecer o mínimo possível
 
-E fui, após nadar 1000m, sai da água super bem e forte para seguir com o pedal!
+E fui, após nadar 1000m, sai da água super bem e forte para seguir com o pedal e corrida!
 
 Paro a história por aqui para voltar ao conteúdo desse texto, com a seguinte pergunta:
 
-**Qual seu atual IRONMAN?**
-O meu IRONMAN era essa tal de **águas abertas**, para vencer ele foi com base em meta, foco, perseverança e método.
+> Qual seu atual IRONMAN?
+
+O meu **IRONMAN** era essa tal de águas abertas, para vencer ele foi com base em meta, foco, perseverança e método.
 
 Não tente abraçar o mundo, foque no seu **IRONMAN**, após passar por ele curta cada segunda de sua conquista antes de ir para próxima **meta**.
