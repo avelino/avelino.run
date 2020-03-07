@@ -1,6 +1,6 @@
 +++
 aliases = []
-date = ""
+date = 2020-03-07T18:20:00Z
 tags = ["objetivo", "meta", "desafio", "ironman", "triathlon"]
 title = "Qual é o seu IRONMAN?"
 
