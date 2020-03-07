@@ -48,7 +48,7 @@ E fui, após nadar 1000m, sai da água super bem e forte para seguir com o pedal
 
 Paro a história por aqui para voltar ao conteúdo desse texto, com a seguinte pergunta:
 
-> Qual seu atual IRONMAN?
+> **Qual seu atual IRONMAN?**
 
 O meu **IRONMAN** era essa tal de águas abertas, para vencer ele foi com base em meta, foco, perseverança e método.
 
