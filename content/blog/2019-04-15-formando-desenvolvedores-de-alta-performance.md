@@ -34,7 +34,7 @@ Deixa eu resumir isso tudo:
 
 ## Cruzando paralelo com time de desenvolvimento de software
 
-Após entender o processo de onboard de novos atletas comecei refletir sobre o onboard de novos membros **júnior** na área de desenvolvimento, me surgindo alguns questionamentos:
+Após entender o processo de onboard de novos atletas comecei refletir sobre o onboard de novos membros **júniores** na área de desenvolvimento, me surgindo alguns questionamentos:
 
 * Porque não colocamos os novos desenvolvedores júnior junto com desenvolvedores sênior?
 * Quais tarefas passamos para os desenvolvedores júnior quando ele começa?
@@ -45,4 +45,4 @@ Em meus projetos e empresas eu não colocava desenvolvedores júnior em time que
 
 Analisando agora acho que _sempre_ fiz errado. Se queremos que uma pessoa ganhe skill sem ter que quebrar muito a cabeça (conhecido como **“auto de data”**), basta colocar essa pessoa para interagir com quem domina o assunto em questão, as pessoas mais experientes ajudará você _cortar_ um enorme caminho. Principalmente em desenvolvimento de software que não é uma ciência exata e experiência conta muito, experiência não é uma coisa que consigamos tirar da cabeça da pessoa X e colocar na pessoa Y, mais podemos diminuir essa barreira quando ambos estão interagindo no dia a dia.
 
-Não basta colocar o desenvolvedor junior em time que tenha mais experiencia, precisamos ter um processo de onboard bem definido e com todos os membros do time alinhado com o proposito a ser alcançado com novos membros ingressando ao time.
+Não basta colocar o desenvolvedor júnior em time que tenha mais experiencia, precisamos ter um processo de onboard bem definido e com todos os membros do time alinhado com o proposito a ser alcançado com novos membros ingressando ao time.
