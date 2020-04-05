@@ -8,7 +8,7 @@ title = "Preparação para IRONMAN VR (70.3) em 3 dias"
 +++
 ![IRONMAN Virtual Club - VR1 2020](/blog/ironmanvc-2020-04-05.png "IRONMAN Virtual Club - VR1 2020")
 
-A preparação para IRONMAN 70.3 não é um processo simples (requer dedicação e disciplina), principalmente quando resolvemos fazer essa loucura com 3 dias de antecedência em uma fazer que meu volume de treino esta extremamente baixo por conta do COVID19 (treino com alta intensidade e com grandes volumes faz a imunidade cair, nesse momento não podemos vacilar com nossa imunidade), foi assim que aconteceu com #IRONMANVR1 (primeiro IRONMAN Virtual, 5km de corrida, 90km de pedal e 21km de corrida tudo dentro de casa em esteira e rolo).
+A preparação para IRONMAN 70.3 não é um processo simples (requer dedicação e disciplina), principalmente quando resolvemos fazer essa loucura com 3 dias de antecedência em uma fazer que meu volume de treino esta extremamente baixo por conta do COVID19 (treino com alta intensidade e com grandes volumes faz a imunidade cair, nesse momento não podemos vacilar com nossa imunidade), foi assim que aconteceu com [#IRONMANVR1](https://www.ironmanvirtualclub.com/ "IRONMAN VR1") (primeiro IRONMAN Virtual, 5km de corrida, 90km de pedal e 21km de corrida tudo dentro de casa em esteira e rolo).
 
 Tinha ciência que não seria uma prova fácil, pedalar e correr grandes volumes não é fácil quando estamos na estrada (outdoor), agora imagina fazer isso indoor? Quando disso sim para o desafio minha preparação foi 100% mental - física sabia que não teria tempo hábito - com muita meditação, técnica de mentalização e descontração (aprendido no DeROSE Method).
 
