@@ -1,7 +1,6 @@
 +++
 aliases = []
 date = 2020-04-05T11:10:51Z
-draft = true
 tags = ["ironmanvr", "objetivo", "meta", "desafio", "ironman", "triathlon"]
 title = "Preparação para IRONMAN VR (70.3) em 3 dias"
 
