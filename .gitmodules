@@ -1,0 +1,3 @@
+[submodule "themes/sarah"]
+	path = themes/sarah
+	url = git@github.com:avelino/hugo-theme-sarah.git
