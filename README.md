@@ -3,4 +3,4 @@ My personal blog
 
 **After cloning:**
 ```shell
-git submodule update -f --init
+git submodule update --remote
