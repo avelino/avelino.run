@@ -5,8 +5,7 @@ tags = ["proteina vegana", "atleta vegano", "dieta vegana", "vegano", "alta perf
 title = "Alta performance com dieta baseada em plantas"
 
 +++
-
-![Dieta a baseada em platas para atleta de alta performance](/blog/diet plant based-2019-11-30.png "Dieta a baseada em platas para atleta de alta performance")
+![Dieta a baseada em platas para atleta de alta performance](/blog/diet%20plant%20based-2019-11-30.png "Dieta a baseada em platas para atleta de alta performance")
 
 A pergunta que os atletas que segue dieta baseada em plantas recebe é a suposição de que os alimentos de origem animal são a única fonte de proteína, isso é um equívoco, mas infelizmente muitas pessoas têm essa visão por falta de informação.
 
