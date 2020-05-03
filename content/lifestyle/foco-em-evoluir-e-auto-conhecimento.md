@@ -1,6 +1,6 @@
 +++
 aliases = ["/lifestyle/foco-no-auto-evolucao-e-auto-conhecimento", "/lifestyle/foco-no-auto-evolução-e-auto-conhecimento"]
-date = 2020-05-03T23:00:00Z
+date = 2020-05-03T11:00:00Z
 tags = ["esporte", "mindfulness", "pensamento positivo", "rotina", "objetivo claro", "disciplina"]
 title = "Foco em evoluir e auto conhecimento"
 
