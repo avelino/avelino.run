@@ -6,6 +6,9 @@ tags = ["esporte", "mindfulness", "pensamento positivo", "rotina", "objetivo cla
 title = "Foco no auto evolução e auto conhecimento"
 
 +++
+
+![2020-05-02: Avelino Pedalando 100km dentro de casa](/blog/photo_2020-05-03 08.12.08-2020-05-03.jpeg "2020-05-02: Avelino Pedalando 100km dentro de casa")
+
 É comum se sentirmos desmotivado (não é todos os dias que acordamos bem), principalmente para nós atletas que nesse momento de restrição social onde _não temos provas em vista_, que é uma motivação para manter a rotina de treino.
 
 Como faço para manter minha planilha de treino em dia?
@@ -39,3 +42,5 @@ Busco manter a _"mesma"_ rotina que tinha antes. Algumas coisas mudaram (na real
 Quando alguém me pergunta se estou bem, minha resposta é **"estou sempre bem"**, mas será que realmente estou bem?
 
 Em alguns momentos não, mas para que irei reforçar que não estou bem? Energia negativa atrai mais energia negativa, sempre busco estar em um ambiente que tenha uma energia positiva e leve.
+
+> Quando não aguentar mais, tenha certeza que você aguenta mais 20%
