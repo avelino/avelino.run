@@ -5,7 +5,7 @@ tags = ["esporte", "mindfulness", "pensamento positivo", "rotina", "objetivo cla
 title = "Foco em evoluir e auto conhecimento"
 
 +++
-![Avelino Pedalando 100km dentro de casa - 2020-05-02](/blog/photo_2020-05-03 08.12.08-2020-05-03.jpeg)
+![Avelino Pedalando 100km dentro de casa - 2020-05-02](/blog/photo_2020-05-0308.12.08-2020-05-03.jpeg)
 
 É comum se sentirmos desmotivado (não é todos os dias que acordamos bem), principalmente para nós atletas que nesse momento de restrição social onde _não temos provas em vista_, que é uma motivação para manter a rotina de treino.
 
