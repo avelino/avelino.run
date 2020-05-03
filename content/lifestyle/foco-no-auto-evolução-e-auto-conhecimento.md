@@ -3,7 +3,7 @@ aliases = []
 date = 2020-05-04T00:00:00Z
 draft = true
 tags = ["esporte", "mindfulness", "pensamento positivo", "rotina", "objetivo claro", "disciplina"]
-title = "Foco no auto evolução e auto conhecimento"
+title = "Foco na auto evolução e auto conhecimento"
 
 +++
 
