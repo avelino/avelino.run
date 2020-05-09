@@ -19,7 +19,7 @@ Motivação nos faz começar, disciplina é o que nos faz continuar, se não tiv
 
 Não faço só o que gosto de fazer e sim o que precisa ser feito, a disciplina me trouxe constância e a constância me faz evoluir 1% ao dia.
 
-Não dou tempo para os pensamentos “ruins”, meu foco é auto conhecimento para ter a cada dia mais disciplina.
+Não dou tempo para os pensamentos "ruins", meu foco é auto conhecimento para ter a cada dia mais disciplina.
 
 O esporte me trouxe muita disciplina, não sou um bom corredor, nem ciclista e muito menos nadador, para conseguir chegar próximo dos amigos que faz às três modalidades super bem, preciso ter muito foco e disciplina:
 
@@ -33,7 +33,7 @@ _para tentar chegar próximo deles._
 
 ## Rotina
 
-Busco manter a _“mesma” _ rotina que tinha antes. Algumas coisas mudaram (na real muita coisa mudou), mas me fez adaptar e transformar na minha nova rotina a melhor rotina: cuidar da minha saúde mental, treinar em casa para manter meu corpo ativo, trabalhar (sempre fazendo o meu melhor) e viver momentos memoráveis com à família (filho, esposa e dog).
+Busco manter a _"mesma"_ rotina que tinha antes. Algumas coisas mudaram (na real muita coisa mudou), mas me fez adaptar e transformar na minha nova rotina a melhor rotina: cuidar da minha saúde mental, treinar em casa para manter meu corpo ativo, trabalhar (sempre fazendo o meu melhor) e viver momentos memoráveis com à família (filho, esposa e dog).
 
 ## Pensamento positivo — todos nós temos problemas
 
