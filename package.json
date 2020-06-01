@@ -1,0 +1,19 @@
+{
+  "name": "avelino.run",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-cli": "^6.0.0",
+    "imagemin-optipng": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avelino/avelino.run.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avelino/avelino.run/issues"
+  },
+  "homepage": "https://github.com/avelino/avelino.run#readme"
+}
