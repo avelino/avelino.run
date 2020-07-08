@@ -4,7 +4,7 @@ tags = ["opensource", "open source", "contribuição", "pessoas > tecnologia"]
 title = "Atrás de projetos Open Source existe pessoas"
 
 +++
-![Fechando a startup e voltando para o mercado de travalho](/blog/close.jpg#center)
+![Pessoas > Tecnologia, sejá humano ao receber contribuição](/blog/open-source-community.jpg#center)
 
 Muitos **engenheiro(a)s** esquecem ao contribuir com _projetos Open Source_ que por trás de todos _projetos_ temos **pessoas**.
 
