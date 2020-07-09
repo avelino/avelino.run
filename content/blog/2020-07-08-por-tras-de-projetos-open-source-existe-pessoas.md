@@ -1,7 +1,8 @@
 +++
 date = "2020-07-08"
+alias = ["/atrás-de-projetos-open-source-existe-pessoas/"]
 tags = ["opensource", "open source", "contribuição", "pessoas > tecnologia"]
-title = "Atrás de projetos Open Source existe pessoas"
+title = "Por trás de projetos Open Source existe pessoas"
 
 +++
 ![Pessoas > Tecnologia, sejá humano ao receber contribuição](/blog/open-source-community.jpg#center)
