@@ -6,26 +6,3 @@ command = "git submodule update -f --init && hugo"
 HUGO_VERSION = "0.69.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-
-[[plugins]]
-  package = "netlify-plugin-minify-html"
-  [plugins.inputs]
-    contexts = [
-      'production',
-      'branch-deploy',
-      'deploy-preview'
-    ]
-  [plugins.inputs.minifierOptions]
-    removeComments = true
-    collapseInlineTagWhitespace = false
-[[plugins]]
-  package = "netlify-plugin-inline-critical-css"
-  [plugins.inputs]
-    minify = true
-    extract = false
-    [[plugins.inputs.dimensions]]
-      width = 414
-      height = 896
-    [[plugins.inputs.dimensions]]
-      width = 1920
-      height = 1080
