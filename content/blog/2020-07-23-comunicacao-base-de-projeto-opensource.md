@@ -9,6 +9,8 @@ Sou criador e mantenedor (junto com uma incrivel comunidade, composta por pessoa
 Quando comecei contribuir e criar projeto Open Source acha que o foco principal era código, com o passar dos anos comecei perceber que o projeto era um meio para chegar em algum lugar, ou seja, código tem sua importância, mas não basta tem um projeto com código impecável vendo que "ninguém" ou poucas pessoas conseguem usar.
 Por isso nós mantenedores devemos criar comunidade ao redor de projeto open source e sempre estimular outras pessoas a contribuir.
 
+> Outro blogpost relacionado com esse assunto: [Atrás de projetos Open Source existe pessoas](https://avelino.run/por-tr%C3%A1s-de-projetos-open-source-existe-pessoas/)
+
 ## Proposta para mesclar projetos
 
 ![Observe a movimentação de pessoas estratégica](/blog/opensource-stay-tuned.png#center)
