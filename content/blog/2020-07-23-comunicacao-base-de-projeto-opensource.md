@@ -13,7 +13,7 @@ Por isso nós mantenedores devemos criar comunidade ao redor de projeto open sou
 
 ## Proposta para mesclar projetos
 
-![Observe a movimentação de pessoas estratégica](/blog/opensource-stay-tuned.png#center)
+![observar a movimentação de pessoas estratégica](/blog/opensource-stay-tuned.png#center)
 
 Ontem (_2020-07-22_) olhando a timeline do Github (pessoas e projetos que companho) e me deparei com a criação de um repositório chamado **awesome-go-style** feito pelo [Damian Gryski](https://github.com/dgryski) (de Vancouver/Canada e uma grande referência na comunidade Golang).
 
