@@ -1,6 +1,6 @@
 +++
 date = 2020-07-23T13:00:00Z
-tags = ["high proformance", "objetivo", "objetivo inteligente", "objetivo smart", "performance"]
+tags = ["instagram", "high proformance", "objetivo", "objetivo inteligente", "objetivo smart", "performance"]
 title = "Tenha Objetivo Inteligente"
 +++
 

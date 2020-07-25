@@ -1,6 +1,6 @@
 +++
 date = 2020-07-22T13:00:00Z
-tags = ["high proformance", "se manter no topo", "chegar no topo", "o que é o topo", "como chegar no topo", "performance"]
+tags = ["instagram", "high proformance", "se manter no topo", "chegar no topo", "o que é o topo", "como chegar no topo", "performance"]
 title = "É mais difícil se manter no topo do que chegar no topo"
 +++
 

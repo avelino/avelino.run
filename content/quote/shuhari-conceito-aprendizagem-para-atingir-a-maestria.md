@@ -1,6 +1,6 @@
 +++
 date = 2020-07-20T13:00:00Z
-tags = ["high proformance", "shuhari", "artemarcial", "performance"]
+tags = ["instagram", "high proformance", "shuhari", "artemarcial", "performance"]
 title = "Shu-Ha-Ri: conceito aprendizagem para atingir a maestria"
 +++
 

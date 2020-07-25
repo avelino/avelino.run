@@ -1,6 +1,6 @@
 +++
 date = 2020-07-24T13:00:00Z
-tags = ["high proformance", "objetivo", "metas", "qual a diferença de objetivo e metas", "qual a diferença", "performance"]
+tags = ["instagram", "high proformance", "objetivo", "metas", "qual a diferença de objetivo e metas", "qual a diferença", "performance"]
 title = "Diferença entre metas e objetivo?"
 +++
 

@@ -1,6 +1,6 @@
 +++
 date = 2020-07-21T13:00:00Z
-tags = ["high proformance", "olhar para dentro", "expansão de consciencia", "performance"]
+tags = ["instagram", "high proformance", "olhar para dentro", "expansão de consciencia", "performance"]
 title = "Tem momento que é necessário desacelerar para continuar"
 +++
 
