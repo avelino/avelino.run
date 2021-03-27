@@ -6,7 +6,7 @@ link = "https://cover.run"
 img = "/img/coverrun.png"
 +++
 
-Code coverage
+**/!\DEPRECIATED/!\** Code coverage
 
 <!-- more -->
 

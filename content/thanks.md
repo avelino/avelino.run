@@ -4,7 +4,7 @@ title = "Thanks ❤️🙌"
 tags = ["thanks", "supporting", "support"]
 +++
 
-I’m truly grateful to all the wonderful humans and companies [supporting](https://www.patreon.com/avelinosource) my open source work.
+I’m truly grateful to all the wonderful humans and companies [supporting](https://github.com/sponsors/avelino) my open source work.
 
 ### Name list
 - [your name here](mailto:t+opensource@avelino.xxx)
