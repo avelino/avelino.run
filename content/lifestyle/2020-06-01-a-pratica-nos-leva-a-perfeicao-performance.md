@@ -16,5 +16,3 @@ A motricidade pode ser entendida como um conjunto de funções nervosas e muscul
 Então se voltarmos ao pensamento inicial: podemos considerar que na realidade o treino e a pratica leva a uma maior capacidade de o nosso sistema motor realizar os movimentos e corrigi-los, e nesse processo de aprendizagem o modelo se mostra um elemento primordial, pois é a partir de um exemplo de como executar uma tarefa que aprendemos a realizá-la com maior proficiência.
 
 Ter disciplina e constância levará você a perfeição, consequentemente alcançar sua maior performance.
-
-{{< instagram CA5a5EWBKWD hidecaption >}}

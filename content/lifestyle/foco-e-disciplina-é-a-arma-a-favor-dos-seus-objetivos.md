@@ -24,5 +24,3 @@ Tem uma galera que manda mensagem me perguntando como faço para conseguir ter �
 É uma briga comigo mesmo (psicológica), quer entender o que me chama atenção no Triathlon leia esse blogpost: [Por que triathlon? Qual é o seu limite?](https://avelino.run/lifestyle/2019-06-21-por-que-triathlon/ "Por que triathlon? Qual é o seu limite?")
 
 Lute pelos seus sonhos/objetivos, ninguém disse que será fácil!
-
-{{< instagram B3mblScB2tg hidecaption >}}

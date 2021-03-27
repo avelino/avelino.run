@@ -29,5 +29,3 @@ Até que cheguei a conclusão que estava no momento de encerrar mais um ciclo, s
 Minha escolha por sair da empresa foi para começar viver, ganhei muito dinheiro empreendendo, mas não sabia responder porque e para que eu queria tanto dinheiro. Dinheiro é importante, mas ele não deve ser o fim e sim o meio para alcançar nossas metas.
 
 Você esta vivendo consciente seu momento atual ou esta no modo Zeca Pagodinho "deixa a vida me levar"? Tenha consciência do seu momento e seus passos, confesso que eu não tinha, em 2018 foi ano de tomar a rédeas da minha vida...
-
-{{< instagram B70YbvDBdax hidecaption >}}

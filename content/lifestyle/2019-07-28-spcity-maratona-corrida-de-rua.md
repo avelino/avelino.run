@@ -13,5 +13,3 @@ O que dizer dessa prova dura onde a subida castigou (23 de maio)? Não saiu como
 O que me chama atenção em prova de longa distância é o psicológico onde precisamos  lidar com a adversidade, manter a resiliência e os pensamentos no lugar... Sem sobra de dúvida nessa prova o meu cérebro trabalhou muito.
 
 *Que venha as próximas!*
-
-{{< instagram B0d3YNehaVN >}}

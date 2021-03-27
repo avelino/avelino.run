@@ -16,5 +16,3 @@ Quando comecei imaginar como seria aula online para crianças de 7 anos imaginei
 O processo de adaptação para as crianças foram menos de 1 semana, porque nós adultos levamos tanto tempo para nos adaptar?
 
 Estudo dizem que alguns hábitos levam em torno de 254 dias para formar - a maior parte de um ano! Mas muitos livros fala que levamos 21 dias para formar um hábito e provavelmente está certo, desde que tudo que você quer fazer é beber um copo de água gelada após acordar. Qualquer coisa mais difícil é provável que leve mais tempo para se tornar um hábito muito forte, e, no caso de algumas atividades, muito mais tempo.
-
-{{< instagram CAC7IccgCOy hidecaption >}}

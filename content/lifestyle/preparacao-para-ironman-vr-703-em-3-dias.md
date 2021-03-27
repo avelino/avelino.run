@@ -20,5 +20,3 @@ Os primeiros 5km de esteira foi tranquilo, praticamente foi o tempo do corpo esq
 Terminei me sentindo super forte e muito bem por ter passado por mais esse desafio psicológico. Em nem um momento passou em minha cabeça que não iria conseguir.
 
 Cérebro que manda no corpo!
-
-{{< instagram B-mMfEuhY01 hidecaption >}}

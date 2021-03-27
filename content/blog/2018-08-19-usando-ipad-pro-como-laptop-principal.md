@@ -8,9 +8,6 @@ Após ler alguns blogpost sobre usar o iPad como computador principal e conversa
 
 Como sempre a Apple faz um ótimo trabalho nos seus produtos, sempre pensando na simplicidade de uso do seu cliente final, ou seja, isso ajuda o onboard em qualquer dispositivo/software deles. Nem tudo são flores, ao deixar algumas coisas muito óbvias acaba confundindo (no começo) quem vem da experiência de usar um laptop para um iPad, mas acredita que em alguns dias (no meu caso 1 semana) já estava extremamente acostumado com o meu ambiente e clicando com o dele como não houvesse amanhã!
 
-{{< instagram Bi7dBMhlYMI hidecaption >}}
-
-
 ## Mas é possível desenvolver usando o iPad?
 
 Bom vamos lá, deixa eu contextualizar como era meu ambiente de desenvolvimento antes de responder essa pergunta.
@@ -60,8 +57,6 @@ Existem diversos acessórios que ajuda a auxilia no uso diário do iPad, segue a
 - Logitech Create Backlit Keyboard Case (substitui pelo Smart Keyboard, não achei muito portátil para carregar, fica muito grande)
 
 Existem muitos acessórios para deixar o iPad mais laptop.
-
-{{< instagram Bh2A6fklhiL hidecaption >}}
 
 
 ## Apps?

@@ -14,5 +14,3 @@ Vou começando relembrando meu [2018 que foi um ano de muito aprendizado](https:
 O esporte (triathlon) entrou em minha vida como uma válvula de escalpe, onde consigo deixar todo o estresse da semana de trabalho em alguma estrada e voltando para casa extremamente tranquilo com vontade de começar mais uma semana.
 
 O que espero de 2020? Tenho certeza que irei colher o que plantei!
-
-{{< instagram B6vblpZhS3w hidecaption >}}

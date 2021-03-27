@@ -16,5 +16,3 @@ Um acúmulo de circunstâncias acontece para que isso seja assim, mesmo que não
 - Nem sempre vamos nos sair bem no novo ambiente, é importante aprender lidar com frustrações, mas sempre em busca da evolução (ser antifrágil)
 
 E você, gosta de mudança? Comente como você tem lidado com mudança ultimamente e qual foi o maior aprendizado na sua busca gostar de mudança.
-
-{{< instagram CAu8i9NgTMU hidecaption >}}

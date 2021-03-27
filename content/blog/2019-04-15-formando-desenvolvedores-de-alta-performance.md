@@ -10,8 +10,6 @@ Estou a mais de 1 ano treinando para meu primeiro triathlon (**IRONMAN 70.3**) e
 
 {{< tweet 1077860181407686657 >}}
 
-{{< instagram Brsfnz0BscZ >}}
-
 ## Novos atletas no time
 
 Quando recebi o convite para fazer parte do time de alta performance (aka senior) eu me vi alguns anos atras entrando no mercado de trabalho como desenvolvedor **junior** e com muita sede de aprender. Infelizmente não foi tão fácil, eu já vinha treinando por conta propria a alguns meses para o Triathlon (que até então não tinha data), com isso trouxe alguns vícios (por sinal muito errado) para o meu dia a dia de treino com atletas profissionais, venho aprendendo a cada dia que passa a respeitar meus limites, me conhecendo e buscando um pouco mais a cada dia. Nos primeiros dias de treino junto com o time tentei entender ao máximo cada momento do treino, mas era difícil fazer as perguntas certas na hora certa, era tudo muito novo e diferente do que eu estava acostumado treinar, com o passar dos dias eu comecei conseguir fazer algumas perguntas, pois consegui organizar o fluxo de ideias e as dúvidas ficaram mais claras.

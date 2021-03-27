@@ -11,5 +11,3 @@ Nossa vida não irá parar o cronômetro esperando você terminar suas atividade
 Você próprio, cuide de sua saúde, pare imediatamente de procrastinar a virada de chave para uma vida onde você tenha controle dos seus passos sendo saudável, equilibrada, sem ansiedade, com exercício fisico, etc.
 
 Mova-se para frente, deixe os seus maus hábitos para trás, viva o presente usando o passado como base de aprendizado e mapa para saber onde não voltar!
-
-{{< instagram Bx2hgh9Bjbv >}}

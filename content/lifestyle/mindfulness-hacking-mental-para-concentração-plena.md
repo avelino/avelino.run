@@ -12,5 +12,3 @@ title = "Mindfulness, hacking mental para concentração plena"
 A resposta é ter objetivo extremamente claro e praticar constantemente mindfulness (Atenção Plena): é um estado onde treinamos qualidades de atenção ao momento presente, aprendemos a perceber pensamentos, sensações corporais e emoções no momento que ocorrem, sem reagir de maneira automática ou habitual. Com isso, aprendemos a fazer escolhas mais conscientes e funcionais, influenciando positivamente na maneira como lidamos com os desafios cotidianos.
 
 É um dos principais mindhacking que uso para "hackear" minha mente e focar nos treinos e alcançar meus objetivos.
-
-{{< instagram B4fAxQAhX0E hidecaption >}}

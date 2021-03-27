@@ -42,5 +42,3 @@ Quando alguém me pergunta se estou bem, minha resposta é **"estou sempre bem"*
 Em alguns momentos não, mas para que irei reforçar que não estou bem? Energia negativa atrai mais energia negativa, sempre busco estar em um ambiente que tenha uma energia positiva e leve.
 
 > Quando não aguentar mais, tenha certeza que você aguenta mais 20%
-
-{{< instagram B_uWeLRAMaJ hidecaption >}}

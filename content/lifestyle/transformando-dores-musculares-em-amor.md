@@ -18,5 +18,3 @@ Após tirar o foco da dificuldade que tinha (dores 😬) minha evolução na mod
 Sou muito grato pelos meus familiares (especialmente pela minha esposa e filho 🖤), amigos e marcas por está junto nessa luta diária, sem o apoio deles não seria possível.
 
 Mindhacking é uma prática que está me ajudando muito na evolução no esporte, principalmente nos dias que não estou afim de treinar. Eu tenho publicado bastante coisa da minha vida nos treinos, não é todos os dias que estou motivado, mas se está planejado é necessário fazer, vou lá e faço.
-
-{{< instagram B5PnUlQhd6N hidecaption >}}

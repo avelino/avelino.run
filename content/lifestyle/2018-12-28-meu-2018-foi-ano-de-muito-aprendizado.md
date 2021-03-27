@@ -51,5 +51,3 @@ Durante alguns meses eu vinha rabiscando algumas coisas que acharia importante t
 Sinto que estou muito longe de me tornar um atleta, comecei faz poucos anos nessa fase de treinar e profissionalmente tem poucos meses, mas sei que depende apenas de mim para isso se tornar realidade. Vamos deixar os anos dizer se me tornarei atleta ou não, adianto que estou gostando de me superar a cada dia.
 
 Hoje tem uma marca financiando meu dia a dia de treino, acredito que só consegui porque estou fazendo por gostar do que estou vivendo e saber aproveitar as oportunidades que vem aparecendo com minha exposição proposital no Instagram, pressão social (se expor publicamente) geralmente funciona para nos cobrar psicologicamente.
-
-{{< instagram Brsfnz0BscZ hidecaption >}}

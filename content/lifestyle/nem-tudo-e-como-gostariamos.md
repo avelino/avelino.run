@@ -19,5 +19,3 @@ Depois de muitos anos tentando controlar todas as possíveis variáveis, acabei 
 Busco viver o presente (estando 100% presente) e planejar o que está no meu alcance para o futuro, sabendo que adversidades acontece e terei que passar por elas.
 
 > Tudo faz parte da grande caixa de "mistérios" da vida que gostaríamos de espiar, mas não podemos!
-
-{{< instagram B_76AZTAP_E hidecaption >}}

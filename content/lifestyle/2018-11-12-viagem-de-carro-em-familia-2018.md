@@ -86,12 +86,9 @@ Esse tempo off-line me fez ter muitas (muitas mesmo) ideias me causando ansiedad
 
 ## Algumas fotos
 
-{{< instagram BpNvLx1DoDk hidecaption >}}
-
-{{< instagram BpaEVpwBIbr hidecaption >}}
-
-{{< instagram BpgqDxYBDMa hidecaption >}}
-
-{{< instagram Bpkww3PgIKw hidecaption >}}
-
-{{< instagram BpsKhU5Bbm8 hidecaption >}}
+- https://www.instagram.com/p/BpNvLx1DoDk/
+- https://www.instagram.com/p/BpaEVpwBIbr/
+- https://www.instagram.com/p/BpgqDxYBDMa/
+- https://www.instagram.com/p/Bpkww3PgIKw/
+- https://www.instagram.com/p/BpNvLx1DoDk/
+- https://www.instagram.com/p/BpsKhU5Bbm8/

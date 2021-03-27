@@ -19,5 +19,3 @@ O trabalho distribuído requer disciplina e compromisso, costumo falar para meu 
 Se você assumir compromisso de entregar o trabalho em dia X (onde esse prazo foi consentido por todas as partes) e quiser passar N dia jogando vídeo game 🎮 OK, mas entregue no dia combinado.
 
 "Vestir a camisa da empresa" é saber o momento de parar e recarregar a energia para continuar no próximo dia, não virar noites e ter burnout (geralmente causado pelo cansaço extremo) ou qualquer outra síndrome psicológica!
-
-{{< instagram CA3Zgoehjyx hidecaption >}}

@@ -24,5 +24,3 @@ Olhando para meu pensamento de 2016, não sabia pedalar e sim andar de bicicleta
 **Triathlon é estilo de vida (lifestyle)!**
 
 Em resumo estou no triathlon pelo psicológico, escrevi alguns textos porque estou no triathlon, você deve achar aí na timeline.
-
-{{< instagram B8Wn8xxBCDH hidecaption >}}

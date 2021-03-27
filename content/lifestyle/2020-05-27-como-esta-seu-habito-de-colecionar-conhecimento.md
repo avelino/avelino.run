@@ -22,5 +22,3 @@ Sempre que termino de ler respondo as seguintes perguntas:
 - O que levarei pra minha vida?
 
 Tenha hábito de leitura, coloque isso em sua rotina diária.
-
-{{< instagram CAtOEnSB5Ra hidecaption >}}
