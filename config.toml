@@ -5,6 +5,9 @@ theme = "sarah"
 googleAnalytics = "UA-3063031-15"
 disqusShortname = "avelino"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [permalinks]
 fixed = ":title/"
 blog  = ":slug"
