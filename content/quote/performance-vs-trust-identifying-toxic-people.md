@@ -9,8 +9,13 @@ There is one simple question to ask if you want to build a high performing team.
 
 > "Who is the asshole?"
 
-[Simon Sinek](https://www.youtube.com/channel/UC24N3jZCsNOKf94dfE9ms9w "Simon Sinek - YouTube") explains a powerful and, ironically, very simple way to identify toxic people in your teams which might be successful short-term but harm a team long-term.
+[Simon Sinek](https://en.wikipedia.org/wiki/Simon_Sinek "Simon Sinek - Wikipedia") explains a powerful and, ironically, very simple way to identify toxic people in your teams which might be successful short-term but harm a team long-term.
 
 The majority of companies out there are run a system of incentives which fuels toxic cultures as the bonus structure is mainly based on performance.
 
-{{< youtube Y4dyADuYfbg >}}
+<!-- Gumroad: Notion To-Do List Manager -->
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gum.co/notion-todo-list-manager?wanted=true" target="_blank" data-gumroad-single-product="true">control your to-do list</a>
+<!-- Gumroad: Notion To-Do List Manager -->
+
+{{< youtube YPDmNaEG8v4 >}}
