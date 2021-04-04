@@ -15,7 +15,11 @@ The majority of companies out there are run a system of incentives which fuels t
 
 <!-- Gumroad: Notion To-Do List Manager -->
 <script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gum.co/notion-todo-list-manager?wanted=true" target="_blank" data-gumroad-single-product="true">control your to-do list</a>
+<center>
+<br />
+<a class="gumroad-button" href="https://gum.co/notion-todo-list-manager?wanted=true" target="_blank" data-gumroad-single-product="true">👉 control your to-do list 👋</a>
+<br /><br /><br />
+</center>
 <!-- Gumroad: Notion To-Do List Manager -->
 
 {{< youtube YPDmNaEG8v4 >}}
