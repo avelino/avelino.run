@@ -12,6 +12,7 @@ blog  = ":slug"
 [params]
 author = "Avelino"
 keywords = ["Tech Team Building", "People Tech Management", "Racket/Clojure/LISP", "Go (Gopher)", "Python", "Artificial Intelligence", "Triathlon"]
+description = "I use open source to help people evolve, I take pleasure in seeing people evolve"
 avatar = "img/6n3_6Uqh_400x400.jpg"
 dateform = "Jan 2, 2006"
 lang = "en"
