@@ -5,17 +5,14 @@ theme = "sarah"
 googleAnalytics = "UA-3063031-15"
 disqusShortname = "avelino"
 
-[markup.goldmark.renderer]
-unsafe= true
-
 [permalinks]
 fixed = ":title/"
 blog  = ":slug"
 
 [params]
 author = "Avelino"
-keywords = ["People Management", "Mind Hacking", "Biohacking", "Racket/Clojure/LISP", "Go (Gopher)", "Python", "Neural Network", "Artificial Intelligence", "Triathlon"]
-avatar = "img/4lfoi1Sn_400x400.jpg"
+keywords = ["Tech Team Building", "People Tech Management", "Racket/Clojure/LISP", "Go (Gopher)", "Python", "Artificial Intelligence", "Triathlon"]
+avatar = "img/6n3_6Uqh_400x400.jpg"
 dateform = "Jan 2, 2006"
 lang = "en"
 footertext = "written by avelino"
@@ -40,3 +37,6 @@ value = "Brazil, São Paulo, SP"
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
+
+[markup.goldmark.renderer]
+unsafe= true
