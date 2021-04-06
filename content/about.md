@@ -4,6 +4,6 @@ title = "About"
 tags = ["about", "avelino", "open source", "thiago avelino"]
 +++
 
-I’m Thiago Avelino CEO at [pREST](https://prestd.com/) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br).
+I’m Thiago Avelino CEO at [prestd](https://prestd.com/) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br).
 
-Work day-to-day with **people management (focused on personal and professional evolution), artificial intelligence, neural network and computer vision**. With the need to process large dataset its focus of research and development include **human/evolutionary psychology, mind hacking, biohacking, distributed systems, competition, lisp dialects (Racket/Clojure), Go and Python**.
+Work day-to-day with _people tech management (human/evolutionary psychology), tech team building and artificial intelligence_. With the need to process large dataset its focus of research and development include **distributed systems, lisp dialects (racket/clojure), go and python**.
