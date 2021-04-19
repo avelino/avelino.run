@@ -3,7 +3,9 @@ date = "2000-01-01"
 title = "Links ❤️🙌"
 +++
 
-Amateur #Triathlete 🏊‍♂️🚴‍♂️🏃‍♂️(109kg off - from 180kg to #IRONMAN)
+> **Good dream is dream lived**
+
+Open Source Engineer - 🏊‍♂️🚴‍♂️🏃‍♂️ Triathlete (IRONMAN distance, maybe one day it'll be professional) - 🌱 ᴘʟᴀɴᴛ-ʙᴀsᴇᴅ
 
 ## Important links
 
