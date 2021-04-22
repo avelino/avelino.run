@@ -1,5 +1,5 @@
 +++
-aliases = ["/lifestyle/a-prática-nos-leva-à-perfeição-performance/", "/lifestyle/a-pratica-nos-leva-a-perfeicao-performance/"]
+aliases = ["/lifestyle/a-prática-nos-leva-à-perfeição-performance/", "/lifestyle/a-pratica-nos-leva-a-perfeicao-performance/", "/lifestyle/2020-06-01-a-pratica-nos-leva-a-perfeicao-performance/"]
 date = 2020-06-01T12:00:00Z
 tags = ["alta performance", "auto conhecimento", "evolução"]
 title = "A prática nos leva à perfeição/performance"

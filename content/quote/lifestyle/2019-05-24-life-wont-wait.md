@@ -2,6 +2,7 @@
 date = "2019-05-24"
 title = "Life Won’t Wait / A vida não vai esperar"
 tags = ["quote", "instagram", "a vida não espera"]
+aliases = ["/lifestyle/2019-05-24-life-wont-wait/"]
 +++
 
 ![Life Won’t Wait/A vida não vai esperar](https://scontent.fcgh17-1.fna.fbcdn.net/v/t1.0-9/60848261_10156991528318726_6304360040262270976_n.jpg?_nc_cat=100&_nc_oc=AQmiy3hJFolcsu9YKKaTG-SGX8aTe8_Fkp6wRlIAi5Y_Ust0aHbVcqUbPWLHJ4f3Eo8&_nc_ht=scontent.fcgh17-1.fna&oh=cd845a1736df0da965efc2ecb49e501a&oe=5DAAFC13)

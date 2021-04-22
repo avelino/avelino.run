@@ -1,9 +1,8 @@
 +++
-aliases = []
 date = 2020-03-07T18:20:00Z
 tags = ["objetivo", "meta", "desafio", "ironman", "triathlon"]
 title = "Qual é o seu IRONMAN?"
-
+aliases = ["/lifestyle/qual-é-o-seu-ironman/"]
 +++
 ![Primeira modalidade do Triathlon, natação em águas abertas na Billings CountryClub](/blog/IMG_1071-2020-03-07.png "Primeira modalidade do Triathlon, natação em águas abertas na Billings CountryClub")
 

@@ -2,13 +2,13 @@
 date = "2018-12-28"
 title = "Meu 2018 foi ano de muito aprendizado"
 tags = ["retrospectiva", "aprendizado", "mudança", "2018"]
+aliases = ["/lifestyle/2018-12-28-meu-2018-foi-ano-de-muito-aprendizado/"]
 +++
 
 ![Retrospectiva de 2018 do Thiago Avelino](/blog/best-year.jpg#center)
 
 Já faz alguns anos que sigo em um voo solo, sem trabalhar para uma empresa e sim fazendo a minha empresa acontecer. Em 2018 não foi diferente, sigo com a [Nuveo](https://nuveo.ai/) (empresa que trabalha com Inteligência Artificial e Visão Computacional aplicado para automatização de backoffice, fundada em 2015).
 Após alguns anos, foi momento de trazer um Diretor de Tecnologia para fazer parte do trabalho que vinha fazendo, esse momento não é um processo simples, principalmente por ser fundador da empresa e querer sempre o melhor para ela, mas fiz e tenho a certeza que foi o melhor passo tomado para o crescimento e amadurecimento da empresa. Foi um processo intenso de aprendizado pensando no futuro da Nuveo.
-
 
 ## Respirando novos ares
 
@@ -18,7 +18,6 @@ Aos que não conhece o “Avelino do passado” não sabe que eu tinha 180 kg e 
 
 Essa certeza de querer mudar só veio a tona quando eu [tirei um tempo para refletir na minha vida](https://avelino.run/lifestyle/2018-11-12-viagem-de-carro-em-familia-2018/), eu já queria fazer, mas a insegurança não deixava.
 
-
 ### Mudar a carreira profissional para outra área?
 
 Não estou saindo da área de tecnologia (na real acho que não consigo, pelo menos hoje) e sim levando a sério (profissionalmente) uma responsabilidade de treinar para fazer minha primeira prova de triathlon.
@@ -26,7 +25,6 @@ Não estou saindo da área de tecnologia (na real acho que não consigo, pelo me
 Essa mudança de área me fez “voltar” ser junior e absorver muito conteúdo. Se você quer acelerar seu processo de aprendizado se envolva com profissionais da área que esta estudando, eles lhe ajudara passar por algumas barreiras que você ficaria parado por muito tempo e no final descobriria que é mais simples.
 
 Certamente gerarei conteúdo traçando um paralelo da minha entrada na área do esporte com minha entrada na área de desenvolvimento.
-
 
 ### Escrever livro?
 
@@ -44,7 +42,6 @@ Escutei frases +- assim algumas vezes durante esse ano de 2018 e sempre vinha em
 
 Durante alguns meses eu vinha rabiscando algumas coisas que acharia importante ter escutado quando tinha 180 kg. Em linhas gerais precisava escutar mais verdades e menos tapinhas nas costas!
 2018 resolvi dar o primeiro passo de querer fazer e encarar como um projeto com começo, meio e fim.
-
 
 ### Se tornar atleta?
 

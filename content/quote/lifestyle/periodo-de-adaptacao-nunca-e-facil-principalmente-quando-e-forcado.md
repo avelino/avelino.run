@@ -1,5 +1,5 @@
 +++
-aliases = ["/lifestyle/período-de-adaptação-nunca-é-fácil-principalmente-quando-é-forçado"]
+aliases = ["/lifestyle/período-de-adaptação-nunca-é-fácil-principalmente-quando-é-forçado", "/lifestyle/periodo-de-adaptacao-nunca-e-facil-principalmente-quando-e-forcado/"]
 date = 2020-05-11T08:29:00Z
 tags = ["distanciamento social", "isolamento social", "quarentena", "filho"]
 title = "Período de adaptação: nunca é fácil, principalmente quando é forçado"

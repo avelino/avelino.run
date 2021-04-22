@@ -1,5 +1,5 @@
 +++
-aliases = ["/lifestyle/se-permita-viva-a-vida-mais-leve/"]
+aliases = ["/lifestyle/se-permita-viva-a-vida-mais-leve/", "/lifestyle/2020-05-31-se-permita-viva-a-vida-mais-leve/"]
 date = 2020-05-31T15:30:00Z
 tags = ["mudança", "alta performance", "auto conhecimento", "distanciamento social", "quarentena", "bournout"]
 title = "Se permita, viva a vida mais leve!"

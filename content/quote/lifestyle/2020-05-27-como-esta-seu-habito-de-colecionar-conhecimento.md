@@ -1,5 +1,5 @@
 +++
-aliases = ["/lifestyle/como-está-seu-hábito-de-colecionar-conhecimentos", "/lifestyle/como-esta-seu-habito-de-colecionar-conhecimentos"]
+aliases = ["/lifestyle/como-está-seu-hábito-de-colecionar-conhecimentos", "/lifestyle/como-esta-seu-habito-de-colecionar-conhecimentos", "/lifestyle/2020-05-27-como-esta-seu-habito-de-colecionar-conhecimento/"]
 date = 2020-05-27T18:30:00Z
 tags = ["leitura", "leituraatual", "leia um livro", "habito de leitura", "se permita", "não se cobre tanto"]
 title = "Como está seu hábito de colecionar conhecimentos?"

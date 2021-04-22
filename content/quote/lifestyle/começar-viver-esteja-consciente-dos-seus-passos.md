@@ -1,11 +1,10 @@
 +++
-aliases = []
 date = 2020-01-27T10:00:00Z
 tags = ["familia", "hobby", "empreender", "startup"]
 title = "Começar viver, esteja consciente dos seus passos!"
-
+aliases = ["/lifestyle/começar-viver-esteja-consciente-dos-seus-passos/"]
 +++
-![](/blog/Mindfulness-meditation-2019-11-05.jpeg)
+![Mindfulness meditation](/blog/Mindfulness-meditation-2019-11-05.jpeg)
 
 Refletir sobre nossos momentos difíceis não são muito fáceis (falar de nossas intimidades muito menos), mas é esses momentos de auto conhecimento e crítica que nos ajuda alavancar para cima e subir nossa própria barra (nos tornar uma pessoa melhor).
 

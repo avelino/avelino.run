@@ -1,5 +1,5 @@
 +++
-aliases = ["/lifestyle/nem-tudo-e-como-gostariamos"]
+aliases = ["/lifestyle/nem-tudo-e-como-gostariamos", "/lifestyle/nem-tudo-e-como-gostariamos/"]
 date = 2020-05-09T06:00:00Z
 tags = ["esporte", "foco", "mindfulness", "planejamento", "ansiedade", "100% presente"]
 title = "Nem tudo é como gostaríamos"

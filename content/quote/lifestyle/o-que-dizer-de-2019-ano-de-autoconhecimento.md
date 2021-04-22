@@ -1,9 +1,8 @@
 +++
-aliases = []
 date = 2019-12-31T15:20:00Z
 tags = ["vem2020", "retrospectiva", "corridaderua", "startups", "triathlon"]
 title = "O que dizer de 2019? Ano de autoconhecimento!"
-
+aliases = ["/lifestyle/o-que-dizer-de-2019-ano-de-autoconhecimento/"]
 +++
 ![São Silvestre São Paulo 31/12/2019 - Vem 2020](/blog/photo_2019-12-31 12.25.26-2019-12-31.jpeg "São Silvestre São Paulo 31/12/2019")
 

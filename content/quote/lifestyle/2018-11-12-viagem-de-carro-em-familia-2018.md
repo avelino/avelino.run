@@ -2,7 +2,7 @@
 date = "2018-11-12"
 tags = ["ferias", "trip", "roudtrip", "viagem", "nordeste"]
 title = "Férias/2018: Viagem de carro pelo Nordeste em família"
-
+aliases = ["/lifestyle/2018-11-12-viagem-de-carro-em-familia-2018/"]
 +++
 _“Eu não preciso de férias, trabalho com o que eu gosto, é um hobby o que eu faço”_
 
@@ -38,14 +38,14 @@ O grande trabalho que vejo no começo do planejamento (principalmente com mais d
 
 Usamos alguns apps para nos ajudar no planejamento da viagem, principalmente o trecho que seria percorrido de carro, conhecer locais no destino e local para passar a noite (dormir):
 
-* https://roadtrippers.com/ - planejamento dos trecho percorrido de carro;
-* https://www.booking.com - locação de local para ficar (evitamos hotel caros pois queríamos uma experiencia real de cada local);
-* https://www.airbnb.com/ - locação de local para ficar;
-* https://www.tripadvisor.com.br/ - conhecer lugares de um destino planejado;
-* https://foursquare.com/ - conhecer lugares de um destino planejado, principalmente locais para comer;
-* https://www.waze.com/ - Navegação de um destino para outro (GPS);
-* https://www.google.com/maps - Navegação de um destino para outro (GPS) e locais para abastecer o carro;
-* http://wifimagic.com/ - Senha do WiFi.
+* <https://roadtrippers.com/> - planejamento dos trecho percorrido de carro;
+* <https://www.booking.com> - locação de local para ficar (evitamos hotel caros pois queríamos uma experiencia real de cada local);
+* <https://www.airbnb.com/> - locação de local para ficar;
+* <https://www.tripadvisor.com.br/> - conhecer lugares de um destino planejado;
+* <https://foursquare.com/> - conhecer lugares de um destino planejado, principalmente locais para comer;
+* <https://www.waze.com/> - Navegação de um destino para outro (GPS);
+* <https://www.google.com/maps> - Navegação de um destino para outro (GPS) e locais para abastecer o carro;
+* <http://wifimagic.com/> - Senha do WiFi.
 
 ## Por que Nordeste?
 
@@ -86,9 +86,9 @@ Esse tempo off-line me fez ter muitas (muitas mesmo) ideias me causando ansiedad
 
 ## Algumas fotos
 
-- https://www.instagram.com/p/BpNvLx1DoDk/
-- https://www.instagram.com/p/BpaEVpwBIbr/
-- https://www.instagram.com/p/BpgqDxYBDMa/
-- https://www.instagram.com/p/Bpkww3PgIKw/
-- https://www.instagram.com/p/BpNvLx1DoDk/
-- https://www.instagram.com/p/BpsKhU5Bbm8/
+* <https://www.instagram.com/p/BpNvLx1DoDk/>
+* <https://www.instagram.com/p/BpaEVpwBIbr/>
+* <https://www.instagram.com/p/BpgqDxYBDMa/>
+* <https://www.instagram.com/p/Bpkww3PgIKw/>
+* <https://www.instagram.com/p/BpNvLx1DoDk/>
+* <https://www.instagram.com/p/BpsKhU5Bbm8/>

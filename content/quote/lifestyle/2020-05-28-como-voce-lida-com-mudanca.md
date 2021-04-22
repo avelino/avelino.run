@@ -1,5 +1,5 @@
 +++
-aliases = ["/lifestyle/como-você-lida-com-mudança/", "/lifestyle/como-voce-lida-com-mudanca/"]
+aliases = ["/lifestyle/como-você-lida-com-mudança/", "/lifestyle/como-voce-lida-com-mudanca/", "/lifestyle/2020-05-28-como-voce-lida-com-mudanca/"]
 date = 2020-05-28T11:30:00Z
 tags = ["mudança", "alta performance", "auto conhecimento"]
 title = "Como você lida com mudança?"
