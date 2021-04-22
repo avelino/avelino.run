@@ -6,3 +6,10 @@ command = "git submodule update -f --init && hugo"
 HUGO_VERSION = "0.82.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "/lifestyle/*"
+to = "/quote/lifestyle/:splat"
+status = 301
+force = true
+query = {path = ":path"}
