@@ -4,7 +4,7 @@
   "description": "My personal blog",
   "dependencies": {
     "bl": "^5.0.0",
-    "imagemin": "^7.0.1",
+    "imagemin": "^8.0.0",
     "imagemin-cli": "^6.0.0",
     "imagemin-optipng": "^8.0.0"
   },
