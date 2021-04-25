@@ -3,6 +3,7 @@ date = "2019-08-09"
 title = "Meu treino: reboot metabólico"
 tags = ["meu treino", "reboot metabólico", "triathlon", "biohacking"]
 aliases = ["/lifestyle/2019-08-09-meu-treino-reboot-metabolico/"]
+images = ["/blog/biohacking.jpg"]
 +++
 
 ![reboot metabólico - Biohacking](/blog/biohacking.jpg)

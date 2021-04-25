@@ -3,6 +3,7 @@ date = "2019-10-15T03:00:00+00:00"
 tags = ["corridaderua", "im703", "ironman", "triathlon"]
 title = "Foco e disciplina é a arma a favor dos seus objetivos"
 aliases = ["/lifestyle/foco-e-disciplina-é-a-arma-a-favor-dos-seus-objetivos/"]
+images = ["/blog/IMG_7764-2019-10-15.jpeg"]
 +++
 Não sei dizer quantos dias por semana penso em desistir do meu objetivo que me faz sair todos os dias para treinar (domingo a domingo).
 

@@ -3,7 +3,9 @@ date = 2019-12-31T15:20:00Z
 tags = ["vem2020", "retrospectiva", "corridaderua", "startups", "triathlon"]
 title = "O que dizer de 2019? Ano de autoconhecimento!"
 aliases = ["/lifestyle/o-que-dizer-de-2019-ano-de-autoconhecimento/"]
+images = ["/blog/photo_2019-12-31 12.25.26-2019-12-31.jpeg"]
 +++
+
 ![São Silvestre São Paulo 31/12/2019 - Vem 2020](/blog/photo_2019-12-31 12.25.26-2019-12-31.jpeg "São Silvestre São Paulo 31/12/2019")
 
 Vou começando relembrando meu [2018 que foi um ano de muito aprendizado](https://avelino.run/lifestyle/2018-12-28-meu-2018-foi-ano-de-muito-aprendizado/ "Meu 2018 foi ano de muito aprendizado"), entendo o que de fato eu gostaria de fazer profissionalmente e me desligar do que me deixava longe do que eu queria/quero para mim. E assim dei inicio em 2019...

@@ -3,6 +3,7 @@ date = 2020-01-27T10:00:00Z
 tags = ["familia", "hobby", "empreender", "startup"]
 title = "Começar viver, esteja consciente dos seus passos!"
 aliases = ["/lifestyle/começar-viver-esteja-consciente-dos-seus-passos/"]
+images = ["/blog/Mindfulness-meditation-2019-11-05.jpeg"]
 +++
 ![Mindfulness meditation](/blog/Mindfulness-meditation-2019-11-05.jpeg)
 

@@ -3,6 +3,7 @@ date = 2020-04-05T11:10:51Z
 tags = ["ironmanvr", "objetivo", "meta", "desafio", "ironman", "triathlon"]
 title = "Preparação para IRONMAN VR (70.3) em 3 dias"
 aliases = ["/lifestyle/preparacao-para-ironman-vr-703-em-3-dias/"]
+images = ["/blog/ironmanvc-2020-04-05.png"]
 +++
 ![IRONMAN Virtual Club - VR1 2020](/blog/ironmanvc-2020-04-05.png "IRONMAN Virtual Club - VR1 2020")
 

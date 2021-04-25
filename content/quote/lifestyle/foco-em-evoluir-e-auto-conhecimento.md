@@ -3,6 +3,7 @@ aliases = ["/lifestyle/foco-no-auto-evolucao-e-auto-conhecimento", "/lifestyle/f
 date = 2020-05-03T11:00:00Z
 tags = ["esporte", "mindfulness", "pensamento positivo", "rotina", "objetivo claro", "disciplina"]
 title = "Foco em evoluir e auto conhecimento"
+images = ["/blog/photo_2020-05-0308.12.08-2020-05-03.jpeg"]
 +++
 ![Avelino Pedalando 100km dentro de casa - 2020-05-02](/blog/photo_2020-05-0308.12.08-2020-05-03.jpeg)
 

@@ -3,7 +3,6 @@ aliases = ["/lifestyle/período-de-adaptação-nunca-é-fácil-principalmente-qu
 date = 2020-05-11T08:29:00Z
 tags = ["distanciamento social", "isolamento social", "quarentena", "filho"]
 title = "Período de adaptação: nunca é fácil, principalmente quando é forçado"
-
 +++
 Apos dois meses vivendo o distanciamento social o que aprendemos nesse período (algumas pessoas chamam de quarentena ou isolamento social)?
 

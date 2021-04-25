@@ -3,6 +3,7 @@ aliases = ["/lifestyle/como-você-lida-com-mudança/", "/lifestyle/como-voce-lid
 date = 2020-05-28T11:30:00Z
 tags = ["mudança", "alta performance", "auto conhecimento"]
 title = "Como você lida com mudança?"
+images = ["/blog/como-voce-lida-com-mudanca.png"]
 +++
 ![Como você lida com mudança?](/blog/como-voce-lida-com-mudanca.png)
 Por que temos tanta resistência à mudança se a vida é feita delas? A mudança é a única constante, o mais seguro que temos no universo. Hoje não somos a mesma pessoa de ontem, mas tampouco a de amanhã, por mais que tentemos.

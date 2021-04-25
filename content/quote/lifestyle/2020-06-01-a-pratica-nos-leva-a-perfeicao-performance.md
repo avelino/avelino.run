@@ -3,6 +3,7 @@ aliases = ["/lifestyle/a-prática-nos-leva-à-perfeição-performance/", "/lifes
 date = 2020-06-01T12:00:00Z
 tags = ["alta performance", "auto conhecimento", "evolução"]
 title = "A prática nos leva à perfeição/performance"
+images = ["/blog/a-pratica-nos-leva-a-perfeicao-performance.jpeg"]
 +++
 ![A prática nos leva à perfeição/performance](/blog/a-pratica-nos-leva-a-perfeicao-performance.jpeg)
 Em alguns story comento sobre fazer 2 "coisas" por 2 mil vezes e não 2 mil "coisas" por 2 vezes, mas por que tenho falado sobre isso?

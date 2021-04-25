@@ -3,6 +3,7 @@ date = "2019-06-21"
 title = "Por que triathlon? Qual é o seu limite?"
 tags = ["triathlon", "corrida de rua", "bariatrica", "perca de peso", "esporte", "letspush"]
 aliases = ["/lifestyle/2019-06-21-por-que-triathlon/"]
+images = ["/blog/ironman-triathlon.jpg"]
 +++
 
 Esporte? O que é isso?

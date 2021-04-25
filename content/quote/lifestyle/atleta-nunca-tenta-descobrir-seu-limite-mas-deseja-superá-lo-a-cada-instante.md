@@ -3,8 +3,9 @@ date = 2020-02-09T17:00:00Z
 tags = ["mindset", "obesidade", "triathlon"]
 title = "atleta nunca tenta descobrir seu limite, mas deseja superá-lo a cada instante"
 aliases = ["/lifestyle/atleta-nunca-tenta-descobrir-seu-limite-mas-deseja-superá-lo-a-cada-instante/"]
+images = ["/blog/84755956_10157686036278726_3890545620561166336_o-2020-02-09.jpg"]
 +++
-![](/blog/84755956_10157686036278726_3890545620561166336_o-2020-02-09.jpg)
+![atleta nunca tenta descobrir seu limite, mas deseja superá-lo a cada instante - por @avelinorun](/blog/84755956_10157686036278726_3890545620561166336_o-2020-02-09.jpg)
 
 Constantemente recebo mensagem perguntando o que me fez mudar minha vida, praticar esporte, fazer academia, acordar 4:30am e outras coisas que acabo publicando que soa maluquice. Vou tentar responder alguns questionamentos.
 

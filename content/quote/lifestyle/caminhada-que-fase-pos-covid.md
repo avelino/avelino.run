@@ -2,6 +2,7 @@
 date = 2021-04-09T12:00:00Z
 tags = ["resignify", "covid", "quarentena", "fiqueemcasa", "triathlon"]
 title = "Caminhada - que fase pós covid"
+images = ["/quote/caminhada-que-fase-pos-covid.jpg"]
 +++
 
 Que fase é essa meus amigo(a)s! 🤷‍♂️

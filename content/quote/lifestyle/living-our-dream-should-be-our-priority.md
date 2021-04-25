@@ -2,6 +2,7 @@
 date = 2021-04-25T08:00:00Z
 tags = ["resignify","sonho", "dream", "businessman"]
 title = "Living our dream should be our priority"
+images = ["/quote/lifestyle-living-our-dream-should-be-our-priorit.jpg"]
 +++
 
 What is your dream? What is your priority for the day?

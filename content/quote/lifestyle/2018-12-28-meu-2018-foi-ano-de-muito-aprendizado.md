@@ -3,6 +3,7 @@ date = "2018-12-28"
 title = "Meu 2018 foi ano de muito aprendizado"
 tags = ["retrospectiva", "aprendizado", "mudança", "2018"]
 aliases = ["/lifestyle/2018-12-28-meu-2018-foi-ano-de-muito-aprendizado/"]
+images = ["/blog/best-year.jpg"]
 +++
 
 ![Retrospectiva de 2018 do Thiago Avelino](/blog/best-year.jpg#center)

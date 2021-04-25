@@ -3,6 +3,7 @@ aliases = ["/lifestyle/como-está-seu-hábito-de-colecionar-conhecimentos", "/li
 date = 2020-05-27T18:30:00Z
 tags = ["leitura", "leituraatual", "leia um livro", "habito de leitura", "se permita", "não se cobre tanto"]
 title = "Como está seu hábito de colecionar conhecimentos?"
+images = ["/blog/como-esta-seu-habito-de-colecionar-conhecimento.png"]
 +++
 ![você deve sempre elevar seus padrões de exigência, pois corpo e mente são totalmente capazes de se adaptar - Livro 100% Presente do Joel Jota](/blog/como-esta-seu-habito-de-colecionar-conhecimento.png)
 Essa postagem nasce em um momento que acabou a luz aqui em casa em pleno horário de trabalho, poderia surtar por não conseguir entregar o que tinha planejado para hoje, mas pelo contrário estou lendo para aumentar minha performance e amanhã (daqui X tempo) conseguir entregar muito mais que entrego hoje.

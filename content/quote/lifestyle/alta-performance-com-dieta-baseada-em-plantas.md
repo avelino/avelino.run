@@ -3,6 +3,7 @@ date = 2019-11-30T22:00:00Z
 tags = ["proteina vegana", "atleta vegano", "dieta vegana", "vegano", "alta performance", "dieta base de plantas", "dieta", "triathlon"]
 title = "Alta performance com dieta baseada em plantas"
 aliases = ["/lifestyle/alta-performance-com-dieta-baseada-em-plantas/"]
+images = ["/blog/diet%20plant%20based-2019-11-30.png"]
 +++
 ![Dieta a baseada em platas para atleta de alta performance](/blog/diet%20plant%20based-2019-11-30.png "Dieta a baseada em platas para atleta de alta performance")
 

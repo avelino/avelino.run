@@ -3,6 +3,7 @@ date = 2019-11-05T17:05:00Z
 tags = ["meditação", "triathlon", "biohacking", "mindhacking", "mindfulness"]
 title = "Mindfulness, hacking mental para concentração plena"
 aliases = ["/lifestyle/mindfulness-hacking-mental-para-concentração-plena/"]
+images = ["/blog/Mindfulness-meditation-2019-11-05.jpeg"]
 +++
 ![Mindfulness, hacking mental para concentração plena](/blog/Mindfulness-meditation-2019-11-05.jpeg "Mindfulness, hacking mental para concentração plena")
 

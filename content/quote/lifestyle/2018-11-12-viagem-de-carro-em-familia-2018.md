@@ -3,6 +3,7 @@ date = "2018-11-12"
 tags = ["ferias", "trip", "roudtrip", "viagem", "nordeste"]
 title = "Férias/2018: Viagem de carro pelo Nordeste em família"
 aliases = ["/lifestyle/2018-11-12-viagem-de-carro-em-familia-2018/"]
+images = ["/trip-familia-2018.png"]
 +++
 _“Eu não preciso de férias, trabalho com o que eu gosto, é um hobby o que eu faço”_
 
