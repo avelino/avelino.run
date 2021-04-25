@@ -4,8 +4,6 @@ tags = ["resignify", "covid", "quarentena", "fiqueemcasa", "triathlon"]
 title = "Caminhada - que fase pós covid"
 +++
 
-![Caminhada - que fase pós covid - por @avelinorun](/quote/caminhada-que-fase-pos-covid.jpg)
-
 Que fase é essa meus amigo(a)s! 🤷‍♂️
 
 Depois de me recuperar da fase mais crítica do COVID 🦠 o médico 🥼 pediu para ficar sem praticar atividade física por 2 semanas e voltar com ritmo leve.
@@ -21,3 +19,5 @@ Meu sistema cardio pulmonar está muito debilitado, em paralelo aos treinos esto
 Antes de pegar essa doença invisível me sentia o a atleta super herói 🦸‍♂️, hoje sou o cagão com receio de pegar novamente.
 
 Se cuida, não queira pegar a tal "gripezinha" que tem deixado diversas vítimas, graças a Deus fui apenas uma vítima e não uma estatística no relatório de óbito 🙏
+
+![Caminhada - que fase pós covid - por @avelinorun](/quote/caminhada-que-fase-pos-covid.jpg)
