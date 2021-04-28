@@ -5,7 +5,7 @@ title = "DevHealthy - Episódio 22: 110kg a menos, rotina de treino, triathlon e
 images = ["https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/13162321/13162321-1619464102880-ea4feb0b4f46c.jpg"]
 +++
 
-Uma conversa super maneira com a [Keit Oliveira](https://twitter.com/seescrevekeit) e [Raphael Fabeni](https://twitter.com/raphaelfabeni) no [DevHealthy](https://anchor.fm/devhealthy/embed/episodes/DevHealthy-22---Bate-papo-Thiago-Avelino---110kg-a-menos--Triathlon-e-COVID-evn5fv/a-a5cea1p), sobre meu processo de merca de peso (-110kg 😲), rotina de treino no triathlon 🏊🏃🚴 e treinos pôs COVID19 🦠.
+Uma conversa super maneira com a [Keit Oliveira](https://twitter.com/seescrevekeit) e [Raphael Fabeni](https://twitter.com/raphaelfabeni) no [DevHealthy](https://anchor.fm/devhealthy/embed/episodes/DevHealthy-22---Bate-papo-Thiago-Avelino---110kg-a-menos--Triathlon-e-COVID-evn5fv/a-a5cea1p), sobre meu processo de perda de peso (-110kg 😲), rotina de treino no triathlon 🏊🏃🚴 e treinos pôs COVID19 🦠.
 
 {{< podcast "https://anchor.fm/devhealthy/embed/episodes/DevHealthy-22---Bate-papo-Thiago-Avelino---110kg-a-menos--Triathlon-e-COVID-evn5fv/a-a5cea1p" >}}
 
