@@ -21,4 +21,4 @@ Antes de pegar essa doença invisível me sentia o a atleta super herói 🦸‍
 
 Se cuida, não queira pegar a tal "gripezinha" que tem deixado diversas vítimas, graças a Deus fui apenas uma vítima e não uma estatística no relatório de óbito 🙏
 
-![Caminhada - que fase pós covid - por @avelinorun](/quote/caminhada-que-fase-pos-covid.jpg)
+![Caminhada - que fase pós covid - por @avelinorun](/quote/caminhada-que-fase-pos-covid.jpg#center)
