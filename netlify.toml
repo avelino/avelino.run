@@ -13,3 +13,10 @@ to = "/quote/lifestyle/:splat"
 status = 301
 force = true
 query = {path = ":path"}
+
+[[redirects]]
+from = "/lifestyle/"
+to = "/quote/lifestyle/"
+status = 301
+force = true
+query = {path = ":path"}
