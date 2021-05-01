@@ -41,3 +41,6 @@ hrefTargetBlank = true
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[minify]
+minifyOutput = true
