@@ -3,6 +3,7 @@ date = "2021-05-01"
 title = "Configurando limite de recursos em aplicações Java (JVM) no Kubernetes"
 tags = ["java", "jvm", "kubernetes", "heapsize", "permsize"]
 url = "configurando-limite-de-recursos-em-aplicacoes-java-jvm-no-kubernetes"
+images = ["/blog/jvm-xms-xmx-heapsize.png"]
 +++
 
 Fazer deploy de software desenvolvido usando tecnologias que foram criadas para ter escalabilidade vertical para escalar horizontalmente (_micro serviço, nano serviço_ e etc) em produção pode gerar alguns desafios que não estamos preparados. Principalmente quando o software esta rodando em JVM e não foi declarado limites de recursos.
@@ -19,7 +20,7 @@ java -Xms128m -Xmx256m hello.java
 
 Ao ler a documentação da JVM (a parte de [Sizing the Generations](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/sizing.html)) parece que funcionara como magica, no exemplo acima a aplicação querer mínimo de 128Mb de memória (JVM alocará assim que a aplicação iniciar), mas não deixando passar do limite de 256Mb. Vamos dar uma olhada como ficou na prática:
 
-![Usando Xms e -Xmx na JVM](/blog/jvm-htop-xms-xmx.png)
+![Usando Xms e -Xmx na JVM](/blog/jvm-htop-xms-xmx.png#center)
 
 ```java
 public class Hello {
