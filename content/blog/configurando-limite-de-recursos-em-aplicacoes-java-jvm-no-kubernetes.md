@@ -14,6 +14,9 @@ Ao estudar sobre a JVM você provavelmente passara pelos parâmetros de alocaç�
 
 ![VisualVM declarado Xms e Xmx na JVM](/blog/jvm-xms-xmx-heapsize.png#center)
 
+> Blogpost escrito após passar por experiencia em manter software em produção escrito em Java para cliente da [Soluevo](https://soluevo.com.br/).
+> _Soluevo_ tem vaga (**de junior a senior**) para pessoal desenvolvedora que conheça **Java**, veja [aqui as vagas](https://www.notion.so/soluevo/861ba87abf194a669eba94b8f47d8cbc?v=fd32972a433948ceaf0c2cf3223a3d42).
+
 ```shell
 java -Xms128m -Xmx256m hello.java
 ```
