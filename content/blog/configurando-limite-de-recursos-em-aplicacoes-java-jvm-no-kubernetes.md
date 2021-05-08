@@ -8,14 +8,14 @@ images = ["/blog/jvm-xms-xmx-heapsize.png"]
 
 Fazer deploy de software desenvolvido usando tecnologias que foram criadas para ter escalabilidade vertical para escalar horizontalmente (_micro serviço, nano serviço_ e etc) em produção pode gerar alguns desafios que não estamos preparados. Principalmente quando o software esta rodando em JVM e não foi declarado limites de recursos.
 
+> Blogpost escrito com experiência adquirida no [Soluevo](https://soluevo.com.br/) - desenvolvendo software para processar grande volume de dados.
+> A _Soluevo_ tem vaga (**de júnior a sênior**) para pessoal desenvolvedora que conheça e queira trabalhar com **Java**, veja [aqui as vagas](https://www.notion.so/soluevo/861ba87abf194a669eba94b8f47d8cbc?v=fd32972a433948ceaf0c2cf3223a3d42).
+
 ## `-Xms`, `-Xmx` e seus problemas
 
 Ao estudar sobre a JVM você provavelmente passara pelos parâmetros de alocação inicial (`Xms`) e alocação máxima (`Xmx`) de memória, os parâmetros funcionam rigorosamente bem. Trazendo um exemplo, ao definir `-Xms128M` e `Xmx256M`, e começar monitorar a aplicação com [VisualVM](https://visualvm.github.io/), você alguma como essa:
 
 ![VisualVM declarado Xms e Xmx na JVM](/blog/jvm-xms-xmx-heapsize.png#center)
-
-> Blogpost escrito após passar por experiencia em manter software em produção escrito em Java para cliente da [Soluevo](https://soluevo.com.br/).
-> _Soluevo_ tem vaga (**de junior a senior**) para pessoal desenvolvedora que conheça **Java**, veja [aqui as vagas](https://www.notion.so/soluevo/861ba87abf194a669eba94b8f47d8cbc?v=fd32972a433948ceaf0c2cf3223a3d42).
 
 ```shell
 java -Xms128m -Xmx256m hello.java
