@@ -11,7 +11,7 @@ blog  = ":slug"
 
 [params]
 author = "Avelino"
-keywords = ["Tech Team Building", "People Tech Management", "Racket/Clojure/LISP", "Go (Gopher)", "Python", "Artificial Intelligence", "Triathlon"]
+keywords = ["Tech Team Building", "People Tech Management", "Golang", "Clojure", "Python", "Triathlon"]
 description = "I use open source to help people evolve, I take pleasure in seeing people evolve"
 avatar = "img/6n3_6Uqh_400x400.jpg"
 dateform = "Jan 2, 2006"
@@ -28,8 +28,8 @@ linkedin      = "avelinorun"
 
 [[params.info]]
 label = "Email"
-value = "t AT avelino DOT xxx"
-link = "mailto:t@avelino.xxx"
+value = "avelinorun AT gmail DOT com"
+link = "mailto:avelinorun@gmail.com"
 
 [[params.info]]
 label = "Address"
