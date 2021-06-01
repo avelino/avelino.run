@@ -3,8 +3,8 @@ date = "2020-07-08"
 alias = ["/atrás-de-projetos-open-source-existe-pessoas/"]
 tags = ["opensource", "open source", "contribuição", "pessoas > tecnologia"]
 title = "Por trás de projetos Open Source existe pessoas"
-
 +++
+
 ![Pessoas > Tecnologia, sejá humano ao receber contribuição](/blog/open-source-community.jpg#center)
 
 Muitos **engenheiro(a)s** esquecem ao contribuir com _projetos Open Source_ que por trás de todos _projetos_ temos **pessoas**.
@@ -16,4 +16,4 @@ Quando estamos do lado de mantenedor do projeto: encare toda e qualquer contribu
 
 > Boa contribuição meus amigo(a)s, espero ter incentivado você contribuir com algum projeto Open Source.
 
-[Veja os projetos que mantenho e já contribuir](https://github.com/avelino), precisa de ajuda para contribuir e/ou manter projeto Open Source sinta-se livre em entrar em contato comigo [t AT avelino DOT xxx](mailto:t+opensource@avelino.xxx). Fique por dentro das novidades do mundo Open Source se inscrevendo nessa [newsletter](https://mailchi.mp/fd3190254650/open-source).
+[Veja os projetos que mantenho e já contribuir](https://github.com/avelino), precisa de ajuda para contribuir e/ou manter projeto Open Source sinta-se livre em entrar em contato comigo [avelinorun AT gmail DOT com](avelinorun+oss@gmail.com). Fique por dentro das novidades do mundo Open Source se inscrevendo nessa [newsletter](https://mailchi.mp/fd3190254650/open-source).

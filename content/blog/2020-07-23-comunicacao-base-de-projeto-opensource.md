@@ -30,6 +30,6 @@ Logico que poderia fazer o merge (era pegar o conteúdo e trazer para o awesome-
 
 > Evolua seus skills de comunicação, escrever código é importante, mas comunicação vem antes de código - antes de escrever qualquer código você deve entender o que ser implementado.
 
-----
+---
 
-[Veja os projetos que mantenho e já contribuir](https://github.com/avelino), precisa de ajuda para contribuir e/ou manter projeto Open Source sinta-se livre em entrar em contato comigo [t AT avelino DOT xxx](mailto:t+opensource@avelino.xxx). Fique por dentro das novidades do mundo Open Source se inscrevendo nessa [newsletter](https://mailchi.mp/fd3190254650/open-source).
+[Veja os projetos que mantenho e já contribuir](https://github.com/avelino), precisa de ajuda para contribuir e/ou manter projeto Open Source sinta-se livre em entrar em contato comigo [avelinorun AT gmail DOT com](avelinorun+oss@gmail.com). Fique por dentro das novidades do mundo Open Source se inscrevendo nessa [newsletter](https://mailchi.mp/fd3190254650/open-source).
