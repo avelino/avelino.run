@@ -22,3 +22,5 @@ Me siga no GitHub para acompanhar os projetos que estou contribuindo, se quer co
 
 [👐 Follow me on GitHub](https://github.com/avelino)
 [🌟 Stars Profile](https://stars.github.com/profiles/avelino/)
+
+_[Publlication in English](https://www.linkedin.com/feed/update/urn:li:activity:6808675484038127616/)_
