@@ -1,5 +1,5 @@
 +++
-date = "2019-06-24"
+date = "2021-07-04"
 title = "Uses"
 tags = ["uses", "avelino", "open source", "thiago avelino"]
 +++
