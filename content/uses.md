@@ -2,11 +2,14 @@
 date = "2021-07-04"
 title = "Uses"
 tags = ["uses", "avelino", "open source", "thiago avelino"]
+images = ["/uses.png"]
 +++
 
 Make sure to check out [uses.tech](https://uses.tech) for a list of everyone's **/uses** pages!
 
 I constantly get a few emails (my email is public on my [github profile](https://github.com/avelino)) asking about the software and hardware I use in my day to day life as an open source _product_/project maintainer.
+
+![Avelino Workspace](/uses.png#center)
 
 ## Hardware
 
