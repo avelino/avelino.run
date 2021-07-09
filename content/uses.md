@@ -36,11 +36,11 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Development
 
-- Emacs (e vim para edição rápidas)
+- Emacs (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit)
 - IntelliJ (JVM/Java)
-- Homebrew (pacman on archlinux)
+- Homebrew (pacman on archlinux, used [aur helper](https://github.com/avelino/aur))
 - TablePlus
-- iTerm2
+- iTerm2 -> I'm testing and enjoying the [hyper](https://hyper.is/), but I'm annoyed to know it's a browser (Chrome)
 - Z shell and Oh My Zsh
 - Insonia → I’m testing [paw](https://paw.cloud/) (pay one time license, cloud sync support)
 
