@@ -28,7 +28,7 @@ I can't list only one link (repository) for this topic, I would recommend you to
 
 ## Best Practices
 
-[Francesc Campoy](https://twitter.com/francesc) deu uma excelente palestra no OSCON de 2015 sobre esse assunto, onde abordou as melhores práticas para se desenvolver software usando a linguagem Go.
+[Francesc Campoy](https://twitter.com/francesc) gave an excellent talk at OSCON 2015 on this subject, where he covered best practices for developing software using the Go language.
 
 {{< youtube 8D3Vmm1BGoY >}}
 
