@@ -28,9 +28,9 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 ## Business
 
 - Slack
+- Notion (corporate wiki)
 - GitHub (I use many resources, such as issue, discussions, releases, actions, etc)
 - Profit (TradeMap on mobile device) - marked financial
-- Zoom
 - Google Workspace
 - Orbit Love
 
@@ -51,8 +51,8 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 - Todoist with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
 - Superhuman
-- Vimcal
-- Notion
+- Fantastical
+- BearApp
 - 1Password
 - Alfred
 - Spotify
