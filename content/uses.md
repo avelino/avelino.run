@@ -52,7 +52,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - Todoist with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
 - Superhuman
 - Fantastical
-- BearApp
+- Notion
 - 1Password
 - Alfred
 - Spotify
