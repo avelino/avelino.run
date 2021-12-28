@@ -32,7 +32,7 @@ sections:
 upload_dir: static/blog
 public_path: "/blog"
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:-:year:-:month:-:day:"
 build:
   preview_env:
