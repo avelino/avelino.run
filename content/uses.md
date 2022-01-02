@@ -7,7 +7,7 @@ images = ["/uses.png"]
 
 Make sure to check out [uses.tech](https://uses.tech) for a list of everyone's **/uses** pages!
 
-I constantly get a few emails (my email is public on my [github profile](https://github.com/avelino)) asking about the software and hardware I use in my day to day life as an open source _product_/project maintainer.
+I constantly get a few emails (my email is public on my [github profile](https://github.com/avelino)) asking about the software and hardware I use in my day to day life as an open source _product/project_ maintainer.
 
 ![Avelino Workspace](/uses.png#center)
 
@@ -29,20 +29,21 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 - Slack
 - Notion (corporate wiki)
-- GitHub (I use many resources, such as issue, discussions, releases, actions, etc)
+- GitHub (many resources, such as issue, discussions, releases, actions, etc)
 - Profit (TradeMap on mobile device) - marked financial
 - Google Workspace
 - Orbit Love
+- [Buttondown](https://buttondown.email/avelino) - newsletter system
 
 ## Development
 
-- Emacs (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit)
+- VSCode (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit), in the past used Emacs
 - IntelliJ (JVM/Java)
 - Homebrew (pacman on archlinux, used [aur helper](https://github.com/avelino/aur))
 - TablePlus
-- iTerm2 -> I'm testing and enjoying the [hyper](https://hyper.is/), but I'm annoyed to know it's a browser (Chrome)
+- [hyper](https://hyper.is/), _but I'm annoyed to know it's a browser (Chrome)_
 - Z shell and Oh My Zsh
-- Insonia → I’m testing [paw](https://paw.cloud/) (pay one time license, cloud sync support)
+- [paw](https://paw.cloud/) (pay one time license, cloud sync support)
 
 > For all software that has the option to change the theme I use [Dracula Pro](https://draculatheme.com/pro)
 > my dotfile share in [this repository](https://github.com/avelino/dotfiles)
@@ -60,6 +61,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Another apps
 
+- Safari, interacting in the apple ecosystem
 - Figma
 - Google Drive
 
