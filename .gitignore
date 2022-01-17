@@ -1,5 +1,6 @@
 public
 .DS_Store
 node_modules
+.hugo_build.lock
 # Local Netlify folder
 .netlify
