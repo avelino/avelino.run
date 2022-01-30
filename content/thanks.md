@@ -22,6 +22,8 @@ title:'PayPal - The safer, easier way to pay online!',
 </script>
 </div>
 
+<iframe src="https://github.com/sponsors/avelino/card" title="Sponsor avelino" height="225" width="600" style="border: 0;"></iframe>
+
 ### Name list
 
 - [@cristaloleg](https://github.com/cristaloleg)
