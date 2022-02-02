@@ -1,16 +1,16 @@
 +++
 date = "2016-07-17"
-title = "pREST - any Postgres application, existing or new to server RESTful API"
+title = "prestd - PostgreSQL and REST, low-code"
 tags = ["postgres", "rest", "restful", "api", "golang", "open source"]
 link = "https://prestd.com/"
-img = "https://docs.prestd.com/logo.png"
+img = "https://avatars.githubusercontent.com/u/30427128"
 +++
 
-[pREST](https://github.com/prest/prest) (PostgreSQL REST), simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
+[prestd](https://github.com/prest/prest) PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
 
 <!-- more -->
 
-![pREST - Database in RESTful API](https://docs.prestd.com/logo.png)
+![prestd - PostgreSQL ➕ REST, low-code](https://avatars.githubusercontent.com/u/30427128)
 
 ## Problem
 
