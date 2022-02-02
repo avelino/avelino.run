@@ -3,7 +3,7 @@ date = "2010-12-05"
 title = "Vim Bootstrap"
 tags = ["vim", "viml", "neovim", "bootstrap", "open source"]
 link = "https://vim-bootstrap.com/"
-img = "/img/vimbootstrap.png"
+img = "https://avatars.githubusercontent.com/u/57500804"
 comment = false
 +++
 
@@ -11,7 +11,7 @@ Vim Bootstrap is a generator that provides a simple method of generating a confi
 
 <!-- more -->
 
-![vim bootstrap](/img/vimbootstrap.png)
+![vim bootstrap](https://avatars.githubusercontent.com/u/57500804)
 
 The **vim-bootstrap** project started with my annoyance of other people using my vim file (my personal vim configuration files), in a conversation with [lerrua](https://github.com/lerrua) I proposed to gather our vim configuration files and make a vim file generator with focus on who is starting to use vim text editor.
 
