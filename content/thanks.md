@@ -24,17 +24,18 @@ title:'PayPal - The safer, easier way to pay online!',
 
 <iframe src="https://github.com/sponsors/avelino/card" title="Sponsor avelino" height="225" width="600" style="border: 0;"></iframe>
 
-### Name list
+## Name list
 
 - [@cristaloleg](https://github.com/cristaloleg)
 - [@fcpimenta](https://github.com/fcpimenta)
 - [@aidasap](https://github.com/aidasap)
 - [@dans-stuff](https://github.com/dans-stuff)
+- [@sashamelentyev](https://github.com/sashamelentyev)
 - [your name here...](https://github.com/sponsors/avelino)
 
 > Want to talk to me? i look forward to your [email](mailto:avelinorun+oss@gmail.com)
 
-### Companies
+## Companies
 
 - [![Doppler](/sponsors/doppler-logo.png)](https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
 - [![WorkOS](/sponsors/workos-logo-white-bg.svg)](https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
