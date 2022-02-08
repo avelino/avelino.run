@@ -9,6 +9,8 @@ Make sure to check out [uses.tech](https://uses.tech) for a list of everyone's *
 
 I constantly get a few emails (my email is public on my [github profile](https://github.com/avelino)) asking about the software and hardware I use in my day to day life as an open source _product/project_ maintainer.
 
+> My day job is 100% involved with **open source** projects, would you like to support any project I help maintain? see how and who currently supports me [here](/thanks/).
+
 ![Avelino Workspace](/uses.png#center)
 
 ## Hardware
