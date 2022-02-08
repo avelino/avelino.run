@@ -13,9 +13,9 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Hardware
 
-- Macbook Pro i9, 64GB ram, 2TB ssd
-  - Magic Keyboard 2
-  - Magic Trackpad 2
+- Macbook Pro Apple M1 Max, 32GB ram, 1TB ssd
+  - Keyboard Keychron K3
+  - Mouse Logitech Marble
   - LG UltraFine 5K Display
   - Dock Station Universal Dell D6000
 - IPad Pro 1
@@ -37,7 +37,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Development
 
-- VSCode (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit), in the past used Emacs
+- VSCode (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit), in the past used [Emacs](https://github.com/avelino/.emacs)
 - IntelliJ (JVM/Java)
 - Homebrew (pacman on archlinux, used [aur helper](https://github.com/avelino/aur))
 - TablePlus
@@ -52,23 +52,23 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 - Todoist with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
 - Superhuman
-- Fantastical
+- [Cron](https://cron.app/), in the past used Fantastical
 - Notion
 - 1Password
-- Alfred
+- [Raycast](https://www.raycast.com/), in the past used Alfred
 - Spotify
 - Zapier (IFTTT personal actions)
 
 ## Another apps
 
-- Safari, interacting in the apple ecosystem
+- Chrome - main browser
 - Figma
 - Google Drive
 
 ## Hosting
 
-- DigitalOcean App Platform (or Heroku)
-- Netlify
+- [DigitalOcean App Platform](https://m.do.co/c/bd3b723c0a36?utm_medium=opensource&utm_source=awesome-go) (or Heroku)
+- [Netlify](https://www.netlify.com/)
 - Mailgun
 
 ## Training
