@@ -37,9 +37,10 @@ title:'PayPal - The safer, easier way to pay online!',
 
 ## Companies
 
-- [![Doppler](/sponsors/doppler-logo.png)](https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
-- [![WorkOS](/sponsors/workos-logo-white-bg.svg)](https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
-- [![keygen](/sponsors/keygen-logo.png)](https://keygen.sh/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
-- [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com?utm_medium=opensource&utm_source=awesome-go)
-- [![Digital Ocean](/sponsors/do_logo_horizontal_blue-210.png)](https://m.do.co/c/bd3b723c0a36?utm_medium=opensource&utm_source=awesome-go) [learn more here](https://twitter.com/avelinorun/status/1293969216417214466)
-- [around](https://www.around.co/?learn-more=1&utm_source=avelino&utm_medium=avelino)
+- [![Doppler](/sponsors/doppler-logo.png)](https://bit.ly/awesome-go-doppler)
+- [![x-team](/sponsors/xteam-logo.svg)](https://bit.ly/awesome-go-xteam)
+- [![WorkOS](/sponsors/workos-logo-white-bg.svg)](https://bit.ly/awesome-go-workos)
+- [![keygen](/sponsors/keygen-logo.png)](https://bit.ly/awesome-go-keygen)
+- [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://bit.ly/awesome-go-netlify)
+- [![Digital Ocean](/sponsors/do_logo_horizontal_blue-210.png)](https://bit.ly/awesome-go-digitalocean) [learn more here](https://twitter.com/avelinorun/status/1293969216417214466)
+- [around](https://bit.ly/awesome-go-around)
