@@ -17,7 +17,9 @@ The [**`(-> moclojer)`**](https://github.com/avelino/moclojer) supports API-firs
 
 You can make requests that return mock data defined within **`(-> moclojer)`** if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API.
 
-When you send a request to a mock server, **`(-> moclojer)`** will match the request configuration to the examples you have saved for the request and respond with the data you added in the configuration (written in [`yaml`](https://yaml.org/spec/) or [`edn`](https://github.com/edn-format/edn)).
+When you send a request to a mock server, **`(-> moclojer)`** will match the request configuration to the examples you have saved for the request and respond with the data you added in the configuration (written in [`yaml`](https://yaml.org/spec/), [`edn`](https://github.com/edn-format/edn) or [`OpenAPI`](https://swagger.io/specification/)).
+
+> **Hot Reload** support, when updating the configuration file (yaml or edn) the new settings are reloaded automatically, accelerating the development process of your mock server.
 
 ## Creating mock server
 
@@ -114,9 +116,12 @@ docker run -it \
   ghcr.io/avelino/moclojer:latest
 ```
 
+to use the `edn` format, you must pass the following parameters to docker:
+`-e CONFIG=moclojer.edn -v $(pwd)/moclojer.edn:/app/moclojer.edn`
+
 ## Return template
 
-moclojer uses a template engine with [**jinja** `{{var}}`](https://github.com/yogthos/Selmer#built-in-tags-1) syntax to make it possible to make the API return dynamic content. Opening the possibility to use operators (`if`, `ifequal`, `ifunequal`, `for`, `firstof` and etc) and programming logic to validate received parameters.
+**`(-> moclojer)`** uses a template engine with [**jinja** `{{var}}`](https://github.com/yogthos/Selmer#built-in-tags-1) syntax to make it possible to make the API return dynamic content. Opening the possibility to use operators (`if`, `ifequal`, `ifunequal`, `for`, `firstof` and etc) and programming logic to validate received parameters.
 
 ```yaml
 - endpoint:
@@ -130,6 +135,69 @@ moclojer uses a template engine with [**jinja** `{{var}}`](https://github.com/yo
         {
           "unique-param": "{% ifequal path-params.param1 "moclojer" %}{{path-params.param1}}{% else %}{{query-params.param1}}{% endifequal %}"
         }
+```
+
+**Variables:**
+
+- `path-params`: the parameters passed to the endpoint `/hello/:username`
+- `query-params`: the parameters passed in _query string_ to the endpoint `?param1=value1&param2=value2`
+- `json-params`: the parameters passed in _data request_ to the endpoint `{"param1": "value1"}`
+
+**Example**
+
+```json
+{
+  "path-params": "{{path-params.param1}}",
+  "query-params": "{{query-params.param1}}",
+  "json-params": "{{json-params.param1}}"
+}
+```
+
+### `.edn` exemple
+
+```edn
+{:endpoint {:method :get
+            :path "/pets"
+            :response {:status 200
+                       :headers {:content-type  "applicantion/json"}
+                       :body {:pets [{:name "Uber" :type "dog"}
+                                     {:name "Pinpolho" :type "cat"}]}}
+            :router-name :get-all-pets}}
+
+{:endpoint {:method :get
+            :path "/pet/:id"
+            :response {:status 200
+                       :headers {:content-type  "applicantion/json"}
+                       :body {:id 1 :name "uber" :type "dog"}}
+            :router-name :get-pet-by-id}}
+```
+
+## OpenAPI Integration
+
+You can easily mock all routes routes from a OpenAPI v3 specification.
+For this, you will need to define one response for each operation.
+
+> Example `mocks.yaml`
+
+```yaml
+listPets:
+  status: 200
+  headers:
+    Content-Type: application/json
+  body: >
+    []
+```
+
+Then call `moclojer` passing both OpenAPI spec and mocks as paramters:
+
+```shell
+CONFIG="petstore.yaml" MOCKS="mocks.yaml" clojure -X:run
+```
+
+you can config a mock server with edn file as well
+
+```shell
+CONFIG="moclojer.edn" clojure -X:run
 ```
 
 ## How to contribute?
