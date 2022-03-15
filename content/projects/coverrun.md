@@ -4,6 +4,7 @@ title = "cover.run"
 tags = ["cover", "code coverage", "testing", "golang", "open source"]
 link = "https://cover.run"
 img = "/img/coverrun.png"
+comment = false
 +++
 
 **/!\DEPRECIATED/!\** Code coverage

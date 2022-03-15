@@ -4,6 +4,7 @@ title = "moclojer"
 tags = ["mock", "api-mock", "mock-server", "openapi", "openapi-mock", "clojure", "open source"]
 link = "https://github.com/avelino/moclojer"
 img = "https://github.com/avelino/moclojer/raw/main/doc/assets/logo.png"
+comment = false
 +++
 
 Simple and efficient HTTP **mock server** _open source_, [project repository](https://github.com/avelino/moclojer).

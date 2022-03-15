@@ -4,6 +4,7 @@ title = "rum language"
 tags = ["rumlang", "lisp dialete", "lisp", "scheme", "clojure", "golang", "open source"]
 link = "https://github.com/rumlang/rum"
 img = "https://avatars.githubusercontent.com/u/33993589"
+comment = false
 +++
 
 [rum](https://github.com/rumlang/rum) Functional language, easily extensible and possible (Lua features with LISP dialect and functional) to be embarked on software Go!

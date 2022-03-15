@@ -4,6 +4,7 @@ title = "awesome-go"
 tags = ["awesome", "golang-library", "awesome-list", "golang", "open source"]
 link = "https://awesome-go.com/"
 img = "https://awesome-go.com/assets/logo.png"
+comment = false
 +++
 
 A curated list of awesome Go frameworks, libraries and software
