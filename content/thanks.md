@@ -42,5 +42,6 @@ title:'PayPal - The safer, easier way to pay online!',
 - [![WorkOS](/sponsors/workos-logo-white-bg.svg)](https://bit.ly/awesome-go-workos)
 - [![keygen](/sponsors/keygen-logo.png)](https://bit.ly/awesome-go-keygen)
 - [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://bit.ly/awesome-go-netlify)
+- [![CTO.ai](/sponsors/cto-logo.png)](https://go.cto.ai/3KJfMKv)
 - [![Digital Ocean](/sponsors/do_logo_horizontal_blue-210.png)](https://bit.ly/awesome-go-digitalocean) [learn more here](https://twitter.com/avelinorun/status/1293969216417214466)
 - [around](https://bit.ly/awesome-go-around)
