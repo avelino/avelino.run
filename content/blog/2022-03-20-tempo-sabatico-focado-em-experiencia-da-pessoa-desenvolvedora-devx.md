@@ -1,7 +1,7 @@
 +++
 date = "2022-03-20"
 title = "Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)"
-tags = ["devx", "developer experience", "sabbatical" "sabbatical time"]
+tags = ["devx", "developer experience", "sabbatical", "sabbatical time"]
 url = "tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx"
 images = ["/blog/sabbatical-time-devx.png"]
 +++
