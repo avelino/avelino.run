@@ -6,9 +6,6 @@ url = "tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx"
 images = ["/blog/sabbatical-time-devx.png"]
 +++
 
-title = "Sabbatical time focused on developer experience (DevX)"
-url = "sabbatical-time-focused-on-developer-experience"
-
 ![devx and sabbatical time](/blog/sabbatical-time-devx.png#center)
 
 O último _tempo sabático_ que tirei foi no final de 2018 quando sai do dia-a-dia da empresa que fundei em 2015, foram intensos 4 anos de trabalho e precisava parar para oxigenar meu cérebro.
