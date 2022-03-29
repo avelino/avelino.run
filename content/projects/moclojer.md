@@ -155,7 +155,7 @@ to use the `edn` format, you must pass the following parameters to docker:
 
 ### `.edn` exemple
 
-```edn
+```
 {:endpoint {:method :get
             :path "/pets"
             :response {:status 200
