@@ -87,6 +87,16 @@ Describing all endpoints declared in the configuration file, you can see the fol
 
 ### Run it mocker server
 
+**`(-> moclojer)`** is written in the Clojure programming language and is provided for distribution in some formats.
+
+**clojure:**
+
+```sh
+CONFIG=moclojer.yml clojure -X:run # has an alias created in edn with the name "run"
+```
+
+**binary:**
+
 You don't have the binary file yet? [Download it here](https://github.com/avelino/moclojer/releases/latest). The moclojer is distributed as follows:
 
 - Binary format: `moclojer_<OS>` - _in binary format (you don't need anything additional on your operating system to run it)_
@@ -177,27 +187,94 @@ to use the `edn` format, you must pass the following parameters to docker:
 You can easily mock all routes routes from a OpenAPI v3 specification.
 For this, you will need to define one response for each operation.
 
-> Example `mocks.yaml`
+### Example
+
+With a valid OpenAPI file schema `simple-api.json`
+
+```json
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Sample API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/hello": {
+      "get": {
+        "operationId": "greet",
+        "responses": {
+          "200": {
+            "description": "A JSON array of user names",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "hello"
+                  ],
+                  "properties": {
+                    "hello": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+Create a `mocks.json` file, with the content
+
+```json
+{
+  "myFirstRoute": {
+    "body": "{\"hello\": \"{{path-params.username}}!\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200
+  }
+}
+```
+
+Then run `CONFIG=simple-api.json MOCKS=mocks.json <<moclojer command>>`
+
+### Form upload support
+
+On both `moclojer.yml` or `mocks.json` you can add a `store` key to enable multipart uploads on the route and save the
+content in a dir.
 
 ```yaml
-listPets:
-  status: 200
-  headers:
-    Content-Type: application/json
-  body: >
-    []
+- endpoint:
+    method: POST
+    path: /hello/:username
+    response:
+      ## Will save all parameters at ./form-uploads directory
+      store: form-uploads
+      status: 200
+      headers:
+        Content-Type: application/json
+      body: >
+        {
+          "hello": "{{path-params.username}}!"
+        }
 ```
 
-Then call `moclojer` passing both OpenAPI spec and mocks as paramters:
-
-```shell
-CONFIG="petstore.yaml" MOCKS="mocks.yaml" clojure -X:run
-```
-
-you can config a mock server with edn file as well
-
-```shell
-CONFIG="moclojer.edn" clojure -X:run
+```json
+{
+  "myFormRoute": {
+    "store": "formRoute",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 303
+  }
+}
 ```
 
 ## How to contribute?
