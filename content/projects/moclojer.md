@@ -201,7 +201,7 @@ With a valid OpenAPI file schema `simple-api.json`
   "paths": {
     "/hello": {
       "get": {
-        "operationId": "greet",
+        "operationId": "myFirstRoute",
         "responses": {
           "200": {
             "description": "A JSON array of user names",
