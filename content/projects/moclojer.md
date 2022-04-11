@@ -85,6 +85,25 @@ Describing all endpoints declared in the configuration file, you can see the fol
 | `/with-params/:param1` | GET | It will take a parameter from the url called param1 and the query string called param1, and return both parameters dynamically in the response body. Exemplifying how to consume the two types of parameters in the return from the endpoint. |
 | `/first-post-route` | POST | It will take a parameter from the body called project, and return the project name dynamically from the response body. |
 
+### Multi-domain support
+
+**`(-> moclojer)`** supports multi-domain (host), just put the tag "host" for which domain the endpoint will respond to the request:
+
+```yaml
+- endpoint:
+    host: sub.moclojer.com
+    method: GET
+    path: /multihost-sub
+    response:
+      status: 200
+      headers:
+        Content-Type: application/json
+      body: >
+        {
+          "domain": "sub.moclojer.com"
+        }
+```
+
 ### Run it mocker server
 
 **`(-> moclojer)`** is written in the Clojure programming language and is provided for distribution in some formats.
