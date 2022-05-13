@@ -9,6 +9,7 @@ images = ["/blog/text-e-a-forma-mais-eficiente-de-escalar-sua-comunicacao.jpeg"]
 ![Texto é a forma mais eficiente de escalar sua comunicação](/blog/text-e-a-forma-mais-eficiente-de-escalar-sua-comunicacao.jpeg)
 
 > É comum trocar essa falta de texto por call, nos enganando achando que é mais rápido, o grande  problema é que dessa forma fazemos N call para tentar deixar todas as pessoas por dentro do assunto.
+> Deixando a solução "mais rápida" menos eficaz drenando mais tempo do que escrever um bom texto passando contexto para as pessoas envolvidas
 
 Com a aceleração do trabalho remoto muitas empresas acaba criando uma rotina insana de calls (provavelmente causada pela pandemia), se você olha a agenda dessas pessoas tem um call apos o outro sem ter tempo de planejar o que será discutido e processar o que foi discutido no call anterior porque está atrasado para o próximo call - isso pode piorar, em muitas reuniões não praticamos escuta ativa por ter outros assuntos na cabeça e não ter se preparado para reunião.
 
