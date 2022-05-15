@@ -18,6 +18,7 @@ dateform = "Jan 2, 2006"
 lang = "en"
 footertext = "written by avelino"
 aboutFile = "about.md"
+microsoftClarity = "bsmr5wva0z"
 
 [params.social]
 instagram     = "avelinorun"
