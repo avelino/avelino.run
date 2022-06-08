@@ -17,30 +17,39 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 - Macbook Pro Apple M1 Max, 32GB ram, 1TB ssd
   - Keyboard Keychron K3
-  - Mouse Logitech Marble
+  - Mouse Logitech MX Ergo
   - LG UltraFine 5K Display
   - Dock Station Universal Dell D6000
-- IPad Pro 1
+- iPad Pro 1
   - Apple Pencil
   - Smart Keyboard Folio
-- Bose QC 35
-- AirPods Pro → working meeting (out office)
+- Bose QC 35 _(use with cable, I got tired of forgetting to charge)_
+- AirPods Pro → working meeting (away from home office)
 - Deco M5 Tp-link (mesh networking 3 points)
+
+## Productivity
+
+- Todoist with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
+- Superhuman
+- [Cron](https://cron.app/)
+- Notion (to personal note)
+- 1Password
+- [Raycast](https://www.raycast.com/)
+- Spotify
+- Zapier (IFTTT personal actions)
 
 ## Business
 
 - Slack
-- Notion (corporate wiki)
-- GitHub (many resources, such as issue, discussions, releases, actions, etc)
+- [GitHub](https://github.com/avelino) (many resources, such as issue, discussions, releases, actions, etc)
 - Profit (TradeMap on mobile device) - marked financial
 - Google Workspace
-- Orbit Love
+- [Orbit Love](https://orbit.love/)
 - [Buttondown](https://buttondown.email/avelino) - newsletter system
 
 ## Development
 
-- VSCode (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit), in the past used [Emacs](https://github.com/avelino/.emacs)
-- IntelliJ (JVM/Java)
+- VSCode with ligth theme [Monotropic](https://github.com/avelino/monotropic-theme-vscode) (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit), in the past used [Emacs](https://github.com/avelino/.emacs)
 - Homebrew (pacman on archlinux, used [aur helper](https://github.com/avelino/aur))
 - TablePlus
 - [hyper](https://hyper.is/), _but I'm annoyed to know it's a browser (Chrome)_
@@ -50,20 +59,9 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 > For all software that has the option to change the theme I use [Dracula Pro](https://draculatheme.com/pro)
 > my dotfile share in [this repository](https://github.com/avelino/dotfiles)
 
-## Productivity
-
-- Todoist with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
-- Superhuman
-- [Cron](https://cron.app/), in the past used Fantastical
-- Notion
-- 1Password
-- [Raycast](https://www.raycast.com/), in the past used Alfred
-- Spotify
-- Zapier (IFTTT personal actions)
-
 ## Another apps
 
-- Chrome - main browser
+- Brave - main browser
 - Figma
 - Google Drive
 
