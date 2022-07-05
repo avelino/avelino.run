@@ -1,9 +1,10 @@
 +++
 date = "2022-06-29"
-title = "Gerentes deveria limitar trabalho em progresso e paralelo"
+title = "Gerentes: não ocupem cada minuto de suas agendas, deixem um espaço para reais imprevistos"
 tags = ["gestao", "team building", "carreira", "cto"]
-url = "gerentes-deveria-limitar-trabalho-em-progresso-e-paralelo"
+url = "gerentes-nao-ocupem-cada-minuto-de-suas-agendas-deixem-um-espaco-para-reais-imprevistos"
 images = ["/blog/gerentes-deveria-limitar-trabalho-em-progresso-e-paralelo-calendar.png"]
+aliases = ["/gerentes-deveria-limitar-trabalho-em-progresso-e-paralelo/"]
 +++
 
 A demanda por tempo de um gerente são infinitas e às vezes parece que você é demandado por todas as direções ao mesmo tempo. Provavelmente isso dificulta o foco e habilidade de ter visibilidade dos problemas futuros. Nesse blogpost conversaremos como limitar as pessoas exigirem mais do seu tempo e provavelmente fazer mais com menos.
