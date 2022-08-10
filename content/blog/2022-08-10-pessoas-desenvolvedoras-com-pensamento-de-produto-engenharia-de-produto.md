@@ -1,0 +1,52 @@
++++
+date = "2022-08-10"
+title = "Pessoas desenvolvedoras com pensamento de produto - Engenharia de Produto"
+tags = ["produto", "product-engineer", "desenvolvimento"]
+url = "pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto"
+images = ["/blog/pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto.png"]
+draft = true
++++
+
+A cada dia que passa é mais comum as empresas querer puxar as pessoas desenvolvedoras para área de negócio, por outro lado, as pessoas desenvolvedoras não querem ir para área de negócio.
+
+*Acho meio logico* o porquê as pessoas desenvolvedoras não querem ir para área de negócio, ela estudou (esta estudando) alguma área relacionada com computação, se ela de fato quisesse ir para área de “negocio” provavelmente ela não teria feito computação.
+
+Será que nós pessoas desenvolvedoras não devemos pensar um pouco mais como **engenheiro de produto** ao invés de só dizer que não quer ir para área de negócio?
+
+## O que é engenharia de produto?
+
+Comparado a um engenheiro de software, a pessoa Engenheira de Produto é alguém que acredita que seu tempo é melhor utilizado para entender as necessidades dos clientes e trabalhar para construir as melhores soluções para atender os clientes.
+
+Em vez de colocar seus esforços apenas nos aspectos técnicos essa pessoa olha para a experiência do usuário (UX), sem deixar de lado a infra-estrutura de tecnologia. É envolvida em todo o ciclo de descoberta de produto para trazer seu olhar de tecnologia para a solução que melhor atende o usuário.
+
+A pessoa engenheira de produto busca inovação, estratégia e entusiasmo em entregar o que o usuário do produto precisa, não só o código que faz o produto se tornar realidade — código é o meio para resolver algum problema, não a entrega final para o produto.
+
+Sabemos o impacto que o código gera para o negócio e usuários, mas ele não é o protagonista para o produto. Aproximando pessoas de engenharia, produto e design possivelmente chegaremos na melhor solução para o problema, sempre colocando o usuário como centro da tomada de decisão.
+
+Não basta entregar "software” sem pensar como os dados gerado por ele será usado. A maioria dos produtos depende de software para gerar dados e com os dados as pessoas de negócio conseguir tomar a melhor decisão para qual caminha o produto ou empresa deve seguir.
+
+> Geralmente o engenheiro de software coloca seus esforços em entregar o software que esta desenvolvendo, pensando pouco como o software e dados serão usados.
+
+**Em resumo:** a pessoa engenheira de produto é alguém que busca entender o usuário e pontos com maior fricção. São apaixonados em usar tecnologia para resolver problemas e sabe como aplica-la para solucionar o problema a curto, médio e longo prazo, começando simples e conectada com a estratégia de longo prazo.
+
+## Todas pessoas desenvolvedoras devem ser engenheiras de produto?
+
+**Não sei responder essa pergunta**, mas acredito que todas as pessoas desenvolvedoras deveriam entender porque você esta sendo pago para transforma problema em solução no formato de código.
+
+> Seremos melhores pessoas engenheiras quando conseguirmos entender o negócio da empresa.
+
+Para responder essa pergunta para mim, fui à teoria como um time de alta performance é formado.
+
+Equipe de alta performance pode ser definida como um grupo de pessoas que possuem **talentos e competência que se complementam**, que estão alinhados e comprometidos com um **objetivo em comum**, demonstra um alto nível de **colaboração** e **inovação**, assim resultando em ações com qualidade. Sempre **unida e focada em seu objetivo**, pronta para suportar algum membro que esteja enfrentando alguma dificuldade ou barreira e para assim garantir que irá atingir o objetivo.
+
+É uma equipe em que as pessoas têm um **altíssimo grau comprometimento** com o **resultado de alto nível**. Por isso, que os membros do time possuem a **colaboração** como uma **característica para resolução de problemas**.
+
+## Equilíbrio entre Qualidade e Entrega
+
+O CEO (*Chief Executive Officer*) quer mais clientes, CTO (*Chief Technology Officer*) quer um excelente software, CPO (*Chief Product Officer*) busca resolver ambos assuntos usando esse conhecimento e experiência aplicada no produto, com dados, metodologia e métodos.
+
+O engenheiro de produto usa sua experiência técnica para trabalhar com a equipe de desenvolvimento, priorizando o que precisa ser feito contra o que pode ser feito, metrificando tempo investido e retorno para o produto.
+
+O centro da priorização deve ser os dados de uso do produto, buscando entregar o que o cliente precisa e menos o que “achamos” que ele precisa. Para determinar esse valor, devemos conseguir usar a tecnologia para criar protótipos dos novos recursos, descobrir como eles se encaixam na experiência do usuário e entender como eles impactam o produto atual.
+
+Usando a tecnologia para criar laços de feedback, priorizando o que deve ser construído no próximo ciclo, interpretando o resultado dos dados coletados contra o seu conhecimento previu de mercado, levando isso de volta ao time de desenvolvimento e recomeçando o ciclo novamente.
