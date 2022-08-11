@@ -1,11 +1,12 @@
 +++
-date = "2022-08-10"
+date = "2022-08-11"
 title = "Pessoas desenvolvedoras com pensamento de produto - Engenharia de Produto"
-tags = ["produto", "product-engineer", "desenvolvimento"]
+tags = ["produto", "product-engineer", "desenvolvimento", "carreira"]
 url = "pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto"
-images = ["/blog/pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto.png"]
-draft = true
+images = ["/blog/buser-pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto.png"]
 +++
+
+![Pessoas desenvolvedoras com pensamento de produto - Engenharia de Produto](/blog/buser-pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto.png)
 
 A cada dia que passa é mais comum as empresas querer puxar as pessoas desenvolvedoras para área de negócio, por outro lado, as pessoas desenvolvedoras não querem ir para área de negócio.
 
@@ -31,7 +32,7 @@ Não basta entregar "software” sem pensar como os dados gerado por ele será u
 
 ## Todas pessoas desenvolvedoras devem ser engenheiras de produto?
 
-**Não sei responder essa pergunta**, mas acredito que todas as pessoas desenvolvedoras deveriam entender porque você esta sendo pago para transformar problema em solução no formato de código.
+**Não sei responder essa pergunta**, mas acredito que todas as pessoas desenvolvedoras deveriam entender porque está recebendo seu salário, geralmente não é "só" para escrever qualquer código e sim transformar problema em solução que agregue mais valor para o negócio da empresa em formato de código.
 
 > Seremos melhores pessoas engenheiras quando conseguirmos entender o negócio da empresa.
 
