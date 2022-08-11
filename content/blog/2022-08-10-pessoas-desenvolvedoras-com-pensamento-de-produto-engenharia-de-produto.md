@@ -31,7 +31,7 @@ Não basta entregar "software” sem pensar como os dados gerado por ele será u
 
 ## Todas pessoas desenvolvedoras devem ser engenheiras de produto?
 
-**Não sei responder essa pergunta**, mas acredito que todas as pessoas desenvolvedoras deveriam entender porque você esta sendo pago para transforma problema em solução no formato de código.
+**Não sei responder essa pergunta**, mas acredito que todas as pessoas desenvolvedoras deveriam entender porque você esta sendo pago para transformar problema em solução no formato de código.
 
 > Seremos melhores pessoas engenheiras quando conseguirmos entender o negócio da empresa.
 
