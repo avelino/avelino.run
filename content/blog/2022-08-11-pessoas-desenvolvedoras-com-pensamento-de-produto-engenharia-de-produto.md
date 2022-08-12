@@ -50,4 +50,4 @@ O engenheiro de produto usa sua experiência técnica para trabalhar com a equip
 
 O centro da priorização deve ser os dados de uso do produto, buscando entregar o que o cliente precisa e menos o que “achamos” que ele precisa. Para determinar esse valor, devemos conseguir usar a tecnologia para criar protótipos dos novos recursos, descobrir como eles se encaixam na experiência do usuário e entender como eles impactam o produto atual.
 
-Usando a tecnologia para criar laços de feedback, priorizando o que deve ser construído no próximo ciclo, interpretando o resultado dos dados coletados contra o seu conhecimento previu de mercado, levando isso de volta ao time de desenvolvimento e recomeçando o ciclo novamente.
+Usando a tecnologia para criar laços de feedback, priorizando o que deve ser construído no próximo ciclo, interpretando o resultado dos dados coletados contra o que seu conhecimento previu de mercado, levando isso de volta ao time de desenvolvimento e recomeçando o ciclo novamente.
