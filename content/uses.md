@@ -19,20 +19,19 @@ I constantly get a few emails (my email is public on my [github profile](https:/
   - Keyboard Keychron K3
   - Mouse Logitech MX Ergo
   - LG UltraFine 5K Display
-  - Dock Station Universal Dell D6000
 - iPad Pro 1
   - Apple Pencil
   - Smart Keyboard Folio
 - Bose QC 35 _(use with cable, I got tired of forgetting to charge)_
 - AirPods Pro → working meeting (away from home office)
-- Deco M5 Tp-link (mesh networking 3 points)
+- Deco M5 Tp-link (mesh networking 4 points)
 
 ## Productivity
 
 - Todoist with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
 - Superhuman
 - [Cron](https://cron.app/)
-- Notion (to personal note)
+- [Logseq](https://logseq.com) (personal notes)
 - 1Password
 - [Raycast](https://www.raycast.com/)
 - Spotify
@@ -44,7 +43,6 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - [GitHub](https://github.com/avelino) (many resources, such as issue, discussions, releases, actions, etc)
 - Profit (TradeMap on mobile device) - marked financial
 - Google Workspace
-- [Orbit Love](https://orbit.love/)
 - [Buttondown](https://buttondown.email/avelino) - newsletter system
 
 ## Development
@@ -53,7 +51,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - Homebrew (pacman on archlinux, used [aur helper](https://github.com/avelino/aur))
 - TablePlus
 - [hyper](https://hyper.is/), _but I'm annoyed to know it's a browser (Chrome)_
-- Z shell and Oh My Zsh
+- fish shell
 - [paw](https://paw.cloud/) (pay one time license, cloud sync support)
 
 > For all software that has the option to change the theme I use [Dracula Pro](https://draculatheme.com/pro)
@@ -71,11 +69,10 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - [Netlify](https://www.netlify.com/)
 - Mailgun
 
-## Training
+## Training to IRONMAN/Triathlon
 
 - Bose SoundSport Free
-- Garmin 935 (watch)
+- Garmin 955 (watch)
 - Elite Direto XR smart training
-- RT 250 G3 treadmill
 - TrainingPeaks
 - Zwift
