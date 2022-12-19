@@ -28,14 +28,14 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Productivity
 
-- Todoist with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
-- Superhuman
+- [Todoist](https://todoist.com/) with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
+- [Superhuman](https://superhuman.com/?source=referral&referrer_email_address=avelinorun@gmail.com&via=email0)
 - [Cron](https://cron.app/)
-- [Logseq](https://logseq.com) (personal notes)
+- [Logseq](https://logseq.com) (personal notes, sync in [Logseq Cloud](https://blog.logseq.com/how-to-setup-and-use-logseq-sync/))
 - 1Password
 - [Raycast](https://www.raycast.com/)
 - Spotify
-- Zapier (IFTTT personal actions)
+- Zapier (__IFTTT_ personal actions)
 
 ## Business
 
@@ -47,11 +47,11 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Development
 
-- VSCode with ligth theme [Monotropic](https://github.com/avelino/monotropic-theme-vscode) (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit), in the past used [Emacs](https://github.com/avelino/.emacs)
+- [Emacs](https://github.com/avelino/dotfiles/tree/main/doom.d)
+- VS Code with ligth theme [Monotropic](https://github.com/avelino/monotropic-theme-vscode) (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit) 
 - Homebrew (pacman on archlinux, used [aur helper](https://github.com/avelino/aur))
-- TablePlus
 - [hyper](https://hyper.is/), _but I'm annoyed to know it's a browser (Chrome)_
-- fish shell
+- [Fish Shell](https://fishshell.com/)
 - [paw](https://paw.cloud/) (pay one time license, cloud sync support)
 
 > For all software that has the option to change the theme I use [Dracula Pro](https://draculatheme.com/pro)
@@ -59,7 +59,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Another apps
 
-- Brave - main browser
+- Google Chrome
 - Figma
 - Google Drive
 
@@ -71,7 +71,6 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Training to IRONMAN/Triathlon
 
-- Bose SoundSport Free
 - Garmin 955 (watch)
 - Elite Direto XR smart training
 - TrainingPeaks
