@@ -28,10 +28,10 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Productivity
 
+- [Logseq](https://logseq.com) (personal notes, sync in [Logseq Cloud](https://blog.logseq.com/how-to-setup-and-use-logseq-sync/))
 - [Todoist](https://todoist.com/) with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
 - [Superhuman](https://superhuman.com/?source=referral&referrer_email_address=avelinorun@gmail.com&via=email0)
-- [Cron](https://cron.app/)
-- [Logseq](https://logseq.com) (personal notes, sync in [Logseq Cloud](https://blog.logseq.com/how-to-setup-and-use-logseq-sync/))
+- [Cron](https://cron.app/) (desktop and mobile)
 - 1Password
 - [Raycast](https://www.raycast.com/)
 - Spotify
@@ -42,7 +42,6 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - Slack
 - [GitHub](https://github.com/avelino) (many resources, such as issue, discussions, releases, actions, etc)
 - Profit (TradeMap on mobile device) - marked financial
-- Google Workspace
 - [Buttondown](https://buttondown.email/avelino) - newsletter system
 
 ## Development
