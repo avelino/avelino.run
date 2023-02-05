@@ -1,0 +1,37 @@
++++
+title = "Construindo uma cultura de engenharia de produto"
+date = "2023-02-05"
+tags = ["produto", "product-engineer", "desenvolvimento", "carreira"]
+url = "construindo-cultura-de-engenharia-de-produto"
+images = ["/blog/construindo-cultura-de-engenharia-de-produto.png"]
++++
+
+![Construindo uma cultura de engenharia de produto](/blog/construindo-cultura-de-engenharia-de-produto.png)
+
+Antes de falar sobre como criar cultura de engenharia de produto precisamos alinhar o que é **Engenharia de Produto** *(para pessoa engenheira de software)* e *principalmente* o que é **cultura** (ou pelo menos o que estou chamando de cultura).
+**Engenharia de Produto** é um processo que colocamos nosso usuário como protagonista do "produto" que estamos desenvolvendo e buscamos entender os pontos com maior fricção para priorizar o que precisa ser feito *(não só o que queremos)*. Geralmente pessoas engenheiras de produto são apaixonadas em usar tecnologia para resolver problemas e sabe como aplica-la para solucionar problema a curto, médio e longo prazo, começando de forma simples (também podemos chamar de MVP) e conectada com a estratégia de longo prazo. Leia mais [aqui](https://avelino.run/pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto/).
+**Cultura** é o conjunto de saberes, costumes, tradições e expressões **transmitidas de geração em geração por um grupo de pessoas**, à forma como essas pessoas encaram o mundo e interagem entre si.
+
+## O que é Cultura de Engenharia de Produto
+
+É uma abordagem para desenvolver produtos de alta qualidade e rentáveis, envolvendo as melhores práticas da engenharia, a criatividade e a colaboração. Esta cultura se concentra em obter maior lucratividade e sucesso dos produtos na vida útil. Isso inclui o uso de análise de desempenho, análises de risco, pesquisa de mercado e processos de design para criar produtos que atendam às necessidades dos clientes. Também incentiva a inovação, a busca de excelência e uma mentalidade de longo prazo.
+Visando garantir o sucesso do produto, a cultura incentiva a colaboração entre as pessoas envolvidas no processo. Por exemplo, pessoas engenheiras trabalhar próximo de pessoas de marketing, comercial e etc, com o propósito de desenvolver um produto para atender melhor às necessidades dos clientes. Essa colaboração é essencial para o sucesso do produto e para assegurar que o produto está evoluindo com a necessidade dos clientes e não por ~~achismo~~ dos gestores.
+A cultura de engenharia de produto também trabalha com um escopo mais amplo de perspectivas de negócios. Por exemplo, levamos em conta a manutenção e o processo de atualização do produto, além do custo em que o produto foi produzido e o retorno sobre o investimento. Ao usar esses recursos para obter informações sobre como melhorar o desempenho dos produtos, os profissionais de engenharia de produto podem criar soluções eficientes e lucrativas para qualquer problema.
+O aspecto chave de uma cultura de engenharia de produto é o foco na colaboração e comunicação. Isto envolve reuniões regulares e check-ins para assegurar que todos os membros da equipe estejam na mesma página, bem como a utilização de ferramentas e tecnologias para facilitar a colaboração e comunicação (independente da localização de cada membro do time) - sem sombra de dúvida as metodologias ágeis ajudarão muito e garantirá a recorrência da comunicação.
+**Em resumo**, uma cultura de engenharia de produto é caracterizada por um foco na entrega de produtos de alta qualidade que satisfaçam as necessidades dos clientes, bem como um compromisso de colaboração, comunicação, e melhoria contínua. Ao promover este tipo de cultura, as organizações podem criar um ambiente de trabalho positivo e produtivo que permita a máxima inovação e sucesso.
+
+## Como criar uma Cultura de Engenharia de Produto?
+
+Independente da cultura que você quer ou precisa criar é um processo árduo, contínuo e leva tempo - *cultura não será criada do dia para noite* - **quando você cansar de falar sobre a cultura será o momento que as pessoas estão começando entender o primeiro item da cultura**, isso significa que a liderança deve constantemente investir muito tempo para falar sobre cultura e formar novos *"guardiões da cultura"*.
+A chave para o sucesso da criação de cultura é o diálogo contínuo, o envolvimento das pessoas no processo e consistência na prática. Descrevo abaixo como tenho feito para construir essa cultura na Buser:
+
+* **Desenvolva software coletando métricas dos seus usuários.** É comum ter ansiedade (pressa) para colocar um novo recurso do produto no ar, mas *não caia na armadilha* de colocar o recurso em produção sem antes coletar métricas úteis de uso do novo recurso. Tendo métricas conseguimos priorizar a *evolução do recurso ou até mesmo descontinuar o recurso*.
+* **Busque sempre conhecer seu usuário.** Quanto mais você conhecer seu cliente melhor é (tenha empatia), **entrevistas, discoveries e etc** são primordiais para se conectar com ele - é comum pessoas que não conhece produto não gostar de "discovery" por ter tido experiencia com discovery que levam dias e dias, não crie **pré**-conceito com suas experiências ruim antes de estudar sobre discovery.
+* **Conheça os dados que esta capturando.** Você deve ser a pessoa que mais conhece os dados que esta capturando do seu cliente (mesmo que seja um "simples" click no botão XYZ).
+* ***Busque usar dados como seu guia.** Ser **"data drive"** não é nada fácil (principalmente para quem está começando), então comece usando os dados como validador do seu*"feeling"*, mas busque ter dados confiáveis, assim conseguira deixar o feeling de lado e usar verdadeiramente os dados.
+* **Invista muito tempo em melhorar a comunicação.** Ter uma comunicação clara e concisa não é fácil - o maior problema das empresas são GAPs de comunicação. Se o time todo não estiver indo pro mesmo lado faremos um *cabo de guerra*, gastando energia com assuntos desnecessários.
+* **Conecte as pessoas engenheiras com o negócio.** Seremos melhores pessoas engenheiras quando conseguirmos entender o negócio da empresa. Estimule e dê tempo para seu time de engenharia entender sobre o negócio, se possível incentive eles a se tornar usuário do produto que desenvolve.
+* **Entenda todos os custos envolvidos.** Tenha controle do custo que seu produto gera, assim você conseguirá estimar quanto o novo recurso custará e entender se vale o investimento. **Exemplo:** o custo do time éde R$ 100 mil/mês, o novo recurso vai agregar R$ 10 mil/mês, você precisa de 10 meses de faturamento (depois que o novo recurso entrou no ar) para "recuperar o investimento". Não estou falando para não "arriscar" no desenvolvimento desse recurso e sim entender se não tem outro recurso que pode ter mais **ROI** *(retorno sobre investimento)*.
+* **Esteja aberto para feedback**. A melhor maneira de melhorar a cultura é ouvindo as pessoas que vão viver ela no dia a dia. Peça o feedback deles sobre tudo, incentivando a colaboração e o diálogo aberto - isso fará as pessoas se sentir parte da definição da cultura, assim formando fiéis guardiões.
+* **Desenvolva e incentive a liderança.** Identifique bons líderes entre os seus colaboradores, estimule-os e treine-os para replicar uma cultura saudável.
+* **Crie oportunidades para a colaboração.** Crie oportunidades para que as pessoas trabalhem juntas em *projetos* interessantes - estimular a colaboração cria um ambiente de trabalho produtivo e de sucesso.
