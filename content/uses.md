@@ -18,24 +18,22 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - Macbook Pro Apple M1 Max, 32GB ram, 1TB ssd
   - Keyboard Keychron K3
   - Mouse Logitech MX Ergo
-  - LG UltraFine 5K Display
-- iPad Pro 1
+  - Samsung 28" 4K UR550
+- iPad Pro 2
   - Apple Pencil
   - Smart Keyboard Folio
-- Bose QC 35 _(use with cable, I got tired of forgetting to charge)_
-- AirPods Pro → working meeting (away from home office)
+- AirPods Pro 2
 - Deco M5 Tp-link (mesh networking 4 points)
 
 ## Productivity
 
 - [Logseq](https://logseq.com) (personal notes, sync in [Logseq Cloud](https://blog.logseq.com/how-to-setup-and-use-logseq-sync/))
-- [Todoist](https://todoist.com/) with a [GTD mindset](https://gettingthingsdone.com/) for managing my tasks.
+  - _migrate_ **todoist** (task manager) to **Logseq** with a [PKM mindset](https://databaseline.tech/knowledge-management/) for managing my tasks.
 - [Superhuman](https://superhuman.com/?source=referral&referrer_email_address=avelinorun@gmail.com&via=email0)
 - [Cron](https://cron.app/) (desktop and mobile)
 - 1Password
 - [Raycast](https://www.raycast.com/)
 - Spotify
-- Zapier (__IFTTT_ personal actions)
 
 ## Business
 
@@ -58,7 +56,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Another apps
 
-- Google Chrome
+- Brave
 - Figma
 - Google Drive
 
