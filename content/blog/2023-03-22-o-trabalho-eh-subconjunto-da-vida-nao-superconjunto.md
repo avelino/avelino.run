@@ -26,7 +26,7 @@ Muitas vezes surge em discussões sobre o equilíbrio trabalho e vida. É 100% c
 
 Algumas medidas práticas que podemos tomar para construir uma vida equilibrada:
 
-- **Priorizar as relações: cultivar e manter relações fortes com a família, amigos e entes queridos. Reserve um tempo dedicado a conectar e nutrir esses laços, pois eles proporcionam um sistema vital de apoio e equilíbrio emocional.
+- **Priorizar as relações:** cultivar e manter relações fortes com a família, amigos e entes queridos. Reserve um tempo dedicado a conectar e nutrir esses laços, pois eles proporcionam um sistema vital de apoio e equilíbrio emocional.
 - **Invista em sua saúde:** faça esforço consciente para priorizar seu bem-estar físico, mental e emocional. Exercite-se regularmente, coma saudavelmente, pratique técnicas de redução do estresse e procure ajuda profissional quando necessário.
 - **Busque interesses pessoais:** reserve tempo para passatempos e interesses fora do trabalho. Envolver-se em atividades pelas quais você é apaixonado pode levar ao aumento da felicidade, à redução do estresse e a uma maior sensação de realização.
 - **Estabeleça Fronteiras:** estabeleça limites claros entre o trabalho e a vida pessoal. Evite trabalhar horas excessivamente longas ou trazer trabalho para casa. Ao estabelecer limites, você pode proteger seu tempo e energia para outros aspectos essenciais da vida.
