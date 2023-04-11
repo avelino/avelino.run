@@ -1,13 +1,22 @@
 <div class="row" style="background: #FEFFE0; display: block; padding: 20px; margin: 40px; border-radius: 10px; border-left: solid 5px #664d03; color: #664d03; font-size: 16px;">
     <p>
-        Uma <a href="https://buttondown.email/avelino" ref="nofollow" target="_blank">newsletter</a> sobre engenharia de software, gestão de time, formação de time, livros e muitas anotações que faço depois de ler/estudar (o meu ou o seu)... :D
+        Uma <a href="https://news.avelino.run/" ref="nofollow" target="_blank">newsletter</a> sobre engenharia de software, gestão de time, formação de time, livros e muitas anotações que faço depois de ler/estudar (o meu ou o seu)... :D
     </p>
-    <form action="https://buttondown.email/api/emails/embed-subscribe/avelino" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/avelino', 'popupwindow')" class="embeddable-buttondown-form">
-        <label for="bd-email">E-mail: </label>
-        <input type="email" name="email" id="bd-email" style=" border-radius: 10px; border: solid 1px #664d03;" />
-        <input type="hidden" value="1" name="embed" />
-        <input type="hidden" name="tag" value="from-avelino.run" />
-        <input type="submit" value="assinar ❤" style="background-color: #f9da18; border-radius: 10px; border: solid 2px #664d03;" />
-    </form>
+    <div id="custom-substack-embed"></div>
+    <script>
+        window.CustomSubstackWidget = {
+            substackUrl: "news.avelino.run",
+            placeholder: "example@gmail.com",
+            buttonText: "assinar ❤",
+            theme: "custom",
+            colors: {
+              primary: "#F9DA18",
+              input: "#664D03",
+              email: "#F9DA18",
+              text: "#664D03",
+            }
+        };
+    </script>
+    <script src="https://substackapi.com/widget.js" async></script>
 </div>
 <hr />
