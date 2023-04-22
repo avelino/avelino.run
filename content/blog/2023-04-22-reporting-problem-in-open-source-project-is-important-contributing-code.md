@@ -4,7 +4,6 @@ date = "2023-04-22"
 tags = ["foss", "oss", "open source", "contributer"]
 url = "reporting-problem-in-open-source-project-is-important-contributing-code"
 images = ["/blog/reporting-problem-in-open-source-project-is-important-contributing-code.jpg"]
-draft = true
 +++
 
 ![Reporting a problem in an Open Source project is as important as contributing code](/blog/reporting-problem-in-open-source-project-is-important-contributing-code.jpg)
