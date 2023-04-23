@@ -30,3 +30,5 @@ Avoid leaving to report the issue later, you will probably forget important deta
 
 > this blogpost came up after I reported an issue in a project and the first comment was from a person saying he had run into the same problem "yesterday".
 > **what came to my mind was:** why didn't the person report this issue yesterday?
+
+[Query](https://github.com/search?q=is%3Apublic++author%3Aavelino+&type=issues&ref=advsearch&s=updated&o=desc) that I am constantly following on GitHub to keep track of the issues I opened, looking today there are **1.1k** issues in public repositories.
