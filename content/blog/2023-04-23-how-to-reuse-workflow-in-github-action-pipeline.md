@@ -13,7 +13,7 @@ Before I tell you how to do it, I will describe the problem I needed to solve an
 I maintain an Open Source project called [moclojer](https://github.com/moclojer/moclojer) written in **Clojure** and we use [GraalVM Native Imagem](https://www.graalvm.org/22.0/reference-manual/native-image/) to distribute the software in binary format (with everything self-contained).
 The configuration of native-image receives several parameters, some refer to libraries used in the project code and it depends on a `.jar` file, so there are some steps before "running" the command that generates the binary.
 
-Steps to generate the [moclojer] binary (<https://github.com/moclojer/moclojer>):
+Steps to generate the [moclojer](https://github.com/moclojer/moclojer) binary:
 
 1. generate the `.jar` file
 2. generate the configuration file `reflect.config.json` from the `.jar`.
