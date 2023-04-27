@@ -25,7 +25,7 @@ In [moclojer](https://github.com/moclojer/moclojer) I needed to run the pipeline
 
 When opening *"pull request "* I don't need to generate the binary every time just once when everything is right with the contribution, but every *"push "* I want to generate the `.jar` to validate that everything is working.
 
-\## How to reuse the workflow in GitHub Action pipeline?
+## How to reuse the workflow in GitHub Action pipeline?
 
 *Now that we are clear on the need, let's get to the point of how to do it.*
 
