@@ -2,7 +2,7 @@
 title = Fale com confiança como se você estivesse certo, mas escute com atenção como se estivesse errado
 date = "2023-05-03"
 tags = ["autoconhecimento","escuta ativa","carreira","evolução pessoal"]
-url = "fale-com-confianca-como-se-voce-estivesse-certo-mas-escute-com-atencao-como-se-estivesse-errado"
+url = "/fale-com-confianca-como-se-voce-estivesse-certo-mas-escute-com-atencao-como-se-estivesse-errado"
 images = ["/blog/fale-com-confianca-como-se-voce-estivesse-certo-mas-escute-com-atencao-como-se-estivesse-errado.jpeg"]
 +++
 
