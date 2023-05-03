@@ -2,7 +2,8 @@ baseURL = "https://avelino.run/"
 languageCode = "en-us"
 title = "Avelino"
 theme = "sarah"
-googleAnalytics = "UA-3063031-15"
+# googleAnalytics = "UA-3063031-15"
+googleAnalytics = "G-C012SCWHF2"
 disqusShortname = "avelino"
 
 [permalinks]
