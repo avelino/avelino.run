@@ -15,8 +15,6 @@ Após alguns anos, foi momento de trazer um Diretor de Tecnologia para fazer par
 
 Aos que não conhece o “Avelino do passado” não sabe que eu tinha 180 kg e que agora estou treinando para meu primeiro triathlon, não vou entra muito nesse tema, tera outros blogposts referente a isso em breve. Quero falar um pouco mais sobre esse tweet:
 
-{{< tweet 1077860181407686657 >}}
-
 Essa certeza de querer mudar só veio a tona quando eu [tirei um tempo para refletir na minha vida](https://avelino.run/lifestyle/2018-11-12-viagem-de-carro-em-familia-2018/), eu já queria fazer, mas a insegurança não deixava.
 
 ### Mudar a carreira profissional para outra área?

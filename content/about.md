@@ -4,7 +4,7 @@ title = "About"
 tags = ["about", "avelino", "open source", "thiago avelino"]
 +++
 
-I’m Thiago Avelino CTO at [buser](https://linkedin.com/company/buserbrasil/) creator/maintainer any [open source projects](https://github.com/avelino)) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br).
+I’m Thiago Avelino CTO at [buser](https://linkedin.com/company/buserbrasil/), creator/maintainer any [open source projects](https://github.com/avelino) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br).
 
 Contributor to any Open Source projects, study focus is **team building**, **people tech management** _(human/evolutionary psychology)_ and **open source** _(and all distributed contribution ecosystem)_. My day job is to help the team I lead to evolve professionally and get to where it planned to get, delivering great results for the company, encouraging them to achieve their best professional performance.
 

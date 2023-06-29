@@ -8,7 +8,6 @@ title = "Formando desenvolvedores de alta performance"
 
 Estou a mais de 1 ano treinando para meu primeiro triathlon (**IRONMAN 70.3**) e nos últimos 7 meses treinando com time de alta performance que faz triathlon profissionalmente a muitos anos. O ano de 2018 foi um ano de muito aprendizado em uma área que nunca imaginei que entraria, para contextualizar segue o conteúdo abaixo:
 
-{{< tweet 1077860181407686657 >}}
 
 ## Novos atletas no time
 

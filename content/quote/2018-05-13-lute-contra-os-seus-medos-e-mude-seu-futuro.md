@@ -7,15 +7,11 @@ aliases = ["/medo-lute-contra-os-seus-medos-e-mude-seu-futuro/"]
 
 Por onde começar? Que tal essa enquete abaixo!
 
-{{< tweet 988098611387957248 >}}
-
 ![Oque lhe causa medo?](/medo.png#center)
 
 **AVISO:** *Estou expondo minha opinião pessoal (recomendo considerar como loucura da minha cabeça)*
 
 Analisando o resultado da enquete fica extremamente claro que o medo de muitos é o **fracasso**, não é nada fácil combater esse medo (mas é necessário para uma evolução pessoal), uma das formas de combater qualquer medo é encarar ele de frente, isso não quer dizer que você não tem medo e sim que esta batendo de frente com você mesmo.
-
-{{< tweet 988799964066304000 >}}
 
 Lendo a história de muitos atletas de alta performance muitos tem medo de não conseguir, mas com muito treino (onde geram dores, lesões e etc) o medo de não conseguir passa pois você se preparou para o momento que lhe gera medo. Qual a diferença disso para nossa vida? Nenhuma, tudo é questão de treino, persistência e muita meditação (alinhamento de pensamento).
 

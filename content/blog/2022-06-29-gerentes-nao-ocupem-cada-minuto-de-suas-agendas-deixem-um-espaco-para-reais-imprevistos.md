@@ -19,7 +19,6 @@ Assim que voltei de viagem configurei o meu calendário para mostrar meu horári
 
 Demorei um pouco para entender realmente o que aconteceu e por que estava funcionando. O que começou a me ajudar a montá-la foi essa thread no twitter:
 
-{{< tweet 1488718955254403074 >}}
 
 ## Calendário como quadro Kanban
 
@@ -39,7 +38,6 @@ Trabalho paralelo é assombroso. Ao invés de etapas de fluxo de trabalho, uso d
 
 Os benefícios são óbvios (pelo menos para mim) — menos exigências no meu tempo, menos trabalho para fazer, tudo em torno de um trabalho menos estressante, além disso, me senti mais produtivo. De onde isso vem? Minha resposta a essa pergunta veio deste fantástico tweet:
 
-{{< tweet 1526186840847314944 >}}
 
 Estou citando isso — porque é uma verdade, mas a tl;dr (longo prazo) provavelmente surgirá um imprevisto, pequenas interrupções se transformam em grandes atrasos porque não tem como recuperar o atraso.
 

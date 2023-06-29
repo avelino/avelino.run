@@ -12,7 +12,6 @@ Costumo dizer que contribuir com open source é viciante, faz você passar horas
 
 Em um primeiro momento sim, mas como qualquer sonho nem tudo é previsível (principalmente quando você nunca ocupou essa posição antes). A ideia de escrever esse blogpost é expor um cenário que provavelmente você não analisou. Quando estamos apaixonados achamos que o caminho a percorrer é composto de flores.
 
-{{< tweet 976630019631050755 >}}
 
 ## Vamos direto ao ponto!
 
@@ -49,4 +48,3 @@ Por último e julgo o mais importante você ter ciência é: **Open Source é ma
 
 Lição aprendida na **PythonBrasil[13]**
 
-{{< tweet 1002139483494592513 >}}

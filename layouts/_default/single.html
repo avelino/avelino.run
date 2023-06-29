@@ -1,31 +1,44 @@
-{{ partial "header.html" . }}
-{{ partial "navigation.html" . }}
+{{ define "main" }}
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">{{ .Title }}</h1>
+			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
+		</div>
+		{{ if isset .Params "tldr" }}
+		<div class="tldr">
+			<strong>tl;dr:</strong>
+			{{ .Params.tldr }}
+		</div>{{ end }}
 
-<!--Header-->
-<header class="background blog-header"></header>
-<!--Header-->
+		{{ partial "newsletter.html" . }}
 
-<!--Article-->
-<div class="container">
-    <div class="article">
-        <div class="row">
-            <div class="col-md-12">
-                <a class="article__back-link" href="/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Back</a>
+		<section class="body">
+			{{ .Content }}
+		</section>
 
-                <h1 class="article__title">{{ .Title }}</h1>
-                <p class="article_date">
-                    {{ .Date.Format .Site.Params.dateform }} | ~{{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}
-                </p>
-                {{ partial "newsletter.html" . }}
-                {{ partial "share.html" . }}
-                {{ .Content }}
-                {{ partial "share.html" . }}
-                {{ partial "tags.html" . }}
-                {{ template "_internal/disqus.html" . }}
-            </div>
-        </div>
-    </div>
-</div>
-<!--Article-->
+		<div class="post-tags">
+			{{ if ne .Type "page" }}
+			{{ if gt .Params.tags 0 }}
+			<nav class="nav tags">
+				<ul class="tags">
+					{{ range .Params.tags }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</nav>
+			{{ end }}
+			{{ end }}
+		</div>
+		{{- $.Scratch.Set "isDisqus" true -}}
+		<!-- Check if disqus short name is given -->
+		{{ if not .Site.DisqusShortname }}
+		{{- $.Scratch.Set "isDisqus" false -}}
+		{{ end }}
 
-{{ partial "footer.html" . }}
+		{{- if eq ($.Scratch.Get "isDisqus") true -}}
+		{{- partial "disqus.html" . -}}
+		{{- end -}}
+	</article>
+</main>
+{{ end }}

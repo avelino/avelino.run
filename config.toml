@@ -1,41 +1,17 @@
 baseURL = "https://avelino.run/"
 languageCode = "en-us"
-title = "Avelino"
-theme = "sarah"
+title = "Thiago Avelino"
+theme = "archie"
 # googleAnalytics = "UA-3063031-15"
 googleAnalytics = "G-C012SCWHF2"
 disqusShortname = "avelino"
 
-[permalinks]
-fixed = ":title/"
-blog  = ":slug"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-[params]
-author = "Avelino"
-keywords = ["Tech Team Building", "People Tech Management", "Golang", "Clojure", "Python", "Triathlon"]
-description = "I use open source to help people evolve, I take pleasure in seeing people evolve"
-avatar = "about/2022-06-avelino.jpeg"
-dateform = "Jan 2, 2006"
-lang = "en"
-footertext = "written by avelino"
-aboutFile = "about.md"
-microsoftClarity = "bsmr5wva0z"
-
-[params.social]
-instagram     = "avelinorun"
-github        = "avelino"
-twitter       = "avelinorun"
-linkedin      = "avelinorun"
-# googleplus    = "thiagoavelino"
-
-[[params.info]]
-label = "Email"
-value = "avelinorun AT gmail DOT com"
-link = "mailto:avelinorun@gmail.com"
-
-[[params.info]]
-label = "Address"
-value = "Brazil, São Paulo, SP"
+paginate=4 # articles per page
 
 [blackfriday]
 plainIDAnchors = true
@@ -46,3 +22,47 @@ unsafe= true
 
 [minify]
 minifyOutput = true
+
+[permalinks]
+fixed = ":title/"
+blog  = ":slug"
+
+[params]
+author = "Thiago Avelino"
+mode="auto" # color-mode → light,dark,toggle or auto
+useCDN=true # don't use CDNs for fonts and icons, instead serve them locally.
+subtitle = "I use open source to help people evolve, I take pleasure in seeing people evolve"
+mathjax = false # enable MathJax support
+katex = false # enable KaTeX support
+customcss = ["/css/custom.css"]
+
+# Social
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/avelino"
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/avelinorun"
+
+# Main menu Items
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "projects"
+url = "/projects"
+weight = 2
+
+[[menu.main]]
+name = "all posts"
+url = "/blog"
+weight = 3
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 4

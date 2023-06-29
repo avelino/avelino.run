@@ -9,8 +9,6 @@ aliases = ["/acelerar-no-caminho-errado-ou-desacelerar-para-chegar-onde-realment
 
 E quando raramente param para refletir sobre a vida, se deparam com um imenso abismo emocional entre elas e as pessoas que lhe são mais caras.
 
-{{< tweet 994518252607934464 >}}
-
 A realidade é que não adianta você acelerar muito, estando no caminho errado. Você só vai chegar mais rápido a lugar algum.
 
 Mesmo sendo algo contra intuitivo, desacelerar é justamente o que fará com que você atinja seus objetivos de vida de forma mais rápida.
@@ -21,4 +19,3 @@ E à partir desse nível de clareza, naturalmente você terá mais foco. E com f
 
 Mais qualidade de vida para você e todos que estão ao seu redor.
 
-{{< tweet 998140201095585792 >}}

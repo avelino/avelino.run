@@ -81,8 +81,6 @@ Estava vivendo em um ritmo frenético e estava precisando tirar alguns dias para
 
 Esse tempo off-line me fez ter muitas (muitas mesmo) ideias me causando ansiedade no último dia, não sabia como iria conseguir executar todas as ideias que tive, para não entrar em um _burnout_ foi o momento de fazer planejamento de tudo que eu realmente queria fazer (tirar as ideias da cabeça e passar para um _“papel”_)
 
-{{< tweet 1059215402952204288 >}}
-
 **Notas finais:** Precisamos nos desconectar de nosso dia a dia para viver com as pessoas que correm conosco (no meu caso família) todos os dias e acabam me aguentando nos momentos que não é compartilhado em redes sociais ([Instagram](https://instagram.com/avelinorun)), geralmente publicamos momentos bons, mas nem tudo é Instagram e analisar se estamos seguindo nossas premissas de vida ou se estamos postergando (empurrando com a barrida) alguma decisão que já deveria ter tomado.
 
 ## Algumas fotos

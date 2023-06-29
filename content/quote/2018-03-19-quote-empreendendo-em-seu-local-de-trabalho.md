@@ -15,8 +15,6 @@ Em 2014 palestrei em alguns evendo falando sobre **Empreender em seu local de tr
 
 [Trocando forma de pensar (mudando mindset) de empresário para 'empregado'](https://avelino.run/trocando-forma-de-pensar-mudando-mindset-de-empres%C3%A1rio-para-empregado/)
 
-{{< tweet 975517764470366210 >}}
-
 
 ### Empreendedorismo
 
