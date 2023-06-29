@@ -29,7 +29,7 @@ blog  = ":slug"
 
 [params]
 author = "Thiago Avelino"
-mode="auto" # color-mode → light,dark,toggle or auto
+mode="toggle" # color-mode → light,dark,toggle or auto
 useCDN=true # don't use CDNs for fonts and icons, instead serve them locally.
 subtitle = "I use open source to help people evolve, I take pleasure in seeing people evolve"
 mathjax = false # enable MathJax support
