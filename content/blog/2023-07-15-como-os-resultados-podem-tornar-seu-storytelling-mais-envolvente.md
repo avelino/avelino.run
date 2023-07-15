@@ -8,9 +8,9 @@ images = ["/blog/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvent
 
 ![Como os resultados podem tornar seu storytelling mais envolvente](/blog/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvente.png)
 
-> Contra fatos (resultado) não a argumentos, essa é muito utilizada, mas não é simples aplicar no dia-a-dia.
+> Contra fatos (resultado) não há argumentos, essa é muito utilizada, mas não é simples aplicar no dia-a-dia.
 
-O storytelling é uma forma poderosa de comunicar ideias e gerar conexão com seu público. Ao contar uma história com dados reais, você compartilhar seus conhecimentos, experiências e perspectivas de uma forma que seja memorável.
+O storytelling é uma forma poderosa de comunicar idéias e gerar conexão com seu público. Ao contar uma história com dados reais, você compartilhar seus conhecimentos, experiências e perspectivas de uma forma que seja memorável.
 
 Os resultados são fatos e estatísticas que apoiam sua história e ajudam a torná-la mais credível e convincente.
 
@@ -18,7 +18,7 @@ Por exemplo, se você estiver contando uma história sobre os benefícios de um 
 
 Os resultados devem ser usados em qualquer tipo de história, seja ela uma história pessoal ou uma história de negócios. Ao usar resultados, você pode tornar seu storytelling mais envolvente e convincente, e você pode ajudar seu público a entender melhor sua mensagem.
 
-Seguem algumas dicas que utilizo para conectar resultado com storytelling:
+**Seguem algumas dicas que utilizo para conectar resultado com storytelling:**
 
 * Entenda qual seu público, conecte o resultado de forma fácil para o público entender.
 * Use resultados relevantes para sua história. Certifique-se de que os resultados que você usa sejam diretamente relacionados à mensagem que você está tentando transmitir.
@@ -33,8 +33,8 @@ Portanto, se você deseja contar histórias que sejam envolventes e convincentes
 
 **Se focar no resultado, a história será memorável.** Infelizmente, se só pensar na história, o resultado tende a ser **medíocre**.
 
-Isso ocorre porque ao se concentrar no resultado, está pensando onde quer chegar, não em distração que levará para longe dele. Ao pensar em como quer contar a história, tende deixar o **ego** lhe afastará do objetivo (resultado).
+Isso ocorre porque ao se concentrar no resultado, está pensando onde quer chegar, não em distração que levará para longe dele. Ao pensar em como quer contar a história, tende deixar o **ego** lhe afastar do objetivo (resultado).
 
-Ao se concentrar apenas na história, está propenso contar uma história que *seja chata, previsível e sem impacto*. Isso ocorre porque está focado em contar uma história que seja ~~boa~~ do que compartilhar o resultado em forma de história (relevante para seu público).
+Ao se concentrar apenas na história, está propenso contar uma que *seja chata, previsível e sem impacto*. Isso ocorre porque está focado em contar uma história que seja ~~boa~~ do que compartilhar o resultado em forma de história (relevante para seu público).
 
 Então, se quer contar histórias que sejam memoráveis, concentre-se no resultado. Pense no que deseja que seu público aprenda. E compartilhe um bom resultado em forma de história relevante para eles.
