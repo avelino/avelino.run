@@ -6,7 +6,7 @@ url = "/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvente"
 images = ["/blog/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvente.png"]
 +++
 
-![Como os resultados podem tornar seu storytelling mais envolvente](/blog/omo-os-resultados-podem-tornar-seu-storytelling-mais-envolvente.png)
+![Como os resultados podem tornar seu storytelling mais envolvente](/blog/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvente.png)
 
 > Contra fatos (resultado) não a argumentos, essa é muito utilizada, mas não é simples aplicar no dia-a-dia.
 
