@@ -43,4 +43,4 @@ Então, se quer contar histórias que sejam memoráveis, concentre-se no resulta
 
 Nesta conversa, o [@Paulo Silveira](https://twitter.com/paulo_caelum) *(host que é um contador de histórias)*, [@Valquíria Alencar](https://www.linkedin.com/in/valquiria-alencar/) *(Instrutora de Dados na Alura)* e [@Guilherme Silveira](https://www.linkedin.com/in/guilhermeazevedosilveira/) *()* falou sobre Ciência de Dados e storytelling, a capacidade de "contar uma história" ou passar adiante uma informação clara e interessante quando estamos criando exibições de análises de dados.
 
-<iframe title="TechGuide: Storytelling com dados – Hipsters Ponto Tech #368" src="https://pca.st/embed/znhga6y3" style="border: 0; border-radius: 8px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0"></iframe>
+<iframe title="TechGuide: Storytelling com dados – Hipsters Ponto Tech #368" src="https://pca.st/embed/znhga6y3" style="border: 0; border-radius: 8px; width: 100%" frameborder="0"></iframe>
