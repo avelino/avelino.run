@@ -38,3 +38,9 @@ Isso ocorre porque ao se concentrar no resultado, está pensando onde quer chega
 Ao se concentrar apenas na história, está propenso contar uma que *seja chata, previsível e sem impacto*. Isso ocorre porque está focado em contar uma história que seja ~~boa~~ do que compartilhar o resultado em forma de história (relevante para seu público).
 
 Então, se quer contar histórias que sejam memoráveis, concentre-se no resultado. Pense no que deseja que seu público aprenda. E compartilhe um bom resultado em forma de história relevante para eles.
+
+## TechGuide: Storytelling com dados
+
+Nesta conversa, o [@Paulo Silveira](https://twitter.com/paulo_caelum) *(host que é um contador de histórias)*, [@Valquíria Alencar](https://www.linkedin.com/in/valquiria-alencar/) *(Instrutora de Dados na Alura)* e [@Guilherme Silveira](https://www.linkedin.com/in/guilhermeazevedosilveira/) *()* falou sobre Ciência de Dados e storytelling, a capacidade de "contar uma história" ou passar adiante uma informação clara e interessante quando estamos criando exibições de análises de dados.
+
+<iframe title="TechGuide: Storytelling com dados – Hipsters Ponto Tech #368" src="https://pca.st/embed/znhga6y3" style="border: 0; border-radius: 8px; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen="true" frameborder="0"></iframe>
