@@ -3,10 +3,10 @@ title = "Como criar e manter uma cultura organizacional forte com base em valore
 date = "2023-08-11"
 tags = ["cultura", "valores", "empreender", "clevel", "cto"]
 url = "/como-criar-e-manter-uma-cultura-organizacional-forte-com-base-em-valores-e-visao"
-images = ["/blog/como-criar-e-manter-uma-cultura-organizacional-forte-com-base-em-valores-e-visa.jpg"]
+images = ["/blog/como-criar-uma-cultura-de-empresa-forte-com-base-em-valores-e-visao.jpg"]
 +++
 
-![Como criar e manter uma cultura organizacional forte com base em valores e visão](/blog/como-criar-e-manter-uma-cultura-organizacional-forte-com-base-em-valores-e-visa.jpg)
+![Como criar e manter uma cultura organizacional forte com base em valores e visão](/blog/como-criar-uma-cultura-de-empresa-forte-com-base-em-valores-e-visao.jpg)
 
 A cultura organizacional é o conjunto de valores, crenças e comportamentos compartilhados pelos membros de uma organização. Ela é criada ao longo do tempo (mesmo muitas pessoas dizendo que a cultura é encontrada não criada) e é moldada por uma variedade de fatores, incluindo a história da organização, sua missão, seus valores e suas lideranças.
 
