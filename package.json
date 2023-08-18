@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My personal blog",
   "dependencies": {
-    "bl": "^6.0.4",
+    "bl": "^6.0.6",
     "imagemin": "^8.0.1",
     "imagemin-cli": "^7.0.0",
     "imagemin-optipng": "^8.0.0"
