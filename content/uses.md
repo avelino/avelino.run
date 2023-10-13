@@ -64,7 +64,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 - [DigitalOcean App Platform](https://m.do.co/c/bd3b723c0a36?utm_medium=opensource&utm_source=awesome-go)
 - [Netlify](https://www.netlify.com/)
-- Mailgun
+- [Resend](https://resend.com/), thanks [Zeno Rocha](https://twitter.com/zenorocha)
 
 ## Training to IRONMAN/Triathlon
 
