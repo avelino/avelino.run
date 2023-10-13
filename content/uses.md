@@ -41,6 +41,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 ## Business
 
 - Slack
+- Discord *(any open source community)*
 - [GitHub](https://github.com/avelino) *(many resources, such as issue, discussions, releases, actions, etc)*
 - Profit Pro _(TradeMap on mobile device)_ - marked financial
 
