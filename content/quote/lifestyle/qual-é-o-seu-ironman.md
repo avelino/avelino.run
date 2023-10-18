@@ -24,9 +24,13 @@ Toca a buzina do primeiro simulado e vai o fanfarrão dando braçada forte, sem 
 * vou voltar!
 
 Olho para o lado e vejo o caiaque se aproximando e o coach [Jose Belarmino](https://www.instagram.com/josebelarmino/) do meu lado, vendo eu me desesperando, ao olhar para ele começa um diálogo no meio da represa:
+
 A: Zé, não aguento vou voltar!
+
 Zé: Calma Avelino, segura no caiaque e tira os óculos
+
 A: Zé, você não esta entendendo, fodeu não irei aguentar!
+
 Zé: Calma Avelino, respira, tira os óculos, olhe para trás e veja o quanto já nadou, olhe para frente e veja o quanto falta para a primeira boia
 
 Ele estava fazendo eu me acalmar e me colocar no estado presente (estudo e vivo muito mindfulness, mas ali não estava rolando), após me acalmar e me colocar no estado presente foi momento de voltar nadar, por fim levei 23 minutos para fazer 500m, sai d'agua destruído e muito abalado. Chegou o momento que mais gosto do triathlon, o tal pedal, quando saio na estrada para pedalar, sinto que algo estava diferente e não conseguia fazer força, comecei tentar fazer respiratória para ajudar na recuperação muscular, porem não fluiu. A corrida consegui sair forte com o pace de 4:50, mas terminei morrendo.
