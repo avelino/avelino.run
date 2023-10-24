@@ -29,4 +29,4 @@ Change is the only constant. While the medium of communication might shift to En
 
 ---
 
-I hope you can add value to your professional life by reading the content I’ll be sharing. If you need any clarification, suggestions or criticisms, feel free to contact me [here](mailto:31996+avelino@users.noreply.github.com).
+For any clarifications, suggestions, or feedback, please feel free to [reach out](mailto:31996+avelino@users.noreply.github.com).
