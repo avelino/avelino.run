@@ -13,7 +13,7 @@ In today’s interconnected world, **writing in English for the open source comm
 
 ## The Journey to Global Connection
 
-It’s often said that taking the first step is the hardest. For many, including myself, the decision to write in English was a calculated one, influenced by the desire to connect with a broader audience and the recognition of English as a lingua franca in the tech world. This step, although seemingly daunting, is crucial for one’s professional trajectory.
+It’s often said that taking the first step is the hardest. For many, including myself, the decision to write in English was a calculated one, influenced by the desire to connect with a broader audience and the recognition of English as a common language in the tech world. This step, although seemingly daunting, is crucial for one’s professional trajectory.
 
 > Embracing a world-class mindset means sometimes being _“selfish”_ with our careers, prioritizing growth and global reach.
 
