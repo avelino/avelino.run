@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "My personal blog",
   "dependencies": {
-    "bl": "^6.0.7",
+    "@tinacms/cli": "^1.5.31",
+    "bl": "^6.0.8",
     "imagemin": "^8.0.1",
     "imagemin-cli": "^7.0.0",
-    "imagemin-optipng": "^8.0.0"
+    "imagemin-optipng": "^8.0.0",
+    "tinacms": "^1.5.22"
+  },
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo"
   },
   "repository": {
     "type": "git",
