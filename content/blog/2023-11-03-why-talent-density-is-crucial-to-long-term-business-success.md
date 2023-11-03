@@ -1,0 +1,53 @@
++++
+title = "Why talent density is crucial to long-term business success"
+date = "2023-11-03"
+tags = ["startups", "Company Culture", "Talent Density", "Business Success", "Business Strategy"]
+url = "/why-talent-density-is-crucial-to-long-term-business-success"
+images = ["/blog/why-talent-density-is-crucial-to-long-term-business-success.jpeg"]
+description = "Discover why talent density is the secret to long-term business success, fostering innovation, competitive advantage, and a culture of excellence."
++++
+
+![Why talent density is crucial to long-term business success](/blog/why-talent-density-is-crucial-to-long-term-business-success.jpeg)
+
+The concept of talent density is a pivotal factor in the sustainable growth and long-term success of any business. It’s a strategy that has been championed by leading companies like Netflix and has become a cornerstone of their corporate culture. Talent density refers to the concentration of high-performing individuals within an organization. It’s not just about having a few star players, but rather ensuring that every team member is a key contributor to the company’s success.
+
+There are several stages of a company, each stage requires people/teams with different characteristics.
+I have no doubt that talent density is the best way to grow sustainably.
+
+> I understand companies that are in the moment of accelerated growth and have large teams to “deliver faster”, but one day this law arrives and leads managers to make difficult decisions thinking about what is best for the company.
+
+## Implementing Talent Density in Your Company
+
+1. **Selective Hiring:** Avoid rushing the hiring process. Take the time to find individuals who not only have the necessary skills, but also align with the company’s values and culture;
+2. **Performance Recognition:** Acknowledge and reward employees who add value. This not only motivates high performers but also sets a benchmark for success within the team;
+3. **Cultural Fit and Swift Action:** Act quickly to address employees who do not fit the company culture or meet performance standards. This maintains the integrity of the team and ensures that the company’s values are upheld.
+
+I think **3 is essential**, it makes item **2 clear to all employees**.
+
+*this text came about after reading the text below.*
+
+---
+
+[original publication](https://www.linkedin.com/feed/update/urn:li:activity:7124533032757166080/) by [Yinon Ravid](https://www.linkedin.com/in/yinonravid/)
+
+Pay more, hire less. A counterintuitive hiring principle: you save money when you pay people more. In early 2022, we changed how we hire at Albert. Here’s how we did it: <https://fnd.news/40iJYow>
+
+Because the productivity of an A player is exponentially higher than a B player, hiring B players means that you need ten times as many people to do each task. This leads to a bloated, slow moving, bureaucratic organization.
+
+As you hire more B players, costs grow quickly because you need a lot of them, leading to long-term unprofitability. Worse, mediocre talent builds brittle systems that create ongoing fire drills, inevitably on nights and weekends. This ruins morale. In contrast, when you hire exceptional people, things get built quickly, systems run smoothly, and morale is high.
+
+Total costs go down when you hire the best people and pay them very well.
+
+In early 2022, we changed our approach at Albert. We decided to hire fewer people, focus on exceptional hires, and pay in the top 5th percentile of our competitors for leadership positions.
+
+This transformed our organization. We increased productivity and lowered overall costs.
+
+To find great people at a startup, I follow the 5 principles below, which took me a decade to understand.
+
+1. Clear thinkers only. Find people who can explain what they do to a novice.
+2. No big company people. Big company folks are uncomfortable with how much you have to do on your own at a startup. I’ve never seen this work.
+3. Take your time. Only hire people who you are near-certain will be exceptional. This is very hard to stick to. Missing on a B+ candidate is a *good* thing.
+4. Find people who prefer ambiguity. Project specs change multiple times for all projects at startups.
+5. Challenge + discomfort = growth. Find people who embrace this principle and are willing to challenge themselves beyond comfort. Employees must grow for a company to grow.
+
+Importantly, anyone can become exceptional. Click the link above to read how.
