@@ -5,7 +5,7 @@ tags = ["uses", "avelino", "open source", "thiago avelino"]
 images = ["/uses.png"]
 +++
 
-Make sure to check out [uses.tech](https://uses.tech) for a list of everyone's **/uses** pages!
+Make sure to check out [uses.tech](https://uses.tech) for a list of everyone’s **/uses** pages!
 
 I constantly get a few emails (my email is public on my [github profile](https://github.com/avelino)) asking about the software and hardware I use in my day to day life as an open source _product/project_ maintainer.
 
@@ -18,7 +18,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - Macbook Pro Apple M1 Max, 32GB ram, 1TB ssd
   - [Keyboard Keychron K3](https://www.amazon.com/Keychron-Ultra-Slim-Wireless-Bluetooth-Mechanical/dp/B0B48ZVQH5/)
   - [Mouse Logitech MX Ergo](https://www.amazon.com/Logitech-Ergo-Wireless-Trackball-Mouse/dp/B0753P1GTS/)
-  - [Samsung 28" 4K UR550](https://www.amazon.com/SAMSUNG-U28R550UQNX-LU28R550UQNXZA-Monitor-Free/dp/B084V9CJB1/)
+  - [Samsung 28” 4K UR550](https://www.amazon.com/SAMSUNG-U28R550UQNX-LU28R550UQNXZA-Monitor-Free/dp/B084V9CJB1/)
 - iPad Pro 2
   - Apple Pencil
   - Smart Keyboard Folio
@@ -29,8 +29,8 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 ## Productivity
 
 - [Logseq](https://logseq.com) (personal notes with a [PKM mindset](https://databaseline.tech/knowledge-management/), sync in [Logseq Cloud](https://blog.logseq.com/how-to-setup-and-use-logseq-sync/))
-- [Gmail + Simplfyi](https://simpl.fyi/)
-- [Cron](https://cron.app/) (desktop and mobile)
+- [Fastmail](https://www.fastmail.com/blog/fastmail-vs-gmail/)
+- [Fantastical](https://flexibits.com/fantastical) (desktop and mobile)
 - 1Password
 - [Raycast](https://www.raycast.com/)
 - Spotify
