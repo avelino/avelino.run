@@ -1,7 +1,16 @@
 :root {
-  --maincolor: #bd93f9 !important;
-  --bordercl: #bd93f9 !important;
+  --maincolor: #8f2b9b !important;
+  --bordercl: #8f2b9b !important;
   --callouctcolor: dodgerblue !important;
-  --hovercolor: #bd93f9 !important;
-  --darkMaincolor: #bd93f9 !important;
+  --hovercolor: #8f2b9b !important;
+  --darkMaincolor: #8f2b9b !important;
+  --bgcolor: #fffff8;
+}
+
+html {
+  color: #232333;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  line-height: 1.6em;
+  background: var(--bgcolor);
 }
