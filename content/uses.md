@@ -57,7 +57,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Another apps
 
-- [Arc](https://arc.net/)
+- Firefox
 - Figma
 - Google Drive
 
