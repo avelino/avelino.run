@@ -18,11 +18,11 @@
     "icon": {
         "type": "Image",
         "mediaType": "image/jpeg",
-        "url": "https://avelino.run/icon.jpg"
+        "url": "https://cljsocial.sfo3.cdn.digitaloceanspaces.com/accounts/avatars/109/325/543/584/499/428/original/f2a12d279d1753b1.jpeg"
     },
     "image": {
         "type": "Image",
         "mediaType": "image/jpeg",
-        "url": "https://avelino.run/image.png"
+        "url": "https://cljsocial.sfo3.cdn.digitaloceanspaces.com/accounts/avatars/109/325/543/584/499/428/original/f2a12d279d1753b1.jpeg"
     }
 }
