@@ -1,0 +1,8 @@
+{
+    "subject": "acct:hey@avelino.run",
+    "links": [{
+        "rel": "self",
+        "type": "application/activity+json",
+        "href": "https://avelino.run/justin"
+    }]
+}

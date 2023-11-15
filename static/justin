@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams",
+        "https://w3id.org/security/v1"
+    ],
+    "id": "https://avelino.run/justin",
+    "type": "Person",
+    "following": "https://avelino.run/following",
+    "followers": "https://avelino.run/followers",
+    "inbox": "https://avelino.run/inbox",
+    "preferredUsername": "avelino",
+    "name": "Avelino",
+    "summary": "avelino.run on fideverse",
+    "url": "https://avelino.run",
+    "manuallyApprovesFollowers": true,
+    "discoverable": true,
+    "published": "1989-01-05T05:00:00Z",
+    "icon": {
+        "type": "Image",
+        "mediaType": "image/jpeg",
+        "url": "https://avelino.run/icon.jpg"
+    },
+    "image": {
+        "type": "Image",
+        "mediaType": "image/jpeg",
+        "url": "https://avelino.run/image.png"
+    }
+}

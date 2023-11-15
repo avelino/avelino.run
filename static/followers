@@ -1,0 +1,7 @@
+{
+    "@context": "https://www.w3.org/ns/activitystreams",
+    "id": "https://avelino.run/followers",
+    "type": "OrderedCollection",
+    "totalItems": 1000000,
+    "first": "https://avelino.run/follower_accts"
+}
