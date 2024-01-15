@@ -19,3 +19,21 @@ a:hover {
   background-color: var(--hovercolor);
   color: var(--bgcolor) !important;
 }
+
+/* list box */
+.list-item {
+  border: 1px solid var(--bordercl);
+  border-radius: 0.2em;
+  box-shadow: 5px 5px 7px var(--bordercl);
+  padding: 0 1.5em 1.5em 1.5em;
+  margin: 2em 0 2em 0;
+}
+.list-item .description {
+  padding: 1.75em;
+}
+.list-item .readmore {
+  display: inline-block;
+  margin: 0;
+  padding: 0.3em 0.8em;
+  border-radius: 3rem;
+}
