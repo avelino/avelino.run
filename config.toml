@@ -14,6 +14,8 @@ pygmentscodefencesguesssyntax = true
 
 paginate=4 # articles per page
 
+ignoreLogs = ['err-youtube-remote']
+
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
