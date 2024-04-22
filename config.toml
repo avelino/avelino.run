@@ -18,6 +18,26 @@ paginate=4 # articles per page
 plainIDAnchors = true
 hrefTargetBlank = true
 
+[outputs]
+home = ["HTML", "RSS", "ACTIVITY", "ACTIVITY_OUTBOX"]
+section = ["HTML", "RSS", "ACTIVITY", "ACTIVITY_OUTBOX"]
+page = ["HTML"]
+
+[related]
+threshold = 10
+includeNewer = true
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[markup.goldmark.parser]
+autoHeadingID = true
+
+[markup.goldmark.extensions]
+typographer = false
+
 [markup.goldmark.renderer]
 unsafe= true
 
