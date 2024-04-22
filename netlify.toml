@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "./netlify-release.sh"
+command = "git submodule update -f --init && hugo"
 
 [context.production.environment]
 HUGO_VERSION = "v0.111.3"
