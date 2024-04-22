@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/5a10d6215c6e3ba6181bbf93e52636fc",
+  "type": "Note",
+  "hash": "5a10d6215c6e3ba6181bbf93e52636fc",
+  "content": "\u003Cp\u003EWe are more than 75,000 people (stars \uD83C\uDF1F) \u2014 awesome-go\u003C/p\u003E\u003Cp\u003EI\u0027ve been meaning to write this blogpost since when we reached 10,000 stars \uD83C\uDF1F (I never imagined it would reach that number of people), but every day I reached more (and more) people and always thought the text would get outdated.\nToday is the day to thank everyone who uses, contributes and follows awesome-go, it\u0027s time to celebrate \uD83C\uDF89\uD83D\uDE4C\u00A0\u2014 regardless of the number we reach and the people we help in some way.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/we-are-more-than-75000-people-awesome-go/\u0027\u003Ehttps://avelino.run/we-are-more-than-75000-people-awesome-go/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/we-are-more-than-75000-people-awesome-go/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-02-03T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/5a10d6215c6e3ba6181bbf93e52636fc",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/5a10d6215c6e3ba6181bbf93e52636fc?page=true",
+      "partOf": "/socialweb/replies/5a10d6215c6e3ba6181bbf93e52636fc",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/85e6e0fdfba985dee86b19ea733e49fb",
+  "type": "Note",
+  "hash": "85e6e0fdfba985dee86b19ea733e49fb",
+  "content": "\u003Cp\u003EEncerrando Ciclos, viva no presente, n\u00E3o se paralise pelo passado\u003C/p\u003E\u003Cp\u003EN\u00F3s da \u00E1rea de tecnologia passamos muito por encerramento de ciclos, resolvi escrever um blogpost n\u00E3o t\u00E9cnico para retratar alguns pontos importantes na hora de fecharmos nossos ciclos. N\u00E3o estou escrevendo uma ci\u00EAncia exata, acho extremamente importante ap\u00F3s ler o blogpost voc\u00EA pare para pensar o que acha certo ou errado, e sinta-se livre para comentar.\nSempre \u00E9 preciso saber quando uma etapa chega ao final. Se insistirmos em permanecer nela mais do que o tempo necess\u00E1rio, perdemos a alegria e o sentido das outras etapas que precisamos viver.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/\u0027\u003Ehttps://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/encerrando-ciclos-viva-no-presente-n%C3%A3o-se-paralise-pelo-passado/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2015-02-15T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/85e6e0fdfba985dee86b19ea733e49fb",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/85e6e0fdfba985dee86b19ea733e49fb?page=true",
+      "partOf": "/socialweb/replies/85e6e0fdfba985dee86b19ea733e49fb",
+      "items": []
+    }
+  }
+}

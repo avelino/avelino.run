@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/6f705b7e6646588ff5e12f448e2f454b",
+  "type": "Note",
+  "hash": "6f705b7e6646588ff5e12f448e2f454b",
+  "content": "\u003Cp\u003EComunica\u00E7\u00E3o \u00E9 a base dos projetos Open Source\u003C/p\u003E\u003Cp\u003ESou criador e mantenedor (junto com uma incrivel comunidade, composta por pessoas ao redor do mundo) de um projeto chamado awesome-go Lista curada pela comunidade de frameworks, bibliotecas e software escritos em Go.\nQuando comecei contribuir e criar projeto Open Source achava que o foco principal era c\u00F3digo, com o passar dos anos comecei perceber que o projeto era um meio para chegar em algum lugar, ou seja, c\u00F3digo tem sua import\u00E2ncia, mas n\u00E3o basta tem um projeto com c\u00F3digo impec\u00E1vel vendo que \u0026quot;ningu\u00E9m\u0026quot; ou poucas pessoas conseguem usar.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/comunica%C3%A7%C3%A3o-%C3%A9-a-base-dos-projetos-open-source/\u0027\u003Ehttps://avelino.run/comunica%C3%A7%C3%A3o-%C3%A9-a-base-dos-projetos-open-source/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/comunica%C3%A7%C3%A3o-%C3%A9-a-base-dos-projetos-open-source/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-23T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/6f705b7e6646588ff5e12f448e2f454b",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/6f705b7e6646588ff5e12f448e2f454b?page=true",
+      "partOf": "/socialweb/replies/6f705b7e6646588ff5e12f448e2f454b",
+      "items": []
+    }
+  }
+}

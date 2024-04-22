@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/d2163583c0784b616eb8013ba5572e84",
+  "type": "Note",
+  "hash": "d2163583c0784b616eb8013ba5572e84",
+  "content": "\u003Cp\u003EPer\u00EDodo de adapta\u00E7\u00E3o: nunca \u00E9 f\u00E1cil, principalmente quando \u00E9 for\u00E7ado\u003C/p\u003E\u003Cp\u003EApos dois meses vivendo o distanciamento social o que aprendemos nesse per\u00EDodo (algumas pessoas chamam de quarentena ou isolamento social)?\n\u00C0s vezes s\u00F3 damos valor depois que perdemos, nesse per\u00EDodo n\u00E3o foi diferente. Tinha h\u00E1bito de ir para estrada todos os s\u00E1bados para nadar, pedalar e correr, no come\u00E7o de mar\u00E7o/2020 resolvi adotar o distanciamento social, ap\u00F3s 2 semanas comecei sentir falta de ver pessoas (olha que sempre gosto de ficar em casa \u0026quot;sem ver pessoas\u0026quot;), sair para praticar atividade f\u00EDsica ao ar livre e ir ao mercado sem me preocupar onde iria colocar a m\u00E3o, foi a\u00ED que comecei entender a liberdade de escolha que tinha e do dia para noite me restringi (tinha perdido) - esse sentimento de perca n\u00E3o \u00E9 confort\u00E1vel - surtei durante alguns dias at\u00E9 cair a ficha e entender o fato que n\u00E3o estava saindo de casa (loucura n\u00E9, eu que tinha escolhido ficar em casa e mesmo assim \u0026quot;n\u00E3o sabia\u0026quot; o porque), humanos se adaptam a diferentes ambientes e com o passar do tempo a rotina voltou se encaixar e tudo voltou fluir (na medida do poss\u00EDvel).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/periodo-de-adaptacao-nunca-e-facil-principalmente-quando-e-forcado/\u0027\u003Ehttps://avelino.run/quote/lifestyle/periodo-de-adaptacao-nunca-e-facil-principalmente-quando-e-forcado/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/periodo-de-adaptacao-nunca-e-facil-principalmente-quando-e-forcado/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-05-11T08:29:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/d2163583c0784b616eb8013ba5572e84",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/d2163583c0784b616eb8013ba5572e84?page=true",
+      "partOf": "/socialweb/replies/d2163583c0784b616eb8013ba5572e84",
+      "items": []
+    }
+  }
+}

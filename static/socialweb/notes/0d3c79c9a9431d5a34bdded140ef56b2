@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/0d3c79c9a9431d5a34bdded140ef56b2",
+  "type": "Note",
+  "hash": "0d3c79c9a9431d5a34bdded140ef56b2",
+  "content": "\u003Cp\u003EA arte de reescrever software\u003C/p\u003E\u003Cp\u003ELidar com software legado hoje em dia \u00E9 mais comum do que podemos imaginar, costumo dizer que muitos softwares nascem legado, como assim? Para mim software que n\u00E3o tem teste automatizado \u00E9 legado, n\u00E3o tem como garantir funcionamento de absolutamente nada dentro dele e muitos comportamentos (recursos ou bugs) s\u00F3 ir\u00E1 aparecer com usu\u00E1rios usando constantemente.\nAp\u00F3s alinhamento do que \u00E9 software legado \u00E9 comum a empresa (principalmente as com cultura de startup) e desenvolvedores ter que trocar pe\u00E7as do software em pleno o voo, n\u00E3o temos como pousar o avi\u00E3o para fazer manuten\u00E7\u00E3o e depois decolar novamente quando a empresa est\u00E1 com clientes usando o software em produ\u00E7\u00E3o.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/a-arte-de-reescrever-software/\u0027\u003Ehttps://avelino.run/a-arte-de-reescrever-software/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/a-arte-de-reescrever-software/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-10-21T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/0d3c79c9a9431d5a34bdded140ef56b2",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/0d3c79c9a9431d5a34bdded140ef56b2?page=true",
+      "partOf": "/socialweb/replies/0d3c79c9a9431d5a34bdded140ef56b2",
+      "items": []
+    }
+  }
+}

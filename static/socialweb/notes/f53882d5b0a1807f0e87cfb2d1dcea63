@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f53882d5b0a1807f0e87cfb2d1dcea63",
+  "type": "Note",
+  "hash": "f53882d5b0a1807f0e87cfb2d1dcea63",
+  "content": "\u003Cp\u003EComo voc\u00EA lida com mudan\u00E7a?\u003C/p\u003E\u003Cp\u003EPor que temos tanta resist\u00EAncia \u00E0 mudan\u00E7a se a vida \u00E9 feita delas? A mudan\u00E7a \u00E9 a \u00FAnica constante, o mais seguro que temos no universo. Hoje n\u00E3o somos a mesma pessoa de ontem, mas tampouco a de amanh\u00E3, por mais que tentemos.\nUm ac\u00FAmulo de circunst\u00E2ncias acontece para que isso seja assim, mesmo que n\u00E3o percebamos. Por esta raz\u00E3o, devemos quebrar o medo da mudan\u00E7a. Existem melhores maneiras de viver do que resist\u00EAncia infinita ao novo.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2020-05-28-como-voce-lida-com-mudanca/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2020-05-28-como-voce-lida-com-mudanca/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2020-05-28-como-voce-lida-com-mudanca/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-05-28T11:30:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f53882d5b0a1807f0e87cfb2d1dcea63",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f53882d5b0a1807f0e87cfb2d1dcea63?page=true",
+      "partOf": "/socialweb/replies/f53882d5b0a1807f0e87cfb2d1dcea63",
+      "items": []
+    }
+  }
+}

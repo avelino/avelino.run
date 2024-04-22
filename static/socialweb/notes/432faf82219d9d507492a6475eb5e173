@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/432faf82219d9d507492a6475eb5e173",
+  "type": "Note",
+  "hash": "432faf82219d9d507492a6475eb5e173",
+  "content": "\u003Cp\u003EEntendendo na pratica como funciona a linguagem Go\u003C/p\u003E\u003Cp\u003EA linguagem Go \u00E9 um projeto open source para tornar os programadores mais produtivos.\nGo foi desenvolvido para utiliza\u00E7\u00E3o maxima do CPU, tornando um processo simples para criar aplica\u00E7\u00E3o Multithreaded, o processo de utiliza\u00E7\u00E3o de maquinas na rede para processar determinado programa tamb\u00E9m \u00E9 bem simples, assim tornando um software mais flex\u00EDvel e modular.\nVamos montar um servidor HTTP em Go.\npackage main import ( \u0026#34;http\u0026#34;; \u0026#34;io\u0026#34;; \u0026#34;fmt\u0026#34;; ) func HelloServer(c *http.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/\u0027\u003Ehttps://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/entendendo-na-pratica-como-funciona-a-linguagem-go/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2011-05-25T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/432faf82219d9d507492a6475eb5e173",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/432faf82219d9d507492a6475eb5e173?page=true",
+      "partOf": "/socialweb/replies/432faf82219d9d507492a6475eb5e173",
+      "items": []
+    }
+  }
+}

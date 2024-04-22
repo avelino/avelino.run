@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/cc2666c305a30716106707c423412b8b",
+  "type": "Note",
+  "hash": "cc2666c305a30716106707c423412b8b",
+  "content": "\u003Cp\u003EInsights/Anota\u00E7\u00F5es do m\u00EAs 04/2021\u003C/p\u003E\u003Cp\u003E\uD83D\uDCCC *E aiiiii, como esta? Chegou o dia de compartilhar alguns insights/anota\u00E7\u00F5es dos conte\u00FAdos que l\u00EA esse m\u00EAs, como sempre tive grande dificuldade de escolher esses artigos, espero que eles ajudem voc\u00EA evoluir profissionalmente \uD83D\uDE80* Aquele PR irritantes, como voc\u00EA gerencia seu tempo para fazer revis\u00E3o de c\u00F3digo Jessica Joy Kerr escreveu um excelente blogpost sobre revis\u00F5es de c\u00F3digo, ela linka alguns tweets que acabou me levando a reflex\u00E3o\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/newsletter/2021-04-anotacoes/\u0027\u003Ehttps://avelino.run/newsletter/2021-04-anotacoes/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/newsletter/2021-04-anotacoes/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-04-27T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/cc2666c305a30716106707c423412b8b",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/cc2666c305a30716106707c423412b8b?page=true",
+      "partOf": "/socialweb/replies/cc2666c305a30716106707c423412b8b",
+      "items": []
+    }
+  }
+}

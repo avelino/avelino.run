@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/d4af1d0ee680a6b8c69e4b4b4f15475a",
+  "type": "Note",
+  "hash": "d4af1d0ee680a6b8c69e4b4b4f15475a",
+  "content": "\u003Cp\u003EThanks \u2764\uFE0F\uD83D\uDE4C\u003C/p\u003E\u003Cp\u003EI\u2019m truly grateful to all the wonderful humans and companies supporting my open source work.\nName list @cristaloleg @fcpimenta @aidasap @dans-stuff @sashamelentyev your name here... Want to talk to me? i look forward to your email\nCompanies learn more here around\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/thanks/\u0027\u003Ehttps://avelino.run/thanks/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/thanks/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-03-24T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/d4af1d0ee680a6b8c69e4b4b4f15475a",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/d4af1d0ee680a6b8c69e4b4b4f15475a?page=true",
+      "partOf": "/socialweb/replies/d4af1d0ee680a6b8c69e4b4b4f15475a",
+      "items": []
+    }
+  }
+}

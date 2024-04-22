@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/61cf91c32fa8cfa3839ea3cdc5f301a7",
+  "type": "Note",
+  "hash": "61cf91c32fa8cfa3839ea3cdc5f301a7",
+  "content": "\u003Cp\u003EBottle, full stack without Django\u003C/p\u003E\u003Cp\u003EThis blogpost is based in a lecture I presented here in Brazil, follows the slides!\nBottle is a micro web framework compatible with WSGI, depends only on the Python standard library is compatible with python 2.6, 2.7, 3.2, 3.3 and 3.4, single source file. It was created by Marcel Hellkamp (@defnull) and maintained by the community that raised surrounding framework.\nDjango is a framework for rapid development for web, written in Python, which uses the standard MTV (model-template-view) and pragmatic.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/bottle-full-stack-without-django/\u0027\u003Ehttps://avelino.run/bottle-full-stack-without-django/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/bottle-full-stack-without-django/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2014-12-01T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/61cf91c32fa8cfa3839ea3cdc5f301a7",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/61cf91c32fa8cfa3839ea3cdc5f301a7?page=true",
+      "partOf": "/socialweb/replies/61cf91c32fa8cfa3839ea3cdc5f301a7",
+      "items": []
+    }
+  }
+}

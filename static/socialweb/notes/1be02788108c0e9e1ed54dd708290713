@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/1be02788108c0e9e1ed54dd708290713",
+  "type": "Note",
+  "hash": "1be02788108c0e9e1ed54dd708290713",
+  "content": "\u003Cp\u003Erum language\u003C/p\u003E\u003Cp\u003Erum Functional language, easily extensible and possible (Lua features with LISP dialect and functional) to be embarked on software Go!\nThe project started inside a hotel room with two people (me and Cesar) the day before the 2017 GopherCon Brazil, where there were two developers talking about compilers and lisp dialect.\nHistory Idealized in GopherCon Brasil 2017 (reason of the language being written in Go), had the purpose of being virtual machine of CLISP (development for fun and the founder team enjoys functional programming), after seeing that there was already some parser of CLISP written in Go we had a initiative to make a language with syntax like CLISP but with some own paradigms (such as asynchronous processing using goroutine underneath, thus joining what we have best in the Go).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/projects/rumlang/\u0027\u003Ehttps://avelino.run/projects/rumlang/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/projects/rumlang/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2017-10-10T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/1be02788108c0e9e1ed54dd708290713",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/1be02788108c0e9e1ed54dd708290713?page=true",
+      "partOf": "/socialweb/replies/1be02788108c0e9e1ed54dd708290713",
+      "items": []
+    }
+  }
+}

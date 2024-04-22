@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/03c1be1da9147d3e460e942f249fe8d2",
+  "type": "Note",
+  "hash": "03c1be1da9147d3e460e942f249fe8d2",
+  "content": "\u003Cp\u003EFoco no jogo, n\u00E3o no que est\u00E1 em jogo\u003C/p\u003E\u003Cp\u003E\u00C9 f\u00E1cil falar, mas com pr\u00E1tica di\u00E1ria come\u00E7a se torna natural\nQuantas vezes ficamos preocupados com o que podemos perder, a ponto de ter o emocional abalado e acabar influenciando no nosso desempenho em determinada situa\u00E7\u00E3o?\nPode ter sido em uma prova (triathlon, corrida e/ou qualquer esporte), reuni\u00E3o, apresenta\u00E7\u00E3o em que temos que falar em p\u00FAblico, ou at\u00E9 mesmo em uma reuni\u00E3o de fam\u00EDlia. Come\u00E7amos pensar o quanto aquilo \u00E9 importante, quanto tem a perder se nosso desempenho for ruim e o nervosismo toma conta - chegando perder o controle de n\u00F3s mesmo.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/foco-no-jogo-nao-no-que-esta-em-jogo/\u0027\u003Ehttps://avelino.run/quote/foco-no-jogo-nao-no-que-esta-em-jogo/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/foco-no-jogo-nao-no-que-esta-em-jogo/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-06-09T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/03c1be1da9147d3e460e942f249fe8d2",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/03c1be1da9147d3e460e942f249fe8d2?page=true",
+      "partOf": "/socialweb/replies/03c1be1da9147d3e460e942f249fe8d2",
+      "items": []
+    }
+  }
+}

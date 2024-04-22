@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/c97140aee55d1ca709244c1a6543aa22",
+  "type": "Note",
+  "hash": "c97140aee55d1ca709244c1a6543aa22",
+  "content": "\u003Cp\u003EPor que devemos ter objetivo e metas?\u003C/p\u003E\u003Cp\u003E\uD83C\uDFAF Objetivo e metas nos ajuda a sair da cama para alcan\u00E7a-los (realizar os feitos necess\u00E1rios para v\u00EA-lo concretizado), motiva\u00E7\u00E3o nos ajuda come\u00E7ar e compromisso conosco mesmo (disciplina) nos faz continuar.\nObjetivo sem metas e a\u00E7\u00E3o \u00E9 apenas sonho, quando temos metas claras (entendemos de fato porque estamos fazendo) encaramos com responsabilidade nosso objetivo (tendo compromisso connosco mesmo), se falei para mim que iria fazer por que n\u00E3o iriei fazer?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/por-que-devemos-ter-objetivo-e-metas/\u0027\u003Ehttps://avelino.run/quote/por-que-devemos-ter-objetivo-e-metas/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/por-que-devemos-ter-objetivo-e-metas/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-27T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/c97140aee55d1ca709244c1a6543aa22",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/c97140aee55d1ca709244c1a6543aa22?page=true",
+      "partOf": "/socialweb/replies/c97140aee55d1ca709244c1a6543aa22",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/379533ee8a65132ef889c9c19fe08d60",
+  "type": "Note",
+  "hash": "379533ee8a65132ef889c9c19fe08d60",
+  "content": "\u003Cp\u003EAjudando projeto open source: MongoEngine\u003C/p\u003E\u003Cp\u003ECom grande orgunho que venho anunciar a todos que o projeto MongoEngine tem path pt_BR.\nhttp://mongoengine.org/pt_BR/\nPor enquanto estamos apenas com o site em Portugu\u00EAs e trabalhando encima da documenta\u00E7\u00E3o.\nCaso voc\u00EA queira ajudar o projeto por favor mandar email para [avelino AT mongoengine DOT org](mailto:avelino AT mongoengine DOT org)\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/ajudando-projeto-open-source-mongoengine/\u0027\u003Ehttps://avelino.run/ajudando-projeto-open-source-mongoengine/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/ajudando-projeto-open-source-mongoengine/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2010-09-06T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/379533ee8a65132ef889c9c19fe08d60",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/379533ee8a65132ef889c9c19fe08d60?page=true",
+      "partOf": "/socialweb/replies/379533ee8a65132ef889c9c19fe08d60",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/efa42bc077acec5fa90e6f3b8db9f11c",
+  "type": "Note",
+  "hash": "efa42bc077acec5fa90e6f3b8db9f11c",
+  "content": "\u003Cp\u003ERealizando sonho de trabalhar full time com Open Source\u003C/p\u003E\u003Cp\u003E\u00C9 extremamente comum ver amigos que come\u00E7am a contribuir com open source quererem arrumar um \u201Cemprego\u201D para passar o dia contribuindo com o projeto (em geral, deixando o Github verdinho...). Ser\u00E1 que \u00E9 realmente legal, como muitos imaginam, trabalhar para uma empresa para s\u00F3 contribuir com open source?\nCostumo dizer que contribuir com open source \u00E9 viciante, faz voc\u00EA passar horas e horas entendendo o projeto que algu\u00E9m (ou alguma empresa) idealizou, at\u00E9 que chega o momento de mandar o primeiro PR (pull request, patch e etc) e defender sua implementa\u00E7\u00E3o.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/\u0027\u003Ehttps://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/realizando-sonho-de-trabalhar-full-time-com-open-source/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-06-15T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/efa42bc077acec5fa90e6f3b8db9f11c",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/efa42bc077acec5fa90e6f3b8db9f11c?page=true",
+      "partOf": "/socialweb/replies/efa42bc077acec5fa90e6f3b8db9f11c",
+      "items": []
+    }
+  }
+}

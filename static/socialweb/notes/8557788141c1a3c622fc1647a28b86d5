@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/8557788141c1a3c622fc1647a28b86d5",
+  "type": "Note",
+  "hash": "8557788141c1a3c622fc1647a28b86d5",
+  "content": "\u003Cp\u003ETrabalhando com Python e MongoDB\u003C/p\u003E\u003Cp\u003EHoje MongoDB est\u00E1 come\u00E7ando ficar bem comentado na internet (famosos Database NoSQL). Tenho bastante aplica\u00E7\u00F5es em produ\u00E7\u00E3o trabalhando com MongoDB e outros database NoSQL ambas escrita em Python, vou escrever um pouco como usar o MongoDB na linguagem Python.\nComo em qualquer outra linguagem, n\u00E3o tem muito segredo. No Python temos a LIB chamada PyMongo, que simplifica muito o trabalho do programador.\nContando que o PyMongo j\u00E1 estej\u00E1 instalado, seguimos em frente.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/trabalhando-com-python-e-mongodb/\u0027\u003Ehttps://avelino.run/trabalhando-com-python-e-mongodb/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/trabalhando-com-python-e-mongodb/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2011-03-28T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/8557788141c1a3c622fc1647a28b86d5",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/8557788141c1a3c622fc1647a28b86d5?page=true",
+      "partOf": "/socialweb/replies/8557788141c1a3c622fc1647a28b86d5",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/b8c2f3f5ae413b0d71d95d73b86ee427",
+  "type": "Note",
+  "hash": "b8c2f3f5ae413b0d71d95d73b86ee427",
+  "content": "\u003Cp\u003EPessoas desenvolvedoras com pensamento de produto - Engenharia de Produto\u003C/p\u003E\u003Cp\u003EA cada dia que passa \u00E9 mais comum as empresas querer puxar as pessoas desenvolvedoras para \u00E1rea de neg\u00F3cio, por outro lado, as pessoas desenvolvedoras n\u00E3o querem ir para \u00E1rea de neg\u00F3cio.\nAcho meio logico o porqu\u00EA as pessoas desenvolvedoras n\u00E3o querem ir para \u00E1rea de neg\u00F3cio, ela estudou (esta estudando) alguma \u00E1rea relacionada com computa\u00E7\u00E3o, se ela de fato quisesse ir para \u00E1rea de \u201Cnegocio\u201D provavelmente ela n\u00E3o teria feito computa\u00E7\u00E3o.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto/\u0027\u003Ehttps://avelino.run/pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/pessoas-desenvolvedoras-com-pensamento-de-produto-engenharia-de-produto/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-08-11T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/b8c2f3f5ae413b0d71d95d73b86ee427",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/b8c2f3f5ae413b0d71d95d73b86ee427?page=true",
+      "partOf": "/socialweb/replies/b8c2f3f5ae413b0d71d95d73b86ee427",
+      "items": []
+    }
+  }
+}

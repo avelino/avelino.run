@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/ba7dadcddfd6fb452947ec43194db401",
+  "type": "Note",
+  "hash": "ba7dadcddfd6fb452947ec43194db401",
+  "content": "\u003Cp\u003EProxy transparente com Nginx\u003C/p\u003E\u003Cp\u003EMuitas pessoas usam Squid para fazer qual quer tipo de proxy, ate mesmo para proxy transparente para usar em servidor web, por exemplo:\nVoc\u00EA tem um site que precisa ter IP aqui no Brasil so que como o custo de servidor e link aqui no Brasil \u00E9 muito caro, voc\u00EA pode fazer um proxy transparente para o servidor aqui no Brasil ser um cara que vai receber a requisi\u00E7\u00E3o e repassar para o outro servidor que esteja em qual quer lugar do mundo.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/proxy-transparente-com-nginx/\u0027\u003Ehttps://avelino.run/proxy-transparente-com-nginx/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/proxy-transparente-com-nginx/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2012-08-09T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/ba7dadcddfd6fb452947ec43194db401",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/ba7dadcddfd6fb452947ec43194db401?page=true",
+      "partOf": "/socialweb/replies/ba7dadcddfd6fb452947ec43194db401",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/b7d8d15c8a8673526021a6c043760963",
+  "type": "Note",
+  "hash": "b7d8d15c8a8673526021a6c043760963",
+  "content": "\u003Cp\u003EEu nunca mais vou empreender\u003C/p\u003E\u003Cp\u003EPara quem n\u00E3o me conhece eu tive uma startup durante um tempo e ela foi comprada por uma empresa de fora do Brasil. Logo ap\u00F3s a venda da startup eu prometi para mim mesmo que nunca mais empreenderia, sim isso foi um coment\u00E1rio que fiz em um dos meus momentos de reflex\u00E3o e nunca comentei com ningu\u00E9m at\u00E9 ent\u00E3o.\nPorque eu prometi isso para mim? Empreender n\u00E3o \u00E9 um processo simples, n\u00E3o existe mar de rosas no caminho do empreendedor e como tudo temos altas e baixas (e por sinal mais baixa do que alta).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/eu-nunca-mais-vou-empreender/\u0027\u003Ehttps://avelino.run/eu-nunca-mais-vou-empreender/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/eu-nunca-mais-vou-empreender/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2015-06-15T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/b7d8d15c8a8673526021a6c043760963",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/b7d8d15c8a8673526021a6c043760963?page=true",
+      "partOf": "/socialweb/replies/b7d8d15c8a8673526021a6c043760963",
+      "items": []
+    }
+  }
+}

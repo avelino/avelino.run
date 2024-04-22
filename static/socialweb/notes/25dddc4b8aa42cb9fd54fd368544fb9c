@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/25dddc4b8aa42cb9fd54fd368544fb9c",
+  "type": "Note",
+  "hash": "25dddc4b8aa42cb9fd54fd368544fb9c",
+  "content": "\u003Cp\u003EComo est\u00E1 seu h\u00E1bito de colecionar conhecimentos?\u003C/p\u003E\u003Cp\u003EEssa postagem nasce em um momento que acabou a luz aqui em casa em pleno hor\u00E1rio de trabalho, poderia surtar por n\u00E3o conseguir entregar o que tinha planejado para hoje, mas pelo contr\u00E1rio estou lendo para aumentar minha performance e amanh\u00E3 (daqui X tempo) conseguir entregar muito mais que entrego hoje.\n\u0026quot;O livro alimentava minha imagina\u00E7\u00E3o. Toda a minha imagina\u00E7\u00E3o comia, comia e comia e de barriga assim toda cheia, me levava pra morar no mundo inteiro\u2026!\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2020-05-27-como-esta-seu-habito-de-colecionar-conhecimento/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2020-05-27-como-esta-seu-habito-de-colecionar-conhecimento/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2020-05-27-como-esta-seu-habito-de-colecionar-conhecimento/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-05-27T18:30:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/25dddc4b8aa42cb9fd54fd368544fb9c",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/25dddc4b8aa42cb9fd54fd368544fb9c?page=true",
+      "partOf": "/socialweb/replies/25dddc4b8aa42cb9fd54fd368544fb9c",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/79354f0b2b57754bb3681aeda6384eea",
+  "type": "Note",
+  "hash": "79354f0b2b57754bb3681aeda6384eea",
+  "content": "\u003Cp\u003EDevHealthy - Epis\u00F3dio 22: 110kg a menos, rotina de treino, triathlon e p\u00F4s COVID19\u003C/p\u003E\u003Cp\u003EUma conversa super maneira com a Keit Oliveira e Raphael Fabeni no DevHealthy, sobre meu processo de perda de peso (-110kg \uD83D\uDE32), rotina de treino no triathlon \uD83C\uDFCA\uD83C\uDFC3\uD83D\uDEB4 e treinos p\u00F4s COVID19 \uD83E\uDDA0.\nO DevHealthy \u00E9 um podcast que busca compartilhar experi\u00EAncias e opini\u00F5es sobre assuntos que envolvam um estilo de vida saud\u00E1vel e a \u00E1rea de tecnologia, podendo assim quebrar a id\u00E9ia de que ambos t\u00F3picos n\u00E3o podem caminhar juntos.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/devhealthy-22-podcast-110kg-a-menos-triathlon-pos-covid/\u0027\u003Ehttps://avelino.run/quote/lifestyle/devhealthy-22-podcast-110kg-a-menos-triathlon-pos-covid/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/devhealthy-22-podcast-110kg-a-menos-triathlon-pos-covid/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-04-26T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/79354f0b2b57754bb3681aeda6384eea",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/79354f0b2b57754bb3681aeda6384eea?page=true",
+      "partOf": "/socialweb/replies/79354f0b2b57754bb3681aeda6384eea",
+      "items": []
+    }
+  }
+}

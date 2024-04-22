@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/fa41c76574cd443af8fa323d59a92133",
+  "type": "Note",
+  "hash": "fa41c76574cd443af8fa323d59a92133",
+  "content": "\u003Cp\u003ETem momento que \u00E9 necess\u00E1rio desacelerar para continuar\u003C/p\u003E\u003Cp\u003EAp\u00F3s alguns meses seguindo a planilha do novo treinador senti que conseguiria dedicar mais tempo por semana para treino, terminava os treinos bem e com energia para mais, olhando para o volume e carga da semana sentia que conseguiria mais. N\u00E3o sei dizer o quanto mais, mas tinha energia acumulada.\nSentei com o treinador e pedi mais volume de treino, deixando claro o porqu\u00EA. Ele foi meio relutante a colocar mais volume, mas chegamos no meio termo (nem para mim, nem para ele KKKKKKKK).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/tem-momento-que-e-necessario-desacelerar-para-continuar/\u0027\u003Ehttps://avelino.run/quote/tem-momento-que-e-necessario-desacelerar-para-continuar/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/tem-momento-que-e-necessario-desacelerar-para-continuar/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-21T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/fa41c76574cd443af8fa323d59a92133",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/fa41c76574cd443af8fa323d59a92133?page=true",
+      "partOf": "/socialweb/replies/fa41c76574cd443af8fa323d59a92133",
+      "items": []
+    }
+  }
+}

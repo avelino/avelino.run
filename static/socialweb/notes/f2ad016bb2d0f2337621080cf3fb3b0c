@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f2ad016bb2d0f2337621080cf3fb3b0c",
+  "type": "Note",
+  "hash": "f2ad016bb2d0f2337621080cf3fb3b0c",
+  "content": "\u003Cp\u003EAbout\u003C/p\u003E\u003Cp\u003EI\u2019m Thiago Avelino CTO at buser, creator/maintainer any open source projects and Mathematician at IME-USP - Aplicated Math.\nContributor to any Open Source projects, study focus is team building, people tech management (human/evolutionary psychology) and open source (and all distributed contribution ecosystem). My day job is to help the team I lead to evolve professionally and get to where it planned to get, delivering great results for the company, encouraging them to achieve their best professional performance.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/about/\u0027\u003Ehttps://avelino.run/about/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/about/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-06-24T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f2ad016bb2d0f2337621080cf3fb3b0c",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f2ad016bb2d0f2337621080cf3fb3b0c?page=true",
+      "partOf": "/socialweb/replies/f2ad016bb2d0f2337621080cf3fb3b0c",
+      "items": []
+    }
+  }
+}

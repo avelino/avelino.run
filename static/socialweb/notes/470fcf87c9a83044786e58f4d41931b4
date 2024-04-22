@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/470fcf87c9a83044786e58f4d41931b4",
+  "type": "Note",
+  "hash": "470fcf87c9a83044786e58f4d41931b4",
+  "content": "\u003Cp\u003EO trabalho \u00E9 subconjunto da vida, n\u00E3o superconjunto\u003C/p\u003E\u003Cp\u003EComo ex-viciado no trabalho, eu amo orienta\u00E7\u00F5es que refor\u00E7a para mim como continuo mantendo equil\u00EDbrio entre vida profissional e pessoal :)\nNossa vida \u00E9 uma cole\u00E7\u00E3o de v\u00E1rios componentes que a tornam completa e estabelecer um equil\u00EDbrio entre eles \u00E9 a chave para alcan\u00E7ar a felicidade (possivelmente o sucesso a longo prazo, independente do que seja sucesso para voc\u00EA). Passamos boa parte do nosso tempo no trabalho ou pensando no trabalho, \u00E9 crucial reconhec\u00EA-lo como trabalho e ele n\u00E3o deve ser o \u00FAnico fator em nossa vida.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/o-trabalho-eh-subconjunto-da-vida-nao-superconjunto/\u0027\u003Ehttps://avelino.run/o-trabalho-eh-subconjunto-da-vida-nao-superconjunto/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/o-trabalho-eh-subconjunto-da-vida-nao-superconjunto/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-03-21T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/470fcf87c9a83044786e58f4d41931b4",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/470fcf87c9a83044786e58f4d41931b4?page=true",
+      "partOf": "/socialweb/replies/470fcf87c9a83044786e58f4d41931b4",
+      "items": []
+    }
+  }
+}

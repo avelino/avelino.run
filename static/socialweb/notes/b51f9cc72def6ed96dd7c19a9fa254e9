@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/b51f9cc72def6ed96dd7c19a9fa254e9",
+  "type": "Note",
+  "hash": "b51f9cc72def6ed96dd7c19a9fa254e9",
+  "content": "\u003Cp\u003ENew web framework asynchronous to Python 3\u003C/p\u003E\u003Cp\u003EI started a new project with the name nacho, asynchronous web framework for Python 3.\nOur goals It was designed to work on Python 3.x Some of syntax were inspired on Tornado\u0027s syntax Tornado is the default server, but Eventlet is stable as well Templates are done by Jinja2 HTML5 as the big-main-thing Work friendly with NoSQL (otherwise we should stop talking about them) Handle asynchronous requests properly Example class MainHandler(ApplicationController): def get(self): data = {\u0026#39;title\u0026#39;: \u0026#39;testando lero lero\u0026#39;} self.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/new-web-framework-asynchronous-to-python-3/\u0027\u003Ehttps://avelino.run/new-web-framework-asynchronous-to-python-3/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/new-web-framework-asynchronous-to-python-3/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2013-08-11T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/b51f9cc72def6ed96dd7c19a9fa254e9",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/b51f9cc72def6ed96dd7c19a9fa254e9?page=true",
+      "partOf": "/socialweb/replies/b51f9cc72def6ed96dd7c19a9fa254e9",
+      "items": []
+    }
+  }
+}

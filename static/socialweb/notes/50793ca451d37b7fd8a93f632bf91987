@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/50793ca451d37b7fd8a93f632bf91987",
+  "type": "Note",
+  "hash": "50793ca451d37b7fd8a93f632bf91987",
+  "content": "\u003Cp\u003EMeu 2018 foi ano de muito aprendizado\u003C/p\u003E\u003Cp\u003EJ\u00E1 faz alguns anos que sigo em um voo solo, sem trabalhar para uma empresa e sim fazendo a minha empresa acontecer. Em 2018 n\u00E3o foi diferente, sigo com a Nuveo (empresa que trabalha com Intelig\u00EAncia Artificial e Vis\u00E3o Computacional aplicado para automatiza\u00E7\u00E3o de backoffice, fundada em 2015). Ap\u00F3s alguns anos, foi momento de trazer um Diretor de Tecnologia para fazer parte do trabalho que vinha fazendo, esse momento n\u00E3o \u00E9 um processo simples, principalmente por ser fundador da empresa e querer sempre o melhor para ela, mas fiz e tenho a certeza que foi o melhor passo tomado para o crescimento e amadurecimento da empresa.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2018-12-28-meu-2018-foi-ano-de-muito-aprendizado/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2018-12-28-meu-2018-foi-ano-de-muito-aprendizado/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2018-12-28-meu-2018-foi-ano-de-muito-aprendizado/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-12-28T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/50793ca451d37b7fd8a93f632bf91987",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/50793ca451d37b7fd8a93f632bf91987?page=true",
+      "partOf": "/socialweb/replies/50793ca451d37b7fd8a93f632bf91987",
+      "items": []
+    }
+  }
+}

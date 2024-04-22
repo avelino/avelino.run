@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/66201d02647b5372e119edd8e83944f7",
+  "type": "Note",
+  "hash": "66201d02647b5372e119edd8e83944f7",
+  "content": "\u003Cp\u003EPrazo no desenvolvimento de software, qual \u00E9 a ci\u00EAncia exata?\u003C/p\u003E\u003Cp\u003EFalar de prazo \u00E9 uma tarefa muito complicada hoje e sempre, pois n\u00E3o existe uma ci\u00EAncia exata (tirando 42), outro ponto que prazo \u00E9 uma promessa e consequentemente promessa tem que ser cumprida (e voc\u00EA vai fazer de tudo para cumpri-las), com isso trabalhar muito mais para cumprir o que voc\u00EA assumiu (prazo).\nLevantando conte\u00FAdo para esse blogpost achei no Quora o seguinte topico \u0026quot;What is the hardest thing you do as a software engineer?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/prazo-no-desenvolvimento-de-software-qual-%C3%A9-a-ci%C3%AAncia-exata/\u0027\u003Ehttps://avelino.run/prazo-no-desenvolvimento-de-software-qual-%C3%A9-a-ci%C3%AAncia-exata/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/prazo-no-desenvolvimento-de-software-qual-%C3%A9-a-ci%C3%AAncia-exata/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2013-11-19T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/66201d02647b5372e119edd8e83944f7",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/66201d02647b5372e119edd8e83944f7?page=true",
+      "partOf": "/socialweb/replies/66201d02647b5372e119edd8e83944f7",
+      "items": []
+    }
+  }
+}

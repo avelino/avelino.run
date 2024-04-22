@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/49c9e895fcb2145cf7758a6745545776",
+  "type": "Note",
+  "hash": "49c9e895fcb2145cf7758a6745545776",
+  "content": "\u003Cp\u003ENova vers\u00E3o da API do Dropbox\u003C/p\u003E\u003Cp\u003EDia 14/09/2011 o Dropbox lan\u00E7ou a nova vers\u00E3o 1.0 da API, nesse lan\u00E7amento trouxe muitas novidades e melhorias:\nSuporte para aplica\u00E7\u00F5es web Suporte para cria\u00E7\u00E3o de pasta (Na vers\u00E3o 0.1 da API n\u00E3o tinha) Novo site para desenvolvedores, com documenta\u00E7\u00E3o simples e completa https://www.dropbox.com/developers_beta Melhor compartilhamento de arquivo, streaming, busca por arquivo e suporte para revis\u00E3o de arquivo Implementa\u00E7\u00E3o no controle de nomes de arquivos, para n\u00E3o sobrescrever arquivos j\u00E1 salvo SDK atualizado para iOS, Android, Python, Ruby e Java que implementa todas modifica\u00E7\u00F5es e documenta\u00E7\u00E3o Link do repositorio (Python Pypi) da nova biblioteca http://pypi.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/\u0027\u003Ehttps://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/nova-vers%C3%A3o-da-api-do-dropbox/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2011-10-13T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/49c9e895fcb2145cf7758a6745545776",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/49c9e895fcb2145cf7758a6745545776?page=true",
+      "partOf": "/socialweb/replies/49c9e895fcb2145cf7758a6745545776",
+      "items": []
+    }
+  }
+}

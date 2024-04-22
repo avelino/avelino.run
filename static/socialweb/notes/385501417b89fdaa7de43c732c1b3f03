@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/385501417b89fdaa7de43c732c1b3f03",
+  "type": "Note",
+  "hash": "385501417b89fdaa7de43c732c1b3f03",
+  "content": "\u003Cp\u003EHist\u00F3ria do Lisp, abra os olhos para programa\u00E7\u00E3o funcional\u003C/p\u003E\u003Cp\u003EComo come\u00E7ou minha paix\u00E3o por par\u00EAnteses (ops Lisp)? Tenho uma forma\u00E7\u00E3o na \u00E1rea de Matem\u00E1tica Aplicada (come\u00E7a ai a loucura), Lisp foi uma das poucas linguagens de programa\u00E7\u00E3o que me deparei dentro da academia (eu j\u00E1 programava em Perl profissionalmente e conhecia Python), quando vi aqueles par\u00EAnteses de cara pensei isso n\u00E3o \u00E9 para mim (isso \u00E9 uma loucura de Matem\u00E1tica/Acad\u00EAmico que nunca saiu para o mercado de trabalho). Com o passar das aulas eu comecei achar confort\u00E1vel os par\u00EAnteses (seres humanos acostuma muito r\u00E1pido com tudo) e comecei achar estranho a forma de pensar para escrever a l\u00F3gica do software (por exemplo (\u002B 1 2)).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/\u0027\u003Ehttps://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/hist%C3%B3ria-do-lisp-abra-os-olhos-para-programa%C3%A7%C3%A3o-funcional/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-02-08T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/385501417b89fdaa7de43c732c1b3f03",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/385501417b89fdaa7de43c732c1b3f03?page=true",
+      "partOf": "/socialweb/replies/385501417b89fdaa7de43c732c1b3f03",
+      "items": []
+    }
+  }
+}

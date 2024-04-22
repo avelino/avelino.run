@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/42c9ce6696150dc98bba8f57fe9853be",
+  "type": "Note",
+  "hash": "42c9ce6696150dc98bba8f57fe9853be",
+  "content": "\u003Cp\u003E\u00C9 mais dif\u00EDcil se manter no topo do que chegar no topo\u003C/p\u003E\u003Cp\u003EN\u00E3o \u00E9 f\u00E1cil chegar ao topo (indiferente do que seja o topo), mas ficar nele \u00E9 ainda mais dif\u00EDcil\u2049\uFE0F\nPara mim, chegar no topo \u00E9 se tornar refer\u00EAncia em um assunto. Quando nos tornamos refer\u00EAncia em um determinado assunto, come\u00E7amos chamar a aten\u00E7\u00E3o em tudo que falamos e existe um misticismo que temos que saber tudo sobre aquilo, mas saber tudo \u00E9 muita coisa. Sou convidado para palestrar em diversas confer\u00EAncias de desenvolvimento de software, ao terminar de palestrar gosto de abrir espa\u00E7o para perguntas e n\u00E3o sei o que as pessoas iram perguntar - eita frio na barriga - tem algumas perguntas que \u00E9 percept\u00EDvel que s\u00E3o feitas para nos deixar desconfort\u00E1vel (de saia justa).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/e-mais-dificil-se-manter-no-topo-do-que-chegar-no-topo/\u0027\u003Ehttps://avelino.run/quote/e-mais-dificil-se-manter-no-topo-do-que-chegar-no-topo/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/e-mais-dificil-se-manter-no-topo-do-que-chegar-no-topo/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-22T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/42c9ce6696150dc98bba8f57fe9853be",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/42c9ce6696150dc98bba8f57fe9853be?page=true",
+      "partOf": "/socialweb/replies/42c9ce6696150dc98bba8f57fe9853be",
+      "items": []
+    }
+  }
+}

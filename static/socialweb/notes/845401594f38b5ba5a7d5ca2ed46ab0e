@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/845401594f38b5ba5a7d5ca2ed46ab0e",
+  "type": "Note",
+  "hash": "845401594f38b5ba5a7d5ca2ed46ab0e",
+  "content": "\u003Cp\u003ENem tudo \u00E9 como gostar\u00EDamos\u003C/p\u003E\u003Cp\u003EBuscamos ter controle de todas as vari\u00E1veis da vida, mas infelizmente (diria felizmente) n\u00E3o temos!\nDepois de muitos anos tentando controlar todas as poss\u00EDveis vari\u00E1veis, acabei deixando de tentar, essas sabia escolha me fez n\u00E3o ter ansiedade que gerava 1001 questionamentos:\n\u0026quot;e se\u0026quot; acontecer tal coisa! \u0026quot;e se\u0026quot; as pessoas pensarem XYZ de mim! \u0026quot;e se\u0026quot; n\u00E3o funcionar? \u0026quot;e se\u0026quot; n\u00E3o der certo? \u0026quot;e se\u0026quot; ... Busco viver o presente (estando 100% presente) e planejar o que est\u00E1 no meu alcance para o futuro, sabendo que adversidades acontece e terei que passar por elas.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/nem-tudo-e-como-gostariamos/\u0027\u003Ehttps://avelino.run/quote/lifestyle/nem-tudo-e-como-gostariamos/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/nem-tudo-e-como-gostariamos/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-05-09T06:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/845401594f38b5ba5a7d5ca2ed46ab0e",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/845401594f38b5ba5a7d5ca2ed46ab0e?page=true",
+      "partOf": "/socialweb/replies/845401594f38b5ba5a7d5ca2ed46ab0e",
+      "items": []
+    }
+  }
+}

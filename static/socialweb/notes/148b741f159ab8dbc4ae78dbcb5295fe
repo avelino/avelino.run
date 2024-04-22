@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/148b741f159ab8dbc4ae78dbcb5295fe",
+  "type": "Note",
+  "hash": "148b741f159ab8dbc4ae78dbcb5295fe",
+  "content": "\u003Cp\u003ERiak, alta performance NoSQL para seu projeto\u003C/p\u003E\u003Cp\u003EEsse ano de 2012 ajudei a comunidade Riak que a cada dia esse banco de dados vem me surpreendendo. Estou para escrever um blogpost desde fevereiro, mas como vida de programador (pelo menos para mim esse ano) \u00E9 agitada.\nResolvi falar sobre a performance nesse primeiro blogpost sobre Riak e colocar na mesa um teste (relativamente simples) para compara o tempo de inser\u00E7\u00E3o, realmente \u00E9 um teste simples se tratando de NoSQL.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/\u0027\u003Ehttps://avelino.run/riak-alta-performance-nosql-para-seu-projeto/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/riak-alta-performance-nosql-para-seu-projeto/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2012-12-23T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/148b741f159ab8dbc4ae78dbcb5295fe",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/148b741f159ab8dbc4ae78dbcb5295fe?page=true",
+      "partOf": "/socialweb/replies/148b741f159ab8dbc4ae78dbcb5295fe",
+      "items": []
+    }
+  }
+}

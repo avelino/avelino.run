@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/c1cc1f34495fab9a935c5ba7006caecf",
+  "type": "Note",
+  "hash": "c1cc1f34495fab9a935c5ba7006caecf",
+  "content": "\u003Cp\u003EAlta performance com dieta baseada em plantas\u003C/p\u003E\u003Cp\u003EA pergunta que os atletas que segue dieta baseada em plantas recebe \u00E9 a suposi\u00E7\u00E3o de que os alimentos de origem animal s\u00E3o a \u00FAnica fonte de prote\u00EDna, isso \u00E9 um equ\u00EDvoco, mas infelizmente muitas pessoas t\u00EAm essa vis\u00E3o por falta de informa\u00E7\u00E3o.\nNa verdade:\nUma por\u00E7\u00E3o de br\u00F3colis cozido ou espinafre tem tanta prote\u00EDna como um ovo m\u00E9dio (6 gramas) Espirulina (alga azul-esverdeada) \u00E9 o alimento mais denso em prote\u00EDnas do planeta 3 colheres de sopa de sementes de c\u00E2nhamo t\u00EAm prote\u00EDna igual a 1/2 x\u00EDcara de iogurte grego (10 gramas), al\u00E9m de 6 gramas de \u00E1cidos graxos \u00F4mega 3 Nos Estados Unidos, a recomenda\u00E7\u00E3o di\u00E1ria de prote\u00EDna (RDA) \u00E9 0,8 gramas por quilograma de peso corporal.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/alta-performance-com-dieta-baseada-em-plantas/\u0027\u003Ehttps://avelino.run/quote/lifestyle/alta-performance-com-dieta-baseada-em-plantas/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/alta-performance-com-dieta-baseada-em-plantas/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-11-30T22:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/c1cc1f34495fab9a935c5ba7006caecf",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/c1cc1f34495fab9a935c5ba7006caecf?page=true",
+      "partOf": "/socialweb/replies/c1cc1f34495fab9a935c5ba7006caecf",
+      "items": []
+    }
+  }
+}

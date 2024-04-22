@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/fa0c93646603acf1cc0902cb181a20ba",
+  "type": "Note",
+  "hash": "fa0c93646603acf1cc0902cb181a20ba",
+  "content": "\u003Cp\u003EO que \u00E9 responsabilidade?\u003C/p\u003E\u003Cp\u003EResponder por suas a\u00E7\u00F5es e consequ\u00EAncias dos seus atos!\nSe voc\u00EA n\u00E3o pode responder pela a\u00E7\u00E3o que voc\u00EA toma volte pensar no que voc\u00EA anda fazendo.\nErrar \u00E9 humano, passar a m\u00E3o na cabe\u00E7a de quem erra e lidar como nada tivesse acontecido, \u00E9 justificar o erro como um acerto.\nhttps://www.facebook.com/avelino.profile/posts/10154545252728726\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/o-que-%C3%A9-responsabilidade/\u0027\u003Ehttps://avelino.run/quote/o-que-%C3%A9-responsabilidade/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/o-que-%C3%A9-responsabilidade/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2016-11-01T01:53:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/fa0c93646603acf1cc0902cb181a20ba",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/fa0c93646603acf1cc0902cb181a20ba?page=true",
+      "partOf": "/socialweb/replies/fa0c93646603acf1cc0902cb181a20ba",
+      "items": []
+    }
+  }
+}

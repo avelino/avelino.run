@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/5c3808c8b12fad29bdec997e30d6d0a2",
+  "type": "Note",
+  "hash": "5c3808c8b12fad29bdec997e30d6d0a2",
+  "content": "\u003Cp\u003EO que dizer de 2019? Ano de autoconhecimento!\u003C/p\u003E\u003Cp\u003E![S\u00E3o Silvestre S\u00E3o Paulo 31/12/2019 - Vem 2020](/blog/photo_2019-12-31 12.25.26-2019-12-31.jpeg \u0026quot;S\u00E3o Silvestre S\u00E3o Paulo 31/12/2019\u0026quot;)\nVou come\u00E7ando relembrando meu 2018 que foi um ano de muito aprendizado, entendo o que de fato eu gostaria de fazer profissionalmente e me desligar do que me deixava longe do que eu queria/quero para mim. E assim dei inicio em 2019...\n2019 foi o ano de autoconhecimento e entendo que hobby \u00E9 hobby, profiss\u00E3o \u00E9 profiss\u00E3o (cada um em seu lugar) e juntos um complementa o outro, isso acabou me trazendo alguns RP (recordes pessoais) em provas que nunca imaginei na vida que iria conseguir (tinha 180kg, o esporte me fez perder 108kg).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/o-que-dizer-de-2019-ano-de-autoconhecimento/\u0027\u003Ehttps://avelino.run/quote/lifestyle/o-que-dizer-de-2019-ano-de-autoconhecimento/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/o-que-dizer-de-2019-ano-de-autoconhecimento/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-12-31T15:20:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/5c3808c8b12fad29bdec997e30d6d0a2",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/5c3808c8b12fad29bdec997e30d6d0a2?page=true",
+      "partOf": "/socialweb/replies/5c3808c8b12fad29bdec997e30d6d0a2",
+      "items": []
+    }
+  }
+}

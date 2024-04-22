@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/61cec6b76476bce1481e3b7085d08b69",
+  "type": "Note",
+  "hash": "61cec6b76476bce1481e3b7085d08b69",
+  "content": "\u003Cp\u003ETenha Objetivo Inteligente\u003C/p\u003E\u003Cp\u003ETenho falado constantemente em ter objetivo claro, mas por minha ignor\u00E2ncia nunca perguntei se voc\u00EA tem objetivo\u2753\nTudo bem caso voc\u00EA n\u00E3o tenha objetivo\u2049\uFE0F Tente extrair conhecimento dessa postagem para organizar suas ideias de onde quer chegar e busque ter um objetivo SMART. Cada letra da express\u00E3o SMART, cuja tradu\u00E7\u00E3o significa inteligente, corresponde a uma palavra. S\u00E3o elas: specific, measurable, achievable, relevant, and time-bound. O nosso objetivo deve ser espec\u00EDfico, mensur\u00E1vel, ating\u00EDvel, relevante e com limite de tempo definido.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/tenha-objetivo-inteligente/\u0027\u003Ehttps://avelino.run/quote/tenha-objetivo-inteligente/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/tenha-objetivo-inteligente/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-23T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/61cec6b76476bce1481e3b7085d08b69",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/61cec6b76476bce1481e3b7085d08b69?page=true",
+      "partOf": "/socialweb/replies/61cec6b76476bce1481e3b7085d08b69",
+      "items": []
+    }
+  }
+}

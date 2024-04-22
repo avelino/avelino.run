@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/5ed0dce83fe2d30ab5260d7b1d95e360",
+  "type": "Note",
+  "hash": "5ed0dce83fe2d30ab5260d7b1d95e360",
+  "content": "\u003Cp\u003ETrocando forma de pensar (mudando mindset) de empres\u00E1rio para \u0027empregado\u0027\u003C/p\u003E\u003Cp\u003ESe ainda n\u00E3o me conhece empreendi desde 2011 at\u00E9 junho/2019 (durante esse tempo comentei algumas vezes que nunca mais iria empreender) e resolvi voltar para o mercado de trabalho e n\u00E3o \u00E9 por motivos que quebrei financeiramente, indo na contram\u00E3o do hype de startups.\nAcredito que surgiu diversas perguntas em sua cabe\u00E7a ao ler o texto acima, acredite que na minha cabe\u00E7a foram longos meses (quase 1 ano) refletindo sobre o assunto, colocando no papel os pr\u00F3s e contras, imaginando como seria, como me portaria em algumas situa\u00E7\u00F5es at\u00E9 que por fim resolvi experimentar um ambiente novo, \u201Cdesconhecido\u201D e acredito que seja desafiador (pelo menos para mim).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/trocando-forma-de-pensar-mudando-mindset-de-empres%C3%A1rio-para-empregado/\u0027\u003Ehttps://avelino.run/trocando-forma-de-pensar-mudando-mindset-de-empres%C3%A1rio-para-empregado/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/trocando-forma-de-pensar-mudando-mindset-de-empres%C3%A1rio-para-empregado/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-07-07T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/5ed0dce83fe2d30ab5260d7b1d95e360",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/5ed0dce83fe2d30ab5260d7b1d95e360?page=true",
+      "partOf": "/socialweb/replies/5ed0dce83fe2d30ab5260d7b1d95e360",
+      "items": []
+    }
+  }
+}

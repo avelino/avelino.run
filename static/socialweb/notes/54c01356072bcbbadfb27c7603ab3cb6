@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/54c01356072bcbbadfb27c7603ab3cb6",
+  "type": "Note",
+  "hash": "54c01356072bcbbadfb27c7603ab3cb6",
+  "content": "\u003Cp\u003EConfigurando limite de recursos em aplica\u00E7\u00F5es Java (JVM) no Kubernetes\u003C/p\u003E\u003Cp\u003EFazer deploy de software desenvolvido usando tecnologias que foram criadas para ter escalabilidade vertical para escalar horizontalmente (micro servi\u00E7o, nano servi\u00E7o e etc) em produ\u00E7\u00E3o pode gerar alguns desafios que n\u00E3o estamos preparados. Principalmente quando o software esta rodando em JVM e n\u00E3o foi declarado limites de recursos.\n-Xms, -Xmx e seus problemas Ao estudar sobre a JVM voc\u00EA provavelmente passara pelos par\u00E2metros de aloca\u00E7\u00E3o inicial (Xms) e aloca\u00E7\u00E3o m\u00E1xima (Xmx) de mem\u00F3ria, os par\u00E2metros funcionam rigorosamente bem.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/configurando-limite-de-recursos-em-aplicacoes-java-jvm-no-kubernetes/\u0027\u003Ehttps://avelino.run/configurando-limite-de-recursos-em-aplicacoes-java-jvm-no-kubernetes/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/configurando-limite-de-recursos-em-aplicacoes-java-jvm-no-kubernetes/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-05-01T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/54c01356072bcbbadfb27c7603ab3cb6",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/54c01356072bcbbadfb27c7603ab3cb6?page=true",
+      "partOf": "/socialweb/replies/54c01356072bcbbadfb27c7603ab3cb6",
+      "items": []
+    }
+  }
+}

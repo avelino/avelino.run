@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/508c0ca37423e610e61cdf4509413940",
+  "type": "Note",
+  "hash": "508c0ca37423e610e61cdf4509413940",
+  "content": "\u003Cp\u003ESe permita, viva a vida mais leve!\u003C/p\u003E\u003Cp\u003EA busca pela evolu\u00E7\u00E3o pessoal \u00E9 viciante, mas n\u00E3o se cobre tanto nesse momento de distanciamento social.\nSe voc\u00EA conseguiu encaixar sua rotina que estimule a alta performance siga o jogo, caso voc\u00EA n\u00E3o conseguiu \u00E9 momento de afrouxar o \u0026quot;cabo\u0026quot; e se permitir viver outro momento para manter sua performance e n\u00E3o evoluir - ser\u00E1 tempor\u00E1rio, logo logo voltamos com g\u00E1s total.\nVoc\u00EA tem trabalhado \u0026quot;home office\u0026quot; (saiu do escrit\u00F3rio e est\u00E1 trabalhando em casa)?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2020-05-31-se-permita-viva-a-vida-mais-leve/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2020-05-31-se-permita-viva-a-vida-mais-leve/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2020-05-31-se-permita-viva-a-vida-mais-leve/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-05-31T15:30:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/508c0ca37423e610e61cdf4509413940",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/508c0ca37423e610e61cdf4509413940?page=true",
+      "partOf": "/socialweb/replies/508c0ca37423e610e61cdf4509413940",
+      "items": []
+    }
+  }
+}

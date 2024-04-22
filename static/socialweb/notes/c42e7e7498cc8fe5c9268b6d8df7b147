@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/c42e7e7498cc8fe5c9268b6d8df7b147",
+  "type": "Note",
+  "hash": "c42e7e7498cc8fe5c9268b6d8df7b147",
+  "content": "\u003Cp\u003ECaminhada - que fase p\u00F3s covid\u003C/p\u003E\u003Cp\u003EQue fase \u00E9 essa meus amigo(a)s! \uD83E\uDD37\u200D\u2642\uFE0F\nDepois de me recuperar da fase mais cr\u00EDtica do COVID \uD83E\uDDA0 o m\u00E9dico \uD83E\uDD7C pediu para ficar sem praticar atividade f\u00EDsica por 2 semanas e voltar com ritmo leve.\nAt\u00E9 a\u00ED OK \uD83D\uDC4C, mentalmente imaginei uma corridinha leve e um pedal sem colocar muita intensidade. Bah, sabe de nada inocente \uD83E\uDD26\u200D\u2642\uFE0F\nQualquer esfor\u00E7o que fa\u00E7o meus BPMs v\u00E3o l\u00E1 em cima, para ter uma refer\u00EAncia: em treino de pedal indoor sempre tive dificuldade de chegar na casa de 160bpm mesmo no meu limiar de 250w, no meu primeiro treino estava entre 180 - 200w e minha frequ\u00EAncia card\u00EDaca entre 160 - 170bpm \uD83D\uDC94\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/caminhada-que-fase-pos-covid/\u0027\u003Ehttps://avelino.run/quote/lifestyle/caminhada-que-fase-pos-covid/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/caminhada-que-fase-pos-covid/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-04-09T12:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/c42e7e7498cc8fe5c9268b6d8df7b147",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/c42e7e7498cc8fe5c9268b6d8df7b147?page=true",
+      "partOf": "/socialweb/replies/c42e7e7498cc8fe5c9268b6d8df7b147",
+      "items": []
+    }
+  }
+}

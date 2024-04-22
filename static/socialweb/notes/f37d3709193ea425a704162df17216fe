@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f37d3709193ea425a704162df17216fe",
+  "type": "Note",
+  "hash": "f37d3709193ea425a704162df17216fe",
+  "content": "\u003Cp\u003EO combinado n\u00E3o sai caro: \u0027Mentir pra si mesmo \u00E9 sempre a pior mentira\u0027\u003C/p\u003E\u003Cp\u003EConstantemente recebo msg dando parab\u00E9ns pelo meu foco, disciplina, motiva\u00E7\u00E3o e/ou alguma coisa na linha de me manter treinando todos os dias. L\u00F3gico que fico super feliz ao receber esse tipo de mensagem, mostra que estou gerando algum impacto (espero que positivo) na forma que encaro os meus desafios.\nMas algumas vezes essa msg de \u0026quot;parab\u00E9ns\u0026quot; vem seguida de \u0026quot;eu gostaria de ter esse foco\u0026quot;.\nComo fa\u00E7o para manter esse bendito foco?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/o-combinado-nao-sai-caro-mentir-pra-si-mesmo-e-sempre-a-pior-mentira/\u0027\u003Ehttps://avelino.run/o-combinado-nao-sai-caro-mentir-pra-si-mesmo-e-sempre-a-pior-mentira/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/o-combinado-nao-sai-caro-mentir-pra-si-mesmo-e-sempre-a-pior-mentira/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-05-09T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f37d3709193ea425a704162df17216fe",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f37d3709193ea425a704162df17216fe?page=true",
+      "partOf": "/socialweb/replies/f37d3709193ea425a704162df17216fe",
+      "items": []
+    }
+  }
+}

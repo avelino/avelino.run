@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/0c2d9ea1bdf1594bdcb5efd59cc5b127",
+  "type": "Note",
+  "hash": "0c2d9ea1bdf1594bdcb5efd59cc5b127",
+  "content": "\u003Cp\u003EFale com confian\u00E7a como se voc\u00EA estivesse certo, mas escute com aten\u00E7\u00E3o como se estivesse errado\u003C/p\u003E\u003Cp\u003EUm aspecto crucial do autoaperfei\u00E7oamento \u00E9 atingir o equil\u00EDbrio certo entre confian\u00E7a e humildade, especialmente em nossa comunica\u00E7\u00E3o com as outras pessoas.\n\u0026quot;Devemos sempre ouvir atentamente os outros porque eles podem nos dar o conhecimento que nos falta \u00E0s vezes e nos ajudar a corrigir alguns erros que estamos cometendo inconscientemente\u0026quot;\nConfian\u00E7a: chave de ouro para uma comunica\u00E7\u00E3o clara\nA confian\u00E7a tem um papel fundamental no compartilhamento de ideias, opini\u00F5es e conhecimentos.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/fale-com-confianca-como-se-voce-estivesse-certo-mas-escute-com-atencao-como-se-estivesse-errado/\u0027\u003Ehttps://avelino.run/fale-com-confianca-como-se-voce-estivesse-certo-mas-escute-com-atencao-como-se-estivesse-errado/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/fale-com-confianca-como-se-voce-estivesse-certo-mas-escute-com-atencao-como-se-estivesse-errado/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-05-03T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/0c2d9ea1bdf1594bdcb5efd59cc5b127",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/0c2d9ea1bdf1594bdcb5efd59cc5b127?page=true",
+      "partOf": "/socialweb/replies/0c2d9ea1bdf1594bdcb5efd59cc5b127",
+      "items": []
+    }
+  }
+}

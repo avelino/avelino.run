@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/c997d76ddc515ec6cb88ee9fe0315242",
+  "type": "Note",
+  "hash": "c997d76ddc515ec6cb88ee9fe0315242",
+  "content": "\u003Cp\u003EGerentes: n\u00E3o ocupem cada minuto de suas agendas, deixem um espa\u00E7o para reais imprevistos\u003C/p\u003E\u003Cp\u003EA demanda por tempo de um gerente s\u00E3o infinitas e \u00E0s vezes parece que voc\u00EA \u00E9 demandado por todas as dire\u00E7\u00F5es ao mesmo tempo. Provavelmente isso dificulta o foco e habilidade de ter visibilidade dos problemas futuros. Nesse blogpost conversaremos como limitar as pessoas exigirem mais do seu tempo e provavelmente fazer mais com menos.\nContextualizando Uma das primeiras coisas que aprendi como gerente foi que se eu n\u00E3o reservar um hor\u00E1rio na minha agenda para almo\u00E7o, provavelmente n\u00E3o almo\u00E7aria naquele dia.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/gerentes-nao-ocupem-cada-minuto-de-suas-agendas-deixem-um-espaco-para-reais-imprevistos/\u0027\u003Ehttps://avelino.run/gerentes-nao-ocupem-cada-minuto-de-suas-agendas-deixem-um-espaco-para-reais-imprevistos/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/gerentes-nao-ocupem-cada-minuto-de-suas-agendas-deixem-um-espaco-para-reais-imprevistos/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-06-29T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/c997d76ddc515ec6cb88ee9fe0315242",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/c997d76ddc515ec6cb88ee9fe0315242?page=true",
+      "partOf": "/socialweb/replies/c997d76ddc515ec6cb88ee9fe0315242",
+      "items": []
+    }
+  }
+}

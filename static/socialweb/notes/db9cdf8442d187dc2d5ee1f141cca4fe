@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/db9cdf8442d187dc2d5ee1f141cca4fe",
+  "type": "Note",
+  "hash": "db9cdf8442d187dc2d5ee1f141cca4fe",
+  "content": "\u003Cp\u003EGo vs Python more request per second\u003C/p\u003E\u003Cp\u003EI use python because it is a simple and powerful language, but never used by be excellence in performance (But for python web serves very well)! I know that benchmark based on \u0026quot;Hello World\u0026quot; does not want to say too much, but it\u0027s interessanta we know what technology (framework) is more time to answer performance web support request.\nThere is a python framework named Falcon (Falcon follows the REST architectural style, meaning (among other things) that you think in terms of resources and state transitions, which map to HTTP verbs) which is extremely performance, even using asynchronous backup processing library (as gevent, is a coroutine-based Python networking library that uses greenlet to provide a high-level asynchronous API on top of the libev event loop).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/go-vs-python-more-request-per-second/\u0027\u003Ehttps://avelino.run/go-vs-python-more-request-per-second/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/go-vs-python-more-request-per-second/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2015-01-17T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/db9cdf8442d187dc2d5ee1f141cca4fe",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/db9cdf8442d187dc2d5ee1f141cca4fe?page=true",
+      "partOf": "/socialweb/replies/db9cdf8442d187dc2d5ee1f141cca4fe",
+      "items": []
+    }
+  }
+}

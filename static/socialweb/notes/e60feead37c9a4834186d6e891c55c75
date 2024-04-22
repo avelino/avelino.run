@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/e60feead37c9a4834186d6e891c55c75",
+  "type": "Note",
+  "hash": "e60feead37c9a4834186d6e891c55c75",
+  "content": "\u003Cp\u003EChegar ao estado de Flow, para alcan\u00E7ar metas\u003C/p\u003E\u003Cp\u003ECompreendendo a Psicologia do Flow\nVoc\u00EA j\u00E1 se sentiu completamente imerso em uma atividade? Se sim, voc\u00EA pode ter experimentado um estado mental que os psic\u00F3logos chama de flow, mas o que \u00E9 isso? Vamos fazer uma analogia para tentar explicar: imagine que voc\u00EA est\u00E1 fazendo uma corrida Sua aten\u00E7\u00E3o est\u00E1 focada nos movimentos do seu corpo, na for\u00E7a dos seus m\u00FAsculos, sua respira\u00E7\u00E3o e sensa\u00E7\u00E3o da rua aos seus p\u00E9s.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/chegar-ao-estado-de-flow-para-alcan%C3%A7ar-metas/\u0027\u003Ehttps://avelino.run/chegar-ao-estado-de-flow-para-alcan%C3%A7ar-metas/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/chegar-ao-estado-de-flow-para-alcan%C3%A7ar-metas/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-11-08T21:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/e60feead37c9a4834186d6e891c55c75",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/e60feead37c9a4834186d6e891c55c75?page=true",
+      "partOf": "/socialweb/replies/e60feead37c9a4834186d6e891c55c75",
+      "items": []
+    }
+  }
+}

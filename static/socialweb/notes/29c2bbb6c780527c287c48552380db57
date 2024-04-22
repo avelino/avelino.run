@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/29c2bbb6c780527c287c48552380db57",
+  "type": "Note",
+  "hash": "29c2bbb6c780527c287c48552380db57",
+  "content": "\u003Cp\u003EConstruindo uma cultura de engenharia de produto\u003C/p\u003E\u003Cp\u003EAntes de falar sobre como criar cultura de engenharia de produto precisamos alinhar o que \u00E9 Engenharia de Produto (para pessoa engenheira de software) e principalmente o que \u00E9 cultura (ou pelo menos o que estou chamando de cultura). Engenharia de Produto \u00E9 um processo que colocamos nosso usu\u00E1rio como protagonista do \u0026quot;produto\u0026quot; que estamos desenvolvendo e buscamos entender os pontos com maior fric\u00E7\u00E3o para priorizar o que precisa ser feito (n\u00E3o s\u00F3 o que queremos).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/construindo-cultura-de-engenharia-de-produto/\u0027\u003Ehttps://avelino.run/construindo-cultura-de-engenharia-de-produto/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/construindo-cultura-de-engenharia-de-produto/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-02-05T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/29c2bbb6c780527c287c48552380db57",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/29c2bbb6c780527c287c48552380db57?page=true",
+      "partOf": "/socialweb/replies/29c2bbb6c780527c287c48552380db57",
+      "items": []
+    }
+  }
+}

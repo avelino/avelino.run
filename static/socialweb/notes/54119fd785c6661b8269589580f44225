@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/54119fd785c6661b8269589580f44225",
+  "type": "Note",
+  "hash": "54119fd785c6661b8269589580f44225",
+  "content": "\u003Cp\u003EMinha meta como gestor \u00E9: ser mandado embora no final do dia\u003C/p\u003E\u003Cp\u003ECompartilho com meu time que minha meta \u00E9 ser \u0026quot;mandado em bora\u0026quot; no final do dia, o que quero dizer com isso?\nMeu trabalho como gestor \u00E9 fazer meu time trabalhar sem minha depend\u00EAncia, se eles est\u00E3o conseguindo andar (entregar o combinado, dar suporte a profissionais menos experientes, se comunicar com pessoas n\u00E3o t\u00E9cnicas e etc) sem minha depend\u00EAncia quer dizer que fiz um \u00F3timo trabalho dando a autonomia necess\u00E1ria para todos tomar decis\u00E3o sem pedir permiss\u00E3o.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/minha-meta-como-gestor-eh-ser-mandado-embora-no-final-do-dia/\u0027\u003Ehttps://avelino.run/minha-meta-como-gestor-eh-ser-mandado-embora-no-final-do-dia/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/minha-meta-como-gestor-eh-ser-mandado-embora-no-final-do-dia/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-05-19T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/54119fd785c6661b8269589580f44225",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/54119fd785c6661b8269589580f44225?page=true",
+      "partOf": "/socialweb/replies/54119fd785c6661b8269589580f44225",
+      "items": []
+    }
+  }
+}

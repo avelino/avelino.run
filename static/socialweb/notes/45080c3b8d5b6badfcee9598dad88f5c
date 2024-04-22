@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/45080c3b8d5b6badfcee9598dad88f5c",
+  "type": "Note",
+  "hash": "45080c3b8d5b6badfcee9598dad88f5c",
+  "content": "\u003Cp\u003EConhe\u00E7a seu ambiente de trabalho\u003C/p\u003E\u003Cp\u003EAprender novas tecnologias (nesse caso linguagens de programa\u00E7\u00E3o) n\u00E3o \u00E9 um trabalho f\u00E1cil, vai muito al\u00E9m de conhecer syntax da linguagem. Exige alguns desafios como entender porque a linguagem foi criada (existe), entender o eco sistema, como fazer deploy, como gerenciar ambiente de produ\u00E7\u00E3o e etc.\nPensando nessa introdu\u00E7\u00E3o vou falar um pouco sobre conhecer o seu ambiente de trabalho antes de conhecer novas tecnologias (linguagens), \u00E9 muito comum ver desenvolvedores querer usar sempre o que existe de mais novo no mercado (linguagem, framework, plugin, editor e etc) sem pensar no time de desenvolvimento envolvido, mas sera que isso realmente \u00E9 a melhor coisa a se fazer para empresa que voc\u00EA trabalha?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/conhe%C3%A7a-seu-ambiente-de-trabalho/\u0027\u003Ehttps://avelino.run/conhe%C3%A7a-seu-ambiente-de-trabalho/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/conhe%C3%A7a-seu-ambiente-de-trabalho/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2017-05-03T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/45080c3b8d5b6badfcee9598dad88f5c",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/45080c3b8d5b6badfcee9598dad88f5c?page=true",
+      "partOf": "/socialweb/replies/45080c3b8d5b6badfcee9598dad88f5c",
+      "items": []
+    }
+  }
+}

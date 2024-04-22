@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/fcf9fa7c5f8d96e536265f7f5648e585",
+  "type": "Note",
+  "hash": "fcf9fa7c5f8d96e536265f7f5648e585",
+  "content": "\u003Cp\u003EFoco e disciplina \u00E9 a arma a favor dos seus objetivos\u003C/p\u003E\u003Cp\u003EN\u00E3o sei dizer quantos dias por semana penso em desistir do meu objetivo que me faz sair todos os dias para treinar (domingo a domingo).\nOntem (domingo dia 2019-10-13) n\u00E3o foi diferente, n\u00E3o estava em casa, tinha passado uma noite mal dormida, comi besteira na noite anterior, mesmo assim o rel\u00F3gio despertou as 4\u00A0am, desliguei e falei para mim \u0026quot;hoje n\u00E3o vou treinar, foda-se\u0026quot; e voltei a dormir, ap\u00F3s 1h o arrependimento bateu e l\u00E1 foi eu para mais um dia de treino, em uma estrada que n\u00E3o conhecia, sem vontade de treinar, com pensamento super negativo, sem caf\u00E9 da manh\u00E3 e etc (tudo que geralmente passa pela nossa cabe\u00E7a quando n\u00E3o estou afim de treinar).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/foco-e-disciplina-%C3%A9-a-arma-a-favor-dos-seus-objetivos/\u0027\u003Ehttps://avelino.run/quote/lifestyle/foco-e-disciplina-%C3%A9-a-arma-a-favor-dos-seus-objetivos/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/foco-e-disciplina-%C3%A9-a-arma-a-favor-dos-seus-objetivos/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-10-15T03:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/fcf9fa7c5f8d96e536265f7f5648e585",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/fcf9fa7c5f8d96e536265f7f5648e585?page=true",
+      "partOf": "/socialweb/replies/fcf9fa7c5f8d96e536265f7f5648e585",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/549b9e1093edabdff3f648bf897735fb",
+  "type": "Note",
+  "hash": "549b9e1093edabdff3f648bf897735fb",
+  "content": "\u003Cp\u003ETempo sab\u00E1tico focado em experi\u00EAncia da pessoa desenvolvedora (DevX)\u003C/p\u003E\u003Cp\u003EO \u00FAltimo tempo sab\u00E1tico que tirei foi no final de 2018 quando sai do dia-a-dia da empresa que fundei em 2015, foram intensos 4 anos de trabalho e precisava parar para oxigenar meu c\u00E9rebro.\nNo meio de 2019 resolvi voltar ao mercado de trabalho para aprender sobre como as empresas de tecnologia est\u00E3o estruturando time de engenharia de software \u2014 vinha empreendendo desde 2012 at\u00E9 2018 e estruturando time de engenharia como julgava ser a melhor forma, senti precisar ganhar experiencia com quem estava em momento de scaleup, fazendo com excel\u00EAncia o que eu queria aprender.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx/\u0027\u003Ehttps://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-03-20T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/549b9e1093edabdff3f648bf897735fb",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/549b9e1093edabdff3f648bf897735fb?page=true",
+      "partOf": "/socialweb/replies/549b9e1093edabdff3f648bf897735fb",
+      "items": []
+    }
+  }
+}

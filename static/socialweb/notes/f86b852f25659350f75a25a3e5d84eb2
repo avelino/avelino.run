@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f86b852f25659350f75a25a3e5d84eb2",
+  "type": "Note",
+  "hash": "f86b852f25659350f75a25a3e5d84eb2",
+  "content": "\u003Cp\u003EThe Importance of Business Metrics for Senior Software Engineers\u003C/p\u003E\u003Cp\u003EIn the career evolution of a software engineer, an increase in technical skill and the ability to solve complex problems is observed, as well as a significant expansion in the scope of their responsibilities. As engineers advance to more senior roles \u2013 including positions like Staff Engineer \u2013 it becomes imperative to align even more closely with the business metrics and objectives of the organization. But why is this alignment so crucial, and how does it manifest in practice?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/the-importance-of-business-metrics-for-senior-software-engineers/\u0027\u003Ehttps://avelino.run/the-importance-of-business-metrics-for-senior-software-engineers/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/the-importance-of-business-metrics-for-senior-software-engineers/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2024-04-01T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f86b852f25659350f75a25a3e5d84eb2",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f86b852f25659350f75a25a3e5d84eb2?page=true",
+      "partOf": "/socialweb/replies/f86b852f25659350f75a25a3e5d84eb2",
+      "items": []
+    }
+  }
+}

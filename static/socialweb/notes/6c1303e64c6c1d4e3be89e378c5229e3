@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/6c1303e64c6c1d4e3be89e378c5229e3",
+  "type": "Note",
+  "hash": "6c1303e64c6c1d4e3be89e378c5229e3",
+  "content": "\u003Cp\u003EConstante trabalho para absorver novas pessoas em time de engenharia\u003C/p\u003E\u003Cp\u003EDesenvolver o processo de \u201Cbordo\u201D (onboarding) para uma nova pessoa em time de engenharia requer muita dedica\u00E7\u00E3o e manter esse processo fluido da ainda mais trabalho (gerando o m\u00EDnimo de fric\u00E7\u00E3o).\nEsse assunto \u00E9 desafiador para qualquer empresa e/ou time trabalhando full time, imagina em projeto Open Source que geralmente os contribuidores trabalham em seu tempo livre que ele poderia estar com sua familia ou fazendo qualquer outra coisa. Devemos deixar esse processo o mais fluido poss\u00EDvel para que as pessoas n\u00E3o desanime com a complexidade para subir o ambiente e testar, at\u00E9 fazer sua primeira contribui\u00E7\u00E3o (pull request).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/constante-trabalho-para-absorver-novas-pessoas-em-time-de-engenharia/\u0027\u003Ehttps://avelino.run/constante-trabalho-para-absorver-novas-pessoas-em-time-de-engenharia/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/constante-trabalho-para-absorver-novas-pessoas-em-time-de-engenharia/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-01-12T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/6c1303e64c6c1d4e3be89e378c5229e3",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/6c1303e64c6c1d4e3be89e378c5229e3?page=true",
+      "partOf": "/socialweb/replies/6c1303e64c6c1d4e3be89e378c5229e3",
+      "items": []
+    }
+  }
+}

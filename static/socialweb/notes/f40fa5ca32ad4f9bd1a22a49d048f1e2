@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f40fa5ca32ad4f9bd1a22a49d048f1e2",
+  "type": "Note",
+  "hash": "f40fa5ca32ad4f9bd1a22a49d048f1e2",
+  "content": "\u003Cp\u003EComo criar e manter uma cultura organizacional forte com base em valores e vis\u00E3o\u003C/p\u003E\u003Cp\u003EA cultura organizacional \u00E9 o conjunto de valores, cren\u00E7as e comportamentos compartilhados pelos membros de uma organiza\u00E7\u00E3o. Ela \u00E9 criada ao longo do tempo (mesmo muitas pessoas dizendo que a cultura \u00E9 encontrada n\u00E3o criada) e \u00E9 moldada por uma variedade de fatores, incluindo a hist\u00F3ria da organiza\u00E7\u00E3o, sua miss\u00E3o, seus valores e suas lideran\u00E7as.\nUma cultura forte pode ser um ativo valioso para a organiza\u00E7\u00E3o. Ela pode ajudar a atrair e reter os melhores talentos, principalmente expurgar as pessoas que n\u00E3o tem aderencia com a cultura, poss\u00EDvelmente aumentar a produtividade e melhorar a satisfa\u00E7\u00E3o dos clientes.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/como-criar-e-manter-uma-cultura-organizacional-forte-com-base-em-valores-e-visao/\u0027\u003Ehttps://avelino.run/como-criar-e-manter-uma-cultura-organizacional-forte-com-base-em-valores-e-visao/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/como-criar-e-manter-uma-cultura-organizacional-forte-com-base-em-valores-e-visao/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-08-11T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f40fa5ca32ad4f9bd1a22a49d048f1e2",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f40fa5ca32ad4f9bd1a22a49d048f1e2?page=true",
+      "partOf": "/socialweb/replies/f40fa5ca32ad4f9bd1a22a49d048f1e2",
+      "items": []
+    }
+  }
+}

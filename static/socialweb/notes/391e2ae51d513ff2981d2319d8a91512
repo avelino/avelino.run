@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/391e2ae51d513ff2981d2319d8a91512",
+  "type": "Note",
+  "hash": "391e2ae51d513ff2981d2319d8a91512",
+  "content": "\u003Cp\u003ECertificado EV SSL\u003C/p\u003E\u003Cp\u003ECertificados Digitais EV SSL, ou em portugu\u00EAs SSL de Valida\u00E7\u00E3o Avan\u00E7ada, s\u00E3o certificados qualificados que se apresentam aos usu\u00E1rios da Internet de forma distinta dos demais certificados, garantindo assim aos usu\u00E1rios que o site acessado possui um certificado SSL emitido segundo um processo altamente seguro e verificado atrav\u00E9s de uma auditoria.\nHist\u00F3ria O Com\u00E9rcio via Internet est\u00E1 enfrentando uma crise de seguran\u00E7a. A confian\u00E7a na seguran\u00E7a de sites est\u00E1 diminuindo, e o n\u00FAmero de consumidores que est\u00E3o deixando de fazer transa\u00E7\u00F5es on-line est\u00E1 aumentando.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/certificado-ev-ssl/\u0027\u003Ehttps://avelino.run/certificado-ev-ssl/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/certificado-ev-ssl/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2011-03-28T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/391e2ae51d513ff2981d2319d8a91512",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/391e2ae51d513ff2981d2319d8a91512?page=true",
+      "partOf": "/socialweb/replies/391e2ae51d513ff2981d2319d8a91512",
+      "items": []
+    }
+  }
+}

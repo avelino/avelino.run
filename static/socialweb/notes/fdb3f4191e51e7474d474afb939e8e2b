@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/fdb3f4191e51e7474d474afb939e8e2b",
+  "type": "Note",
+  "hash": "fdb3f4191e51e7474d474afb939e8e2b",
+  "content": "\u003Cp\u003EReconhecimento pelo trabalho com Open Source - GitHub Star\u003C/p\u003E\u003Cp\u003ETenho a felicidade de compartilhar que fui premiado com o status de GitHub Stars por GitHub e nomea\u00E7\u00E3o por diversas pessoas - obrigado a todos, que tornaram isso poss\u00EDvel.\nEstou contribuindo e criando software Open Source desde 2008. Entrei no GitHub 31 outubro de 2008 e v\u00EA um universo de oportunidade para aprender olhando c\u00F3digo de softwares que usava no meu dia a dia. No come\u00E7o tive dificuldade de receber n\u00E3o em minhas contribui\u00E7\u00F5es (issues e pull requests), mas depois que entendi a \u0026quot;din\u00E2mica\u0026quot; de um projeto open source comecei encarar o n\u00E3o como oportunidade de aprender.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/reconhecimento-pelo-trabalho-com-open-source-github-star/\u0027\u003Ehttps://avelino.run/reconhecimento-pelo-trabalho-com-open-source-github-star/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/reconhecimento-pelo-trabalho-com-open-source-github-star/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-06-10T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/fdb3f4191e51e7474d474afb939e8e2b",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/fdb3f4191e51e7474d474afb939e8e2b?page=true",
+      "partOf": "/socialweb/replies/fdb3f4191e51e7474d474afb939e8e2b",
+      "items": []
+    }
+  }
+}

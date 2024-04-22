@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/c0d69be8669cc2fcdf8015c15a8fed8d",
+  "type": "Note",
+  "hash": "c0d69be8669cc2fcdf8015c15a8fed8d",
+  "content": "\u003Cp\u003ECriando package (modulo) em Node.js\u003C/p\u003E\u003Cp\u003EExiste muitas pessoas querendo estudar Node.js pela simplicidade de trabalhar com processamento ass\u00EDncrono e por usar JavaScript em server side. JavaScript \u00E9 uma linguagem simples mas para desenvolvimento Client side mas ao mesmo tempo quando colocamos JavaScript do lado do servidor come\u00E7a a surgi algumas duvidas como: estrutura do software, como criar biblioteca, qual Framework usar e muitas outras.\nDando uma olhada no Github vi que tem muitos software que parece uma ling\u00FCi\u00E7a com mais de 500 linhas em um mesmo arquivo, a\u00ED me vem a seguinte pergunta \u0026quot;JavaScript n\u00E3o \u00E9 orientado a objeto?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/criando-package-modulo-em-node.js/\u0027\u003Ehttps://avelino.run/criando-package-modulo-em-node.js/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/criando-package-modulo-em-node.js/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2012-06-23T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/c0d69be8669cc2fcdf8015c15a8fed8d",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/c0d69be8669cc2fcdf8015c15a8fed8d?page=true",
+      "partOf": "/socialweb/replies/c0d69be8669cc2fcdf8015c15a8fed8d",
+      "items": []
+    }
+  }
+}

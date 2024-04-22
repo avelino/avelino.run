@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/40cb7cf5acb63c72d23a9f2f1a8f9dd8",
+  "type": "Note",
+  "hash": "40cb7cf5acb63c72d23a9f2f1a8f9dd8",
+  "content": "\u003Cp\u003EAtypical Journey: From Anonymous Silence to CTO Stage (on Buser)\u003C/p\u003E\u003Cp\u003EWhile the path to the position of Chief Technology Officer (CTO) may seem similar to many, each story is uniquely extraordinary, colored by the unique combination of experiences, struggles and intensive learning. In \u0026quot;Invisible Learning\u0026quot;, John Seely Brown and David Thomas discuss how learning is often an invisible path, rooted not only in formalities, but also deeply woven into the fabric of our life experiences. This is my story within Buser.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/from-anonymous-silence-to-cto-stage/\u0027\u003Ehttps://avelino.run/from-anonymous-silence-to-cto-stage/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/from-anonymous-silence-to-cto-stage/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2024-01-07T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/40cb7cf5acb63c72d23a9f2f1a8f9dd8",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/40cb7cf5acb63c72d23a9f2f1a8f9dd8?page=true",
+      "partOf": "/socialweb/replies/40cb7cf5acb63c72d23a9f2f1a8f9dd8",
+      "items": []
+    }
+  }
+}

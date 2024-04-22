@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/1b1fdef77c3de99df6677ddc477c9be9",
+  "type": "Note",
+  "hash": "1b1fdef77c3de99df6677ddc477c9be9",
+  "content": "\u003Cp\u003EVoltando ter prazer em palestrar\u003C/p\u003E\u003Cp\u003EFazia anos que n\u00E3o palestrava e sentia tes\u00E3o pelo que eu estava falando, ap\u00F3s me processo de perca de peso eu geralmente palestrava porque era convidado, mas descia do palco como um profissional frustrado por n\u00E3o exalar o prazer pelo que eu estava falando.\nEssa confer\u00EAncia foi diferente, falei sobre minha carreira de engenheiro de software e ver o pessoal conectado com cada passo que eu dava foi fant\u00E1stico e extremamente motivador!\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/2019-06-22-prazer-em-palestrar/\u0027\u003Ehttps://avelino.run/quote/2019-06-22-prazer-em-palestrar/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/2019-06-22-prazer-em-palestrar/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-06-22T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/1b1fdef77c3de99df6677ddc477c9be9",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/1b1fdef77c3de99df6677ddc477c9be9?page=true",
+      "partOf": "/socialweb/replies/1b1fdef77c3de99df6677ddc477c9be9",
+      "items": []
+    }
+  }
+}

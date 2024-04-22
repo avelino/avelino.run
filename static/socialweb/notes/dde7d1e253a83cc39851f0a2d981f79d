@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/dde7d1e253a83cc39851f0a2d981f79d",
+  "type": "Note",
+  "hash": "dde7d1e253a83cc39851f0a2d981f79d",
+  "content": "\u003Cp\u003ETexto \u00E9 a forma mais eficiente de escalar sua comunica\u00E7\u00E3o\u003C/p\u003E\u003Cp\u003E\u00C9 comum trocar essa falta de texto por call, nos enganando achando que \u00E9 mais r\u00E1pido, o grande problema \u00E9 que dessa forma fazemos N call para tentar deixar todas as pessoas por dentro do assunto. Deixando a solu\u00E7\u00E3o \u0026quot;mais r\u00E1pida\u0026quot; menos eficaz drenando mais tempo do que escrever um bom texto passando contexto para as pessoas envolvidas\nCom a acelera\u00E7\u00E3o do trabalho remoto muitas empresas acaba criando uma rotina insana de calls (provavelmente causada pela pandemia), se voc\u00EA olha a agenda dessas pessoas tem um call apos o outro sem ter tempo de planejar o que ser\u00E1 discutido e processar o que foi discutido no call anterior porque est\u00E1 atrasado para o pr\u00F3ximo call - isso pode piorar, em muitas reuni\u00F5es n\u00E3o praticamos escuta ativa por ter outros assuntos na cabe\u00E7a e n\u00E3o ter se preparado para reuni\u00E3o.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/text-e-a-forma-mais-eficiente-de-escalar-sua-comunicacao/\u0027\u003Ehttps://avelino.run/text-e-a-forma-mais-eficiente-de-escalar-sua-comunicacao/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/text-e-a-forma-mais-eficiente-de-escalar-sua-comunicacao/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-05-12T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/dde7d1e253a83cc39851f0a2d981f79d",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/dde7d1e253a83cc39851f0a2d981f79d?page=true",
+      "partOf": "/socialweb/replies/dde7d1e253a83cc39851f0a2d981f79d",
+      "items": []
+    }
+  }
+}

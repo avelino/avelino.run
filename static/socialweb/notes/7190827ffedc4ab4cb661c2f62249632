@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/7190827ffedc4ab4cb661c2f62249632",
+  "type": "Note",
+  "hash": "7190827ffedc4ab4cb661c2f62249632",
+  "content": "\u003Cp\u003ETrabalhar para empresa de fora do Brasil\u003C/p\u003E\u003Cp\u003EO tema \u00E9 muito abrangente mas vou focar justamente para a \u00E1rea tecnologia onde temos a possibilidade de trabalhar remoto (vulgo home office, que \u00E9 um outro tema que gera muita polemica).\nHoje fecha um total de 3 dias trabalhando na empresa Mochii (Realmente achei o site da empresa muito nerd e extremamente diferente, esse e outros motivo me fez trabalhar com eles) e durante esses tr\u00EAs dias tive uma \u00F3tima experiencia para compartilhar.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/\u0027\u003Ehttps://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/trabalhar-para-empresa-de-fora-do-brasil/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2012-04-20T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/7190827ffedc4ab4cb661c2f62249632",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/7190827ffedc4ab4cb661c2f62249632?page=true",
+      "partOf": "/socialweb/replies/7190827ffedc4ab4cb661c2f62249632",
+      "items": []
+    }
+  }
+}

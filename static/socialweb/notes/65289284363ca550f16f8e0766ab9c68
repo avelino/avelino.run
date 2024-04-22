@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/65289284363ca550f16f8e0766ab9c68",
+  "type": "Note",
+  "hash": "65289284363ca550f16f8e0766ab9c68",
+  "content": "\u003Cp\u003ECoding Dojo o melhor lugar para pratica Programa\u00E7\u00E3o\u003C/p\u003E\u003Cp\u003EN\u00F3s da Comunidade Python S\u00E3o Paulo estamos no 10\u0027 Coding Dojo.\nParab\u00E9ns a todos os organizadores e participantes.\nAgrade\u00E7o a todas as empresa que abriu a porta para n\u00F3s da Comunidade Python S\u00E3o Paulo poder realizar o Coding Dojo.\nCoding Dojo \u00E9 uma reuni\u00E3o onde um grupo de programadores se re\u00FAnem para trabalhar em um desafio de programa\u00E7\u00E3o. Eles est\u00E3o l\u00E1 para se divertir e se envolver em pr\u00E1tica a fim de melhorar suas habilidades.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/\u0027\u003Ehttps://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/coding-dojo-o-melhor-lugar-para-pratica-programa%C3%A7%C3%A3o/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2011-02-21T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/65289284363ca550f16f8e0766ab9c68",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/65289284363ca550f16f8e0766ab9c68?page=true",
+      "partOf": "/socialweb/replies/65289284363ca550f16f8e0766ab9c68",
+      "items": []
+    }
+  }
+}

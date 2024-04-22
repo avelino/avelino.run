@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/54bca934e21ace35626e80dfd4dd4fb5",
+  "type": "Note",
+  "hash": "54bca934e21ace35626e80dfd4dd4fb5",
+  "content": "\u003Cp\u003EMeu ambiente de trabalho em 7 itens\u003C/p\u003E\u003Cp\u003EO Licio me convidou para entrar no ritmo dos \u0026quot;7 itens\u0026quot; ent\u00E3o vamos l\u00E1...\nGIT \u002B Mercurial Geralmente procuro usar Mercurial no Bitbucket mas costumo usar bastante Git no Github. Uso o Github porque vejo ele muito mais do que um espa\u00E7o para criar reposit\u00F3rios, e sim uma rede social de Desenvolvedor.\nVIM Depois de muito testar o Emacs, TextMate e VIM, resolvi afirma que para mim o melhor \u00E9 o VIM, consigo fazer tudo que preciso e n\u00E3o tenho tantos problemas com \u0026quot; como no TextMate.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/\u0027\u003Ehttps://avelino.run/meu-ambiente-de-trabalho-em-7-itens/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/meu-ambiente-de-trabalho-em-7-itens/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2011-02-20T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/54bca934e21ace35626e80dfd4dd4fb5",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/54bca934e21ace35626e80dfd4dd4fb5?page=true",
+      "partOf": "/socialweb/replies/54bca934e21ace35626e80dfd4dd4fb5",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/85ed0d86f3dee302a3b6347c60624cbd",
+  "type": "Note",
+  "hash": "85ed0d86f3dee302a3b6347c60624cbd",
+  "content": "\u003Cp\u003EWelcome to newsletter\u003C/p\u003E\u003Cp\u003EOl\u00E1 pessoa, seja bem-vinda a minha newsletter, ser\u00E1 um prazer compartilhar minhas anota\u00E7\u00F5es com voc\u00EAs.\nO que voc\u00EA pode esperar por aqui?\nanota\u00E7\u00F5es das not\u00EDcias que leio; anota\u00E7\u00F5es do que tenho estudado atualmente, tenho atualmente estudado gest\u00E3o de time de engenharia e como introduzir pessoas com zero de experi\u00EAncia em engenharia de software no nosso mundo; o que tenho feito no mundo open source e quais projetos estou envolvido atualmente.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/newsletter/welcome/\u0027\u003Ehttps://avelino.run/newsletter/welcome/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/newsletter/welcome/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "1989-01-05T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/85ed0d86f3dee302a3b6347c60624cbd",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/85ed0d86f3dee302a3b6347c60624cbd?page=true",
+      "partOf": "/socialweb/replies/85ed0d86f3dee302a3b6347c60624cbd",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/5a9e3674c252ea3bf98441186bdc2694",
+  "type": "Note",
+  "hash": "5a9e3674c252ea3bf98441186bdc2694",
+  "content": "\u003Cp\u003EDo querer fazer parte a CTO\u003C/p\u003E\u003Cp\u003EAp\u00F3s ver a iniciativa que a Buser teve de formar pessoas em casa com o programa Buser Tech, eu quis me aproximar deles de alguma forma \u2014 n\u00E3o sabia como nem o que fazer, mas queria fazer parte da \u0026quot;festa\u0026quot;.\nAjudei muitas pessoas engenheiras evolu\u00EDrem profissionalmente (mesmo que seja 0,001%), mas nunca formei ningu\u00E9m do zero e senti estar no momento de aprender com quem est\u00E1 fazendo isso h\u00E1 alguns anos.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/do-querer-fazer-parte-a-cto/\u0027\u003Ehttps://avelino.run/do-querer-fazer-parte-a-cto/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/do-querer-fazer-parte-a-cto/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-06-02T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/5a9e3674c252ea3bf98441186bdc2694",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/5a9e3674c252ea3bf98441186bdc2694?page=true",
+      "partOf": "/socialweb/replies/5a9e3674c252ea3bf98441186bdc2694",
+      "items": []
+    }
+  }
+}

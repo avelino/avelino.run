@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/553f3b624714483c9bee6afa1d3db322",
+  "type": "Note",
+  "hash": "553f3b624714483c9bee6afa1d3db322",
+  "content": "\u003Cp\u003ETDA Fila com Python\u003C/p\u003E\u003Cp\u003EO foco este post \u00E9 levar voc\u00EA aprender computa\u00E7\u00E3o com Python. O TDA Fila \u00E9 definido pelas seguintes opera\u00E7\u00F5es:\n__init__: Inicializar uma nova fila vazia insert: Adicionar um novo item \u00E0 fila remove: Remover e retornar um item da fila. O item retornado \u00E9 o que foi adicionado primeiro. isEmpty: Checar se a fila est\u00E1 vazia\nSegue abaixo um c\u00F3digo para explica melhor a implementa\u00E7\u00E3o \u0026quot;TAD Fila\u0026quot;.\nclass Queue: def __init__(self): self.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/tda-fila-com-python/\u0027\u003Ehttps://avelino.run/tda-fila-com-python/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/tda-fila-com-python/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2010-07-23T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/553f3b624714483c9bee6afa1d3db322",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/553f3b624714483c9bee6afa1d3db322?page=true",
+      "partOf": "/socialweb/replies/553f3b624714483c9bee6afa1d3db322",
+      "items": []
+    }
+  }
+}

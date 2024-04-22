@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/3b952ccea4d6a5c0e7ac25bebcf51abc",
+  "type": "Note",
+  "hash": "3b952ccea4d6a5c0e7ac25bebcf51abc",
+  "content": "\u003Cp\u003EReporting a problem in an Open Source project is as important as contributing code\u003C/p\u003E\u003Cp\u003EI constantly hear people saying that to contribute to an Open Source project you need to be able to program very well, have a lot of knowledge, be able to handle code criticism, etc.\nI see the above statements as excuses and focus in the wrong place.\nIn the last few months, I haven\u0027t had as much time to contribute to open source projects as I like (writing code), but that didn\u0027t stop me from contributing.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/reporting-problem-in-open-source-project-is-important-contributing-code/\u0027\u003Ehttps://avelino.run/reporting-problem-in-open-source-project-is-important-contributing-code/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/reporting-problem-in-open-source-project-is-important-contributing-code/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-04-22T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/3b952ccea4d6a5c0e7ac25bebcf51abc",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/3b952ccea4d6a5c0e7ac25bebcf51abc?page=true",
+      "partOf": "/socialweb/replies/3b952ccea4d6a5c0e7ac25bebcf51abc",
+      "items": []
+    }
+  }
+}

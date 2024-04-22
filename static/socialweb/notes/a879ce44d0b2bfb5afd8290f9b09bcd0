@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/a879ce44d0b2bfb5afd8290f9b09bcd0",
+  "type": "Note",
+  "hash": "a879ce44d0b2bfb5afd8290f9b09bcd0",
+  "content": "\u003Cp\u003EGuia de estilo para pacotes Go\u003C/p\u003E\u003Cp\u003ETradu\u00E7\u00E3o do blogpost Style guideline for Go packages escrito pela @rakyll.\nC\u00F3digo organizado em Go \u00E9 f\u00E1cil de entender, usar e ler. A falta de organiza\u00E7\u00E3o em c\u00F3digo Go \u00E9 t\u00E3o cr\u00EDtica quanto as APIs mal projetadas. Os diret\u00F3rios, nome e a estrutura dos seus pacotes s\u00E3o os primeiros elementos com os quais os utilizadores v\u00EAem e interagem.\nO objetivo deste blogpost \u00E9 ajud\u00E1-lo(a) com boas pr\u00E1ticas comuns para n\u00E3o definir regras ruins.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/guia-de-estilo-para-pacotes-go/\u0027\u003Ehttps://avelino.run/guia-de-estilo-para-pacotes-go/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/guia-de-estilo-para-pacotes-go/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-04-02T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/a879ce44d0b2bfb5afd8290f9b09bcd0",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/a879ce44d0b2bfb5afd8290f9b09bcd0?page=true",
+      "partOf": "/socialweb/replies/a879ce44d0b2bfb5afd8290f9b09bcd0",
+      "items": []
+    }
+  }
+}

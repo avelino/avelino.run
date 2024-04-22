@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/6000705ee3ce6a11728d2e604df90cc1",
+  "type": "Note",
+  "hash": "6000705ee3ce6a11728d2e604df90cc1",
+  "content": "\u003Cp\u003EKeeping open source projects - awesome-go\u003C/p\u003E\u003Cp\u003EBeginning of any project (especially when we are talking about open source) is extremely entertaining for developer, over the years the fun passes and it is the responsibility to keep your \u0026quot;son\u0026quot; following the path of it.\nHow did the starting awesome-go? All projects I started are out of necessity, the awesome-go was no different.\nAfter knowing the awesome-python and seeing other \u0026quot;awesomes\u0026quot; projects I searched for the awesome-go and did not get results.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/keeping-open-source-projects-awesome-go/\u0027\u003Ehttps://avelino.run/keeping-open-source-projects-awesome-go/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/keeping-open-source-projects-awesome-go/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-09-25T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/6000705ee3ce6a11728d2e604df90cc1",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/6000705ee3ce6a11728d2e604df90cc1?page=true",
+      "partOf": "/socialweb/replies/6000705ee3ce6a11728d2e604df90cc1",
+      "items": []
+    }
+  }
+}

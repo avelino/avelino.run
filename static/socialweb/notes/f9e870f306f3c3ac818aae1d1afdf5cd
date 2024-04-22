@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f9e870f306f3c3ac818aae1d1afdf5cd",
+  "type": "Note",
+  "hash": "f9e870f306f3c3ac818aae1d1afdf5cd",
+  "content": "\u003Cp\u003EInsights/Anota\u00E7\u00F5es do m\u00EAs 01/2022\u003C/p\u003E\u003Cp\u003E\uD83D\uDCCC *E aiiiii, como esta? Chegou o dia de compartilhar alguns insights/anota\u00E7\u00F5es dos conte\u00FAdos que l\u00EA esse m\u00EAs, como sempre tive grande dificuldade de escolher esses artigos, espero que eles ajudem voc\u00EA evoluir profissionalmente \uD83D\uDE80* Como o Medium lida com crescimento do time de engenharia? Em 2017 o time de engenharia do Medium come\u00E7ou escrever como crescimento do seu time colocando as pessoas como primeiro plano e em 2019 escreveram um blogpost falando sobre 2 anos p\u00F4s publica\u00E7\u00E3o do \u201CEngineering growth: framework overview\u201D.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/newsletter/2022-01-anotacoes/\u0027\u003Ehttps://avelino.run/newsletter/2022-01-anotacoes/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/newsletter/2022-01-anotacoes/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-01-16T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f9e870f306f3c3ac818aae1d1afdf5cd",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f9e870f306f3c3ac818aae1d1afdf5cd?page=true",
+      "partOf": "/socialweb/replies/f9e870f306f3c3ac818aae1d1afdf5cd",
+      "items": []
+    }
+  }
+}

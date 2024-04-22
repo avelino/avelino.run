@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/bc31635ceedabf0cf4963ea0c3709c25",
+  "type": "Note",
+  "hash": "bc31635ceedabf0cf4963ea0c3709c25",
+  "content": "\u003Cp\u003EPor que triathlon? Qual \u00E9 o seu limite?\u003C/p\u003E\u003Cp\u003EEsporte? O que \u00E9 isso?\nMeu pai quase foi um jogador de futebol e por ele gostar muito de futebol desde pequeno sempre me incentivou a gostar, mas nunca foi minha cara!\nCresci pensando que s\u00F3 existia futebol como esporte e nunca tive curiosidade em nenhum outro tipo de esporte, c\u00E1 entre n\u00F3s, por que sair da zona de conforto?\nDepois de ganhar muito peso (chegando a 180kg) resolvi come\u00E7ar correr para me desconectar do \u201Cdia a dia empreendedor\u201D e durante a corrida pensar em como resolver algum problema que tinha dentro da empresa, por\u00E9m o tiro saiu pela culatra.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2019-06-21-por-que-triathlon/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2019-06-21-por-que-triathlon/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2019-06-21-por-que-triathlon/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-06-21T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/bc31635ceedabf0cf4963ea0c3709c25",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/bc31635ceedabf0cf4963ea0c3709c25?page=true",
+      "partOf": "/socialweb/replies/bc31635ceedabf0cf4963ea0c3709c25",
+      "items": []
+    }
+  }
+}

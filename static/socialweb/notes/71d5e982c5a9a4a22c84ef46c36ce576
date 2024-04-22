@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/71d5e982c5a9a4a22c84ef46c36ce576",
+  "type": "Note",
+  "hash": "71d5e982c5a9a4a22c84ef46c36ce576",
+  "content": "\u003Cp\u003ECorretor Ortogr\u00E1fico no VIM\u003C/p\u003E\u003Cp\u003EDesde 2007 escrevo aqui no meu blog, com isso j\u00E1 passei por diversas plataforma de blog (Blogspot, Wordpress, Django, Django Diario, Pelican, entre outras), hoje estou usando liquidluck (ferramenta escrita em Tornado Python para gerar arquivos est\u00E1tico), minha escolha para essa mudan\u00E7a foi simplificar o processo de escrever texto, ou seja, usar o que eu uso no dia a dia para programar, com isso tive algumas perda como corretor ortogr\u00E1fo!\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/\u0027\u003Ehttps://avelino.run/corretor-ortogr%C3%A1fico-no-vim/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/corretor-ortogr%C3%A1fico-no-vim/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2013-12-07T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/71d5e982c5a9a4a22c84ef46c36ce576",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/71d5e982c5a9a4a22c84ef46c36ce576?page=true",
+      "partOf": "/socialweb/replies/71d5e982c5a9a4a22c84ef46c36ce576",
+      "items": []
+    }
+  }
+}

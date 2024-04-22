@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/df7fab8252f5bce2bfd3fcb8fb5a20db",
+  "type": "Note",
+  "hash": "df7fab8252f5bce2bfd3fcb8fb5a20db",
+  "content": "\u003Cp\u003EGolang, C and Python the benchmark time\u003C/p\u003E\u003Cp\u003EI was wondering how performant Golang is, so I decided to put together a little benchmarking example for myself.\nThe benchmark will be done in my personal computer:\nProcessor 3 GHz Intel Core i7 Memory 8 GB 1600 MHz DDR3 Software OS X 10.9.2 (13C64) So I started with Python, which is what I know best and created the following simple script;\nThe reason for the total output, was to have a check to ensure that I was getting the same results in each of the scripts.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/golang-c-and-python-the-benchmark-time/\u0027\u003Ehttps://avelino.run/golang-c-and-python-the-benchmark-time/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/golang-c-and-python-the-benchmark-time/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2014-03-06T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/df7fab8252f5bce2bfd3fcb8fb5a20db",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/df7fab8252f5bce2bfd3fcb8fb5a20db?page=true",
+      "partOf": "/socialweb/replies/df7fab8252f5bce2bfd3fcb8fb5a20db",
+      "items": []
+    }
+  }
+}

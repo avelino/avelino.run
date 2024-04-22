@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f82ada5186bde6b75932712fb8712cde",
+  "type": "Note",
+  "hash": "f82ada5186bde6b75932712fb8712cde",
+  "content": "\u003Cp\u003EPalestra: Uma carreira profissional baseada em Open Source - Engenharia de Software\u003C/p\u003E\u003Cp\u003ENessa palestra falo como fa\u00E7o para guiar minha carreira profissional contribuindo com projetos Open Source \u2014 j\u00E1 contribuiu com o core da linguagem Go, MongoDB, Riak, Django, ReactiveX e muitos outros projetos.\nA quem acredite que viver financeiramente de Open Source n\u00E3o \u00E9 poss\u00EDvel, mostro como fiz at\u00E9 hoje que doa\u00E7\u00E3o n\u00E3o \u00E9 a \u00FAnica op\u00E7\u00E3o, mas infelizmente \u00E9 a primeira op\u00E7\u00E3o que vem a mente na maioria das pessoas.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/palestra-uma-carreira-profissional-baseada-em-open-source-engenharia-de-software/\u0027\u003Ehttps://avelino.run/palestra-uma-carreira-profissional-baseada-em-open-source-engenharia-de-software/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/palestra-uma-carreira-profissional-baseada-em-open-source-engenharia-de-software/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-06-17T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f82ada5186bde6b75932712fb8712cde",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f82ada5186bde6b75932712fb8712cde?page=true",
+      "partOf": "/socialweb/replies/f82ada5186bde6b75932712fb8712cde",
+      "items": []
+    }
+  }
+}

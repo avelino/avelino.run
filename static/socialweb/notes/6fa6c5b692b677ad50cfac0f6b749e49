@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/6fa6c5b692b677ad50cfac0f6b749e49",
+  "type": "Note",
+  "hash": "6fa6c5b692b677ad50cfac0f6b749e49",
+  "content": "\u003Cp\u003EFoco no ambiente, acelerando o aprendizado!\u003C/p\u003E\u003Cp\u003EObjetivo desse blogpost \u00E9 compartilhar como geralmente fa\u00E7o para acelerar meu aprendizado em uma \u00E1rea que n\u00E3o tenho tanta experiencia e quero (e/ou preciso) ganhar mais experi\u00EAncia.\nQuando entrei na \u00E1rea de tecnologia (desenvolvimento de software) n\u00E3o sabia praticamente nada e comecei estudar como poderia acelerar meu aprendizado, at\u00E9 que me deparei em um texto no reddit que falava sobre foco no ambiente, foi o extremamente dif\u00EDcil eu conseguir entender o que estava querendo dizer aquele texto, mas depois de dias lendo e relendo consegui absorver que deveria frequentar lugares onde tinha pessoas fazendo o que buscava aprender, assim aceleraria meu aprendizado.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/foco-no-ambiente-acelerando-o-aprendizado/\u0027\u003Ehttps://avelino.run/foco-no-ambiente-acelerando-o-aprendizado/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/foco-no-ambiente-acelerando-o-aprendizado/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-02-28T16:49:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/6fa6c5b692b677ad50cfac0f6b749e49",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/6fa6c5b692b677ad50cfac0f6b749e49?page=true",
+      "partOf": "/socialweb/replies/6fa6c5b692b677ad50cfac0f6b749e49",
+      "items": []
+    }
+  }
+}

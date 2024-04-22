@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/a30a202a561e9a7bd196d6032cb91c6f",
+  "type": "Note",
+  "hash": "a30a202a561e9a7bd196d6032cb91c6f",
+  "content": "\u003Cp\u003EUses\u003C/p\u003E\u003Cp\u003EMake sure to check out uses.tech for a list of everyone\u2019s /uses pages!\nI constantly get a few emails (my email is public on my github profile) asking about the software and hardware I use in my day to day life as an open source product/project maintainer.\nMy day job is 100% involved with open source projects, would you like to support any project I help maintain? see how and who currently supports me here.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/uses/\u0027\u003Ehttps://avelino.run/uses/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/uses/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-07-04T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/a30a202a561e9a7bd196d6032cb91c6f",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/a30a202a561e9a7bd196d6032cb91c6f?page=true",
+      "partOf": "/socialweb/replies/a30a202a561e9a7bd196d6032cb91c6f",
+      "items": []
+    }
+  }
+}

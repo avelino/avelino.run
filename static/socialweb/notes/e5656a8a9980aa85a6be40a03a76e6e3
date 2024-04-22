@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/e5656a8a9980aa85a6be40a03a76e6e3",
+  "type": "Note",
+  "hash": "e5656a8a9980aa85a6be40a03a76e6e3",
+  "content": "\u003Cp\u003EThe Power of Writing in English for the Global Open Source Community\u003C/p\u003E\u003Cp\u003EIn today\u2019s interconnected world, writing in English for the open source community has become a pivotal step for many professionals. It\u2019s not just about language proficiency; it\u2019s about bridging gaps, fostering collaboration, and amplifying the impact of open source projects on a global scale.\nThe Journey to Global Connection It\u2019s often said that taking the first step is the hardest. For many, including myself, the decision to write in English was a calculated one, influenced by the desire to connect with a broader audience and the recognition of English as a common language in the tech world.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/the-power-of-writing-in-english-for-the-global-open-source-community/\u0027\u003Ehttps://avelino.run/the-power-of-writing-in-english-for-the-global-open-source-community/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/the-power-of-writing-in-english-for-the-global-open-source-community/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-10-24T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/e5656a8a9980aa85a6be40a03a76e6e3",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/e5656a8a9980aa85a6be40a03a76e6e3?page=true",
+      "partOf": "/socialweb/replies/e5656a8a9980aa85a6be40a03a76e6e3",
+      "items": []
+    }
+  }
+}

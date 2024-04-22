@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/1225543530daecfcd6c5bd188e25e252",
+  "type": "Note",
+  "hash": "1225543530daecfcd6c5bd188e25e252",
+  "content": "\u003Cp\u003ELife Won\u2019t Wait / A vida n\u00E3o vai esperar\u003C/p\u003E\u003Cp\u003ENossa vida n\u00E3o ir\u00E1 parar o cron\u00F4metro esperando voc\u00EA terminar suas atividades do trabalho para come\u00E7ar ter h\u00E1bitos saud\u00E1veis. Sem desculpa que n\u00E3o temos tempo, est\u00E1 cansado e mais um monte de blablabl\u00E1, o que esta faltando \u00E9 equil\u00EDbrio no seu dia a dia, trabalhar \u00E9 extremamente importe e necess\u00E1rio (os boletos n\u00E3o para de chegar n\u00E9 meus amigos(as)), mas cuidarmos da pessoa que mais nos ama \u00E9 mais importante, sem ela n\u00E3o se consegue fazer mais nada.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2019-05-24-life-wont-wait/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2019-05-24-life-wont-wait/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2019-05-24-life-wont-wait/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-05-24T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/1225543530daecfcd6c5bd188e25e252",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/1225543530daecfcd6c5bd188e25e252?page=true",
+      "partOf": "/socialweb/replies/1225543530daecfcd6c5bd188e25e252",
+      "items": []
+    }
+  }
+}

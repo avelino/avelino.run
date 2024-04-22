@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/0ab623f775aa2a669b37088f2cf54e25",
+  "type": "Note",
+  "hash": "0ab623f775aa2a669b37088f2cf54e25",
+  "content": "\u003Cp\u003EA pr\u00E1tica nos leva \u00E0 perfei\u00E7\u00E3o/performance\u003C/p\u003E\u003Cp\u003EEm alguns story comento sobre fazer 2 \u0026quot;coisas\u0026quot; por 2 mil vezes e n\u00E3o 2 mil \u0026quot;coisas\u0026quot; por 2 vezes, mas por que tenho falado sobre isso?\nProvavelmente voc\u00EA j\u00E1 ouviu essa frase antes, talvez dita por algum parente mais velho ou algum amigo, \u00E9 algo comumente utilizada em nosso dia-a-dia. Pode ser tamb\u00E9m que voc\u00EA j\u00E1 tenha ouvido falar em algum momento sobre a regra das 10 mil horas, que prop\u00F5e que \u00E9 necess\u00E1ria essa quantidade total de horas para se atingir um n\u00EDvel de maestria em uma habilidade.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2020-06-01-a-pratica-nos-leva-a-perfeicao-performance/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2020-06-01-a-pratica-nos-leva-a-perfeicao-performance/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2020-06-01-a-pratica-nos-leva-a-perfeicao-performance/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-06-01T12:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/0ab623f775aa2a669b37088f2cf54e25",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/0ab623f775aa2a669b37088f2cf54e25?page=true",
+      "partOf": "/socialweb/replies/0ab623f775aa2a669b37088f2cf54e25",
+      "items": []
+    }
+  }
+}

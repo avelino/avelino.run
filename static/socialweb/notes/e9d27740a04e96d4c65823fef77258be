@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/e9d27740a04e96d4c65823fef77258be",
+  "type": "Note",
+  "hash": "e9d27740a04e96d4c65823fef77258be",
+  "content": "\u003Cp\u003Eit\u0027s sad to say goodbye\u003C/p\u003E\u003Cp\u003E\u00C9 triste dar adeus, mas entendo que no momento n\u00E3o estamos na mesma sintonia, sinta-se livre para voltar a qualquer momento, ser\u00E1 \u00F3timo compartilhar o que estou estudando com voc\u00EA.\nCaso queira voltar fazer parte da nossa newsletter tem o formul\u00E1rio a\u00ED na parte superior.\nEN It is sad to say goodbye, but I understand that at the moment we are not on the same page, feel free to come back anytime, it will be great to share what I am studying with you.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/newsletter/unsubscriber/\u0027\u003Ehttps://avelino.run/newsletter/unsubscriber/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/newsletter/unsubscriber/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "1989-01-05T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/e9d27740a04e96d4c65823fef77258be",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/e9d27740a04e96d4c65823fef77258be?page=true",
+      "partOf": "/socialweb/replies/e9d27740a04e96d4c65823fef77258be",
+      "items": []
+    }
+  }
+}

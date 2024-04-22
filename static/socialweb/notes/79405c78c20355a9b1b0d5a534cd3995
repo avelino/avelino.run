@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/79405c78c20355a9b1b0d5a534cd3995",
+  "type": "Note",
+  "hash": "79405c78c20355a9b1b0d5a534cd3995",
+  "content": "\u003Cp\u003EDiferen\u00E7a entre amadores e profissionais\u003C/p\u003E\u003Cp\u003EPorque algumas pessoas parecem ser extremamente bem sucedidas e fazer muito, enquanto a grande maioria de n\u00F3s luta para pisar na \u00E1gua?\nA resposta \u00E9 complicada e provavelmente composta por diversas respostas.\nO aspecto principal \u00E9 a forma de pensar e planejamento.\nMas qual \u00E9 a diferen\u00E7a? Na verdade, h\u00E1 diversas diferen\u00E7as: Amadores param quando chega a seu objetivo, profissionais entendem que a realiza\u00E7\u00E3o inicial \u00E9 apenas o come\u00E7o; Amadores t\u00EAm um objetivo, profissionais t\u00EAm um processo; Amadores pensam que s\u00E3o bons em tudo, profissionais entendem seus c\u00EDrculos de compet\u00EAncia; Amadores ver feedback e concelho como criticas, profissionais sabem que t\u00EAm pontos fracos e procuram cr\u00EDticas construtivas; Amadores valorizam o desempenho isolado, pense sobre o receptor que pega a bola uma vez em um lance dif\u00EDcil.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/diferen%C3%A7a-entre-amadores-e-profissionais/\u0027\u003Ehttps://avelino.run/diferen%C3%A7a-entre-amadores-e-profissionais/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/diferen%C3%A7a-entre-amadores-e-profissionais/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-11-11T16:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/79405c78c20355a9b1b0d5a534cd3995",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/79405c78c20355a9b1b0d5a534cd3995?page=true",
+      "partOf": "/socialweb/replies/79405c78c20355a9b1b0d5a534cd3995",
+      "items": []
+    }
+  }
+}

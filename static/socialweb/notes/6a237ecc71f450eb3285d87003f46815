@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/6a237ecc71f450eb3285d87003f46815",
+  "type": "Note",
+  "hash": "6a237ecc71f450eb3285d87003f46815",
+  "content": "\u003Cp\u003EPlone para desenvolvedores Python\u003C/p\u003E\u003Cp\u003ESempre que uma pessoa vinha falar de Plone para mim eu n\u00E3o me sentia muito bem pois n\u00E3o conhecia e o pessoal que sempre conversei que desenvolvia em Plone e depois conheceu Django sempre falava que n\u00E3o valia apena mexer com Plone! Ser\u00E1 que isso \u00E9 realmente verdade?\nDepois do que eu escutei o pessoal falando eu n\u00E3o queria nem saber desse cara chamado Plone, ate mesmo que para desenvolver uma solu\u00E7\u00E3o de gerenciamento de conte\u00FAdo usando Django n\u00E3o \u00E9 muito trabalhoso (Realmente era assim que eu pensava, mal eu sabia que estava completamente enganado).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/plone-para-desenvolvedores-python/\u0027\u003Ehttps://avelino.run/plone-para-desenvolvedores-python/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/plone-para-desenvolvedores-python/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2012-08-30T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/6a237ecc71f450eb3285d87003f46815",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/6a237ecc71f450eb3285d87003f46815?page=true",
+      "partOf": "/socialweb/replies/6a237ecc71f450eb3285d87003f46815",
+      "items": []
+    }
+  }
+}

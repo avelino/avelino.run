@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/1f31080d36a283c0c3b5f672a20d9362",
+  "type": "Note",
+  "hash": "1f31080d36a283c0c3b5f672a20d9362",
+  "content": "\u003Cp\u003EChurch Vim\u003C/p\u003E\u003Cp\u003EVim was originally an extensible text editor written by Bram Moolenaar, but it became a way of life and a religion. To join the Church of Vim, you need only pronounce the Confession of the Faith:\nThere is no system but GNU, and Linux is one of its kernels. Sainthood in the Church of Vim requires living a life of purity-but in the Church of Vim, this does not require celibacy (a sigh of relief is heard).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/church-vim/\u0027\u003Ehttps://avelino.run/church-vim/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/church-vim/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2015-03-30T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/1f31080d36a283c0c3b5f672a20d9362",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/1f31080d36a283c0c3b5f672a20d9362?page=true",
+      "partOf": "/socialweb/replies/1f31080d36a283c0c3b5f672a20d9362",
+      "items": []
+    }
+  }
+}

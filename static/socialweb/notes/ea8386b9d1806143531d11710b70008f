@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/ea8386b9d1806143531d11710b70008f",
+  "type": "Note",
+  "hash": "ea8386b9d1806143531d11710b70008f",
+  "content": "\u003Cp\u003EVoc\u00EA tem consci\u00EAncia alimentar?\u003C/p\u003E\u003Cp\u003EComer bem \u00E9 algo mais simples do que pensamos e n\u00E3o tem relacionamento com custo, frutas e verduras s\u00E3o caras ou o que colocamos ao redor dela \u00E9 caro? O ato de cozinhar e comer algo feito em casa tem um impacto positivo consider\u00E1vel na sua alimenta\u00E7\u00E3o, principalmente porque \u00E9 mais f\u00E1cil evitar produtos industrializados e que fazem muito mal.\nTudo o que voc\u00EA come influ\u00EAncia diretamente o funcionamento do seu organismo, estude qual o comportamento do alimento dentro do seu organismo, isso lhe trar\u00E1 consci\u00EAncia alimentar.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/voce-tem-consciencia-alimentar/\u0027\u003Ehttps://avelino.run/quote/voce-tem-consciencia-alimentar/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/voce-tem-consciencia-alimentar/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-28T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/ea8386b9d1806143531d11710b70008f",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/ea8386b9d1806143531d11710b70008f?page=true",
+      "partOf": "/socialweb/replies/ea8386b9d1806143531d11710b70008f",
+      "items": []
+    }
+  }
+}

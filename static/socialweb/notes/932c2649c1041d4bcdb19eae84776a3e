@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/932c2649c1041d4bcdb19eae84776a3e",
+  "type": "Note",
+  "hash": "932c2649c1041d4bcdb19eae84776a3e",
+  "content": "\u003Cp\u003EUsando 5W2H para planejar objetivo (e metas)\u003C/p\u003E\u003Cp\u003E5W2H? sigla que diz respeito a um apanhado de diretrizes, que v\u00E3o auxiliar e deixar claro tudo o que precisa ser desenvolvido para que uma meta seja atingida passo a passo.\n5W:\nWhat (o que ser\u00E1 feito?) - definir o que ser\u00E1 realizado ao longo do processo para que a meta seja devidamente conclu\u00EDda; Why (por que ser\u00E1 feito?) - as raz\u00F5es porque as metas devem ser cumpridas uma a uma; Where (onde ser\u00E1 feito?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/usando-5w2h-para-planejar-objetivo-e-metas/\u0027\u003Ehttps://avelino.run/quote/usando-5w2h-para-planejar-objetivo-e-metas/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/usando-5w2h-para-planejar-objetivo-e-metas/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-29T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/932c2649c1041d4bcdb19eae84776a3e",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/932c2649c1041d4bcdb19eae84776a3e?page=true",
+      "partOf": "/socialweb/replies/932c2649c1041d4bcdb19eae84776a3e",
+      "items": []
+    }
+  }
+}

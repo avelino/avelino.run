@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/d65594a81780d725961f3598cbc47e5c",
+  "type": "Note",
+  "hash": "d65594a81780d725961f3598cbc47e5c",
+  "content": "\u003Cp\u003Eprestd - PostgreSQL and REST, low-code\u003C/p\u003E\u003Cp\u003Eprestd PostgreSQL \u2795 REST, low-code, simplify and accelerate development, \u26A1 instant, realtime, high-performance on any Postgres application, existing or new.\nProblem There is PostgREST written in Haskell, but keeping Haskell software in production is not an easy job. With this need pREST was born.\nread more....\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/projects/prestd/\u0027\u003Ehttps://avelino.run/projects/prestd/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/projects/prestd/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2016-07-17T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/d65594a81780d725961f3598cbc47e5c",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/d65594a81780d725961f3598cbc47e5c?page=true",
+      "partOf": "/socialweb/replies/d65594a81780d725961f3598cbc47e5c",
+      "items": []
+    }
+  }
+}

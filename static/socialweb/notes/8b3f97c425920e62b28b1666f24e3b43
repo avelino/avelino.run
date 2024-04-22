@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/8b3f97c425920e62b28b1666f24e3b43",
+  "type": "Note",
+  "hash": "8b3f97c425920e62b28b1666f24e3b43",
+  "content": "\u003Cp\u003EZero acceleration\u003C/p\u003E\u003Cp\u003EI have been pondering about the ideas of two articles:\nEnthusiasm is Common. Endurance is Rare What is Your \u201CAverage Speed\u201D in Your Life, Your Health, and Your Work? Both gravitates to the same idea, zero acceleration. The key is to keep a sustainable rhythm.\nBUT never zero acceleration at zero speed.\nDrip by drip. Keep showing up, every day. One is better than zero.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/zero-acceleration/\u0027\u003Ehttps://avelino.run/zero-acceleration/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/zero-acceleration/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-12-20T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/8b3f97c425920e62b28b1666f24e3b43",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/8b3f97c425920e62b28b1666f24e3b43?page=true",
+      "partOf": "/socialweb/replies/8b3f97c425920e62b28b1666f24e3b43",
+      "items": []
+    }
+  }
+}

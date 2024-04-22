@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/8c881750e3287f59a3628582153423c9",
+  "type": "Note",
+  "hash": "8c881750e3287f59a3628582153423c9",
+  "content": "\u003Cp\u003ECastalio - Epis\u00F3dio 63: Thiago Avelino - vim-bootstrap e BeerBlogging\u003C/p\u003E\u003Cp\u003EEscute minha participa\u00E7\u00E3o no Castalio Podcast falando sobre vim-bootstrap e BeerBlogging:\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/castalio-epis%C3%B3dio-63-thiago-avelino-vim-bootstrap-e-beerblogging/\u0027\u003Ehttps://avelino.run/castalio-epis%C3%B3dio-63-thiago-avelino-vim-bootstrap-e-beerblogging/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/castalio-epis%C3%B3dio-63-thiago-avelino-vim-bootstrap-e-beerblogging/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2015-02-15T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/8c881750e3287f59a3628582153423c9",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/8c881750e3287f59a3628582153423c9?page=true",
+      "partOf": "/socialweb/replies/8c881750e3287f59a3628582153423c9",
+      "items": []
+    }
+  }
+}

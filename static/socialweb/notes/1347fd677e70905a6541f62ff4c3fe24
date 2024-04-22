@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/1347fd677e70905a6541f62ff4c3fe24",
+  "type": "Note",
+  "hash": "1347fd677e70905a6541f62ff4c3fe24",
+  "content": "\u003Cp\u003EUsando iPad Pro como laptop principal\u003C/p\u003E\u003Cp\u003EAp\u00F3s ler alguns blogpost sobre usar o iPad como computador principal e conversar com um amigo que trabalha no Google que usa em caso como \u0026quot;main laptop\u0026quot;, resolvi estudar os apps para iOS que eu teria que usar para atender a minha demanda do dia a dia como gestor e desenvolvedor.\nComo sempre a Apple faz um \u00F3timo trabalho nos seus produtos, sempre pensando na simplicidade de uso do seu cliente final, ou seja, isso ajuda o onboard em qualquer dispositivo/software deles.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/usando-ipad-pro-como-laptop-principal/\u0027\u003Ehttps://avelino.run/usando-ipad-pro-como-laptop-principal/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/usando-ipad-pro-como-laptop-principal/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-08-19T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/1347fd677e70905a6541f62ff4c3fe24",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/1347fd677e70905a6541f62ff4c3fe24?page=true",
+      "partOf": "/socialweb/replies/1347fd677e70905a6541f62ff4c3fe24",
+      "items": []
+    }
+  }
+}

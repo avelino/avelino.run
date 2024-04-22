@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/0103330ae5cd44cd31c8d3c6f5a70aa7",
+  "type": "Note",
+  "hash": "0103330ae5cd44cd31c8d3c6f5a70aa7",
+  "content": "\u003Cp\u003EWhy is the name of the language, \u0027Clojure\u0027?\u003C/p\u003E\u003Cp\u003EMany who did not seek the \u0026quot;history\u0026quot; thinks:\nDid you pick the name based on starting with the word \u0026quot;closure\u0026quot; and replacing the \u0026quot;s\u0026quot; with \u0026quot;j\u0026quot; for Java? It seems pretty likely, but it would be nice to have that confirmed.\nRich Hickey\u0027s response (creator of the Clojure):\nThe name was chosen to be unique. I wanted to involve c (c#), l (lisp) and j (java). Once I came up with Clojure, given the pun on closure, the available domains and vast emptiness of the googlespace, it was an easy decision.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/\u0027\u003Ehttps://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/2018-05-21-why-is-the-name-of-the-language-clojure/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-05-21T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/0103330ae5cd44cd31c8d3c6f5a70aa7",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/0103330ae5cd44cd31c8d3c6f5a70aa7?page=true",
+      "partOf": "/socialweb/replies/0103330ae5cd44cd31c8d3c6f5a70aa7",
+      "items": []
+    }
+  }
+}

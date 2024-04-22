@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/bda18f792defd5ab733c5c0d5c7b6b12",
+  "type": "Note",
+  "hash": "bda18f792defd5ab733c5c0d5c7b6b12",
+  "content": "\u003Cp\u003EPalestra sobre London Framework na PyCon Argentina\u003C/p\u003E\u003Cp\u003EUniversidad Nacional de Quilmes, local onde foi organizado a PyCon Argentina\nNo come\u00E7o de junho o Mariano (organizador do evento PyCon Argentina 2012, me fez um convite para ir palestra sobre London Framework (Framework criado por Marinho Brand\u00E3o).\nNada melhor do que conhecer pessoas e principalmente culturas novas, entender o que os Argentinos est\u00E3o desenvolvendo e o que anda estudando, ou seja, fazer network (como falamos na \u00E1rea de tecnologia). Dava para ver no rosto dos argentinos a vontade de aprender e de consumir o maximo de informa\u00E7\u00E3o poss\u00EDvel, na PyCon Argentina de 2012 teve uma \u00F3tima sele\u00E7\u00E3o de palestra, onde foi abordado temas como asynchrony (twisted), Plone (com Erico Andrei - Brasileiro), web2py (com Massimo Di Pierro - criador do framework), Python 3.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/\u0027\u003Ehttps://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/palestra-sobre-london-framework-na-pycon-argentina/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2012-12-10T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/bda18f792defd5ab733c5c0d5c7b6b12",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/bda18f792defd5ab733c5c0d5c7b6b12?page=true",
+      "partOf": "/socialweb/replies/bda18f792defd5ab733c5c0d5c7b6b12",
+      "items": []
+    }
+  }
+}

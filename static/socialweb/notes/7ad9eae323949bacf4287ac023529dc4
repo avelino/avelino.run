@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/7ad9eae323949bacf4287ac023529dc4",
+  "type": "Note",
+  "hash": "7ad9eae323949bacf4287ac023529dc4",
+  "content": "\u003Cp\u003EUpload da arquivo no Google App Engine (BlobProperty)\u003C/p\u003E\u003Cp\u003EEssa semana que passou tive uma necessidade para um sistema de trabalhar com UPLOAD de arquivos, ate ai \u00E9 simples, s\u00F3 que o sistema estava em Google App Engine, depois de apanhar um pouco resolvi fazer um post aqui no Blog para deixar documentado como n\u00E3o \u00E9 complicado trabalhar com BlobProperty no BigTable.\nPrimeiro vamos criar um Modal onde vai ter dois campo o arquivo e o mimetype dele:\nclass DatastoreFile(db.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/\u0027\u003Ehttps://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/upload-da-arquivo-no-google-app-engine-blobproperty/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2011-04-23T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/7ad9eae323949bacf4287ac023529dc4",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/7ad9eae323949bacf4287ac023529dc4?page=true",
+      "partOf": "/socialweb/replies/7ad9eae323949bacf4287ac023529dc4",
+      "items": []
+    }
+  }
+}

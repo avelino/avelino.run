@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/dd5c8aa2c562a935980bb8e19262db27",
+  "type": "Note",
+  "hash": "dd5c8aa2c562a935980bb8e19262db27",
+  "content": "\u003Cp\u003ETransformando dores musculares em prazer (amor)\u003C/p\u003E\u003Cp\u003EDe arrepios de dores musculares a amor, acredito que essa seja a evolu\u00E7\u00E3o que tive dentro da modalidade de bike.\nQuando comecei pedalar eu sentia diversas dores muscular e muita dor na \u0026quot;bunda\u0026quot; (na real \u00E9 no per\u00EDneo), come\u00E7ar pedalar era uma tortura, chegava no \u0026quot;escrit\u00F3rio\u0026quot; (local que fica minha bike) e demorava muito tempo para come\u00E7ar (em alguns dias chegava a horas). Lembro como se fosse hoje eu indo comprar minha primeira bicicleta para o triathlon, quando cheguei em casa comentei com minha esposa \u0026quot;pedalar \u00E9 tranquilo, nem transpirei\u0026quot;.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/transformando-dores-musculares-em-amor/\u0027\u003Ehttps://avelino.run/quote/lifestyle/transformando-dores-musculares-em-amor/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/transformando-dores-musculares-em-amor/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-11-24T13:40:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/dd5c8aa2c562a935980bb8e19262db27",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/dd5c8aa2c562a935980bb8e19262db27?page=true",
+      "partOf": "/socialweb/replies/dd5c8aa2c562a935980bb8e19262db27",
+      "items": []
+    }
+  }
+}

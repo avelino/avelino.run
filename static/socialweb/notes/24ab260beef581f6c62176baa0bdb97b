@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/24ab260beef581f6c62176baa0bdb97b",
+  "type": "Note",
+  "hash": "24ab260beef581f6c62176baa0bdb97b",
+  "content": "\u003Cp\u003EFormando desenvolvedores de alta performance\u003C/p\u003E\u003Cp\u003EEstou a mais de 1 ano treinando para meu primeiro triathlon (IRONMAN 70.3) e nos \u00FAltimos 7 meses treinando com time de alta performance que faz triathlon profissionalmente a muitos anos. O ano de 2018 foi um ano de muito aprendizado em uma \u00E1rea que nunca imaginei que entraria, para contextualizar segue o conte\u00FAdo abaixo:\nNovos atletas no time Quando recebi o convite para fazer parte do time de alta performance (aka senior) eu me vi alguns anos atras entrando no mercado de trabalho como desenvolvedor junior e com muita sede de aprender.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/formando-desenvolvedores-de-alta-performance/\u0027\u003Ehttps://avelino.run/formando-desenvolvedores-de-alta-performance/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/formando-desenvolvedores-de-alta-performance/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-04-15T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/24ab260beef581f6c62176baa0bdb97b",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/24ab260beef581f6c62176baa0bdb97b?page=true",
+      "partOf": "/socialweb/replies/24ab260beef581f6c62176baa0bdb97b",
+      "items": []
+    }
+  }
+}

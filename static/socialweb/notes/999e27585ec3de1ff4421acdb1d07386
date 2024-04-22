@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/999e27585ec3de1ff4421acdb1d07386",
+  "type": "Note",
+  "hash": "999e27585ec3de1ff4421acdb1d07386",
+  "content": "\u003Cp\u003E3 passos importantes para cumprir nosso objetivo e metas\u003C/p\u003E\u003Cp\u003EDurante essa semana falamos muito sobre objetivo, metas e planejamento, mas como fa\u00E7o para cumprir meus objetivos e metas?\nPlanejamento: Ap\u00F3s estabelecer objetivo e metas, \u00E9 organiz\u00E1-los. Crie planilhas e documentos com o que precisa ser conclu\u00EDdo, quais os prazos e as prioridades. Assim tenho ci\u00EAncia do que \u00E9 necess\u00E1rio ser desenvolvido e quais pessoas preciso envolver (no meu caso profissionais do esporte) para a concretiza\u00E7\u00E3o do que foi planejado inicialmente; Disciplina (dedica\u00E7\u00E3o): Motiva\u00E7\u00E3o nos faz come\u00E7ar, disciplina \u00E9 o que nos levar\u00E1 para pr\u00F3xima meta.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/3-passos-importantes-para-cumprir-nosso-objetivo-e-metas/\u0027\u003Ehttps://avelino.run/quote/3-passos-importantes-para-cumprir-nosso-objetivo-e-metas/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/3-passos-importantes-para-cumprir-nosso-objetivo-e-metas/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-31T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/999e27585ec3de1ff4421acdb1d07386",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/999e27585ec3de1ff4421acdb1d07386?page=true",
+      "partOf": "/socialweb/replies/999e27585ec3de1ff4421acdb1d07386",
+      "items": []
+    }
+  }
+}

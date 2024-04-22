@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/ac639c555c6ad51af12f5b0353153560",
+  "type": "Note",
+  "hash": "ac639c555c6ad51af12f5b0353153560",
+  "content": "\u003Cp\u003EFoco em evoluir e auto conhecimento\u003C/p\u003E\u003Cp\u003E\u00C9 comum se sentirmos desmotivado (n\u00E3o \u00E9 todos os dias que acordamos bem), principalmente para n\u00F3s atletas que nesse momento de restri\u00E7\u00E3o social onde n\u00E3o temos provas em vista, que \u00E9 uma motiva\u00E7\u00E3o para manter a rotina de treino.\nComo fa\u00E7o para manter minha planilha de treino em dia?\nObjetivo claro Motiva\u00E7\u00E3o nos faz come\u00E7ar, disciplina \u00E9 o que nos faz continuar, se n\u00E3o tiver objetivo claro na primeira dificuldade abandonamos nosso objetivo por n\u00E3o ter clareza para onde estamos indo.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/foco-em-evoluir-e-auto-conhecimento/\u0027\u003Ehttps://avelino.run/quote/lifestyle/foco-em-evoluir-e-auto-conhecimento/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/foco-em-evoluir-e-auto-conhecimento/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-05-03T11:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/ac639c555c6ad51af12f5b0353153560",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/ac639c555c6ad51af12f5b0353153560?page=true",
+      "partOf": "/socialweb/replies/ac639c555c6ad51af12f5b0353153560",
+      "items": []
+    }
+  }
+}

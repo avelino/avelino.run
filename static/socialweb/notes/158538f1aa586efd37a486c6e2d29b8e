@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/158538f1aa586efd37a486c6e2d29b8e",
+  "type": "Note",
+  "hash": "158538f1aa586efd37a486c6e2d29b8e",
+  "content": "\u003Cp\u003EPor tr\u00E1s de projetos Open Source existe pessoas\u003C/p\u003E\u003Cp\u003EMuitos engenheiro(a)s esquecem ao contribuir com projetos Open Source que por tr\u00E1s de todos projetos temos pessoas.\nN\u00E3o conhecemos as pessoas que est\u00E3o do outro lado (mantenedores do projeto) e como eles receber\u00E1 nossa contribui\u00E7\u00E3o, isso nos gera a necessidade da comunica\u00E7\u00E3o ser extremamente clara e n\u00E3o assumirmos que os mantenedores (contribuidores) tenha o mesmo conhecimento que n\u00F3s (n\u00E3o temos como saber o que as outras pessoas tem de conhecimento), mesmo conceitos que achamos \u00F3bvios \u00E9 importante deixar claro na comunica\u00E7\u00E3o (issue, pull request e etc).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/por-tr%C3%A1s-de-projetos-open-source-existe-pessoas/\u0027\u003Ehttps://avelino.run/por-tr%C3%A1s-de-projetos-open-source-existe-pessoas/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/por-tr%C3%A1s-de-projetos-open-source-existe-pessoas/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-08T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/158538f1aa586efd37a486c6e2d29b8e",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/158538f1aa586efd37a486c6e2d29b8e?page=true",
+      "partOf": "/socialweb/replies/158538f1aa586efd37a486c6e2d29b8e",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/c41663bed7205446c2e202adaa580767",
+  "type": "Note",
+  "hash": "c41663bed7205446c2e202adaa580767",
+  "content": "\u003Cp\u003EMeu treino: reboot metab\u00F3lico\u003C/p\u003E\u003Cp\u003ESempre que inicio um novo ciclo gosto de fazer esse reboot para dar um g\u00E1s e voltar logo ao ritmo de antes. Esse reboot me ajuda a desinchar, perder peso e acelerar o metabolismo.\nS\u00E3o algumas experi\u00EAncia pessoais e passos que sigo (tem me ajudado muito), n\u00E3o tenho nenhum artigo cient\u00EDfico para balizar isso.\nSe quiser tentar, se liga:\nDurma melhor. Existem in\u00FAmeras pesquisas falando sobre os benef\u00EDcios do sono.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2019-08-09-meu-treino-reboot-metabolico/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2019-08-09-meu-treino-reboot-metabolico/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2019-08-09-meu-treino-reboot-metabolico/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-08-09T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/c41663bed7205446c2e202adaa580767",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/c41663bed7205446c2e202adaa580767?page=true",
+      "partOf": "/socialweb/replies/c41663bed7205446c2e202adaa580767",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/39cf000c53e135a2596a219a10d14534",
+  "type": "Note",
+  "hash": "39cf000c53e135a2596a219a10d14534",
+  "content": "\u003Cp\u003E7 subjects (and GitHub repositories) to become a better Go Developer\u003C/p\u003E\u003Cp\u003EWith the high adoption of the Go language by developers and large companies, this has led companies to search for engineers with experience in Go.\nThis can create a lot of pressure of what to study to become a better engineer, this is very personal, it requires planning of what and when to study other subjects (even outside the engineering area).\nIn this blogpost some topics (with repositories and links) that I think are important to know in order to become an engineer person with even better Go knowledge, follow good practices for writing code, concepts of code structure (usually using design pattern), scalable code and clean code.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/7-subjects-and-github-repositories-to-become-a-better-go-developer/\u0027\u003Ehttps://avelino.run/7-subjects-and-github-repositories-to-become-a-better-go-developer/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/7-subjects-and-github-repositories-to-become-a-better-go-developer/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-07-11T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/39cf000c53e135a2596a219a10d14534",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/39cf000c53e135a2596a219a10d14534?page=true",
+      "partOf": "/socialweb/replies/39cf000c53e135a2596a219a10d14534",
+      "items": []
+    }
+  }
+}

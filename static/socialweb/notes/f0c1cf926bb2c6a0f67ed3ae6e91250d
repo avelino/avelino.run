@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f0c1cf926bb2c6a0f67ed3ae6e91250d",
+  "type": "Note",
+  "hash": "f0c1cf926bb2c6a0f67ed3ae6e91250d",
+  "content": "\u003Cp\u003EShu-Ha-Ri: conceito aprendizagem para atingir a maestria\u003C/p\u003E\u003Cp\u003EN\u00E3o sou muito f\u00E3 de pr\u00E1tica de artes marciais \uD83E\uDD4B, mas por tr\u00E1s da grande maioria das artes marciais tem muita filosofia e princ\u00EDpios de aprendizado, disciplina e etc, em Aikido, Judo ou Kendo est\u00E1 o Shu-ha-ri, conceito que descreve os tr\u00EAs princ\u00EDpios do aprendizado:\nShu: \u0026quot;aprender\u0026quot;, \u0026quot;seguir\u0026quot; \u23ED\uFE0F - Quando quero aprender alguma coisa e n\u00E3o tenho conhecimento para criar e/ou inovar, ent\u00E3o sigo o que o especialista no assunto pede para fazer, mesmo que eu n\u00E3o entenda muito bem porque fazer, ainda n\u00E3o \u00E9 momento de questionar - ainda n\u00E3o sei fazer as perguntas certa; Ha: \u0026quot;refletir\u0026quot;, \u0026quot;colecionar\u0026quot; \uD83E\uDDD8\u200D\u2642\uFE0F - Ap\u00F3s aprender o b\u00E1sico, aqui come\u00E7o ser capaz de questionar (fazer as perguntas certas ou \u002B- certas); Ri: \u0026quot;ser\u0026quot;, \u0026quot;definir\u0026quot; \uD83D\uDCC8 - Agora \u00E9 momento de criar/inovar, j\u00E1 sei porque estou fazendo aquilo e consigo juntar o meu conhecimento de outra \u00E1rea com o que estou aprendendo.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/shuhari-conceito-aprendizagem-para-atingir-a-maestria/\u0027\u003Ehttps://avelino.run/quote/shuhari-conceito-aprendizagem-para-atingir-a-maestria/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/shuhari-conceito-aprendizagem-para-atingir-a-maestria/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-20T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f0c1cf926bb2c6a0f67ed3ae6e91250d",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f0c1cf926bb2c6a0f67ed3ae6e91250d?page=true",
+      "partOf": "/socialweb/replies/f0c1cf926bb2c6a0f67ed3ae6e91250d",
+      "items": []
+    }
+  }
+}

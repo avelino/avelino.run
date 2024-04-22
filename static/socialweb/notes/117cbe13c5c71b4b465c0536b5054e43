@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/117cbe13c5c71b4b465c0536b5054e43",
+  "type": "Note",
+  "hash": "117cbe13c5c71b4b465c0536b5054e43",
+  "content": "\u003Cp\u003ETest \u00E9 para os fracos\u003C/p\u003E\u003Cp\u003EEm novembro fiz mais uma palestra sobre teste unit\u00E1rios s\u00F3 que agora com o titulo da palestra bem diferente \u0026quot;Test \u00E9 para os fracos\u0026quot;, o motivo desse titulo \u00E9 para deixar a palestra mais din\u00E2mica pois escrever teste n\u00E3o \u00E9 uma tarefa muito simples no primeiro contato.\nTem muitas pessoas que acha que escrever teste n\u00E3o garante que o software n\u00E3o tem bug, isso \u00E9 claro, mas vamos encarar o problema quando quando tiver que mudar o software, caso ele esteja como teste na parte onde esta sendo implementado novas funcionalidade e venha quebrar ai sim vamos dar valor aos teste.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/test-%C3%A9-para-os-fracos/\u0027\u003Ehttps://avelino.run/test-%C3%A9-para-os-fracos/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/test-%C3%A9-para-os-fracos/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2012-02-24T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/117cbe13c5c71b4b465c0536b5054e43",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/117cbe13c5c71b4b465c0536b5054e43?page=true",
+      "partOf": "/socialweb/replies/117cbe13c5c71b4b465c0536b5054e43",
+      "items": []
+    }
+  }
+}

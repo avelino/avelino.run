@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/904157b0804cec55a7c2c2f9ef80cc48",
+  "type": "Note",
+  "hash": "904157b0804cec55a7c2c2f9ef80cc48",
+  "content": "\u003Cp\u003EO m\u00E9todo Pink Dot - minimalismo\u003C/p\u003E\u003Cp\u003EEm 2016 l\u00EA o livro Essentialism: The Disciplined Pursuit of Less e tentei desapegar do m\u00E1ximo de coisas desnecess\u00E1rias e de l\u00E1 para c\u00E1, reflito muito sobre tudo que vou comprar, mas desapegar do que j\u00E1 compramos n\u00E3o \u00E9 uma tarefa muito f\u00E1cil.\nEnquanto limpava e me livrava das coisas que n\u00E3o usava mais, comecei a encontrar objetos que me faziam pensar que talvez um dia eu precisasse deles. Provavelmente n\u00E3o iria precisar, mas o sentimento de apego pelo que \u00E9 \u0026quot;meu\u0026quot; falava mais alto.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/metodo-pink-dot-minimalismo/\u0027\u003Ehttps://avelino.run/metodo-pink-dot-minimalismo/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/metodo-pink-dot-minimalismo/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2022-04-02T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/904157b0804cec55a7c2c2f9ef80cc48",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/904157b0804cec55a7c2c2f9ef80cc48?page=true",
+      "partOf": "/socialweb/replies/904157b0804cec55a7c2c2f9ef80cc48",
+      "items": []
+    }
+  }
+}

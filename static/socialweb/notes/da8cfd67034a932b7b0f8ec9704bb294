@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/da8cfd67034a932b7b0f8ec9704bb294",
+  "type": "Note",
+  "hash": "da8cfd67034a932b7b0f8ec9704bb294",
+  "content": "\u003Cp\u003EFalar sobre \u0027Assuntos Dif\u00EDceis\u0027\u003C/p\u003E\u003Cp\u003EEm nossa vida \u00E9 necess\u00E1rio encarar de frente assuntos considerados dif\u00EDceis ou tabu com qualquer pessoa, para isso precisamos ter coragem e maturidade para lidar com naturalidade com qualquer tema - mesmo se ele nos tire da zona de conforto.\nPara falar sobre esse assunto, vamos come\u00E7ar pelo porqu\u00EA.\nPor que \u00E9 comum procrastinar uma conversa quando envolve assunto dif\u00EDcil?\nQuando n\u00E3o falamos constantemente sobre um tipo de assunto ele se torna \u0026quot;dif\u00EDcil\u0026quot; por falta de familiaridade e sensa\u00E7\u00E3o de desconforto.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/falar-sobre-assuntos-dif%C3%ADceis/\u0027\u003Ehttps://avelino.run/falar-sobre-assuntos-dif%C3%ADceis/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/falar-sobre-assuntos-dif%C3%ADceis/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-04-29T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/da8cfd67034a932b7b0f8ec9704bb294",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/da8cfd67034a932b7b0f8ec9704bb294?page=true",
+      "partOf": "/socialweb/replies/da8cfd67034a932b7b0f8ec9704bb294",
+      "items": []
+    }
+  }
+}

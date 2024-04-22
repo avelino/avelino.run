@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/80172945450ddd06433f0ba366d211a5",
+  "type": "Note",
+  "hash": "80172945450ddd06433f0ba366d211a5",
+  "content": "\u003Cp\u003EF\u00E9rias/2018: Viagem de carro pelo Nordeste em fam\u00EDlia\u003C/p\u003E\u003Cp\u003E\u201CEu n\u00E3o preciso de f\u00E9rias, trabalho com o que eu gosto, \u00E9 um hobby o que eu fa\u00E7o\u201D\nEu disse isso por alguns anos em minha vida, at\u00E9 tirar f\u00E9rias e perceber que eu tamb\u00E9m precisava de f\u00E9rias.\nAp\u00F3s ler o blogpost do Raphael Amorim comecei refletir sobre como seria tirar f\u00E9rias e passar alguns dias vivendo para mim e minha fam\u00EDlia. N\u00E3o foi um exerc\u00EDcio f\u00E1cil, nunca tinha feito isso na vida, trabalho profissionalmente a 13 anos e n\u00E3o me recordo ter tirado f\u00E9rias de verdade nesse per\u00EDodo, sempre estive na corrida dos ratos (termo usado para um exerc\u00EDcio sem fim, auto-destrutivo ou in\u00FAtil).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2018-11-12-viagem-de-carro-em-familia-2018/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2018-11-12-viagem-de-carro-em-familia-2018/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2018-11-12-viagem-de-carro-em-familia-2018/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-11-12T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/80172945450ddd06433f0ba366d211a5",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/80172945450ddd06433f0ba366d211a5?page=true",
+      "partOf": "/socialweb/replies/80172945450ddd06433f0ba366d211a5",
+      "items": []
+    }
+  }
+}

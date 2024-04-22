@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/d06ed6a9cdcc75b47a52f0cc374a2984",
+  "type": "Note",
+  "hash": "d06ed6a9cdcc75b47a52f0cc374a2984",
+  "content": "\u003Cp\u003EHow to reuse workflow in GitHub Action pipeline\u003C/p\u003E\u003Cp\u003EBefore I tell you how to do it, I will describe the problem I needed to solve and why I believed that reuse would be the best option to reduce duplicate code.\nI maintain an Open Source project called moclojer written in Clojure and we use GraalVM Native Imagem to distribute the software in binary format (with everything self-contained). The configuration of native-image receives several parameters, some refer to libraries used in the project code and it depends on a .\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/how-to-reuse-workflow-in-github-action-pipeline/\u0027\u003Ehttps://avelino.run/how-to-reuse-workflow-in-github-action-pipeline/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/how-to-reuse-workflow-in-github-action-pipeline/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-04-27T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/d06ed6a9cdcc75b47a52f0cc374a2984",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/d06ed6a9cdcc75b47a52f0cc374a2984?page=true",
+      "partOf": "/socialweb/replies/d06ed6a9cdcc75b47a52f0cc374a2984",
+      "items": []
+    }
+  }
+}

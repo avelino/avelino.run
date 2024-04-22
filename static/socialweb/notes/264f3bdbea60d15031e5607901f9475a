@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/264f3bdbea60d15031e5607901f9475a",
+  "type": "Note",
+  "hash": "264f3bdbea60d15031e5607901f9475a",
+  "content": "\u003Cp\u003ECome\u00E7ar viver, esteja consciente dos seus passos!\u003C/p\u003E\u003Cp\u003ERefletir sobre nossos momentos dif\u00EDceis n\u00E3o s\u00E3o muito f\u00E1ceis (falar de nossas intimidades muito menos), mas \u00E9 esses momentos de auto conhecimento e cr\u00EDtica que nos ajuda alavancar para cima e subir nossa pr\u00F3pria barra (nos tornar uma pessoa melhor).\nPara quem \u00E9 novo por aqui eu tive algumas empresas de 2011 at\u00E9 2019, algumas deram certo (fui comprado por outras empresas e s\u00F3cios), por\u00E9m outras deram super errado e acabou me levando l\u00E1 em baixo fazendo eu voltar a \u0026quot;corrida dos ratos\u0026quot;.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/come%C3%A7ar-viver-esteja-consciente-dos-seus-passos/\u0027\u003Ehttps://avelino.run/quote/lifestyle/come%C3%A7ar-viver-esteja-consciente-dos-seus-passos/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/come%C3%A7ar-viver-esteja-consciente-dos-seus-passos/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-01-27T10:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/264f3bdbea60d15031e5607901f9475a",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/264f3bdbea60d15031e5607901f9475a?page=true",
+      "partOf": "/socialweb/replies/264f3bdbea60d15031e5607901f9475a",
+      "items": []
+    }
+  }
+}

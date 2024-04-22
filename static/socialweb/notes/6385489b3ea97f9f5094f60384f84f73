@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/6385489b3ea97f9f5094f60384f84f73",
+  "type": "Note",
+  "hash": "6385489b3ea97f9f5094f60384f84f73",
+  "content": "\u003Cp\u003EVim Bootstrap\u003C/p\u003E\u003Cp\u003EVim Bootstrap is a generator that provides a simple method of generating a configuration for vim / neovim.\nThe vim-bootstrap project started with my annoyance of other people using my vim file (my personal vim configuration files), in a conversation with lerrua I proposed to gather our vim configuration files and make a vim file generator with focus on who is starting to use vim text editor.\nThe project is actively maintained by a few people, mainly Cassio Botaro - here is my eternal gratitude to *Cassio and the work he has done to sustain the project.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/projects/vimbootstrap/\u0027\u003Ehttps://avelino.run/projects/vimbootstrap/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/projects/vimbootstrap/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2010-12-05T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/6385489b3ea97f9f5094f60384f84f73",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/6385489b3ea97f9f5094f60384f84f73?page=true",
+      "partOf": "/socialweb/replies/6385489b3ea97f9f5094f60384f84f73",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/d57382b1ed4553aeed8393c1d3b09dde",
+  "type": "Note",
+  "hash": "d57382b1ed4553aeed8393c1d3b09dde",
+  "content": "\u003Cp\u003ESPCity Marathon 42KM\u003C/p\u003E\u003Cp\u003EMais uma prova, seguido de mais um text\u00E3o.\nO que dizer dessa prova dura onde a subida castigou (23 de maio)? N\u00E3o saiu como eu esperava, mas fui minha melhor vers\u00E3o, passei o tempo todo com tosse por causa do resfriado.\nO que me chama aten\u00E7\u00E3o em prova de longa dist\u00E2ncia \u00E9 o psicol\u00F3gico onde precisamos lidar com a adversidade, manter a resili\u00EAncia e os pensamentos no lugar... Sem sobra de d\u00FAvida nessa prova o meu c\u00E9rebro trabalhou muito.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/2019-07-28-spcity-maratona-corrida-de-rua/\u0027\u003Ehttps://avelino.run/quote/lifestyle/2019-07-28-spcity-maratona-corrida-de-rua/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/2019-07-28-spcity-maratona-corrida-de-rua/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-07-28T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/d57382b1ed4553aeed8393c1d3b09dde",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/d57382b1ed4553aeed8393c1d3b09dde?page=true",
+      "partOf": "/socialweb/replies/d57382b1ed4553aeed8393c1d3b09dde",
+      "items": []
+    }
+  }
+}

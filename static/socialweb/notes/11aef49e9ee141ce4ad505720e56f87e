@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/11aef49e9ee141ce4ad505720e56f87e",
+  "type": "Note",
+  "hash": "11aef49e9ee141ce4ad505720e56f87e",
+  "content": "\u003Cp\u003EChegando no limite da tecnologia, e agora para aonde vou?\u003C/p\u003E\u003Cp\u003EN\u00F3s de tecnologia em geral, somos early adopter (gostamos de abra\u00E7ar novas tecnologias, mesmo sem saber ao certo porque ela existe), quando falamos em desenvolvimento n\u00E3o \u00E9 muito diferente.\nPor que n\u00E3o usamos o banco de dados X? Podemos usar a linguagem de programa\u00E7\u00E3o Y! O servi\u00E7o Z resolve 100% dos nossos problemas! Vamos assumir que as afirma\u00E7\u00F5es acima estejam 100% corretas (lan\u00E7amos o primeiro erro), a solu\u00E7\u00E3o ir\u00E1 servir para \u0026quot;vida toda\u0026quot; ou daqui a alguns meses tenham que olhar para ela, porque batemos em algum limite da implementa\u00E7\u00E3o, arquitetura ou da pr\u00F3pria tecnologia?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/chegando-no-limite-da-tecnologia-e-agora-para-aonde-vou/\u0027\u003Ehttps://avelino.run/chegando-no-limite-da-tecnologia-e-agora-para-aonde-vou/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/chegando-no-limite-da-tecnologia-e-agora-para-aonde-vou/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-02-19T14:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/11aef49e9ee141ce4ad505720e56f87e",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/11aef49e9ee141ce4ad505720e56f87e?page=true",
+      "partOf": "/socialweb/replies/11aef49e9ee141ce4ad505720e56f87e",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/23b596754b5cfbad0fbbf9128d955fc3",
+  "type": "Note",
+  "hash": "23b596754b5cfbad0fbbf9128d955fc3",
+  "content": "\u003Cp\u003EPerformance vs. Trust, identifying toxic people\u003C/p\u003E\u003Cp\u003EThere is one simple question to ask if you want to build a high performing team.\n\u0026quot;Who is the asshole?\u0026quot;\nSimon Sinek explains a powerful and, ironically, very simple way to identify toxic people in your teams which might be successful short-term but harm a team long-term.\nThe majority of companies out there are run a system of incentives which fuels toxic cultures as the bonus structure is mainly based on performance.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/performance-vs-trust-identifying-toxic-people/\u0027\u003Ehttps://avelino.run/quote/performance-vs-trust-identifying-toxic-people/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/performance-vs-trust-identifying-toxic-people/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2019-11-18T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/23b596754b5cfbad0fbbf9128d955fc3",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/23b596754b5cfbad0fbbf9128d955fc3?page=true",
+      "partOf": "/socialweb/replies/23b596754b5cfbad0fbbf9128d955fc3",
+      "items": []
+    }
+  }
+}

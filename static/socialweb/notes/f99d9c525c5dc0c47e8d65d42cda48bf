@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f99d9c525c5dc0c47e8d65d42cda48bf",
+  "type": "Note",
+  "hash": "f99d9c525c5dc0c47e8d65d42cda48bf",
+  "content": "\u003Cp\u003EPrepara\u00E7\u00E3o para IRONMAN VR (70.3) em 3 dias\u003C/p\u003E\u003Cp\u003EA prepara\u00E7\u00E3o para IRONMAN 70.3 n\u00E3o \u00E9 um processo simples (requer dedica\u00E7\u00E3o e disciplina), principalmente quando resolvemos fazer essa loucura com 3 dias de anteced\u00EAncia em uma fazer que meu volume de treino esta extremamente baixo por conta do COVID19 (treino com alta intensidade e com grandes volumes faz a imunidade cair, nesse momento n\u00E3o podemos vacilar com nossa imunidade), foi assim que aconteceu com #IRONMANVR1 (primeiro IRONMAN Virtual, 5km de corrida, 90km de pedal e 21km de corrida tudo dentro de casa em esteira e rolo).\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/preparacao-para-ironman-vr-703-em-3-dias/\u0027\u003Ehttps://avelino.run/quote/lifestyle/preparacao-para-ironman-vr-703-em-3-dias/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/preparacao-para-ironman-vr-703-em-3-dias/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-04-05T11:10:51\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f99d9c525c5dc0c47e8d65d42cda48bf",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f99d9c525c5dc0c47e8d65d42cda48bf?page=true",
+      "partOf": "/socialweb/replies/f99d9c525c5dc0c47e8d65d42cda48bf",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/d5eba078601d13357646711b3004f872",
+  "type": "Note",
+  "hash": "d5eba078601d13357646711b3004f872",
+  "content": "\u003Cp\u003Eatleta nunca tenta descobrir seu limite, mas deseja super\u00E1-lo a cada instante\u003C/p\u003E\u003Cp\u003EConstantemente recebo mensagem perguntando o que me fez mudar minha vida, praticar esporte, fazer academia, acordar 4:30am e outras coisas que acabo publicando que soa maluquice. Vou tentar responder alguns questionamentos.\nO que me fez querer mudar? Sair de uma vida muito sedent\u00E1ria para pr\u00E1tica de esporte. O estopim sem sombra de d\u00FAvida foi medo de morrer, ap\u00F3s alguns exames no cardiologista recebi a not\u00EDcia \u0026quot;nas \u00FAltimas 2 horas tive 3 come\u00E7o de infarto\u0026quot;, sei o que \u00E9 um infarto, mas o que \u00E9 um come\u00E7o de infarto?\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/lifestyle/atleta-nunca-tenta-descobrir-seu-limite-mas-deseja-super%C3%A1-lo-a-cada-instante/\u0027\u003Ehttps://avelino.run/quote/lifestyle/atleta-nunca-tenta-descobrir-seu-limite-mas-deseja-super%C3%A1-lo-a-cada-instante/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/lifestyle/atleta-nunca-tenta-descobrir-seu-limite-mas-deseja-super%C3%A1-lo-a-cada-instante/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-02-09T17:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/d5eba078601d13357646711b3004f872",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/d5eba078601d13357646711b3004f872?page=true",
+      "partOf": "/socialweb/replies/d5eba078601d13357646711b3004f872",
+      "items": []
+    }
+  }
+}

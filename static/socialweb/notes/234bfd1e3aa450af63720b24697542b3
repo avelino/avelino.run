@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/234bfd1e3aa450af63720b24697542b3",
+  "type": "Note",
+  "hash": "234bfd1e3aa450af63720b24697542b3",
+  "content": "\u003Cp\u003EWhy talent density is crucial to long-term business success\u003C/p\u003E\u003Cp\u003EThe concept of talent density is a pivotal factor in the sustainable growth and long-term success of any business. It\u2019s a strategy that has been championed by leading companies like Netflix and has become a cornerstone of their corporate culture. Talent density refers to the concentration of high-performing individuals within an organization. It\u2019s not just about having a few star players, but rather ensuring that every team member is a key contributor to the company\u2019s success.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/why-talent-density-is-crucial-to-long-term-business-success/\u0027\u003Ehttps://avelino.run/why-talent-density-is-crucial-to-long-term-business-success/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/why-talent-density-is-crucial-to-long-term-business-success/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-11-03T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/234bfd1e3aa450af63720b24697542b3",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/234bfd1e3aa450af63720b24697542b3?page=true",
+      "partOf": "/socialweb/replies/234bfd1e3aa450af63720b24697542b3",
+      "items": []
+    }
+  }
+}

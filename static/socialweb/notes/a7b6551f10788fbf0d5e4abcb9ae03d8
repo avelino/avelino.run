@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/a7b6551f10788fbf0d5e4abcb9ae03d8",
+  "type": "Note",
+  "hash": "a7b6551f10788fbf0d5e4abcb9ae03d8",
+  "content": "\u003Cp\u003EComo os resultados podem tornar seu storytelling mais envolvente\u003C/p\u003E\u003Cp\u003EContra fatos (resultado) n\u00E3o h\u00E1 argumentos, essa \u00E9 muito utilizada, mas n\u00E3o \u00E9 simples aplicar no dia-a-dia.\nO storytelling \u00E9 uma forma poderosa de comunicar id\u00E9ias e gerar conex\u00E3o com seu p\u00FAblico. Ao contar uma hist\u00F3ria com dados reais, voc\u00EA compartilhar seus conhecimentos, experi\u00EAncias e perspectivas de uma forma que seja memor\u00E1vel.\nOs resultados s\u00E3o fatos e estat\u00EDsticas que apoiam sua hist\u00F3ria e ajudam a torn\u00E1-la mais cred\u00EDvel e convincente.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvente/\u0027\u003Ehttps://avelino.run/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvente/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/como-os-resultados-podem-tornar-seu-storytelling-mais-envolvente/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2023-07-15T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/a7b6551f10788fbf0d5e4abcb9ae03d8",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/a7b6551f10788fbf0d5e4abcb9ae03d8?page=true",
+      "partOf": "/socialweb/replies/a7b6551f10788fbf0d5e4abcb9ae03d8",
+      "items": []
+    }
+  }
+}

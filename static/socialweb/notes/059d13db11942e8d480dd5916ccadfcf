@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/059d13db11942e8d480dd5916ccadfcf",
+  "type": "Note",
+  "hash": "059d13db11942e8d480dd5916ccadfcf",
+  "content": "\u003Cp\u003EMedo? Lute contra os seus medos e mude seu futuro\u003C/p\u003E\u003Cp\u003EPor onde come\u00E7ar? Que tal essa enquete abaixo!\nAVISO: Estou expondo minha opini\u00E3o pessoal (recomendo considerar como loucura da minha cabe\u00E7a)\nAnalisando o resultado da enquete fica extremamente claro que o medo de muitos \u00E9 o fracasso, n\u00E3o \u00E9 nada f\u00E1cil combater esse medo (mas \u00E9 necess\u00E1rio para uma evolu\u00E7\u00E3o pessoal), uma das formas de combater qualquer medo \u00E9 encarar ele de frente, isso n\u00E3o quer dizer que voc\u00EA n\u00E3o tem medo e sim que esta batendo de frente com voc\u00EA mesmo.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/2018-05-13-lute-contra-os-seus-medos-e-mude-seu-futuro/\u0027\u003Ehttps://avelino.run/quote/2018-05-13-lute-contra-os-seus-medos-e-mude-seu-futuro/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/2018-05-13-lute-contra-os-seus-medos-e-mude-seu-futuro/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-05-13T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/059d13db11942e8d480dd5916ccadfcf",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/059d13db11942e8d480dd5916ccadfcf?page=true",
+      "partOf": "/socialweb/replies/059d13db11942e8d480dd5916ccadfcf",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f19b090f1ec4372e4cd932fa05d64fb8",
+  "type": "Note",
+  "hash": "f19b090f1ec4372e4cd932fa05d64fb8",
+  "content": "\u003Cp\u003EWhy We Avoid Leaving the Comfort Zone: Perspectives from Psychology and Neuroscience\u003C/p\u003E\u003Cp\u003EA large part of the people who read my texts are software engineers, so I decided to write speaking to them (software engineers), most likely you! \uD83D\uDE0A\nSoftware engineers are no exception when it comes to avoiding the unknown and uncertainty. Biological, psychological, and sociocultural inclinations interact to keep software engineers in a psychological comfort zone.\nEvolutionary Adaptation We humans naturally favor the safety of familiarity. Our evolutionary past has shaped our brain to favor the \u0026quot;known\u0026quot; at the expense of the \u0026quot;unknown\u0026quot;.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/why-we-avoid-leaving-the-comfort-zone-perspectives-from-psychology-and-neuroscience/\u0027\u003Ehttps://avelino.run/why-we-avoid-leaving-the-comfort-zone-perspectives-from-psychology-and-neuroscience/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/why-we-avoid-leaving-the-comfort-zone-perspectives-from-psychology-and-neuroscience/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2024-03-03T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f19b090f1ec4372e4cd932fa05d64fb8",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f19b090f1ec4372e4cd932fa05d64fb8?page=true",
+      "partOf": "/socialweb/replies/f19b090f1ec4372e4cd932fa05d64fb8",
+      "items": []
+    }
+  }
+}

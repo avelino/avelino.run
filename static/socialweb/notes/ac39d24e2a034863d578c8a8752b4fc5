@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/ac39d24e2a034863d578c8a8752b4fc5",
+  "type": "Note",
+  "hash": "ac39d24e2a034863d578c8a8752b4fc5",
+  "content": "\u003Cp\u003EA oportunidade disfar\u00E7ada de trabalho\u003C/p\u003E\u003Cp\u003E\u0026quot;As oportunidades normalmente se apresentam disfar\u00E7adas de trabalho \u00E1rduo, e \u00E9 por isso que muitos n\u00E3o as reconhecem.\u0026quot;\nPor Ann Landers\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/2018-05-28-ann-landers-a-oportunidade-disfarcada-de-trabalho/\u0027\u003Ehttps://avelino.run/quote/2018-05-28-ann-landers-a-oportunidade-disfarcada-de-trabalho/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/2018-05-28-ann-landers-a-oportunidade-disfarcada-de-trabalho/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-05-28T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/ac39d24e2a034863d578c8a8752b4fc5",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/ac39d24e2a034863d578c8a8752b4fc5?page=true",
+      "partOf": "/socialweb/replies/ac39d24e2a034863d578c8a8752b4fc5",
+      "items": []
+    }
+  }
+}

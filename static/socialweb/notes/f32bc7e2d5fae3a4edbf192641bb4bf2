@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f32bc7e2d5fae3a4edbf192641bb4bf2",
+  "type": "Note",
+  "hash": "f32bc7e2d5fae3a4edbf192641bb4bf2",
+  "content": "\u003Cp\u003EObservar nossa vida pela janela tamb\u00E9m \u00E9 importante\u003C/p\u003E\u003Cp\u003EEssa semana voc\u00EA parou alguns minutos para analisar onde errou e como pode melhor?\nEm desenvolvimento de software (usando metodologias \u00E1gies) temos alguns rituais para olhar o que o time fez (tanto de erro e como acerto) para n\u00E3o voltar errar (sempre compartilhando o conhecimento para que todas as pessoas envolvidas possa aprender com o erro) e potencializar os acertos.\nVejo algumas pessoas vivendo como n\u00E3o houvesse o amanh\u00E3, sem planejamento, sem saber onde quer chegar e geralmente n\u00E3o analisando como chegou at\u00E9 o momento atual.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/observar-nossa-vida-pela-janela-tambem-e-importante/\u0027\u003Ehttps://avelino.run/observar-nossa-vida-pela-janela-tambem-e-importante/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/observar-nossa-vida-pela-janela-tambem-e-importante/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-05-15T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f32bc7e2d5fae3a4edbf192641bb4bf2",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f32bc7e2d5fae3a4edbf192641bb4bf2?page=true",
+      "partOf": "/socialweb/replies/f32bc7e2d5fae3a4edbf192641bb4bf2",
+      "items": []
+    }
+  }
+}

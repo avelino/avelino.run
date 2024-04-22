@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/f7e615ad13f50655379593b013ed4471",
+  "type": "Note",
+  "hash": "f7e615ad13f50655379593b013ed4471",
+  "content": "\u003Cp\u003ELinks \u2764\uFE0F\uD83D\uDE4C\u003C/p\u003E\u003Cp\u003E Good dream is dream lived\nOpen Source Engineer - \uD83C\uDFCA\u200D\u2642\uFE0F\uD83D\uDEB4\u200D\u2642\uFE0F\uD83C\uDFC3\u200D\u2642\uFE0F Triathlete (IRONMAN distance, maybe one day it\u0027ll be professional) - \uD83C\uDF31 \u1D18\u029F\u1D00\u0274\u1D1B-\u0299\u1D00s\u1D07\u1D05\nImportant links Instagram: Lifestyle/Triathlon Strava LinkedIn: Entrepreneur - living the startups ecosystem Twitter: Technical content My contact\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/links/\u0027\u003Ehttps://avelino.run/links/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/links/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2000-01-01T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/f7e615ad13f50655379593b013ed4471",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/f7e615ad13f50655379593b013ed4471?page=true",
+      "partOf": "/socialweb/replies/f7e615ad13f50655379593b013ed4471",
+      "items": []
+    }
+  }
+}

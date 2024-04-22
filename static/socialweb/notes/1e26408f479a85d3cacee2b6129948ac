@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/1e26408f479a85d3cacee2b6129948ac",
+  "type": "Note",
+  "hash": "1e26408f479a85d3cacee2b6129948ac",
+  "content": "\u003Cp\u003EQual o glamour em ser CEO?\u003C/p\u003E\u003Cp\u003EAntes de entrar no assunto do titulo vou contextualizar o porque estou escrevendo esse blogpost.\nEu (Avelino) a anos acompanho minha rede de contato no LinkedIn e via que muitas pessoas estava como (ou se tornou \u00E0 pouco tempo) CEO (Chief Executive Officer, que significa Diretor Executivo) de empresa, isso me surgiu curiosidade em saber qual empresa essas pessoas tinham se tornado CEO, para minha surpresa a maioria tinha se tornado CEO de uma empresa e continuava trabalhando em outra empresa, muitas sendo assalariado.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/qual-o-glamour-em-ser-ceo/\u0027\u003Ehttps://avelino.run/qual-o-glamour-em-ser-ceo/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/qual-o-glamour-em-ser-ceo/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2017-03-04T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/1e26408f479a85d3cacee2b6129948ac",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/1e26408f479a85d3cacee2b6129948ac?page=true",
+      "partOf": "/socialweb/replies/1e26408f479a85d3cacee2b6129948ac",
+      "items": []
+    }
+  }
+}

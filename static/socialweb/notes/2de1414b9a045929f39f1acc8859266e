@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/2de1414b9a045929f39f1acc8859266e",
+  "type": "Note",
+  "hash": "2de1414b9a045929f39f1acc8859266e",
+  "content": "\u003Cp\u003EDev Na Estrada 151 - Entrevista Thiago Avelino\u003C/p\u003E\u003Cp\u003EEscute minha participa\u00E7\u00E3o no Podcast Dev Na Estrada falando sobre minha carreira profissional:\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/dev-na-estrada-151-entrevista-thiago-avelino/\u0027\u003Ehttps://avelino.run/dev-na-estrada-151-entrevista-thiago-avelino/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/dev-na-estrada-151-entrevista-thiago-avelino/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2018-04-06T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/2de1414b9a045929f39f1acc8859266e",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/2de1414b9a045929f39f1acc8859266e?page=true",
+      "partOf": "/socialweb/replies/2de1414b9a045929f39f1acc8859266e",
+      "items": []
+    }
+  }
+}

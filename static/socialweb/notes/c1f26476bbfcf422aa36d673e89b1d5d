@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/c1f26476bbfcf422aa36d673e89b1d5d",
+  "type": "Note",
+  "hash": "c1f26476bbfcf422aa36d673e89b1d5d",
+  "content": "\u003Cp\u003EDiferen\u00E7a entre metas e objetivo?\u003C/p\u003E\u003Cp\u003EPara mim um objetivo \u00E9 composto por diversas metas\nAcredito que todos tem anseios, vontades e prop\u00F3sitos, por isso, cria objetivo e metas (ou pelo menos tentamos). Por\u00E9m, algumas pessoas acabam confundindo esses dois termos e, com isso, podem ter problemas em defini-los, principalmente na hora de criar um planejamento para alcan\u00E7ar as metas e objetivos pessoal/profissional.\nObjetivo? Dar descri\u00E7\u00E3o concreta de onde queremos chegar, ou o que estamos tentando alcan\u00E7ar (dire\u00E7\u00E3o), ou seja, o prop\u00F3sito.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/quote/diferenca-entre-metas-e-objetivo/\u0027\u003Ehttps://avelino.run/quote/diferenca-entre-metas-e-objetivo/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/quote/diferenca-entre-metas-e-objetivo/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2020-07-24T13:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/c1f26476bbfcf422aa36d673e89b1d5d",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/c1f26476bbfcf422aa36d673e89b1d5d?page=true",
+      "partOf": "/socialweb/replies/c1f26476bbfcf422aa36d673e89b1d5d",
+      "items": []
+    }
+  }
+}

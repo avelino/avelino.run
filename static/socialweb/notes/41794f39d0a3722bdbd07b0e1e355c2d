@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/41794f39d0a3722bdbd07b0e1e355c2d",
+  "type": "Note",
+  "hash": "41794f39d0a3722bdbd07b0e1e355c2d",
+  "content": "\u003Cp\u003EDecis\u00F5es na carreira de engenharia de software (desenvolvimento)\u003C/p\u003E\u003Cp\u003EAo decidir sobre qual passo seguir\u00E1 em sua trajet\u00F3ria profissional, acredito que vale pena considerar os seguintes fatores (1). Dependendo do seu momento de pessoal e/ou profissional, diferentes fatores ser\u00E1 mais (ou menos) importantes (2).\nImportante:\nAssumi-se que voc\u00EA achou melhor se juntar, ao inv\u00E9s de criar (come\u00E7ar uma empresa). N\u00E3o estou falando de fundar ou n\u00E3o uma empresa, e sim desmitificar auxiliar que queira entrar em uma empresa existente e \u00E9 parcial com pessoas no in\u00EDcio da carreira.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/decisoes-na-carreira-de-engenharia-de-software-desenvolvimento/\u0027\u003Ehttps://avelino.run/decisoes-na-carreira-de-engenharia-de-software-desenvolvimento/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/decisoes-na-carreira-de-engenharia-de-software-desenvolvimento/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2021-06-18T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/41794f39d0a3722bdbd07b0e1e355c2d",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/41794f39d0a3722bdbd07b0e1e355c2d?page=true",
+      "partOf": "/socialweb/replies/41794f39d0a3722bdbd07b0e1e355c2d",
+      "items": []
+    }
+  }
+}

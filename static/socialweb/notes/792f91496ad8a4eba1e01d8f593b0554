@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/792f91496ad8a4eba1e01d8f593b0554",
+  "type": "Note",
+  "hash": "792f91496ad8a4eba1e01d8f593b0554",
+  "content": "\u003Cp\u003ESwift Language (Apple) first steps\u003C/p\u003E\u003Cp\u003EApple launched the Swift language (Looking for the Swift parallel scripting language? Please visit http://swift-lang.org) at WWDC 2014. A modern language to program for Mac and iOS!\nStrongly typed language, where you explicitly what type (variable, arguments, and function returns), syntax reminds dynamic languages with Python, Go, Ruby and JavaScript.\nApple offers a free comprehensive guide on language in HTML and iBook formats.\nWe can put zero left freely to improve readability, insert _ to separate groups of numbers and add the \u002B in front.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/swift-language-apple-first-steps/\u0027\u003Ehttps://avelino.run/swift-language-apple-first-steps/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/swift-language-apple-first-steps/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2014-06-04T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/792f91496ad8a4eba1e01d8f593b0554",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/792f91496ad8a4eba1e01d8f593b0554?page=true",
+      "partOf": "/socialweb/replies/792f91496ad8a4eba1e01d8f593b0554",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/204890c32c0cfb24dc48c9c14a7f050a",
+  "type": "Note",
+  "hash": "204890c32c0cfb24dc48c9c14a7f050a",
+  "content": "\u003Cp\u003ECron dentro do Django com Celery\u003C/p\u003E\u003Cp\u003EOntem na parte da noite conversando com um conhecido ele falou que estava usando em um projeto o Celery, como ainda n\u00E3o conhecia vamos estudar este projeto. Gostei da forma que ele trabalha e como ele integra com o Django. | Tenho em um projeto uma fila de processamento s\u00F3 que foi desenvolvido por mim e n\u00E3o tem todos os recursos que o Celery tem.\nVou explicar como usar o Celery com o Django em um exemplo simples, e como sempre basta usar a criatividade para desenvolver a sua necessidade.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/cron-dentro-do-django-com-celery/\u0027\u003Ehttps://avelino.run/cron-dentro-do-django-com-celery/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/cron-dentro-do-django-com-celery/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2015-03-30T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/204890c32c0cfb24dc48c9c14a7f050a",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/204890c32c0cfb24dc48c9c14a7f050a?page=true",
+      "partOf": "/socialweb/replies/204890c32c0cfb24dc48c9c14a7f050a",
+      "items": []
+    }
+  }
+}

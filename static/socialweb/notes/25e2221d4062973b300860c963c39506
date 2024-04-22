@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "/socialweb/notes/25e2221d4062973b300860c963c39506",
+  "type": "Note",
+  "hash": "25e2221d4062973b300860c963c39506",
+  "content": "\u003Cp\u003EA volta dos que nao foram, software livre para sempre\u003C/p\u003E\u003Cp\u003EDurante 5 anos usei o sistema operacional da Apple (OS X), o OS X \u00E9 um \u00F3timo sistema operacional principalmente o ambiente gr\u00E1fico que \u00E9 sensassional, sistema de \u00E1udio entre outros recursos, os 3 primeiro anos usei sem problema nem um ate que a Apple veio com uma historia de cobrar pelo Xcode (The Xcode interface seamlessly integrates code editing, UI design with Interface Builder, testing, and debugging, all within a single window.\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://avelino.run/users/hey\\\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Ehey\\\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/\u0027\u003Ehttps://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+  "url": "https://avelino.run/a-volta-dos-que-nao-foram-software-livre-para-sempre/",
+  "attributedTo": "https://avelino.run/\\@hey",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2013-10-26T00:00:00\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://avelino.run/users/hey\\",
+      "Name": "\\@hey\\@avelino.run"
+    }
+  ],
+  "replies": {
+    "id": "/socialweb/replies/25e2221d4062973b300860c963c39506",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "/socialweb/replies/25e2221d4062973b300860c963c39506?page=true",
+      "partOf": "/socialweb/replies/25e2221d4062973b300860c963c39506",
+      "items": []
+    }
+  }
+}
