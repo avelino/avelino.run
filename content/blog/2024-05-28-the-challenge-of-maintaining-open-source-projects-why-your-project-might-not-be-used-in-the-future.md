@@ -5,7 +5,6 @@ tags = ["open source", "open repository", "code community", "project sustainabil
 url = "/the-challenge-of-maintaining-open-source-projects-why-your-project-might-not-be-used-in-the-future"
 images = ["/blog/the-challenge-of-maintaining-open-source-projects-why-your-project-might-not-be-used-in-the-future.png"]
 description = "Learn how to ensure the sustainability of an open source project and the importance of building an active community. Understand the differences between open repositories and open source projects, and know when it’s worth opening your project to the community"
-draft = true
 +++
 
 ![The Challenge of Maintaining Open Source Projects: Why Your Project Might Not Be Used in the Future](/blog/the-challenge-of-maintaining-open-source-projects-why-your-project-might-not-be-used-in-the-future.png)
@@ -28,7 +27,7 @@ One project I’m proud of building a strong community around is awesome-go. It�
 
 ## When to Open Source a Project?
 
-My go-to method for deciding whether to invest my time in open sourcing a project is to look around (at other projects) and see if they aren't already solving my problem. It might mean changing the approach (architecture) to fit a specific project, but often it’s worth restructuring instead of writing a new package or library from scratch, whether private or open source.
+When I face the decision of whether or not to invest my time in a new open source project, it is important for me to have a strong overview of already existing alternatives. If there are none, then it is probably a good idea. Otherwise, I think about how changes to my project, by means of approach, architecture, design, etc., could withstand the challenges of competition. However, in most cases, it is a better idea to restructure the existing project instead of writing a new package or library from scratch, whether it is private or open source.
 
 **Checklist for Deciding to Open Source a Project:**
 
