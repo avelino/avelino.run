@@ -1,6 +1,6 @@
 +++
 title = "The Challenge of Maintaining Open Source Projects: Why Your Project Might Not Be Used in the Future"
-date = "2024-04-28"
+date = "2024-05-28"
 tags = ["open source", "open repository", "code community", "project sustainability", "awesome-go", "software development"]
 url = "/the-challenge-of-maintaining-open-source-projects-why-your-project-might-not-be-used-in-the-future"
 images = ["/blog/the-challenge-of-maintaining-open-source-projects-why-your-project-might-not-be-used-in-the-future.png"]
