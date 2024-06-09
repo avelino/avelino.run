@@ -32,3 +32,5 @@ Think about it: Do you remember every detail from your last friends' hangout? Or
 ## Conclusion
 
 In both real-life and social media interactions, we forget a lot of what we experience. What truly matters are the moments that leave a lasting impact. Understanding this helps us focus on what’s important and let the rest go.
+
+> This is the reason I don't keep a history of tweets on [x.com](https://x.com/avelinorun), it doesn't make sense. What really matters is what is happening now, what is being discussed now. What was discussed yesterday no longer matters.
