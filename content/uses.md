@@ -15,7 +15,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Hardware
 
-- Macbook Pro Apple M1 Max, 32GB ram, 1TB ssd
+- Macbook Pro Apple M3 Pro, 16GB ram, 1TB ssd
   - [Keyboard Keychron K3](https://www.amazon.com/Keychron-Ultra-Slim-Wireless-Bluetooth-Mechanical/dp/B0B48ZVQH5/)
   - [Mouse Logitech MX Ergo](https://www.amazon.com/Logitech-Ergo-Wireless-Trackball-Mouse/dp/B0753P1GTS/)
   - [Samsung 28” 4K UR550](https://www.amazon.com/SAMSUNG-U28R550UQNX-LU28R550UQNXZA-Monitor-Free/dp/B084V9CJB1/)
@@ -29,8 +29,8 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 ## Productivity
 
 - [Logseq](https://logseq.com) (personal notes with a [PKM mindset](https://databaseline.tech/knowledge-management/), sync in [Logseq Cloud](https://blog.logseq.com/how-to-setup-and-use-logseq-sync/))
-- [Fastmail](https://www.fastmail.com/blog/fastmail-vs-gmail/)
-- [Fantastical](https://flexibits.com/fantastical) (desktop and mobile)
+- Gmail
+- [Morgen](https://www.morgen.so/) (desktop and mobile)
 - 1Password
 - [Raycast](https://www.raycast.com/)
 - Spotify
@@ -43,12 +43,12 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 - Slack
 - Discord *(any open source community)*
 - [GitHub](https://github.com/avelino) *(many resources, such as issue, discussions, releases, actions, etc)*
-- Profit Pro _(TradeMap on mobile device)_ - marked financial
+- Profit Pro - marked financial
 
 ## Development
 
 - [Emacs](https://github.com/avelino/dotfiles/tree/main/doom.d)
-- VS Code with ligth theme [Monotropic](https://github.com/avelino/monotropic-theme-vscode) (and _vim_ with [vim-bootstrap](https://vim-bootstrap.com/) to quick edit)
+- Zed
 - Homebrew
 - [Rio](https://raphamorim.io/rio/)
 - [Fish Shell](https://fishshell.com/)
@@ -57,7 +57,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Another apps
 
-- Firefox
+- Arc
 - Figma
 - Google Drive
 
@@ -69,7 +69,7 @@ I constantly get a few emails (my email is public on my [github profile](https:/
 
 ## Training to IRONMAN/Triathlon
 
-- Garmin 955 (watch)
+- Garmin 965 (watch)
+- OuraRing
 - Elite Direto XR smart training
 - TrainingPeaks
-- Zwift
