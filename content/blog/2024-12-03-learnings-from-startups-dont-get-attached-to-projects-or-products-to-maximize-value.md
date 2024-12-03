@@ -1,8 +1,7 @@
 +++
 title = "Learnings from startups: don't get attached to projects or products to maximize value"
 date = "2024-12-03"
-tags = ["Startups", "Agile companies", "Project management", "Product development", "Business value", "Agile philosophy
-", "Personal growth", "Professional development", "Continuous learning", "Lean Startup", "Scrum", "Refactoring"]
+tags = ["Startups", "Agile companies", "Project management", "Product development", "Business value", "Agile philosophy", "Personal growth", "Professional development", "Continuous learning", "Lean Startup", "Scrum", "Refactoring"]
 url = "/learnings-from-startups-dont-get-attached-to-projects-or-products-to-maximize-value"
 images = ["/blog/learnings-from-startups-dont-get-attached-to-projects-or-products-to-maximize-value.png"]
 description = "Learn how startups and agile companies can enhance business value by not getting attached to projects or products. Discover insights from agile philosophy, personal and professional growth, and continuous learning."
