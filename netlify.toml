@@ -3,7 +3,7 @@ publish = "public"
 command = "git submodule update -f --init && hugo"
 
 [context.production.environment]
-HUGO_VERSION = "v0.125.1"
+HUGO_VERSION = "v0.139.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -12,11 +12,11 @@ from = "/lifestyle/*"
 to = "/quote/lifestyle/:splat"
 status = 301
 force = true
-query = {path = ":path"}
+query = { path = ":path" }
 
 [[redirects]]
 from = "/lifestyle/"
 to = "/quote/lifestyle/"
 status = 301
 force = true
-query = {path = ":path"}
+query = { path = ":path" }
