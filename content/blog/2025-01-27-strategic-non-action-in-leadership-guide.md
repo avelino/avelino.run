@@ -174,7 +174,7 @@ The key is recognizing that conscious non-action is itself a deliberate strategy
 2. Collins, J. (2001). [Good to Great](https://www.amazon.com/Good-Great-Some-Companies-Others/dp/0066620996)
 3. Kotter, J. P. (2012). [Leading Change](https://www.amazon.com/Leading-Change-New-Preface-Author/dp/1422186431)
 4. McKinsey & Company. (2023). [Building Organizational Resilience](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/raising-the-resilience-of-your-organization)
-5. Harvard Business Review. (2024). [The Power of Strategic Leadership](https://hbr.org/2024/01/the-power-of-strategic-leadership)
+5. Harvard Business Review. (2024). [The Strategic Power of Hope](https://hbr.org/2024/12/the-strategic-power-of-hope)
 
 ### Additional Reading
 
