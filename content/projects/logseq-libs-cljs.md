@@ -1,13 +1,13 @@
-+++
-date = "2025-02-16"
-title = "ClojureScript Wrapper for @logseq/libs - Build Better Logseq Plugins"
-tags = ["clojurescript", "logseq-plugin", "logseq-development", "@logseq/libs", "cljs", "functional-programming", "open-source", "plugin-development"]
-description = "A native ClojureScript wrapper for @logseq/libs enabling idiomatic plugin development for Logseq. Build powerful, maintainable plugins using functional programming and REPL-driven development."
-comment = false
-url = "/logseq-libs-cljs"
-link = "https://github.com/avelino/logseq-libs"
-img = "https://cljsocial.sfo3.cdn.digitaloceanspaces.com/accounts/avatars/111/393/159/877/487/513/original/4e74f973683a2f29.png"
-+++
+---
+date: "2025-02-16"
+title: "ClojureScript Wrapper for @logseq/libs - Build Better Logseq Plugins"
+tags: ["clojurescript", "logseq-plugin", "logseq-development", "@logseq/libs", "cljs", "functional-programming", "open-source", "plugin-development"]
+description: "A native ClojureScript wrapper for @logseq/libs enabling idiomatic plugin development for Logseq. Build powerful, maintainable plugins using functional programming and REPL-driven development."
+url: "/logseq-libs-cljs"
+link: "https://github.com/avelino/logseq-libs"
+img: "https://cljsocial.sfo3.cdn.digitaloceanspaces.com/accounts/avatars/111/393/159/877/487/513/original/4e74f973683a2f29.png"
+comment: false
+---
 
 ![Logseq Logo](https://cljsocial.sfo3.cdn.digitaloceanspaces.com/accounts/avatars/111/393/159/877/487/513/original/4e74f973683a2f29.png)
 
