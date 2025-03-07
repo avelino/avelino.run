@@ -9,6 +9,8 @@ img: "/blog/the-power-of-deliberate-focus-eliminating-distractions-in-a-world-of
 
 Explore advanced strategies to systematically eliminate distractions and cultivate deep focus in a hyperconnected world. Discover how the strategic subtraction of stimuli can amplify results and bring mental clarity to your most significant goals.
 
+![The Power of Deliberate Focus: Eliminating Distractions in a World of Informational Abundance](/blog/the-power-of-deliberate-focus-eliminating-distractions-in-a-world-of-informational-abundance.png)
+
 ## The Attention Economy: Our Scarcest Resource
 
 In an era where information is infinite, our attention has become the most valuable and contested resource. As Thomas Davenport observes in "The Attention Economy," we live in a paradox: while information multiplies exponentially, our capacity to process it remains limited. This discrepancy creates what psychologists call "attention poverty" – a condition where our cognitive capacity is constantly fragmented among multiple stimuli.
