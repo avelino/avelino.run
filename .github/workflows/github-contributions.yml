@@ -31,12 +31,35 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests python-dateutil pyyaml
 
+      - name: Get current date
+        id: date
+        run: |
+          echo "YEAR=$(date +'%Y')" >> $GITHUB_ENV
+          echo "MONTH=$(date +'%m')" >> $GITHUB_ENV
+          echo "Current date: $(date +'%Y-%m-%d')"
+
       - name: Get GitHub Contributions
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_USERNAME: avelino
         run: |
-          python .github/scripts/get_github_contributions.py
+          # Calcular mês anterior
+          CURRENT_MONTH=${{ env.MONTH }}
+          CURRENT_YEAR=${{ env.YEAR }}
+
+          if [ "$CURRENT_MONTH" = "01" ]; then
+            PREV_MONTH=12
+            PREV_YEAR=$((CURRENT_YEAR-1))
+          else
+            PREV_MONTH=$((CURRENT_MONTH-1))
+            PREV_YEAR=$CURRENT_YEAR
+          fi
+
+          # Formatar o mês corretamente (adicionar zero à esquerda se necessário)
+          PREV_MONTH=$(printf "%02d" $PREV_MONTH)
+
+          echo "Generating report for: $PREV_YEAR-$PREV_MONTH"
+          python .github/scripts/get_github_contributions.py --year $PREV_YEAR --month $PREV_MONTH
 
       - name: Commit and push changes
         run: |

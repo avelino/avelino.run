@@ -2,9 +2,11 @@
 import os
 import requests
 import datetime
+import argparse
 from dateutil.relativedelta import relativedelta
 from pathlib import Path
 import yaml
+import json
 
 # Configuration
 GITHUB_USERNAME = os.environ.get('GITHUB_USERNAME', 'avelino')
@@ -13,118 +15,224 @@ BASE_DIR = Path('content/foss')
 
 # Headers for authentication
 HEADERS = {
-    'Authorization': f'token {GITHUB_TOKEN}',
-    'Accept': 'application/vnd.github.v3+json',
+    'Authorization': f'Bearer {GITHUB_TOKEN}',
+    'Content-Type': 'application/json',
 }
 
-# Cache to store repository visibility status
-REPO_VISIBILITY_CACHE = {}
+# GraphQL endpoint
+GITHUB_GRAPHQL_URL = 'https://api.github.com/graphql'
 
-def is_public_repo(repo_full_name):
-    """Check if a repository is public."""
-    # Check cache first to reduce API calls
-    if repo_full_name in REPO_VISIBILITY_CACHE:
-        return REPO_VISIBILITY_CACHE[repo_full_name]
+def fetch_contributions(username, start_date, end_date):
+    """
+    Fetch user contributions using GitHub GraphQL API
+    """
+    # Format dates as ISO strings
+    start_date_str = start_date.strftime('%Y-%m-%dT00:00:00Z')
+    end_date_str = end_date.strftime('%Y-%m-%dT23:59:59Z')
 
+    print(f"Fetching contributions from {start_date_str} to {end_date_str}")
+    print(f"Using username: {username}")
+
+    # GraphQL query for user contributions
+    query = """
+    query($username: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $username) {
+        contributionsCollection(from: $from, to: $to) {
+          commitContributionsByRepository {
+            repository {
+              name
+              owner {
+                login
+              }
+              isPrivate
+              url
+            }
+            contributions(first: 100) {
+              totalCount
+              nodes {
+                occurredAt
+                resourcePath
+                url
+              }
+            }
+          }
+          pullRequestContributionsByRepository {
+            repository {
+              name
+              owner {
+                login
+              }
+              isPrivate
+              url
+            }
+            contributions(first: 100) {
+              totalCount
+              nodes {
+                pullRequest {
+                  title
+                  url
+                  createdAt
+                }
+              }
+            }
+          }
+          issueContributionsByRepository {
+            repository {
+              name
+              owner {
+                login
+              }
+              isPrivate
+              url
+            }
+            contributions(first: 100) {
+              totalCount
+              nodes {
+                issue {
+                  title
+                  url
+                  createdAt
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+
+    variables = {
+        "username": username,
+        "from": start_date_str,
+        "to": end_date_str
+    }
+
+    print(f"GraphQL variables: {json.dumps(variables, indent=2)}")
+
+    # Make the GraphQL request
     try:
-        # Make API request to get repository information
-        response = requests.get(
-            f'https://api.github.com/repos/{repo_full_name}',
-            headers=HEADERS
+        response = requests.post(
+            GITHUB_GRAPHQL_URL,
+            headers=HEADERS,
+            json={"query": query, "variables": variables}
         )
 
-        if response.status_code == 200:
-            repo_data = response.json()
-            is_public = not repo_data.get('private', True)
-            REPO_VISIBILITY_CACHE[repo_full_name] = is_public
-            return is_public
-        else:
-            # If we can't access the repo or it doesn't exist, assume it's private
-            print(f"Could not determine visibility for {repo_full_name}: {response.status_code}")
-            REPO_VISIBILITY_CACHE[repo_full_name] = False
-            return False
-    except Exception as e:
-        print(f"Error checking repository visibility for {repo_full_name}: {e}")
-        REPO_VISIBILITY_CACHE[repo_full_name] = False
-        return False
+        print(f"GraphQL response status: {response.status_code}")
 
-def get_month_contributions(username, start_date, end_date):
-    """Gets GitHub contributions for a specific period."""
-    # List to store contributions
+        if response.status_code != 200:
+            print(f"Error fetching contributions: {response.status_code}")
+            print(response.text)
+            return []
+
+        data = response.json()
+        if "errors" in data:
+            print(f"GraphQL errors: {json.dumps(data['errors'], indent=2)}")
+            return []
+
+        # Log a preview of the response for debugging
+        print("Response preview:")
+        print(json.dumps(data, indent=2)[:500] + "...")
+
+        return process_graphql_data(data, start_date, end_date)
+    except Exception as e:
+        print(f"Exception in GraphQL request: {str(e)}")
+        return []
+
+def process_graphql_data(data, start_date, end_date):
+    """Process GraphQL response data into a list of contributions"""
     contributions = []
 
-    # Get user events
-    page = 1
-    max_pages = 10  # GitHub tem um limite de paginação para eventos
+    if not data.get('data') or not data['data'].get('user'):
+        print("No user data found in response")
+        return contributions
 
-    while page <= max_pages:
-        response = requests.get(
-            f'https://api.github.com/users/{username}/events',
-            headers=HEADERS,
-            params={'page': page, 'per_page': 100}
-        )
+    contrib_data = data['data']['user']['contributionsCollection']
 
-        if response.status_code == 422:
-            print(f"Reached pagination limit for GitHub events API (code 422)")
-            break
-        elif response.status_code != 200:
-            print(f"Error retrieving events: {response.status_code}")
-            print(response.text)
-            break
+    # Process commits
+    commit_repos = contrib_data.get('commitContributionsByRepository', [])
+    print(f"Found commit contributions for {len(commit_repos)} repositories")
 
-        events = response.json()
-        if not events:
-            break
+    for repo_data in commit_repos:
+        if repo_data['repository']['isPrivate']:
+            continue
 
-        # Filter events by period and public repositories
-        for event in events:
-            created_at = datetime.datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ')
-            repo_name = event['repo']['name']
+        repo_name = f"{repo_data['repository']['owner']['login']}/{repo_data['repository']['name']}"
+        commit_nodes = repo_data['contributions'].get('nodes', [])
+        total_count = repo_data['contributions'].get('totalCount', 0)
 
-            # Check time period
+        print(f"Repository {repo_name}: {total_count} total commits, {len(commit_nodes)} fetched")
+
+        for commit_contrib in commit_nodes:
+            created_at = datetime.datetime.strptime(commit_contrib['occurredAt'], '%Y-%m-%dT%H:%M:%SZ')
             if start_date <= created_at <= end_date:
-                # Check if repository is public
-                if is_public_repo(repo_name):
-                    contributions.append({
-                        'type': event['type'],
-                        'repo': repo_name,
-                        'created_at': created_at.strftime('%Y-%m-%d %H:%M'),
-                        'details': get_event_details(event)
-                    })
-            elif created_at < start_date:
-                # If we find events older than the period, we can stop
-                return contributions
+                contributions.append({
+                    'type': 'PushEvent',
+                    'repo': repo_name,
+                    'created_at': created_at.strftime('%Y-%m-%d %H:%M'),
+                    'details': {
+                        'commits': 1,
+                        'url': commit_contrib['url']
+                    }
+                })
 
-        page += 1
+    # Process pull requests
+    pr_repos = contrib_data.get('pullRequestContributionsByRepository', [])
+    print(f"Found PR contributions for {len(pr_repos)} repositories")
+
+    for repo_data in pr_repos:
+        if repo_data['repository']['isPrivate']:
+            continue
+
+        repo_name = f"{repo_data['repository']['owner']['login']}/{repo_data['repository']['name']}"
+        pr_count = repo_data['contributions'].get('totalCount', 0)
+        pr_nodes = repo_data['contributions'].get('nodes', [])
+
+        print(f"Repository {repo_name}: {pr_count} total PRs, {len(pr_nodes)} fetched")
+
+        for pr in repo_data['contributions'].get('nodes', []):
+            created_at = datetime.datetime.strptime(pr['pullRequest']['createdAt'], '%Y-%m-%dT%H:%M:%SZ')
+            if start_date <= created_at <= end_date:
+                contributions.append({
+                    'type': 'PullRequestEvent',
+                    'repo': repo_name,
+                    'created_at': created_at.strftime('%Y-%m-%d %H:%M'),
+                    'details': {
+                        'action': 'opened',
+                        'title': pr['pullRequest']['title'],
+                        'url': pr['pullRequest']['url']
+                    }
+                })
+
+    # Process issues
+    issue_repos = contrib_data.get('issueContributionsByRepository', [])
+    print(f"Found issue contributions for {len(issue_repos)} repositories")
+
+    for repo_data in issue_repos:
+        if repo_data['repository']['isPrivate']:
+            continue
+
+        repo_name = f"{repo_data['repository']['owner']['login']}/{repo_data['repository']['name']}"
+        issue_count = repo_data['contributions'].get('totalCount', 0)
+        issue_nodes = repo_data['contributions'].get('nodes', [])
+
+        print(f"Repository {repo_name}: {issue_count} total issues, {len(issue_nodes)} fetched")
+
+        for issue in repo_data['contributions'].get('nodes', []):
+            created_at = datetime.datetime.strptime(issue['issue']['createdAt'], '%Y-%m-%dT%H:%M:%SZ')
+            if start_date <= created_at <= end_date:
+                contributions.append({
+                    'type': 'IssuesEvent',
+                    'repo': repo_name,
+                    'created_at': created_at.strftime('%Y-%m-%d %H:%M'),
+                    'details': {
+                        'action': 'opened',
+                        'title': issue['issue']['title'],
+                        'url': issue['issue']['url']
+                    }
+                })
 
     print(f"Found {len(contributions)} contributions in public repositories")
     return contributions
-
-def get_event_details(event):
-    """Extracts specific details from the event based on type."""
-    details = {}
-
-    if event['type'] == 'PushEvent' and 'payload' in event:
-        details['commits'] = len(event['payload'].get('commits', []))
-        if 'commits' in event['payload'] and event['payload']['commits']:
-            details['message'] = event['payload']['commits'][0].get('message', '')
-
-    elif event['type'] == 'PullRequestEvent' and 'payload' in event:
-        details['action'] = event['payload'].get('action', '')
-        details['title'] = event['payload'].get('pull_request', {}).get('title', '')
-        details['url'] = event['payload'].get('pull_request', {}).get('html_url', '')
-
-    elif event['type'] == 'IssuesEvent' and 'payload' in event:
-        details['action'] = event['payload'].get('action', '')
-        details['title'] = event['payload'].get('issue', {}).get('title', '')
-        details['url'] = event['payload'].get('issue', {}).get('html_url', '')
-
-    elif event['type'] == 'IssueCommentEvent' and 'payload' in event:
-        details['action'] = event['payload'].get('action', '')
-        details['title'] = event['payload'].get('issue', {}).get('title', '')
-        details['url'] = event['payload'].get('comment', {}).get('html_url', '')
-
-    return details
 
 def generate_markdown(year_month, contributions):
     """Generates markdown content for monthly contributions."""
@@ -162,10 +270,10 @@ Below is the timeline of my contributions to open source projects during {month_
 
             if event_type == 'PushEvent':
                 commits = contrib['details'].get('commits', 0)
-                message = contrib['details'].get('message', '').split('\n')[0]  # First line of the message
+                url = contrib['details'].get('url', '')
                 content += f"- 🔨 Push to [{repo_name}](https://github.com/{repo_name}): {commits} commit(s)\n"
-                if message:
-                    content += f"  - {message}\n"
+                if url:
+                    content += f"  - [Ver commit]({url})\n"
 
             elif event_type == 'PullRequestEvent':
                 action = contrib['details'].get('action', '')
@@ -213,43 +321,75 @@ Below is the timeline of my contributions to open source projects during {month_
     return content
 
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Generate GitHub contributions report for a month')
+    parser.add_argument('--year', type=int, help='Year to generate report for (defaults to current year for previous month)')
+    parser.add_argument('--month', type=int, help='Month to generate report for (defaults to previous month)')
+    args = parser.parse_args()
+
     # Ensure base directory exists
     BASE_DIR.mkdir(parents=True, exist_ok=True)
 
     # Determine current month and previous month
     today = datetime.datetime.now()
+    print(f"Current date detected: {today}")
 
-    # Garantir que não estamos usando datas futuras
-    current_year = today.year
-    current_month_num = today.month
+    # Use command line arguments if provided, otherwise calculate based on current date
+    if args.year and args.month:
+        # Use specified year and month
+        target_year = args.year
+        target_month = args.month
 
-    # Calcular mês anterior
-    if current_month_num == 1:
-        prev_month_num = 12
-        prev_month_year = current_year - 1
+        # Verificar se a data especificada é no futuro
+        current_year_month = today.year * 100 + today.month
+        target_year_month = target_year * 100 + target_month
+
+        if target_year_month > current_year_month:
+            print(f"Warning: Target date {target_year}-{target_month:02d} is in the future.")
+            print(f"Current date is {today.year}-{today.month:02d}.")
+            print("Using the previous month instead.")
+
+            # Recalcular para o mês anterior ao atual
+            if today.month == 1:
+                target_year = today.year - 1
+                target_month = 12
+            else:
+                target_year = today.year
+                target_month = today.month - 1
+
+        # Create date objects
+        if target_month == 12:
+            next_month_year = target_year + 1
+            next_month = 1
+        else:
+            next_month_year = target_year
+            next_month = target_month + 1
+
+        prev_month_first_day = datetime.datetime(target_year, target_month, 1)
+        next_month_first_day = datetime.datetime(next_month_year, next_month, 1)
+        prev_month_last_day = next_month_first_day - relativedelta(days=1)
     else:
-        prev_month_num = current_month_num - 1
-        prev_month_year = current_year
+        # Calculate based on current date
+        current_month_first_day = datetime.datetime(today.year, today.month, 1)
+        prev_month_first_day = current_month_first_day - relativedelta(months=1)
+        prev_month_last_day = current_month_first_day - relativedelta(days=1)
 
-    # Criar objetos de data para o primeiro dia do mês atual e do mês anterior
-    current_month = datetime.datetime(current_year, current_month_num, 1)
-    prev_month = datetime.datetime(prev_month_year, prev_month_num, 1)
+    print(f"Using year: {prev_month_first_day.year}, month: {prev_month_first_day.month}")
+    print(f"Date range: {prev_month_first_day.strftime('%Y-%m-%d')} to {prev_month_last_day.strftime('%Y-%m-%d %H:%M:%S')}")
 
     # File name in YYYY-MM.md format
-    file_name = f"{prev_month.strftime('%Y-%m')}.md"
+    file_name = f"{prev_month_first_day.strftime('%Y-%m')}.md"
 
     # Determine start and end dates
-    start_date = prev_month
-    end_date = current_month - datetime.timedelta(seconds=1)
+    start_date = prev_month_first_day
+    end_date = prev_month_last_day
 
-    print(f"Getting contributions from {start_date} to {end_date}")
-
-    # Get contributions
-    contributions = get_month_contributions(GITHUB_USERNAME, start_date, end_date)
+    # Get contributions using GraphQL API
+    contributions = fetch_contributions(GITHUB_USERNAME, start_date, end_date)
 
     if contributions:
         # Generate markdown file
-        md_content = generate_markdown(prev_month.strftime('%Y-%m'), contributions)
+        md_content = generate_markdown(prev_month_first_day.strftime('%Y-%m'), contributions)
 
         # Save markdown file directly in the base directory
         with open(BASE_DIR / file_name, 'w', encoding='utf-8') as f:
@@ -257,7 +397,13 @@ def main():
 
         print(f"Generated markdown file with {len(contributions)} contributions for {file_name}")
     else:
-        print(f"No contributions found for {prev_month.strftime('%Y-%m')}")
+        print(f"No contributions found for {prev_month_first_day.strftime('%Y-%m')}")
+
+        # Criar um arquivo mesmo sem contribuições
+        md_content = generate_markdown(prev_month_first_day.strftime('%Y-%m'), [])
+        with open(BASE_DIR / file_name, 'w', encoding='utf-8') as f:
+            f.write(md_content)
+        print(f"Generated empty markdown file for {file_name}")
 
 if __name__ == "__main__":
     main()
