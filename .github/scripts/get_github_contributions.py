@@ -55,14 +55,19 @@ def get_month_contributions(username, start_date, end_date):
 
     # Get user events
     page = 1
-    while True:
+    max_pages = 10  # GitHub tem um limite de paginação para eventos
+
+    while page <= max_pages:
         response = requests.get(
             f'https://api.github.com/users/{username}/events',
             headers=HEADERS,
             params={'page': page, 'per_page': 100}
         )
 
-        if response.status_code != 200:
+        if response.status_code == 422:
+            print(f"Reached pagination limit for GitHub events API (code 422)")
+            break
+        elif response.status_code != 200:
             print(f"Error retrieving events: {response.status_code}")
             print(response.text)
             break
@@ -91,10 +96,6 @@ def get_month_contributions(username, start_date, end_date):
                 return contributions
 
         page += 1
-
-        # GitHub has a limit of 10 pages for events
-        if page > 10:
-            break
 
     print(f"Found {len(contributions)} contributions in public repositories")
     return contributions
@@ -217,8 +218,22 @@ def main():
 
     # Determine current month and previous month
     today = datetime.datetime.now()
-    current_month = today.replace(day=1)
-    prev_month = current_month - relativedelta(months=1)
+
+    # Garantir que não estamos usando datas futuras
+    current_year = today.year
+    current_month_num = today.month
+
+    # Calcular mês anterior
+    if current_month_num == 1:
+        prev_month_num = 12
+        prev_month_year = current_year - 1
+    else:
+        prev_month_num = current_month_num - 1
+        prev_month_year = current_year
+
+    # Criar objetos de data para o primeiro dia do mês atual e do mês anterior
+    current_month = datetime.datetime(current_year, current_month_num, 1)
+    prev_month = datetime.datetime(prev_month_year, prev_month_num, 1)
 
     # File name in YYYY-MM.md format
     file_name = f"{prev_month.strftime('%Y-%m')}.md"
