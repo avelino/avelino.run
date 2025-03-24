@@ -17,6 +17,37 @@ HEADERS = {
     'Accept': 'application/vnd.github.v3+json',
 }
 
+# Cache to store repository visibility status
+REPO_VISIBILITY_CACHE = {}
+
+def is_public_repo(repo_full_name):
+    """Check if a repository is public."""
+    # Check cache first to reduce API calls
+    if repo_full_name in REPO_VISIBILITY_CACHE:
+        return REPO_VISIBILITY_CACHE[repo_full_name]
+
+    try:
+        # Make API request to get repository information
+        response = requests.get(
+            f'https://api.github.com/repos/{repo_full_name}',
+            headers=HEADERS
+        )
+
+        if response.status_code == 200:
+            repo_data = response.json()
+            is_public = not repo_data.get('private', True)
+            REPO_VISIBILITY_CACHE[repo_full_name] = is_public
+            return is_public
+        else:
+            # If we can't access the repo or it doesn't exist, assume it's private
+            print(f"Could not determine visibility for {repo_full_name}: {response.status_code}")
+            REPO_VISIBILITY_CACHE[repo_full_name] = False
+            return False
+    except Exception as e:
+        print(f"Error checking repository visibility for {repo_full_name}: {e}")
+        REPO_VISIBILITY_CACHE[repo_full_name] = False
+        return False
+
 def get_month_contributions(username, start_date, end_date):
     """Gets GitHub contributions for a specific period."""
     # List to store contributions
@@ -40,16 +71,21 @@ def get_month_contributions(username, start_date, end_date):
         if not events:
             break
 
-        # Filter events by period
+        # Filter events by period and public repositories
         for event in events:
             created_at = datetime.datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ')
+            repo_name = event['repo']['name']
+
+            # Check time period
             if start_date <= created_at <= end_date:
-                contributions.append({
-                    'type': event['type'],
-                    'repo': event['repo']['name'],
-                    'created_at': created_at.strftime('%Y-%m-%d %H:%M'),
-                    'details': get_event_details(event)
-                })
+                # Check if repository is public
+                if is_public_repo(repo_name):
+                    contributions.append({
+                        'type': event['type'],
+                        'repo': repo_name,
+                        'created_at': created_at.strftime('%Y-%m-%d %H:%M'),
+                        'details': get_event_details(event)
+                    })
             elif created_at < start_date:
                 # If we find events older than the period, we can stop
                 return contributions
@@ -60,6 +96,7 @@ def get_month_contributions(username, start_date, end_date):
         if page > 10:
             break
 
+    print(f"Found {len(contributions)} contributions in public repositories")
     return contributions
 
 def get_event_details(event):
