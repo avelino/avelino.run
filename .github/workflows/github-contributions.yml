@@ -9,9 +9,17 @@ on:
       - main
   workflow_dispatch: # Permite execução manual
 
+# Permissões necessárias para o workflow
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   get-contributions:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
