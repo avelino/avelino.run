@@ -4,9 +4,6 @@ on:
   schedule:
     # Executa no primeiro dia de cada mês às 00:00 UTC
     - cron: "0 0 1 * *"
-  push:
-    branches:
-      - main
   workflow_dispatch: # Permite execução manual
 
 # Permissões necessárias para o workflow
