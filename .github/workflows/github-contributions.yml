@@ -1,0 +1,42 @@
+name: GitHub Contributions Timeline
+
+on:
+  schedule:
+    # Executa no primeiro dia de cada mês às 00:00 UTC
+    - cron: "0 0 1 * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Permite execução manual
+
+jobs:
+  get-contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-dateutil pyyaml
+
+      - name: Get GitHub Contributions
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_USERNAME: avelino
+        run: |
+          python .github/scripts/get_github_contributions.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add content/foss/*.md
+          git commit -m "Update GitHub contributions for $(date +'%Y-%m')" || echo "No changes to commit"
+          git push
