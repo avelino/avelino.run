@@ -56,6 +56,9 @@ jobs:
           echo "Generating report for: $PREV_YEAR-$PREV_MONTH"
           bb .github/scripts/github_contributions.clj $PREV_YEAR $PREV_MONTH
 
+          echo "Generating report for: $CURRENT_YEAR-$CURRENT_MONTH"
+          bb .github/scripts/github_contributions.clj $CURRENT_YEAR $CURRENT_MONTH
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
