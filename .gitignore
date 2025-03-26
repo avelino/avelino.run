@@ -6,3 +6,7 @@ activitypub-utils-*
 # Local Netlify folder
 .netlify
 .venv
+
+# clojure
+.clj-kondo/
+.lsp/

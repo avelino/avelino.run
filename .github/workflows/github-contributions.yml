@@ -21,15 +21,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests python-dateutil pyyaml
+      - name: Setup Babashka
+        uses: just-sultanov/setup-babashka@v2
 
       - name: Get current date
         id: date
@@ -59,7 +52,7 @@ jobs:
           PREV_MONTH=$(printf "%02d" $PREV_MONTH)
 
           echo "Generating report for: $PREV_YEAR-$PREV_MONTH"
-          python .github/scripts/get_github_contributions.py --year $PREV_YEAR --month $PREV_MONTH
+          bb .github/scripts/github_contributions.clj $PREV_YEAR $PREV_MONTH
 
       - name: Commit and push changes
         run: |
