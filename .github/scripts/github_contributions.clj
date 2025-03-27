@@ -23,9 +23,14 @@
     (.format formatter date)))
 
 (defn parse-date [date-str]
-  (let [formatter (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd'T'HH:mm:ss'Z'")
-        local-dt (java.time.LocalDateTime/parse date-str formatter)]
-    (java.time.ZonedDateTime/of local-dt java.time.ZoneOffset/UTC)))
+  (let [iso-formatter (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd'T'HH:mm:ss'Z'")
+        local-formatter (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd HH:mm")
+        iso? (str/includes? date-str "T")]
+    (if iso?
+      (let [local-dt (java.time.LocalDateTime/parse date-str iso-formatter)]
+        (java.time.ZonedDateTime/of local-dt java.time.ZoneOffset/UTC))
+      (let [local-dt (java.time.LocalDateTime/parse date-str local-formatter)]
+        (java.time.ZonedDateTime/of local-dt java.time.ZoneOffset/UTC)))))
 
 (defn format-date-display [date]
   (let [formatter (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd HH:mm")]
@@ -189,10 +194,12 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
             (case event-type
               "PushEvent"
               (let [commits (get-in contrib [:details :commits])
-                    url (get-in contrib [:details :url])]
+                    url (get-in contrib [:details :url])
+                    created-at (parse-date (get contrib :created_at))
+                    date-str (.format (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd") created-at)]
                 (swap! content str "- 🔨 Push to [" repo-name "](https://github.com/" repo-name "): " commits " commit(s)\n")
                 (when url
-                  (swap! content str "  - [Ver commit](" url ")\n")))
+                  (swap! content str "  - [See commit](https://github.com/" repo-name "/commits/main/?author=" (:github-username config) "&since=" date-str "&until=" date-str ")\n")))
 
               "PullRequestEvent"
               (let [action (get-in contrib [:details :action])
