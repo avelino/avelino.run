@@ -5,7 +5,8 @@
             [babashka.fs :as fs]
             [clojure.string :as str]
             [clojure.java.io :as io]
-            [cheshire.core :as json]))
+            [cheshire.core :as json]
+            [clojure.tools.cli :refer [parse-opts]]))
 
 (def config
   {:github-username (or (System/getenv "GITHUB_USERNAME") "avelino")
@@ -240,20 +241,12 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
 
     @content))
 
-(defn -main [& args]
-  (let [today (java.time.ZonedDateTime/now)
-        target-date (if (and (= 2 (count args))
-                             (every? #(re-matches #"\d+" %) args))
-                      (let [year (parse-long (first args))
-                            month (parse-long (second args))]
-                        (java.time.YearMonth/of year month))
-                      (let [current-month (java.time.YearMonth/now)
-                            prev-month (.minusMonths current-month 1)]
-                        prev-month))
+(defn process-month [year month]
+  (let [target-date (java.time.YearMonth/of year month)
         year-month (str (.getYear target-date) "-" (format "%02d" (.getMonthValue target-date)))
-        start-date (-> (java.time.LocalDate/of (.getYear target-date) (.getMonthValue target-date) 1)
+        start-date (-> (java.time.LocalDate/of year month 1)
                        (.atStartOfDay (java.time.ZoneId/of "UTC")))
-        end-date (-> (java.time.LocalDate/of (.getYear target-date) (.getMonthValue target-date) 1)
+        end-date (-> (java.time.LocalDate/of year month 1)
                      (.plusMonths 1)
                      (.minusDays 1)
                      (.atTime 23 59 59)
@@ -274,6 +267,39 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
       ;; Save markdown file
       (spit file-path md-content)
       (println (str "Generated markdown file with " (count (or contributions [])) " contributions for " file-name)))))
+
+(defn parse-date-range [start-date end-date]
+  (let [start (java.time.YearMonth/parse start-date)
+        end (java.time.YearMonth/parse end-date)]
+    (loop [current start
+           months []]
+      (if (.isAfter current end)
+        months
+        (recur (.plusMonths current 1)
+               (conj months [(.getYear current) (.getMonthValue current)]))))))
+
+(def cli-options
+  [["-e" "--date-end DATE" "End date in YYYY-MM format"
+    :default (str (java.time.YearMonth/now))
+    :validate [#(re-matches #"\d{4}-\d{2}" %) "Must be in YYYY-MM format"]]])
+
+(defn -main [& args]
+  (let [{:keys [options arguments errors]} (parse-opts args cli-options)]
+    (when errors
+      (println "Errors:" errors)
+      (System/exit 1))
+
+    (let [start-date (if (= 2 (count arguments))
+                       (let [year (parse-long (first arguments))
+                             month (parse-long (second arguments))]
+                         (str year "-" (format "%02d" month)))
+                       (let [current-month (java.time.YearMonth/now)
+                             prev-month (.minusMonths current-month 1)]
+                         (str (.getYear prev-month) "-" (format "%02d" (.getMonthValue prev-month)))))]
+
+      (let [months (parse-date-range start-date (:date-end options))]
+        (doseq [[year month] months]
+          (process-month year month))))))
 
 (when (= *file* (System/getProperty "babashka.file"))
   (apply -main *command-line-args*))
