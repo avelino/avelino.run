@@ -1,6 +1,6 @@
 #!/usr/bin/env bb
 
-(ns get-github-contributions
+(ns github-contributions
   (:require [babashka.curl :as curl]
             [babashka.fs :as fs]
             [clojure.string :as str]
@@ -12,6 +12,8 @@
   {:github-username (or (System/getenv "GITHUB_USERNAME") "avelino")
    :github-token (System/getenv "GH_TOKEN")
    :base-dir "content/foss"})
+
+(println "GitHub Token status:" (if (:github-token config) "Presente" "Ausente"))
 
 (def headers
   {"Authorization" (str "Bearer " (:github-token config))
@@ -192,10 +194,9 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
         (doseq [contrib (contributions-by-day day)]
           (let [event-type (:type contrib)
                 repo-name (:repo contrib)]
-            (case (-> event-type str/lower-case
-                      (str/replace #"([a-z])([A-Z])" "$1-$2")
-                      keyword)
-              :push-event
+            ;; Using a more direct strategy for event transformation
+            (case event-type
+              "PushEvent"
               (let [commits (get-in contrib [:details :commits])
                     url (get-in contrib [:details :url])
                     created-at (parse-date (get contrib :created_at))
@@ -204,7 +205,7 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                 (when url
                   (swap! content str "  - [See commit](https://github.com/" repo-name "/commits/main/?author=" (:github-username config) "&since=" date-str "&until=" date-str ")\n")))
 
-              :pull-request-event
+              "PullRequestEvent"
               (let [action (get-in contrib [:details :action])
                     title (get-in contrib [:details :title])
                     url (get-in contrib [:details :url])]
@@ -213,7 +214,7 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                   "closed" (swap! content str "- ✅ Closed PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
                   (swap! content str "- 🔀 " (str/capitalize action) " PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")))
 
-              :issues-event
+              "IssuesEvent"
               (let [action (get-in contrib [:details :action])
                     title (get-in contrib [:details :title])
                     url (get-in contrib [:details :url])]
@@ -222,20 +223,21 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                   "closed" (swap! content str "- ✅ Closed issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
                   (swap! content str "- 🐛 " (str/capitalize action) " issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")))
 
-              :issue-comment-event
+              "IssueCommentEvent"
               (let [title (get-in contrib [:details :title])
                     url (get-in contrib [:details :url])]
                 (swap! content str "- 💬 Commented on issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n"))
 
-              :create-event
+              "CreateEvent"
               (swap! content str "- 🏗️ Created repository or branch in [" repo-name "](https://github.com/" repo-name ")\n")
 
-              :fork-event
+              "ForkEvent"
               (swap! content str "- 🍴 Forked [" repo-name "](https://github.com/" repo-name ")\n")
 
-              :watch-event
+              "WatchEvent"
               (swap! content str "- ⭐ Starred [" repo-name "](https://github.com/" repo-name ")\n")
 
+              ;; Default case
               (swap! content str "- " event-type " in [" repo-name "](https://github.com/" repo-name ")\n"))))
         (swap! content str "\n")))
 
