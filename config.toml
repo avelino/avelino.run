@@ -86,6 +86,11 @@ url = "/blog"
 weight = 3
 
 [[menu.main]]
+name = "contribuitions"
+url = "/foss"
+weight = 4
+
+[[menu.main]]
 name = "notes"
 url = "http://notes.avelino.run/"
 weight = 4
