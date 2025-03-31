@@ -9,6 +9,8 @@ img: "/blog/communication-the-hidden-backbone-of-successful-open-source-rojects.
 
 In the open source ecosystem, code is often celebrated as the star. However, behind every thriving open source project lies a less visible yet crucial factor: effective communication. Successful maintainers recognize that writing good code is just a small fraction of their responsibility; their primary role revolves around fostering community engagement, clarifying project goals, and facilitating collaboration.
 
+![Communication: The Hidden Backbone of Successful Open Source Projects](/blog/communication-the-hidden-backbone-of-successful-open-source-rojects.png)
+
 ## Why Communication Trumps Code in Open Source Maintenance
 
 Open source maintainers face the dual challenge of advancing technical excellence while simultaneously nurturing a vibrant community. Nadia Eghbal, in her seminal work *["Working in Public: The Making and Maintenance of Open Source Software"](https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862)*, highlights this evolution, stressing that maintainers today spend significantly more time managing communication channels, contributions, and relationships than simply coding.
