@@ -185,11 +185,15 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
 
     @contributions))
 
-;; The generate-markdown function remains unchanged from original
 (defn generate-markdown [year-month contributions]
   (let [[year month] (str/split year-month #"-")
         month-name (-> (java.time.YearMonth/of (parse-long year) (parse-long month))
                        (.format (java.time.format.DateTimeFormatter/ofPattern "MMMM")))
+        ;; Calculate first and last day of the month
+        first-day (str year "-" month "-01")
+        last-day (-> (java.time.YearMonth/of (parse-long year) (parse-long month))
+                     (.atEndOfMonth)
+                     (.format (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd")))
         content (atom (str "---\n"
                            "title: \"Open Source Contributions - " month-name " " year "\"\n"
                            "description: \"Timeline of my contributions to open source projects on GitHub during " month-name " " year ".\"\n"
@@ -201,73 +205,68 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
 
     ;; Organize contributions by day
     (let [contributions-by-day (group-by #(first (str/split (:created_at %) #" ")) contributions)
-          sorted-days (vec (sort (keys contributions-by-day)))]
+          sorted-days (vec (sort (keys contributions-by-day)))
+          ;; Separate push events from others
+          push-events (filter #(= "PushEvent" (:type %)) contributions)
+          other-events (filter #(not= "PushEvent" (:type %)) contributions)]
+
+      ;; Process daily events (excluding push events)
       (doseq [day (rseq sorted-days)]
-        (swap! content str "## " day "\n\n")
-        (let [contribs-for-day (contributions-by-day day)
-              ;; Separate push events from others
-              push-events (filter #(= "PushEvent" (:type %)) contribs-for-day)
-              other-events (filter #(not= "PushEvent" (:type %)) contribs-for-day)
-              ;; Group push events by repository
-              pushes-by-repo (group-by :repo push-events)]
+        (let [day-events (filter #(= day (first (str/split (:created_at %) #" "))) other-events)]
+          (when (seq day-events)
+            (swap! content str "## " day "\n\n")
+            (doseq [contrib day-events]
+              (let [event-type (:type contrib)
+                    repo-name (:repo contrib)]
+                (case event-type
+                  "PullRequestEvent"
+                  (let [action (get-in contrib [:details :action])
+                        title (get-in contrib [:details :title])
+                        url (get-in contrib [:details :url])]
+                    (case action
+                      "opened" (swap! content str "- 🔀 Opened PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
+                      "closed" (swap! content str "- ✅ Closed PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
+                      (swap! content str "- 🔀 " (str/capitalize action) " PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")))
 
-          ;; Process aggregated push events
+                  "IssuesEvent"
+                  (let [action (get-in contrib [:details :action])
+                        title (get-in contrib [:details :title])
+                        url (get-in contrib [:details :url])]
+                    (case action
+                      "opened" (swap! content str "- 🐛 Opened issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
+                      "closed" (swap! content str "- ✅ Closed issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
+                      (swap! content str "- 🐛 " (str/capitalize action) " issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")))
+
+                  "IssueCommentEvent"
+                  (let [title (get-in contrib [:details :title])
+                        url (get-in contrib [:details :url])]
+                    (swap! content str "- 💬 Commented on issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n"))
+
+                  "CreateEvent"
+                  (swap! content str "- 🏗️ Created repository or branch in [" repo-name "](https://github.com/" repo-name ")\n")
+
+                  "ForkEvent"
+                  (swap! content str "- 🍴 Forked [" repo-name "](https://github.com/" repo-name ")\n")
+
+                  "WatchEvent"
+                  (swap! content str "- ⭐ Starred [" repo-name "](https://github.com/" repo-name ")\n")
+
+                  ;; Default case for any other unhandled event types
+                  (swap! content str "- " event-type " in [" repo-name "](https://github.com/" repo-name ")\n"))))
+            (swap! content str "\n"))))
+
+      ;; Add push events section at the end
+      (when (seq push-events)
+        (swap! content str "## Commits\n\n")
+        ;; Group push events by repository
+        (let [pushes-by-repo (group-by :repo push-events)]
           (doseq [[repo-name push-contribs] pushes-by-repo]
-            (let [;; Get the first push event for this repo (should be only one after our processing)
-                  push-event (first push-contribs)
-                  ;; Extract commit count from details
-                  commit-count (get-in push-event [:details :commits] 0)
-                  ;; Parse the date for the link
-                  created-at (parse-date (get push-event :created_at))
-                  date-str (.format (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd") created-at)]
-              ;; Generate the markdown line with proper commit count
+            (let [push-event (first push-contribs)
+                  commit-count (get-in push-event [:details :commits] 0)]
               (swap! content str "- 🔨 Push to [" repo-name "](https://github.com/" repo-name "): " commit-count " commit(s)\n")
-              ;; Generate link to commits by this user on this date
               (swap! content str "  - [See commits](https://github.com/" repo-name "/commits?author=" (:github-username config)
-                     "&since=" date-str "T00:00:00Z&until=" date-str "T23:59:59Z)\n")))
-
-          ;; Process other event types individually
-          (doseq [contrib other-events]
-            (let [event-type (:type contrib)
-                  repo-name (:repo contrib)]
-              ;; Use case to handle different event types, excluding PushEvent which is handled above
-              (case event-type
-                "PullRequestEvent"
-                (let [action (get-in contrib [:details :action])
-                      title (get-in contrib [:details :title])
-                      url (get-in contrib [:details :url])]
-                  (case action
-                    "opened" (swap! content str "- 🔀 Opened PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
-                    "closed" (swap! content str "- ✅ Closed PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
-                    (swap! content str "- 🔀 " (str/capitalize action) " PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")))
-
-                "IssuesEvent"
-                (let [action (get-in contrib [:details :action])
-                      title (get-in contrib [:details :title])
-                      url (get-in contrib [:details :url])]
-                  (case action
-                    "opened" (swap! content str "- 🐛 Opened issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
-                    "closed" (swap! content str "- ✅ Closed issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
-                    (swap! content str "- 🐛 " (str/capitalize action) " issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")))
-
-                "IssueCommentEvent"
-                (let [title (get-in contrib [:details :title])
-                      url (get-in contrib [:details :url])]
-                  (swap! content str "- 💬 Commented on issue in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n"))
-
-                "CreateEvent"
-                (swap! content str "- 🏗️ Created repository or branch in [" repo-name "](https://github.com/" repo-name ")\n")
-
-                "ForkEvent"
-                (swap! content str "- 🍴 Forked [" repo-name "](https://github.com/" repo-name ")\n")
-
-                "WatchEvent"
-                (swap! content str "- ⭐ Starred [" repo-name "](https://github.com/" repo-name ")\n")
-
-                ;; Default case for any other unhandled event types (ensure not PushEvent)
-                (when (not= event-type "PushEvent")
-                  (swap! content str "- " event-type " in [" repo-name "](https://github.com/" repo-name ")\n"))))))
-        (swap! content str "\n"))) ;; Add newline after each day's entries
+                     "&since=" first-day "T00:00:00Z&until=" last-day "T23:59:59Z)\n"))))
+        (swap! content str "\n")))
 
     @content))
 
