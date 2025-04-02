@@ -9,20 +9,27 @@
 (def blog-dir "content/blog")
 (def outbox-file "static/outbox")
 
+(defn bytes-to-hex
+  "Convert byte array to hex string"
+  [bytes]
+  (str/join (map #(format "%02x" %) bytes)))
+
 (defn generate-hash
   "Generate a hash for the content."
-  [content]
-  (let [process (shell {:out :string} "echo" content "|" "md5sum" "|" "cut" "-d" " " "-f1")]
-    (str/trim (:out process))))
+  [title date]
+  (let [content (str title date)
+        md (java.security.MessageDigest/getInstance "MD5")
+        bytes (.getBytes content "UTF-8")]
+    (bytes-to-hex (.digest md bytes))))
 
 (defn format-date
   "Format date to ISO 8601 format."
   [date-str]
   (try
-    (let [date (java.time.LocalDate/parse date-str)]
+    (let [date (java.time.LocalDate/parse (str/replace date-str #"\"" ""))]
       (str (.format date (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd")) "T00:00:00+00:00"))
     (catch Exception _
-      nil)))
+      (str (.format (java.time.LocalDate/now) (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd")) "T00:00:00+00:00"))))
 
 (defn extract-frontmatter
   "Extract frontmatter from markdown file."
@@ -34,7 +41,11 @@
             content (nth parts 2)
             metadata (reduce (fn [acc line]
                                (if-let [[_ key value] (re-matches #"^([^:]+):\s*(.+)$" line)]
-                                 (assoc acc (keyword (str/trim key)) (str/trim value))
+                                 (let [key (keyword (str/trim key))
+                                       value (str/trim value)]
+                                   (if (= key :tags)
+                                     (assoc acc key (read-string value))
+                                     (assoc acc key value)))
                                  acc))
                              {}
                              (str/split-lines frontmatter))]
@@ -42,41 +53,77 @@
          :content content})
       {:metadata {} :content content})))
 
+(defn get-slug
+  "Get slug from post metadata, using url if slug is not present"
+  [metadata]
+  (let [url (get metadata :url "")
+        clean-url (if (str/starts-with? url "/")
+                    (subs url 1)
+                    url)
+        clean-url (str/replace clean-url #"\"" "")
+        clean-url (str/replace clean-url #"/+" "/")]
+    clean-url))
+
+(defn clean-markdown
+  "Clean markdown content by removing markdown syntax"
+  [content]
+  (-> content
+      (str/replace #"!\[([^\]]+)\]\([^\)]+\)" "") ; Remove images
+      (str/replace #"\[([^\]]+)\]\([^\)]+\)" "$1") ; Replace links with text
+      (str/replace #"\*\*([^\*]+)\*\*" "$1") ; Remove bold
+      (str/replace #"\*([^\*]+)\*" "$1") ; Remove italic
+      (str/replace #"#+ (.+)" "$1") ; Remove headers
+      (str/replace #"`([^`]+)`" "$1") ; Remove code
+      (str/replace #"\"" "") ; Remove quotes
+      (str/replace #"^\s*!\s*" "") ; Remove leftover image markers
+      (str/trim)))
+
+(defn fix-url
+  "Fix URL by removing double slashes except after protocol"
+  [url]
+  (str/replace url #"(?<!:)/+" "/"))
+
 (defn create-activity
   "Create an ActivityPub activity for a blog post."
   [post base-url]
-  (let [post-hash (generate-hash (:content post))
-        post-url (str base-url "/" (get-in post [:metadata :slug] ""))
-        title (get-in post [:metadata :title] "")
-        content-lines (str/split-lines (:content post))
-        first-paragraph (first (filter #(not (str/blank? %)) content-lines))
+  (let [title (get-in post [:metadata :title] "")
+        date (get-in post [:metadata :date] "")
+        tags (get-in post [:metadata :tags] [])
+        post-hash (generate-hash title date)
+        slug (get-slug (:metadata post))
+        post-url (fix-url (str base-url "/" slug))
+        published-date (format-date date)
 
-        ; Create HTML content
-        html-content (str "<p>" title "</p>"
-                          (when first-paragraph
-                            (str "<p>" first-paragraph "</p>"))
-                          "<p>Full article by <a href=\"" base-url "/users/hey\" class=\"u-url mention\">@<span>hey</span></a>: "
-                          "<a href='" post-url "'>" post-url "</a></p><p></p>")]
+        ; Create HTML content with hashtags
+        hashtags (when (not (empty? tags))
+                   (->> tags
+                        (map #(str/replace % #"\"" ""))
+                        (map #(str "#" (str/replace % #"\s+" "")))
+                        (str/join " ")))
+        html-content (str "<p>" (clean-markdown title) "</p>"
+                          (when hashtags
+                            (str "<p>" hashtags "</p>"))
+                          "<p><a href='" post-url "'>" post-url "</a></p>")]
 
     {"@context" "https://www.w3.org/ns/activitystreams"
      "id" (str "/socialweb/notes/" post-hash "/create")
      "type" "Create"
-     "actor" (str base-url "/users/hey")
+     "actor" (fix-url (str base-url "/users/hey"))
      "to" ["https://www.w3.org/ns/activitystreams#Public"]
      "cc" []
-     "published" (format-date (get-in post [:metadata :date]))
+     "published" published-date
      "object" {"@context" "https://www.w3.org/ns/activitystreams"
                "id" (str "/socialweb/notes/" post-hash)
                "type" "Note"
                "hash" post-hash
                "content" html-content
                "url" post-url
-               "attributedTo" (str base-url "/users/hey")
+               "attributedTo" (fix-url (str base-url "/users/hey"))
                "to" ["https://www.w3.org/ns/activitystreams#Public"]
                "cc" []
-               "published" (format-date (get-in post [:metadata :date]))
+               "published" published-date
                "tag" [{"Type" "Mention"
-                       "Href" (str base-url "/users/hey")
+                       "Href" (fix-url (str base-url "/users/hey"))
                        "Name" "@hey@avelino.run"}]
                "replies" {"id" (str "/socialweb/replies/" post-hash)
                           "type" "Collection"
@@ -95,7 +142,9 @@
         posts (->> files
                    (map (fn [file]
                           (let [post (extract-frontmatter (str file))]
-                            (when (get-in post [:metadata :date])
+                            (when (and (get-in post [:metadata :date])
+                                       (get-in post [:metadata :title])
+                                       (get-in post [:metadata :url]))
                               post))))
                    (filter some?)
                    (sort-by #(get-in % [:metadata :date]) #(compare %2 %1)))
