@@ -76,26 +76,21 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "projects"
-url = "/projects"
+name = "all posts"
+url = "/blog"
 weight = 2
 
 [[menu.main]]
-name = "all posts"
-url = "/blog"
-weight = 3
-
-[[menu.main]]
-name = "contribuitions"
+name = "foss"
 url = "/foss"
-weight = 4
+weight = 3
 
 [[menu.main]]
 name = "notes"
 url = "http://notes.avelino.run/"
-weight = 5
+weight = 4
 
 [[menu.main]]
 name = "about"
 url = "/about"
-weight = 6
+weight = 5
