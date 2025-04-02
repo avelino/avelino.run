@@ -100,10 +100,16 @@
                         (map #(str/replace % #"\"" ""))
                         (map #(str "#" (str/replace % #"\s+" "")))
                         (str/join " ")))
-        html-content (str "<p>" (clean-markdown title) "</p>"
-                          (when hashtags
-                            (str "<p>" hashtags "</p>"))
-                          "<p><a href='" post-url "'>" post-url "</a></p>")]
+        html-content (if (some #{"quote"} tags)
+          (str "<p><strong>" (clean-markdown title) "</strong></p>"
+               "<p>" (clean-markdown (:content post)) "</p>"
+               (when hashtags
+                 (str "<p>" hashtags "</p>"))
+               "<p><a href='" post-url "'>" post-url "</a></p>")
+          (str "<p>" (clean-markdown title) "</p>"
+               (when hashtags
+                 (str "<p>" hashtags "</p>"))
+               "<p><a href='" post-url "'>" post-url "</a></p>"))]
 
     {"@context" "https://www.w3.org/ns/activitystreams"
      "id" (str "/socialweb/notes/" post-hash "/create")
