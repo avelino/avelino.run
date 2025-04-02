@@ -17,13 +17,13 @@ We redesigned the site’s color palette with one goal in mind: **to make your r
 
 Studies in interface design and cognitive neuroscience show that **pure white backgrounds and high-contrast elements** can cause eye strain during extended reading sessions. A study published in the *International Journal of Human-Computer Studies* points out that soft, lightly tinted backgrounds can reduce visual stress and help readers stay focused for longer.
 
-So we replaced the pure white background with **#FAF3FA**, a soft lavender tone that keeps the clarity of white while being easier on the eyes.
+So we replaced the pure white background with `#FAF9F6`, a soft lavender tone that keeps the clarity of white while being easier on the eyes.
 
 ## 🎨 The New Color Palette
 
 Our focus was to create a harmonious, accessible experience with a modern and welcoming vibe. Here's the palette:
 
-- **Background:** `#FAF3FA` – soft lavender that diffuses light and reduces glare.
+- **Background:** `#FAF9F6` – soft lavender that diffuses light and reduces glare.
 - **Main Text:** `#4A4A4A` – dark gray for clean, high-contrast readability without harshness.
 - **Links and Highlights:** `#E6E6FA` – a soft lavender accent that complements the background.
 - **Buttons/CTAs:** `#BA55D3` – a vibrant purple for elements that need to stand out.
