@@ -1,0 +1,21 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams",
+        "https://www.w3.org/ns/activitystreams#Profile"
+    ],
+    "type": "Person",
+    "id": "https://avelino.run/users/hey",
+    "name": "Thiago Avelino",
+    "preferredUsername": "hey",
+    "summary": "Software Engineer, CTO at Buser",
+    "inbox": "https://avelino.run/inbox",
+    "outbox": "https://avelino.run/outbox",
+    "followers": "https://avelino.run/followers",
+    "following": "https://avelino.run/following",
+    "url": "https://avelino.run",
+    "icon": {
+        "type": "Image",
+        "mediaType": "image/jpeg",
+        "url": "https://avelino.run/img/avatar.jpg"
+    }
+}
