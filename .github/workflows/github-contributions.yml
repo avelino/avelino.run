@@ -6,7 +6,6 @@ on:
     - cron: "0 */3 * * *"
   workflow_dispatch: # Permite execução manual
 
-# Permissões necessárias para o workflow
 permissions:
   contents: write
   pages: write

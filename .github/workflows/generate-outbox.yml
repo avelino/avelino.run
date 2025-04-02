@@ -8,6 +8,11 @@ on:
       - "scripts/generate_outbox.clj"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -27,5 +32,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add static/outbox
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update outbox" && git push)
+          git add static/outbox static/content
+          git commit -m "Update outbox for $(date +'%Y-%m')" || echo "No changes to commit"
+          git push
