@@ -1,14 +1,16 @@
 :root {
-  --maincolor: #8f2b9b !important;
-  --bordercl: #8f2b9b !important;
+  --maincolor: #BA55D3 !important;
+  --bordercl: #BA55D3 !important;
   --callouctcolor: dodgerblue !important;
-  --hovercolor: #8f2b9b !important;
-  --darkMaincolor: #8f2b9b !important;
-  --bgcolor: #fffff8;
+  --hovercolor: #BA55D3 !important;
+  --darkMaincolor: #BA55D3 !important;
+  --bgcolor: #BA55D3;
+  --text: #4A4A4A;
+  --border: #E6E6FA;
 }
 
 html {
-  color: #232333;
+  color: var(--text);
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
   line-height: 1.6em;
@@ -22,9 +24,9 @@ a:hover {
 
 /* list box */
 .list-item {
-  border: 1px solid var(--bordercl);
+  border: 1px solid var(--border);
   border-radius: 0.2em;
-  box-shadow: 5px 5px 7px #f1e9fd;
+  box-shadow: 5px 5px 7px #E6E6FA;
   padding: 0 1.5em 1.5em 1.5em;
   margin: 2em 0 2em 0;
 }
