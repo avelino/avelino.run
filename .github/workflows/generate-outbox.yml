@@ -21,7 +21,7 @@ jobs:
 
       - name: Generate outbox
         run: |
-          bb --config '{:deps {cheshire/cheshire {:mvn/version "5.12.0"}}}' scripts/generate_outbox.clj
+          bb --config '{:deps {cheshire/cheshire {:mvn/version "5.12.0"}}}' .github/scripts/generate_outbox.clj
 
       - name: Commit changes
         run: |
