@@ -7,6 +7,31 @@ HUGO_VERSION = "v0.139.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
+[[headers]]
+  for = "/users/hey"
+  [headers.values]
+    Content-Type = "application/activity+json"
+
+[[headers]]
+  for = "/outbox"
+  [headers.values]
+    Content-Type = "application/activity+json"
+
+[[headers]]
+  for = "/followers"
+  [headers.values]
+    Content-Type = "application/activity+json"
+
+[[headers]]
+  for = "/following"
+  [headers.values]
+    Content-Type = "application/activity+json"
+
+[[headers]]
+  for = "/.well-known/webfinger"
+  [headers.values]
+    Content-Type = "application/jrd+json"
+
 [[redirects]]
 from = "/lifestyle/*"
 to = "/quote/lifestyle/:splat"

@@ -1,0 +1,14 @@
+/users/hey
+  Content-Type: application/activity+json
+
+/outbox
+  Content-Type: application/activity+json
+
+/followers
+  Content-Type: application/activity+json
+
+/following
+  Content-Type: application/activity+json
+
+/.well-known/webfinger
+  Content-Type: application/jrd+json

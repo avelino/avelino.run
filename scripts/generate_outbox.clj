@@ -1,7 +1,6 @@
 #!/usr/bin/env bb
 
 (require '[clojure.string :as str]
-         '[clojure.java.io :as io]
          '[babashka.fs :as fs]
          '[cheshire.core :as json]
          '[babashka.process :refer [shell]])
@@ -10,21 +9,24 @@
 (def blog-dir "content/blog")
 (def outbox-file "static/outbox")
 
-(defn generate-hash [content]
+(defn generate-hash
   "Generate a hash for the content."
+  [content]
   (let [process (shell {:out :string} "echo" content "|" "md5sum" "|" "cut" "-d" " " "-f1")]
     (str/trim (:out process))))
 
-(defn format-date [date-str]
+(defn format-date
   "Format date to ISO 8601 format."
+  [date-str]
   (try
     (let [date (java.time.LocalDate/parse date-str)]
       (str (.format date (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd")) "T00:00:00+00:00"))
     (catch Exception _
       nil)))
 
-(defn extract-frontmatter [file-path]
+(defn extract-frontmatter
   "Extract frontmatter from markdown file."
+  [file-path]
   (let [content (slurp file-path)
         parts (str/split content #"(?m)^---\s*$" 3)]
     (if (>= (count parts) 3)
@@ -40,8 +42,9 @@
          :content content})
       {:metadata {} :content content})))
 
-(defn create-activity [post base-url]
+(defn create-activity
   "Create an ActivityPub activity for a blog post."
+  [post base-url]
   (let [post-hash (generate-hash (:content post))
         post-url (str base-url "/" (get-in post [:metadata :slug] ""))
         title (get-in post [:metadata :title] "")
@@ -52,13 +55,13 @@
         html-content (str "<p>" title "</p>"
                           (when first-paragraph
                             (str "<p>" first-paragraph "</p>"))
-                          "<p>Full article by <a href=\"" base-url "/users/hey\\\" class=\"u-url mention\">@<span>hey\\</span></a>: "
-                          "<a href='" post-url "/'>" post-url "/</a></p><p></p>")]
+                          "<p>Full article by <a href=\"" base-url "/users/hey\" class=\"u-url mention\">@<span>hey</span></a>: "
+                          "<a href='" post-url "'>" post-url "</a></p><p></p>")]
 
     {"@context" "https://www.w3.org/ns/activitystreams"
      "id" (str "/socialweb/notes/" post-hash "/create")
      "type" "Create"
-     "actor" (str base-url "/\\@hey")
+     "actor" (str base-url "/users/hey")
      "to" ["https://www.w3.org/ns/activitystreams#Public"]
      "cc" []
      "published" (format-date (get-in post [:metadata :date]))
@@ -68,13 +71,13 @@
                "hash" post-hash
                "content" html-content
                "url" post-url
-               "attributedTo" (str base-url "/\\@hey")
+               "attributedTo" (str base-url "/users/hey")
                "to" ["https://www.w3.org/ns/activitystreams#Public"]
                "cc" []
                "published" (format-date (get-in post [:metadata :date]))
                "tag" [{"Type" "Mention"
-                       "Href" (str base-url "/users/hey\\")
-                       "Name" "\\@hey\\@avelino.run"}]
+                       "Href" (str base-url "/users/hey")
+                       "Name" "@hey@avelino.run"}]
                "replies" {"id" (str "/socialweb/replies/" post-hash)
                           "type" "Collection"
                           "first" {"type" "CollectionPage"
@@ -82,8 +85,9 @@
                                    "partOf" (str "/socialweb/replies/" post-hash)
                                    "items" []}}}}))
 
-(defn main []
+(defn main
   "Main function to generate outbox."
+  []
   (println "Generating outbox...")
 
   ; Get all markdown files
