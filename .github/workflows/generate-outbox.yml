@@ -3,7 +3,7 @@ name: Generate Outbox
 on:
   push:
     paths:
-      - "content/blog/**"
+      - "content/**"
       - ".github/workflows/generate-outbox.yml"
       - "scripts/generate_outbox.clj"
   workflow_dispatch:
