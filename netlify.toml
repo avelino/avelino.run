@@ -1,6 +1,14 @@
 [build]
 publish = "public"
 command = "git submodule update -f --init && npm install && npm run build:functions && hugo"
+image = "noble" # Ubuntu 24.04
+
+# Configuration to keep logs private
+[build.logSubdomainSuffix]
+disable = true
+
+[build.environment]
+NODE_VERSION = "22"
 
 [context.production.environment]
 HUGO_VERSION = "v0.139.3"
@@ -46,7 +54,7 @@ status = 301
 force = true
 query = { path = ":path" }
 
-# Funções de redirecionamento para endpoints ActivityPub
+# ActivityPub endpoints redirect functions
 [[redirects]]
   from = "/.well-known/webfinger"
   to = "/.well-known/webfinger"
@@ -83,13 +91,13 @@ query = { path = ":path" }
   status = 200
   force = true
 
-# Rota de fallback para redirecionamento inteligente
+# Fallback route for intelligent redirection
 [[redirects]]
   from = "/activitypub/*"
   to = "/.netlify/functions/activitypub"
   status = 200
   force = true
 
-# Configuração do diretório de funções
+# Functions directory configuration
 [functions]
   directory = "netlify/functions"
