@@ -30,39 +30,106 @@
         bytes (.getBytes content "UTF-8")]
     (bytes-to-hex (.digest md bytes))))
 
-(defn format-date
-  "Format date to ISO 8601 format."
+(defn parse-date
+  "Parse date string to java.time.LocalDate"
   [date-str]
-  (try
-    (let [date (java.time.LocalDate/parse (str/replace date-str #"\"" ""))]
-      (str (.format date (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd")) "T00:00:00+00:00"))
-    (catch Exception _
-      (str (.format (java.time.LocalDate/now) (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd")) "T00:00:00+00:00"))))
+  (java.time.LocalDate/parse (str/replace date-str #"\"" "")))
+
+(defn format-date
+  "Format date to ISO format, handling various formats and ensuring not future date"
+  [date-str]
+  (let [current-date (java.time.LocalDate/now)
+        current-date-str (.toString current-date)
+        current-date-iso (str current-date-str "T00:00:00+00:00")]
+    (try
+      (let [; Clean the date string, handling various formats
+            clean-date (cond
+                         ; Handle empty date
+                         (str/blank? date-str)
+                         current-date-str
+
+                         ; Handle TOML format like: date = "2018-05-16"
+                         (re-find #"=\s*\"([^\"]+)\"" (str date-str))
+                         (second (re-find #"=\s*\"([^\"]+)\"" (str date-str)))
+
+                         ; Handle quoted string like: "2018-05-16"
+                         (re-find #"^\"([^\"]+)\"$" (str date-str))
+                         (second (re-find #"^\"([^\"]+)\"$" (str date-str)))
+
+                         ; Handle date with time like: 2020-05-09T06:00:00Z
+                         (re-find #"^(\d{4}-\d{2}-\d{2})T" (str date-str))
+                         (second (re-find #"^(\d{4}-\d{2}-\d{2})T" (str date-str)))
+
+                         ; Default: use as is if it looks like a date
+                         (re-find #"^\d{4}-\d{2}-\d{2}$" (str date-str))
+                         (str date-str)
+
+                         ; Fallback to current date
+                         :else current-date-str)]
+
+            ; Check if date is in the future
+        (try
+          (let [parsed-date (java.time.LocalDate/parse clean-date)]
+            (if (.isAfter parsed-date current-date)
+              current-date-iso
+              (str clean-date "T00:00:00+00:00")))
+          (catch Exception e
+            (println "Warning: Cannot parse date:" date-str "- using current date")
+            current-date-iso)))
+      (catch Exception e
+        (println "Error processing date:" date-str "- using current date")
+        current-date-iso))))
 
 (defn extract-frontmatter
-  "Extract frontmatter from markdown file."
+  "Extract frontmatter from markdown file"
   [file-path]
   (let [content (slurp file-path)
-        ; Try both --- and +++ frontmatter formats
-        parts-dash (str/split content #"(?m)^---\s*$" 3)
-        parts-plus (str/split content #"(?m)^\+\+\+\s*$" 3)
-        parts (if (>= (count parts-dash) 3) parts-dash parts-plus)]
-    (if (>= (count parts) 3)
-      (let [frontmatter (second parts)
-            content (nth parts 2)
-            metadata (reduce (fn [acc line]
-                               (if-let [[_ key value] (re-matches #"^([^:]+):\s*(.+)$" line)]
-                                 (let [key (keyword (str/trim key))
-                                       value (str/trim value)]
-                                   (if (= key :tags)
-                                     (assoc acc key (read-string value))
-                                     (assoc acc key value)))
-                                 acc))
-                             {}
-                             (str/split-lines frontmatter))]
+        ; Try both TOML (+++) and YAML (---) frontmatter formats
+        pattern-toml (re-pattern "(?s)^\\+\\+\\+\\s*(.+?)\\+\\+\\+\\s*(.*)$")
+        pattern-yaml (re-pattern "(?s)^---\\s*(.+?)---\\s*(.*)$")
+        matches-toml (re-find pattern-toml content)
+        matches-yaml (re-find pattern-yaml content)
+        matches (or matches-toml matches-yaml)]
+    (if matches
+      (let [frontmatter (str/trim (nth matches 1))
+            content (str/trim (nth matches 2))
+            ; Check if it's TOML format (with =) or YAML format (with :)
+            is-toml (str/includes? frontmatter "=")
+            ; Process according to format
+            metadata (if is-toml
+                       ; Process TOML format (with =)
+                       (reduce (fn [acc line]
+                                 (let [parts (str/split line #"=")]
+                                   (if (= (count parts) 2)
+                                     (let [key (str/trim (first parts))
+                                           value (str/trim (second parts))]
+                                       ; Extract value from quotes if present
+                                       (assoc acc (keyword key)
+                                              (if (re-find #"^\".*\"$" value)
+                                                (str/replace value #"^\"(.*)\"$" "$1")
+                                                value)))
+                                     acc)))
+                               {}
+                               (str/split frontmatter #"\n"))
+                       ; Process YAML format (with :)
+                       (reduce (fn [acc line]
+                                 (let [parts (str/split line #":")]
+                                   (if (>= (count parts) 2)
+                                     (let [key (str/trim (first parts))
+                                           ; Join remaining parts in case value contains colons
+                                           value (str/trim (str/join ":" (rest parts)))]
+                                       ; Extract value from quotes if present
+                                       (assoc acc (keyword key)
+                                              (if (re-find #"^\".*\"$" value)
+                                                (str/replace value #"^\"(.*)\"$" "$1")
+                                                value)))
+                                     acc)))
+                               {}
+                               (str/split frontmatter #"\n")))]
         {:metadata metadata
          :content content})
-      {:metadata {} :content content})))
+      {:metadata {}
+       :content content})))
 
 (defn get-slug
   "Get slug from post metadata, using url if slug is not present"
@@ -101,16 +168,17 @@
         title (get-in post [:metadata :title] "")
         date (get-in post [:metadata :date] "")
         tags (get-in post [:metadata :tags] [])
+        tags-list (if (coll? tags) tags [])
         slug (get-slug (:metadata post))
         post-url (fix-url (str base-url "/" slug))
         published-date (format-date date)
         content (clean-markdown (:content post))
-        is-quote (or (some #{"quote"} tags)
+        is-quote (or (and (coll? tags-list) (some #{"quote"} tags-list))
                      (str/includes? (str file-path) "quote/"))]
 
     {:title title
      :date published-date
-     :tags tags
+     :tags tags-list
      :url post-url
      :content content
      :type (if is-quote "quote" "blog")
@@ -124,7 +192,8 @@
         tags (:tags post)
         post-hash (generate-hash title date)
         post-url (:url post)
-        published-date date
+        ; Format the date for ActivityPub
+        formatted-date date
         post-type (:type post)
 
         ; Create HTML content with hashtags
@@ -150,7 +219,7 @@
      "actor" (fix-url (str base-url "/users/hey"))
      "to" ["https://www.w3.org/ns/activitystreams#Public"]
      "cc" []
-     "published" published-date
+     "published" formatted-date
      "object" {"@context" "https://www.w3.org/ns/activitystreams"
                "id" (str "/socialweb/notes/" post-hash)
                "type" "Note"
@@ -160,10 +229,10 @@
                "attributedTo" (fix-url (str base-url "/users/hey"))
                "to" ["https://www.w3.org/ns/activitystreams#Public"]
                "cc" []
-               "published" published-date
-               "tag" [{"Type" "Mention"
-                       "Href" (fix-url (str base-url "/users/hey"))
-                       "Name" "@hey@avelino.run"}]
+               "published" formatted-date
+               "tag" [{"type" "Mention"
+                       "href" (fix-url (str base-url "/users/hey"))
+                       "name" "@hey@avelino.run"}]
                "replies" {"id" (str "/socialweb/replies/" post-hash)
                           "type" "Collection"
                           "first" {"type" "CollectionPage"

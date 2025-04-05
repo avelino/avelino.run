@@ -1,0 +1,9 @@
+{
+  "title" : "We are more than 75,000 people (stars 🌟) — awesome-go",
+  "date" : "2022-02-03T00:00:00+00:00",
+  "tags" : [ ],
+  "url" : "https://avelino.run/we-are-more-than-75000-people-awesome-go",
+  "content" : "[](http://github.com/avelino/awesome-go)\n\nI've been meaning to write this blogpost since when we reached 10,000 stars 🌟 (I never imagined it would reach that number of people), but every day I reached more (and more) people and always thought the text would get outdated.\n\n> Today is the day to thank everyone who uses, contributes and follows awesome-go, it's time to celebrate 🎉🙌 — regardless of the number we reach and the people we help in some way.\n\nAwesome-go was born on 2014-07-06 inspired by the _awesome-python_ project, after the first commit containing _3 categories_ I messaged some friends who used Go at work to help list the libraries they used in their day-to-day work.\n\n\n\nI never imagined that a _“no code”_ project would receive so many contributions (we are more than 2000 contributors).\n\nAs the number of pull requests grew, reviewing the contributions became impossible, and we had to invest time to automate our review work as much as possible by bringing in an automated process via CI to optimize the time of all maintainers of the project (now using code), running on each open pull request.\n\nThanks to 🙏\n\nI’m grateful to our community for all the support, I am excited by the number of people we reach and somehow help them find the best library for their project 💜.\n\nHere is my eternal gratitude to all the people who send in their libraries and who help me keep awesome-go running (the maintainers, _you are amazing_).\n\n👉 Help us reach 100k! 🌟 http://github.com/avelino/awesome-go",
+  "type" : "blog",
+  "file-path" : "content/blog/2022-02-03-we-are-more-than-75000-people-awesome-go.md"
+}

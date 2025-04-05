@@ -1,9 +1,9 @@
 {
-  "title" : "",
-  "date" : "2025-04-02T00:00:00+00:00",
+  "title" : "TDA Fila com Python",
+  "date" : "2010-07-23T00:00:00+00:00",
   "tags" : [ ],
   "url" : "https://avelino.run/",
-  "content" : "> Mais uma prova, seguido de mais um textão.\n\nO que dizer dessa prova dura onde a subida castigou (23 de maio)? Não saiu como eu esperava, mas fui minha melhor versão, passei o tempo todo com tosse por causa do resfriado.\n\nO que me chama atenção em prova de longa distância é o psicológico onde precisamos  lidar com a adversidade, manter a resiliência e os pensamentos no lugar... Sem sobra de dúvida nessa prova o meu cérebro trabalhou muito.\n\nQue venha as próximas!",
-  "type" : "quote",
-  "file-path" : "content/quote/lifestyle/2019-07-28-spcity-maratona-corrida-de-rua.md"
+  "content" : "O foco este post é levar você aprender computação com Python.\nO TDA Fila é definido pelas seguintes operações:\n\n__init__: Inicializar uma nova fila vazia\ninsert: Adicionar um novo item à fila\nremove: Remover e retornar um item da fila. O item retornado é o que foi adicionado primeiro.\nisEmpty: Checar se a fila está vazia\n\nSegue abaixo um código para explica melhor a implementação TAD Fila.\n\n``python\nclass Queue:\n\tdef __init__(self):\n\t\tself.length = 0\n\t\tself.head = None\n\n\tdef isEmpty(self):\n\t\treturn (self.length == 0)\n\n\tdef insert(self, cargo):\n\t\tnode = Node(cargo)\n\t\tnode.next = None\n\t\tif self.head == None:\n\t\t\tif list is empty the new node goes first\n\t\t\tself.head = node\n\t\telse:\n\t\t\tfind the last node in the list\n\t\t\tlast = self.head\n\t\t\twhile last.next: last = last.next\n\t\t\tappend the new node\n\t\t\tlast.next = node\n\t\t\tself.length = self.length + 1\n\n\tdef remove(self):\n\t\tcargo = self.head.cargo\n\t\tself.head = self.head.next\n\t\tself.length = self.length - 1\n\t\treturn cargo\n`\n\nExistem duas invariantes para um objeto Fila bem formado: o atributo length deve ser o número de nós na fila.\n\n`python\nfrom queue import Queue\nstart = new Queue()\nstart.insert(50)\nstart.insert(99)\nstart.insert(10)\nwhile not start.isEmpty(): print start.remove()\n``\n\n> 50\n> 99\n> 10",
+  "type" : "blog",
+  "file-path" : "content/blog/2010-07-23-tda-fila-com-python.md"
 }

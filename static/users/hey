@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://www.w3.org/ns/activitystreams",
-        "https://www.w3.org/ns/activitystreams#Profile"
+        "https://w3id.org/security/v1"
     ],
     "type": "Person",
     "id": "https://avelino.run/users/hey",
@@ -17,5 +17,10 @@
         "type": "Image",
         "mediaType": "image/jpeg",
         "url": "https://avelino.run/about/2022-06-avelino.jpeg"
+    },
+    "publicKey": {
+        "id": "https://avelino.run/users/hey#main-key",
+        "owner": "https://avelino.run/users/hey",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuKBbiEImcvA0y90EUXcz\nanwAV0q4gWU4hCmoz6/bOTlZlSZJ9I9mh8uQCCdCCULk5t/+Oi6rdnxK5YN4+O7d\n+g1jorcybEz1K95+CqkELT6RwERGOz72DZ+cVmx4wu2bWCWl6sbGgcQuTIa7weJf\nlvlGQ8hHIgBx/EdCiBLEwubzwm7i3kec6jL5f16FNP6d4nmJq4fe8AAC5LDbLby9\nsAqEHaeBG7nb61mC5PSsOw4jEI+K9yH4ihn/AsDT+nG+ElV0KToBiL7oH6C+3ij9\nKDbidl3df13BoAcmhqAlsl4eMSTsf3mtFrJhXXRZ4cPuCLtf7WvwNnq//fJLanxu\nvQIDAQAB\n-----END PUBLIC KEY-----"
     }
 }

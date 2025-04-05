@@ -1,0 +1,9 @@
+{
+  "title" : "Palestra: Uma carreira profissional baseada em Open Source - Engenharia de Software",
+  "date" : "2022-06-17T00:00:00+00:00",
+  "tags" : [ ],
+  "url" : "https://avelino.run/palestra-uma-carreira-profissional-baseada-em-open-source-engenharia-de-software",
+  "content" : "Nessa palestra falo como faço para guiar minha carreira profissional contribuindo com projetos Open Source — já contribuiu com o core da linguagem Go, MongoDB, Riak, Django, ReactiveX e muitos outros projetos.\n\nA quem acredite que viver financeiramente de Open Source não é possível, mostro como fiz até hoje que doação não é a única opção, mas infelizmente é a primeira opção que vem a mente na maioria das pessoas.\n\nEm todas as empresas que liderei usei open source como estrategia de tecnologia para atração e retenção de profissionais, comunicação distribuída (poderia falar assíncrona, mas ainda não consegui fazer isso funcionar de forma performática), forma de compartilhar conhecimento como o time, developer experience (_DevX_) e etc.\n\nVídeo\n\n{{< youtube PTuvCobVIwY >}}\n\nSlide\n\n{{< speakerdeck 9e40e0a2c7664449a50c15b7ea3a2386 >}}",
+  "type" : "blog",
+  "file-path" : "content/blog/2022-06-17-palestra-uma-carreira-profissional-baseada-em-open-source-engenharia-de-software.md"
+}
