@@ -1,6 +1,6 @@
 :root {
   --maincolor: #BA55D3 !important;
-  --bordercl: #BA55D3 !important;
+  --bordercl: #E6E6FA !important;
   --callouctcolor: dodgerblue !important;
   --hovercolor: #BA55D3 !important;
   --darkMaincolor: #BA55D3 !important;
@@ -38,4 +38,17 @@ a:hover {
   margin: 0;
   padding: 0.3em 0.8em;
   border-radius: 3rem;
+}
+.soc {
+  border-bottom: none;
+  padding: 12px;
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
+}
+.border {
+  margin-left: 12px;
+  margin-right: 12px;
+  border: 1px solid;
+  display: inline-block;
 }
