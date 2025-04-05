@@ -17,6 +17,10 @@ html {
   background: var(--bgcolor);
 }
 
+time {
+  color: var(--text);
+}
+
 a:hover {
   background-color: var(--hovercolor);
   color: var(--bgcolor) !important;
