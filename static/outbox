@@ -41,32 +41,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/2bf0956bed99b963ee945df6083e6c37/create",
+    "id" : "/socialweb/notes/0991e207bce4e6d668ad3eac464ceba9/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-04-05T00:00:00+00:00",
+    "published" : "2025-04-03T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "2bf0956bed99b963ee945df6083e6c37",
-      "id" : "/socialweb/notes/2bf0956bed99b963ee945df6083e6c37",
+      "hash" : "0991e207bce4e6d668ad3eac464ceba9",
+      "id" : "/socialweb/notes/0991e207bce4e6d668ad3eac464ceba9",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-04-05T00:00:00+00:00",
-      "content" : "<p><strong></strong></p><p>It's common at the beginning of a software engineering career to want to escape from certain technology stacks (for example JavaScript, Java, etc).\n\nAfter I understood that adding value is the delivery to the business, it made me not care about the stack I'm using.\n\nI enjoy programming and it's possible to write good software regardless of the stack.</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2025-04-03T00:00:00+00:00",
+      "content" : "<p><strong>Sometimes we try to escape from some technology, but it's no use!</strong></p><p>It's common at the beginning of a software engineering career to want to escape from certain technology stacks (for example JavaScript, Java, etc).\n\nAfter I understood that adding value is the delivery to the business, it made me not care about the stack I'm using.\n\nI enjoy programming and it's possible to write good software regardless of the stack.</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/2bf0956bed99b963ee945df6083e6c37",
+        "id" : "/socialweb/replies/0991e207bce4e6d668ad3eac464ceba9",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/2bf0956bed99b963ee945df6083e6c37?page=true",
-          "partOf" : "/socialweb/replies/2bf0956bed99b963ee945df6083e6c37",
+          "next" : "/socialweb/replies/0991e207bce4e6d668ad3eac464ceba9?page=true",
+          "partOf" : "/socialweb/replies/0991e207bce4e6d668ad3eac464ceba9",
           "items" : [ ]
         }
       },
@@ -1301,41 +1301,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2022-03-20T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "b37d4081f8bf52969bbd756f918c659d",
-      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2022-03-20T00:00:00+00:00",
-      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
-          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -1362,6 +1327,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
           "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2022-03-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "b37d4081f8bf52969bbd756f918c659d",
+      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2022-03-20T00:00:00+00:00",
+      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
+          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
           "items" : [ ]
         }
       },
@@ -5046,41 +5046,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2011-03-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "61cab533844433b130f88a9e9f51fe27",
-      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2011-03-28T00:00:00+00:00",
-      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
-          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5107,6 +5072,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
           "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2011-03-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "61cab533844433b130f88a9e9f51fe27",
+      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2011-03-28T00:00:00+00:00",
+      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
+          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
           "items" : [ ]
         }
       },
