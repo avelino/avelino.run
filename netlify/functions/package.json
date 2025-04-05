@@ -1,0 +1,9 @@
+{
+  "name": "avelino-run-activitypub-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for ActivityPub integration",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "crypto": "^1.0.1"
+  }
+}

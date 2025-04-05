@@ -1,0 +1,17 @@
+{
+  "name": "avelino-run-activitypub",
+  "version": "1.0.0",
+  "description": "ActivityPub integration for avelino.run",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "dev": "hugo server -D",
+    "build:functions": "cd netlify/functions && npm install"
+  },
+  "author": "Thiago Avelino",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "crypto": "^1.0.1"
+  }
+}

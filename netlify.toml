@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "git submodule update -f --init && hugo"
+command = "git submodule update -f --init && npm install && npm run build:functions && hugo"
 
 [context.production.environment]
 HUGO_VERSION = "v0.139.3"
@@ -45,3 +45,51 @@ to = "/quote/lifestyle/"
 status = 301
 force = true
 query = { path = ":path" }
+
+# Funções de redirecionamento para endpoints ActivityPub
+[[redirects]]
+  from = "/.well-known/webfinger"
+  to = "/.well-known/webfinger"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/users/hey"
+  to = "/users/hey"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/inbox"
+  to = "/.netlify/functions/inbox"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/outbox"
+  to = "/outbox"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/followers"
+  to = "/followers"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/following"
+  to = "/following"
+  status = 200
+  force = true
+
+# Rota de fallback para redirecionamento inteligente
+[[redirects]]
+  from = "/activitypub/*"
+  to = "/.netlify/functions/activitypub"
+  status = 200
+  force = true
+
+# Configuração do diretório de funções
+[functions]
+  directory = "netlify/functions"
