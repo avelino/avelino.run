@@ -55,6 +55,7 @@ author = "Thiago Avelino"
 mode="toggle" # color-mode → light,dark,toggle or auto
 useCDN=true # don't use CDNs for fonts and icons, instead serve them locally.
 subtitle = "I use open source to help people evolve, I take pleasure in seeing people evolve"
+description = "Software Developer, Open Source Enthusiast, Engineer, Writer, and Speaker focused on high-performance applications and cloud infrastructure - Thiago Avelino"
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["/css/custom.css"]
