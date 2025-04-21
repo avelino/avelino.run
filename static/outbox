@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 152,
+  "totalItems" : 153,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/bf24aef7e8d2848f396c888a0e0e0e56/create",
+    "id" : "/socialweb/notes/5b2386afde20fb875c12353895759241/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-04-05T00:00:00+00:00",
+    "published" : "2025-04-21T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "bf24aef7e8d2848f396c888a0e0e0e56",
-      "id" : "/socialweb/notes/bf24aef7e8d2848f396c888a0e0e0e56",
+      "hash" : "5b2386afde20fb875c12353895759241",
+      "id" : "/socialweb/notes/5b2386afde20fb875c12353895759241",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-04-05T00:00:00+00:00",
+      "published" : "2025-04-21T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/bf24aef7e8d2848f396c888a0e0e0e56",
+        "id" : "/socialweb/replies/5b2386afde20fb875c12353895759241",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/bf24aef7e8d2848f396c888a0e0e0e56?page=true",
-          "partOf" : "/socialweb/replies/bf24aef7e8d2848f396c888a0e0e0e56",
+          "next" : "/socialweb/replies/5b2386afde20fb875c12353895759241?page=true",
+          "partOf" : "/socialweb/replies/5b2386afde20fb875c12353895759241",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/fe366bd51a3ea099a55b08fe6467dc4e/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-04-21T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/the-power-of-two-days-neuroscience-behind-the-48-hour-rule-for-effective-feedback",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "fe366bd51a3ea099a55b08fe6467dc4e",
+      "id" : "/socialweb/notes/fe366bd51a3ea099a55b08fe6467dc4e",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-04-21T00:00:00+00:00",
+      "content" : "<p>The Power of Two Days: Neuroscience Behind the 48-Hour Rule for Effective Feedback</p><p><a href='https://avelino.run/the-power-of-two-days-neuroscience-behind-the-48-hour-rule-for-effective-feedback'>https://avelino.run/the-power-of-two-days-neuroscience-behind-the-48-hour-rule-for-effective-feedback</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/fe366bd51a3ea099a55b08fe6467dc4e",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/fe366bd51a3ea099a55b08fe6467dc4e?page=true",
+          "partOf" : "/socialweb/replies/fe366bd51a3ea099a55b08fe6467dc4e",
           "items" : [ ]
         }
       },
