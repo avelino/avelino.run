@@ -14,7 +14,6 @@ html {
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
   line-height: 1.6em;
-  background: var(--bgcolor);
 }
 
 time {
