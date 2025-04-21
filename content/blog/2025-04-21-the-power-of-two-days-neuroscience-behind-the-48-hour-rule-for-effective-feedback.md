@@ -1,8 +1,9 @@
 ---
 date: "2025-04-21"
+draft: false
 title: "The Power of Two Days: Neuroscience Behind the 48-Hour Rule for Effective Feedback"
 tags: ["constructive feedback" ,"neuroscience and leadership" ,"how to give feedback" ,"people management" ,"timing of feedback"]
-description: "Feedback given within 48 hours after an event is more effective, empathetic, and constructive. This article explores the neuroscience behind this optimal window, grounded in David Rock’s Your Brain at Work"
+description: "Feedback given within 48 hours after an event is more effective, empathetic, and constructive. This article explores the neuroscience behind this optimal window, grounded in David Rock's Your Brain at Work"
 url: "/the-power-of-two-days-neuroscience-behind-the-48-hour-rule-for-effective-feedback"
 img: "/blog/the-power-of-two-days-neuroscience-behind-the-48-hour-rule-for-effective-feedback.png"
 ---
@@ -46,13 +47,13 @@ This creates a space of **learning** rather than **defensiveness**.
 
 ## Neurophysiology of Emotional Regulation: Why Time Matters
 
-Rock introduces the concept of the **“refractory state”** — a period after emotional activation when:
+Rock introduces the concept of the **"refractory state"** — a period after emotional activation when:
 
 - People **cannot process new information** effectively;
 - Working memory is impaired;
 - Focus is on self-protection, not learning.
 
-> "_It’s futile to rationalize with someone in a refractory state. They may hear your words, but they’re not processing them._"
+> "_It's futile to rationalize with someone in a refractory state. They may hear your words, but they're not processing them._"
 > — David Rock
 
 **Waiting 48 hours** ensures that both leader and employee exit the refractory state, enabling a conversation grounded in awareness, cognition, and empathy.
@@ -88,6 +89,6 @@ The 48-hour window balances **recency** (preserving contextual memory) and **emo
 
 ## Conclusion
 
-The 48-hour rule for giving feedback is more than a best practice — it’s **applied neuroscience in leadership**. Instead of reacting and risking trust, leaders who respect this window elevate themselves as **intentional, conscious, and effective** communicators.
+The 48-hour rule for giving feedback is more than a best practice — it's **applied neuroscience in leadership**. Instead of reacting and risking trust, leaders who respect this window elevate themselves as **intentional, conscious, and effective** communicators.
 
-Great leaders don’t just correct — **they shape safer, sharper, and more self-aware brains.**
+Great leaders don't just correct — **they shape safer, sharper, and more self-aware brains.**

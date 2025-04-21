@@ -6,13 +6,15 @@ theme = "archie"
 googleAnalytics = "G-MHKZRCJN0C"
 disqusShortname = "avelino"
 copyright = "© Avelino"
+buildFuture = true
 
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate=4 # articles per page
+[pagination]
+pagerSize = 4 # articles per page
 
 ignoreLogs = ['err-youtube-remote']
 
@@ -21,8 +23,8 @@ plainIDAnchors = true
 hrefTargetBlank = true
 
 [outputs]
-home = ["HTML", "RSS", "ACTIVITY", "ACTIVITY_OUTBOX"]
-section = ["HTML", "RSS", "ACTIVITY", "ACTIVITY_OUTBOX"]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
 page = ["HTML"]
 
 [related]
@@ -59,6 +61,7 @@ description = "Software Developer, Open Source Enthusiast, Engineer, Writer, and
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
 customcss = ["/css/custom.css"]
+mainSections = ["blog", "foss", "quote"]
 
 # Social
 [[params.social]]
