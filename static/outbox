@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 153,
+  "totalItems" : 154,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/5b2386afde20fb875c12353895759241/create",
+    "id" : "/socialweb/notes/947757f9ff5bf6b3b593380020f7aac7/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-04-21T00:00:00+00:00",
+    "published" : "2025-04-30T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "5b2386afde20fb875c12353895759241",
-      "id" : "/socialweb/notes/5b2386afde20fb875c12353895759241",
+      "hash" : "947757f9ff5bf6b3b593380020f7aac7",
+      "id" : "/socialweb/notes/947757f9ff5bf6b3b593380020f7aac7",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-04-21T00:00:00+00:00",
+      "published" : "2025-04-30T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/5b2386afde20fb875c12353895759241",
+        "id" : "/socialweb/replies/947757f9ff5bf6b3b593380020f7aac7",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/5b2386afde20fb875c12353895759241?page=true",
-          "partOf" : "/socialweb/replies/5b2386afde20fb875c12353895759241",
+          "next" : "/socialweb/replies/947757f9ff5bf6b3b593380020f7aac7?page=true",
+          "partOf" : "/socialweb/replies/947757f9ff5bf6b3b593380020f7aac7",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/36c4fcd2a4e0453e66b6942f19280cf2/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-04-30T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/mental-obesity-consuming-knowledge-cognitive-burden",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "36c4fcd2a4e0453e66b6942f19280cf2",
+      "id" : "/socialweb/notes/36c4fcd2a4e0453e66b6942f19280cf2",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-04-30T00:00:00+00:00",
+      "content" : "<p>Mental Obesity: When Consuming Knowledge Becomes a Cognitive Burden</p><p><a href='https://avelino.run/mental-obesity-consuming-knowledge-cognitive-burden'>https://avelino.run/mental-obesity-consuming-knowledge-cognitive-burden</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/36c4fcd2a4e0453e66b6942f19280cf2",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/36c4fcd2a4e0453e66b6942f19280cf2?page=true",
+          "partOf" : "/socialweb/replies/36c4fcd2a4e0453e66b6942f19280cf2",
           "items" : [ ]
         }
       },
@@ -1336,41 +1371,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2022-03-20T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "80c60ae5913034420ebc97cf0d9b5129",
-      "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2022-03-20T00:00:00+00:00",
-      "content" : "<p>Sabbatical time focused on developer experience (DevX)</p><p><a href='https://avelino.run/sabbatical-time-focused-on-developer-experience'>https://avelino.run/sabbatical-time-focused-on-developer-experience</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
-          "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -1397,6 +1397,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
           "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2022-03-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "80c60ae5913034420ebc97cf0d9b5129",
+      "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2022-03-20T00:00:00+00:00",
+      "content" : "<p>Sabbatical time focused on developer experience (DevX)</p><p><a href='https://avelino.run/sabbatical-time-focused-on-developer-experience'>https://avelino.run/sabbatical-time-focused-on-developer-experience</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
+          "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
           "items" : [ ]
         }
       },
@@ -4136,6 +4171,41 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-02-15T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
+      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-02-15T00:00:00+00:00",
+      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
+          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -4197,41 +4267,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b?page=true",
           "partOf" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-02-15T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
-      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
-          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
           "items" : [ ]
         }
       },
@@ -5081,41 +5116,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2011-03-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a331c6ffd4f1dd5cd36d3e430e638110",
-      "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2011-03-28T00:00:00+00:00",
-      "content" : "<p>Certificado EV SSL</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
-          "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5142,6 +5142,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
           "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2011-03-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "a331c6ffd4f1dd5cd36d3e430e638110",
+      "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2011-03-28T00:00:00+00:00",
+      "content" : "<p>Certificado EV SSL</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
+          "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
           "items" : [ ]
         }
       },
