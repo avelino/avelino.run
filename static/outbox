@@ -6,32 +6,32 @@
   "totalItems" : 154,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/947757f9ff5bf6b3b593380020f7aac7/create",
+    "id" : "/socialweb/notes/62f254251655b5a5feedf27832ba88f0/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-04-30T00:00:00+00:00",
+    "published" : "2025-05-09T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "947757f9ff5bf6b3b593380020f7aac7",
-      "id" : "/socialweb/notes/947757f9ff5bf6b3b593380020f7aac7",
+      "hash" : "62f254251655b5a5feedf27832ba88f0",
+      "id" : "/socialweb/notes/62f254251655b5a5feedf27832ba88f0",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-04-30T00:00:00+00:00",
+      "published" : "2025-05-09T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/947757f9ff5bf6b3b593380020f7aac7",
+        "id" : "/socialweb/replies/62f254251655b5a5feedf27832ba88f0",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/947757f9ff5bf6b3b593380020f7aac7?page=true",
-          "partOf" : "/socialweb/replies/947757f9ff5bf6b3b593380020f7aac7",
+          "next" : "/socialweb/replies/62f254251655b5a5feedf27832ba88f0?page=true",
+          "partOf" : "/socialweb/replies/62f254251655b5a5feedf27832ba88f0",
           "items" : [ ]
         }
       },
@@ -41,32 +41,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/36c4fcd2a4e0453e66b6942f19280cf2/create",
+    "id" : "/socialweb/notes/2f78539c8755eb325a536fb9e0ec0b32/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-04-30T00:00:00+00:00",
+    "published" : "2025-05-01T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/mental-obesity-consuming-knowledge-cognitive-burden",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "36c4fcd2a4e0453e66b6942f19280cf2",
-      "id" : "/socialweb/notes/36c4fcd2a4e0453e66b6942f19280cf2",
+      "hash" : "2f78539c8755eb325a536fb9e0ec0b32",
+      "id" : "/socialweb/notes/2f78539c8755eb325a536fb9e0ec0b32",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-04-30T00:00:00+00:00",
+      "published" : "2025-05-01T00:00:00+00:00",
       "content" : "<p>Mental Obesity: When Consuming Knowledge Becomes a Cognitive Burden</p><p><a href='https://avelino.run/mental-obesity-consuming-knowledge-cognitive-burden'>https://avelino.run/mental-obesity-consuming-knowledge-cognitive-burden</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/36c4fcd2a4e0453e66b6942f19280cf2",
+        "id" : "/socialweb/replies/2f78539c8755eb325a536fb9e0ec0b32",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/36c4fcd2a4e0453e66b6942f19280cf2?page=true",
-          "partOf" : "/socialweb/replies/36c4fcd2a4e0453e66b6942f19280cf2",
+          "next" : "/socialweb/replies/2f78539c8755eb325a536fb9e0ec0b32?page=true",
+          "partOf" : "/socialweb/replies/2f78539c8755eb325a536fb9e0ec0b32",
           "items" : [ ]
         }
       },
@@ -4101,41 +4101,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-03-30T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
-      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-03-30T00:00:00+00:00",
-      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
-          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -4171,32 +4136,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
+    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2015-02-15T00:00:00+00:00",
+    "published" : "2015-03-30T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
-      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
+      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
+      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2015-03-30T00:00:00+00:00",
+      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
-          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
+          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
           "items" : [ ]
         }
       },
@@ -4232,6 +4197,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
           "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-02-15T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
+      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-02-15T00:00:00+00:00",
+      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
+          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
           "items" : [ ]
         }
       },
@@ -5116,41 +5116,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2011-03-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "61cab533844433b130f88a9e9f51fe27",
-      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2011-03-28T00:00:00+00:00",
-      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
-          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5177,6 +5142,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
           "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2011-03-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "61cab533844433b130f88a9e9f51fe27",
+      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2011-03-28T00:00:00+00:00",
+      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
+          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
           "items" : [ ]
         }
       },
