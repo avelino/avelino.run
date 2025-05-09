@@ -84,6 +84,30 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
           }
         }
       }
+      pullRequestReviewContributionsByRepository {
+        repository {
+          name
+          owner {
+            login
+          }
+          isPrivate
+          url
+        }
+        contributions(first: 100) {
+          totalCount
+          nodes {
+            pullRequestReview {
+              url
+              createdAt
+              state
+              pullRequest {
+                title
+                url
+              }
+            }
+          }
+        }
+      }
       issueContributionsByRepository {
         repository {
           name
@@ -166,6 +190,23 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                                   :title (get-in pr [:pullRequest :title])
                                   :url (get-in pr [:pullRequest :url])}})))))))
 
+    ;; Process pull request reviews
+    (doseq [repo-data (get data :pullRequestReviewContributionsByRepository [])]
+      (when-not (get-in repo-data [:repository :isPrivate])
+        (let [repo-name (str (get-in repo-data [:repository :owner :login]) "/"
+                             (get-in repo-data [:repository :name]))]
+          (doseq [prr (get-in repo-data [:contributions :nodes] [])]
+            (let [created-at (parse-date (get-in prr [:pullRequestReview :createdAt]))]
+              (when (and (not (.isBefore created-at start-date))
+                         (not (.isAfter created-at end-date)))
+                (swap! contributions conj
+                       {:type "PullRequestReviewEvent"
+                        :repo repo-name
+                        :created_at (format-date-display created-at)
+                        :details {:url (get-in prr [:pullRequestReview :url])
+                                  :title (get-in prr [:pullRequestReview :pullRequest :title])
+                                  :state (get-in prr [:pullRequestReview :state])}})))))))
+
     ;; Process issues
     (doseq [repo-data (get data :issueContributionsByRepository [])]
       (when-not (get-in repo-data [:repository :isPrivate])
@@ -227,6 +268,18 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                       "opened" (swap! content str "- 🔀 Opened PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
                       "closed" (swap! content str "- ✅ Closed PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")
                       (swap! content str "- 🔀 " (str/capitalize action) " PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ")\n")))
+
+                  "PullRequestReviewEvent"
+                  (let [title (get-in contrib [:details :title])
+                        url (get-in contrib [:details :url])
+                        state (get-in contrib [:details :state])
+                        state-icon (case state
+                                     "APPROVED" "✅"
+                                     "CHANGES_REQUESTED" "🔍"
+                                     "COMMENTED" "💬"
+                                     "DISMISSED" "❌"
+                                     "📝")]
+                    (swap! content str "- " state-icon " Reviewed PR in [" repo-name "](https://github.com/" repo-name "): [" title "](" url ") (" (str/capitalize (str/replace state "_" " ")) ")\n"))
 
                   "IssuesEvent"
                   (let [action (get-in contrib [:details :action])
