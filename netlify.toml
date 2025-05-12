@@ -91,6 +91,12 @@ query = { path = ":path" }
   status = 200
   force = true
 
+[[redirects]]
+  from = "/sponsor/wahoo"
+  to = "https://www.wahoofitness.com/?rfsn=8688880.f47239"
+  status = 200
+  force = true
+
 # Fallback route for intelligent redirection
 [[redirects]]
   from = "/activitypub/*"
