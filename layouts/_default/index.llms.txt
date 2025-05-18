@@ -1,0 +1,14 @@
+# Blog of {{ .Site.Title }}
+
+> {{ .Site.Params.Description }}
+
+You can find [more information about this site here](/about).
+
+## All articles
+{{ range .Site.RegularPages.GroupByDate "2006" }}
+
+### {{ .Key }}
+{{ range .Pages }}
+- [{{- .Title -}}]({{- .Site.BaseURL -}}{{- .RelPermalink -}})
+{{- end -}}
+{{ end }}
