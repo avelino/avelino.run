@@ -22,9 +22,19 @@ ignoreLogs = ['err-youtube-remote']
 plainIDAnchors = true
 hrefTargetBlank = true
 
+[outputFormats.llms]
+baseName = "llms"
+mediaType = "text/plain"
+isPlainText = true
+
+[outputFormats.llms-full]
+baseName = "llms-full"
+mediaType = "text/plain"
+isPlainText = true
+
 [outputs]
-home = ["HTML", "RSS"]
-section = ["HTML", "RSS"]
+home = ["HTML", "RSS", "llms", "llms-full"]
+section = ["HTML", "RSS", "llms", "llms-full"]
 page = ["HTML"]
 
 [related]
