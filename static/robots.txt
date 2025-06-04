@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: https://medium.avelino.run/
 
 Sitemap: https://avelino.run/sitemap.xml
-Sitemap: https://medium.avelino.run/sitemap/sitemap.xml
