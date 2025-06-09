@@ -3,35 +3,140 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 154,
+  "totalItems" : 157,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/62f254251655b5a5feedf27832ba88f0/create",
+    "id" : "/socialweb/notes/b7a94d5fe300f954bead3413d6f7c8c4/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-05-09T00:00:00+00:00",
+    "published" : "2025-06-09T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "62f254251655b5a5feedf27832ba88f0",
-      "id" : "/socialweb/notes/62f254251655b5a5feedf27832ba88f0",
+      "hash" : "b7a94d5fe300f954bead3413d6f7c8c4",
+      "id" : "/socialweb/notes/b7a94d5fe300f954bead3413d6f7c8c4",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-05-09T00:00:00+00:00",
+      "published" : "2025-06-09T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/62f254251655b5a5feedf27832ba88f0",
+        "id" : "/socialweb/replies/b7a94d5fe300f954bead3413d6f7c8c4",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/62f254251655b5a5feedf27832ba88f0?page=true",
-          "partOf" : "/socialweb/replies/62f254251655b5a5feedf27832ba88f0",
+          "next" : "/socialweb/replies/b7a94d5fe300f954bead3413d6f7c8c4?page=true",
+          "partOf" : "/socialweb/replies/b7a94d5fe300f954bead3413d6f7c8c4",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/aed49244cd2cd931864b48f5bc4bd611/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-06-09T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/llms-future-development-product-thinking",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "aed49244cd2cd931864b48f5bc4bd611",
+      "id" : "/socialweb/notes/aed49244cd2cd931864b48f5bc4bd611",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-06-09T00:00:00+00:00",
+      "content" : "<p>LLMs and the Future of Development: Amplifiers or Threats to Product Thinking?</p><p><a href='https://avelino.run/llms-future-development-product-thinking'>https://avelino.run/llms-future-development-product-thinking</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/aed49244cd2cd931864b48f5bc4bd611",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/aed49244cd2cd931864b48f5bc4bd611?page=true",
+          "partOf" : "/socialweb/replies/aed49244cd2cd931864b48f5bc4bd611",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/a6e13ff830fa39347efb4a416588f5b0/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-06-09T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/product-thinking-real-business-results-user-experience",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "a6e13ff830fa39347efb4a416588f5b0",
+      "id" : "/socialweb/notes/a6e13ff830fa39347efb4a416588f5b0",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-06-09T00:00:00+00:00",
+      "content" : "<p>From Theoretical to Tangible: How Product Thinking Generated Real Business Results and Transformed User Experience</p><p><a href='https://avelino.run/product-thinking-real-business-results-user-experience'>https://avelino.run/product-thinking-real-business-results-user-experience</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/a6e13ff830fa39347efb4a416588f5b0",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/a6e13ff830fa39347efb4a416588f5b0?page=true",
+          "partOf" : "/socialweb/replies/a6e13ff830fa39347efb4a416588f5b0",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/36d85e354dc8f52f591c5fce675fa625/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-06-09T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/silent-revolution-product-minded-developers-software-delivery-2022",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "36d85e354dc8f52f591c5fce675fa625",
+      "id" : "/socialweb/notes/36d85e354dc8f52f591c5fce675fa625",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-06-09T00:00:00+00:00",
+      "content" : "<p>The Silent Revolution: How Product-Minded Developers Transformed Software Delivery Since 2022</p><p><a href='https://avelino.run/silent-revolution-product-minded-developers-software-delivery-2022'>https://avelino.run/silent-revolution-product-minded-developers-software-delivery-2022</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/36d85e354dc8f52f591c5fce675fa625",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/36d85e354dc8f52f591c5fce675fa625?page=true",
+          "partOf" : "/socialweb/replies/36d85e354dc8f52f591c5fce675fa625",
           "items" : [ ]
         }
       },
@@ -1371,41 +1476,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2022-03-20T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "b37d4081f8bf52969bbd756f918c659d",
-      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2022-03-20T00:00:00+00:00",
-      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
-          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -1432,6 +1502,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
           "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2022-03-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "b37d4081f8bf52969bbd756f918c659d",
+      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2022-03-20T00:00:00+00:00",
+      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
+          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
           "items" : [ ]
         }
       },
@@ -4101,6 +4206,41 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-03-30T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
+      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-03-30T00:00:00+00:00",
+      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
+          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -4136,32 +4276,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
+    "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2015-03-30T00:00:00+00:00",
+    "published" : "2015-02-15T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
-      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
+      "hash" : "156bc129a9f919d6bc7eb6cfadbd643b",
+      "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2015-03-30T00:00:00+00:00",
-      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2015-02-15T00:00:00+00:00",
+      "content" : "<p>Encerrando Ciclos, viva no presente, não se paralise pelo passado</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+        "id" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
-          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+          "next" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b?page=true",
+          "partOf" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
           "items" : [ ]
         }
       },
@@ -4232,41 +4372,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
           "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-02-15T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "156bc129a9f919d6bc7eb6cfadbd643b",
-      "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Encerrando Ciclos, viva no presente, não se paralise pelo passado</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b?page=true",
-          "partOf" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
           "items" : [ ]
         }
       },
