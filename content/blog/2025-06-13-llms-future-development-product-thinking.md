@@ -1,6 +1,6 @@
 ---
 date: "2025-06-13"
-draft: false
+draft: true
 title: "LLMs and the Future of Development: Amplifiers or Threats to Product Thinking?"
 tags: ["LLMs development", "artificial intelligence code", "product thinking future", "development automation", "technology strategy"]
 description: "Definitive analysis of how LLMs impact software development and why product thinking becomes even more crucial for navigating this technological transformation with strategic intelligence."
