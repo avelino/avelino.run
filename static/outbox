@@ -6,32 +6,32 @@
   "totalItems" : 157,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/b7a94d5fe300f954bead3413d6f7c8c4/create",
+    "id" : "/socialweb/notes/a5b333b6b837e591ef4d0ac1d53c6371/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-06-09T00:00:00+00:00",
+    "published" : "2025-06-11T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "b7a94d5fe300f954bead3413d6f7c8c4",
-      "id" : "/socialweb/notes/b7a94d5fe300f954bead3413d6f7c8c4",
+      "hash" : "a5b333b6b837e591ef4d0ac1d53c6371",
+      "id" : "/socialweb/notes/a5b333b6b837e591ef4d0ac1d53c6371",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-06-09T00:00:00+00:00",
+      "published" : "2025-06-11T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/b7a94d5fe300f954bead3413d6f7c8c4",
+        "id" : "/socialweb/replies/a5b333b6b837e591ef4d0ac1d53c6371",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/b7a94d5fe300f954bead3413d6f7c8c4?page=true",
-          "partOf" : "/socialweb/replies/b7a94d5fe300f954bead3413d6f7c8c4",
+          "next" : "/socialweb/replies/a5b333b6b837e591ef4d0ac1d53c6371?page=true",
+          "partOf" : "/socialweb/replies/a5b333b6b837e591ef4d0ac1d53c6371",
           "items" : [ ]
         }
       },
@@ -41,32 +41,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/aed49244cd2cd931864b48f5bc4bd611/create",
+    "id" : "/socialweb/notes/99a78ce0445e83d3c49c9668b9794df0/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-06-09T00:00:00+00:00",
+    "published" : "2025-06-11T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/llms-future-development-product-thinking",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "aed49244cd2cd931864b48f5bc4bd611",
-      "id" : "/socialweb/notes/aed49244cd2cd931864b48f5bc4bd611",
+      "hash" : "99a78ce0445e83d3c49c9668b9794df0",
+      "id" : "/socialweb/notes/99a78ce0445e83d3c49c9668b9794df0",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-06-09T00:00:00+00:00",
+      "published" : "2025-06-11T00:00:00+00:00",
       "content" : "<p>LLMs and the Future of Development: Amplifiers or Threats to Product Thinking?</p><p><a href='https://avelino.run/llms-future-development-product-thinking'>https://avelino.run/llms-future-development-product-thinking</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/aed49244cd2cd931864b48f5bc4bd611",
+        "id" : "/socialweb/replies/99a78ce0445e83d3c49c9668b9794df0",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/aed49244cd2cd931864b48f5bc4bd611?page=true",
-          "partOf" : "/socialweb/replies/aed49244cd2cd931864b48f5bc4bd611",
+          "next" : "/socialweb/replies/99a78ce0445e83d3c49c9668b9794df0?page=true",
+          "partOf" : "/socialweb/replies/99a78ce0445e83d3c49c9668b9794df0",
           "items" : [ ]
         }
       },
@@ -76,32 +76,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a6e13ff830fa39347efb4a416588f5b0/create",
+    "id" : "/socialweb/notes/2b50383d3775262d2220e3d94eab0f30/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-06-09T00:00:00+00:00",
+    "published" : "2025-06-11T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/product-thinking-real-business-results-user-experience",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a6e13ff830fa39347efb4a416588f5b0",
-      "id" : "/socialweb/notes/a6e13ff830fa39347efb4a416588f5b0",
+      "hash" : "2b50383d3775262d2220e3d94eab0f30",
+      "id" : "/socialweb/notes/2b50383d3775262d2220e3d94eab0f30",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-06-09T00:00:00+00:00",
+      "published" : "2025-06-11T00:00:00+00:00",
       "content" : "<p>From Theoretical to Tangible: How Product Thinking Generated Real Business Results and Transformed User Experience</p><p><a href='https://avelino.run/product-thinking-real-business-results-user-experience'>https://avelino.run/product-thinking-real-business-results-user-experience</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/a6e13ff830fa39347efb4a416588f5b0",
+        "id" : "/socialweb/replies/2b50383d3775262d2220e3d94eab0f30",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a6e13ff830fa39347efb4a416588f5b0?page=true",
-          "partOf" : "/socialweb/replies/a6e13ff830fa39347efb4a416588f5b0",
+          "next" : "/socialweb/replies/2b50383d3775262d2220e3d94eab0f30?page=true",
+          "partOf" : "/socialweb/replies/2b50383d3775262d2220e3d94eab0f30",
           "items" : [ ]
         }
       },
