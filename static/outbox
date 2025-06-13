@@ -6,32 +6,32 @@
   "totalItems" : 157,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a5b333b6b837e591ef4d0ac1d53c6371/create",
+    "id" : "/socialweb/notes/c66605dbaa0990e2e734d917f581a435/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-06-11T00:00:00+00:00",
+    "published" : "2025-06-13T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/",
+      "url" : "https://avelino.run/llms-future-development-product-thinking",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a5b333b6b837e591ef4d0ac1d53c6371",
-      "id" : "/socialweb/notes/a5b333b6b837e591ef4d0ac1d53c6371",
+      "hash" : "c66605dbaa0990e2e734d917f581a435",
+      "id" : "/socialweb/notes/c66605dbaa0990e2e734d917f581a435",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-06-11T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2025-06-13T00:00:00+00:00",
+      "content" : "<p>LLMs and the Future of Development: Amplifiers or Threats to Product Thinking?</p><p><a href='https://avelino.run/llms-future-development-product-thinking'>https://avelino.run/llms-future-development-product-thinking</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/a5b333b6b837e591ef4d0ac1d53c6371",
+        "id" : "/socialweb/replies/c66605dbaa0990e2e734d917f581a435",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a5b333b6b837e591ef4d0ac1d53c6371?page=true",
-          "partOf" : "/socialweb/replies/a5b333b6b837e591ef4d0ac1d53c6371",
+          "next" : "/socialweb/replies/c66605dbaa0990e2e734d917f581a435?page=true",
+          "partOf" : "/socialweb/replies/c66605dbaa0990e2e734d917f581a435",
           "items" : [ ]
         }
       },
@@ -41,32 +41,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/99a78ce0445e83d3c49c9668b9794df0/create",
+    "id" : "/socialweb/notes/8100a91254829e67423450384c31959a/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-06-11T00:00:00+00:00",
+    "published" : "2025-06-13T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/llms-future-development-product-thinking",
+      "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "99a78ce0445e83d3c49c9668b9794df0",
-      "id" : "/socialweb/notes/99a78ce0445e83d3c49c9668b9794df0",
+      "hash" : "8100a91254829e67423450384c31959a",
+      "id" : "/socialweb/notes/8100a91254829e67423450384c31959a",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-06-11T00:00:00+00:00",
-      "content" : "<p>LLMs and the Future of Development: Amplifiers or Threats to Product Thinking?</p><p><a href='https://avelino.run/llms-future-development-product-thinking'>https://avelino.run/llms-future-development-product-thinking</a></p>",
+      "published" : "2025-06-13T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/99a78ce0445e83d3c49c9668b9794df0",
+        "id" : "/socialweb/replies/8100a91254829e67423450384c31959a",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/99a78ce0445e83d3c49c9668b9794df0?page=true",
-          "partOf" : "/socialweb/replies/99a78ce0445e83d3c49c9668b9794df0",
+          "next" : "/socialweb/replies/8100a91254829e67423450384c31959a?page=true",
+          "partOf" : "/socialweb/replies/8100a91254829e67423450384c31959a",
           "items" : [ ]
         }
       },
@@ -4206,6 +4206,41 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-03-30T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "106b404811f777141371c3ed05af80a1",
+      "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-03-30T00:00:00+00:00",
+      "content" : "<p>Church Vim</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/106b404811f777141371c3ed05af80a1",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/106b404811f777141371c3ed05af80a1?page=true",
+          "partOf" : "/socialweb/replies/106b404811f777141371c3ed05af80a1",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -4241,32 +4276,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1/create",
+    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2015-03-30T00:00:00+00:00",
+    "published" : "2015-02-15T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "106b404811f777141371c3ed05af80a1",
-      "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1",
+      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
+      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2015-03-30T00:00:00+00:00",
-      "content" : "<p>Church Vim</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2015-02-15T00:00:00+00:00",
+      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/106b404811f777141371c3ed05af80a1",
+        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/106b404811f777141371c3ed05af80a1?page=true",
-          "partOf" : "/socialweb/replies/106b404811f777141371c3ed05af80a1",
+          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
+          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
           "items" : [ ]
         }
       },
@@ -4337,41 +4372,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
           "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-02-15T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
-      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
-          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
           "items" : [ ]
         }
       },
