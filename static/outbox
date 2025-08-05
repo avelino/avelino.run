@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 158,
+  "totalItems" : 159,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/7df1ebcd60193260cd6f9bc563f79a6c/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-08-05T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "7df1ebcd60193260cd6f9bc563f79a6c",
+      "id" : "/socialweb/notes/7df1ebcd60193260cd6f9bc563f79a6c",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-08-05T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/7df1ebcd60193260cd6f9bc563f79a6c",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/7df1ebcd60193260cd6f9bc563f79a6c?page=true",
+          "partOf" : "/socialweb/replies/7df1ebcd60193260cd6f9bc563f79a6c",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/a7512396c24d4de65ebc07650397f648/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-08-05T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/cultivating-a-healthy-evolvable-codebase",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "a7512396c24d4de65ebc07650397f648",
+      "id" : "/socialweb/notes/a7512396c24d4de65ebc07650397f648",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-08-05T00:00:00+00:00",
+      "content" : "<p>Cultivating a Healthy Codebase: Beyond Code That Just Works</p><p><a href='https://avelino.run/cultivating-a-healthy-evolvable-codebase'>https://avelino.run/cultivating-a-healthy-evolvable-codebase</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/a7512396c24d4de65ebc07650397f648",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/a7512396c24d4de65ebc07650397f648?page=true",
+          "partOf" : "/socialweb/replies/a7512396c24d4de65ebc07650397f648",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/dd0de5e4cc45794b6009198c48ee6562/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/dd0de5e4cc45794b6009198c48ee6562?page=true",
           "partOf" : "/socialweb/replies/dd0de5e4cc45794b6009198c48ee6562",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/ec7363dfe23e39fa04e3dbe139bb9972/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2025-07-16T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "ec7363dfe23e39fa04e3dbe139bb9972",
-      "id" : "/socialweb/notes/ec7363dfe23e39fa04e3dbe139bb9972",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2025-07-16T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/ec7363dfe23e39fa04e3dbe139bb9972",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/ec7363dfe23e39fa04e3dbe139bb9972?page=true",
-          "partOf" : "/socialweb/replies/ec7363dfe23e39fa04e3dbe139bb9972",
           "items" : [ ]
         }
       },
