@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 159,
+  "totalItems" : 160,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/7df1ebcd60193260cd6f9bc563f79a6c/create",
+    "id" : "/socialweb/notes/3cc733f058f85dcb905e17148145bdeb/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-08-05T00:00:00+00:00",
+    "published" : "2025-09-08T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "7df1ebcd60193260cd6f9bc563f79a6c",
-      "id" : "/socialweb/notes/7df1ebcd60193260cd6f9bc563f79a6c",
+      "hash" : "3cc733f058f85dcb905e17148145bdeb",
+      "id" : "/socialweb/notes/3cc733f058f85dcb905e17148145bdeb",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-08-05T00:00:00+00:00",
+      "published" : "2025-09-08T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/7df1ebcd60193260cd6f9bc563f79a6c",
+        "id" : "/socialweb/replies/3cc733f058f85dcb905e17148145bdeb",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/7df1ebcd60193260cd6f9bc563f79a6c?page=true",
-          "partOf" : "/socialweb/replies/7df1ebcd60193260cd6f9bc563f79a6c",
+          "next" : "/socialweb/replies/3cc733f058f85dcb905e17148145bdeb?page=true",
+          "partOf" : "/socialweb/replies/3cc733f058f85dcb905e17148145bdeb",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/35ee5ce0b08dedce50cc4106a89d94da/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-09-08T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/when-danger-knocks-learning-to-handle-cves-in-open-source",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "35ee5ce0b08dedce50cc4106a89d94da",
+      "id" : "/socialweb/notes/35ee5ce0b08dedce50cc4106a89d94da",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-09-08T00:00:00+00:00",
+      "content" : "<p>When Danger Knocks on the Door: Learning to Handle CVEs in Open Source</p><p><a href='https://avelino.run/when-danger-knocks-learning-to-handle-cves-in-open-source'>https://avelino.run/when-danger-knocks-learning-to-handle-cves-in-open-source</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/35ee5ce0b08dedce50cc4106a89d94da",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/35ee5ce0b08dedce50cc4106a89d94da?page=true",
+          "partOf" : "/socialweb/replies/35ee5ce0b08dedce50cc4106a89d94da",
           "items" : [ ]
         }
       },
@@ -1546,41 +1581,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2022-03-20T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "b37d4081f8bf52969bbd756f918c659d",
-      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2022-03-20T00:00:00+00:00",
-      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
-          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -1607,6 +1607,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
           "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2022-03-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "b37d4081f8bf52969bbd756f918c659d",
+      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2022-03-20T00:00:00+00:00",
+      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
+          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
           "items" : [ ]
         }
       },
@@ -4276,6 +4311,41 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-03-30T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
+      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-03-30T00:00:00+00:00",
+      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
+          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -4311,32 +4381,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
+    "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2015-03-30T00:00:00+00:00",
+    "published" : "2015-02-15T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
-      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
+      "hash" : "d006e9ed4ca64fe4d1eb75533bc88b47",
+      "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2015-03-30T00:00:00+00:00",
-      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2015-02-15T00:00:00+00:00",
+      "content" : "<p>Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+        "id" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
-          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+          "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
+          "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
           "items" : [ ]
         }
       },
@@ -4407,41 +4477,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
           "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-02-15T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "d006e9ed4ca64fe4d1eb75533bc88b47",
-      "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
-          "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
           "items" : [ ]
         }
       },
@@ -5291,41 +5326,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2011-03-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "61cab533844433b130f88a9e9f51fe27",
-      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2011-03-28T00:00:00+00:00",
-      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
-          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5352,6 +5352,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
           "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2011-03-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "61cab533844433b130f88a9e9f51fe27",
+      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2011-03-28T00:00:00+00:00",
+      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
+          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
           "items" : [ ]
         }
       },
