@@ -4,15 +4,17 @@ title = "About"
 tags = ["about", "avelino", "open source", "thiago avelino"]
 +++
 
-I’m Thiago Avelino CTO at [buser](https://linkedin.com/company/buserbrasil/), creator/maintainer any [open source projects](https://github.com/avelino) and Mathematician at [IME-USP - Aplicated Math](https://www.ime.usp.br).
+I'm Thiago Avelino, CTO at [Buser](https://linkedin.com/company/buserbrasil/), creator and maintainer of several open source projects, and an Applied Mathematics alumnus from [IME-USP](https://www.ime.usp.br).
 
-Contributor to any Open Source projects, study focus is **team building**, **people tech management** _(human/evolutionary psychology)_ and **open source** _(and all distributed contribution ecosystem)_. My day job is to help the team I lead to evolve professionally and get to where it planned to get, delivering great results for the company, encouraging them to achieve their best professional performance.
+I contribute to many open source initiatives. My current focus is on team building, technical leadership, people management (human/evolutionary psychology), and the open source/distributed contribution ecosystem. In my day-to-day work, I help my team grow professionally and deliver outstanding business results.
 
-I have talked about open source contribution and today I work more with people management, but I still enjoy programming - even though I have less time to write code - less than I would like. I am usually involved with project that use the technologies:
+I often speak about open source contribution. While I now spend more time on people management than coding, I still enjoy programming. I usually work with:
 
 - Distributed systems
-- Lisp dialects (clojure/racket)
+- Lisp dialects (Clojure/Racket)
 - Go
 - Python
 
-> 🏊‍♂️🚴‍♂️🏃‍♂️ **Good dream is dream lived**
+Notably, I'm a long-time maintainer of [Awesome Go](https://github.com/avelino/awesome-go).
+
+> 🚴‍♂️ A good dream is a dream lived
