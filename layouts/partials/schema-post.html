@@ -1,44 +1,72 @@
 {{/* layouts/partials/schema-post.html */}}
-{{ if .IsPage }}
-<script type="application/ld+json">
-  {{- /* Build structured data using dict/merge and render with jsonify for safe JSON */ -}}
-  {{- $title := .Title -}}
-  {{- /* Description fallback: .Description -> .Summary (when page) -> site param */ -}}
+{{- $base := .Site.BaseURL -}}
+{{- $kind := .Kind -}}
+{{- $isHome := eq $kind "home" -}}
+{{- $isSection := eq $kind "section" -}}
+{{- $isTaxonomy := or (eq $kind "taxonomy") (eq $kind "taxonomyTerm") -}}
+{{- $isList := or $isSection $isTaxonomy -}}
+{{- $isPost := eq $kind "page" -}}
+
+{{- /* Build @graph array */ -}}
+{{- $graph := slice -}}
+
+{{- /* Website publisher (Person) */ -}}
+{{- $pubName := or .Site.Author.name "Thiago Avelino" -}}
+{{- $pubURL := or .Site.Author.url (or .Site.Author.link (or .Site.Author.homepage (printf "%sabout/" $base))) -}}
+{{- $publisherPerson := dict "@type" "Person" "name" $pubName "url" $pubURL -}}
+{{- with (or .Site.Author.sameAs .Site.Params.sameAs) -}}
+  {{- $publisherPerson = merge $publisherPerson (dict "sameAs" .) -}}
+{{- end -}}
+
+{{- /* WebSite node */ -}}
+{{- $website := dict
+    "@type" "WebSite"
+    "@id" (printf "%s#website" $base)
+    "url" $base
+    "name" .Site.Title
+    "inLanguage" .Site.Language.Lang
+    "publisher" $publisherPerson
+    "potentialAction" (dict
+      "@type" "SearchAction"
+      "target" (printf "%ssearch/?q={search_term_string}" $base)
+      "query-input" "required name=search_term_string"
+    )
+  -}}
+{{- $graph = $graph | append $website -}}
+
+{{- if $isPost -}}
+  {{- /* Description fallback: .Description -> .Summary -> site param */ -}}
   {{- $description := "" -}}
   {{- with .Description -}}
     {{- $description = . -}}
   {{- else -}}
-    {{- if .IsPage -}}
-      {{- $description = .Summary -}}
-    {{- else -}}
+    {{- $description = .Summary -}}
+    {{- if not $description -}}
       {{- with .Site.Params.description -}}{{- $description = . -}}{{- end -}}
     {{- end -}}
   {{- end -}}
 
   {{- $sd := dict
-      "@context" "https://schema.org"
       "@type" "BlogPosting"
-      "@id" .Permalink
-      "headline" $title
-      "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
-      "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+      "@id" (printf "%s#article" .Permalink)
+      "mainEntityOfPage" .Permalink
+      "headline" .Title
+      "datePublished" ((or .PublishDate .Date).Format "2006-01-02T15:04:05Z07:00")
+      "dateModified" ((or .Lastmod .Date).Format "2006-01-02T15:04:05Z07:00")
       "url" .Permalink
       "isAccessibleForFree" true
       "inLanguage" .Site.Language.Lang
       "wordCount" .WordCount
-      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
     -}}
 
   {{- with $description }}
     {{- $sd = merge $sd (dict "description" .) -}}
   {{- end -}}
 
-  {{- /* Alternative headline (subtitle) */ -}}
   {{- with .Params.subtitle -}}
     {{- $sd = merge $sd (dict "alternativeHeadline" .) -}}
   {{- end -}}
 
-  {{- /* Article section */ -}}
   {{- with .Section -}}
     {{- $sd = merge $sd (dict "articleSection" .) -}}
   {{- end -}}
@@ -59,11 +87,11 @@
     {{- $sd = merge $sd (dict "keywords" (delimit $keywords ", ")) -}}
   {{- end -}}
 
-  {{- /* Author */ -}}
+  {{- /* Author (fallback to site author / Thiago Avelino) */ -}}
   {{- $authorName := or .Params.author .Site.Author.name "Thiago Avelino" -}}
   {{- if $authorName -}}
     {{- $author := dict "@type" "Person" "name" $authorName -}}
-    {{- with (or .Params.authorURL (or .Site.Author.url (or .Site.Author.link .Site.Author.homepage) "https://avelino.run")) -}}
+    {{- with (or .Params.authorURL (or .Site.Author.url (or .Site.Author.link (or .Site.Author.homepage "https://avelino.run")))) -}}
       {{- $author = merge $author (dict "url" .) -}}
     {{- end -}}
     {{- with .Site.Author.sameAs -}}
@@ -72,7 +100,7 @@
     {{- $sd = merge $sd (dict "author" $author) -}}
   {{- end -}}
 
-  {{- /* Publisher */ -}}
+  {{- /* Publisher (Organization = site) */ -}}
   {{- $publisher := dict "@type" "Organization" "name" .Site.Title -}}
   {{- with .Site.Params.logo -}}
     {{- $publisher = merge $publisher (dict "logo" (dict "@type" "ImageObject" "url" (absURL .))) -}}
@@ -102,7 +130,9 @@
   {{- end -}}
   {{- if gt (len $imageList) 0 -}}
     {{- $sd = merge $sd (dict "image" $imageList) -}}
-    {{- $sd = merge $sd (dict "thumbnailUrl" ((index $imageList 0).url)) -}}
+    {{- $firstImg := index $imageList 0 -}}
+    {{- $thumb := index $firstImg "url" -}}
+    {{- $sd = merge $sd (dict "thumbnailUrl" $thumb) -}}
   {{- end -}}
 
   {{- /* Copyright */ -}}
@@ -111,6 +141,50 @@
     {{- $sd = merge $sd (dict "copyrightHolder" .) -}}
   {{- end -}}
 
-  {{- $sd | jsonify -}}
+  {{- $graph = $graph | append $sd -}}
+
+{{- else if $isList -}}
+  {{- /* CollectionPage for list/section/taxonomy pages */ -}}
+  {{- $items := slice -}}
+  {{- range $i, $p := .Pages -}}
+    {{- $items = $items | append (dict
+      "@type" "ListItem"
+      "position" (add $i 1)
+      "url" $p.Permalink
+      "name" $p.Title
+    ) -}}
+  {{- end -}}
+  {{- $collection := dict
+      "@type" "CollectionPage"
+      "@id" (printf "%s#collection" .Permalink)
+      "name" .Title
+      "url" .Permalink
+      "inLanguage" .Site.Language.Lang
+      "mainEntity" (dict "@type" "ItemList" "itemListElement" $items)
+    -}}
+  {{- $graph = $graph | append $collection -}}
+
+{{- else -}}
+  {{- /* Generic WebPage (home or other non-post pages) */ -}}
+  {{- $desc := "" -}}
+  {{- with .Params.description -}}
+    {{- $desc = . -}}
+  {{- else -}}
+    {{- $desc = (.Summary | plainify) -}}
+  {{- end -}}
+  {{- $webpage := dict
+      "@type" "WebPage"
+      "@id" (printf "%s#webpage" .Permalink)
+      "url" .Permalink
+      "name" .Title
+      "inLanguage" .Site.Language.Lang
+    -}}
+  {{- with $desc -}}
+    {{- $webpage = merge $webpage (dict "description" .) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $webpage -}}
+{{- end -}}
+
+<script type="application/ld+json">
+  {{- dict "@context" "https://schema.org" "@graph" $graph | jsonify -}}
   </script>
-{{ end }}
