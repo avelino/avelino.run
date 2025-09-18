@@ -10,16 +10,22 @@
 
 (def config
   {:github-username (or (System/getenv "GITHUB_USERNAME") "avelino")
-   :github-token (System/getenv "GH_TOKEN")
+   :github-token (or (System/getenv "GH_TOKEN") (System/getenv "GITHUB_TOKEN"))
    :base-dir "content/foss"})
 
 (println "GitHub Token status:" (if (:github-token config) "Presente" "Ausente"))
 
 (def headers
-  {"Authorization" (str "Bearer " (:github-token config))
-   "Content-Type" "application/json"})
+  (cond-> {"Content-Type" "application/json"}
+    (:github-token config) (assoc "Authorization" (str "Bearer " (:github-token config)))))
+
+;; Abort early if token is missing to avoid generating empty markdown
+(when-not (:github-token config)
+  (println "Erro: variável de ambiente GH_TOKEN ou GITHUB_TOKEN não encontrada.\nDefina seu token do GitHub e tente novamente, por exemplo:\n  export GH_TOKEN=seu_token      # ou\n  export GITHUB_TOKEN=seu_token")
+  (System/exit 1))
 
 (def github-graphql-url "https://api.github.com/graphql")
+(def github-rest-base-url "https://api.github.com")
 
 (defn format-date [date]
   (let [formatter (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd'T'HH:mm:ss'Z'")]
@@ -39,6 +45,48 @@
   (let [formatter (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd HH:mm")]
     (.format formatter date)))
 
+;; Fetch public user events via REST to capture IssueCommentEvent (issue/PR comments)
+(defn fetch-user-comment-events [username start-date end-date]
+  (let [per-page 100
+        auth-headers (cond-> {"Accept" "application/vnd.github+json"}
+                       (:github-token config) (assoc "Authorization" (str "Bearer " (:github-token config))))]
+    (loop [page 1
+           acc []
+           stop? false]
+      (if stop?
+        acc
+        (let [url (str github-rest-base-url "/users/" username "/events?per_page=" per-page "&page=" page)
+              resp (curl/get url {:headers auth-headers})
+              status (:status resp)
+              body (:body resp)
+              events (when (= status 200) (json/parse-string body true))]
+          (if (or (not= status 200) (empty? events))
+            acc
+            (let [processed (reduce (fn [out ev]
+                                      (let [created-at (parse-date (:created_at ev))
+                                            newer-than-window? (.isAfter created-at end-date)
+                                            older-than-window? (.isBefore created-at start-date)]
+                                        (cond
+                                          newer-than-window? out
+                                          older-than-window? (reduced {:out out :stop true})
+                                          :else
+                                          (if (= (:type ev) "IssueCommentEvent")
+                                            (let [repo-name (get-in ev [:repo :name])
+                                                  title (get-in ev [:payload :issue :title])
+                                                  url (or (get-in ev [:payload :comment :html_url])
+                                                          (get-in ev [:payload :issue :html_url]))
+                                                  entry {:type "IssueCommentEvent"
+                                                         :repo repo-name
+                                                         :created_at (format-date-display created-at)
+                                                         :details {:title title :url url}}]
+                                              (conj out entry))
+                                            out))))
+                                    []
+                                    events)
+                  out (if (and (map? processed) (:out processed)) (:out processed) processed)
+                  reached-end? (and (map? processed) (:stop processed))]
+              (recur (inc page) (into acc out) reached-end?))))))))
+
 (defn fetch-contributions [username start-date end-date]
   (let [start-date-str (format-date start-date)
         end-date-str (format-date end-date)
@@ -47,109 +95,20 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $username) {
     contributionsCollection(from: $from, to: $to) {
       commitContributionsByRepository {
-        repository {
-          name
-          owner {
-            login
-          }
-          isPrivate
-          url
-        }
-        contributions(first: 100) {
-          totalCount
-          nodes {
-            occurredAt
-            resourcePath
-            url
-          }
-        }
+        repository { name owner { login } isPrivate url }
+        contributions(first: 100) { totalCount nodes { occurredAt resourcePath url } }
       }
       pullRequestContributionsByRepository {
-        repository {
-          name
-          owner {
-            login
-          }
-          isPrivate
-          url
-        }
-        contributions(first: 100) {
-          totalCount
-          nodes {
-            pullRequest {
-              title
-              url
-              createdAt
-            }
-          }
-        }
+        repository { name owner { login } isPrivate url }
+        contributions(first: 100) { totalCount nodes { pullRequest { title url createdAt } } }
       }
       pullRequestReviewContributionsByRepository {
-        repository {
-          name
-          owner {
-            login
-          }
-          isPrivate
-          url
-        }
-        contributions(first: 100) {
-          totalCount
-          nodes {
-            pullRequestReview {
-              url
-              createdAt
-              state
-              pullRequest {
-                title
-                url
-              }
-            }
-          }
-        }
-      }
-      issueCommentContributionsByRepository {
-        repository {
-          name
-          owner {
-            login
-          }
-          isPrivate
-          url
-        }
-        contributions(first: 100) {
-          totalCount
-          nodes {
-            issueComment {
-              url
-              createdAt
-              issue {
-                title
-                url
-              }
-            }
-          }
-        }
+        repository { name owner { login } isPrivate url }
+        contributions(first: 100) { totalCount nodes { pullRequestReview { url createdAt state pullRequest { title url } } } }
       }
       issueContributionsByRepository {
-        repository {
-          name
-          owner {
-            login
-          }
-          isPrivate
-          url
-        }
-        contributions(first: 100) {
-          totalCount
-          nodes {
-            issue {
-              title
-              url
-              createdAt
-            }
-          }
-        }
+        repository { name owner { login } isPrivate url }
+        contributions(first: 100) { totalCount nodes { issue { title url createdAt } } }
       }
     }
   }
@@ -159,11 +118,10 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                    "to" end-date-str}
         response (curl/post github-graphql-url
                             {:headers headers
-                             :body (json/generate-string {"query" query "variables" variables})})]
-    (when (= 200 (:status response))
-      (let [data (json/parse-string (:body response) true)]
-        (when-not (get-in data [:errors])
-          (get-in data [:data :user :contributionsCollection]))))))
+                             :body (json/generate-string {"query" query "variables" variables})})
+        parsed (when (= 200 (:status response)) (json/parse-string (:body response) true))]
+    (when (and parsed (not (get parsed :errors)))
+      (get-in parsed [:data :user :contributionsCollection]))))
 
 (defn process-contributions [data start-date end-date]
   (let [contributions (atom [])]
@@ -231,20 +189,20 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                                   :state (get-in prr [:pullRequestReview :state])}})))))))
 
     ;; Process issue comments
-    (doseq [repo-data (get data :issueCommentContributionsByRepository [])]
-      (when-not (get-in repo-data [:repository :isPrivate])
-        (let [repo-name (str (get-in repo-data [:repository :owner :login]) "/"
-                             (get-in repo-data [:repository :name]))]
-          (doseq [ic (get-in repo-data [:contributions :nodes] [])]
-            (let [created-at (parse-date (get-in ic [:issueComment :createdAt]))]
-              (when (and (not (.isBefore created-at start-date))
-                         (not (.isAfter created-at end-date)))
-                (swap! contributions conj
-                       {:type "IssueCommentEvent"
-                        :repo repo-name
-                        :created_at (format-date-display created-at)
-                        :details {:title (get-in ic [:issueComment :issue :title])
-                                  :url (get-in ic [:issueComment :url])}})))))))
+    (doseq [ic (get data :issueCommentContributions [])]
+      (let [repo (get ic :repository)
+            private? (get repo :isPrivate)
+            repo-name (str (get-in repo [:owner :login]) "/" (get repo :name))
+            created-at (parse-date (get-in ic [:comment :createdAt]))]
+        (when (and (not private?)
+                   (not (.isBefore created-at start-date))
+                   (not (.isAfter created-at end-date)))
+          (swap! contributions conj
+                 {:type "IssueCommentEvent"
+                  :repo repo-name
+                  :created_at (format-date-display created-at)
+                  :details {:title (get-in ic [:issue :title])
+                            :url (get-in ic [:comment :url])}}))))
 
     ;; Process issues
     (doseq [repo-data (get data :issueContributionsByRepository [])]
@@ -377,17 +335,19 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
     ;; Ensure base directory exists
     (fs/create-dirs base-dir)
 
-    ;; Get contributions using GraphQL API
+    ;; Get contributions using GraphQL API and merge REST IssueCommentEvent
     (let [contrib-data (fetch-contributions (:github-username config) start-date end-date)
           contributions (when contrib-data
                           (process-contributions contrib-data start-date end-date))
+          comment-events (fetch-user-comment-events (:github-username config) start-date end-date)
+          merged (vec (concat (or contributions []) (or comment-events [])))
           file-name (str year-month ".md")
           file-path (io/file base-dir file-name)
-          md-content (generate-markdown year-month (or contributions []))]
+          md-content (generate-markdown year-month merged)]
 
       ;; Save markdown file
       (spit file-path md-content)
-      (println (str "Generated markdown file with " (count (or contributions [])) " contributions for " file-name)))))
+      (println (str "Generated markdown file with " (count merged) " contributions for " file-name)))))
 
 (defn parse-date-range [start-date end-date]
   (let [start (java.time.YearMonth/parse start-date)

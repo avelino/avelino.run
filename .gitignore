@@ -10,3 +10,5 @@ activitypub-utils-*
 # clojure
 .clj-kondo/
 .lsp/
+
+.envrc
