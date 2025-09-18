@@ -108,6 +108,29 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
           }
         }
       }
+      issueCommentContributionsByRepository {
+        repository {
+          name
+          owner {
+            login
+          }
+          isPrivate
+          url
+        }
+        contributions(first: 100) {
+          totalCount
+          nodes {
+            issueComment {
+              url
+              createdAt
+              issue {
+                title
+                url
+              }
+            }
+          }
+        }
+      }
       issueContributionsByRepository {
         repository {
           name
@@ -206,6 +229,22 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                         :details {:url (get-in prr [:pullRequestReview :url])
                                   :title (get-in prr [:pullRequestReview :pullRequest :title])
                                   :state (get-in prr [:pullRequestReview :state])}})))))))
+
+    ;; Process issue comments
+    (doseq [repo-data (get data :issueCommentContributionsByRepository [])]
+      (when-not (get-in repo-data [:repository :isPrivate])
+        (let [repo-name (str (get-in repo-data [:repository :owner :login]) "/"
+                             (get-in repo-data [:repository :name]))]
+          (doseq [ic (get-in repo-data [:contributions :nodes] [])]
+            (let [created-at (parse-date (get-in ic [:issueComment :createdAt]))]
+              (when (and (not (.isBefore created-at start-date))
+                         (not (.isAfter created-at end-date)))
+                (swap! contributions conj
+                       {:type "IssueCommentEvent"
+                        :repo repo-name
+                        :created_at (format-date-display created-at)
+                        :details {:title (get-in ic [:issueComment :issue :title])
+                                  :url (get-in ic [:issueComment :url])}})))))))
 
     ;; Process issues
     (doseq [repo-data (get data :issueContributionsByRepository [])]
