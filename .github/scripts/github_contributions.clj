@@ -27,6 +27,87 @@
 (def github-graphql-url "https://api.github.com/graphql")
 (def github-rest-base-url "https://api.github.com")
 
+;; OpenAI configuration
+(def openai-config
+  {:api-key (System/getenv "OPENAI_API_KEY")
+   :model (or (System/getenv "OPENAI_MODEL") "gpt-4o-mini")
+   :endpoint "https://api.openai.com/v1/chat/completions"})
+
+(defn truncate-text [s limit]
+  (let [s (or s "")]
+    (if (<= (count s) limit)
+      s
+      (let [cut (subs s 0 limit)
+            last-space (str/last-index-of cut " ")]
+        (str (subs cut 0 (or last-space (- limit 3))) "...")))))
+
+(defn escape-yaml [s]
+  (-> (or s "")
+      (str/replace #"\\" "\\\\")
+      (str/replace #"\"" "\\\"")))
+
+(defn summarize-counts [contributions]
+  (let [by-type (frequencies (map :type contributions))
+        repos (->> contributions (map :repo) (remove nil?) set count)
+        pr-open (get by-type "PullRequestEvent" 0)
+        pr-reviews (get by-type "PullRequestReviewEvent" 0)
+        issues (get by-type "IssuesEvent" 0)
+        comments (get by-type "IssueCommentEvent" 0)
+        pushes (get by-type "PushEvent" 0)]
+    {:repos repos
+     :pr_open pr-open
+     :pr_reviews pr-reviews
+     :issues issues
+     :comments comments
+     :pushes pushes
+     :total (count contributions)}))
+
+(defn build-openai-prompt [month-name year contributions]
+  (let [counts (summarize-counts contributions)
+        sample (->> contributions
+                    (take 40)
+                    (map (fn [c]
+                           {:type (:type c)
+                            :repo (:repo c)
+                            :created_at (:created_at c)
+                            :details (:details c)})))]
+    {:role "user"
+     :content (str
+               "You are an assistant that writes concise SEO copy in EN-US.\n"
+               "Task: Based on the following summary and sample contributions for " month-name " " year ",\n"
+               "1) Write a meta description (<=200 characters) that captures the scope and impact of the month.\n"
+               "2) Write a one-paragraph summary that introduces the timeline on the page.\n"
+               "Return strict JSON with keys: {\"description\": string, \"summary\": string}.\n\n"
+               "High-level counts (JSON):\n" (json/generate-string counts) "\n\n"
+               "Sample contributions (JSON array, truncated):\n" (json/generate-string sample))}))
+
+(defn openai-generate-seo [month-name year contributions]
+  (when (:api-key openai-config)
+    (try
+      (let [payload {:model (:model openai-config)
+                     :temperature 0.6
+                     :max_tokens 400
+                     :response_format {:type "json_object"}
+                     :messages [{:role "system"
+                                 :content "You craft clear, succinct EN-US SEO copy. Always answer in strict JSON."}
+                                (build-openai-prompt month-name year contributions)]}
+            resp (curl/post (:endpoint openai-config)
+                            {:headers {"Authorization" (str "Bearer " (:api-key openai-config))
+                                       "Content-Type" "application/json"}
+                             :body (json/generate-string payload)})
+            status (:status resp)
+            body (when (= status 200) (:body resp))
+            parsed (when body (json/parse-string body true))
+            content (get-in parsed [:choices 0 :message :content])
+            json-out (when content (json/parse-string content true))
+            description (:description json-out)
+            summary (:summary json-out)]
+        (when (and description summary)
+          {:description (truncate-text description 200)
+           :summary summary}))
+      (catch Exception _
+        nil))))
+
 (defn format-date [date]
   (let [formatter (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd'T'HH:mm:ss'Z'")]
     (.format formatter date)))
@@ -234,7 +315,8 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
     {:public-contributions @contributions
      :restricted-count total-private}))
 
-(defn generate-markdown [year-month contributions restricted-count]
+(defn generate-markdown [year-month contributions restricted-count
+                         {:keys [seo-description seo-summary]}]
   (let [[year month] (str/split year-month #"-")
         month-name (-> (java.time.YearMonth/of (parse-long year) (parse-long month))
                        (.format (java.time.format.DateTimeFormatter/ofPattern "MMMM")))
@@ -245,12 +327,15 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                      (.format (java.time.format.DateTimeFormatter/ofPattern "yyyy-MM-dd")))
         content (atom (str "---\n"
                            "title: \"Open Source Contributions - " month-name " " year "\"\n"
-                           "description: \"Timeline of my contributions to open source projects on GitHub during " month-name " " year ".\"\n"
+                           "description: \"" (escape-yaml (or seo-description
+                                                              (str "Timeline of my contributions to open source projects on GitHub during " month-name " " year "."))) "\"\n"
                            "date: " year "-" month "-01\n"
                            "url: /foss/" year "/" month "\n"
                            "draft: false\n"
                            "---\n\n"
-                           "Below is the timeline of my contributions to open source projects during " month-name " " year ".\n\n"))]
+                           (or seo-summary
+                               (str "Below is the timeline of my contributions to open source projects during " month-name " " year "."))
+                           "\n\n"))]
 
     ;; Organize contributions by day
     (let [contributions-by-day (group-by #(first (str/split (:created_at %) #" ")) contributions)
@@ -363,7 +448,12 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
           merged (vec (concat public-contributions (or comment-events [])))
           file-name (str year-month ".md")
           file-path (io/file base-dir file-name)
-          md-content (generate-markdown year-month merged restricted-total)]
+          month-name (-> target-date (.format (java.time.format.DateTimeFormatter/ofPattern "MMMM")))
+          ai (openai-generate-seo month-name (str year) merged)
+          fallback-desc (truncate-text (str "Open source activity in " month-name " " year ": PRs, reviews, issues, comments across multiple repositories.") 200)
+          fallback-sum (str "This month (" month-name " " year ") I contributed across open-source projects with pull requests, code reviews, issues and discussions, spanning multiple repositories and areas of impact.")
+          md-content (generate-markdown year-month merged restricted-total {:seo-description (or (:description ai) fallback-desc)
+                                                                            :seo-summary (or (:summary ai) fallback-sum)})]
 
       ;; Save markdown file
       (spit file-path md-content)
