@@ -1,12 +1,12 @@
 #!/usr/bin/env bb
 
-(ns github-contributions
-  (:require [babashka.curl :as curl]
-            [babashka.fs :as fs]
-            [clojure.string :as str]
-            [clojure.java.io :as io]
-            [cheshire.core :as json]
-            [clojure.tools.cli :refer [parse-opts]]))
+ (ns github-contributions
+   (:require [babashka.curl :as curl]
+             [babashka.fs :as fs]
+             [clojure.string :as str]
+             [clojure.java.io :as io]
+             [cheshire.core :as json]
+             [clojure.tools.cli :refer [parse-opts]]))
 
 (def config
   {:github-username (or (System/getenv "GITHUB_USERNAME") "avelino")
@@ -70,7 +70,8 @@
                                           newer-than-window? out
                                           older-than-window? (reduced {:out out :stop true})
                                           :else
-                                          (if (= (:type ev) "IssueCommentEvent")
+                                          (if (and (= (:type ev) "IssueCommentEvent")
+                                                   (:public ev))
                                             (let [repo-name (get-in ev [:repo :name])
                                                   title (get-in ev [:payload :issue :title])
                                                   url (or (get-in ev [:payload :comment :html_url])
@@ -86,6 +87,12 @@
                   out (if (and (map? processed) (:out processed)) (:out processed) processed)
                   reached-end? (and (map? processed) (:stop processed))]
               (recur (inc page) (into acc out) reached-end?))))))))
+
+;; Count private IssueCommentEvent via REST (public=false) - temporarily disabled, return 0
+(defn fetch-private-issue-comment-count [_ _ _]
+  0)
+
+;;
 
 (defn fetch-contributions [username start-date end-date]
   (let [start-date-str (format-date start-date)
@@ -110,6 +117,7 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
         repository { name owner { login } isPrivate url }
         contributions(first: 100) { totalCount nodes { issue { title url createdAt } } }
       }
+      restrictedContributionsCount
     }
   }
 }"
@@ -124,7 +132,9 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
       (get-in parsed [:data :user :contributionsCollection]))))
 
 (defn process-contributions [data start-date end-date]
-  (let [contributions (atom [])]
+  (let [contributions (atom [])
+        restricted-count (get data :restrictedContributionsCount 0)
+        total-private (or restricted-count 0)]
     ;; Process commits
     (doseq [repo-data (get data :commitContributionsByRepository [])]
       (when-not (get-in repo-data [:repository :isPrivate])
@@ -221,9 +231,10 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                                   :title (get-in issue [:issue :title])
                                   :url (get-in issue [:issue :url])}})))))))
 
-    @contributions))
+    {:public-contributions @contributions
+     :restricted-count total-private}))
 
-(defn generate-markdown [year-month contributions]
+(defn generate-markdown [year-month contributions restricted-count]
   (let [[year month] (str/split year-month #"-")
         month-name (-> (java.time.YearMonth/of (parse-long year) (parse-long month))
                        (.format (java.time.format.DateTimeFormatter/ofPattern "MMMM")))
@@ -318,6 +329,11 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                      "&since=" first-day "T00:00:00Z&until=" last-day "T23:59:59Z)\n"))))
         (swap! content str "\n")))
 
+    ;; Add private contributions count at the very end (always show)
+    (let [private-count (or restricted-count 0)]
+      (swap! content str "## Private contributions\n\n")
+      (swap! content str "- 🔒 " private-count " private contribution(s) this month\n\n"))
+
     @content))
 
 (defn process-month [year month]
@@ -337,17 +353,24 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
 
     ;; Get contributions using GraphQL API and merge REST IssueCommentEvent
     (let [contrib-data (fetch-contributions (:github-username config) start-date end-date)
-          contributions (when contrib-data
-                          (process-contributions contrib-data start-date end-date))
+          processed (when contrib-data
+                      (process-contributions contrib-data start-date end-date))
+          public-contributions (or (:public-contributions processed) [])
+          restricted-count (:restricted-count processed)
+          private-ic-rest (fetch-private-issue-comment-count (:github-username config) start-date end-date)
+          restricted-total (+ (or restricted-count 0) (or private-ic-rest 0))
           comment-events (fetch-user-comment-events (:github-username config) start-date end-date)
-          merged (vec (concat (or contributions []) (or comment-events [])))
+          merged (vec (concat public-contributions (or comment-events [])))
           file-name (str year-month ".md")
           file-path (io/file base-dir file-name)
-          md-content (generate-markdown year-month merged)]
+          md-content (generate-markdown year-month merged restricted-total)]
 
       ;; Save markdown file
       (spit file-path md-content)
-      (println (str "Generated markdown file with " (count merged) " contributions for " file-name)))))
+      (println (str "Generated markdown file with " (count merged)
+                    (when (and restricted-total (> restricted-total 0))
+                      (str " public (+" restricted-total " private)"))
+                    " contributions for " file-name)))))
 
 (defn parse-date-range [start-date end-date]
   (let [start (java.time.YearMonth/parse start-date)
@@ -378,9 +401,8 @@ query($username: String!, $from: DateTime!, $to: DateTime!) {
                              prev-month (.minusMonths current-month 1)]
                          (str (.getYear prev-month) "-" (format "%02d" (.getMonthValue prev-month)))))]
 
-      (let [months (parse-date-range start-date (:date-end options))]
-        (doseq [[year month] months]
-          (process-month year month))))))
+      (doseq [[year month] (parse-date-range start-date (:date-end options))]
+        (process-month year month)))))
 
 (when (= *file* (System/getProperty "babashka.file"))
   (apply -main *command-line-args*))
