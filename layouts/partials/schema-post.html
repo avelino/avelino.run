@@ -1,0 +1,116 @@
+{{/* layouts/partials/schema-post.html */}}
+{{ if .IsPage }}
+<script type="application/ld+json">
+  {{- /* Build structured data using dict/merge and render with jsonify for safe JSON */ -}}
+  {{- $title := .Title -}}
+  {{- /* Description fallback: .Description -> .Summary (when page) -> site param */ -}}
+  {{- $description := "" -}}
+  {{- with .Description -}}
+    {{- $description = . -}}
+  {{- else -}}
+    {{- if .IsPage -}}
+      {{- $description = .Summary -}}
+    {{- else -}}
+      {{- with .Site.Params.description -}}{{- $description = . -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $sd := dict
+      "@context" "https://schema.org"
+      "@type" "BlogPosting"
+      "@id" .Permalink
+      "headline" $title
+      "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+      "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+      "url" .Permalink
+      "isAccessibleForFree" true
+      "inLanguage" .Site.Language.Lang
+      "wordCount" .WordCount
+      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+    -}}
+
+  {{- with $description }}
+    {{- $sd = merge $sd (dict "description" .) -}}
+  {{- end -}}
+
+  {{- /* Alternative headline (subtitle) */ -}}
+  {{- with .Params.subtitle -}}
+    {{- $sd = merge $sd (dict "alternativeHeadline" .) -}}
+  {{- end -}}
+
+  {{- /* Article section */ -}}
+  {{- with .Section -}}
+    {{- $sd = merge $sd (dict "articleSection" .) -}}
+  {{- end -}}
+
+  {{- /* Keywords from tags/keywords */ -}}
+  {{- $keywords := slice -}}
+  {{- with .Params.tags -}}
+    {{- range . -}}{{- $keywords = $keywords | append . -}}{{- end -}}
+  {{- end -}}
+  {{- with .Params.keywords -}}
+    {{- if (reflect.IsSlice .) -}}
+      {{- range . -}}{{- $keywords = $keywords | append . -}}{{- end -}}
+    {{- else -}}
+      {{- $keywords = $keywords | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $keywords) 0 -}}
+    {{- $sd = merge $sd (dict "keywords" (delimit $keywords ", ")) -}}
+  {{- end -}}
+
+  {{- /* Author */ -}}
+  {{- $authorName := or .Params.author .Site.Author.name "Thiago Avelino" -}}
+  {{- if $authorName -}}
+    {{- $author := dict "@type" "Person" "name" $authorName -}}
+    {{- with (or .Params.authorURL (or .Site.Author.url (or .Site.Author.link .Site.Author.homepage) "https://avelino.run")) -}}
+      {{- $author = merge $author (dict "url" .) -}}
+    {{- end -}}
+    {{- with .Site.Author.sameAs -}}
+      {{- $author = merge $author (dict "sameAs" .) -}}
+    {{- end -}}
+    {{- $sd = merge $sd (dict "author" $author) -}}
+  {{- end -}}
+
+  {{- /* Publisher */ -}}
+  {{- $publisher := dict "@type" "Organization" "name" .Site.Title -}}
+  {{- with .Site.Params.logo -}}
+    {{- $publisher = merge $publisher (dict "logo" (dict "@type" "ImageObject" "url" (absURL .))) -}}
+  {{- end -}}
+  {{- with .Site.BaseURL -}}
+    {{- $publisher = merge $publisher (dict "url" .) -}}
+  {{- end -}}
+  {{- with .Site.Params.sameAs -}}
+    {{- $publisher = merge $publisher (dict "sameAs" .) -}}
+  {{- end -}}
+  {{- $sd = merge $sd (dict "publisher" $publisher) -}}
+
+  {{- /* Images (ImageObject list) */ -}}
+  {{- $imageList := slice -}}
+  {{- with .Params.images -}}
+    {{- range . -}}
+      {{- $imageList = $imageList | append (dict "@type" "ImageObject" "url" (absURL .)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with .Params.img -}}
+    {{- $imageList = $imageList | append (dict "@type" "ImageObject" "url" (absURL .)) -}}
+  {{- end -}}
+  {{- if eq (len $imageList) 0 -}}
+    {{- with .Site.Params.logo -}}
+      {{- $imageList = $imageList | append (dict "@type" "ImageObject" "url" (absURL .)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $imageList) 0 -}}
+    {{- $sd = merge $sd (dict "image" $imageList) -}}
+    {{- $sd = merge $sd (dict "thumbnailUrl" ((index $imageList 0).url)) -}}
+  {{- end -}}
+
+  {{- /* Copyright */ -}}
+  {{- $sd = merge $sd (dict "copyrightYear" (.Date.Format "2006")) -}}
+  {{- with (or .Params.copyrightHolder .Site.Author.name .Site.Title) -}}
+    {{- $sd = merge $sd (dict "copyrightHolder" .) -}}
+  {{- end -}}
+
+  {{- $sd | jsonify -}}
+  </script>
+{{ end }}
