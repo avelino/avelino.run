@@ -41,6 +41,12 @@ for = "/.well-known/webfinger"
 Content-Type = "application/jrd+json"
 
 [[redirects]]
+from = "/api/newsletter"
+to = "/.netlify/functions/subscribe"
+status = 200
+force = true
+
+[[redirects]]
 from = "/lifestyle/*"
 to = "/quote/lifestyle/:splat"
 status = 301

@@ -2,22 +2,42 @@
     <p>
         <a href="https://news.avelino.run/" target="_blank">Newsletter</a> about software engineering, team management, team building, books and lots of notes I take after reading/studying (mine or yours)… :D
     </p>
-    <div id="custom-substack-embed"></div>
+    <form id="newsletter-form" style="display:flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+        <input type="email" name="email" placeholder="example@gmail.com" required style="padding: 10px; border-radius: 6px; border: 1px solid #bd93f9; color: #5e497c;" />
+        <button type="submit" style="padding: 10px 16px; border-radius: 6px; border: 1px solid #bd93f9; background: #bd93f9; color: white; cursor: pointer;">sign!</button>
+        <span id="newsletter-message" style="margin-left: 10px;"></span>
+    </form>
     <script>
-        window.CustomSubstackWidget = {
-            substackUrl: "news.avelino.run",
-            placeholder: "example@gmail.com",
-            buttonText: "sign!",
-            theme: "custom",
-            colors: {
-              primary: "#bd93f9",
-              input: "#5e497c",
-              email: "#bd93f9",
-              text: "#5e497c",
-            }
-        };
+        (function(){
+            var form = document.getElementById('newsletter-form');
+            var message = document.getElementById('newsletter-message');
+            if (!form) return;
+            form.addEventListener('submit', async function(e){
+                e.preventDefault();
+                message.textContent = '...';
+                var email = form.email.value.trim();
+                try {
+                    var res = await fetch('/api/newsletter', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ email: email })
+                    });
+                    var data = await res.json();
+                    if (res.ok && data && data.success) {
+                        message.style.color = '#2e7d32';
+                        message.textContent = 'Thanks! Check your inbox.';
+                        form.reset();
+                    } else {
+                        message.style.color = '#c62828';
+                        message.textContent = data && data.error ? data.error : 'Failed to subscribe';
+                    }
+                } catch (err) {
+                    message.style.color = '#c62828';
+                    message.textContent = 'Network error';
+                }
+            });
+        })();
     </script>
-    <script src="https://substackapi.com/widget.js" async></script>
 </div>
 
 <!-- Google tag (gtag.js) -->
