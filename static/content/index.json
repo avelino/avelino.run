@@ -1,15 +1,23 @@
 {
-  "total-posts" : 160,
-  "blog-posts" : 108,
+  "total-posts" : 161,
+  "blog-posts" : 109,
   "quote-posts" : 52,
   "posts" : [ {
     "title" : "Depois de trabalhar anos de casa, voltei para dentro do escritório",
-    "date" : "2025-09-18T00:00:00+00:00",
+    "date" : "2025-10-03T00:00:00+00:00",
     "tags" : [ ],
     "url" : "https://avelino.run/",
     "content" : "A cada dia tem mais áreas e empresas abraçando a cultura do trabalho remoto.",
     "type" : "blog",
     "file-path" : "content/blog/depois-de-trabalhar-anos-de-casa-voltei-para-dentro-do-escritório.md"
+  }, {
+    "title" : "The open source governance model as a reference for leading engineering teams",
+    "date" : "2025-10-02T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/open-source-governance-reference-leading-engineering-teams",
+    "content" : "Technology leadership is at a breaking point. The traditional command-and-control model, born in the industrial era, is cracking under the adaptive complexity of engineering teams. Rajeev Peshawaria opens his book Open Source Leadership with a pointed provocation:\n\n> “Leadership can no longer be about command and control. It must be about influence and inspiration.”\n\nIf projects like Linux, Kubernetes, and Apache were built by distributed communities with open governance and without rigid hierarchical structures, why do corporate engineering leaders still cling to old models?\n\n---\n\nThe crisis of the traditional model: what organizational science shows us\n\nOrganizational science has already accumulated evidence against command-and-control.\n\n- Psychological Safety: Amy Edmondson showed in her seminal study that teams with higher psychological safety share mistakes, learn faster, and perform better (PDF – MIT). Recent studies reinforce this effect as a buffer against burnout (PMC 2024), and there is already work linking psychological safety to the software engineering environment (arXiv 2025).\n\n- Hackman and team effectiveness: Richard Hackman proposed that high-performing teams depend on five conditions: clear purpose, well-defined boundaries, consistent norms and roles, organizational support, and competent coaching (Hackman – What Makes for a Great Team).\n\nThese findings already show that rigid environments, based on fear or hierarchy alone, destroy performance. This is where open source logic comes in as a viable alternative.\n\nOpen source governance: mechanisms that work\n\nOSS governance survives at global scale because it created institutional coordination mechanisms:\n\n- Radical transparency: issues, PRs, and decisions are public. As Peshawaria says:\n  > “In a transparent world, secrecy is the enemy of trust. Leadership today is about being open, even when it is uncomfortable.”\n  This visibility accelerates learning and collective trust.\n\n- Technical meritocracy (broadened):\n  > “Open source leadership is about democratizing power, but not equalizing it. Influence flows to those who add the most value.”\n  Studies show that leadership in OSS emerges not only from technical contribution but also from communication skills and community influence (arXiv – Follow the Leader, 2022). In other words, technical merit matters, but reputation and social capital coexist.\n\n- Autonomy with accountability: the fork symbolizes maximum freedom but carries the cost of maintenance. This mechanism regulates autonomy. In companies, the parallel is to allow squads to explore alternatives, as long as they own outcome and integration metrics.\n\nThese mechanisms echo Hackman’s conditions: purpose, norms, boundaries, and support. OSS applies them in a radical way; corporations can use them as an adapted reference.\n\nHow I think: a CTO and maintainer’s critical reading\n\nMy experience connects both worlds: OSS and corporate management.\n\n- Documented decisions: in communities, PRs function as a public court. At Buser and in OSS projects, adopting open RFCs helped me create legitimacy and institutional memory.\n- Fluid leadership: in OSS, leadership is emergent and temporary. In corporate settings, adopting this flow — specialists taking on roles according to context — works better than fixing authority. Peshawaria sums it up:\n  > “The open source world thrives because leadership is temporary, emergent, and conditional upon contribution.”\n- Burnout and centralization: both in OSS and in corporations, when a few people concentrate critical responsibilities, the result is exhaustion. The path is always to distribute leadership.\n\nOSS is a mirror: it shows that teams can function without rigid hierarchy, as long as they have purpose, transparency mechanisms, and healthy meritocracy.\n\nConclusion\n\nOpen source is not romanticism; it is the largest social laboratory of technology governance in history. If volunteer communities created systems that sustain the internet, there is no excuse for corporate teams to remain stuck in the 1920 model.\n\nThe central lesson is clear: engineering leadership is not HR resource control, but building systems where autonomy, purpose, and accountability can flourish.\n\nThis is the reference. The rest is an illusion of control.\n\n---\n\nExternal references cited\n\n- Edmondson, A. (1999). Psychological Safety and Learning Behavior in Work Teams\n- Ma, J. et al. (2024). The impact of psychological safety on employees’ well-being and performance\n- Hackman, J. (2004). What Makes for a Great Team\n- Maltby, A. et al. (2022). Follow the Leader: Technical and Inspirational Leadership in OSS\n- Edmondson, A. et al. (2025). Psychological Safety in Software Engineering Teams",
+    "type" : "blog",
+    "file-path" : "content/blog/2025-10-open-source-governance-reference-leading-engineering-teams.md"
   }, {
     "title" : "When Danger Knocks on the Door: Learning to Handle CVEs in Open Source",
     "date" : "2025-09-08T00:00:00+00:00",
@@ -363,14 +371,6 @@
     "type" : "blog",
     "file-path" : "content/blog/2022-04-02-metodo-pink-dot-minimalismo.md"
   }, {
-    "title" : "Sabbatical time focused on developer experience (DevX)",
-    "date" : "2022-03-20T00:00:00+00:00",
-    "tags" : [ ],
-    "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
-    "content" : "",
-    "type" : "blog",
-    "file-path" : "content/blog/2022-03-20-sabbatical-time-focused-on-developer-experience.md"
-  }, {
     "title" : "Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)",
     "date" : "2022-03-20T00:00:00+00:00",
     "tags" : [ ],
@@ -378,6 +378,14 @@
     "content" : "O último _tempo sabático_ que tirei foi no final de 2018 quando sai do dia-a-dia da empresa que fundei em 2015, foram intensos 4 anos de trabalho e precisava parar para oxigenar meu cérebro.\n\nNo meio de 2019 resolvi voltar ao mercado de trabalho para aprender sobre como as empresas de tecnologia estão estruturando time de engenharia de software — vinha empreendendo desde 2012 até 2018 e estruturando time de engenharia como julgava ser a melhor forma, senti precisar ganhar experiencia com quem estava em momento de _scaleup_, fazendo com excelência o que eu queria aprender.\n\nEstudando sobre UX\n\nDe 2019 para cá não investi tempo para aprender assuntos diferentes que não necessariamente me dê ~dinheiro~. Em _dezembro/2021_ resolvi financiar meu aprendizado (passar alguns meses sem trabalhar e estudando) e resolvi investindo meu tempo em Experiência do Usuário (focando na _pessoa desenvolvedora_).\n\nSendo mais específico estudei sobre os seguintes assuntos:\n\n- Psicologia Cognitiva;\n- Usabilidade e Interação;\n- Interação Humano-Computador;\n- Design System;\n- e muitos outros assuntos relacionado a UX (não especifico para DevX).\n\n> Todos os temas voltado para experiência de pessoas, não necessariamente pessoa desenvolvedora.\n\nTudo que estudo profundamente coloco em prática em um ambiente publico, geralmente uso projeto Open Source para isso, sendo contribuindo com algum projeto existente ou começando um novo projeto (~caso não existe~, é muito difícil não existir um projeto open source que faça uma parte da ideia que você não teve).\n\nColocando o estudo em prática\n\nSou um dos criadores do prestd (simplifica abrir o banco de dados PostgreSQL como uma API RESTful), infelizmente subir o ambiente de produção para o prestd não era uma tarefa simples (ainda não é, mas estamos no caminho) e só de pensar em subir o ambiente para desenvolver e/ou contribuir com o projeto era ainda mais complicado — eu sentia/sinto vergonha que ajudei desenvolver um projeto com uma barreira super alta para contribuição, eu só tive essa visão após estuda sobre UX com foco em DevX. Quando tenho esse tipo de sentimento (vergonha ou algum problema) gosto de trazer os problemas para meu colo, assim tenho a oportunidade de assumir a responsabilidade de melhorar o que esta me incomodando.\n\nAlguns passos importantes que o prestd deu para simplificar a vida da pessoa desenvolvedora (que quer usar ou contribuir com o projeto):\n\n- Reestruturar a documentação com o pensamento de quem vai usar o projeto, não com pensamento de quem já conhece o projeto;\n- Limitar o número de novos recursos que entra no projeto, precisamos colocar esforços nos recursos atuais melhorando a documentação e simplificando o uso;\n- Simplificar a criação do ambiente de desenvolvimento, usando devcontainers (e sua integração com GitHub Codespace), docker-compose e permitir rodar os testes localmente (na real ele rodava localmente, mas tinha que configurar muitas coisas e até eu deixar rodar no _CI_). Escrevi aqui um blogpost falando desse processo;\n- ..., ainda temos muito que fazer/melhorar para deixar o prestd um software amigável para novas pessoas desenvolvedoras, mas sinto que estamos em uma constante evolução.\n\nQuando falamos de DevX (UX focado nas pessoas desenvolvedoras) precisamos ter empatia com as pessoas que vão usar o software que estamos desenvolvendo, e não _só_ com as pessoas que conhece o projeto, devemos nos colocar no lugar das pessoas e buscar sentir o que elas sentiriam se estivesse embarcando hoje no projeto sem ter conhecimento prévio.\n\n> O que você tem feito para deixar o software que você esta desenvolvendo atualmente mais acessível para seus usuários e novos membros do time? Lembre-se que o código é (e acredito que sempre será) um meio para chegar em algum lugar e não a linha de chegada, principalmente quando estamos falando sobre desenvolver software para outras pessoas desenvolvedoras usar - nós desenvolvedores somos pessoas que tem muito _viés cognitivo_.",
     "type" : "blog",
     "file-path" : "content/blog/2022-03-20-tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx.md"
+  }, {
+    "title" : "Sabbatical time focused on developer experience (DevX)",
+    "date" : "2022-03-20T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
+    "content" : "",
+    "type" : "blog",
+    "file-path" : "content/blog/2022-03-20-sabbatical-time-focused-on-developer-experience.md"
   }, {
     "title" : "We are more than 75,000 people (stars 🌟) — awesome-go",
     "date" : "2022-02-03T00:00:00+00:00",
@@ -1003,6 +1011,14 @@
     "type" : "blog",
     "file-path" : "content/blog/church-vim.md"
   }, {
+    "title" : "Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno",
+    "date" : "2015-02-15T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/",
+    "content" : "Escute minha participação no Castalio Podcast falando sobre OpenMining e SambaPorno (ATENÇÃO: _Conteúdo Pornográfico EXPLÍCITO_):\n\n{{< podcast https://archive.org/embed/castalio-podcast-64 >}}",
+    "type" : "blog",
+    "file-path" : "content/blog/2015-03-01-castalio-podcast-episodio-64-thiago-avelino-openmining-e-sambaporno.md"
+  }, {
     "title" : "Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging",
     "date" : "2015-02-15T00:00:00+00:00",
     "tags" : [ ],
@@ -1018,14 +1034,6 @@
     "content" : "Nós da área de tecnologia passamos muito por encerramento de ciclos, resolvi escrever um blogpost não técnico para retratar alguns pontos importantes na hora de fecharmos nossos ciclos. Não estou escrevendo uma ciência exata, acho extremamente importante após ler o blogpost você pare para pensar o que acha certo ou errado, e sinta-se livre para comentar.\n\nSempre é preciso saber quando uma etapa chega ao final. Se insistirmos em permanecer nela mais do que o tempo necessário, perdemos a alegria e o sentido das outras etapas que precisamos viver. Encerrando ciclos, fechando portas, terminando capítulos - não importa o nome que damos, o que importa é deixar no passado os momentos da vida que já se acabaram.\n\n- Foi despedido do trabalho? Terminou uma relação?\n- Deixou a casa dos pais? Partiu para viver em outro país?\n- A amizade tão longamente cultivada desapareceu sem explicações?\n\nVocê pode passar muito tempo se perguntando por que isso aconteceu. Pode dizer para si mesmo que não dará mais um passo enquanto não entender as razões que levaram certas coisas, que eram tão importantes e sólidas em sua vida, serem subitamente transformadas em pó. Mas tal atitude será um desgaste imenso para todos: seus pais, seu marido ou sua esposa, seus amigos, seus filhos, sua irmã, todos estarão encerrando capítulos, virando a folha, seguindo adiante, e todos sofrerão ao ver que você está parado.\n\nNinguém pode estar ao mesmo tempo no presente e no passado, nem mesmo quando tentamos entender as coisas que acontecem conosco. O que passou não voltará: não podemos ser eternamente meninos, adolescentes tardios, filhos que se sentem culpados ou rancorosos com os pais, amantes que revivem noite e dia uma ligação com quem já foi embora e não tem a menor intenção de voltar.\n\nAs coisas passam, e o melhor que fazemos é deixar que elas realmente possam ir embora. Por isso é tão importante (por mais doloroso que seja!) destruir recordações, mudar de casa, dar muitas coisas para orfanatos, vender ou doar os livros que tem. Tudo neste mundo visível é uma manifestação do mundo invisível, do que está acontecendo em nosso coração - e o desfazer-se de certas lembranças significa também abrir espaço para que outras tomem o seu lugar.\n\nDeixar ir embora. Soltar. Desprender-se.\nNinguém está jogando nesta vida com cartas marcadas, portanto às vezes ganhamos, e às vezes perdemos. Não espere que devolvam algo, não espere que reconheçam seu esforço, que descubram seu gênio, que entendam seu amor. Pare de ligar sua televisão emocional e assistir sempre ao mesmo programa, que mostra como você sofreu com determinada perda: isso o estará apenas envenenando, e nada mais.\n\nNão há nada mais perigoso que rompimentos amorosos que não são aceitos, promessas de emprego que não têm data marcada para começar, decisões que sempre são adiadas em nome do “momento ideal”. Antes de começar um capítulo novo, é preciso terminar o antigo: diga a si mesmo que o que passou, jamais voltará.\n\nLembre-se de que houve uma época em que podia viver sem aquilo, sem aquela pessoa - nada é insubstituível, um hábito não é uma necessidade. Pode parecer óbvio, pode mesmo ser difícil, mas é muito importante. Encerrando ciclos. Não por causa do orgulho, por incapacidade, ou por soberba, mas porque simplesmente aquilo já não se encaixa mais na sua vida. Feche a porta, mude o disco, limpe a casa, sacuda a poeira. Deixe de ser quem era, e se transforme em quem é.",
     "type" : "blog",
     "file-path" : "content/blog/encerrando-cliclos-viva-no-presente-nao-se-paralise-pelo-passado.md"
-  }, {
-    "title" : "Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno",
-    "date" : "2015-02-15T00:00:00+00:00",
-    "tags" : [ ],
-    "url" : "https://avelino.run/",
-    "content" : "Escute minha participação no Castalio Podcast falando sobre OpenMining e SambaPorno (ATENÇÃO: _Conteúdo Pornográfico EXPLÍCITO_):\n\n{{< podcast https://archive.org/embed/castalio-podcast-64 >}}",
-    "type" : "blog",
-    "file-path" : "content/blog/2015-03-01-castalio-podcast-episodio-64-thiago-avelino-openmining-e-sambaporno.md"
   }, {
     "title" : "Where to start a project with bottle, Boilerplate",
     "date" : "2015-02-08T00:00:00+00:00",
