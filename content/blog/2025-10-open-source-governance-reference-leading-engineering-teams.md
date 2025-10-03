@@ -14,7 +14,7 @@ Technology leadership is at a breaking point. The traditional command-and-contro
 
 If projects like [Linux](https://www.kernel.org/), [Kubernetes](https://kubernetes.io/), and [Apache](https://www.apache.org/) were built by distributed communities with open governance and without rigid hierarchical structures, why do corporate engineering leaders still cling to old models?
 
----
+![The open source governance model as a reference for leading engineering teams](/blog/governanca-open-source-referencia-lideranca-times-engenharia.png)
 
 ## The crisis of the traditional model: what organizational science shows us
 
