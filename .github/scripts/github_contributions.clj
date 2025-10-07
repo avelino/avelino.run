@@ -129,7 +129,9 @@
 ;; Fetch public user events via REST to capture IssueCommentEvent (issue/PR comments)
 (defn fetch-user-comment-events [username start-date end-date]
   (let [per-page 100
-        auth-headers (cond-> {"Accept" "application/vnd.github+json"}
+        max-pages 10
+        auth-headers (cond-> {"Accept" "application/vnd.github+json"
+                              "User-Agent" "avelino.run"}
                        (:github-token config) (assoc "Authorization" (str "Bearer " (:github-token config))))]
     (loop [page 1
            acc []
@@ -137,7 +139,8 @@
       (if stop?
         acc
         (let [url (str github-rest-base-url "/users/" username "/events?per_page=" per-page "&page=" page)
-              resp (curl/get url {:headers auth-headers})
+              resp (curl/get url {:headers auth-headers
+                                  :throw false})
               status (:status resp)
               body (:body resp)
               events (when (= status 200) (json/parse-string body true))]
@@ -166,7 +169,8 @@
                                     []
                                     events)
                   out (if (and (map? processed) (:out processed)) (:out processed) processed)
-                  reached-end? (and (map? processed) (:stop processed))]
+                  reached-end? (or (and (map? processed) (:stop processed))
+                                   (>= page max-pages))]
               (recur (inc page) (into acc out) reached-end?))))))))
 
 ;; Count private IssueCommentEvent via REST (public=false) - temporarily disabled, return 0
