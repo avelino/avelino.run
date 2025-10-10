@@ -1,15 +1,23 @@
 {
-  "total-posts" : 161,
-  "blog-posts" : 109,
+  "total-posts" : 162,
+  "blog-posts" : 110,
   "quote-posts" : 52,
   "posts" : [ {
     "title" : "Depois de trabalhar anos de casa, voltei para dentro do escritório",
-    "date" : "2025-10-03T00:00:00+00:00",
+    "date" : "2025-10-10T00:00:00+00:00",
     "tags" : [ ],
     "url" : "https://avelino.run/",
     "content" : "A cada dia tem mais áreas e empresas abraçando a cultura do trabalho remoto.",
     "type" : "blog",
     "file-path" : "content/blog/depois-de-trabalhar-anos-de-casa-voltei-para-dentro-do-escritório.md"
+  }, {
+    "title" : "Motivation is Personal: Leading Large Tech Teams",
+    "date" : "2025-10-09T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/motivation-is-personal-leading-large-tech-teams",
+    "content" : "Talking about motivation might seem simple to those who have never led a large team. From my perspective, running the day-to-day technology of a Brazilian startup with over 260 people, it’s impossible to ignore how motivation is diverse, fluid, and deeply personal.\n\nMotivation on the technology floor\n\nNothing is more valuable than recognizing the real context of each team member. This is not just LinkedIn talk. Here at Buser, working with multidisciplinary teams makes it clear: what drives a backend engineer doesn’t necessarily inspire a frontend engineer; a product manager seeks a sense of belonging, while an SRE developer is motivated by radical autonomy.\n\n📖 Peopleware sums up the essence of this challenge:\n> “The biggest mistake managers make is to assume that everyone is motivated by the same things that motivate themselves.”\n> — Peopleware, Tom DeMarco & Timothy Lister\n\nRecognizing that each person is searching for something different is a basic requirement for anyone leading technology at scale—ignore this, and you’re aiming only for mediocre results.\n\nLeadership experience: how I personalize motivation\n\nWhen I became CTO, I thought technical skills were everything. I quickly realized culture, rituals, and listening weighed even more. The real work is in understanding nuances:\n\n- Implementing 1:1 sessions to listen to personal ambitions https://avelino.run/quote/lifestyle/foco-em-evoluir-e-auto-conhecimento/;\n- Setting flexible goals so no one feels boxed in;\n- Encouraging challenges in areas that bring fulfillment, not just operational results.\n\nIn my daily routine, the feedback that brought the most development almost never came from formal meetings—but from honest conversations, over coffee, while cycling, or during retrospectives where the team risks showing vulnerability.\n\nDiscipline’s role when motivation swings\n\nMotivation is necessary, but not sufficient. I had to adapt and learn that discipline is what sustains the journey https://avelino.run/quote/lifestyle/transformando-dores-musculares-em-amor/. Not every day is the best day to innovate, implement, or debug. From sports—and I bring this to management—I learned that routine and consistency amplify results.\nEarly in my career, I sought motivation in the adrenaline of delivering features. Over time, I realized the true value is creating an environment where people grow regardless of the “motivation peak” of the moment.\n\n> “Projects fail not for lack of techniques, but for ignoring human factors. Motivated and respected teams avoid waste and deliver better solutions.”\n> — Peopleware, Tom DeMarco & Timothy Lister\n\nCustomizing culture and goals: real startup cases\n\nBuser’s engineering culture evolved to embrace multiple motivational styles. A few practices that have proven effective:\n\n- I allow engineers to propose their own challenges, rather than only accepting top-down goals;\n- Celebrating both small and big wins, creating moments of authentic recognition;\n- Giving frank feedback, including the need to reinvent processes when we notice collective demotivation.\n\nNone of this works unless the leader is willing to be vulnerable, correct course, and make room for others’ vulnerability. There’s no recipe—just trust.\n\nReferences and further reading\n\n- Peopleware: Productive Projects and Teams — Tom DeMarco & Timothy Lister\n  https://www.amazon.com/dp/0321934113\n- Foco em evoluir e auto conhecimento\n  https://avelino.run/quote/lifestyle/foco-em-evoluir-e-auto-conhecimento/\n- Transformando dores musculares em prazer\n  https://avelino.run/quote/lifestyle/transformando-dores-musculares-em-amor/\n- 3 passos importantes para cumprir metas\n  https://avelino.run/quote/3-passos-importantes-para-cumprir-nosso-objetivo-e-metas/\n- Por que devemos ter objetivo e metas?\n  https://avelino.run/quote/por-que-devemos-ter-objetivo-e-metas/\n\n---\n\nLeading tech in a startup with hundreds of people is, above all, a constant exercise in humility, attentive listening, and adaptation. Motivation is personal, it shifts—and the only certainty is that no book or technique replaces hands-on experience with the team on the ground.",
+    "type" : "blog",
+    "file-path" : "content/blog/2025-10-motivation-is-personal-leading-large-tech-teams.md"
   }, {
     "title" : "The open source governance model as a reference for leading engineering teams",
     "date" : "2025-10-02T00:00:00+00:00",

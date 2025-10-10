@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 161,
+  "totalItems" : 162,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/c3b67d55d560fc3f0ac2b73ad175ea76/create",
+    "id" : "/socialweb/notes/6ffff1c67b09ad1795310d214174be4d/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-10-03T00:00:00+00:00",
+    "published" : "2025-10-10T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "c3b67d55d560fc3f0ac2b73ad175ea76",
-      "id" : "/socialweb/notes/c3b67d55d560fc3f0ac2b73ad175ea76",
+      "hash" : "6ffff1c67b09ad1795310d214174be4d",
+      "id" : "/socialweb/notes/6ffff1c67b09ad1795310d214174be4d",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-10-03T00:00:00+00:00",
+      "published" : "2025-10-10T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/c3b67d55d560fc3f0ac2b73ad175ea76",
+        "id" : "/socialweb/replies/6ffff1c67b09ad1795310d214174be4d",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/c3b67d55d560fc3f0ac2b73ad175ea76?page=true",
-          "partOf" : "/socialweb/replies/c3b67d55d560fc3f0ac2b73ad175ea76",
+          "next" : "/socialweb/replies/6ffff1c67b09ad1795310d214174be4d?page=true",
+          "partOf" : "/socialweb/replies/6ffff1c67b09ad1795310d214174be4d",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/41691f7daad1594fa00a5bd67d56a388/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-10-09T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/motivation-is-personal-leading-large-tech-teams",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "41691f7daad1594fa00a5bd67d56a388",
+      "id" : "/socialweb/notes/41691f7daad1594fa00a5bd67d56a388",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-10-09T00:00:00+00:00",
+      "content" : "<p>Motivation is Personal: Leading Large Tech Teams</p><p><a href='https://avelino.run/motivation-is-personal-leading-large-tech-teams'>https://avelino.run/motivation-is-personal-leading-large-tech-teams</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/41691f7daad1594fa00a5bd67d56a388",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/41691f7daad1594fa00a5bd67d56a388?page=true",
+          "partOf" : "/socialweb/replies/41691f7daad1594fa00a5bd67d56a388",
           "items" : [ ]
         }
       },
