@@ -1,0 +1,43 @@
+name: Newsletter on new post
+
+on:
+    push:
+        branches: [main]
+        paths:
+            - "content/blog/**"
+
+jobs:
+    send-broadcast:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 2
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+            - name: Install deps
+              run: |
+                  if [ -f package-lock.json ] || [ -f package.json ]; then
+                    npm ci || npm i
+                  else
+                    npm init -y
+                    npm i resend gray-matter
+                  fi
+            - name: Send newsletter broadcast
+              run: node .github/scripts/send_newsletter.mjs
+              env:
+                  RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+                  RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+                  NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
+                  SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+                  SITE_NAME: avelino.run
+            - name: Commit newsletter state
+              run: |
+                  if [ -f .newsletter_state.json ]; then
+                    git config user.name "GitHub Actions"
+                    git config user.email "actions@github.com"
+                    git add .newsletter_state.json
+                    git commit -m "update newsletter state [skip ci]" || echo "no changes"
+                    git push
+                  fi
