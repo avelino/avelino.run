@@ -127,6 +127,32 @@ console.log('SITE_BASE_URL:', BASE_URL);
 console.log('SITE_NAME:', SITE_NAME);
 
 const resend = new Resend(RESEND_API_KEY);
+const BLOG_DIR = path.join(process.cwd(), 'content', 'blog');
+
+const walkBlogPosts = (dir) => {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  return entries.flatMap(entry => {
+    const entryPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      return walkBlogPosts(entryPath);
+    }
+    if (entry.isFile() && /\.mdx?$/i.test(entry.name)) {
+      return [entryPath];
+    }
+    return [];
+  });
+};
+
+const normalizeFileId = (filePath) => {
+  const cleaned = filePath
+    .replace(/^\.\//, '')
+    .replace(/^content\//, '')
+    .replace(/^\/+/, '');
+  if (!cleaned) return cleaned;
+  if (cleaned.startsWith('blog/')) return cleaned;
+  return `blog/${cleaned.replace(/^blog\//, '')}`;
+};
+
 const statePath = path.join(process.cwd(), '.newsletter_state.json');
 let state = { lastSent: [] };
 if (fs.existsSync(statePath)) {
@@ -137,6 +163,13 @@ if (fs.existsSync(statePath)) {
   }
 }
 if (!Array.isArray(state.lastSent)) state.lastSent = [];
+
+state.lastSent = state.lastSent
+  .filter(Boolean)
+  .map(normalizeFileId)
+  .filter(Boolean);
+
+const normalizedStateSet = new Set(state.lastSent);
 
 // Detect new files in content/blog/ from the last commit
 // Use GitHub Actions context if available (github.event.before is the previous commit SHA)
@@ -233,10 +266,56 @@ const added = Array.from(new Set(
     .map(entry => entry.filePath)
 ));
 
+const addedWithFallback = [...added];
+
+if (!addedWithFallback.length) {
+  console.log('No new posts detected in diff. Checking for unsent published posts...');
+
+  const allPosts = fs.existsSync(BLOG_DIR) ? walkBlogPosts(BLOG_DIR) : [];
+  const unsent = allPosts
+    .map(postPath => {
+      try {
+        const raw = fs.readFileSync(postPath, 'utf8');
+        const { data } = matter(raw);
+        const draft = data?.draft === true;
+        const parsedDate = data?.date ? new Date(data.date) : null;
+        const date = parsedDate instanceof Date && !Number.isNaN(parsedDate.getTime())
+          ? parsedDate
+          : null;
+        return { postPath, draft, date };
+      } catch (e) {
+        console.warn(`Failed to read frontmatter for ${postPath}:`, e.message);
+        return null;
+      }
+    })
+    .filter(Boolean)
+    .filter(({ postPath, draft }) => {
+      if (draft) return false;
+      const fileId = normalizeFileId(postPath);
+      return !normalizedStateSet.has(fileId);
+    })
+    .sort((a, b) => {
+      if (a.date && b.date) {
+        return a.date - b.date;
+      }
+      if (a.date) return -1;
+      if (b.date) return 1;
+      return a.postPath.localeCompare(b.postPath);
+    });
+
+  if (unsent.length) {
+    const fallbackPosts = unsent.map(({ postPath }) => postPath);
+    console.log(`Found ${fallbackPosts.length} unsent post(s) based on state. Adding them to processing queue.`);
+    addedWithFallback.push(...fallbackPosts);
+  }
+}
+
+const filesToProcess = Array.from(new Set(addedWithFallback));
+
 console.log(`Found ${added.length} new file(s) in git diff`);
 
-if (!added.length) {
-  console.log('No new posts added.');
+if (!filesToProcess.length) {
+  console.log('No new posts added and no unsent posts found.');
   // Debug: list all commits and files
   try {
     const recentCommits = execSync('git log --oneline -5').toString();
@@ -249,17 +328,17 @@ if (!added.length) {
   process.exit(0);
 }
 
-console.log(`Found ${added.length} new post(s) to process.`);
-console.log(`Files to process:`, added);
+console.log(`Found ${filesToProcess.length} post(s) to process.`);
+console.log(`Files to process:`, filesToProcess);
 
 // Send 1..N posts added in the commit
-for (const postPath of added) {
+for (const postPath of filesToProcess) {
   // Use relative file path as unique identifier
-  const fileId = postPath.replace(/^content\/blog\//, '');
+  const fileId = normalizeFileId(postPath);
 
   console.log(`\n=== Processing post: ${fileId} ===`);
 
-  if (state.lastSent.includes(fileId)) {
+  if (normalizedStateSet.has(fileId)) {
     console.log(`Skip: ${fileId} already sent.`);
     continue;
   }
@@ -368,13 +447,15 @@ for (const postPath of added) {
 
   // Update state with file identifier
   state.lastSent.push(fileId);
+  state.lastSent = Array.from(new Set(state.lastSent));
+  normalizedStateSet.add(fileId);
   // Write state immediately after each successful send
   fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
   console.log(`✓ Updated state file: ${fileId} added to lastSent`);
 }
 
 // Final state save (in case of multiple posts)
-if (added.length > 0) {
+if (filesToProcess.length > 0) {
   fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
   console.log(`✓ Final state saved: ${state.lastSent.length} total posts tracked`);
 }
