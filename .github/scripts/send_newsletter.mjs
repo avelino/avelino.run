@@ -196,12 +196,42 @@ if (parentSha && currentSha !== parentSha) {
 
 console.log('Git diff output:', diff);
 
-const added = diff
+const diffEntries = diff
   .split('\n')
-  .map(l => l.trim().split('\t'))
-  .filter(p => p[0] === 'A' && p[1] && p[1].startsWith('content/blog/'))
-  .map(p => p[1])
-  .filter(f => f && /\.(md|mdx)$/.test(f));
+  .map(line => line.trim())
+  .filter(Boolean)
+  .map(line => line.split('\t').filter(Boolean))
+  .filter(parts => parts.length >= 2);
+
+const isBlogPostPath = (filePath) =>
+  filePath && filePath.startsWith('content/blog/') && /\.(md|mdx)$/i.test(filePath);
+
+const addedCandidates = diffEntries
+  .flatMap(parts => {
+    const rawStatus = parts[0] || '';
+    const statusType = rawStatus[0];
+
+    if (statusType === 'A') {
+      const filePath = parts[1];
+      return isBlogPostPath(filePath) ? [{ filePath, status: 'A' }] : [];
+    }
+
+    if (statusType === 'R' || statusType === 'C') {
+      const oldPath = parts[1];
+      const newPath = parts[parts.length - 1];
+      if (isBlogPostPath(newPath)) {
+        return [{ filePath: newPath, status: statusType, oldPath }];
+      }
+    }
+
+    return [];
+  });
+
+const added = Array.from(new Set(
+  addedCandidates
+    .filter(entry => entry.status === 'A' || !isBlogPostPath(entry.oldPath || ''))
+    .map(entry => entry.filePath)
+));
 
 console.log(`Found ${added.length} new file(s) in git diff`);
 
