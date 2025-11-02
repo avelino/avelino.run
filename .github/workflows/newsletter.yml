@@ -6,9 +6,16 @@ on:
         paths:
             - "content/blog/**"
 
+permissions:
+    contents: write
+    pages: write
+    id-token: write
+
 jobs:
     send-broadcast:
         runs-on: ubuntu-latest
+        environment:
+            name: github-pages
         steps:
             - uses: actions/checkout@v4
               with:
