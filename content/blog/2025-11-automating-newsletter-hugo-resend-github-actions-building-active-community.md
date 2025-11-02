@@ -2,7 +2,7 @@
 date: "2025-11-02"
 draft: false
 title: "Automating newsletter delivery with Hugo, Resend, and GitHub Actions: building an active community around your static site"
-tags: ["hugo", "resend", "github actions", "newsletter", "automation", "community", "static site", "email marketing"]
+tags: ["hugo", "resend", "github actions", "newsletter", "automation", "community", "email marketing"]
 description: "A practical guide to building a Substack-like newsletter system for Hugo sites using Resend.com and GitHub Actions, with automatic post detection, duplicate prevention, and community engagement mechanisms"
 url: "/automating-newsletter-hugo-resend-github-actions-building-active-community"
 ---
