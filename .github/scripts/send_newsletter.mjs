@@ -129,16 +129,83 @@ if (fs.existsSync(statePath)) {
 if (!Array.isArray(state.lastSent)) state.lastSent = [];
 
 // Detect new files in content/blog/ from the last commit
-const diff = execSync('git diff --name-status HEAD~1 HEAD').toString();
+// Use GitHub Actions context if available (github.event.before is the previous commit SHA)
+const currentSha = process.env.GITHUB_SHA || execSync('git rev-parse HEAD').toString().trim();
+let parentSha = process.env.GITHUB_BASE_SHA;
+
+// If GITHUB_BASE_SHA is not set, try to get the parent commit
+if (!parentSha) {
+  try {
+    parentSha = execSync(`git rev-parse ${currentSha}^`).toString().trim();
+  } catch (e) {
+    // If no parent, try HEAD~1
+    try {
+      parentSha = execSync('git rev-parse HEAD~1').toString().trim();
+    } catch (e2) {
+      console.warn('Could not determine parent commit, trying alternative method');
+      // Last resort: use git log to find the previous commit
+      try {
+        const logOutput = execSync('git log --format=%H -2').toString().trim().split('\n');
+        if (logOutput.length >= 2) {
+          parentSha = logOutput[1];
+        }
+      } catch (e3) {
+        console.error('Failed to determine parent commit');
+      }
+    }
+  }
+}
+
+console.log(`Current commit: ${currentSha}`);
+console.log(`Parent commit: ${parentSha || 'unknown'}`);
+
+let diff;
+if (parentSha && currentSha !== parentSha) {
+  try {
+    diff = execSync(`git diff --name-status ${parentSha} ${currentSha}`).toString();
+    console.log(`Using diff between ${parentSha.substring(0, 7)} and ${currentSha.substring(0, 7)}`);
+  } catch (e) {
+    console.warn(`Failed to diff ${parentSha}..${currentSha}, trying HEAD~1 HEAD`);
+    try {
+      diff = execSync('git diff --name-status HEAD~1 HEAD').toString();
+    } catch (e2) {
+      console.error('Failed to get git diff:', e2.message);
+      process.exit(1);
+    }
+  }
+} else {
+  // Fallback: use HEAD~1 HEAD
+  console.warn('No valid parent SHA, using HEAD~1 HEAD');
+  try {
+    diff = execSync('git diff --name-status HEAD~1 HEAD').toString();
+  } catch (e) {
+    console.error('Failed to get git diff:', e.message);
+    process.exit(1);
+  }
+}
+
+console.log('Git diff output:', diff);
+
 const added = diff
   .split('\n')
   .map(l => l.trim().split('\t'))
   .filter(p => p[0] === 'A' && p[1] && p[1].startsWith('content/blog/'))
   .map(p => p[1])
-  .filter(f => /\.(md|mdx)$/.test(f));
+  .filter(f => f && /\.(md|mdx)$/.test(f));
+
+console.log(`Found ${added.length} new file(s) in git diff`);
 
 if (!added.length) {
   console.log('No new posts added.');
+  // Debug: list all commits and files
+  try {
+    const recentCommits = execSync('git log --oneline -5').toString();
+    console.log('Recent commits:', recentCommits);
+    const recentFiles = execSync('git log --name-status --oneline -1').toString();
+    console.log('Files in last commit:', recentFiles);
+  } catch (e) {
+    console.warn('Could not get debug info:', e.message);
+  }
   process.exit(0);
 }
 
@@ -228,5 +295,13 @@ for (const postPath of added) {
 
   // Update state with file identifier
   state.lastSent.push(fileId);
+  // Write state immediately after each successful send
   fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
+  console.log(`✓ Updated state file: ${fileId} added to lastSent`);
+}
+
+// Final state save (in case of multiple posts)
+if (added.length > 0) {
+  fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
+  console.log(`✓ Final state saved: ${state.lastSent.length} total posts tracked`);
 }
