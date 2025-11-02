@@ -92,6 +92,8 @@ jobs:
           git push
 ```
 
+See the full implementation: [`.github/workflows/newsletter.yml`](https://github.com/avelino/avelino.run/blob/main/.github/workflows/newsletter.yml)
+
 Key design decisions:
 
 - **`fetch-depth: 2`**: Required to compare `HEAD~1` and `HEAD` for detecting new files
@@ -155,6 +157,8 @@ for (const postPath of added) {
 }
 ```
 
+See the full implementation: [`.github/scripts/send_newsletter.mjs`](https://github.com/avelino/avelino.run/blob/main/.github/scripts/send_newsletter.mjs)
+
 The script's logic:
 
 - **Git-based detection**: Uses `git diff` to find files added in the latest commit—more reliable than file timestamps
@@ -174,6 +178,8 @@ The `.newsletter_state.json` file tracks all sent posts:
   ]
 }
 ```
+
+See the current state file: [`.newsletter_state.json`](https://github.com/avelino/avelino.run/blob/main/.newsletter_state.json)
 
 This file is:
 
@@ -270,6 +276,11 @@ The technical details matter, but the real value is in creating infrastructure t
 
 ### Implementation resources
 
+- **Full implementation**: [avelino/avelino.run repository](https://github.com/avelino/avelino.run)
+  - [GitHub Actions workflow](https://github.com/avelino/avelino.run/blob/main/.github/workflows/newsletter.yml)
+  - [Newsletter script](https://github.com/avelino/avelino.run/blob/main/.github/scripts/send_newsletter.mjs)
+  - [Email template](https://github.com/avelino/avelino.run/blob/main/.github/scripts/NewsletterTemplate.mjs)
+  - [State file](https://github.com/avelino/avelino.run/blob/main/.newsletter_state.json)
 - [Resend Broadcast API Documentation](https://resend.com/docs/api-reference/broadcasts)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Hugo Content Management](https://gohugo.io/content-management/)
