@@ -12,14 +12,14 @@
   "author": "Thiago Avelino",
   "license": "MIT",
   "dependencies": {
-    "@react-email/components": "^0.0.23",
+    "@react-email/components": "^0.5.7",
     "@react-email/render": "^1.4.0",
     "axios": "^1.13.1",
     "crypto": "^1.0.1",
     "gray-matter": "^4.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-email": "^2.1.3",
+    "react-email": "^4.3.2",
     "resend": "^6.4.0"
   }
 }
