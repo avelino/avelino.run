@@ -144,13 +144,23 @@ const walkBlogPosts = (dir) => {
 };
 
 const normalizeFileId = (filePath) => {
-  const cleaned = filePath
-    .replace(/^\.\//, '')
+  if (!filePath) return '';
+
+  let normalized = filePath;
+
+  if (path.isAbsolute(normalized)) {
+    normalized = path.relative(process.cwd(), normalized);
+  }
+
+  normalized = normalized
+    .replace(/\\/g, '/')
+    .replace(/^\.\/+/, '')
     .replace(/^content\//, '')
-    .replace(/^\/+/, '');
-  if (!cleaned) return cleaned;
-  if (cleaned.startsWith('blog/')) return cleaned;
-  return `blog/${cleaned.replace(/^blog\//, '')}`;
+    .replace(/^blog\//, '');
+
+  if (!normalized) return '';
+
+  return `blog/${normalized}`;
 };
 
 const statePath = path.join(process.cwd(), '.newsletter_state.json');
