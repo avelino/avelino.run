@@ -274,6 +274,7 @@ The technical details matter, but the real value is in creating infrastructure t
 
 ---
 
+
 ### Implementation resources
 
 - **Full implementation**: [avelino/avelino.run repository](https://github.com/avelino/avelino.run)

@@ -113,8 +113,18 @@ function generateEmailSubject(title, description) {
 
 if (!RESEND_API_KEY || !AUDIENCE_ID || !FROM) {
   console.error('Missing required environment variables: RESEND_API_KEY, RESEND_AUDIENCE_ID, NEWSLETTER_FROM');
+  console.error('RESEND_API_KEY:', RESEND_API_KEY ? 'SET (hidden)' : 'NOT SET');
+  console.error('RESEND_AUDIENCE_ID:', AUDIENCE_ID ? 'SET (hidden)' : 'NOT SET');
+  console.error('NEWSLETTER_FROM:', FROM ? FROM : 'NOT SET');
   process.exit(1);
 }
+
+console.log('Environment variables check:');
+console.log('RESEND_API_KEY: SET');
+console.log('RESEND_AUDIENCE_ID:', AUDIENCE_ID);
+console.log('NEWSLETTER_FROM:', FROM);
+console.log('SITE_BASE_URL:', BASE_URL);
+console.log('SITE_NAME:', SITE_NAME);
 
 const resend = new Resend(RESEND_API_KEY);
 const statePath = path.join(process.cwd(), '.newsletter_state.json');
@@ -210,16 +220,21 @@ if (!added.length) {
 }
 
 console.log(`Found ${added.length} new post(s) to process.`);
+console.log(`Files to process:`, added);
 
 // Send 1..N posts added in the commit
 for (const postPath of added) {
   // Use relative file path as unique identifier
   const fileId = postPath.replace(/^content\/blog\//, '');
 
+  console.log(`\n=== Processing post: ${fileId} ===`);
+
   if (state.lastSent.includes(fileId)) {
     console.log(`Skip: ${fileId} already sent.`);
     continue;
   }
+
+  console.log(`Post ${fileId} is new, proceeding with newsletter send...`);
 
   const raw = fs.readFileSync(postPath, 'utf8');
   const { data, content } = matter(raw);
@@ -272,26 +287,54 @@ for (const postPath of added) {
 
   console.log(`Creating broadcast for: ${title}`);
   console.log(`Email subject: ${emailSubject}`);
-  const { data: created, error } = await resend.broadcasts.create({
-    audienceId: AUDIENCE_ID,
-    from: FROM,
-    subject: emailSubject,
-    html,
-    name: `post:${fileId.replace(/[\/\.]/g, '-')}`
-  });
+  console.log(`Audience ID: ${AUDIENCE_ID}`);
+  console.log(`From: ${FROM}`);
+  console.log(`HTML length: ${html.length} characters`);
 
-  if (error) {
-    console.error('Error creating broadcast:', error);
+  try {
+    const response = await resend.broadcasts.create({
+      audienceId: AUDIENCE_ID,
+      from: FROM,
+      subject: emailSubject,
+      html,
+      name: `post:${fileId.replace(/[\/\.]/g, '-')}`
+    });
+
+    console.log('Resend API response:', JSON.stringify(response, null, 2));
+
+    if (response.error) {
+      console.error('Error creating broadcast:', response.error);
+      process.exit(1);
+    }
+
+    if (!response.data || !response.data.id) {
+      console.error('Invalid response from Resend API. Response:', JSON.stringify(response, null, 2));
+      process.exit(1);
+    }
+
+    const broadcastId = response.data.id;
+    console.log(`✓ Broadcast created successfully (${broadcastId})`);
+
+    // Send the broadcast
+    const sendResponse = await resend.broadcasts.send(broadcastId, { scheduledAt: 'now' });
+
+    console.log('Send broadcast response:', JSON.stringify(sendResponse, null, 2));
+
+    if (sendResponse.error) {
+      console.error('Error sending broadcast:', sendResponse.error);
+      process.exit(1);
+    }
+
+    console.log(`✓ Broadcast sent successfully (${broadcastId}) for: ${title}`);
+  } catch (err) {
+    console.error('Exception while creating/sending broadcast:', err);
+    console.error('Error details:', {
+      message: err.message,
+      stack: err.stack,
+      name: err.name
+    });
     process.exit(1);
   }
-
-  const { error: sendErr } = await resend.broadcasts.send(created.id, { scheduledAt: 'now' });
-  if (sendErr) {
-    console.error('Error sending broadcast:', sendErr);
-    process.exit(1);
-  }
-
-  console.log(`✓ Broadcast sent successfully (${created.id}) for: ${title}`);
 
   // Update state with file identifier
   state.lastSent.push(fileId);
