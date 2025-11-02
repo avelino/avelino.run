@@ -434,8 +434,14 @@ for (const postPath of filesToProcess) {
     const broadcastId = response.data.id;
     console.log(`✓ Broadcast created successfully (${broadcastId})`);
 
-    // Send the broadcast
-    const sendResponse = await resend.broadcasts.send(broadcastId, { scheduledAt: 'now' });
+    // Send the broadcast immediately if possible, otherwise retry with a short delay
+    let sendResponse = await resend.broadcasts.send(broadcastId);
+
+    if (sendResponse.error && sendResponse.error.message?.includes('future date')) {
+      const fallbackSchedule = new Date(Date.now() + 60_000).toISOString();
+      console.warn('Immediate send rejected, retrying with scheduledAt:', fallbackSchedule);
+      sendResponse = await resend.broadcasts.send(broadcastId, { scheduledAt: fallbackSchedule });
+    }
 
     console.log('Send broadcast response:', JSON.stringify(sendResponse, null, 2));
 
