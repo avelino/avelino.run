@@ -7,6 +7,7 @@ description: "Exploring why developers resist AI coding tools through recent dat
 url: "/developer-resistance-ai-programming-psychology-data"
 ---
 
+
 In recent years, AI tools based on LLMs (large language models) have become widely available to assist with programming. Platforms like GitHub Copilot and ChatGPT promise to autocomplete code, suggest solutions, and boost developer productivity. Even with all this potential, many developers show resistance or hesitation when it comes to adopting these tools in their daily work.
 
 This blog post explores **why** that happens, bringing together **recent data** on AI adoption and **psychological aspects** that help explain this reluctance. We'll also discuss how AI can be a powerful ally for developers – as long as it's used with discernment and a solid understanding of the business context (which only humans actually have).
