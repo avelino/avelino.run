@@ -26,10 +26,10 @@ jobs:
       - name: Install deps
         run: |
           if [ -f package-lock.json ] || [ -f package.json ]; then
-            npm ci || npm i
+            npm ci || npm i --legacy-peer-deps || npm i
           else
             npm init -y
-            npm i resend gray-matter
+            npm i resend gray-matter --legacy-peer-deps
           fi
       - name: Send newsletter broadcast
         run: node .github/scripts/send_newsletter.mjs
