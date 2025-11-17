@@ -26,7 +26,7 @@ It's an explicit criterion in how technical leadership should be assessed becaus
 - innovation depends on diversity of thought,
 - long-term velocity depends on having the right people, not just the right process.
 
-When I'm evaluated as a leader, people don't look apenas at *what* I deliver.
+When I'm evaluated as a leader, people don't look only at *what* I deliver.
 
 They look at *who* I attract, how I represent the team externally, and whether I'm actively creating a strong pipeline for the future.
 
