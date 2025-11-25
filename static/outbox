@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 165,
+  "totalItems" : 166,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/c9637d068a2ee59baa58d47395bcd20c/create",
+    "id" : "/socialweb/notes/e0ce3ad8036140a85029ca5105ac01bf/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-11-17T00:00:00+00:00",
+    "published" : "2025-11-25T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "c9637d068a2ee59baa58d47395bcd20c",
-      "id" : "/socialweb/notes/c9637d068a2ee59baa58d47395bcd20c",
+      "hash" : "e0ce3ad8036140a85029ca5105ac01bf",
+      "id" : "/socialweb/notes/e0ce3ad8036140a85029ca5105ac01bf",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-11-17T00:00:00+00:00",
+      "published" : "2025-11-25T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/c9637d068a2ee59baa58d47395bcd20c",
+        "id" : "/socialweb/replies/e0ce3ad8036140a85029ca5105ac01bf",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/c9637d068a2ee59baa58d47395bcd20c?page=true",
-          "partOf" : "/socialweb/replies/c9637d068a2ee59baa58d47395bcd20c",
+          "next" : "/socialweb/replies/e0ce3ad8036140a85029ca5105ac01bf?page=true",
+          "partOf" : "/socialweb/replies/e0ce3ad8036140a85029ca5105ac01bf",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/fe5be38d83a26cdae9f29aa4522d3151/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-11-25T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/failing-on-purpose-building-postmortem-culture-across-company",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "fe5be38d83a26cdae9f29aa4522d3151",
+      "id" : "/socialweb/notes/fe5be38d83a26cdae9f29aa4522d3151",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-11-25T00:00:00+00:00",
+      "content" : "<p>Failing on Purpose: Building a Postmortem Culture That Cuts Across the Entire Company</p><p><a href='https://avelino.run/failing-on-purpose-building-postmortem-culture-across-company'>https://avelino.run/failing-on-purpose-building-postmortem-culture-across-company</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/fe5be38d83a26cdae9f29aa4522d3151",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/fe5be38d83a26cdae9f29aa4522d3151?page=true",
+          "partOf" : "/socialweb/replies/fe5be38d83a26cdae9f29aa4522d3151",
           "items" : [ ]
         }
       },
