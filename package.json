@@ -17,7 +17,7 @@
     "axios": "^1.13.2",
     "crypto": "^1.0.1",
     "gray-matter": "^2.0.1",
-    "react": "^19.2.0",
+    "react": "^19.2.1",
     "react-dom": "^19.2.0",
     "react-email": "^4.3.2",
     "resend": "^6.4.1"
