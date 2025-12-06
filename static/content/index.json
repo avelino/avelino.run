@@ -1,15 +1,23 @@
 {
-  "total-posts" : 166,
-  "blog-posts" : 114,
+  "total-posts" : 167,
+  "blog-posts" : 115,
   "quote-posts" : 52,
   "posts" : [ {
     "title" : "Depois de trabalhar anos de casa, voltei para dentro do escritório",
-    "date" : "2025-11-25T00:00:00+00:00",
+    "date" : "2025-12-06T00:00:00+00:00",
     "tags" : [ ],
     "url" : "https://avelino.run/",
     "content" : "A cada dia tem mais áreas e empresas abraçando a cultura do trabalho remoto.",
     "type" : "blog",
     "file-path" : "content/blog/depois-de-trabalhar-anos-de-casa-voltei-para-dentro-do-escritório.md"
+  }, {
+    "title" : "Reorganizing a Team Isn't a Crisis: It's Maintenance",
+    "date" : "2025-12-06T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/reorganizing-team-isnt-crisis-its-maintenance",
+    "content" : "Companies treat reorganization like a five-alarm fire. It's bizarre. The engine starts vibrating, the chassis rattles, and everyone insists it'll pass. It won't. Good teams don't break because you adjust them — they break because you don't.\n\nThe truth is far less dramatic and far more operational: reorganizing is maintenance. It's the 10,000 km service. It's the fine-tuning that separates a team that moves from a team that accelerates.\n\nAnd, in the end, the equation is almost always the same:\n\nTrade quantity for talent density.\nThe only math that works for product companies.\n\nThis isn't motivational fluff. It's empirically solid. Geoff Smart and Randy Street, in the classic Who, go straight to the point: great hiring is the only structural advantage that doesn't decay. Bad hiring, on the other hand, compounds negatively. One A-player lifts the entire team. Three B-players just occupy seats and generate drag. The math never balances.\n\nBen Horowitz, in The Hard Thing About Hard Things, describes the natural rhythm of growing companies: people join, people leave, responsibilities shift, structures evolve. This isn't a leadership failure — it's what happens when you're trying to build something that matters. Static teams are great… for static companies. In the real world, high performance is flow, not stillness.\n\nReed Hastings doubles down in No Rules Rules: talent density is the primary accelerant of organizational performance. Not processes. Not rituals. Not frameworks. Exceptional people in critical roles. People who solve, simplify, deliver. People who raise the bar without asking permission.\n\nAnd this brings us to the most uncomfortable part — the one managers avoid but leaders confront: roles that outlive their usefulness.\n\nIn my own case, years ago we created a Principal Engineer role. It served a purpose: it helped a former team member grow. It made sense at the time. But contexts evolve, people move on, and teams transform. And like in many companies, the title stayed behind — a relic from a past that no longer exists.\n\nTo be blunt, I never stopped to question whether the role still made sense.\nWhen I finally did, the answer was obvious. It didn't.\n\nWill Larson explains this clearly in The Staff Engineer's Path: Staff and Principal roles exist to solve actual organizational problems, not to decorate résumés. When a title becomes ornamental, it stops aligning and starts confusing. It creates boundaries where there should be collaboration. It creates fuzzy expectations where there should be clear ownership.\n\nSo I removed it. No drama. No poetry. No transition process.\nA title that doesn't accelerate becomes an obstacle. And obstacles get removed.\n\nThis is what many leaders miss: reorganizing isn't a commentary on the past — it's a commitment to the future.\nIt isn't a judgment of those who left — it's clarity for those who stay.\nIt isn't a plot twist — it's routine maintenance.\n\nIf you lead a team and fear changing the structure, the issue isn't the change. It's the anesthesia.\nMature teams don't fear movement. They fear silence. They fear ambiguity.\nWhen you communicate with blunt honesty, explain the why, and show the path, the team exhales.\nAnd when you add truly exceptional talent, the team grows. Always.\n\nThat's the maintenance great companies do.\nNo makeup. No noise. No melodrama.\nJust responsibility for what matters: building with ambition, alongside people who want to play to win.",
+    "type" : "blog",
+    "file-path" : "content/blog/2025-12-reorganizing-team-isnt-crisis-its-maintenance.md"
   }, {
     "title" : "Failing on Purpose: Building a Postmortem Culture That Cuts Across the Entire Company",
     "date" : "2025-11-25T00:00:00+00:00",
