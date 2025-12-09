@@ -25,8 +25,6 @@ What he calls "psychosocial crises" is exactly the kind of conflict that shows u
 
 Let's break it down.
 
----
-
 ## What does Erikson actually say about "adult life"?
 
 Erikson lays out eight stages of development, each one with a central tension (a conflict) we need to face: trust vs. mistrust, autonomy vs. shame, initiative vs. guilt, industry vs. inferiority, identity vs. role confusion, intimacy vs. isolation, generativity vs. stagnation, integrity vs. despair.
@@ -47,8 +45,6 @@ When we talk work and career, three of these matter a lot (as presented in *[The
 
 When a company says "think like an owner", in practice it's trying to skip over stages of human psychology that Erikson describes in *[The Life Cycle Completed](https://www.amazon.com/Life-Cycle-Completed-Extended-Version/dp/0393317722)*.
 He's basically saying: **you don't need to be an owner to behave like an adult**. You need to deal with identity, connection, and generativity in a mature way.
-
----
 
 ## A responsible adult isn't the one who dies for the company
 
@@ -73,8 +69,6 @@ A responsible adult does a different kind of math:
 
 So: **knowing when to stop is part of professional ethics**, not laziness.
 It's not lack of commitment — it's commitment to continuity. It's the same generativity Erikson marks as a sign of adult life in *[The Life Cycle Completed](https://www.amazon.com/Life-Cycle-Completed-Extended-Version/dp/0393317722)*: building something that lasts, not burning yourself out in a cycle of heroics and collapse.
-
----
 
 ## Be selfish about your career
 
@@ -110,8 +104,6 @@ Being selfish about your career means:
 That's not being "less loyal" to the company.
 It's being loyal to what, in Erikson's view in *[The Life Cycle Completed](https://www.amazon.com/Life-Cycle-Completed-Extended-Version/dp/0393317722)*, defines adult life: **the capacity to build, guide, care, and create impact**.
 
----
-
 ## Are you a cost or an investment?
 
 ### The math an adult does without drama
@@ -144,8 +136,6 @@ Your job is helping them walk through these professional development crises:
 - build strong bonds without fusion (intimacy);
 - demand real impact, not just visible effort (industry and generativity).
 
----
-
 ## Wearing the jersey WITHOUT becoming its hostage
 
 "Wearing the jersey" turned toxic because it was hijacked by lazy management culture:
@@ -164,8 +154,6 @@ If we rewrite this with Erikson and *[The Life Cycle Completed](https://www.amaz
 
 This is a far more robust view — psychologically and economically — than the theater of the "employee-entrepreneur".
 
----
-
 ## Reference
 
 For anyone who wants the original source:
@@ -173,8 +161,6 @@ For anyone who wants the original source:
 > **Erikson, E. H. (1982). *[The Life Cycle Completed](https://www.amazon.com/Life-Cycle-Completed-Extended-Version/dp/0393317722)*. New York: W. W. Norton & Company.**
 
 It's a short, straight-to-the-point book where he revisits the eight stages of human development and unpacks what it really means to mature over a lifetime — including the adult phase, where work, caring for others, and legacy show up with full force.
-
----
 
 To wrap it up:
 don't push people to "think like owners".
