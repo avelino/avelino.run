@@ -13,7 +13,7 @@ const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID;
 const FROM = process.env.NEWSLETTER_FROM;
 const BASE_URL = process.env.SITE_BASE_URL || 'https://avelino.run';
-const SITE_NAME = process.env.SITE_NAME || 'avelino.run';
+const SITE_NAME = process.env.SITE_NAME || 'news.avelino.run';
 
 /**
  * Generate an engaging email subject line from title and description

@@ -150,7 +150,7 @@ const siteLink = {
   fontWeight: '500',
 };
 
-export function renderEmailTemplate({ title, description, url, imageUrl, siteName = 'avelino.run' }) {
+export function renderEmailTemplate({ title, description, url, imageUrl, siteName = 'news.avelino.run' }) {
   const template = NewsletterTemplate({ title, description, url, imageUrl, siteName });
   return render(template);
 }
