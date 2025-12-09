@@ -7,7 +7,7 @@ description: "Why 'think like an owner' is a toxic corporate trend. Using Erik E
 url: "/employees-dont-need-think-like-owners"
 ---
 
-## They need to think like responsible adults
+**They need to think like responsible adults**
 
 There's a corporate trend that's been annoying me for years: "think like an owner".
 
