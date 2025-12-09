@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 167,
+  "totalItems" : 168,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/55e66f81ab6461e144806ab1189b1a05/create",
+    "id" : "/socialweb/notes/727e08ce156745fdf49bc5901da0d9b8/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-12-06T00:00:00+00:00",
+    "published" : "2025-12-09T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "55e66f81ab6461e144806ab1189b1a05",
-      "id" : "/socialweb/notes/55e66f81ab6461e144806ab1189b1a05",
+      "hash" : "727e08ce156745fdf49bc5901da0d9b8",
+      "id" : "/socialweb/notes/727e08ce156745fdf49bc5901da0d9b8",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-12-06T00:00:00+00:00",
+      "published" : "2025-12-09T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/55e66f81ab6461e144806ab1189b1a05",
+        "id" : "/socialweb/replies/727e08ce156745fdf49bc5901da0d9b8",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/55e66f81ab6461e144806ab1189b1a05?page=true",
-          "partOf" : "/socialweb/replies/55e66f81ab6461e144806ab1189b1a05",
+          "next" : "/socialweb/replies/727e08ce156745fdf49bc5901da0d9b8?page=true",
+          "partOf" : "/socialweb/replies/727e08ce156745fdf49bc5901da0d9b8",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/63f8c79b33873136488bf604a9a9fad7/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-12-09T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/employees-dont-need-think-like-owners",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "63f8c79b33873136488bf604a9a9fad7",
+      "id" : "/socialweb/notes/63f8c79b33873136488bf604a9a9fad7",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-12-09T00:00:00+00:00",
+      "content" : "<p>Employees don't need to think like owners</p><p><a href='https://avelino.run/employees-dont-need-think-like-owners'>https://avelino.run/employees-dont-need-think-like-owners</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/63f8c79b33873136488bf604a9a9fad7",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/63f8c79b33873136488bf604a9a9fad7?page=true",
+          "partOf" : "/socialweb/replies/63f8c79b33873136488bf604a9a9fad7",
           "items" : [ ]
         }
       },
