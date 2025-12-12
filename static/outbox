@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 168,
+  "totalItems" : 169,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/727e08ce156745fdf49bc5901da0d9b8/create",
+    "id" : "/socialweb/notes/da0b54cf46539499c7b327801ae76c62/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2025-12-09T00:00:00+00:00",
+    "published" : "2025-12-12T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/",
+      "url" : "https://avelino.run/why-complexity-steals-agility-from-companies",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "727e08ce156745fdf49bc5901da0d9b8",
-      "id" : "/socialweb/notes/727e08ce156745fdf49bc5901da0d9b8",
+      "hash" : "da0b54cf46539499c7b327801ae76c62",
+      "id" : "/socialweb/notes/da0b54cf46539499c7b327801ae76c62",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2025-12-09T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2025-12-12T00:00:00+00:00",
+      "content" : "<p>Why complexity steals agility from companies</p><p><a href='https://avelino.run/why-complexity-steals-agility-from-companies'>https://avelino.run/why-complexity-steals-agility-from-companies</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/727e08ce156745fdf49bc5901da0d9b8",
+        "id" : "/socialweb/replies/da0b54cf46539499c7b327801ae76c62",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/727e08ce156745fdf49bc5901da0d9b8?page=true",
-          "partOf" : "/socialweb/replies/727e08ce156745fdf49bc5901da0d9b8",
+          "next" : "/socialweb/replies/da0b54cf46539499c7b327801ae76c62?page=true",
+          "partOf" : "/socialweb/replies/da0b54cf46539499c7b327801ae76c62",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/1f33a2ee746e62b0824edfeccd95b6fd/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2025-12-12T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "1f33a2ee746e62b0824edfeccd95b6fd",
+      "id" : "/socialweb/notes/1f33a2ee746e62b0824edfeccd95b6fd",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2025-12-12T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/1f33a2ee746e62b0824edfeccd95b6fd",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/1f33a2ee746e62b0824edfeccd95b6fd?page=true",
+          "partOf" : "/socialweb/replies/1f33a2ee746e62b0824edfeccd95b6fd",
           "items" : [ ]
         }
       },
