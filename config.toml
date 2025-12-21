@@ -70,7 +70,7 @@ subtitle = "I use open source to help people evolve, I take pleasure in seeing p
 description = "Software Developer, Open Source Enthusiast, Engineer, Writer, and Speaker focused on high-performance applications and cloud infrastructure - Thiago Avelino"
 mathjax = false # enable MathJax support
 katex = false # enable KaTeX support
-customcss = ["/css/custom.css"]
+customcss = ["css/custom.css"]
 mainSections = ["blog", "foss", "quote"]
 
 # Social

@@ -1,233 +1,377 @@
+/* Custom CSS - Melhorias de legibilidade e conforto visual */
+
 :root {
-  --maincolor: #BA55D3 !important;
-  --bordercl: #E6E6FA !important;
-  --callouctcolor: dodgerblue !important;
-  --hovercolor: #BA55D3 !important;
-  --darkMaincolor: #BA55D3 !important;
-  --bgcolor: #FAF9F6;
-  --text: #4A4A4A;
-  --border: #E6E6FA;
+  --maincolor: rebeccapurple !important;
+  --bordercl: rebeccapurple !important;
+  --hovercolor: #4c1d95 !important;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a5568;
+  --bg-primary: #fafafa;
+  --bg-code: #f3f4f6;
+
+  /* Dark mode - roxo mais claro */
+  --dark-bg: #1a1a2e;
+  --dark-text: #e2e8f0;
+  --dark-text-secondary: #a0aec0;
+  --dark-code-bg: #2d3748;
+  --darkMaincolor: #a78bfa !important;
 }
 
-/* Importar fontes do Google para melhorar a legibilidade */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
-
+/* ===== BASE TYPOGRAPHY ===== */
 html {
-  color: var(--text);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.7em;
+  font-size: 18px !important;
+  line-height: 1.75 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 2ch;
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
 }
 
-p {
-  font-family: 'Merriweather', Georgia, serif;
-  line-height: 1.7;
-  margin-bottom: 1.8em;
-  margin-top: 0;
-  max-width: 65ch;
-  font-weight: 300;
+/* Paragrafos com fonte sans-serif para leitura */
+p, li, blockquote, .body, section.body, article p, article li {
+  font-family: 'Inter', 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  line-height: 1.8 !important;
+  letter-spacing: -0.01em;
 }
 
-/* Espaçamento entre parágrafos de forma contextual */
-p + p {
-  margin-top: -0.5em;
+/* Mais espaco entre paragrafos */
+p, article p, section p, .body p, section.body p {
+  margin-bottom: 1.5rem !important;
 }
 
-/* Evitar que parágrafos após cabeçalhos tenham muito espaço */
-h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
-  margin-top: 0.7em;
+/* ===== HEADERS ===== */
+h1, h2, h3, h4, h5, h6,
+article h1, article h2, article h3, article h4,
+.body h1, .body h2, .body h3, .body h4,
+section.body h1, section.body h2, section.body h3, section.body h4 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
-article p:first-of-type {
-  font-size: 1.05em;
+h1, article h1, .title h1 { font-size: 2rem !important; }
+h2, article h2, section.body h2 { font-size: 1.5rem !important; }
+h3, article h3, section.body h3 { font-size: 1.25rem !important; }
+h4, article h4, section.body h4 { font-size: 1.1rem !important; }
+
+/* Headers com # em roxo */
+h1::before, h2::before, h3::before,
+h4::before, h5::before, h6::before {
+  color: rebeccapurple !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.8em;
-  line-height: 1.4;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
+/* ===== LINKS ===== */
+a, article a, section.body a, .body a {
+  border-bottom: 2px solid rebeccapurple !important;
+  transition: all 0.15s ease;
 }
 
-time {
-  color: #333333;
+a:hover, article a:hover, section.body a:hover, .body a:hover {
+  background-color: rebeccapurple !important;
+  color: #fff !important;
+  border-radius: 2px;
 }
 
-a {
-  border-bottom: 1px solid var(--maincolor);
-  transition: all 0.2s ease;
-  font-weight: 400;
-}
-
-a:hover {
-  background-color: rgba(186, 85, 211, 0.1);
-  color: inherit !important;
-  text-decoration: none;
-}
-
-/* Estilo aprimorado para blockquote */
-blockquote {
-  padding: 1.5em 2em;
-  margin: 2em 0;
-  background-color: #f9f9f9;
-  border-left: 5px solid var(--bordercl);
-  font-style: italic;
-  color: #555;
-  position: relative;
-  border-radius: 0 5px 5px 0;
-}
-
-blockquote::before {
-  content: "\201C";
-  font-size: 4em;
-  font-family: Georgia, serif;
-  position: absolute;
-  left: 10px;
-  top: -10px;
-  color: var(--bordercl);
-  opacity: 0.3;
-}
-
-blockquote p {
-  margin: 0;
-  font-family: 'Merriweather', Georgia, serif;
-  line-height: 1.6;
-  max-width: 100%;
-  font-style: italic;
-  font-weight: 300;
-}
-
-blockquote p + p {
-  margin-top: 1em;
-}
-
-blockquote cite {
-  display: block;
-  font-style: normal;
-  font-weight: bold;
-  margin-top: 1em;
-  text-align: right;
-  font-size: 0.9em;
-  font-family: 'Inter', sans-serif;
-}
-
-blockquote cite::before {
-  content: "— ";
-}
-
-ul {
-  padding-left: 2.5ch;
-  margin-bottom: 1.5em;
-}
-
-ul li {
-  margin-bottom: 0.5em;
-  font-family: 'Merriweather', Georgia, serif;
-  font-weight: 300;
-}
-
-/* list box */
-.list-item {
-  border: 1px solid var(--border);
-  border-radius: 0.2em;
-  box-shadow: 5px 5px 7px #E6E6FA;
-  padding: 0 1.5em 1.5em 1.5em;
-  margin: 2em 0 2em 0;
-}
-
-.list-item .description {
-  padding: 1.75em;
-}
-
-.list-item .readmore {
-  display: inline-block;
-  margin: 0;
-  padding: 0.3em 0.8em;
-  border-radius: 3rem;
-}
-
-.soc {
-  border-bottom: none;
-  padding: 12px;
-  display: inline-block;
-  min-width: 24px;
-  min-height: 24px;
-}
-
-.border {
-  margin-left: 12px;
-  margin-right: 12px;
-  border: 1px solid;
-  display: inline-block;
-}
-
-/* Estilos para imagens */
-.content img {
-  max-width: 120%;
-  height: auto;
-  display: block;
-  margin: 2em auto;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.content img.small {
-  max-width: 100%;
-  box-shadow: none;
-}
-
-p img {
-  max-width: 120%;
-  margin-left: -10%;
-  margin-right: -10%;
-  width: 120%;
-}
-
-.content img:hover {
-  transform: translateX(-50%) scale(1.01);
-  transition: transform 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-/* Melhorias adicionais para leitura */
+/* ===== CONTAINER ===== */
 .content {
-  letter-spacing: 0.01em;
-  line-height: 1.75;
+  max-width: 720px !important;
+  padding: 0 1.5rem !important;
+  margin-top: 2rem;
 }
 
-code {
-  font-size: 0.9em;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-family: 'Roboto Mono', monospace;
+/* ===== BLOCKQUOTES ===== */
+blockquote, article blockquote, section.body blockquote {
+  border-left: 4px solid rebeccapurple !important;
+  padding: 0.5rem 0 0.5rem 1.5rem !important;
+  margin: 2rem 0 !important;
+  color: var(--text-secondary) !important;
+  font-style: italic;
+  background: linear-gradient(to right, rgba(102, 51, 153, 0.08), transparent) !important;
 }
 
-pre {
-  padding: 1.2em;
-  border-radius: 5px;
+/* ===== CODE BLOCKS ===== */
+code, article code, section.body code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace !important;
+  font-size: 0.875rem !important;
+  background-color: var(--bg-code) !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 4px !important;
+}
+
+pre, article pre, section.body pre {
+  background-color: #1e1e2e !important;
+  border-radius: 8px !important;
+  padding: 1.25rem !important;
+  margin: 1.5rem 0 !important;
   overflow-x: auto;
-  margin-bottom: 1.5em;
 }
 
+pre code, article pre code, section.body pre code {
+  background: none !important;
+  padding: 0 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.6 !important;
+}
+
+/* ===== IMAGES ===== */
+img, article img, section.body img {
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ===== META INFO ===== */
+.meta, time, article .meta, article time {
+  font-size: 0.875rem !important;
+  color: var(--text-secondary) !important;
+}
+
+/* ===== ARTICLE/POST STYLING ===== */
 article {
-  margin-bottom: 3em;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-/* Melhor visualização em dispositivos móveis */
-@media (max-width: 600px) {
-  html {
-    font-size: 15px;
+article:last-child {
+  border-bottom: none;
+}
+
+/* Post body */
+section.body, .body {
+  font-size: 1.1rem;
+}
+
+/* ===== HEADER ===== */
+header {
+  margin: 2rem 0 3rem 0 !important;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+header .main {
+  font-weight: 700 !important;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  border-top: 1px solid #e5e7eb !important;
+  margin-top: 4rem !important;
+  padding-top: 2rem !important;
+  color: var(--text-secondary) !important;
+}
+
+/* ===== TAGS ===== */
+.tags li::before,
+.post-tags li::before,
+nav.tags li::before {
+  content: "" !important;
+}
+
+.tags, .post-tags, nav.tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.tags li, .post-tags li, nav.tags li {
+  text-indent: 0 !important;
+  margin: 0 !important;
+}
+
+.tags a, .post-tags a, nav.tags a,
+.post-tags ul li a, nav.tags ul li a {
+  display: inline-block !important;
+  padding: 0.35rem 0.85rem !important;
+  margin: 0 !important;
+  background-color: var(--bg-code) !important;
+  border: none !important;
+  border-bottom: none !important;
+  border-radius: 20px !important;
+  font-size: 0.8rem !important;
+  line-height: 1.4 !important;
+  white-space: nowrap !important;
+  transition: all 0.15s ease;
+}
+
+.tags a:hover, .post-tags a:hover, nav.tags a:hover,
+.post-tags ul li a:hover, nav.tags ul li a:hover {
+  background-color: rebeccapurple !important;
+  color: #fff !important;
+}
+
+/* ===== HR ===== */
+hr {
+  border: none !important;
+  border-top: 1px solid #e5e7eb !important;
+  margin: 3rem 0 !important;
+}
+
+/* ===== TABLES ===== */
+table, article table, section.body table {
+  width: 100% !important;
+  margin: 1.5rem 0 !important;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: var(--bg-code) !important;
+  font-weight: 600 !important;
+  text-align: left;
+}
+
+table th, table td {
+  padding: 0.75rem 1rem !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+table tr:hover {
+  background-color: rgba(102, 51, 153, 0.05) !important;
+}
+
+/* ===== DARK MODE ===== */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-bg) !important;
+    color: var(--dark-text) !important;
   }
 
-  body {
-    padding: 0 1.5ch;
+  p, li, blockquote, article p, article li, section.body p {
+    color: var(--dark-text) !important;
   }
+
+  h1, h2, h3, h4, h5, h6,
+  article h1, article h2, article h3, article h4 {
+    color: #ddd !important;
+  }
+
+  h1::before, h2::before, h3::before,
+  h4::before, h5::before, h6::before {
+    color: #a78bfa !important;
+  }
+
+  a, article a, section.body a {
+    border-bottom-color: #a78bfa !important;
+  }
+
+  a:hover, article a:hover, section.body a:hover {
+    background-color: #a78bfa !important;
+    color: #000 !important;
+  }
+
+  header, footer, article {
+    border-color: #2d3748 !important;
+  }
+
+  hr {
+    border-color: #2d3748 !important;
+  }
+
+  code, article code {
+    background-color: var(--dark-code-bg) !important;
+    color: #e2e8f0 !important;
+  }
+
+  table th {
+    background-color: #2d3748 !important;
+  }
+
+  table th, table td {
+    border-color: #2d3748 !important;
+    color: var(--dark-text) !important;
+  }
+
+  img, article img {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  blockquote, article blockquote {
+    background: linear-gradient(to right, rgba(167, 139, 250, 0.15), transparent) !important;
+    color: var(--dark-text-secondary) !important;
+  }
+
+  .tags a, .post-tags a {
+    background-color: #2d3748 !important;
+    color: var(--dark-text) !important;
+  }
+
+  .meta, time {
+    color: var(--dark-text-secondary) !important;
+  }
+}
+
+/* ===== DARK THEME TOGGLE ===== */
+.dark-theme body,
+body.dark-theme {
+  background-color: var(--dark-bg) !important;
+  color: var(--dark-text) !important;
+}
+
+.dark-theme p, .dark-theme li, .dark-theme blockquote,
+.dark-theme article p, .dark-theme section.body p {
+  color: var(--dark-text) !important;
+}
+
+.dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4 {
+  color: #ddd !important;
+}
+
+.dark-theme h1::before, .dark-theme h2::before,
+.dark-theme h3::before, .dark-theme h4::before {
+  color: #a78bfa !important;
+}
+
+.dark-theme a, .dark-theme article a {
+  border-bottom-color: #a78bfa !important;
+}
+
+.dark-theme a:hover, .dark-theme article a:hover {
+  background-color: #a78bfa !important;
+  color: #000 !important;
+}
+
+.dark-theme header, .dark-theme footer, .dark-theme article {
+  border-color: #2d3748 !important;
+}
+
+.dark-theme hr {
+  border-color: #2d3748 !important;
+}
+
+.dark-theme code {
+  background-color: var(--dark-code-bg) !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-theme table th {
+  background-color: #2d3748 !important;
+}
+
+.dark-theme table th, .dark-theme table td {
+  border-color: #2d3748 !important;
+}
+
+.dark-theme img {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark-theme blockquote {
+  background: linear-gradient(to right, rgba(167, 139, 250, 0.15), transparent) !important;
+}
+
+.dark-theme .tags a, .dark-theme .post-tags a {
+  background-color: #2d3748 !important;
+  color: var(--dark-text) !important;
+}
+
+.dark-theme .meta, .dark-theme time {
+  color: var(--dark-text-secondary) !important;
 }
