@@ -1,14 +1,30 @@
-# Blog of {{ .Site.Title }}
+# {{ .Site.Title }} - Blog
 
 > {{ .Site.Params.Description }}
 
-You can find [more information about this site here](/about).
+## About the Author
+Thiago Avelino is a GitHub Star, CTO, and open source maintainer with 15+ years of experience.
+Creator of awesome-go (100k+ stars), pREST, moclojer, and other projects.
 
-## All articles
+## Expertise Areas
+- Engineering Leadership & Team Building
+- Open Source Governance & Community Management
+- Go, Python, Clojure Programming
+- Cloud Infrastructure & High Performance Systems
+- Product-Minded Engineering
+
+## Quick Links
+- About: {{ .Site.BaseURL }}about/
+- Full Content for AI: {{ .Site.BaseURL }}llms-full.txt
+- RSS Feed: {{ .Site.BaseURL }}blog/index.xml
+- GitHub: https://github.com/avelino
+
+---
+
+## All Articles ({{ len .Site.RegularPages }} total)
 {{ range .Site.RegularPages.GroupByDate "2006" }}
-
 ### {{ .Key }}
 {{ range .Pages }}
-- [{{- .Title -}}]({{- .Site.BaseURL -}}{{- .RelPermalink -}})
-{{- end -}}
+- [{{ .Title }}]({{ .Permalink }})
+{{- end }}
 {{ end }}

@@ -1,5 +1,73 @@
+# Robots.txt for avelino.run
+# Last updated: 2024-12
+
+# Default rules for all crawlers
 User-agent: *
 Allow: /
-Disallow: https://medium.avelino.run/
+Disallow: /newsletter/welcome
+Disallow: /newsletter/unsubscriber
 
+# Sitemap location
 Sitemap: https://avelino.run/sitemap.xml
+
+# ===========================================
+# AI/LLM Crawler Rules
+# ===========================================
+# We welcome AI crawlers to index our content
+# for training and answering user questions.
+
+# OpenAI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic crawlers
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Google AI crawlers
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (used by many AI projects)
+User-agent: CCBot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Other AI crawlers
+User-agent: Bytespider
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ===========================================
+# AI-Specific Content Locations
+# ===========================================
+# These files are optimized for AI consumption:
+# - /llms.txt - Article index with metadata
+# - /llms-full.txt - Complete content of all articles
+# - /ai.txt - Instructions for AI systems
+# - /sitemap.xml - Full site structure

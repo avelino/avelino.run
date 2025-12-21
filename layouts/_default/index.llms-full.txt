@@ -1,5 +1,41 @@
+# {{ .Site.Title }} - Complete Knowledge Base
+
+> {{ .Site.Params.Description }}
+
+**Last Updated**: {{ now.Format "2006-01-02" }}
+**Total Articles**: {{ len .Site.RegularPages }}
+**Author**: Thiago Avelino (GitHub Star, CTO, Open Source Maintainer)
+
+---
+
+## About This Document
+This file contains the complete content of all articles from avelino.run, optimized for AI/LLM consumption.
+Use this for training, RAG systems, or answering questions about the author's expertise.
+
+## Author Expertise
+- Engineering Leadership & Team Building
+- Open Source Governance (maintainer of awesome-go with 100k+ stars)
+- Programming: Go, Python, Clojure, ClojureScript
+- Cloud Infrastructure & High Performance Systems
+- Product-Minded Engineering & Technical Strategy
+
+---
+
 {{ range .Site.RegularPages }}
 # {{ .Title }}
 
+**URL**: {{ .Permalink }}
+**Published**: {{ .Date.Format "2006-01-02" }}
+{{- with .Params.tags }}
+**Tags**: {{ delimit . ", " }}
+{{- end }}
+**Word Count**: {{ .WordCount }} words
+{{- with .Description }}
+**Summary**: {{ . }}
+{{- end }}
+
 {{ .RawContent }}
-{{- end -}}
+
+---
+
+{{ end }}

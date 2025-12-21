@@ -73,6 +73,23 @@ katex = false # enable KaTeX support
 customcss = ["css/custom.css"]
 mainSections = ["blog", "foss", "quote"]
 
+# Author details for rich Schema.org Person
+[params.authorInfo]
+name = "Thiago Avelino"
+givenName = "Thiago"
+familyName = "Avelino"
+jobTitle = "CTO"
+worksFor = "Buser"
+alumniOf = "IME-USP (University of Sao Paulo)"
+knowsAbout = ["Engineering Leadership", "Open Source", "Go", "Python", "Clojure", "Distributed Systems", "Cloud Infrastructure"]
+sameAs = [
+  "https://github.com/avelino",
+  "https://twitter.com/avelinorun",
+  "https://linkedin.com/in/avelino",
+  "https://mastodon.social/@avelino",
+  "https://www.youtube.com/@avelorun"
+]
+
 # Social
 [[params.social]]
 name = "GitHub"

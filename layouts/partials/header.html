@@ -17,15 +17,33 @@
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 	{{- if isset .Params "img" -}}
 	<meta property="og:image" content="{{ .Params.img }}" />
-	{{ else }}
+	{{- else if .Site.Params.og_image -}}
 	<meta property="og:image" content="{{ .Site.Params.og_image }}" />
-	{{ end }}
+	{{- end -}}
 	{{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
 	{{- template "_internal/opengraph.html" . -}}
 	{{- template "_internal/twitter_cards.html" . -}}
+	{{- /* Citation meta tags for AEO (Answer Engine Optimization) */ -}}
+	{{- if .IsPage -}}
+	<meta name="citation_title" content="{{ .Title }}">
+	<meta name="citation_author" content="{{ .Site.Params.author | default "Thiago Avelino" }}">
+	<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">
+	<meta name="citation_online_date" content="{{ .PublishDate.Format "2006/01/02" }}">
+	{{- with .Lastmod }}<meta name="citation_lastmod" content="{{ .Format "2006/01/02" }}">{{- end }}
+	<meta name="citation_fulltext_html_url" content="{{ .Permalink }}">
+	<meta name="citation_language" content="{{ .Site.Language.Lang }}">
+	{{- with .Params.tags }}<meta name="citation_keywords" content="{{ delimit . ", " }}">{{- end }}
+	{{- /* Dublin Core metadata for better discoverability */ -}}
+	<meta name="DC.title" content="{{ .Title }}">
+	<meta name="DC.creator" content="{{ .Site.Params.author | default "Thiago Avelino" }}">
+	<meta name="DC.date" content="{{ .Date.Format "2006-01-02" }}">
+	<meta name="DC.type" content="blogPost">
+	<meta name="DC.format" content="text/html">
+	<meta name="DC.language" content="{{ .Site.Language.Lang }}">
+	{{- end -}}
 	{{- if isset .Site.Params "social" -}}
 	  {{- range $index, $key := .Site.Params.Social -}}
 	    {{- if hasPrefix $key.icon "simple:" -}}

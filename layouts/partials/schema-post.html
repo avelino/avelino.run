@@ -6,17 +6,27 @@
 {{- $isTaxonomy := or (eq $kind "taxonomy") (eq $kind "taxonomyTerm") -}}
 {{- $isList := or $isSection $isTaxonomy -}}
 {{- $isPost := eq $kind "page" -}}
+{{- $isAbout := eq .RelPermalink "/about/" -}}
 
 {{- /* Build @graph array */ -}}
 {{- $graph := slice -}}
 
-{{- /* Website publisher (Person) */ -}}
-{{- $pubName := or .Site.Author.name "Thiago Avelino" -}}
-{{- $pubURL := or .Site.Author.url (or .Site.Author.link (or .Site.Author.homepage (printf "%sabout/" $base))) -}}
+{{- /* Rich Person schema using authorInfo from config */ -}}
+{{- $authorInfo := .Site.Params.authorInfo -}}
+{{- $pubName := or $authorInfo.name .Site.Author.name "Thiago Avelino" -}}
+{{- $pubURL := printf "%sabout/" $base -}}
+
 {{- $publisherPerson := dict "@type" "Person" "name" $pubName "url" $pubURL -}}
-{{- with (or .Site.Author.sameAs .Site.Params.sameAs) -}}
-  {{- $publisherPerson = merge $publisherPerson (dict "sameAs" .) -}}
+{{- with $authorInfo -}}
+  {{- with .givenName }}{{ $publisherPerson = merge $publisherPerson (dict "givenName" .) }}{{ end -}}
+  {{- with .familyName }}{{ $publisherPerson = merge $publisherPerson (dict "familyName" .) }}{{ end -}}
+  {{- with .jobTitle }}{{ $publisherPerson = merge $publisherPerson (dict "jobTitle" .) }}{{ end -}}
+  {{- with .worksFor }}{{ $publisherPerson = merge $publisherPerson (dict "worksFor" (dict "@type" "Organization" "name" .)) }}{{ end -}}
+  {{- with .alumniOf }}{{ $publisherPerson = merge $publisherPerson (dict "alumniOf" (dict "@type" "EducationalOrganization" "name" .)) }}{{ end -}}
+  {{- with .knowsAbout }}{{ $publisherPerson = merge $publisherPerson (dict "knowsAbout" .) }}{{ end -}}
+  {{- with .sameAs }}{{ $publisherPerson = merge $publisherPerson (dict "sameAs" .) }}{{ end -}}
 {{- end -}}
+{{- with .Site.Params.logo }}{{ $publisherPerson = merge $publisherPerson (dict "image" (absURL .)) }}{{ end -}}
 
 {{- /* WebSite node */ -}}
 {{- $website := dict
@@ -182,6 +192,16 @@
   {{- with $desc -}}
     {{- $webpage = merge $webpage (dict "description" .) -}}
   {{- end -}}
+
+  {{- /* For About page, add Person as mainEntity */ -}}
+  {{- if $isAbout -}}
+    {{- $webpage = merge $webpage (dict "mainEntity" $publisherPerson) -}}
+    {{- /* Also add standalone Person to graph for better discovery */ -}}
+    {{- $personWithId := merge $publisherPerson (dict "@id" (printf "%s#person" $base)) -}}
+    {{- $personWithId = merge $personWithId (dict "description" "GitHub Star, CTO, and open source maintainer with 15+ years of experience. Creator of awesome-go and contributor to hundreds of open source projects.") -}}
+    {{- $graph = $graph | append $personWithId -}}
+  {{- end -}}
+
   {{- $graph = $graph | append $webpage -}}
 {{- end -}}
 
