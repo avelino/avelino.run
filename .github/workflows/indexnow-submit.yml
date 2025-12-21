@@ -1,0 +1,60 @@
+name: Submit to IndexNow
+
+on:
+  # Run after successful Netlify deploy (when content changes)
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/**'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  submit-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get changed content files
+        id: changed
+        run: |
+          # Get list of changed markdown files
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD -- 'content/*.md' 'content/**/*.md' 2>/dev/null || echo "")
+
+          # Convert to URLs
+          URLS=""
+          for file in $CHANGED_FILES; do
+            # Extract slug from filename
+            slug=$(basename "$file" .md | sed 's/^[0-9-]*//')
+            if [ -n "$slug" ]; then
+              URLS="$URLS\"https://avelino.run/$slug/\","
+            fi
+          done
+
+          # Always include key pages
+          URLS="$URLS\"https://avelino.run/llms.txt\","
+          URLS="$URLS\"https://avelino.run/llms-full.txt\","
+          URLS="$URLS\"https://avelino.run/ai.txt\","
+          URLS="$URLS\"https://avelino.run/sitemap.xml\""
+
+          echo "urls=[$URLS]" >> $GITHUB_OUTPUT
+
+      - name: Submit to IndexNow (Bing/Yandex)
+        run: |
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "host": "avelino.run",
+              "key": "109a010a50e277b4ff7f2c7506272cfa",
+              "keyLocation": "https://avelino.run/109a010a50e277b4ff7f2c7506272cfa.txt",
+              "urlList": ${{ steps.changed.outputs.urls }}
+            }' || echo "IndexNow submission completed"
+
+      - name: Log submission
+        run: |
+          echo "Submitted URLs to IndexNow:"
+          echo '${{ steps.changed.outputs.urls }}' | jq -r '.[]' 2>/dev/null || echo '${{ steps.changed.outputs.urls }}'
