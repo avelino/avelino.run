@@ -5,6 +5,9 @@
 - **URL**: https://avelino.run
 - **Language**: English (primary), Portuguese (some articles)
 - **Type**: Personal blog focused on engineering leadership and open source
+- **Last Updated**: 2025-12-28
+- **Total Articles**: 397
+- **Total Words**: ~171512
 
 ## Author Information
 - **Name**: Thiago Avelino
@@ -25,6 +28,12 @@
 - **pREST**: RESTful API for PostgreSQL (low-code)
 - **moclojer**: API mocking tool
 - **vim-bootstrap**: Vim configuration generator
+
+## Content Statistics
+- Blog Posts: 117
+- FOSS Contributions: 228
+- Quotes/Notes: 52
+- Latest Post: 2015-02-08
 
 ## Content Index for AI
 - **Article List**: https://avelino.run/llms.txt
