@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@react-email/components": "^1.0.2",
-    "@react-email/render": "^2.0.0",
+    "@react-email/render": "^2.0.1",
     "axios": "^1.13.2",
     "crypto": "^1.0.1",
     "gray-matter": "^4.0.3",
