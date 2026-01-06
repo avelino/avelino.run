@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 170,
+  "totalItems" : 171,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/55f9758b5ae988a6be5b22aed4281122/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-01-06T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/when-product-breaks-it-breaks-trust",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "55f9758b5ae988a6be5b22aed4281122",
+      "id" : "/socialweb/notes/55f9758b5ae988a6be5b22aed4281122",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-01-06T00:00:00+00:00",
+      "content" : "<p>When Product Breaks, It Breaks Trust</p><p><a href='https://avelino.run/when-product-breaks-it-breaks-trust'>https://avelino.run/when-product-breaks-it-breaks-trust</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/55f9758b5ae988a6be5b22aed4281122",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/55f9758b5ae988a6be5b22aed4281122?page=true",
+          "partOf" : "/socialweb/replies/55f9758b5ae988a6be5b22aed4281122",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/b069412b226b1e0cf2033ae66d80f596/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-01-06T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "b069412b226b1e0cf2033ae66d80f596",
+      "id" : "/socialweb/notes/b069412b226b1e0cf2033ae66d80f596",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-01-06T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/b069412b226b1e0cf2033ae66d80f596",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/b069412b226b1e0cf2033ae66d80f596?page=true",
+          "partOf" : "/socialweb/replies/b069412b226b1e0cf2033ae66d80f596",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/43cd9da88491ccf515d5df43e3e9dc61/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/43cd9da88491ccf515d5df43e3e9dc61?page=true",
           "partOf" : "/socialweb/replies/43cd9da88491ccf515d5df43e3e9dc61",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/e90c929e3142ce59ffa57f2a3e836d7b/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-01-01T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "e90c929e3142ce59ffa57f2a3e836d7b",
-      "id" : "/socialweb/notes/e90c929e3142ce59ffa57f2a3e836d7b",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-01-01T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/e90c929e3142ce59ffa57f2a3e836d7b",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/e90c929e3142ce59ffa57f2a3e836d7b?page=true",
-          "partOf" : "/socialweb/replies/e90c929e3142ce59ffa57f2a3e836d7b",
           "items" : [ ]
         }
       },

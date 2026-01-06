@@ -1,8 +1,24 @@
 {
-  "total-posts" : 170,
-  "blog-posts" : 118,
+  "total-posts" : 171,
+  "blog-posts" : 119,
   "quote-posts" : 52,
   "posts" : [ {
+    "title" : "When Product Breaks, It Breaks Trust",
+    "date" : "2026-01-06T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/when-product-breaks-it-breaks-trust",
+    "content" : "Product breaks. Not because someone was careless, but because reality is ruthless. Systems live inside a web of dependencies, past decisions, and bets that only show their true price when something fails. At some point, what worked yesterday stops delivering today. No warning. No graceful transition. It just stops fulfilling the core promise.\n\nWhen that happens, the most common mistake is to label it a technical problem. It isn't. It's a product problem. Because product lives in the user's mind, not in the repo. From the outside, there is no architecture, no context, no justification. There's only continuity—or the absence of it. It worked. Now it doesn't. The relationship breaks right there.\n\nThese moments reveal how resilient the product really was. Often the incident didn't create fragility; it exposed it. And that's where patience becomes a strategic skill. Not passive patience—waiting for the fire to cool down—but active patience: resisting the urge to get back to normal before understanding what normal was actually costing you.\n\nBefore acting, measure. Measure not just lost revenue, but shaken confidence. How many users felt insecure? How many started doubting the predictability of the product? How many tied the frustration directly to your brand? Product impact rarely shows up only in financial dashboards; it shows up in the quiet user who doesn't come back.\n\nGetting the house in order starts with that honesty. Sustainable growth requires more than speed. It requires structure, predictability, and choices that can survive time. It requires abandoning the illusion that shortcuts don't charge interest. A mature product isn't one that never fails; it's one designed with the assumption that failures will happen.\n\nThis kind of thinking didn't come out of nowhere for me. In 2022, when I stepped into a C-level role focused on product, an employee gifted me a book that felt almost too obvious at the time: _Inspired_ by Marty Cagan. Only later—after real incidents with real consequences—did it stop being a good read and start functioning as a practical reference. The central message is simple and uncomfortable: product is not the feature list, not delivery velocity, not the stack. Product is the promise working reliably in real life.\n\nAnd that promise must survive bad days. It must survive external changes, accumulated decisions, and dependencies you don't control. When it doesn't, the work isn't patch fast and move on. The work is to learn, reinforce, and evolve the system as a whole.\n\nAnother recurring trap is believing the way out is to accelerate acquisition to offset losses. It's the opposite. Acquisition amplifies everything—including fragility. Bringing more users into an unstable core doesn't create growth; it creates scaled disappointment. Growth isn't scaling traffic. It's scaling the amount of trust you deliver per user.\n\nIn the end, every growing product collides with reality like this. The difference between teams that mature and teams that spiral isn't the incident itself. It's the response. You can use a crisis as an excuse to run faster. Or you can use it as an inflection point to build better.",
+    "type" : "blog",
+    "file-path" : "content/blog/2026-01-when-product-breaks-it-breaks-trust.md"
+  }, {
+    "title" : "Depois de trabalhar anos de casa, voltei para dentro do escritório",
+    "date" : "2026-01-06T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/",
+    "content" : "A cada dia tem mais áreas e empresas abraçando a cultura do trabalho remoto.",
+    "type" : "blog",
+    "file-path" : "content/blog/depois-de-trabalhar-anos-de-casa-voltei-para-dentro-do-escritório.md"
+  }, {
     "title" : "Distribution Is Not a Detail. It Is the Product.",
     "date" : "2026-01-01T00:00:00+00:00",
     "tags" : [ ],
@@ -10,14 +26,6 @@
     "content" : "Most products are built as if the problem were a lack of features. More screens, more options, more control. But what kills products is rarely that. What kills them is distance. The product is not where the user lives.\n\nA product is not just what you build. A product is what shows up. If the user has to remember that you exist, decide to open something, or step out of their natural daily flow to use you, you're already at a disadvantage. Good products don't ask for attention. They appear at the right moment, in the right place, without requiring conscious effort.\n\nHabit always beats intention. People don't want more things to manage. They want fewer decisions throughout the day. Anything that depends on deliberate effort, constant motivation, or a I'll check it later mindset tends to die. Products that survive anchor themselves in what already happens, not in what should happen.\n\nThere is an obsession with adding. More functionality, more screens, more possibilities. But for more than a decade now, it has been clear that simplicity is not an aesthetic choice, it is a strategy. Products that last do fewer things, in fewer places, with more clarity. Complexity is rarely a sign of ambition. Most of the time, it is a lack of decision.\n\nDistribution is that decision. Where the product lives defines its frequency, its format, its language, and its limits. When this choice is wrong, everything that comes after becomes compensation. Onboarding to explain too much. Notifications to remind. Features to justify existence. None of that fixes the core problem.\n\nTruly good products don't need to be remembered. They are present. They don't compete with the user's daily life, they fit into it. The closer a product is to someone's routine, the less surface area it needs. Fewer screens, fewer choices, less explanation. Recurrence replaces complexity.\n\nThat's why the right question was never what else can we build?. The right question is where does this product already fit without getting in the way?. That answer comes before the first line of code. And it should kill most ideas before they ever turn into a backlog.\n\nDistribution is not the path to the product. It is not what comes after. It is the central decision. If the product does not live where the user already is every day, it simply does not exist.",
     "type" : "blog",
     "file-path" : "content/blog/2026-01-distribution-is-not-a-detail-it-is-the-product.md"
-  }, {
-    "title" : "Depois de trabalhar anos de casa, voltei para dentro do escritório",
-    "date" : "2026-01-01T00:00:00+00:00",
-    "tags" : [ ],
-    "url" : "https://avelino.run/",
-    "content" : "A cada dia tem mais áreas e empresas abraçando a cultura do trabalho remoto.",
-    "type" : "blog",
-    "file-path" : "content/blog/depois-de-trabalhar-anos-de-casa-voltei-para-dentro-do-escritório.md"
   }, {
     "title" : "Why complexity steals agility from companies",
     "date" : "2025-12-12T00:00:00+00:00",
