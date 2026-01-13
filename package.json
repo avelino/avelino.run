@@ -12,7 +12,7 @@
   "author": "Thiago Avelino",
   "license": "MIT",
   "dependencies": {
-    "@react-email/components": "^1.0.2",
+    "@react-email/components": "^1.0.4",
     "@react-email/render": "^2.0.0",
     "axios": "^1.13.2",
     "crypto": "^1.0.1",
