@@ -1,0 +1,39 @@
+{{- $currentPage := . -}}
+{{- $currentTags := .Params.tags | default slice -}}
+{{- $related := slice -}}
+
+{{- if gt (len $currentTags) 0 -}}
+  {{/* Busca todas as páginas do site que compartilham pelo menos uma tag */}}
+  {{- range $currentTags -}}
+    {{- $tag := . -}}
+    {{- with $.Site.Taxonomies.tags.Get (urlize $tag) -}}
+      {{- range .Pages -}}
+        {{/* Exclui a página atual */}}
+        {{- if ne .RelPermalink $currentPage.RelPermalink -}}
+          {{- $related = $related | append . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{/* Remove duplicatas, ordena por data (mais novo primeiro) e limita a 5 posts */}}
+  {{- $related = $related | uniq -}}
+  {{- $related = sort $related "Date" "desc" -}}
+  {{- $related = $related | first 5 -}}
+{{- end -}}
+
+{{- if gt (len $related) 0 -}}
+<section class="related-posts">
+  <h2>Related Posts</h2>
+  <ul>
+    {{- range $related -}}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- if .Description -}}
+      <span class="related-description"> — {{ .Description }}</span>
+      {{- end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</section>
+{{- end -}}

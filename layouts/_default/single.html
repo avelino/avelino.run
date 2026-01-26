@@ -30,6 +30,8 @@
 			{{ end }}
 			{{ end }}
 		</div>
+
+		{{- partial "related-posts.html" . -}}
 		{{- $.Scratch.Set "isDisqus" true -}}
 		<!-- Check if disqus short name is given -->
 		{{ if not .Site.Config.Services.Disqus.Shortname }}
