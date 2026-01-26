@@ -8,7 +8,7 @@ comment: false
 
 Package JVM applications into self-contained binaries. No JVM installation required to run the output.
 
-**jbundle** transforms JVM applications (Clojure, Java, Kotlin, Scala, Groovy) into self-contained binaries. Previously known as `clj-pack`, the tool was renamed to reflect support for all JVM languages.
+**[jbundle](https://github.com/avelino/jbundle)** transforms JVM applications (Clojure, Java, Kotlin, Scala, Groovy) into self-contained binaries. Previously known as `clj-pack`, the tool was renamed to reflect support for all JVM languages.
 
 ## Motivation
 
