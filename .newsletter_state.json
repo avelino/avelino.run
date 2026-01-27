@@ -120,6 +120,7 @@
     "blog/2026-01-distribution-is-not-a-detail-it-is-the-product.md",
     "blog/2026-01-when-product-breaks-it-breaks-trust.md",
     "blog/2026-01-clj-pack-distributing-clojure-without-the-graalvm-pain.md",
-    "blog/2026-01-25-chrondb-polyglot-ffi-clojure-graalvm-native-image.md"
+    "blog/2026-01-25-chrondb-polyglot-ffi-clojure-graalvm-native-image.md",
+    "blog/2026-01-27-claude-code-mcp-production-debugging.md"
   ]
 }
