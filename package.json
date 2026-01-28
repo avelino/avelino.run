@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-email/components": "^1.0.2",
     "@react-email/render": "^2.0.0",
-    "axios": "^1.13.2",
+    "axios": "^1.13.4",
     "crypto": "^1.0.1",
     "gray-matter": "^4.0.3",
     "react": "^19.2.0",
