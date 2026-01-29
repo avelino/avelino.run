@@ -1,6 +1,6 @@
 ---
-date: "2026-02-01"
-draft: true
+date: "2026-01-29"
+draft: false
 title: "FFI with GraalVM Native Image: The Real Work of Maintaining a Library That Crosses Language Boundaries"
 tags:
   [
