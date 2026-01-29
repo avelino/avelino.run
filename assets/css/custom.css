@@ -309,10 +309,10 @@ table tr:hover {
 }
 
 /* ===== DARK THEME TOGGLE ===== */
-.dark-theme body,
 body.dark-theme {
   background-color: var(--dark-bg) !important;
   color: var(--dark-text) !important;
+  --bg-code: #2d3748;
 }
 
 .dark-theme p, .dark-theme li, .dark-theme blockquote,
@@ -346,8 +346,11 @@ body.dark-theme {
   border-color: #2d3748 !important;
 }
 
-.dark-theme code {
-  background-color: var(--dark-code-bg) !important;
+body.dark-theme code,
+body.dark-theme article code,
+body.dark-theme section.body code,
+body.dark-theme .content code {
+  background-color: #2d3748 !important;
   color: #e2e8f0 !important;
 }
 
@@ -374,4 +377,133 @@ body.dark-theme {
 
 .dark-theme .meta, .dark-theme time {
   color: var(--dark-text-secondary) !important;
+}
+
+/* ===== NEWSLETTER BOX ===== */
+.newsletter-box {
+  background: #f1e9fd;
+  display: block;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 10px;
+  border-left: solid 5px rebeccapurple;
+  color: #5e497c;
+  font-size: 16px;
+}
+
+.newsletter-box a {
+  color: rebeccapurple !important;
+  border-bottom-color: rebeccapurple !important;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.newsletter-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #bd93f9;
+  color: #5e497c;
+  background: #fff;
+}
+
+.newsletter-btn {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid #bd93f9;
+  background: #bd93f9;
+  color: white;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.newsletter-btn:hover {
+  background: rebeccapurple;
+  border-color: rebeccapurple;
+}
+
+.newsletter-message {
+  margin-left: 10px;
+}
+
+/* Newsletter Dark Mode - prefers-color-scheme */
+@media (prefers-color-scheme: dark) {
+  .newsletter-box {
+    background: #2d2d44 !important;
+    border-left-color: #a78bfa !important;
+    color: #e2e8f0 !important;
+  }
+
+  .newsletter-box a {
+    color: #a78bfa !important;
+    border-bottom-color: #a78bfa !important;
+  }
+
+  .newsletter-box a:hover {
+    background-color: #a78bfa !important;
+    color: #000 !important;
+  }
+
+  .newsletter-input {
+    background: #1a1a2e !important;
+    border-color: #a78bfa !important;
+    color: #e2e8f0 !important;
+  }
+
+  .newsletter-input::placeholder {
+    color: #a0aec0 !important;
+  }
+
+  .newsletter-btn {
+    background: #a78bfa !important;
+    border-color: #a78bfa !important;
+    color: #000 !important;
+  }
+
+  .newsletter-btn:hover {
+    background: #8b5cf6 !important;
+    border-color: #8b5cf6 !important;
+  }
+}
+
+/* Newsletter Dark Mode - toggle class */
+.dark-theme .newsletter-box {
+  background: #2d2d44 !important;
+  border-left-color: #a78bfa !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-theme .newsletter-box a {
+  color: #a78bfa !important;
+  border-bottom-color: #a78bfa !important;
+}
+
+.dark-theme .newsletter-box a:hover {
+  background-color: #a78bfa !important;
+  color: #000 !important;
+}
+
+.dark-theme .newsletter-input {
+  background: #1a1a2e !important;
+  border-color: #a78bfa !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-theme .newsletter-input::placeholder {
+  color: #a0aec0 !important;
+}
+
+.dark-theme .newsletter-btn {
+  background: #a78bfa !important;
+  border-color: #a78bfa !important;
+  color: #000 !important;
+}
+
+.dark-theme .newsletter-btn:hover {
+  background: #8b5cf6 !important;
+  border-color: #8b5cf6 !important;
 }
