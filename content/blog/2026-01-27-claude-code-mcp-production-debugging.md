@@ -179,7 +179,7 @@ Os links dos MCPs que uso:
 
 - [Honeycomb MCP](https://docs.honeycomb.io/integrations/mcp/)
 - [Sentry MCP](https://docs.sentry.io/organization/integrations/mcp/)
-- [Slack MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)
+- [Slack MCP Server](https://github.com/korotovsky/slack-mcp-server)
 - [GitHub MCP](https://docs.github.com/en/copilot/customizing-copilot/using-model-context-protocol)
 
 A stack que montei funciona pra mim. A sua vai ser diferente. O princípio é o mesmo: **conecte as fontes de contexto, peça diagnóstico, valide antes de implementar**.
