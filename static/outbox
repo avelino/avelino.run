@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 175,
+  "totalItems" : 176,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/6da797598c7bad212f93c379416f212f/create",
+    "id" : "/socialweb/notes/a93e5cc7b5c9e8633944eca6bae723cb/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-02-02T00:00:00+00:00",
+    "published" : "2026-02-04T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/",
+      "url" : "https://avelino.run/open-source-bem-publico-brasil",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "6da797598c7bad212f93c379416f212f",
-      "id" : "/socialweb/notes/6da797598c7bad212f93c379416f212f",
+      "hash" : "a93e5cc7b5c9e8633944eca6bae723cb",
+      "id" : "/socialweb/notes/a93e5cc7b5c9e8633944eca6bae723cb",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-02-02T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2026-02-04T00:00:00+00:00",
+      "content" : "<p>Open Source como Bem Público: Alemanha e França já entenderam, e o Brasil?</p><p><a href='https://avelino.run/open-source-bem-publico-brasil'>https://avelino.run/open-source-bem-publico-brasil</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/6da797598c7bad212f93c379416f212f",
+        "id" : "/socialweb/replies/a93e5cc7b5c9e8633944eca6bae723cb",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/6da797598c7bad212f93c379416f212f?page=true",
-          "partOf" : "/socialweb/replies/6da797598c7bad212f93c379416f212f",
+          "next" : "/socialweb/replies/a93e5cc7b5c9e8633944eca6bae723cb?page=true",
+          "partOf" : "/socialweb/replies/a93e5cc7b5c9e8633944eca6bae723cb",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/595fe0177e627fdd3aba60e86e80bd84/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-02-04T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "595fe0177e627fdd3aba60e86e80bd84",
+      "id" : "/socialweb/notes/595fe0177e627fdd3aba60e86e80bd84",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-02-04T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/595fe0177e627fdd3aba60e86e80bd84",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/595fe0177e627fdd3aba60e86e80bd84?page=true",
+          "partOf" : "/socialweb/replies/595fe0177e627fdd3aba60e86e80bd84",
           "items" : [ ]
         }
       },
