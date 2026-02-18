@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 176,
+  "totalItems" : 177,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/da0c8939a60e1e3b2a43a49334c64285/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-02-18T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "da0c8939a60e1e3b2a43a49334c64285",
+      "id" : "/socialweb/notes/da0c8939a60e1e3b2a43a49334c64285",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-02-18T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/da0c8939a60e1e3b2a43a49334c64285",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/da0c8939a60e1e3b2a43a49334c64285?page=true",
+          "partOf" : "/socialweb/replies/da0c8939a60e1e3b2a43a49334c64285",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/dd520f5b9156cd64a757bdb779ddeb37/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-02-18T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/cto-daily-life-chaotic-by-design",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "dd520f5b9156cd64a757bdb779ddeb37",
+      "id" : "/socialweb/notes/dd520f5b9156cd64a757bdb779ddeb37",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-02-18T00:00:00+00:00",
+      "content" : "<p>A CTO's daily life is chaotic by design — what changes is how fast you react</p><p><a href='https://avelino.run/cto-daily-life-chaotic-by-design'>https://avelino.run/cto-daily-life-chaotic-by-design</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/dd520f5b9156cd64a757bdb779ddeb37",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/dd520f5b9156cd64a757bdb779ddeb37?page=true",
+          "partOf" : "/socialweb/replies/dd520f5b9156cd64a757bdb779ddeb37",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/a93e5cc7b5c9e8633944eca6bae723cb/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a93e5cc7b5c9e8633944eca6bae723cb?page=true",
           "partOf" : "/socialweb/replies/a93e5cc7b5c9e8633944eca6bae723cb",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/595fe0177e627fdd3aba60e86e80bd84/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-02-04T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "595fe0177e627fdd3aba60e86e80bd84",
-      "id" : "/socialweb/notes/595fe0177e627fdd3aba60e86e80bd84",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-02-04T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/595fe0177e627fdd3aba60e86e80bd84",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/595fe0177e627fdd3aba60e86e80bd84?page=true",
-          "partOf" : "/socialweb/replies/595fe0177e627fdd3aba60e86e80bd84",
           "items" : [ ]
         }
       },
@@ -2141,41 +2176,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2022-03-20T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "b37d4081f8bf52969bbd756f918c659d",
-      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2022-03-20T00:00:00+00:00",
-      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
-          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -2202,6 +2202,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
           "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2022-03-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "b37d4081f8bf52969bbd756f918c659d",
+      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2022-03-20T00:00:00+00:00",
+      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
+          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
           "items" : [ ]
         }
       },
@@ -4976,41 +5011,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-02-15T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "d006e9ed4ca64fe4d1eb75533bc88b47",
-      "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
-          "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5037,6 +5037,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b?page=true",
           "partOf" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-02-15T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "d006e9ed4ca64fe4d1eb75533bc88b47",
+      "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-02-15T00:00:00+00:00",
+      "content" : "<p>Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
+          "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
           "items" : [ ]
         }
       },
