@@ -1,6 +1,6 @@
 ---
 date: "2026-03-29"
-draft: true
+draft: false
 title: "AI companies didn't stop shipping. Why did you stop learning?"
 tags:
   [
