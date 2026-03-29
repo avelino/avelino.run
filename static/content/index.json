@@ -1,10 +1,18 @@
 {
-  "total-posts" : 179,
-  "blog-posts" : 127,
+  "total-posts" : 180,
+  "blog-posts" : 128,
   "quote-posts" : 52,
   "posts" : [ {
+    "title" : "AI companies didn't stop shipping. Why did you stop learning?",
+    "date" : "2026-03-29T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/ai-companies-didnt-stop-shipping",
+    "content" : "> Stopping learning is a decision. Just don't call it skepticism.\n\nIn six months, every major AI company shipped models that were fundamentally more capable — not incremental updates, real capability jumps. And there are still developers who haven't prioritized learning to work differently. That's not healthy skepticism. That's inertia with a philosophy glued on top.\n\nWhat's actually happening\n\nThere's a group of developers who take pride in not using AI tools. They frame it as craftsmanship, as protecting real engineering, as technical prudence. When you press the argument, they say they're keeping an eye on the market or waiting for the right tool at the right moment.\n\nI've heard every version of this conversation. It's not skepticism. It's inertia with a philosophy glued on top.\n\nOver the last six months, Anthropic, OpenAI, Google, and others didn't stop shipping. Each cycle materially changed what's possible inside a development workflow. The window for I'll evaluate later closed. Later arrived.\n\n> I'm not against AI — I just want to understand it better before adopting it.\n\nUnderstanding it better would take a few weeks of real use. Not months. If six months have passed and you're still figuring it out, the problem isn't the tool.\n\nThe compounding problem\n\nWhat people miss about this moment: the value isn't in any specific model. It's in the compound effect of six months of adapted workflow.\n\nWhen you start using it for real — not in I'll try it once mode — you go through an inevitable curve: bad prompts, flows you throw away, integrations that don't work as expected. That process takes time. There's no shortcut. You don't learn by watching someone else's demo.\n\nThe developer who started adapting their workflow six months ago now operates at a different altitude. Not because the model does the work for them, but because they redesigned where their own judgment applies. That's not replacement — it's leverage.\n\nThe developer who stayed put is still operating at 2024 productivity, believing they're at the ceiling. They're not. They're at the ceiling of the tools they chose not to update.\n\nThe real cost of resistance\n\nDevelopers who resist aren't just slower — they're building an incorrect intuition about their own productive capacity. They believe they're working at the ceiling. They're working at the ceiling given the toolset they have, which is a very different thing.\n\nIt's the equivalent of a developer in 2005 refusing version control because they had a disciplined backup routine. The routine wasn't the problem — it was the inability to see that the tool changed what was possible, not just what was convenient.\n\nAI in 2026 isn't a productivity shortcut. It's a capability expansion. Things that weren't economically viable to build — internal tooling, exploratory prototypes, test coverage that actually means something — are now viable. The developer who can't see that isn't being careful. They're operating with a smaller map.\n\n> The developer who refuses to adapt isn't protecting software quality. They're protecting their comfort zone and calling it a standard.\n\nYou're paid to solve problems\n\nThere's a truth the resistant crowd prefers not to put on the table: software engineers are paid to solve problems and generate positive business impact. Not to choose tools. Not to preserve method. To deliver results.\n\nWhen a developer refuses a tool that demonstrably increases delivery capacity, they're not exercising technical judgment — they're prioritizing the how over the why. And the company paying the salary didn't hire a methodology advocate. They hired someone to move the business.\n\nThat's not dehumanizing — it's honest. The best engineers I've worked with always understood this instinctively. They had no attachment to stack, to process, to tool. They had attachment to the problem. The tool was an operational detail.\n\nHunt and Thomas wrote this in 1999 in The Pragmatic Programmer: the pragmatic developer continuously sharpens their tools, without dogma about which tools those should be. The book is 25 years old. The irony is that most resistant developers have probably read it, highlighted it, and recommended it — and are doing exactly the opposite of what it preaches.\n\nWhat adaptation actually means\n\nI'm not talking about using AI to autocomplete docstrings. I'm talking about fundamentally rethinking where developer judgment applies in the workflow.\n\nThe highest-value judgment isn't write this function. It's: is this the right abstraction? Is this the right trade-off? Will this architecture hold under the constraints we'll have in 18 months? That level of judgment isn't replaceable — and it was never the bottleneck. The bottleneck has always been everything below that line.\n\nThe developers who will dominate the next cycle aren't the ones who write the most code. They're the ones who learned to apply judgment at the right altitude — and let the model handle everything below that line.\n\nThat requires actually using the tool. Building workflows. Finding the failure points. Understanding where it confidently hallucinates versus where it's trustworthy. It's not theoretical — it's empirical. You have to ship with it to know.\n\nThe six-month test\n\nThe question I'd ask any developer still on the fence: the biggest AI companies in the world have shipped fundamentally more capable models since you started evaluating. If you were going to learn, you had the time. What did you do with it?\n\nIf the answer is nothing, because I'm still not sure it's for me — that's a decision. Own it. But don't pretend it's principle. Principle would be experimenting seriously, finding real limitations, and concluding the tool doesn't fit your specific workflow. That's valid. Not touching anything while the ecosystem builds around you isn't principle — it's avoidance.\n\nThe market doesn't care about your skepticism. It compounds around the people who adapted early. Six months from now, there will be more releases, more capable agentic workflows, more integrations. The gap between those who adapted and those who didn't will be wider, not narrower.\n\n---\n\nSoftware development is changing faster than any previous tool cycle — including cloud, mobile, and open source. Developers who treat this like another hype cycle will be wrong. The window for I'll catch up later gets smaller every quarter.\n\nStart now, or watch the gap widen. Those are the options.",
+    "type" : "blog",
+    "file-path" : "content/blog/2026-03-ai-companies-didnt-stop-shipping.md"
+  }, {
     "title" : "Depois de trabalhar anos de casa, voltei para dentro do escritório",
-    "date" : "2026-03-09T00:00:00+00:00",
+    "date" : "2026-03-29T00:00:00+00:00",
     "tags" : [ ],
     "url" : "https://avelino.run/",
     "content" : "A cada dia tem mais áreas e empresas abraçando a cultura do trabalho remoto.",
@@ -515,14 +523,6 @@
     "type" : "blog",
     "file-path" : "content/blog/2022-04-02-metodo-pink-dot-minimalismo.md"
   }, {
-    "title" : "Sabbatical time focused on developer experience (DevX)",
-    "date" : "2022-03-20T00:00:00+00:00",
-    "tags" : [ ],
-    "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
-    "content" : "",
-    "type" : "blog",
-    "file-path" : "content/blog/2022-03-20-sabbatical-time-focused-on-developer-experience.md"
-  }, {
     "title" : "Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)",
     "date" : "2022-03-20T00:00:00+00:00",
     "tags" : [ ],
@@ -530,6 +530,14 @@
     "content" : "O último _tempo sabático_ que tirei foi no final de 2018 quando sai do dia-a-dia da empresa que fundei em 2015, foram intensos 4 anos de trabalho e precisava parar para oxigenar meu cérebro.\n\nNo meio de 2019 resolvi voltar ao mercado de trabalho para aprender sobre como as empresas de tecnologia estão estruturando time de engenharia de software — vinha empreendendo desde 2012 até 2018 e estruturando time de engenharia como julgava ser a melhor forma, senti precisar ganhar experiencia com quem estava em momento de _scaleup_, fazendo com excelência o que eu queria aprender.\n\nEstudando sobre UX\n\nDe 2019 para cá não investi tempo para aprender assuntos diferentes que não necessariamente me dê ~dinheiro~. Em _dezembro/2021_ resolvi financiar meu aprendizado (passar alguns meses sem trabalhar e estudando) e resolvi investindo meu tempo em Experiência do Usuário (focando na _pessoa desenvolvedora_).\n\nSendo mais específico estudei sobre os seguintes assuntos:\n\n- Psicologia Cognitiva;\n- Usabilidade e Interação;\n- Interação Humano-Computador;\n- Design System;\n- e muitos outros assuntos relacionado a UX (não especifico para DevX).\n\n> Todos os temas voltado para experiência de pessoas, não necessariamente pessoa desenvolvedora.\n\nTudo que estudo profundamente coloco em prática em um ambiente publico, geralmente uso projeto Open Source para isso, sendo contribuindo com algum projeto existente ou começando um novo projeto (~caso não existe~, é muito difícil não existir um projeto open source que faça uma parte da ideia que você não teve).\n\nColocando o estudo em prática\n\nSou um dos criadores do prestd (simplifica abrir o banco de dados PostgreSQL como uma API RESTful), infelizmente subir o ambiente de produção para o prestd não era uma tarefa simples (ainda não é, mas estamos no caminho) e só de pensar em subir o ambiente para desenvolver e/ou contribuir com o projeto era ainda mais complicado — eu sentia/sinto vergonha que ajudei desenvolver um projeto com uma barreira super alta para contribuição, eu só tive essa visão após estuda sobre UX com foco em DevX. Quando tenho esse tipo de sentimento (vergonha ou algum problema) gosto de trazer os problemas para meu colo, assim tenho a oportunidade de assumir a responsabilidade de melhorar o que esta me incomodando.\n\nAlguns passos importantes que o prestd deu para simplificar a vida da pessoa desenvolvedora (que quer usar ou contribuir com o projeto):\n\n- Reestruturar a documentação com o pensamento de quem vai usar o projeto, não com pensamento de quem já conhece o projeto;\n- Limitar o número de novos recursos que entra no projeto, precisamos colocar esforços nos recursos atuais melhorando a documentação e simplificando o uso;\n- Simplificar a criação do ambiente de desenvolvimento, usando devcontainers (e sua integração com GitHub Codespace), docker-compose e permitir rodar os testes localmente (na real ele rodava localmente, mas tinha que configurar muitas coisas e até eu deixar rodar no _CI_). Escrevi aqui um blogpost falando desse processo;\n- ..., ainda temos muito que fazer/melhorar para deixar o prestd um software amigável para novas pessoas desenvolvedoras, mas sinto que estamos em uma constante evolução.\n\nQuando falamos de DevX (UX focado nas pessoas desenvolvedoras) precisamos ter empatia com as pessoas que vão usar o software que estamos desenvolvendo, e não _só_ com as pessoas que conhece o projeto, devemos nos colocar no lugar das pessoas e buscar sentir o que elas sentiriam se estivesse embarcando hoje no projeto sem ter conhecimento prévio.\n\n> O que você tem feito para deixar o software que você esta desenvolvendo atualmente mais acessível para seus usuários e novos membros do time? Lembre-se que o código é (e acredito que sempre será) um meio para chegar em algum lugar e não a linha de chegada, principalmente quando estamos falando sobre desenvolver software para outras pessoas desenvolvedoras usar - nós desenvolvedores somos pessoas que tem muito _viés cognitivo_.",
     "type" : "blog",
     "file-path" : "content/blog/2022-03-20-tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx.md"
+  }, {
+    "title" : "Sabbatical time focused on developer experience (DevX)",
+    "date" : "2022-03-20T00:00:00+00:00",
+    "tags" : [ ],
+    "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
+    "content" : "",
+    "type" : "blog",
+    "file-path" : "content/blog/2022-03-20-sabbatical-time-focused-on-developer-experience.md"
   }, {
     "title" : "We are more than 75,000 people (stars 🌟) — awesome-go",
     "date" : "2022-02-03T00:00:00+00:00",
@@ -1155,13 +1163,13 @@
     "type" : "blog",
     "file-path" : "content/blog/church-vim.md"
   }, {
-    "title" : "Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno",
+    "title" : "Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging",
     "date" : "2015-02-15T00:00:00+00:00",
     "tags" : [ ],
     "url" : "https://avelino.run/",
-    "content" : "Escute minha participação no Castalio Podcast falando sobre OpenMining e SambaPorno (ATENÇÃO: _Conteúdo Pornográfico EXPLÍCITO_):\n\n{{< podcast https://archive.org/embed/castalio-podcast-64 >}}",
+    "content" : "Escute minha participação no Castalio Podcast falando sobre vim-bootstrap e BeerBlogging:\n\n{{< podcast https://archive.org/embed/castalio-podcast-63 >}}",
     "type" : "blog",
-    "file-path" : "content/blog/2015-03-01-castalio-podcast-episodio-64-thiago-avelino-openmining-e-sambaporno.md"
+    "file-path" : "content/blog/2015-02-15-castalio-podcast-episodio-63-thiago-avelino-vimbootstrap-beerblogging.md"
   }, {
     "title" : "Encerrando Ciclos, viva no presente, não se paralise pelo passado",
     "date" : "2015-02-15T00:00:00+00:00",
@@ -1171,13 +1179,13 @@
     "type" : "blog",
     "file-path" : "content/blog/encerrando-cliclos-viva-no-presente-nao-se-paralise-pelo-passado.md"
   }, {
-    "title" : "Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging",
+    "title" : "Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno",
     "date" : "2015-02-15T00:00:00+00:00",
     "tags" : [ ],
     "url" : "https://avelino.run/",
-    "content" : "Escute minha participação no Castalio Podcast falando sobre vim-bootstrap e BeerBlogging:\n\n{{< podcast https://archive.org/embed/castalio-podcast-63 >}}",
+    "content" : "Escute minha participação no Castalio Podcast falando sobre OpenMining e SambaPorno (ATENÇÃO: _Conteúdo Pornográfico EXPLÍCITO_):\n\n{{< podcast https://archive.org/embed/castalio-podcast-64 >}}",
     "type" : "blog",
-    "file-path" : "content/blog/2015-02-15-castalio-podcast-episodio-63-thiago-avelino-vimbootstrap-beerblogging.md"
+    "file-path" : "content/blog/2015-03-01-castalio-podcast-episodio-64-thiago-avelino-openmining-e-sambaporno.md"
   }, {
     "title" : "Where to start a project with bottle, Boilerplate",
     "date" : "2015-02-08T00:00:00+00:00",
