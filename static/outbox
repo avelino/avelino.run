@@ -6,32 +6,32 @@
   "totalItems" : 180,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a69ef144bdc7ff196209b72d9423d0a1/create",
+    "id" : "/socialweb/notes/46578aaa4b8f946579bd9f97334f40c0/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-03-10T00:00:00+00:00",
+    "published" : "2026-03-29T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/",
+      "url" : "https://avelino.run/ai-companies-didnt-stop-shipping",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a69ef144bdc7ff196209b72d9423d0a1",
-      "id" : "/socialweb/notes/a69ef144bdc7ff196209b72d9423d0a1",
+      "hash" : "46578aaa4b8f946579bd9f97334f40c0",
+      "id" : "/socialweb/notes/46578aaa4b8f946579bd9f97334f40c0",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-03-10T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2026-03-29T00:00:00+00:00",
+      "content" : "<p>AI companies didn't stop shipping. Why did you stop learning?</p><p><a href='https://avelino.run/ai-companies-didnt-stop-shipping'>https://avelino.run/ai-companies-didnt-stop-shipping</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/a69ef144bdc7ff196209b72d9423d0a1",
+        "id" : "/socialweb/replies/46578aaa4b8f946579bd9f97334f40c0",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a69ef144bdc7ff196209b72d9423d0a1?page=true",
-          "partOf" : "/socialweb/replies/a69ef144bdc7ff196209b72d9423d0a1",
+          "next" : "/socialweb/replies/46578aaa4b8f946579bd9f97334f40c0?page=true",
+          "partOf" : "/socialweb/replies/46578aaa4b8f946579bd9f97334f40c0",
           "items" : [ ]
         }
       },
@@ -41,32 +41,32 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/0f0c50703ccaf5b190c2027d80fc00ef/create",
+    "id" : "/socialweb/notes/66949a1e95e8cf452330a66af1975646/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-03-10T00:00:00+00:00",
+    "published" : "2026-03-29T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/product-is-not-a-role-its-a-moment",
+      "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "0f0c50703ccaf5b190c2027d80fc00ef",
-      "id" : "/socialweb/notes/0f0c50703ccaf5b190c2027d80fc00ef",
+      "hash" : "66949a1e95e8cf452330a66af1975646",
+      "id" : "/socialweb/notes/66949a1e95e8cf452330a66af1975646",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-03-10T00:00:00+00:00",
-      "content" : "<p>Product is not a role. It's a moment.</p><p><a href='https://avelino.run/product-is-not-a-role-its-a-moment'>https://avelino.run/product-is-not-a-role-its-a-moment</a></p>",
+      "published" : "2026-03-29T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/0f0c50703ccaf5b190c2027d80fc00ef",
+        "id" : "/socialweb/replies/66949a1e95e8cf452330a66af1975646",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/0f0c50703ccaf5b190c2027d80fc00ef?page=true",
-          "partOf" : "/socialweb/replies/0f0c50703ccaf5b190c2027d80fc00ef",
+          "next" : "/socialweb/replies/66949a1e95e8cf452330a66af1975646?page=true",
+          "partOf" : "/socialweb/replies/66949a1e95e8cf452330a66af1975646",
           "items" : [ ]
         }
       },
@@ -2281,41 +2281,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2022-03-20T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "80c60ae5913034420ebc97cf0d9b5129",
-      "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2022-03-20T00:00:00+00:00",
-      "content" : "<p>Sabbatical time focused on developer experience (DevX)</p><p><a href='https://avelino.run/sabbatical-time-focused-on-developer-experience'>https://avelino.run/sabbatical-time-focused-on-developer-experience</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
-          "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -2342,6 +2307,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
           "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2022-03-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/sabbatical-time-focused-on-developer-experience",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "80c60ae5913034420ebc97cf0d9b5129",
+      "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2022-03-20T00:00:00+00:00",
+      "content" : "<p>Sabbatical time focused on developer experience (DevX)</p><p><a href='https://avelino.run/sabbatical-time-focused-on-developer-experience'>https://avelino.run/sabbatical-time-focused-on-developer-experience</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
+          "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
           "items" : [ ]
         }
       },
@@ -5081,7 +5081,7 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
+    "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
@@ -5090,23 +5090,23 @@
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
-      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
+      "hash" : "d006e9ed4ca64fe4d1eb75533bc88b47",
+      "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
       "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "content" : "<p>Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+        "id" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
-          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+          "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
+          "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
           "items" : [ ]
         }
       },
@@ -5151,7 +5151,7 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47/create",
+    "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
@@ -5160,23 +5160,23 @@
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "d006e9ed4ca64fe4d1eb75533bc88b47",
-      "id" : "/socialweb/notes/d006e9ed4ca64fe4d1eb75533bc88b47",
+      "hash" : "a6b3ec5c46ac82a9898c153455281dcd",
+      "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
       "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Castalio - Episódio 63: Thiago Avelino - vim-bootstrap e BeerBlogging</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "content" : "<p>Castalio - Episódio 64: Thiago Avelino - OpenMining e SambaPorno</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
+        "id" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47?page=true",
-          "partOf" : "/socialweb/replies/d006e9ed4ca64fe4d1eb75533bc88b47",
+          "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
+          "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
           "items" : [ ]
         }
       },
