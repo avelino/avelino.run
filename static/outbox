@@ -6,6 +6,41 @@
   "totalItems" : 182,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/bc2f011bb94c7fa2e34eecf63daebccc/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-04T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/your-manager-doesnt-owe-you-a-career",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "bc2f011bb94c7fa2e34eecf63daebccc",
+      "id" : "/socialweb/notes/bc2f011bb94c7fa2e34eecf63daebccc",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-04T00:00:00+00:00",
+      "content" : "<p>Your manager doesn't owe you a career</p><p><a href='https://avelino.run/your-manager-doesnt-owe-you-a-career'>https://avelino.run/your-manager-doesnt-owe-you-a-career</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/bc2f011bb94c7fa2e34eecf63daebccc",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/bc2f011bb94c7fa2e34eecf63daebccc?page=true",
+          "partOf" : "/socialweb/replies/bc2f011bb94c7fa2e34eecf63daebccc",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/9cbc166adf211e3e3d6a163144ac87dd/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -32,41 +67,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd?page=true",
           "partOf" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/fd73e776313c05ed66bbc1a360d3908c/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-04-03T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/your-manager-doesnt-owe-you-a-career",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "fd73e776313c05ed66bbc1a360d3908c",
-      "id" : "/socialweb/notes/fd73e776313c05ed66bbc1a360d3908c",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-04-03T00:00:00+00:00",
-      "content" : "<p>Your manager doesn't owe you a career</p><p><a href='https://avelino.run/your-manager-doesnt-owe-you-a-career'>https://avelino.run/your-manager-doesnt-owe-you-a-career</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/fd73e776313c05ed66bbc1a360d3908c",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/fd73e776313c05ed66bbc1a360d3908c?page=true",
-          "partOf" : "/socialweb/replies/fd73e776313c05ed66bbc1a360d3908c",
           "items" : [ ]
         }
       },
