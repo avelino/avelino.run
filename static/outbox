@@ -3,7 +3,7 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 182,
+  "totalItems" : 181,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/bc5abad0d986c55bfa109ab2b9ed57ab/create",
@@ -32,41 +32,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/bc5abad0d986c55bfa109ab2b9ed57ab?page=true",
           "partOf" : "/socialweb/replies/bc5abad0d986c55bfa109ab2b9ed57ab",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/d984cce9abb8bedc5d01e00590fdcac9/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-04-01T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/your-manager-doesnt-owe-you-a-career",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "d984cce9abb8bedc5d01e00590fdcac9",
-      "id" : "/socialweb/notes/d984cce9abb8bedc5d01e00590fdcac9",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-04-01T00:00:00+00:00",
-      "content" : "<p>Your manager doesn't owe you a career</p><p><a href='https://avelino.run/your-manager-doesnt-owe-you-a-career'>https://avelino.run/your-manager-doesnt-owe-you-a-career</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/d984cce9abb8bedc5d01e00590fdcac9",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/d984cce9abb8bedc5d01e00590fdcac9?page=true",
-          "partOf" : "/socialweb/replies/d984cce9abb8bedc5d01e00590fdcac9",
           "items" : [ ]
         }
       },
