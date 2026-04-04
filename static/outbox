@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 181,
+  "totalItems" : 182,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/9cbc166adf211e3e3d6a163144ac87dd/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-04T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "9cbc166adf211e3e3d6a163144ac87dd",
+      "id" : "/socialweb/notes/9cbc166adf211e3e3d6a163144ac87dd",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-04T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd?page=true",
+          "partOf" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/fd73e776313c05ed66bbc1a360d3908c/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-03T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/your-manager-doesnt-owe-you-a-career",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "fd73e776313c05ed66bbc1a360d3908c",
+      "id" : "/socialweb/notes/fd73e776313c05ed66bbc1a360d3908c",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-03T00:00:00+00:00",
+      "content" : "<p>Your manager doesn't owe you a career</p><p><a href='https://avelino.run/your-manager-doesnt-owe-you-a-career'>https://avelino.run/your-manager-doesnt-owe-you-a-career</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/fd73e776313c05ed66bbc1a360d3908c",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/fd73e776313c05ed66bbc1a360d3908c?page=true",
+          "partOf" : "/socialweb/replies/fd73e776313c05ed66bbc1a360d3908c",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/bc5abad0d986c55bfa109ab2b9ed57ab/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/bc5abad0d986c55bfa109ab2b9ed57ab?page=true",
           "partOf" : "/socialweb/replies/bc5abad0d986c55bfa109ab2b9ed57ab",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/02132e5ca2b8888f4024e91cb36a9197/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-04-01T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "02132e5ca2b8888f4024e91cb36a9197",
-      "id" : "/socialweb/notes/02132e5ca2b8888f4024e91cb36a9197",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-04-01T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/02132e5ca2b8888f4024e91cb36a9197",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/02132e5ca2b8888f4024e91cb36a9197?page=true",
-          "partOf" : "/socialweb/replies/02132e5ca2b8888f4024e91cb36a9197",
           "items" : [ ]
         }
       },
