@@ -3,8 +3,43 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 182,
+  "totalItems" : 183,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/37f3c5af02571e8bb2a46d093a30ae05/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-04T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/mcp-governance-token-sprawl",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "37f3c5af02571e8bb2a46d093a30ae05",
+      "id" : "/socialweb/notes/37f3c5af02571e8bb2a46d093a30ae05",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-04T00:00:00+00:00",
+      "content" : "<p>The governance problem MCP created without asking</p><p><a href='https://avelino.run/mcp-governance-token-sprawl'>https://avelino.run/mcp-governance-token-sprawl</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/37f3c5af02571e8bb2a46d093a30ae05",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/37f3c5af02571e8bb2a46d093a30ae05?page=true",
+          "partOf" : "/socialweb/replies/37f3c5af02571e8bb2a46d093a30ae05",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/bc2f011bb94c7fa2e34eecf63daebccc/create",
     "type" : "Create",
