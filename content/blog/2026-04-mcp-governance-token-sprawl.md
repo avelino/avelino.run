@@ -6,6 +6,7 @@ tags: ["engineering leadership", "security", "mcp", "open source"]
 descriptio: "MCP made my team more productive. It also created 200 active tokens scattered across personal machines with no inventory, no rotation, and no central revocation. What we did about it."
 slug: "mcp-governance-token-sprawl"
 url: "/mcp-governance-token-sprawl"
+aliases: ["/2026-04-mcp-governance-token-sprawl"]
 ---
 
 My team adopted MCP fast. I encouraged it — the productivity gains were real and visible. Engineers connecting Sentry, Slack, Grafana, GitHub directly into their workflow, no friction. The kind of thing you want to happen organically.
