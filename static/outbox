@@ -6,32 +6,67 @@
   "totalItems" : 183,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/37f3c5af02571e8bb2a46d093a30ae05/create",
+    "id" : "/socialweb/notes/f237d214d8b5dc3f9b2697d5e4db1bd0/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-04-04T00:00:00+00:00",
+    "published" : "2026-04-06T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/mcp-governance-token-sprawl",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "37f3c5af02571e8bb2a46d093a30ae05",
-      "id" : "/socialweb/notes/37f3c5af02571e8bb2a46d093a30ae05",
+      "hash" : "f237d214d8b5dc3f9b2697d5e4db1bd0",
+      "id" : "/socialweb/notes/f237d214d8b5dc3f9b2697d5e4db1bd0",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-04-04T00:00:00+00:00",
+      "published" : "2026-04-06T00:00:00+00:00",
       "content" : "<p>The governance problem MCP created without asking</p><p><a href='https://avelino.run/mcp-governance-token-sprawl'>https://avelino.run/mcp-governance-token-sprawl</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/37f3c5af02571e8bb2a46d093a30ae05",
+        "id" : "/socialweb/replies/f237d214d8b5dc3f9b2697d5e4db1bd0",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/37f3c5af02571e8bb2a46d093a30ae05?page=true",
-          "partOf" : "/socialweb/replies/37f3c5af02571e8bb2a46d093a30ae05",
+          "next" : "/socialweb/replies/f237d214d8b5dc3f9b2697d5e4db1bd0?page=true",
+          "partOf" : "/socialweb/replies/f237d214d8b5dc3f9b2697d5e4db1bd0",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/5d2b8d8854a8ff17540e88e7518c5725/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-06T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "5d2b8d8854a8ff17540e88e7518c5725",
+      "id" : "/socialweb/notes/5d2b8d8854a8ff17540e88e7518c5725",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-06T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/5d2b8d8854a8ff17540e88e7518c5725",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/5d2b8d8854a8ff17540e88e7518c5725?page=true",
+          "partOf" : "/socialweb/replies/5d2b8d8854a8ff17540e88e7518c5725",
           "items" : [ ]
         }
       },
@@ -67,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/bc2f011bb94c7fa2e34eecf63daebccc?page=true",
           "partOf" : "/socialweb/replies/bc2f011bb94c7fa2e34eecf63daebccc",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/9cbc166adf211e3e3d6a163144ac87dd/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-04-04T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "9cbc166adf211e3e3d6a163144ac87dd",
-      "id" : "/socialweb/notes/9cbc166adf211e3e3d6a163144ac87dd",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-04-04T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd?page=true",
-          "partOf" : "/socialweb/replies/9cbc166adf211e3e3d6a163144ac87dd",
           "items" : [ ]
         }
       },
