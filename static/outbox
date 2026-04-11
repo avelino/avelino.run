@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 183,
+  "totalItems" : 184,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/5d2ac3c76042826dee7cd5a3155a25ea/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-11T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "5d2ac3c76042826dee7cd5a3155a25ea",
+      "id" : "/socialweb/notes/5d2ac3c76042826dee7cd5a3155a25ea",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-11T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/5d2ac3c76042826dee7cd5a3155a25ea",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/5d2ac3c76042826dee7cd5a3155a25ea?page=true",
+          "partOf" : "/socialweb/replies/5d2ac3c76042826dee7cd5a3155a25ea",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/7a4e88b6e5ebad7046a8dad79dedb9b4/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-11T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/the-code-is-yours",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "7a4e88b6e5ebad7046a8dad79dedb9b4",
+      "id" : "/socialweb/notes/7a4e88b6e5ebad7046a8dad79dedb9b4",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-11T00:00:00+00:00",
+      "content" : "<p>The code is yours. All of it</p><p><a href='https://avelino.run/the-code-is-yours'>https://avelino.run/the-code-is-yours</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/7a4e88b6e5ebad7046a8dad79dedb9b4",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/7a4e88b6e5ebad7046a8dad79dedb9b4?page=true",
+          "partOf" : "/socialweb/replies/7a4e88b6e5ebad7046a8dad79dedb9b4",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/f237d214d8b5dc3f9b2697d5e4db1bd0/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/f237d214d8b5dc3f9b2697d5e4db1bd0?page=true",
           "partOf" : "/socialweb/replies/f237d214d8b5dc3f9b2697d5e4db1bd0",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/5d2b8d8854a8ff17540e88e7518c5725/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-04-06T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "5d2b8d8854a8ff17540e88e7518c5725",
-      "id" : "/socialweb/notes/5d2b8d8854a8ff17540e88e7518c5725",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-04-06T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/5d2b8d8854a8ff17540e88e7518c5725",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/5d2b8d8854a8ff17540e88e7518c5725?page=true",
-          "partOf" : "/socialweb/replies/5d2b8d8854a8ff17540e88e7518c5725",
           "items" : [ ]
         }
       },
@@ -2386,41 +2421,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2022-03-20T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "b37d4081f8bf52969bbd756f918c659d",
-      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2022-03-20T00:00:00+00:00",
-      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
-          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/80c60ae5913034420ebc97cf0d9b5129/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -2447,6 +2447,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129?page=true",
           "partOf" : "/socialweb/replies/80c60ae5913034420ebc97cf0d9b5129",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2022-03-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "b37d4081f8bf52969bbd756f918c659d",
+      "id" : "/socialweb/notes/b37d4081f8bf52969bbd756f918c659d",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2022-03-20T00:00:00+00:00",
+      "content" : "<p>Tempo sabático focado em experiência da pessoa desenvolvedora (DevX)</p><p><a href='https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx'>https://avelino.run/tempo-sabatico-focado-em-experiencia-da-pessoa-desenvolvedora-devx</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d?page=true",
+          "partOf" : "/socialweb/replies/b37d4081f8bf52969bbd756f918c659d",
           "items" : [ ]
         }
       },
@@ -5221,41 +5256,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-02-15T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "156bc129a9f919d6bc7eb6cfadbd643b",
-      "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-02-15T00:00:00+00:00",
-      "content" : "<p>Encerrando Ciclos, viva no presente, não se paralise pelo passado</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b?page=true",
-          "partOf" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/a6b3ec5c46ac82a9898c153455281dcd/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5282,6 +5282,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd?page=true",
           "partOf" : "/socialweb/replies/a6b3ec5c46ac82a9898c153455281dcd",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-02-15T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "156bc129a9f919d6bc7eb6cfadbd643b",
+      "id" : "/socialweb/notes/156bc129a9f919d6bc7eb6cfadbd643b",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-02-15T00:00:00+00:00",
+      "content" : "<p>Encerrando Ciclos, viva no presente, não se paralise pelo passado</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b?page=true",
+          "partOf" : "/socialweb/replies/156bc129a9f919d6bc7eb6cfadbd643b",
           "items" : [ ]
         }
       },
@@ -6131,41 +6166,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2011-03-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a331c6ffd4f1dd5cd36d3e430e638110",
-      "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2011-03-28T00:00:00+00:00",
-      "content" : "<p>Certificado EV SSL</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
-          "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -6192,6 +6192,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
           "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2011-03-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "a331c6ffd4f1dd5cd36d3e430e638110",
+      "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2011-03-28T00:00:00+00:00",
+      "content" : "<p>Certificado EV SSL</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
+          "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
           "items" : [ ]
         }
       },
