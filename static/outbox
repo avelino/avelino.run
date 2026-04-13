@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 184,
+  "totalItems" : 185,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/5d2ac3c76042826dee7cd5a3155a25ea/create",
+    "id" : "/socialweb/notes/7b3b3eb60fd8f6a90c4f088e26b0792d/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-04-11T00:00:00+00:00",
+    "published" : "2026-04-13T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "5d2ac3c76042826dee7cd5a3155a25ea",
-      "id" : "/socialweb/notes/5d2ac3c76042826dee7cd5a3155a25ea",
+      "hash" : "7b3b3eb60fd8f6a90c4f088e26b0792d",
+      "id" : "/socialweb/notes/7b3b3eb60fd8f6a90c4f088e26b0792d",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-04-11T00:00:00+00:00",
+      "published" : "2026-04-13T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/5d2ac3c76042826dee7cd5a3155a25ea",
+        "id" : "/socialweb/replies/7b3b3eb60fd8f6a90c4f088e26b0792d",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/5d2ac3c76042826dee7cd5a3155a25ea?page=true",
-          "partOf" : "/socialweb/replies/5d2ac3c76042826dee7cd5a3155a25ea",
+          "next" : "/socialweb/replies/7b3b3eb60fd8f6a90c4f088e26b0792d?page=true",
+          "partOf" : "/socialweb/replies/7b3b3eb60fd8f6a90c4f088e26b0792d",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/bba2f1484a8d272bb2717f29a2d2bc78/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-12T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/contribute-what-you-use",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "bba2f1484a8d272bb2717f29a2d2bc78",
+      "id" : "/socialweb/notes/bba2f1484a8d272bb2717f29a2d2bc78",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-12T00:00:00+00:00",
+      "content" : "<p>Contribute What You Use: Why Real Usage Makes Better Open Source Contributions</p><p><a href='https://avelino.run/contribute-what-you-use'>https://avelino.run/contribute-what-you-use</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/bba2f1484a8d272bb2717f29a2d2bc78",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/bba2f1484a8d272bb2717f29a2d2bc78?page=true",
+          "partOf" : "/socialweb/replies/bba2f1484a8d272bb2717f29a2d2bc78",
           "items" : [ ]
         }
       },
