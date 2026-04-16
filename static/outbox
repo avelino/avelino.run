@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 185,
+  "totalItems" : 186,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/7b3b3eb60fd8f6a90c4f088e26b0792d/create",
+    "id" : "/socialweb/notes/9578698ed737f2760bf90fa2e0239f10/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-04-13T00:00:00+00:00",
+    "published" : "2026-04-16T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "7b3b3eb60fd8f6a90c4f088e26b0792d",
-      "id" : "/socialweb/notes/7b3b3eb60fd8f6a90c4f088e26b0792d",
+      "hash" : "9578698ed737f2760bf90fa2e0239f10",
+      "id" : "/socialweb/notes/9578698ed737f2760bf90fa2e0239f10",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-04-13T00:00:00+00:00",
+      "published" : "2026-04-16T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/7b3b3eb60fd8f6a90c4f088e26b0792d",
+        "id" : "/socialweb/replies/9578698ed737f2760bf90fa2e0239f10",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/7b3b3eb60fd8f6a90c4f088e26b0792d?page=true",
-          "partOf" : "/socialweb/replies/7b3b3eb60fd8f6a90c4f088e26b0792d",
+          "next" : "/socialweb/replies/9578698ed737f2760bf90fa2e0239f10?page=true",
+          "partOf" : "/socialweb/replies/9578698ed737f2760bf90fa2e0239f10",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/f935550a39dc16110f997daca417788a/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-15T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/best-pms-are-more-free",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "f935550a39dc16110f997daca417788a",
+      "id" : "/socialweb/notes/f935550a39dc16110f997daca417788a",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-15T00:00:00+00:00",
+      "content" : "<p>The best PMs aren't more skilled. They're more free.</p><p><a href='https://avelino.run/best-pms-are-more-free'>https://avelino.run/best-pms-are-more-free</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/f935550a39dc16110f997daca417788a",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/f935550a39dc16110f997daca417788a?page=true",
+          "partOf" : "/socialweb/replies/f935550a39dc16110f997daca417788a",
           "items" : [ ]
         }
       },
