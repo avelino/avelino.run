@@ -41,7 +41,7 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/f935550a39dc16110f997daca417788a/create",
+    "id" : "/socialweb/notes/3d23f923c6c3ce5649d05c5e3dd52beb/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
@@ -50,23 +50,23 @@
     "object" : {
       "url" : "https://avelino.run/best-pms-are-more-free",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "f935550a39dc16110f997daca417788a",
-      "id" : "/socialweb/notes/f935550a39dc16110f997daca417788a",
+      "hash" : "3d23f923c6c3ce5649d05c5e3dd52beb",
+      "id" : "/socialweb/notes/3d23f923c6c3ce5649d05c5e3dd52beb",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
       "published" : "2026-04-15T00:00:00+00:00",
-      "content" : "<p>The best PMs aren't more skilled. They're more free.</p><p><a href='https://avelino.run/best-pms-are-more-free'>https://avelino.run/best-pms-are-more-free</a></p>",
+      "content" : "<p>The best PMs aren't more skilled. They're more free</p><p><a href='https://avelino.run/best-pms-are-more-free'>https://avelino.run/best-pms-are-more-free</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/f935550a39dc16110f997daca417788a",
+        "id" : "/socialweb/replies/3d23f923c6c3ce5649d05c5e3dd52beb",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/f935550a39dc16110f997daca417788a?page=true",
-          "partOf" : "/socialweb/replies/f935550a39dc16110f997daca417788a",
+          "next" : "/socialweb/replies/3d23f923c6c3ce5649d05c5e3dd52beb?page=true",
+          "partOf" : "/socialweb/replies/3d23f923c6c3ce5649d05c5e3dd52beb",
           "items" : [ ]
         }
       },
