@@ -1,7 +1,7 @@
 ---
 date: "2026-04-15"
 draft: false
-title: "The best PMs aren't more skilled. They're more free."
+title: "The best PMs aren't more skilled. They're more free"
 tags: ["product", "career", "personal-finance", "autonomy", "decision-making"]
 description: "The product decision I didn't make in 2014 because I couldn't afford to be right — and what it taught me about conviction, financial autonomy, and the invisible cost of having no choice."
 url: "/best-pms-are-more-free"
