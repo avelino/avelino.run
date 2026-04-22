@@ -13,7 +13,7 @@ Let me tell you how most stagnation stories begin.
 
 Not with a bad manager. Not with a company that doesn't invest in people. It begins with a silent, almost unconscious belief that professional development is someone else's responsibility.
 
-You join a company. There's a 1:1 on the calendar. You wait for your manager to ask where you want to go, what you need to learn, which training makes sense. When that doesn't happen — or happens badly — you feel shortchanged. Like the environment wasn't right for growth.
+You join a company. There's a 1:1 on the calendar. You wait for your manager to ask where you want to go, what you need to learn, which training makes sense. When that doesn't happen - or happens badly - you feel shortchanged. Like the environment wasn't right for growth.
 
 That narrative is comfortable. And it's wrong.
 
@@ -29,11 +29,11 @@ Your manager has a job: remove systemic blockers, align priorities, make sure th
 
 If you need someone else to identify the gap in your career, you've already lost a few months. Probably more.
 
-## Technology isn't stable — it's volatile by design
+## Technology isn't stable - it's volatile by design
 
 You chose a field that lives at the frontier of knowledge. That's not an accident. It's the nature of the thing.
 
-LLMs, new frameworks, paradigms that flip the table — they keep coming. [Stopping learning is a decision](/ai-companies-didnt-stop-shipping/). The window for "I'll catch up later" gets smaller every quarter.
+LLMs, new frameworks, paradigms that flip the table - they keep coming. Stopping learning is a decision. The window for "I'll catch up later" gets smaller every quarter.
 
 Professionals who live at the frontier don't have more time than you. They have less tolerance for intellectual comfort.
 
@@ -55,9 +55,9 @@ If you wait for your 1:1 to generate the insight about where you're weak, the 1:
 
 The problem is that you outsourced the diagnosis of your own career.
 
-Self-diagnosis isn't a rare personality trait. It's a skill. You can develop it. But it requires you to stop treating growth as a benefit and start treating it as an obligation — to yourself.
+Self-diagnosis isn't a rare personality trait. It's a skill. You can develop it. But it requires you to stop treating growth as a benefit and start treating it as an obligation - to yourself.
 
-Taking ownership of your own growth isn't ambition — **it's adulthood**. The moment you enter the job market, your development becomes your responsibility. Not your manager's, not HR's, not the company's learning budget. *Yours*.
+Taking ownership of your own growth isn't ambition - **it's adulthood**. The moment you enter the job market, your development becomes your responsibility. Not your manager's, not HR's, not the company's learning budget. *Yours*.
 
 Your manager can be extraordinary. They can give you context, space, challenging projects. That's rare and worth a lot.
 
@@ -70,7 +70,9 @@ If I were writing the [postmortem](/failing-on-purpose-building-postmortem-cultu
 It would be: *an undeclared expectation that the environment should generate the motivation that was your own responsibility.*
 
 You don't need permission to study.
+
 You don't need feedback to know where you're weak.
+
 You don't need your manager to feel the urgency that should be yours.
 
 Cal Newport put it better than I could in [So Good They Can't Ignore You](https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124):
