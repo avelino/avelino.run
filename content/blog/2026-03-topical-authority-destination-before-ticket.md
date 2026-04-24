@@ -2,14 +2,7 @@
 date: "2026-03-08"
 draft: false
 title: "Topical Authority: Why You Should Write About the Destination Before Selling the Ticket"
-tags:
-  [
-    "seo",
-    "content-marketing",
-    "topical-authority",
-    "organic-growth",
-    "airbnb",
-  ]
+tags: ["seo", "content-marketing", "topical-authority", "organic-growth", "airbnb"]
 description: "Most companies only create content when someone is ready to buy. That's too late. Here's the case for building authority in the destination cluster before anyone opens their wallet."
 url: "/topical-authority-destination-before-ticket"
 ---

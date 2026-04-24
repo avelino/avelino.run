@@ -1,12 +1,10 @@
 ---
-title: "jbundle: Distributing Clojure Without the GraalVM Pain"
-date: 2026-01-23
+date: "2026-01-23"
 draft: false
-description: "How frustration with GraalVM native-image led to a Rust tool that packages Clojure apps into self-contained binaries — by embedding a minimal JVM instead of fighting reflection configs."
+title: "jbundle: Distributing Clojure Without the GraalVM Pain"
 tags: ["clojure", "rust", "graalvm", "cli", "engineering"]
+description: "How frustration with GraalVM native-image led to a Rust tool that packages Clojure apps into self-contained binaries — by embedding a minimal JVM instead of fighting reflection configs."
 url: "/jbundle-distributing-clojure-without-the-graalvm-pain"
-aliases:
-  - "/clj-pack-distributing-clojure-without-the-graalvm-pain"
 ---
 
 If you've ever tried to ship a Clojure CLI tool as a single binary, you know the pain. GraalVM native-image promises native compilation, but the reality is a maze of build-time class initialization, reflection configs, and incompatible libraries. After years of fighting this battle with [chrondb](https://github.com/moclojer/chrondb) and [moclojer](https://github.com/moclojer/moclojer), I built [jbundle](https://github.com/avelino/jbundle) — a different approach entirely.

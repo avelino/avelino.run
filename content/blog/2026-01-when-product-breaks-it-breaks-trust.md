@@ -1,9 +1,9 @@
 ---
-title: "When Product Breaks, It Breaks Trust"
-date: 2026-01-06
+date: "2026-01-06"
 draft: false
-description: "Incidents happen. The product lesson is learning to measure what you lose, protect the brand, rebuild with patience, and only then return to acquisition."
+title: "When Product Breaks, It Breaks Trust"
 tags: ["product", "reliability", "brand", "growth", "leadership"]
+description: "Incidents happen. The product lesson is learning to measure what you lose, protect the brand, rebuild with patience, and only then return to acquisition."
 url: "/when-product-breaks-it-breaks-trust"
 ---
 

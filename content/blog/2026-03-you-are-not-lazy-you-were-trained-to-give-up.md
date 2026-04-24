@@ -2,14 +2,7 @@
 date: "2026-03-09"
 draft: false
 title: "You're not lazy. You were trained to give up"
-tags:
-  [
-    "open-source",
-    "developer-mindset",
-    "jvm",
-    "jbundle",
-    "nonconformism",
-  ]
+tags: ["open-source", "developer-mindset", "jvm", "jbundle", "nonconformism"]
 description: "Your work environment can always be better, even if the solution doesn't exist yet. The problem isn't lack of skill. It's that you were conditioned to stop trying."
 url: "/you-are-not-lazy-you-were-trained-to-give-up"
 ---

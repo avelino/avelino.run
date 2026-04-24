@@ -2,13 +2,7 @@
 date: "2026-03-29"
 draft: false
 title: "AI companies didn't stop shipping. Why did you stop learning?"
-tags:
-  [
-    "ai",
-    "developer-mindset",
-    "workflow",
-    "pragmatism",
-  ]
+tags: ["ai", "developer-mindset", "workflow", "pragmatism"]
 description: "In six months, every major AI company shipped models that were fundamentally more capable. Not incremental updates — real capability jumps. And there are still developers who haven't prioritized learning to work differently. That's not healthy skepticism. That's inertia with a philosophy glued on top."
 url: "/ai-companies-didnt-stop-shipping"
 ---

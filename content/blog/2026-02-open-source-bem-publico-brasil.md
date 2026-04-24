@@ -2,13 +2,7 @@
 date: "2026-02-04"
 draft: false
 title: "Open Source como Bem Público: Alemanha e França já entenderam, e o Brasil?"
-tags:
-  [
-    "open-source",
-    "politica-publica",
-    "brasil",
-    "comunidade",
-  ]
+tags: ["open-source", "politica-publica", "brasil", "comunidade"]
 description: "O Brasil roda 90% da sua infraestrutura digital em cima de open source e finge que isso nasceu em árvore. A Alemanha quer reconhecer como bem público, a França já dá incentivo fiscal. E nós?"
 url: "/open-source-bem-publico-brasil"
 ---
