@@ -95,10 +95,13 @@ blockquote, article blockquote, section.body blockquote {
 }
 
 /* ===== CODE BLOCKS ===== */
+/* Nota: background-color removido do seletor base — a specificity de
+   `section.body code` ganhava do dark override (`code, article code`),
+   deixando inline code com bg claro no dark mode. Light mode herda
+   o background do theme archie. */
 code, article code, section.body code {
   font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace !important;
   font-size: 0.875rem !important;
-  background-color: var(--bg-code) !important;
   padding: 0.2em 0.4em !important;
   border-radius: 4px !important;
 }
@@ -237,73 +240,88 @@ table tr:hover {
   background-color: rgba(102, 51, 153, 0.05) !important;
 }
 
-/* ===== DARK MODE ===== */
+/* ===== DARK MODE =====
+   Escopado com body:not(.light-theme) pra permitir que o toggle manual
+   force light mesmo com OS em dark. themetoggle.js adiciona .light-theme
+   ou .dark-theme explicitamente. */
 @media (prefers-color-scheme: dark) {
-  body {
+  body:not(.light-theme) {
     background-color: var(--dark-bg) !important;
     color: var(--dark-text) !important;
   }
 
-  p, li, blockquote, article p, article li, section.body p {
+  body:not(.light-theme) p, body:not(.light-theme) li,
+  body:not(.light-theme) blockquote, body:not(.light-theme) article p,
+  body:not(.light-theme) article li, body:not(.light-theme) section.body p {
     color: var(--dark-text) !important;
   }
 
-  h1, h2, h3, h4, h5, h6,
-  article h1, article h2, article h3, article h4 {
+  body:not(.light-theme) h1, body:not(.light-theme) h2,
+  body:not(.light-theme) h3, body:not(.light-theme) h4,
+  body:not(.light-theme) h5, body:not(.light-theme) h6,
+  body:not(.light-theme) article h1, body:not(.light-theme) article h2,
+  body:not(.light-theme) article h3, body:not(.light-theme) article h4 {
     color: #ddd !important;
   }
 
-  h1::before, h2::before, h3::before,
-  h4::before, h5::before, h6::before {
+  body:not(.light-theme) h1::before, body:not(.light-theme) h2::before,
+  body:not(.light-theme) h3::before, body:not(.light-theme) h4::before,
+  body:not(.light-theme) h5::before, body:not(.light-theme) h6::before {
     color: #a78bfa !important;
   }
 
-  a, article a, section.body a {
+  body:not(.light-theme) a, body:not(.light-theme) article a,
+  body:not(.light-theme) section.body a {
     border-bottom-color: #a78bfa !important;
   }
 
-  a:hover, article a:hover, section.body a:hover {
+  body:not(.light-theme) a:hover, body:not(.light-theme) article a:hover,
+  body:not(.light-theme) section.body a:hover {
     background-color: #a78bfa !important;
     color: #000 !important;
   }
 
-  header, footer, article {
+  body:not(.light-theme) header, body:not(.light-theme) footer,
+  body:not(.light-theme) article {
     border-color: #2d3748 !important;
   }
 
-  hr {
+  body:not(.light-theme) hr {
     border-color: #2d3748 !important;
   }
 
-  code, article code {
+  body:not(.light-theme) code, body:not(.light-theme) article code {
     background-color: var(--dark-code-bg) !important;
     color: #e2e8f0 !important;
   }
 
-  table th {
+  body:not(.light-theme) table th {
     background-color: #2d3748 !important;
   }
 
-  table th, table td {
+  body:not(.light-theme) table th, body:not(.light-theme) table td {
     border-color: #2d3748 !important;
     color: var(--dark-text) !important;
   }
 
-  img, article img {
+  body:not(.light-theme) img, body:not(.light-theme) article img {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
   }
 
-  blockquote, article blockquote {
+  body:not(.light-theme) blockquote, body:not(.light-theme) article blockquote {
     background: linear-gradient(to right, rgba(167, 139, 250, 0.15), transparent) !important;
     color: var(--dark-text-secondary) !important;
   }
 
-  .tags a, .post-tags a {
+  body:not(.light-theme) .tags a, body:not(.light-theme) .post-tags a,
+  body:not(.light-theme) nav.tags a,
+  body:not(.light-theme) .post-tags ul li a,
+  body:not(.light-theme) nav.tags ul li a {
     background-color: #2d3748 !important;
     color: var(--dark-text) !important;
   }
 
-  .meta, time {
+  body:not(.light-theme) .meta, body:not(.light-theme) time {
     color: var(--dark-text-secondary) !important;
   }
 }
@@ -370,7 +388,8 @@ body.dark-theme .content code {
   background: linear-gradient(to right, rgba(167, 139, 250, 0.15), transparent) !important;
 }
 
-.dark-theme .tags a, .dark-theme .post-tags a {
+.dark-theme .tags a, .dark-theme .post-tags a, .dark-theme nav.tags a,
+.dark-theme .post-tags ul li a, .dark-theme nav.tags ul li a {
   background-color: #2d3748 !important;
   color: var(--dark-text) !important;
 }
@@ -430,41 +449,41 @@ body.dark-theme .content code {
   margin-left: 10px;
 }
 
-/* Newsletter Dark Mode - prefers-color-scheme */
+/* Newsletter Dark Mode - prefers-color-scheme (escopado para respeitar toggle) */
 @media (prefers-color-scheme: dark) {
-  .newsletter-box {
+  body:not(.light-theme) .newsletter-box {
     background: #2d2d44 !important;
     border-left-color: #a78bfa !important;
     color: #e2e8f0 !important;
   }
 
-  .newsletter-box a {
+  body:not(.light-theme) .newsletter-box a {
     color: #a78bfa !important;
     border-bottom-color: #a78bfa !important;
   }
 
-  .newsletter-box a:hover {
+  body:not(.light-theme) .newsletter-box a:hover {
     background-color: #a78bfa !important;
     color: #000 !important;
   }
 
-  .newsletter-input {
+  body:not(.light-theme) .newsletter-input {
     background: #1a1a2e !important;
     border-color: #a78bfa !important;
     color: #e2e8f0 !important;
   }
 
-  .newsletter-input::placeholder {
+  body:not(.light-theme) .newsletter-input::placeholder {
     color: #a0aec0 !important;
   }
 
-  .newsletter-btn {
+  body:not(.light-theme) .newsletter-btn {
     background: #a78bfa !important;
     border-color: #a78bfa !important;
     color: #000 !important;
   }
 
-  .newsletter-btn:hover {
+  body:not(.light-theme) .newsletter-btn:hover {
     background: #8b5cf6 !important;
     border-color: #8b5cf6 !important;
   }

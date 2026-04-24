@@ -1,0 +1,8 @@
+{{- /*
+  Substituto local do shortcode interno `gist` removido no Hugo v0.156.0.
+  Uso: {{< gist USER ID [FILENAME] >}}
+*/ -}}
+{{- $user := .Get 0 -}}
+{{- $id := .Get 1 -}}
+{{- $file := .Get 2 -}}
+<script src="https://gist.github.com/{{ $user }}/{{ $id }}.js{{ with $file }}?file={{ . }}{{ end }}"></script>

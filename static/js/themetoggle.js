@@ -1,14 +1,21 @@
 function setTheme(mode) {
     localStorage.setItem("theme-storage", mode);
-    var e = document.querySelector("#dark-mode-toggle > .feather > use")
+    var toggleIcon = document.querySelector("#dark-mode-toggle > .feather > use");
+    var darkStyle = document.getElementById("darkModeStyle");
     if (mode === "dark") {
-        document.getElementById("darkModeStyle").disabled=false;
+        if (darkStyle) darkStyle.disabled = false;
         document.body.classList.add("dark-theme");
-        e.href.baseVal = e.href.baseVal.replace(/#.*$/, "#sun")
+        document.body.classList.remove("light-theme");
+        if (toggleIcon) toggleIcon.href.baseVal = toggleIcon.href.baseVal.replace(/#.*$/, "#sun");
     } else if (mode === "light") {
-        document.getElementById("darkModeStyle").disabled=true;
+        if (darkStyle) darkStyle.disabled = true;
+        document.body.classList.add("light-theme");
         document.body.classList.remove("dark-theme");
-        e.href.baseVal = e.href.baseVal.replace(/#.*$/, "#moon")
+        if (toggleIcon) toggleIcon.href.baseVal = toggleIcon.href.baseVal.replace(/#.*$/, "#moon");
+    }
+    // Dispara reset do Disqus se o embed já estiver carregado
+    if (typeof window.__resetDisqusColorScheme === "function") {
+        window.__resetDisqusColorScheme();
     }
 }
 
@@ -20,5 +27,11 @@ function toggleTheme() {
     }
 }
 
-var savedTheme = localStorage.getItem("theme-storage") || "light";
+// Init: usa valor salvo, senão respeita preferência do OS
+var savedTheme = localStorage.getItem("theme-storage");
+if (!savedTheme) {
+    savedTheme = (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ? "dark"
+        : "light";
+}
 setTheme(savedTheme);

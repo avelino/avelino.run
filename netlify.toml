@@ -11,7 +11,7 @@ disable = true
 NODE_VERSION = "18"
 
 [context.production.environment]
-HUGO_VERSION = "v0.139.3"
+HUGO_VERSION = "v0.160.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 

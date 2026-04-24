@@ -13,7 +13,7 @@
 
 {{- /* Rich Person schema using authorInfo from config */ -}}
 {{- $authorInfo := .Site.Params.authorInfo -}}
-{{- $pubName := or $authorInfo.name .Site.Author.name "Thiago Avelino" -}}
+{{- $pubName := or $authorInfo.name .Site.Params.author "Thiago Avelino" -}}
 {{- $pubURL := printf "%sabout/" $base -}}
 
 {{- $publisherPerson := dict "@type" "Person" "name" $pubName "url" $pubURL -}}
@@ -98,13 +98,13 @@
   {{- end -}}
 
   {{- /* Author (fallback to site author / Thiago Avelino) */ -}}
-  {{- $authorName := or .Params.author .Site.Author.name "Thiago Avelino" -}}
+  {{- $authorName := or .Params.author $authorInfo.name .Site.Params.author "Thiago Avelino" -}}
   {{- if $authorName -}}
     {{- $author := dict "@type" "Person" "name" $authorName -}}
-    {{- with (or .Params.authorURL (or .Site.Author.url (or .Site.Author.link (or .Site.Author.homepage "https://avelino.run")))) -}}
+    {{- with (or .Params.authorURL $authorInfo.url "https://avelino.run") -}}
       {{- $author = merge $author (dict "url" .) -}}
     {{- end -}}
-    {{- with .Site.Author.sameAs -}}
+    {{- with $authorInfo.sameAs -}}
       {{- $author = merge $author (dict "sameAs" .) -}}
     {{- end -}}
     {{- $sd = merge $sd (dict "author" $author) -}}
@@ -147,7 +147,7 @@
 
   {{- /* Copyright */ -}}
   {{- $sd = merge $sd (dict "copyrightYear" (.Date.Format "2006")) -}}
-  {{- with (or .Params.copyrightHolder .Site.Author.name .Site.Title) -}}
+  {{- with (or .Params.copyrightHolder $authorInfo.name .Site.Params.author .Site.Title) -}}
     {{- $sd = merge $sd (dict "copyrightHolder" .) -}}
   {{- end -}}
 
