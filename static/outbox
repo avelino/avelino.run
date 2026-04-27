@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 190,
+  "totalItems" : 191,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/e6245c61911ff8315b839e1f51e05354/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-27T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/flat-engineering-teams-maturity-filter",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "e6245c61911ff8315b839e1f51e05354",
+      "id" : "/socialweb/notes/e6245c61911ff8315b839e1f51e05354",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-27T00:00:00+00:00",
+      "content" : "<p>Flat Engineering Teams Aren't an Org Chart Decision. They're a Maturity Filter</p><p><a href='https://avelino.run/flat-engineering-teams-maturity-filter'>https://avelino.run/flat-engineering-teams-maturity-filter</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/e6245c61911ff8315b839e1f51e05354",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/e6245c61911ff8315b839e1f51e05354?page=true",
+          "partOf" : "/socialweb/replies/e6245c61911ff8315b839e1f51e05354",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/01c1059544f3b7e5cf1b4469f6b655c6/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-04-27T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "01c1059544f3b7e5cf1b4469f6b655c6",
+      "id" : "/socialweb/notes/01c1059544f3b7e5cf1b4469f6b655c6",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-04-27T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/01c1059544f3b7e5cf1b4469f6b655c6",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/01c1059544f3b7e5cf1b4469f6b655c6?page=true",
+          "partOf" : "/socialweb/replies/01c1059544f3b7e5cf1b4469f6b655c6",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/aa884e438322c66aa611928e840d3414/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/aa884e438322c66aa611928e840d3414?page=true",
           "partOf" : "/socialweb/replies/aa884e438322c66aa611928e840d3414",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/eb3114b4468de14ba75ce15b11408ca3/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-04-24T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "eb3114b4468de14ba75ce15b11408ca3",
-      "id" : "/socialweb/notes/eb3114b4468de14ba75ce15b11408ca3",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-04-24T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/eb3114b4468de14ba75ce15b11408ca3",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/eb3114b4468de14ba75ce15b11408ca3?page=true",
-          "partOf" : "/socialweb/replies/eb3114b4468de14ba75ce15b11408ca3",
           "items" : [ ]
         }
       },
