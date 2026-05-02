@@ -32,10 +32,16 @@ baseName = "llms-full"
 mediaType = "text/plain"
 isPlainText = true
 
+[outputFormats.ogmeta]
+baseName = "ogmeta"
+mediaType = "application/json"
+isPlainText = true
+notAlternative = true
+
 [outputs]
 home = ["HTML", "RSS", "llms", "llms-full"]
 section = ["HTML", "RSS", "llms", "llms-full"]
-page = ["HTML"]
+page = ["HTML", "ogmeta"]
 
 [related]
 threshold = 10

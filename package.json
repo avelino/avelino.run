@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "hugo",
+    "build": "hugo && npm run build:og",
+    "build:og": "node scripts/generate-og.mjs",
     "dev": "hugo server -D",
     "build:functions": "cd netlify/functions && npm install"
   },
@@ -14,6 +15,7 @@
   "dependencies": {
     "@react-email/components": "^1.0.2",
     "@react-email/render": "^2.0.0",
+    "@resvg/resvg-js": "^2.6.2",
     "axios": "^1.13.2",
     "crypto": "^1.0.1",
     "gray-matter": "^4.0.3",

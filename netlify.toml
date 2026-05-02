@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "git submodule update -f --init && npm install && npm run build:functions && hugo"
+command = "git submodule update -f --init && npm install && npm run build:functions && hugo && node scripts/generate-og.mjs"
 image = "noble"                                                                              # Ubuntu 24.04
 
 # Configuration to keep logs private
