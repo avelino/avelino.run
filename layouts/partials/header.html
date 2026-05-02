@@ -17,6 +17,15 @@
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 	{{- if isset .Params "img" -}}
 	<meta property="og:image" content="{{ .Params.img }}" />
+	{{- else if and .IsPage .File -}}
+	{{- $ogImage := "" -}}
+	{{- if .Section -}}
+	  {{- $ogImage = printf "/og/%s/%s.png" .Section .File.ContentBaseName -}}
+	{{- else -}}
+	  {{- $ogImage = printf "/og/%s.png" .File.ContentBaseName -}}
+	{{- end -}}
+	<meta property="og:image" content="{{ $ogImage | absURL }}" />
+	<meta name="twitter:image" content="{{ $ogImage | absURL }}" />
 	{{- else if .Site.Params.og_image -}}
 	<meta property="og:image" content="{{ .Site.Params.og_image }}" />
 	{{- end -}}

@@ -1,0 +1,30 @@
+{{- $title := .Title -}}
+{{- $description := "" -}}
+{{- with .Description -}}
+  {{- $description = . -}}
+{{- else -}}
+  {{- with .Params.tldr -}}
+    {{- $description = . -}}
+  {{- else -}}
+    {{- $description = .Summary | plainify -}}
+  {{- end -}}
+{{- end -}}
+{{- $description = $description | plainify | chomp -}}
+{{- $slug := .File.ContentBaseName -}}
+{{- $section := .Section -}}
+{{- $relPng := "" -}}
+{{- if $section -}}
+  {{- $relPng = printf "/og/%s/%s.png" $section $slug -}}
+{{- else -}}
+  {{- $relPng = printf "/og/%s.png" $slug -}}
+{{- end -}}
+{
+  "title": {{ $title | jsonify }},
+  "description": {{ $description | jsonify }},
+  "permalink": {{ .Permalink | jsonify }},
+  "relPermalink": {{ .RelPermalink | jsonify }},
+  "section": {{ .Section | jsonify }},
+  "slug": {{ .File.ContentBaseName | jsonify }},
+  "date": {{ .Date.Format "2006-01-02" | jsonify }},
+  "ogImagePath": {{ $relPng | jsonify }}
+}
