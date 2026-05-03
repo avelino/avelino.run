@@ -33,7 +33,7 @@
 - Blog Posts: 140
 - FOSS Contributions: 233
 - Quotes/Notes: 52
-- Latest Post: 2015-02-08
+- Latest Post: 2014-03-06
 
 ## Content Index for AI
 - **Article List**: https://avelino.run/llms.txt
