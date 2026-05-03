@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 191,
+  "totalItems" : 192,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/1478be37cb45fc94a7066a861a55bd01/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-05-03T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/technical-founders-misread-adoption-rogers-pix",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "1478be37cb45fc94a7066a861a55bd01",
+      "id" : "/socialweb/notes/1478be37cb45fc94a7066a861a55bd01",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-05-03T00:00:00+00:00",
+      "content" : "<p>Technical founders misread adoption - Rogers explained it in 1962 and I ignored it on Pix</p><p><a href='https://avelino.run/technical-founders-misread-adoption-rogers-pix'>https://avelino.run/technical-founders-misread-adoption-rogers-pix</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/1478be37cb45fc94a7066a861a55bd01",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/1478be37cb45fc94a7066a861a55bd01?page=true",
+          "partOf" : "/socialweb/replies/1478be37cb45fc94a7066a861a55bd01",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/273ece5b2efc65f848107977be1e79c1/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-05-03T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "273ece5b2efc65f848107977be1e79c1",
+      "id" : "/socialweb/notes/273ece5b2efc65f848107977be1e79c1",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-05-03T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/273ece5b2efc65f848107977be1e79c1",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/273ece5b2efc65f848107977be1e79c1?page=true",
+          "partOf" : "/socialweb/replies/273ece5b2efc65f848107977be1e79c1",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/e6245c61911ff8315b839e1f51e05354/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/e6245c61911ff8315b839e1f51e05354?page=true",
           "partOf" : "/socialweb/replies/e6245c61911ff8315b839e1f51e05354",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/01c1059544f3b7e5cf1b4469f6b655c6/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-04-27T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "01c1059544f3b7e5cf1b4469f6b655c6",
-      "id" : "/socialweb/notes/01c1059544f3b7e5cf1b4469f6b655c6",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-04-27T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/01c1059544f3b7e5cf1b4469f6b655c6",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/01c1059544f3b7e5cf1b4469f6b655c6?page=true",
-          "partOf" : "/socialweb/replies/01c1059544f3b7e5cf1b4469f6b655c6",
           "items" : [ ]
         }
       },
