@@ -51,9 +51,9 @@ Three out of three by the criteria I myself defend today. Five out of five by th
 
 ## The S-curve math
 
-![Pix adoption S-curve - % of Brazilian adults who have used Pix, with projection through 2028](/blog/pix-adoption.png)
-
 There's a part that makes "wait for the big players" a losing strategy not by chance, but by mathematical design. Rogers' S-curve of adoption has an inflection point - the takeoff - where early adopters convince early majority and the thing explodes. Before takeoff, adoption looks linear and modest. After takeoff, it's exponential until saturation.
+
+![Pix adoption S-curve - % of Brazilian adults who have used Pix, with projection through 2028](/blog/pix-adoption.png)
 
 The skeptical founder waiting for "validation from the big players" is waiting for a signal that comes **after** takeoff. By construction. Big banks, big retailers, big competitors - they also use external validation to move. By the time they move visibly, takeoff has already happened. You always arrive late by math, not by laziness. The window of advantage that exists between "technology available" and "technology mainstream" is exactly the interval between innovators/early adopters and late majority. Waiting for validation from the big players is by definition giving up that entire window.
 
