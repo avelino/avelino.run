@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 192,
+  "totalItems" : 193,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/7f8f0d15ab09a38ad7ad16b49dc064fc/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-05-05T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/pm-builder-kills-bad-prioritization",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "7f8f0d15ab09a38ad7ad16b49dc064fc",
+      "id" : "/socialweb/notes/7f8f0d15ab09a38ad7ad16b49dc064fc",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-05-05T00:00:00+00:00",
+      "content" : "<p>PM builder doesn't speed up engineering. It kills bad prioritization</p><p><a href='https://avelino.run/pm-builder-kills-bad-prioritization'>https://avelino.run/pm-builder-kills-bad-prioritization</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/7f8f0d15ab09a38ad7ad16b49dc064fc",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/7f8f0d15ab09a38ad7ad16b49dc064fc?page=true",
+          "partOf" : "/socialweb/replies/7f8f0d15ab09a38ad7ad16b49dc064fc",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/8188fc5cc21aab97633b02bf9a2a7fed/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-05-05T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "8188fc5cc21aab97633b02bf9a2a7fed",
+      "id" : "/socialweb/notes/8188fc5cc21aab97633b02bf9a2a7fed",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-05-05T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/8188fc5cc21aab97633b02bf9a2a7fed",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/8188fc5cc21aab97633b02bf9a2a7fed?page=true",
+          "partOf" : "/socialweb/replies/8188fc5cc21aab97633b02bf9a2a7fed",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/1478be37cb45fc94a7066a861a55bd01/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/1478be37cb45fc94a7066a861a55bd01?page=true",
           "partOf" : "/socialweb/replies/1478be37cb45fc94a7066a861a55bd01",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/273ece5b2efc65f848107977be1e79c1/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-05-03T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "273ece5b2efc65f848107977be1e79c1",
-      "id" : "/socialweb/notes/273ece5b2efc65f848107977be1e79c1",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-05-03T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/273ece5b2efc65f848107977be1e79c1",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/273ece5b2efc65f848107977be1e79c1?page=true",
-          "partOf" : "/socialweb/replies/273ece5b2efc65f848107977be1e79c1",
           "items" : [ ]
         }
       },
