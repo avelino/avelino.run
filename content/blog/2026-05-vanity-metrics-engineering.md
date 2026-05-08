@@ -3,7 +3,7 @@ date: "2026-05-08"
 draft: false
 title: "Vanity Metrics in Engineering, From Lines of Code to AI-Generated Percentages"
 tags: ["engineering-management", "ai", "dora", "metrics"]
-description: "Why "% AI-generated" is the new lines-of-code-per-day, and why DORA already solved this in 2014."
+description: "Why '% AI-generated' is the new lines-of-code-per-day, and why DORA already solved this in 2014."
 url: "/vanity-metrics-engineering/"
 ---
 
