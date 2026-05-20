@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 195,
+  "totalItems" : 196,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/199a76248013ce586d2e67bffb028f09/create",
+    "id" : "/socialweb/notes/bca7eab1d84e93be413603bd335e694e/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-05-14T00:00:00+00:00",
+    "published" : "2026-05-20T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "199a76248013ce586d2e67bffb028f09",
-      "id" : "/socialweb/notes/199a76248013ce586d2e67bffb028f09",
+      "hash" : "bca7eab1d84e93be413603bd335e694e",
+      "id" : "/socialweb/notes/bca7eab1d84e93be413603bd335e694e",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-05-14T00:00:00+00:00",
+      "published" : "2026-05-20T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/199a76248013ce586d2e67bffb028f09",
+        "id" : "/socialweb/replies/bca7eab1d84e93be413603bd335e694e",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/199a76248013ce586d2e67bffb028f09?page=true",
-          "partOf" : "/socialweb/replies/199a76248013ce586d2e67bffb028f09",
+          "next" : "/socialweb/replies/bca7eab1d84e93be413603bd335e694e?page=true",
+          "partOf" : "/socialweb/replies/bca7eab1d84e93be413603bd335e694e",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/da009100212a6be3ebc7155beaa1aeb0/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-05-20T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/most-ai-agents-dont-need-ai-in-the-loop",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "da009100212a6be3ebc7155beaa1aeb0",
+      "id" : "/socialweb/notes/da009100212a6be3ebc7155beaa1aeb0",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-05-20T00:00:00+00:00",
+      "content" : "<p>Most 'AI agents' don't need AI in the loop</p><p><a href='https://avelino.run/most-ai-agents-dont-need-ai-in-the-loop'>https://avelino.run/most-ai-agents-dont-need-ai-in-the-loop</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/da009100212a6be3ebc7155beaa1aeb0",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/da009100212a6be3ebc7155beaa1aeb0?page=true",
+          "partOf" : "/socialweb/replies/da009100212a6be3ebc7155beaa1aeb0",
           "items" : [ ]
         }
       },
@@ -5536,41 +5571,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-03-30T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
-      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-03-30T00:00:00+00:00",
-      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
-          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5597,6 +5597,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/106b404811f777141371c3ed05af80a1?page=true",
           "partOf" : "/socialweb/replies/106b404811f777141371c3ed05af80a1",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-03-30T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
+      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-03-30T00:00:00+00:00",
+      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
+          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
           "items" : [ ]
         }
       },
@@ -6551,41 +6586,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2011-03-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "61cab533844433b130f88a9e9f51fe27",
-      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2011-03-28T00:00:00+00:00",
-      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
-          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -6612,6 +6612,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
           "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2011-03-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "61cab533844433b130f88a9e9f51fe27",
+      "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2011-03-28T00:00:00+00:00",
+      "content" : "<p>Trabalhando com Python e MongoDB</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
+          "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
           "items" : [ ]
         }
       },
