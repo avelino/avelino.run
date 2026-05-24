@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 196,
+  "totalItems" : 197,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/bca7eab1d84e93be413603bd335e694e/create",
+    "id" : "/socialweb/notes/c33cc314c56eb6c9c8d9dbedcc71ffd9/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-05-20T00:00:00+00:00",
+    "published" : "2026-05-24T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "bca7eab1d84e93be413603bd335e694e",
-      "id" : "/socialweb/notes/bca7eab1d84e93be413603bd335e694e",
+      "hash" : "c33cc314c56eb6c9c8d9dbedcc71ffd9",
+      "id" : "/socialweb/notes/c33cc314c56eb6c9c8d9dbedcc71ffd9",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-05-20T00:00:00+00:00",
+      "published" : "2026-05-24T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/bca7eab1d84e93be413603bd335e694e",
+        "id" : "/socialweb/replies/c33cc314c56eb6c9c8d9dbedcc71ffd9",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/bca7eab1d84e93be413603bd335e694e?page=true",
-          "partOf" : "/socialweb/replies/bca7eab1d84e93be413603bd335e694e",
+          "next" : "/socialweb/replies/c33cc314c56eb6c9c8d9dbedcc71ffd9?page=true",
+          "partOf" : "/socialweb/replies/c33cc314c56eb6c9c8d9dbedcc71ffd9",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/10af6f46ed6f6c99f2ad35761e0e81f4/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-05-23T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/vinho-terroir-zero-amor-a-rotulo",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "10af6f46ed6f6c99f2ad35761e0e81f4",
+      "id" : "/socialweb/notes/10af6f46ed6f6c99f2ad35761e0e81f4",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-05-23T00:00:00+00:00",
+      "content" : "<p><strong>Vinho, terroir e zero amor a rótulo</strong></p><p>Comecei a tomar vinho de verdade em 2023. Não pela bebida, pelo estudo.\n\nA mesma uva muda de cara dependendo de onde planta. Pinot Noir na Borgonha não é Pinot Noir em outra região da França. Solo, altitude, clima, mão do produtor. Tudo entra.\n\nNão tenho amor a rótulo nem a produtor. Quero conhecer o máximo e degustar pra viver a experiência. Fidelidade fecha porta.\n\nLendo Adventures on the Wine Route, do Kermit Lynch, encontrei a tese pronta. Ele importou vinho da França por décadas defendendo o produtor pequeno e o lugar acima de qualquer marca.\n\nCada garrafa nova é um lugar novo. Um clima que não se repete. É terroir, e quanto mais estudo, menos sei.</p><p><a href='https://avelino.run/vinho-terroir-zero-amor-a-rotulo'>https://avelino.run/vinho-terroir-zero-amor-a-rotulo</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/10af6f46ed6f6c99f2ad35761e0e81f4",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/10af6f46ed6f6c99f2ad35761e0e81f4?page=true",
+          "partOf" : "/socialweb/replies/10af6f46ed6f6c99f2ad35761e0e81f4",
           "items" : [ ]
         }
       },
