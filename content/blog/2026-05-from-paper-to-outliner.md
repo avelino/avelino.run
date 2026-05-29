@@ -1,0 +1,253 @@
+---
+date: "2026-05-29"
+draft: false
+title: "Building an outliner on the move-op paper"
+tags: ["sync", "crdt", "distributed-systems", "outliner", "rust", "outl", "icloud", "tauri", "engineering"]
+description: "The Kleppmann move-op paper proves convergence. It says nothing about markdown, two clients, iCloud Drive, vim, or a user hitting Enter while a peer writes. I built outl on top of that paper. Here is everything between the proof and a working sync."
+url: "/from-paper-to-outliner"
+---
+
+A few days ago I [dissected the 2021 Kleppmann paper](/file-sync-isnt-trivial) on highly-available tree move. The post ended with one open question: can you build an outliner on top of this?
+
+I built one. It's called **[outl](https://github.com/avelino/outl)**. The first version syncs a terminal client on macOS and an iOS app over iCloud Drive. No central server. No merge dialogs. No lost text. This post is everything I had to figure out after the paper.
+
+The paper proves convergence of the move operation. That's the core, and **outl's** `outl-core` crate tracks the paper line for line. Around the core sits a markdown file the user actually edits, a second client on a different stack *(Rust + Tauri + SolidJS on iOS)*, a transport *(iCloud Drive)* the algorithm knows nothing about, and an editor mode where the user types one character at a time while peers append to the same workspace.
+
+The paper says nothing about any of that. It doesn't have to. But you can't ship without solving it.
+
+Four problems. That's where the engineering work landed. None is a flaw in the paper. They're the work that sits between a proof and a thing a human uses.
+
+## The op log is the source of truth, the markdown is a projection
+
+The workspace on disk has three layers. The order they get written in matters more than what's in them.
+
+```
+<container>/Documents/
+├── journals/2026-05-29.md       ; what the user reads and edits
+├── pages/<slug>.md
+├── pages/<slug>.outl            ; sidecar - JSON, carries stable block IDs
+└── ops/
+    ├── ops-01HXY...A.jsonl      ; only device A writes here
+    ├── ops-01HXY...B.jsonl
+    └── ops-01HXY...C.jsonl
+```
+
+The `.md` is the UX promise. Clean markdown. No IDs in the text, no front-matter clutter, no HTML comments. You open `journals/2026-05-29.md` in vim and you see notes - bullets, references, tags. This is why I started outl. Logseq and Roam both compromise on this in opposite directions: Logseq pollutes the file with `id::` lines, Roam hides everything behind an API. The promise is you can always read your data with `cat`. To keep it, IDs live somewhere else.
+
+The `.outl` sidecar is where they live. JSON next to the `.md`, one entry per block: stable ULID, position, content hash. When the same `.md` lands on another device, or a peer rewrites the file, the sidecar is how the local client decides this paragraph is the same block I had yesterday versus this is a new block. The sidecar makes content-addressable matching work across devices that never met.
+
+The `ops/<actor>.jsonl` is the op log. Append-only, JSON-per-line, one file per device. Every mutation any client makes - TUI insert, mobile toggle, reconciled external edit - gets serialised into a `LogOp` and appended to the local actor's jsonl. The move-op algorithm from the paper lives here. Every peer's file gets loaded, merged by HLC timestamp, replayed into the materialised tree.
+
+The rule is short. The op log is the source of truth. The `.md` and the sidecar are projections. Every mutation writes the op log first. The projections get regenerated from the new tree afterwards.
+
+The first iteration reversed this. Mobile mutations did `reconcile_md(.md → ops)` before applying the user's change, to "catch up" with whatever iCloud had delivered. Disaster. iCloud propagation lags the op log by seconds to minutes. The `.md` on disk routinely reflected a state older than the merged op log already had. Reconciling from that stale projection produced cascades of phantom `Delete` ops. The reconciler saw blocks in the workspace that weren't in the lagging `.md` and dutifully moved them to `TRASH_ROOT`. Every save destroyed work the user had already done.
+
+The fix was structural. The op log is always ahead of any single `.md`. The CRDT already merged everything iCloud delivered. There's no "catching up" from a projection that's behind by definition. So mutations now go:
+
+```rust
+fn finish_in_page<F>(state: &State<'_, AppState>, page_id: NodeId, f: F)
+    -> Result<PageView, String>
+where
+    F: FnOnce(&mut Workspace) -> Result<(), ActionError>,
+{
+    with_ws_mut(state, |ws| {
+        // 1. Apply the user's intended mutation to the workspace.
+        //    This appends a LogOp to the actor's jsonl.
+        f(ws).map_err(|e| e.to_string())?;
+        // 2. Re-project the page's .md + sidecar from the new tree.
+        if let Err(e) = apply_page_md_with_sidecar(ws, &state.storage_root, page_id) {
+            warn!("page md+sidecar sync failed: {e}");
+        }
+        build_page_view(ws, &state.storage_root, page_id).map_err(|e| e.to_string())
+    })
+}
+```
+
+No pre-reconcile. The op log is upstream of everything. The projection is downstream of everything. That ordering is the difference between a sync that loses work and one that doesn't.
+
+"One jsonl per device" comes out of this same layer, and it's iCloud-shaped. iCloud Drive syncs each file independently, with no directory transaction, and it has one nasty property: last write wins, per file. Two devices write to the same file offline, come back online, the slower upload silently overwrites the other. No conflict markers. No UI. No warning. So no two devices ever share a file. The unit is the actor: device A writes `ops-A.jsonl`, device B writes `ops-B.jsonl`, neither touches the other's. iCloud syncs both. Each replica reads all of them, merges by HLC, runs the move-op algorithm. The CRDT does the reconciliation. iCloud is transport.
+
+One more piece of filesystem trivia, because it cost me an evening. The op directory is `ops/`, not `.ops/`. iCloud Documents silently skips path components that start with a dot when syncing across devices. The first version used `.ops/`. The per-device jsonl never left its origin. "Sync" looked broken in a way you can only localise by reading Apple's docs end to end. Nothing in iCloud's API surfaces this. Files just don't arrive.
+
+## Reconcile: translating a clean `.md` back into ops
+
+Treating the op log as source of truth works perfectly while every mutation goes through outl. But the UX promise - you can edit the `.md` in vim - means a file on disk can change underneath the workspace at any moment, with no op behind the change. A user pastes a Roam export into `journals/`. A peer on an older version ships only the projection. The user opens `2026-05-29.md` in vim and adds three bullets at lunch. From the op log's point of view, nothing happened. From the user's point of view, those edits are real, and outl had better incorporate them.
+
+`reconcile_md` translates a `.md` state back into ops. It runs when an external `.md` change is detected: file watcher in `outl serve`, the TUI's commit path, the mobile orphan scanner. The algorithm is content-addressable and runs in three levels of confidence.
+
+```text
+Level 1 (high confidence)   exact content_hash match
+                            → preserve ID, emit Move if position changed
+Level 2 (medium confidence) normalised Levenshtein > 80% + nearby position
+                            → preserve ID, emit Edit (+ Move if needed)
+Level 3 (no match)          → new ULID for the new block, log the orphan,
+                              move the old block to TRASH_ROOT
+```
+
+Level 1 is most edits: a user moves a bullet up two lines, the text is byte-identical, the sidecar's `content_hash` matches, the block keeps its ID. Level 2 is the typo case: same block, slightly different text. Levenshtein similarity plus a positional anchor (within ±2 lines of where it was) tells the matcher this is the same block, the user fixed a word. Level 3 is the residual: a block that matches nothing, against an old block nothing matched to. New block gets a fresh ID. Old block becomes a `Move` to `TRASH_ROOT`, which is how outl encodes deletion. Delete is just move-to-trash, straight from the paper - collapsing create/delete/move into one operation kills whole categories of interaction bugs.
+
+The hard rule on level 3 is what lets me sleep. A block falling to level 3 is always written to `orphans.log` before its ID gets repurposed. Silent deletion is the worst bug a notes system can have. If the matcher gets a case wrong and the user loses a paragraph, they have to find it on disk in ten seconds: open `orphans.log`, grep for the date, find the block ID, recover it from the op log. The log is append-only and stays in the workspace forever. Cheap to keep.
+
+The lesson that took longest: structural matching is not content matching. The first version of `reconcile_md` did the matching and produced a clean sequence of `Create`, `Move`, and `SetProp` ops. The structural diff was correct. Block A moved from parent X to parent Y. Block B got created. Block C got its `todo` property set. Across devices, on the same workspace, you could indent a block and watch the indent show up on the iPhone in a second.
+
+Then any time you edited the text inside a block, the text silently vanished on the other device.
+
+The bug was invisible locally. The local `.md` was still on disk and the sidecar's `last_synced_hash` matched. To the user holding the laptop, everything looked fine. The op log told the story. Every `reconcile_md` from a `.md` edit produced zero `Op::Edit` ops. Never one. The text content of every block was nowhere in the log. On a peer that had never seen this `.md`, replaying the op log materialised every block with empty text, regenerated the projection as a `.md` full of blank bullets, and iCloud sent the empty `.md` back to the laptop. Every keystroke turned into a deletion on the other replica.
+
+The fix is a second pass inside `reconcile_md` that walks the parsed AST and the freshly built sidecar block list in lockstep, DFS preorder, emitting one `Op::Edit` per block whose text differs from what the workspace already has.
+
+```rust
+fn walk_text_sync(
+    ws: &mut Workspace,
+    hlc: &HlcGenerator,
+    ast_blocks: &[OutlineNode],
+    sidecar_blocks: &[SidecarBlock],
+    idx: &mut usize,
+    applied: &mut usize,
+) -> Result<(), WorkspaceError> {
+    for block in ast_blocks {
+        if let Some(entry) = sidecar_blocks.get(*idx) {
+            let node = entry.id;
+            let current = ws.block_text(node).unwrap_or_default();
+            if current != block.text {
+                let update = ws.build_text_replace_update(node, &block.text);
+                if !update.is_empty() {
+                    let ts = hlc.next();
+                    ws.apply(LogOp {
+                        ts, actor: ts.actor,
+                        op: Op::Edit { node, text_op: update },
+                    })?;
+                    *applied += 1;
+                }
+            }
+        }
+        *idx += 1;
+        walk_text_sync(ws, hlc, &block.children, sidecar_blocks, idx, applied)?;
+    }
+    Ok(())
+}
+```
+
+Idempotent by construction. When the text already matches, `build_text_replace_update` returns an empty Yrs delta and no op is emitted. The reconcile of an unchanged `.md` produces zero ops. The reconcile of a changed `.md` produces exactly the ops needed to bring the workspace in line with the file.
+
+That same `reconcile_md` covers a case that looks different at the surface and is identical underneath: bootstrapping a `.md` with no sidecar at all. The user dumps a Roam export into `journals/`. A peer on an old version ships the projection without the sidecar. Someone copies a `pages/` directory from a backup. The file is real markdown, the sidecar is missing, the op log has no record of any block. To the rest of outl, the page is almost there: the file exists, the title is right, the body shows up - and then backlinks on other pages don't include it, references break, the page behaves like a ghost.
+
+A background scanner runs every ten seconds in the TUI (once at boot in mobile), walking `journals/` and `pages/` for `.md` files whose sidecar is missing, or whose `last_synced_hash` no longer matches the file's current hash. Both conditions mean the op log doesn't reflect this content yet. The fix is one call:
+
+```rust
+outl_md::reconcile::reconcile_md(workspace, hlc, path, Some(&orphans_log))
+```
+
+The same code path that handles external edits handles fresh imports. The 3-level matching does the right thing whether the file is brand new (every block falls to level 3 with no orphan, since there's no prior state) or just edited externally (level 1 / level 2 for most blocks, level 3 only for genuinely new or removed ones). The starting state differs. The algorithm doesn't.
+
+The generalisation, once: the paper assumes ops already exist. In a system where the source of truth is the op log but the user types into a markdown file, half the work is fabricating ops from a projection that got edited out of band.
+
+## You are also a peer of yourself
+
+The paper's hardest problem - making the CRDT converge across replicas - I now get for free. The harder problem in practice is keeping the local user's edits from colliding with their own peer reload loop.
+
+The setup. Each client watches the `ops/` directory for changes. The TUI does it with a worker thread that stats every `ops-*.jsonl` every two seconds. Mobile does it with an `NSMetadataQuery` on the iCloud ubiquitous container. Both fire the same signal when a peer's file grows: something new arrived, you may want to reload.
+
+The catch: both clients also write into that directory. The TUI commits a block edit, appends to its own `ops-A.jsonl`, and the next two-second poll detects that `ops-A.jsonl` grew. Reload triggers. The workspace reopens. The `.md` re-projects. The user, who just hit Enter and started typing the next bullet, watches their buffer get clobbered by a projection of the workspace they themselves just wrote. Save → reload → race → lost character. Every save.
+
+The fix is one line of logic, named to make the intent stick:
+
+```rust
+pub fn snapshot_peers(&self) -> Vec<OpsFileSnapshot> {
+    let own = format!("ops-{}.jsonl", self.actor);
+    self.snapshot()
+        .into_iter()
+        .filter(|f| f.name != own)
+        .collect()
+}
+```
+
+The poller calls `snapshot_peers`, not `snapshot`. Changes to the device's own jsonl are what triggered the reload check; reacting to them closes the destructive loop. Only peer files matter. Once a peer's ops land in the merged log, the CRDT doesn't care which actor wrote them. But the trigger of the reload has to discriminate. Mobile gets this for free: `NSMetadataQuery` only notifies on changes from external sources, and local writes go through `NSFileCoordinator` and don't fire the query. Different runtime, same invariant.
+
+The second hazard is subtler and only exists in the TUI, because mobile commits each mutation as one atomic Tauri command. The TUI has an Insert mode. A `ParsedPage` AST lives in memory, holding the user's in-flight edits as they type. The op log hasn't seen any of it yet - the AST serialises back to ops on commit (Esc, Enter, Tab, structural ops). While the AST is in flight, a peer's jsonl grows. The poller, now correctly filtering its own file, sees the peer's write. If the reload runs, it reopens the workspace, regenerates the page's `.md`, and the in-memory `ParsedPage` is gone. The keystroke the user was about to commit lands on a new AST with different blocks at different positions.
+
+The CRDT can't save you here. The unsaved buffer isn't in any op log yet. There's nothing to merge.
+
+The policy is to defer:
+
+```rust
+if matches!(self.mode, crate::state::Mode::Insert { .. }) {
+    self.pending_reload = true;
+    return false;
+}
+self.reload_workspace_from_disk();
+```
+
+The peer's writes are safe. They're already on disk in their jsonl, the merge can happen any time. What matters is that the merge doesn't happen while the local user is typing into an unsaved buffer. When the user exits Insert (commit on Esc, Enter, dd, indent, outdent), the commit path drains `pending_reload`. The local edit becomes a real op in the log. The peer's ops merge in. The CRDT then does what it was built for, on two real states.
+
+Mobile doesn't need this because every mutation is one round-trip through a Tauri command. There's no multi-keystroke window where a peer reload could clobber an unsaved buffer. The mobile user's edit either landed atomically (it's in the op log) or didn't happen yet. Same problem, different policy. Both clients share the `SyncEngine` that does the reload; what differs is when each one calls it.
+
+The generalisation, again once: most CRDT prose stops at concurrent edits converge. In a real client, the harder problem is that the local user is also a writer with state that hasn't become an op yet. The CRDT can't help with state it doesn't know about. The client has to.
+
+## iCloud Drive is hostile, in two specific ways
+
+iCloud Drive is the transport. The algorithm doesn't know about it and doesn't have to. But the transport gets to corrupt the algorithm's inputs if you don't pay attention, and the failures are silent the way every transport-layer bug is silent: the algorithm runs, produces an output, the output is wrong.
+
+The first hostility is the last-write-wins property from earlier, and the response is the one-jsonl-per-actor layout. That one is structural - respect it and iCloud can't bite you. The second is worse, because it's invisible until it bites.
+
+iCloud syncs file metadata aggressively and file content lazily. The remote device knows a file exists, sees its name, its size, its modification date - and doesn't have its bytes yet. `std::fs::open` the file at that moment and the open succeeds and the read returns something: the file's old content, an empty placeholder, or success-then-EOF on a freshly downloaded file. The Rust side has no idea anything is wrong.
+
+When the file is a peer's `ops-B.jsonl`, that "something" is an incomplete op log. The merge with the local jsonl proceeds on partial data. The materialised tree is missing operations. The projection regenerates a `.md` from the wrong tree. iCloud ships that wrong `.md` back to the laptop. The laptop's TUI sees blocks disappear that it had locally a moment ago.
+
+The fix on iOS is explicit, and the order matters:
+
+```objc
+NSFileManager *fm = [NSFileManager defaultManager];
+[fm startDownloadingUbiquitousItemAtURL:url error:&startErr];
+
+NSFileCoordinator *coord = [[NSFileCoordinator alloc] initWithFilePresenter:nil];
+[coord coordinateReadingItemAtURL:url
+                          options:NSFileCoordinatorReadingForUploading
+                            error:&coordErr
+                       byAccessor:^(NSURL *u) { (void)u; }];
+```
+
+`startDownloadingUbiquitousItemAtURL` is a request: materialise this file from iCloud now, don't return until you've made progress. It's asynchronous, which is why the file coordinator comes after. `NSFileCoordinator` blocks the calling thread until the file is fully present and no other process is mid-write - it serialises with iCloud's own download daemon. By the time the accessor block runs (even empty), the file's bytes are on disk. Only then is it safe for the Rust side to open it and replay.
+
+The cost is real. Each peer file change goes through a 100ms-to-second download-coordinate cycle on a background dispatch queue before the JS side gets notified to reload. In return, the workspace never sees a half-materialised op log. The CRDT operates on real bytes. The projection comes out correct.
+
+macOS is asymmetric. The mac side doesn't need this ritual: by the time `NSMetadataQuery` would notify on macOS, the file is materialised. But the mac reads the iPhone's writes the same way, and the iPhone pays the cost when reading the mac's writes. Transport asymmetry, algorithm symmetry. The CRDT doesn't care which side does the work as long as both eventually see the same bytes.
+
+The two iCloud hostilities are the same story: the transport lies about state. Last write wins lies about "this is the file's content" (it's the loser's content, silently). Lazy materialisation lies about "this file is available" (it's a placeholder, silently). Both produce wrong inputs to the CRDT. Both get mitigated by structural choices: one jsonl per actor, explicit `NSFileCoordinator` before any read of a peer file. Both are critical to correctness, neither is in the paper.
+
+## Sync ends at the op log, render starts there
+
+I almost skipped writing this part because it sounds like an afterthought. Then I remembered the first version of outl had the bug where the iPhone synced correctly and refused to redraw. The bytes arrived. The op log merged. The tree was right. The screen still showed the page from thirty seconds ago. Sync delivered. Render didn't.
+
+Once a peer's ops land and the workspace merges them, every UI surface projecting the previous tree has to be told. The op log is upstream. The rendered outline, the backlinks panel, the page list, the markdown projection on disk - all downstream. The lifecycle is what notifies which downstream consumer when.
+
+The TUI handles this synchronously inside `reload_workspace_from_disk`: reopen the workspace from disk (now reflecting peer ops), re-project the focused page's `.md` + sidecar, reload the in-memory `ParsedPage` from the freshly-written file. Next ratatui tick renders the new state. The one trap: ratatui's diff renderer leaves stale cells on a partial repaint after a page swap. The fix is one `f.render_widget(Clear, area)` at the top of every frame after a reload. Cheap, mandatory.
+
+Mobile splits the same lifecycle across the FFI boundary. The Tauri backend emits a `workspace-ready` event when the background opener completes. The iCloud watcher invokes `window.__outlOpsChanged()` from Objective-C when peer files materialise. The SolidJS frontend listens to both, calls `build_page_view` to get a fresh `PageView { page, outline, backlinks }` from the Rust side, and Solid's reactive layer re-renders the affected components. Same idea, different machinery.
+
+The generalisation: a CRDT system has two pipelines, not one. The first carries bytes inward - peer writes → transport → merge → op log → tree. The second carries derived state outward - tree → projection → screen. Sync prose talks almost only about the first. The second has its own races (stale buffers, dropped events, partial repaints) and its own correctness bar (every consumer of a value that changed must learn it changed). Plumbing both so they stay coherent is the difference between the sync works and the user sees the sync work.
+
+## The paper and the rest
+
+The paper gave outl the core: a move-only op that converges across replicas without coordination, with a proof in Isabelle/HOL behind it. Everything else rests on that. Without it, no amount of engineering would have produced a working system. I'd be writing a different post, the one about why my prototype occasionally loses parent pointers.
+
+What the paper didn't give:
+
+- A way to translate a clean markdown projection back into ops when the projection changed externally.
+- A way to keep text content in the op log, separate from tree structure.
+- A way to stop a client from reacting to its own writes.
+- A way to defer a peer reload while the local user types into an unsaved buffer.
+- A way to bootstrap a `.md` with no sidecar.
+- A way to handle a transport that lies about file availability.
+
+None are flaws in the paper. They're the work between any formal result and a thing a human uses. Every system built on a CRDT pays a version of this tax. The paper is the proof you haven't built something incoherent. The work above is the proof you've built something usable.
+
+The first cross-device sync of outl works now. Edit a journal on the laptop in the TUI, the iPhone updates in seconds. Edit on the iPhone, the laptop's TUI redraws. Concurrent edits on both devices converge with no prompts and no merge dialogs. Imported `.md` files surface in backlinks. External vim edits get picked up on the next scan. Text content survives every roundtrip.
+
+It took longer to build the layers around the paper than to implement the paper itself. That's the honest ratio, and the part I'd warn anyone starting from a proven CRDT about. The proof tells you the algorithm can't lose data. The transport, the projection, the editor mode, the concurrent-self-reload - all of those can.
+
+---
+
+**outl** is open source: [github.com/avelino/outl](https://github.com/avelino/outl). The move-op core is in `[crates/outl-core](https://github.com/avelino/outl/tree/main/crates/outl-core)` and tracks the paper's pseudocode line for line. The sync engine mobile and TUI share lives in `[crates/outl-actions/src/sync.rs](https://github.com/avelino/outl/blob/main/crates/outl-actions/src/sync.rs)`. The reconcile pass is in `[crates/outl-md/src/reconcile.rs](https://github.com/avelino/outl/blob/main/crates/outl-md/src/reconcile.rs)`. The iCloud transport is in `[crates/outl-mobile/src-tauri/gen/apple/Sources/outl-mobile/main.mm](https://github.com/avelino/outl/blob/main/crates/outl-mobile/src-tauri/gen/apple/Sources/outl-mobile/main.mm)`.
+
+The paper proves convergence. The code is everything else.
