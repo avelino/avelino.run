@@ -3,7 +3,7 @@ date: "2026-06-25"
 draft: false
 title: "The op log was peer-to-peer the whole time"
 tags: ["sync", "crdt", "p2p", "iroh", "quic", "nat", "distributed-systems", "rust", "outl", "engineering"]
-description: "iCloud Drive was a deliberate shortcut to prove the CRDT converges across real devices before I solved networking. Proof done, I swapped the file-pusher for a real network. This is how outl now syncs every client peer-to-peer over QUIC, with no server and no Apple, and the parts of "peer-to-peer" the brochures skip."
+description: "iCloud Drive was a deliberate shortcut to prove the CRDT converges across real devices before I solved networking. Proof done, I swapped the file-pusher for a real network. This is how outl now syncs every client peer-to-peer over QUIC, with no server and no Apple, and the parts of 'peer-to-peer' the brochures skip."
 url: "/from-icloud-to-peers"
 ---
 
