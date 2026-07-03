@@ -3,8 +3,78 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 203,
+  "totalItems" : 204,
   "orderedItems" : [ {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/46937d1dc32a0d25e80c5dcb5f3b836c/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-07-03T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "46937d1dc32a0d25e80c5dcb5f3b836c",
+      "id" : "/socialweb/notes/46937d1dc32a0d25e80c5dcb5f3b836c",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-07-03T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/46937d1dc32a0d25e80c5dcb5f3b836c",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/46937d1dc32a0d25e80c5dcb5f3b836c?page=true",
+          "partOf" : "/socialweb/replies/46937d1dc32a0d25e80c5dcb5f3b836c",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/df33224502b8096ce5b3d89f1631378d/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-07-03T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/the-model-was-never-the-bottleneck",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "df33224502b8096ce5b3d89f1631378d",
+      "id" : "/socialweb/notes/df33224502b8096ce5b3d89f1631378d",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-07-03T00:00:00+00:00",
+      "content" : "<p>The model was never the bottleneck</p><p><a href='https://avelino.run/the-model-was-never-the-bottleneck'>https://avelino.run/the-model-was-never-the-bottleneck</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/df33224502b8096ce5b3d89f1631378d",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/df33224502b8096ce5b3d89f1631378d?page=true",
+          "partOf" : "/socialweb/replies/df33224502b8096ce5b3d89f1631378d",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/ebec84bf462c5f690c39b184f0ecbbcc/create",
     "type" : "Create",
@@ -32,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/ebec84bf462c5f690c39b184f0ecbbcc?page=true",
           "partOf" : "/socialweb/replies/ebec84bf462c5f690c39b184f0ecbbcc",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/82492e8a8233ef4da6a014d8e0cf3634/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-06-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "82492e8a8233ef4da6a014d8e0cf3634",
-      "id" : "/socialweb/notes/82492e8a8233ef4da6a014d8e0cf3634",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-06-28T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/82492e8a8233ef4da6a014d8e0cf3634",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/82492e8a8233ef4da6a014d8e0cf3634?page=true",
-          "partOf" : "/socialweb/replies/82492e8a8233ef4da6a014d8e0cf3634",
           "items" : [ ]
         }
       },
