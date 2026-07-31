@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 205,
+  "totalItems" : 206,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/7ffb14f2bce4725c8057ccc5df474e9b/create",
+    "id" : "/socialweb/notes/625576ad4b5a461ad2acc0014920fdd7/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-07-18T00:00:00+00:00",
+    "published" : "2026-07-31T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/",
+      "url" : "https://avelino.run/absence-is-the-compatibility-contract",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "7ffb14f2bce4725c8057ccc5df474e9b",
-      "id" : "/socialweb/notes/7ffb14f2bce4725c8057ccc5df474e9b",
+      "hash" : "625576ad4b5a461ad2acc0014920fdd7",
+      "id" : "/socialweb/notes/625576ad4b5a461ad2acc0014920fdd7",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-07-18T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2026-07-31T00:00:00+00:00",
+      "content" : "<p>Absence is the compatibility contract</p><p><a href='https://avelino.run/absence-is-the-compatibility-contract'>https://avelino.run/absence-is-the-compatibility-contract</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/7ffb14f2bce4725c8057ccc5df474e9b",
+        "id" : "/socialweb/replies/625576ad4b5a461ad2acc0014920fdd7",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/7ffb14f2bce4725c8057ccc5df474e9b?page=true",
-          "partOf" : "/socialweb/replies/7ffb14f2bce4725c8057ccc5df474e9b",
+          "next" : "/socialweb/replies/625576ad4b5a461ad2acc0014920fdd7?page=true",
+          "partOf" : "/socialweb/replies/625576ad4b5a461ad2acc0014920fdd7",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/8e9489492dca1d292e2c837791c28ab9/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-07-31T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "8e9489492dca1d292e2c837791c28ab9",
+      "id" : "/socialweb/notes/8e9489492dca1d292e2c837791c28ab9",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-07-31T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/8e9489492dca1d292e2c837791c28ab9",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/8e9489492dca1d292e2c837791c28ab9?page=true",
+          "partOf" : "/socialweb/replies/8e9489492dca1d292e2c837791c28ab9",
           "items" : [ ]
         }
       },
@@ -5886,41 +5921,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2015-03-30T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
-      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2015-03-30T00:00:00+00:00",
-      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
-          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/106b404811f777141371c3ed05af80a1/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -5947,6 +5947,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/106b404811f777141371c3ed05af80a1?page=true",
           "partOf" : "/socialweb/replies/106b404811f777141371c3ed05af80a1",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2015-03-30T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "fc465989a6b32497c35ddca0ab4f239b",
+      "id" : "/socialweb/notes/fc465989a6b32497c35ddca0ab4f239b",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2015-03-30T00:00:00+00:00",
+      "content" : "<p>Cron dentro do Django com Celery</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b?page=true",
+          "partOf" : "/socialweb/replies/fc465989a6b32497c35ddca0ab4f239b",
           "items" : [ ]
         }
       },
