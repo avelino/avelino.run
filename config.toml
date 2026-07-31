@@ -4,7 +4,6 @@ title = "Thiago Avelino"
 theme = "archie"
 # googleAnalytics = "UA-3063031-15"
 googleAnalytics = "G-MHKZRCJN0C"
-disqusShortname = "avelino"
 copyright = "© Avelino"
 buildFuture = true
 

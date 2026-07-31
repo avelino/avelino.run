@@ -13,10 +13,6 @@ function setTheme(mode) {
         document.body.classList.remove("dark-theme");
         if (toggleIcon) toggleIcon.href.baseVal = toggleIcon.href.baseVal.replace(/#.*$/, "#moon");
     }
-    // Dispara reset do Disqus se o embed já estiver carregado
-    if (typeof window.__resetDisqusColorScheme === "function") {
-        window.__resetDisqusColorScheme();
-    }
 }
 
 function toggleTheme() {

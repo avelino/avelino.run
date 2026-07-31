@@ -399,7 +399,7 @@ body.dark-theme .content code {
 }
 
 /* ===== NEWSLETTER BOX ===== */
-.newsletter-box {
+.newsletter-box, .reply-box {
   background: #f1e9fd;
   display: block;
   padding: 20px;
@@ -413,6 +413,39 @@ body.dark-theme .content code {
 .newsletter-box a {
   color: rebeccapurple !important;
   border-bottom-color: rebeccapurple !important;
+}
+
+/* ===== REPLY BOX (comentários via X) ===== */
+.reply-title {
+  font-size: 18px;
+  margin: 0 0 6px;
+}
+
+.reply-lead {
+  margin: 0 0 16px;
+}
+
+.reply-actions {
+  margin: 0;
+}
+
+/* Especificidade dupla-classe pra vencer o `border-bottom ... !important`
+   que o tema aplica em todo `a` dentro de article/section.body. */
+.reply-box .reply-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: rebeccapurple;
+  border: 1px solid rebeccapurple !important;
+  color: #fff !important;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.reply-box .reply-btn:hover {
+  background: #52277a;
+  border-color: #52277a !important;
+  color: #fff !important;
 }
 
 .newsletter-form {
@@ -451,7 +484,8 @@ body.dark-theme .content code {
 
 /* Newsletter Dark Mode - prefers-color-scheme (escopado para respeitar toggle) */
 @media (prefers-color-scheme: dark) {
-  body:not(.light-theme) .newsletter-box {
+  body:not(.light-theme) .newsletter-box,
+  body:not(.light-theme) .reply-box {
     background: #2d2d44 !important;
     border-left-color: #a78bfa !important;
     color: #e2e8f0 !important;
@@ -477,20 +511,24 @@ body.dark-theme .content code {
     color: #a0aec0 !important;
   }
 
-  body:not(.light-theme) .newsletter-btn {
+  body:not(.light-theme) .newsletter-btn,
+  body:not(.light-theme) .reply-btn {
     background: #a78bfa !important;
     border-color: #a78bfa !important;
     color: #000 !important;
   }
 
-  body:not(.light-theme) .newsletter-btn:hover {
+  body:not(.light-theme) .newsletter-btn:hover,
+  body:not(.light-theme) .reply-btn:hover {
     background: #8b5cf6 !important;
     border-color: #8b5cf6 !important;
+    color: #000 !important;
   }
 }
 
 /* Newsletter Dark Mode - toggle class */
-.dark-theme .newsletter-box {
+.dark-theme .newsletter-box,
+.dark-theme .reply-box {
   background: #2d2d44 !important;
   border-left-color: #a78bfa !important;
   color: #e2e8f0 !important;
@@ -516,13 +554,16 @@ body.dark-theme .content code {
   color: #a0aec0 !important;
 }
 
-.dark-theme .newsletter-btn {
+.dark-theme .newsletter-btn,
+.dark-theme .reply-btn {
   background: #a78bfa !important;
   border-color: #a78bfa !important;
   color: #000 !important;
 }
 
-.dark-theme .newsletter-btn:hover {
+.dark-theme .newsletter-btn:hover,
+.dark-theme .reply-btn:hover {
   background: #8b5cf6 !important;
   border-color: #8b5cf6 !important;
+  color: #000 !important;
 }

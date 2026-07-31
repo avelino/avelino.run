@@ -1,0 +1,13 @@
+{{/*
+  Bloco de comentários no rodapé do post — substituiu o Disqus.
+  Sem JS e sem terceiros: o X abre o compose já com a menção e o link do post,
+  então quem comenta só escreve a opinião e eu recebo a notificação.
+*/}}
+{{- $commentOnX := printf "https://x.com/intent/post?%s" (querify "text" "@avelinorun" "url" .Permalink) -}}
+<div class="reply-box">
+    <p class="reply-title"><strong>Leave a comment</strong></p>
+    <p class="reply-lead">Comments on this blog live on X. The button opens a post with this page already linked &mdash; just write what you think.</p>
+    <p class="reply-actions">
+        <a class="reply-btn" href="{{ $commentOnX }}" target="_blank" rel="noopener">Comment on X &rarr;</a>
+    </p>
+</div>
