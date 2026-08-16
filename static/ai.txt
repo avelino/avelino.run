@@ -5,9 +5,9 @@
 - **URL**: https://avelino.run
 - **Language**: English (primary), Portuguese (some articles)
 - **Type**: Personal blog focused on engineering leadership and open source
-- **Last Updated**: 2026-08-09
-- **Total Articles**: 443
-- **Total Words**: ~234264
+- **Last Updated**: 2026-08-16
+- **Total Articles**: 444
+- **Total Words**: ~236796
 
 ## Author Information
 - **Name**: Thiago Avelino
@@ -30,10 +30,10 @@
 - **vim-bootstrap**: Vim configuration generator
 
 ## Content Statistics
-- Blog Posts: 154
+- Blog Posts: 155
 - FOSS Contributions: 236
 - Quotes/Notes: 53
-- Latest Post: 
+- Latest Post: 2021-04-29
 
 ## Content Index for AI
 - **Article List**: https://avelino.run/llms.txt
