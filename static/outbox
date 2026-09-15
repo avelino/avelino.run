@@ -3,7 +3,7 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 212,
+  "totalItems" : 211,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/cc899ef3defe1c4afdd65cfeaed6249c/create",
@@ -67,41 +67,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/c79746a4ba0d5669bfe77426353e616b?page=true",
           "partOf" : "/socialweb/replies/c79746a4ba0d5669bfe77426353e616b",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/1676b29364389b4ab1976dac86bc6363/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-09-14T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/nobody-calls-an-athlete-a-workaholic",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "1676b29364389b4ab1976dac86bc6363",
-      "id" : "/socialweb/notes/1676b29364389b4ab1976dac86bc6363",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-09-14T00:00:00+00:00",
-      "content" : "<p>Nobody calls an athlete a workaholic</p><p><a href='https://avelino.run/nobody-calls-an-athlete-a-workaholic'>https://avelino.run/nobody-calls-an-athlete-a-workaholic</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/1676b29364389b4ab1976dac86bc6363",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/1676b29364389b4ab1976dac86bc6363?page=true",
-          "partOf" : "/socialweb/replies/1676b29364389b4ab1976dac86bc6363",
           "items" : [ ]
         }
       },
