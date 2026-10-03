@@ -1,31 +1,22 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { execSync } from 'child_process';
 import { renderEmailTemplate } from './NewsletterTemplate.mjs';
-import {
-  normalizeFileId,
-  parseAddedPosts,
-  parsePostDate,
-  selectPosts,
-  findSegmentByName,
-  broadcastName,
-  planForExisting,
-  parsePositiveInt,
-} from './newsletter_lib.mjs';
+import { toFileId, broadcastName, findSegmentByName, pickPosts } from './newsletter_lib.mjs';
+
+// ---- Config ----------------------------------------------------------------------
+const SEGMENT_NAME = 'news.avelino.run'; // only contacts in this Resend Segment get the email
+const MAX_AGE_DAYS = 7; // never email posts older than this (protects against sending an old backlog)
+const MAX_PER_RUN = 1; // at most this many emails per run; the rest go in later runs
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const FROM = process.env.NEWSLETTER_FROM;
 const BASE_URL = process.env.SITE_BASE_URL || 'https://avelino.run';
 const SITE_NAME = process.env.SITE_NAME || 'avelino.run';
-// Only contacts in this Resend Segment get the email. Resolved by name unless an id is given.
-const SEGMENT_NAME = process.env.RESEND_SEGMENT_NAME || 'news.avelino.run';
-const SEGMENT_ID = process.env.RESEND_SEGMENT_ID || '';
-// Blast guards: only posts dated within MAX_AGE_DAYS, at most MAX_PER_RUN per run.
-const MAX_AGE_DAYS = parsePositiveInt(process.env.NEWSLETTER_MAX_AGE_DAYS, 7);
-const MAX_PER_RUN = parsePositiveInt(process.env.NEWSLETTER_MAX_PER_RUN, 1);
-const DRY_RUN = /^(1|true|yes)$/i.test(process.env.NEWSLETTER_DRY_RUN || '');
-const RESEND_API = 'https://api.resend.com';
+const DRY_RUN = process.env.NEWSLETTER_DRY_RUN === 'true';
+
+const BLOG_DIR = path.join('content', 'blog');
+const STATE_PATH = '.newsletter_state.json';
 
 /**
  * Generate an engaging email subject line from title and description
@@ -123,230 +114,107 @@ function generateEmailSubject(title, description) {
   return smartTruncate(title, maxLength);
 }
 
-// ---- Resend REST API (Segments + Broadcasts) ---------------------------------
+// ---- Resend API --------------------------------------------------------------------
 
-async function resendRequest(method, apiPath, body) {
-  const res = await fetch(`${RESEND_API}${apiPath}`, {
+async function resend(method, apiPath, body) {
+  const res = await fetch(`https://api.resend.com${apiPath}`, {
     method,
-    headers: {
-      Authorization: `Bearer ${RESEND_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: body ? JSON.stringify(body) : undefined,
+    headers: { Authorization: `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json' },
+    body: body && JSON.stringify(body),
   });
-  const text = await res.text();
-  let json;
-  try { json = text ? JSON.parse(text) : {}; } catch { json = { raw: text }; }
-  if (!res.ok) {
-    const err = new Error(`Resend ${method} ${apiPath} failed with ${res.status}: ${json.message || text}`);
-    err.status = res.status;
-    err.body = json;
-    throw err;
-  }
+  const json = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(`Resend ${method} ${apiPath} failed (${res.status}): ${json.message || res.statusText}`);
   return json;
 }
 
+/** All items of a paginated Resend list endpoint. */
 async function listAll(apiPath) {
   const items = [];
-  let after;
-  for (let page = 0; page < 100; page++) {
-    const qs = new URLSearchParams({ limit: '100' });
-    if (after) qs.set('after', after);
-    const json = await resendRequest('GET', `${apiPath}?${qs}`);
-    const data = Array.isArray(json.data) ? json.data : [];
-    items.push(...data);
-    if (!json.has_more || !data.length) return items;
-    after = data[data.length - 1].id;
+  let after = '';
+  while (true) {
+    const page = await resend('GET', `${apiPath}?limit=100${after && `&after=${after}`}`);
+    items.push(...page.data);
+    if (!page.has_more) return items;
+    after = page.data[page.data.length - 1].id;
   }
-  throw new Error(`Too many pages while listing ${apiPath}`);
 }
 
-async function resolveSegment() {
-  if (SEGMENT_ID) {
-    const seg = await resendRequest('GET', `/segments/${encodeURIComponent(SEGMENT_ID)}`);
-    if (seg.name !== SEGMENT_NAME) {
-      throw new Error(`RESEND_SEGMENT_ID points to segment "${seg.name}", expected "${SEGMENT_NAME}". Refusing to send.`);
-    }
-    return seg;
-  }
-  return findSegmentByName(await listAll('/segments'), SEGMENT_NAME);
-}
-
-// ---- Post discovery ------------------------------------------------------------
-
-const BLOG_DIR = path.join(process.cwd(), 'content', 'blog');
-
-const walkBlogPosts = (dir) =>
-  fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
-    const entryPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) return walkBlogPosts(entryPath);
-    if (entry.isFile() && /\.mdx?$/i.test(entry.name)) return [path.relative(process.cwd(), entryPath)];
-    return [];
-  });
+// ---- Posts -------------------------------------------------------------------------
 
 function readPost(postPath) {
-  const raw = fs.readFileSync(postPath, 'utf8');
-  const { data, content } = matter(raw);
-  return { data, content, draft: data?.draft === true, date: parsePostDate(data?.date) };
+  const { data, content } = matter(fs.readFileSync(postPath, 'utf8'));
+  const date = data.date ? new Date(data.date) : null;
+  return { data, content, draft: data.draft === true, date: date && !Number.isNaN(date.getTime()) ? date : null };
 }
 
-function gitDiffNameStatus() {
-  const currentSha = process.env.GITHUB_SHA || execSync('git rev-parse HEAD').toString().trim();
-  let parentSha = process.env.GITHUB_BASE_SHA;
-  if (!parentSha || /^0+$/.test(parentSha)) {
-    try { parentSha = execSync(`git rev-parse ${currentSha}^`).toString().trim(); } catch { parentSha = ''; }
-  }
-  console.log(`Current commit: ${currentSha}`);
-  console.log(`Parent commit: ${parentSha || 'unknown'}`);
-  if (!parentSha || parentSha === currentSha) return '';
-  try {
-    return execSync(`git diff --name-status ${parentSha} ${currentSha}`).toString();
-  } catch (e) {
-    console.warn(`Could not diff ${parentSha}..${currentSha}: ${e.message}`);
-    return '';
-  }
-}
-
-function buildEmailFields(postPath, data, content) {
+function emailFields(postPath, data, content) {
   const title = (data.title || path.basename(postPath, path.extname(postPath))).toString();
   const description = (data.description || content.replace(/[#>*_\-\[\]\(\)`]/g, '').trim().slice(0, 220)).toString();
 
-  let urlPath;
-  if (data.url) urlPath = data.url.startsWith('/') ? data.url : '/' + data.url;
-  else if (data.slug) urlPath = data.slug.startsWith('/') ? data.slug : '/' + data.slug;
-  else urlPath = '/' + postPath.replace(/^content\/blog\//, '').replace(/\.mdx?$/i, '');
-  urlPath = urlPath.replace(/\/+/g, '/');
+  // Hugo URL: `url`, then `slug`, then the file name
+  const urlPath = ('/' + (data.url || data.slug || path.basename(postPath).replace(/\.mdx?$/i, ''))).replace(/\/+/g, '/');
   const url = new URL(urlPath, BASE_URL).toString();
 
-  let imageUrl = null;
-  const imgPath = data.img || data.image;
-  if (imgPath) {
-    imageUrl = /^https?:\/\//.test(imgPath)
-      ? imgPath
-      : new URL(imgPath.startsWith('/') ? imgPath : '/' + imgPath, BASE_URL).toString();
-  }
+  const img = data.img || data.image;
+  const imageUrl = img ? new URL(img, BASE_URL).toString() : null;
+
   return { title, description, url, imageUrl };
 }
 
-// ---- Main ----------------------------------------------------------------------
+// ---- Main --------------------------------------------------------------------------
 
-const statePath = path.join(process.cwd(), '.newsletter_state.json');
-
-function loadState() {
-  let state = { lastSent: [] };
-  if (fs.existsSync(statePath)) {
-    try { state = JSON.parse(fs.readFileSync(statePath, 'utf8')); } catch { console.warn('Could not parse state file, starting fresh'); }
-  }
-  if (!Array.isArray(state.lastSent)) state.lastSent = [];
-  state.lastSent = Array.from(new Set(state.lastSent.filter(Boolean).map((p) => normalizeFileId(p)).filter(Boolean)));
-  return state;
-}
-
-function recordSent(state, fileId) {
-  if (DRY_RUN) return;
-  if (!state.lastSent.includes(fileId)) state.lastSent.push(fileId);
-  fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
-  console.log(`✓ Recorded ${fileId} in .newsletter_state.json`);
-}
-
-async function main() {
-  if (!FROM) fail('Missing NEWSLETTER_FROM');
-  if (!RESEND_API_KEY && !DRY_RUN) fail('Missing RESEND_API_KEY');
-
-  console.log(`Segment: "${SEGMENT_NAME}"${SEGMENT_ID ? ` (id from RESEND_SEGMENT_ID)` : ' (resolved by name)'}`);
-  console.log(`From: ${FROM} | max age: ${MAX_AGE_DAYS}d | max per run: ${MAX_PER_RUN} | dry run: ${DRY_RUN}`);
-
-  const state = loadState();
-  const sentSet = new Set(state.lastSent);
-
-  // Candidates: posts added in this push + any published post not yet in the state file.
-  // selectPosts() applies the age window and per-run cap, so old unsent posts never go out in bulk.
-  const addedInPush = parseAddedPosts(gitDiffNameStatus());
-  console.log(`Posts added in this push: ${addedInPush.length ? addedInPush.join(', ') : '(none)'}`);
-  const allPosts = fs.existsSync(BLOG_DIR) ? walkBlogPosts(BLOG_DIR) : [];
-  const candidatePaths = Array.from(new Set([...addedInPush, ...allPosts]))
-    .filter((p) => !sentSet.has(normalizeFileId(p)));
-
-  const candidates = candidatePaths.flatMap((postPath) => {
-    try {
-      const { draft, date } = readPost(postPath);
-      return [{ fileId: normalizeFileId(postPath), postPath, draft, date }];
-    } catch (e) {
-      console.warn(`Skip ${postPath}: cannot read frontmatter (${e.message})`);
-      return [];
-    }
-  });
-
-  const { selected, skipped } = selectPosts({ candidates, sentSet, maxAgeDays: MAX_AGE_DAYS, maxPerRun: MAX_PER_RUN });
-  for (const s of skipped) console.log(`Not sending ${s.fileId}: ${s.reason}`);
-
-  if (!selected.length) {
-    console.log('Nothing to send.');
-    return;
-  }
-  console.log(`Will send: ${selected.map((s) => s.fileId).join(', ')}`);
-
-  if (!RESEND_API_KEY) {
-    console.log('Dry run without RESEND_API_KEY: skipping segment lookup.');
-    return;
-  }
-
-  // Fail loudly if the segment is missing. There is no fallback to a whole audience.
-  const segment = await resolveSegment();
-  console.log(`✓ Segment "${segment.name}" -> ${segment.id}`);
-
-  const existing = await listAll('/broadcasts');
-
-  for (const post of selected) {
-    const { data, content } = readPost(post.postPath);
-    const { title, description, url, imageUrl } = buildEmailFields(post.postPath, data, content);
-    const name = broadcastName(post.fileId);
-    const plan = planForExisting(existing, name, segment.id);
-    console.log(`\n=== ${post.fileId} -> ${url}`);
-    for (const d of plan.staleDrafts) {
-      console.warn(`Ignoring old draft broadcast ${d.id} for this post (different audience/segment). Delete it in Resend if you like.`);
-    }
-
-    if (plan.action === 'skip') {
-      console.log(`Already ${plan.broadcast.status} in Resend (${plan.broadcast.id}). Not sending again.`);
-      recordSent(state, post.fileId);
-      continue;
-    }
-
-    if (DRY_RUN) {
-      console.log(`[dry run] would ${plan.action === 'send-draft' ? `send existing draft ${plan.broadcast.id}` : 'create and send a broadcast'} to segment ${segment.id}, subject: ${generateEmailSubject(title, description)}`);
-      continue;
-    }
-
-    if (plan.action === 'send-draft') {
-      await resendRequest('POST', `/broadcasts/${plan.broadcast.id}/send`, {});
-      console.log(`✓ Sent existing draft ${plan.broadcast.id}`);
-      recordSent(state, post.fileId);
-      continue;
-    }
-
-    const html = await renderEmailTemplate({ title, description, url, imageUrl, siteName: SITE_NAME });
-    const subject = generateEmailSubject(title, description);
-    console.log(`Subject: ${subject} | HTML: ${html.length} chars`);
-
-    // Create and send in one call (`send: true`), so no draft is left waiting for a manual click.
-    const created = await resendRequest('POST', '/broadcasts', {
-      segment_id: segment.id,
-      from: FROM,
-      subject,
-      html,
-      name,
-      send: true,
-    });
-    if (!created.id) fail(`Unexpected response creating broadcast: ${JSON.stringify(created)}`);
-    console.log(`✓ Broadcast ${created.id} created and sent to segment "${segment.name}"`);
-    recordSent(state, post.fileId);
-  }
-}
-
-function fail(message) {
-  console.error(`✗ ${message}`);
+if (!RESEND_API_KEY || !FROM) {
+  console.error('Missing RESEND_API_KEY or NEWSLETTER_FROM');
   process.exit(1);
 }
 
-main().catch((err) => fail(err.stack || err.message));
+const state = fs.existsSync(STATE_PATH) ? JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')) : { lastSent: [] };
+const sentIds = new Set(state.lastSent.map(toFileId));
+
+function markSent(fileId) {
+  sentIds.add(fileId);
+  state.lastSent = [...sentIds];
+  fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2)); // committed by the workflow
+}
+
+const posts = fs.readdirSync(BLOG_DIR)
+  .filter((f) => /\.mdx?$/i.test(f))
+  .map((f) => {
+    const postPath = path.join(BLOG_DIR, f);
+    return { postPath, fileId: toFileId(postPath), ...readPost(postPath) };
+  });
+
+const toSend = pickPosts(posts, sentIds, { maxAgeDays: MAX_AGE_DAYS, maxPerRun: MAX_PER_RUN });
+if (!toSend.length) {
+  console.log(`Nothing to send (no unsent post dated within the last ${MAX_AGE_DAYS} days).`);
+  process.exit(0);
+}
+
+// Fails loudly if the segment does not exist. There is no fallback audience.
+const segment = findSegmentByName(await listAll('/segments'), SEGMENT_NAME);
+console.log(`Segment "${segment.name}": ${segment.id}${DRY_RUN ? ' (dry run, nothing will be sent)' : ''}`);
+
+// Names of broadcasts already sent/queued, in case the state file missed a send.
+const alreadySent = new Set((await listAll('/broadcasts')).filter((b) => b.status !== 'draft').map((b) => b.name));
+
+for (const post of toSend) {
+  const name = broadcastName(post.fileId);
+  const { title, description, url, imageUrl } = emailFields(post.postPath, post.data, post.content);
+  const subject = generateEmailSubject(title, description);
+
+  if (alreadySent.has(name)) {
+    console.log(`${post.fileId}: already sent in Resend (${name}), recording it in state.`);
+    if (!DRY_RUN) markSent(post.fileId);
+    continue;
+  }
+  if (DRY_RUN) {
+    console.log(`Would send ${post.fileId} -> ${url} with subject "${subject}"`);
+    continue;
+  }
+
+  const html = await renderEmailTemplate({ title, description, url, imageUrl, siteName: SITE_NAME });
+  // `send: true` creates and sends in one call, so no draft waits for a manual click.
+  const { id } = await resend('POST', '/broadcasts', { segment_id: segment.id, from: FROM, subject, html, name, send: true });
+  console.log(`✓ Sent ${post.fileId} (broadcast ${id}) to "${segment.name}"`);
+  markSent(post.fileId);
+}
