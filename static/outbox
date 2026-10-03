@@ -3,7 +3,7 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 212,
+  "totalItems" : 213,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/02591049f3c0ab5ce0931c51f5fbc6a2/create",
@@ -67,6 +67,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148?page=true",
           "partOf" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/cecc3e65ac1f3fc7d72ef222548a6be5/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-10-03T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/i-was-the-bottleneck-on-awesome-go",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "cecc3e65ac1f3fc7d72ef222548a6be5",
+      "id" : "/socialweb/notes/cecc3e65ac1f3fc7d72ef222548a6be5",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-10-03T00:00:00+00:00",
+      "content" : "<p>I was the bottleneck on awesome-go</p><p><a href='https://avelino.run/i-was-the-bottleneck-on-awesome-go'>https://avelino.run/i-was-the-bottleneck-on-awesome-go</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/cecc3e65ac1f3fc7d72ef222548a6be5",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/cecc3e65ac1f3fc7d72ef222548a6be5?page=true",
+          "partOf" : "/socialweb/replies/cecc3e65ac1f3fc7d72ef222548a6be5",
           "items" : [ ]
         }
       },
