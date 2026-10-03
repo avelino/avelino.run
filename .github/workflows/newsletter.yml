@@ -5,11 +5,22 @@ on:
     branches: [main]
     paths:
       - "content/blog/**"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only log what would be sent (no broadcast is created)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
   pages: write
   id-token: write
+
+# Never run two sends at the same time (avoids duplicate broadcasts).
+concurrency:
+  group: newsletter
+  cancel-in-progress: false
 
 jobs:
   send-broadcast:
@@ -37,26 +48,31 @@ jobs:
           GITHUB_SHA: ${{ github.sha }}
           GITHUB_BASE_SHA: ${{ github.event.before }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
           NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
           SITE_NAME: avelino.run
+          # Only contacts in this Resend Segment receive the email.
+          RESEND_SEGMENT_NAME: ${{ vars.RESEND_SEGMENT_NAME || 'news.avelino.run' }}
+          RESEND_SEGMENT_ID: ${{ vars.RESEND_SEGMENT_ID }}
+          # Blast guards: posts older than this are never emailed, and at most N per run.
+          NEWSLETTER_MAX_AGE_DAYS: ${{ vars.NEWSLETTER_MAX_AGE_DAYS || '7' }}
+          NEWSLETTER_MAX_PER_RUN: ${{ vars.NEWSLETTER_MAX_PER_RUN || '1' }}
+          NEWSLETTER_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
       - name: Commit newsletter state
+        # Runs even if a later post failed, so posts already sent are recorded and never re-sent.
+        if: ${{ !cancelled() && !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          if [ -f .newsletter_state.json ]; then
-            git add .newsletter_state.json
-            # Check if there are changes to commit
-            if ! git diff --staged --quiet; then
-              echo "Committing newsletter state changes..."
-              git commit -m "update newsletter state [skip ci]"
-              # Pull before push to avoid conflicts
-              git pull --rebase origin main || echo "Pull failed or no changes"
-              git push origin main || echo "Push failed"
-            else
-              echo "No changes in newsletter state to commit"
-            fi
-          else
+          if [ ! -f .newsletter_state.json ]; then
             echo "Warning: .newsletter_state.json not found"
+            exit 0
           fi
+          git add .newsletter_state.json
+          if git diff --staged --quiet; then
+            echo "No changes in newsletter state to commit"
+            exit 0
+          fi
+          git commit -m "update newsletter state [skip ci]"
+          git pull --rebase origin main
+          git push origin main
