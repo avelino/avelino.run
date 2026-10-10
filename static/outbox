@@ -3,35 +3,70 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 214,
+  "totalItems" : 215,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/0b9234c54c669f79edd1c44d817e081b/create",
+    "id" : "/socialweb/notes/371dd177e043b1a0ad4f2bf3b336ca8d/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-10-04T00:00:00+00:00",
+    "published" : "2026-10-10T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "0b9234c54c669f79edd1c44d817e081b",
-      "id" : "/socialweb/notes/0b9234c54c669f79edd1c44d817e081b",
+      "hash" : "371dd177e043b1a0ad4f2bf3b336ca8d",
+      "id" : "/socialweb/notes/371dd177e043b1a0ad4f2bf3b336ca8d",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-10-04T00:00:00+00:00",
+      "published" : "2026-10-10T00:00:00+00:00",
       "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/0b9234c54c669f79edd1c44d817e081b",
+        "id" : "/socialweb/replies/371dd177e043b1a0ad4f2bf3b336ca8d",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/0b9234c54c669f79edd1c44d817e081b?page=true",
-          "partOf" : "/socialweb/replies/0b9234c54c669f79edd1c44d817e081b",
+          "next" : "/socialweb/replies/371dd177e043b1a0ad4f2bf3b336ca8d?page=true",
+          "partOf" : "/socialweb/replies/371dd177e043b1a0ad4f2bf3b336ca8d",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/de90ea454c481a758e2278b1080a4b0b/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-10-10T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/where-data-stops-in-marketing",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "de90ea454c481a758e2278b1080a4b0b",
+      "id" : "/socialweb/notes/de90ea454c481a758e2278b1080a4b0b",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-10-10T00:00:00+00:00",
+      "content" : "<p>Where Data Stops in Marketing: A CTO's Notes on Data-Driven Marketing</p><p><a href='https://avelino.run/where-data-stops-in-marketing'>https://avelino.run/where-data-stops-in-marketing</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/de90ea454c481a758e2278b1080a4b0b",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/de90ea454c481a758e2278b1080a4b0b?page=true",
+          "partOf" : "/socialweb/replies/de90ea454c481a758e2278b1080a4b0b",
           "items" : [ ]
         }
       },
