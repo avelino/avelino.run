@@ -3,11 +3,27 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: daily
-    time: "15:00"
+    interval: weekly
   open-pull-requests-limit: 10
+  groups:
+    npm-minor-patch:
+      update-types: [minor, patch]
   ignore:
   - dependency-name: bl
     versions:
     - 4.0.4
     - 4.1.0
+- package-ecosystem: npm
+  directory: "/netlify/functions"
+  schedule:
+    interval: weekly
+  groups:
+    functions-minor-patch:
+      update-types: [minor, patch]
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: weekly
+  groups:
+    actions:
+      patterns: ["*"]
