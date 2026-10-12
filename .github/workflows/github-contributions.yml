@@ -8,8 +8,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   get-contributions:
@@ -18,10 +16,9 @@ jobs:
       name: github-pages
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
       - name: Setup Babashka
-        uses: turtlequeue/setup-babashka@v1.7.0
+        uses: turtlequeue/setup-babashka@2d4df498c7a578b4f3e906283f9af913590bdec7 # v1.7.0
         with:
           babashka-version: 1.12.208
 
