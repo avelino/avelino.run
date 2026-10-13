@@ -22,7 +22,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-email": "^5.1.0",
-    "resend": "^6.4.1"
+    "resend": "^6.32.1"
   },
   "overrides": {
     "glob": "^11.1.0"
