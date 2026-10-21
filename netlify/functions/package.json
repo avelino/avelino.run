@@ -4,6 +4,6 @@
   "description": "Netlify Functions for ActivityPub integration",
   "dependencies": {
     "axios": "^1.20.0",
-    "resend": "^6.1.0"
+    "resend": "^6.34.1"
   }
 }
