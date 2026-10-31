@@ -3,35 +3,105 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 216,
+  "totalItems" : 218,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/bd27b7ec9010e380a98768a5dfa71d75/create",
+    "id" : "/socialweb/notes/309a7e57f25e6153bf9047b6e7354b0a/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-10-23T00:00:00+00:00",
+    "published" : "2026-10-31T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/",
+      "url" : "https://avelino.run/vinellu-stack",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "bd27b7ec9010e380a98768a5dfa71d75",
-      "id" : "/socialweb/notes/bd27b7ec9010e380a98768a5dfa71d75",
+      "hash" : "309a7e57f25e6153bf9047b6e7354b0a",
+      "id" : "/socialweb/notes/309a7e57f25e6153bf9047b6e7354b0a",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-10-23T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "published" : "2026-10-31T00:00:00+00:00",
+      "content" : "<p>What runs vinellu: one Postgres, three front doors</p><p><a href='https://avelino.run/vinellu-stack'>https://avelino.run/vinellu-stack</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/bd27b7ec9010e380a98768a5dfa71d75",
+        "id" : "/socialweb/replies/309a7e57f25e6153bf9047b6e7354b0a",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/bd27b7ec9010e380a98768a5dfa71d75?page=true",
-          "partOf" : "/socialweb/replies/bd27b7ec9010e380a98768a5dfa71d75",
+          "next" : "/socialweb/replies/309a7e57f25e6153bf9047b6e7354b0a?page=true",
+          "partOf" : "/socialweb/replies/309a7e57f25e6153bf9047b6e7354b0a",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/2c8ad81bcf546b205ad8985ba6c78256/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-10-31T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "2c8ad81bcf546b205ad8985ba6c78256",
+      "id" : "/socialweb/notes/2c8ad81bcf546b205ad8985ba6c78256",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-10-31T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/2c8ad81bcf546b205ad8985ba6c78256",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/2c8ad81bcf546b205ad8985ba6c78256?page=true",
+          "partOf" : "/socialweb/replies/2c8ad81bcf546b205ad8985ba6c78256",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/baffd7ad2dcbcf60175d622b78f263c5/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-10-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/mcp-gateway-read-write",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "baffd7ad2dcbcf60175d622b78f263c5",
+      "id" : "/socialweb/notes/baffd7ad2dcbcf60175d622b78f263c5",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-10-28T00:00:00+00:00",
+      "content" : "<p>An MCP gateway has to know a read from a write</p><p><a href='https://avelino.run/mcp-gateway-read-write'>https://avelino.run/mcp-gateway-read-write</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/baffd7ad2dcbcf60175d622b78f263c5",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/baffd7ad2dcbcf60175d622b78f263c5?page=true",
+          "partOf" : "/socialweb/replies/baffd7ad2dcbcf60175d622b78f263c5",
           "items" : [ ]
         }
       },
@@ -146,41 +216,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/ba63ad51be1d2a6d698a0eb0bcca3148/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-10-03T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/the-pointer-was-right",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "ba63ad51be1d2a6d698a0eb0bcca3148",
-      "id" : "/socialweb/notes/ba63ad51be1d2a6d698a0eb0bcca3148",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-10-03T00:00:00+00:00",
-      "content" : "<p>The pointer was right. The scope was wrong</p><p><a href='https://avelino.run/the-pointer-was-right'>https://avelino.run/the-pointer-was-right</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148?page=true",
-          "partOf" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/cecc3e65ac1f3fc7d72ef222548a6be5/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -207,6 +242,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/cecc3e65ac1f3fc7d72ef222548a6be5?page=true",
           "partOf" : "/socialweb/replies/cecc3e65ac1f3fc7d72ef222548a6be5",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/ba63ad51be1d2a6d698a0eb0bcca3148/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-10-03T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/the-pointer-was-right",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "ba63ad51be1d2a6d698a0eb0bcca3148",
+      "id" : "/socialweb/notes/ba63ad51be1d2a6d698a0eb0bcca3148",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-10-03T00:00:00+00:00",
+      "content" : "<p>The pointer was right. The scope was wrong</p><p><a href='https://avelino.run/the-pointer-was-right'>https://avelino.run/the-pointer-was-right</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148?page=true",
+          "partOf" : "/socialweb/replies/ba63ad51be1d2a6d698a0eb0bcca3148",
           "items" : [ ]
         }
       },
@@ -7286,41 +7356,6 @@
     }
   }, {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2011-03-28T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "a331c6ffd4f1dd5cd36d3e430e638110",
-      "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2011-03-28T00:00:00+00:00",
-      "content" : "<p>Certificado EV SSL</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
-          "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
     "id" : "/socialweb/notes/61cab533844433b130f88a9e9f51fe27/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
@@ -7347,6 +7382,41 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27?page=true",
           "partOf" : "/socialweb/replies/61cab533844433b130f88a9e9f51fe27",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2011-03-28T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "a331c6ffd4f1dd5cd36d3e430e638110",
+      "id" : "/socialweb/notes/a331c6ffd4f1dd5cd36d3e430e638110",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2011-03-28T00:00:00+00:00",
+      "content" : "<p>Certificado EV SSL</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110?page=true",
+          "partOf" : "/socialweb/replies/a331c6ffd4f1dd5cd36d3e430e638110",
           "items" : [ ]
         }
       },
