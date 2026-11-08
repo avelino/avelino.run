@@ -154,6 +154,7 @@
     "blog/2026-07-the-model-was-never-the-bottleneck.md",
     "blog/2026-10-the-pointer-was-right.md",
     "blog/2026-10-i-was-the-bottleneck-on-awesome-go.md",
-    "blog/2026-10-vinellu-stack.md"
+    "blog/2026-10-vinellu-stack.md",
+    "blog/2026-11-i-shipped-a-cli-and-run-a-proxy.md"
   ]
 }
