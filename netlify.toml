@@ -9,6 +9,7 @@ disable = true
 
 [build.environment]
 NODE_VERSION = "22"
+HUGO_VERSION = "v0.160.1"
 
 [context.production.environment]
 HUGO_VERSION = "v0.160.1"
