@@ -1,0 +1,136 @@
+---
+date: "2026-11-12"
+draft: false
+title: "More review is not better review"
+tags: ["code-review", "engineering-management", "buser", "ai", "cto", "engineering"]
+description: "Half the pull requests in our monolith reached main without a human reading them. I turned on a strict review gate, turned it off three days later, and rebuilt review at Buser in layers. These are the numbers from each step."
+url: "/more-review-is-not-better-review"
+---
+
+Half the pull requests in our monolith at [Buser](https://www.buser.com.br/) were reaching main without a human reading them. I found that out the week I decided to tighten code review, and I learned more from what went wrong after.
+
+This is what I turned on, why I turned most of it off three days later, and how review works today, with models reading every PR and a human still signing it.
+
+## Main had no reader
+
+The monolith gets around 263 pull requests a month. Before September 29, 48% of them had a human approval. The rest went in on green CI and good faith.
+
+So on September 29 I turned on a gate. One human approval per PR, the review threads resolved, and approval from the team that owns the area, through `CODEOWNERS`.
+
+It worked. In three days, PRs with human approval went from 48% to 94%.
+
+It also cost. Median time to merge went from 3.3 hours to 20.7. The p75 went from 38 hours to 86.
+
+## The gate was a queue
+
+On October 1 an engineer asked in our tech channel why his PR wanted approval from "a bunch of people". The answer was the `CODEOWNERS` rule I had turned on two days earlier. I answered with three words. That was me.
+
+The thread got better from there. One engineer had received 48 PR emails in a single day. Another asked if every PR with a migration really needed the platform team. A third asked the question I should have asked first: what pain are we attacking by requiring this many approvals?
+
+The embarrassing part is that I had written the exit myself, in that same file. Talk to the teams before it hurts. Reevaluate if median merge goes above 24 hours in two weeks. I skipped the first line. The second one hit 20.7 hours in three days.
+
+So I measured instead of defending. 28 PRs fell under the new rule in those days. In 20 of them (71%) the author already belonged to every owning team. The point of the gate was a second opinion from outside. Mostly it was asking a teammate to sign.
+
+The emails had their own cause. Copilot was set to request a new review on every push, at the org level. One PR got 12 review requests for the same diff.
+
+On October 2 I rolled most of it back and wrote down what stayed:
+
+- One human approval per PR, from anyone. Bot approvals don't count.
+- Review threads resolved before merge.
+- Owning teams get tagged and notified, but their approval is no longer required.
+- No global owner. With 263 PRs a month, a `*` rule tags one team on everything and the notification turns into noise.
+
+We lost something with that, and I said so in the same post. Nothing stops someone from outside an area approving a change in accounting alone. The gate that's left is "someone read it", not "someone who knows the area read it". If a bug shows up that a domain reader would have caught, that's where I go back.
+
+## Give the machine what can be enumerated
+
+The platform team was reading every migration because migrations break databases. That's true. But the ways a migration breaks a database are few, and you can write them down.
+
+Five checks now run in CI on every PR, in a job that was already required:
+
+- renaming or renumbering a migration that already ran
+- `RunPython` without `reverse_code`
+- `AddField` with `NOT NULL` and no default
+- `RemoveField`, `DeleteModel` or a `DROP` in `RunSQL`
+- a forked migration graph
+
+The last one didn't exist. I wrote it that day, because it's the one that hurts most. Resolving a conflict in the migration counter by picking a side passes CI and only explodes at `migrate`.
+
+Migrations lost their second human reader with this. I accept that because migration risk is about shape, and shape is enumerable. Risk of intent, the right migration for the wrong business rule, stays with whoever owns the area. They approve it through the code that comes with it.
+
+That's the first layer. If a check can be a rule, it shouldn't be a person.
+
+## Comment on the diff. Read past it.
+
+Two weeks before the gate, in mid September, I had already fought Copilot once. It was commenting on whole files instead of the PR. Out of scope, generic, noisy.
+
+The cause was our Copilot instructions file. It had 1,041 lines. [GitHub's own docs](https://docs.github.com/en/copilot/tutorials/customize-code-review) say review quality degrades past about 1,000 and recommend 10 to 20 specific instructions. The rule "comment only on the diff" was already in there, buried in the middle. We wrote the 1,041 lines. By we I mean me.
+
+It went to 139 lines with that rule on top, and the rules per area moved to files that only load when the PR touches their path.
+
+Then I learned the opposite half. A reviewer that only reads the diff misses regressions. The changed line is fine. The bug is in the caller that didn't change, the test that doesn't exist, the other copy of the same rule two folders away. I wrote about this in [The pointer was right. The scope was wrong](https://avelino.run/the-pointer-was-right/). When a predicate changes, grep for every consumer of the same concept, not only the same symbol.
+
+So the Claude reviewer we run in CI has two rules that look like they fight and don't. It comments on the diff. It reads past it. Before it posts, it has to read the whole file and not only the hunk. It has to search for the test before saying a test is missing. It has to run a verification script before claiming a missing auth check or a duplicated service. What it can't verify from the checkout becomes a question, not a statement.
+
+**A finding without evidence doesn't exist.**
+
+## Half of what the bot said was rejected
+
+I measured Copilot over ten days, up to October 2. 613 comments.
+
+- 46.8% turned into code
+- 43.5% were threads someone read, closed and changed nothing
+- 9.7% were ignored
+
+53% of what it said was rejected. More review is not better review.
+
+Worse, the number CI used to judge the bot was inflated. CI measured 47% precision. A manual audit of the same bot gave 23%. The rule said a comment category gets switched off when its precision drops below 30%. With the inflated number, no category would ever fall. A gate that can't fire is decoration. I raised the threshold to 60%, and three categories were suspended on the spot.
+
+The Claude reviewer, which I turned on September 30, was worse in a different way. In its first 22 runs it never delivered a review. 16 failed, 4 were skipped, and the 2 GitHub marked as successful exited at the size check without reading anything. The first cause I found was a wrong model id. Fixing it changed nothing. Nobody noticed for two days because it only comments and isn't a required check. It failed in silence. I set it to keep running without painting every PR red, because a red check the author can't fix isn't a signal. It teaches the team to ignore red.
+
+## Models in layers, severity in code
+
+Once Claude ran for real, someone on our infra side who isn't a developer did the measurement I should have done. 15 merged PRs in the monolith where both bots commented.
+
+- Copilot made 21 comments. 18 accepted, 2 false positives.
+- Claude made 56. 47 accepted, 7 false positives.
+- 12 findings came from both.
+- Only Claude found 38 valid issues, 23 of them bugs.
+- Only Copilot found 7, and 4 of those were bugs.
+
+The false positive rate was close, around 12% for Claude against 10% for Copilot. Claude finds a lot more. Copilot is leaner. And the leaner one caught 4 bugs the other let through. Neither replaces the other.
+
+He wrote his own caveat, and it belongs here. 15 PRs is a small sample, and the classification of accepted, bug or false positive was done by Claude reading the threads and diffs. A model grading itself. Treat it as a direction, not a verdict.
+
+That's how review runs today. Layers, each one doing what it's good at:
+
+- CI blocks what can be enumerated.
+- Claude reads every PR once, after basic CI is green. Drafts, bots and huge PRs never call it.
+- Copilot reviews once per PR, not on every push.
+- At most 8 findings per PR, accumulated across runs, deduplicated. One PR had taken 91 comments in 22 runs before this. Never again.
+- Categories with precision under 60% get suspended, measured every week.
+- A human approves. A bot's approval never counts.
+
+The model doesn't decide severity either. It classifies the nature of a finding, out of 26 kinds (missing auth, N+1, a broken state transition). A table in code crosses nature with path and decides if it blocks. The same N+1 is a suggestion in the blog and a blocker in pricing. I don't want a model deciding what stops a merge. I want it finding things and a table I can read in a PR deciding what they're worth.
+
+Most false positives turned out to be business rules the model didn't know, like "air travel has no connections". So there's a file of learnings the reviewer reads before posting, and a finding that an entry contradicts doesn't go out. The agreement with the team is simple. If the reviewer was wrong because of a business rule, the fix comes with a new entry, in the same PR that resolves the thread. A false positive resolved without an entry is a lesson thrown away.
+
+## What the human is for
+
+I wrote in June that [reviewing is not understanding](https://avelino.run/reviewing-is-not-understanding/). Review is recognition. Writing is construction. You can approve a diff with full discipline and still not hold the theory of the code.
+
+That changed what I want from the human approval. The human isn't there to catch what a linter catches, or to race a model for N+1s. The human is there for intent. Does this change do what the business needs, and would I know how to fix it at 3am. That's the part none of the layers above can answer.
+
+And the code is still [yours, all of it](https://avelino.run/the-code-is-yours/). A model can find the bug. Whoever approved it owns it.
+
+## What's not solved
+
+Lead time. In the last week of October, the median from PR open to production was 21 hours (23 changes), against a 90 day baseline of 14. Review is in that number. So is everything else between a PR and a deploy, and I haven't separated them yet.
+
+And the Claude reviewer runs in CI without a database. It can't check a claim against the real schema. The path I see is teaching the verification script to answer schema questions from models and migrations. If someone has a concrete case where that would have changed a review, that's the next step.
+
+---
+
+Code review isn't measured by how many signatures a PR collects. It's measured by whether someone who understands the code read it before it went in. Everything else is ritual, and ritual charges in lead time.
+
+I wrote the last line of that rollback post to my team, and I mean it here too. I'd rather change the rule now than find out at the retro that everyone hated it and nobody said a thing.

@@ -1,0 +1,78 @@
+---
+date: "2026-11-10"
+draft: false
+title: "I retired the agent that lived on my laptop"
+tags: ["ai-agents", "automation", "open-source", "cto", "productivity"]
+description: "I retired a Mac daemon with twenty-one jobs and moved the work to Grok Bot. The upgrade was ownership, not more autonomy."
+url: "/retired-the-agent-on-my-laptop"
+---
+
+I retired the agent that lived on my laptop.
+
+The jobs did not disappear. They moved to Grok Bot, a desk of specialized bots I talk to in plain language. That is the story. Not a smarter cron. A clearer map of who owns what, and a hard rule that I still merge.
+
+## What lived on the Mac
+
+For months the schedule ran through a daemon I built for myself. I called it dotagent. A launchd agent on the Mac read a folder of manifests, each with a cron line and a fish script, and fired them with retries, heartbeats, and Telegram alerts when something gave up.
+
+Twenty-one jobs. Morning briefings. Inbox triage. A LinkedIn hot take every weekday at 07:00, scraped from Hacker News, Reddit, and Lobsters, then drafted into my daily notes for me to edit. Calendar prep an hour before a 1:1. Cost reports. Note sync into [Outl](https://outl.app). A Telegram assistant that could run any binary on the machine from a chat message. Publishing avelino.run was a manual script on the same harness: dry run first, write only when I said so.
+
+It looked tidy. One binary. One config tree in my dotfiles. One status command.
+
+The status said everything was fine. The audit log disagreed.
+
+One cost job had been failing since July and still reported ok. A long report kept timing out past its half-hour limit. Meeting prep had stopped writing anything useful months earlier because the people map was empty. Closing the lid froze writes that depended on the laptop. The daemon was honest about individual runs. It was dishonest about the system.
+
+I already burned a model plan once running morning tasks that belonged in shell scripts. I wrote about that in [Most "AI agents" don't need AI in the loop](https://avelino.run/most-ai-agents-dont-need-ai-in-the-loop/). Dotagent was me learning the same lesson the hard way, on my own hardware.
+
+## October 3, then October 5
+
+On October 3 I wrote it down. Stop feeding the process. Inventory the twenty-one jobs. Move the ones that need judgment off the Mac. Keep the deterministic ones as plain scripts, preferably somewhere that does not sleep when I close the notebook. Retire the pieces that were a risk surface, including the Telegram assistant with a full shell and a newsletter path that added contacts without opt-in.
+
+On October 5 I turned the first jobs off in my private dotfiles. The code stayed in the tree. The schedules left the Mac. LinkedIn hot take. Calendar prep. Meeting notes from Gemini. The training calendar sync. The weekly growth report that had been writing into [Outl](https://outl.app) from local coding sessions. Nothing romantic about the change. The daemon was a harness. It was not a team.
+
+[confirmar: whether any LLM agent still runs on the Mac today]
+
+## Retiring is judgment
+
+I built [dotagent](https://github.com/avelino/dotagent). It worked. Launchd on the Mac, retries, heartbeats, Telegram when a job gave up, twenty-one manifests in my private dotfiles. I used it every weekday for months. On November 9 I archived the public repo anyway.
+
+Keeping a project alive because you wrote it is ego. Archiving it because you stopped being its user is judgment. I only keep pushing code on things I still run for real. The day the jobs left the Mac, I stopped being a daily user of the daemon. Shipping more features into a harness I no longer open would have been vanity dressed as maintenance.
+
+Smarter tools showed up. Grok Bot covered the jobs that needed judgment. Plain scripts covered the rest. Pretending my daemon was still the best fit would have cost attention I do not have. Knowing when to retire a project is part of building one. The hard part is not finding the archive button. The hard part is pressing it on something that still works.
+
+## Ownership instead of one process
+
+What replaced it is ownership, running on Grok Bot.
+
+I talk to one router. It classifies the ask and hands it to the bot that owns the domain. I only confirm when something will send a message, spend money, delete, or wake several bots at once.
+
+Content for avelino.run has a writer. Drafts for the blog, LinkedIn, X, and the newsletter. Always in my voice. Never posted without me. Keyword research is not that bot's job. It asks an SEO desk for a brief and stops at the brief.
+
+FOSS and the code of the site have Eng/FOSS. Repos, pull requests, CI, releases, first review. The writer owns the prose. Eng/FOSS owns the repository. That split matters the week a newsletter state file and a Netlify Hugo version need a chore PR. The content lane opens it. Eng/FOSS reviews it. I squash-merge when I am ready. [avelino.run pull request 134](https://github.com/avelino/avelino.run/pull/134) is a recent example of that handoff on a public repo.
+
+A company Chief of Staff owns engineering and product ops for that company. Another bot owns a separate product end to end, including the boring submission work. Training has a coach for plans, recovery, and the calendar that should reflect what I actually ride or run. Disk cleanup has a small bot that proposes deletions and waits for approval. It is a Sunday safety net, not a free hand on the disk.
+
+Every bot has a short scope and a short list of things it refuses. The refusal is the feature. A catch-all that also writes blog posts and merges FOSS pull requests is how you get back to twenty-one jobs on one laptop.
+
+## Handoffs you can feel on a weekday
+
+The old LinkedIn hot take at 07:00 is gone as a Mac cron. The writer's radar at 07:50 absorbed it. It still reads the morning sources, drafts a short take in my voice, and waits. Eng/FOSS runs its own open source radar later in the morning on weekdays. Growth summaries land on Saturday. The editorial calendar shows up on Monday. I still approve every public artifact before it goes out.
+
+When a bot opens a pull request, Eng/FOSS does the first review. Fair comments get a fix, a thumbs-up, and a resolved thread. Comments that miss get a reply explaining why, and the thread stays open. Nobody merges but me. Branch names, signed commits, and the absence of tool authorship in the PR body are part of the same rule set. The interesting part is not that a bot can open a PR. The interesting part is that the merge button is still mine.
+
+I treat access the same way I treat ownership. An MCP gateway that cannot tell a read from a write is only a proxy with better marketing, which is why I keep pushing on that line in [An MCP gateway has to know a read from a write](https://avelino.run/mcp-gateway-read-write/) and in [I shipped a CLI and what I run is a proxy](https://avelino.run/mcp-cli-became-a-proxy/). A bot without a narrow tool surface is the same failure mode with a nicer chat UI.
+
+## Why this beats more autonomy
+
+Some people will read this as me collecting assistants. That is the wrong frame.
+
+The Mac daemon optimized for coverage. If a job could be scheduled, it got a folder and a cron line. Coverage without ownership is how you wake up to three months of silent failure and a status page that still smiles.
+
+Grok Bot optimized for refusal. Each bot knows what is not its problem. The writer does not merge. Eng/FOSS does not publish the newsletter. The coach does not open FOSS pull requests. The SEO desk does not write the post. I am the only shared resource on purpose, the same way I still lock myself in a box to write code some days even though my highest return as a CTO is people, which I already admitted in [Why I still lock myself in a box to write code as a CTO](https://avelino.run/cto-coding-box/).
+
+Named owner. Narrow scope. Human gate.
+
+That trio is slower than a daemon that posts while I sleep. It is also the only setup that survives a closed laptop lid, a bad VPN day, and my own habit of trusting a green status light.
+
+I retired the agent on the laptop. I kept the responsibility.
