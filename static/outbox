@@ -6,32 +6,67 @@
   "totalItems" : 222,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/956b689184ff10fa4eb80160f77d4380/create",
+    "id" : "/socialweb/notes/8e19f9b9768d3fa58a8447352c4bb935/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-11-10T00:00:00+00:00",
+    "published" : "2026-11-11T00:00:00+00:00",
     "object" : {
       "url" : "https://avelino.run/more-review-is-not-better-review",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "956b689184ff10fa4eb80160f77d4380",
-      "id" : "/socialweb/notes/956b689184ff10fa4eb80160f77d4380",
+      "hash" : "8e19f9b9768d3fa58a8447352c4bb935",
+      "id" : "/socialweb/notes/8e19f9b9768d3fa58a8447352c4bb935",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-11-10T00:00:00+00:00",
+      "published" : "2026-11-11T00:00:00+00:00",
       "content" : "<p>More review is not better review</p><p><a href='https://avelino.run/more-review-is-not-better-review'>https://avelino.run/more-review-is-not-better-review</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/956b689184ff10fa4eb80160f77d4380",
+        "id" : "/socialweb/replies/8e19f9b9768d3fa58a8447352c4bb935",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/956b689184ff10fa4eb80160f77d4380?page=true",
-          "partOf" : "/socialweb/replies/956b689184ff10fa4eb80160f77d4380",
+          "next" : "/socialweb/replies/8e19f9b9768d3fa58a8447352c4bb935?page=true",
+          "partOf" : "/socialweb/replies/8e19f9b9768d3fa58a8447352c4bb935",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/8e87907100bdaba427267f9798a07969/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-11-11T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "8e87907100bdaba427267f9798a07969",
+      "id" : "/socialweb/notes/8e87907100bdaba427267f9798a07969",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-11-11T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/8e87907100bdaba427267f9798a07969",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/8e87907100bdaba427267f9798a07969?page=true",
+          "partOf" : "/socialweb/replies/8e87907100bdaba427267f9798a07969",
           "items" : [ ]
         }
       },
@@ -67,41 +102,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/7c6b9935e8ccf082e1cc6ff95baa72ac?page=true",
           "partOf" : "/socialweb/replies/7c6b9935e8ccf082e1cc6ff95baa72ac",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/4c103c92f9603e879c19cc12bfa7ebfc/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-11-10T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "4c103c92f9603e879c19cc12bfa7ebfc",
-      "id" : "/socialweb/notes/4c103c92f9603e879c19cc12bfa7ebfc",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-11-10T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/4c103c92f9603e879c19cc12bfa7ebfc",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/4c103c92f9603e879c19cc12bfa7ebfc?page=true",
-          "partOf" : "/socialweb/replies/4c103c92f9603e879c19cc12bfa7ebfc",
           "items" : [ ]
         }
       },
