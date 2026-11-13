@@ -11,6 +11,10 @@ on:
         description: "Only log what would be sent"
         type: boolean
         default: true
+      max_age_days:
+        description: "Only email posts dated within this many days (default 7)"
+        type: number
+        default: 7
 
 permissions:
   contents: write
@@ -47,6 +51,7 @@ jobs:
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
           SITE_NAME: avelino.run
           NEWSLETTER_DRY_RUN: ${{ inputs.dry_run == true }}
+          MAX_AGE_DAYS: ${{ inputs.max_age_days }}
       - name: Commit newsletter state
         # Also after a failed send, so posts already sent stay recorded.
         if: ${{ !cancelled() && inputs.dry_run != true }}

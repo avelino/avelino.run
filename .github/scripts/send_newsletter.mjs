@@ -6,7 +6,13 @@ import { toFileId, broadcastName, findSegmentByName, pickPosts } from './newslet
 
 // ---- Config ----------------------------------------------------------------------
 const SEGMENT_NAME = 'news.avelino.run'; // only contacts in this Resend Segment get the email
-const MAX_AGE_DAYS = 7; // never email posts older than this (protects against sending an old backlog)
+const DEFAULT_MAX_AGE_DAYS = 7; // never email posts older than this (protects against sending an old backlog)
+function maxAgeDaysFromEnv(value) {
+  const n = Number(value);
+  if (!Number.isInteger(n) || n <= 0) return DEFAULT_MAX_AGE_DAYS;
+  return n;
+}
+const MAX_AGE_DAYS = maxAgeDaysFromEnv(process.env.MAX_AGE_DAYS);
 const MAX_PER_RUN = 1; // at most this many emails per run; the rest go in later runs
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
