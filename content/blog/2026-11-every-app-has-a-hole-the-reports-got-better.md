@@ -52,16 +52,16 @@ I do not read a well-written report as a sign that a team was careless. I read i
 If you are a researcher, I want the human sentence first. Then the full writeup.
 
 - Three lines on what is broken, why it matters, and what it does not do.
-\- A command I can run, and the result I should see.
-\- Screenshots tied to the steps, and a fix I can consider.
-\- The details in the email. Not on a call, and not held for a meeting.
+- A command I can run, and the result I should see.
+- Screenshots tied to the steps, and a fix I can consider.
+- The details in the email. Not on a call, and not held for a meeting.
 
 A severity score helps less than an honest scope line.
 
 If you run a team, the volume is not going back down.
 
 - Publish a disclosure address, and actually read it.
-\- Decide who triages, and reward what you can reproduce.
-\- Keep the thank-you short and the fix shorter.
+- Decide who triages, and reward what you can reproduce.
+- Keep the thank-you short and the fix shorter.
 
 The holes were always there. The new part is that the report is good enough that you have to look.
