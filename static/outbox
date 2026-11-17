@@ -3,35 +3,105 @@
   "id" : "/socialweb/outbox",
   "type" : "OrderedCollection",
   "summary" : "Recent content on Thiago Avelino",
-  "totalItems" : 222,
+  "totalItems" : 223,
   "orderedItems" : [ {
     "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/956b689184ff10fa4eb80160f77d4380/create",
+    "id" : "/socialweb/notes/d537558cd4c368e4c440e81f5409842f/create",
     "type" : "Create",
     "actor" : "https://avelino.run/users/hey",
     "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
     "cc" : [ ],
-    "published" : "2026-11-10T00:00:00+00:00",
+    "published" : "2026-11-17T00:00:00+00:00",
     "object" : {
-      "url" : "https://avelino.run/more-review-is-not-better-review",
+      "url" : "https://avelino.run/",
       "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "956b689184ff10fa4eb80160f77d4380",
-      "id" : "/socialweb/notes/956b689184ff10fa4eb80160f77d4380",
+      "hash" : "d537558cd4c368e4c440e81f5409842f",
+      "id" : "/socialweb/notes/d537558cd4c368e4c440e81f5409842f",
       "tag" : [ {
         "type" : "Mention",
         "href" : "https://avelino.run/users/hey",
         "name" : "@hey@avelino.run"
       } ],
-      "published" : "2026-11-10T00:00:00+00:00",
-      "content" : "<p>More review is not better review</p><p><a href='https://avelino.run/more-review-is-not-better-review'>https://avelino.run/more-review-is-not-better-review</a></p>",
+      "published" : "2026-11-17T00:00:00+00:00",
+      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
       "type" : "Note",
       "replies" : {
-        "id" : "/socialweb/replies/956b689184ff10fa4eb80160f77d4380",
+        "id" : "/socialweb/replies/d537558cd4c368e4c440e81f5409842f",
         "type" : "Collection",
         "first" : {
           "type" : "CollectionPage",
-          "next" : "/socialweb/replies/956b689184ff10fa4eb80160f77d4380?page=true",
-          "partOf" : "/socialweb/replies/956b689184ff10fa4eb80160f77d4380",
+          "next" : "/socialweb/replies/d537558cd4c368e4c440e81f5409842f?page=true",
+          "partOf" : "/socialweb/replies/d537558cd4c368e4c440e81f5409842f",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/d6babaf05fde97afabb25152409477b0/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-11-17T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/every-app-has-a-hole-the-reports-got-better",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "d6babaf05fde97afabb25152409477b0",
+      "id" : "/socialweb/notes/d6babaf05fde97afabb25152409477b0",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-11-17T00:00:00+00:00",
+      "content" : "<p>Every app has a hole. The reports got better.</p><p><a href='https://avelino.run/every-app-has-a-hole-the-reports-got-better'>https://avelino.run/every-app-has-a-hole-the-reports-got-better</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/d6babaf05fde97afabb25152409477b0",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/d6babaf05fde97afabb25152409477b0?page=true",
+          "partOf" : "/socialweb/replies/d6babaf05fde97afabb25152409477b0",
+          "items" : [ ]
+        }
+      },
+      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+      "cc" : [ ],
+      "attributedTo" : "https://avelino.run/users/hey"
+    }
+  }, {
+    "@context" : "https://www.w3.org/ns/activitystreams",
+    "id" : "/socialweb/notes/af8e127a1c65fbb53c22b2212107ae8d/create",
+    "type" : "Create",
+    "actor" : "https://avelino.run/users/hey",
+    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
+    "cc" : [ ],
+    "published" : "2026-11-12T00:00:00+00:00",
+    "object" : {
+      "url" : "https://avelino.run/more-review-is-not-better-review",
+      "@context" : "https://www.w3.org/ns/activitystreams",
+      "hash" : "af8e127a1c65fbb53c22b2212107ae8d",
+      "id" : "/socialweb/notes/af8e127a1c65fbb53c22b2212107ae8d",
+      "tag" : [ {
+        "type" : "Mention",
+        "href" : "https://avelino.run/users/hey",
+        "name" : "@hey@avelino.run"
+      } ],
+      "published" : "2026-11-12T00:00:00+00:00",
+      "content" : "<p>More review is not better review</p><p><a href='https://avelino.run/more-review-is-not-better-review'>https://avelino.run/more-review-is-not-better-review</a></p>",
+      "type" : "Note",
+      "replies" : {
+        "id" : "/socialweb/replies/af8e127a1c65fbb53c22b2212107ae8d",
+        "type" : "Collection",
+        "first" : {
+          "type" : "CollectionPage",
+          "next" : "/socialweb/replies/af8e127a1c65fbb53c22b2212107ae8d?page=true",
+          "partOf" : "/socialweb/replies/af8e127a1c65fbb53c22b2212107ae8d",
           "items" : [ ]
         }
       },
@@ -67,41 +137,6 @@
           "type" : "CollectionPage",
           "next" : "/socialweb/replies/7c6b9935e8ccf082e1cc6ff95baa72ac?page=true",
           "partOf" : "/socialweb/replies/7c6b9935e8ccf082e1cc6ff95baa72ac",
-          "items" : [ ]
-        }
-      },
-      "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-      "cc" : [ ],
-      "attributedTo" : "https://avelino.run/users/hey"
-    }
-  }, {
-    "@context" : "https://www.w3.org/ns/activitystreams",
-    "id" : "/socialweb/notes/4c103c92f9603e879c19cc12bfa7ebfc/create",
-    "type" : "Create",
-    "actor" : "https://avelino.run/users/hey",
-    "to" : [ "https://www.w3.org/ns/activitystreams#Public" ],
-    "cc" : [ ],
-    "published" : "2026-11-10T00:00:00+00:00",
-    "object" : {
-      "url" : "https://avelino.run/",
-      "@context" : "https://www.w3.org/ns/activitystreams",
-      "hash" : "4c103c92f9603e879c19cc12bfa7ebfc",
-      "id" : "/socialweb/notes/4c103c92f9603e879c19cc12bfa7ebfc",
-      "tag" : [ {
-        "type" : "Mention",
-        "href" : "https://avelino.run/users/hey",
-        "name" : "@hey@avelino.run"
-      } ],
-      "published" : "2026-11-10T00:00:00+00:00",
-      "content" : "<p>Depois de trabalhar anos de casa, voltei para dentro do escritório</p><p><a href='https://avelino.run/'>https://avelino.run/</a></p>",
-      "type" : "Note",
-      "replies" : {
-        "id" : "/socialweb/replies/4c103c92f9603e879c19cc12bfa7ebfc",
-        "type" : "Collection",
-        "first" : {
-          "type" : "CollectionPage",
-          "next" : "/socialweb/replies/4c103c92f9603e879c19cc12bfa7ebfc?page=true",
-          "partOf" : "/socialweb/replies/4c103c92f9603e879c19cc12bfa7ebfc",
           "items" : [ ]
         }
       },
