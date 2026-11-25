@@ -16,10 +16,10 @@ jobs:
       name: github-pages
     steps:
       - name: Checkout repository
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Babashka
-        uses: turtlequeue/setup-babashka@2d4df498c7a578b4f3e906283f9af913590bdec7 # v1.7.0
+        uses: turtlequeue/setup-babashka@f92f31bdc8780116adcc24157f8c992c136d1a48 # v1.8.1
         with:
           babashka-version: 1.12.208
 
